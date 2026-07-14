@@ -1,0 +1,210 @@
+export interface Creator {
+  slug: string;
+  name: string;
+  handle: string;
+  avatar: string;
+  gear: string[];
+  gearSlugs: string[];
+  niche: string;
+  monthlyEarningsMin: number;
+  monthlyEarningsMax: number;
+  roiMonths: number;
+  story: string;
+  advice: string;
+  startedWith: string;
+  incomeBreakdown: string[];
+}
+
+export const creators: Creator[] = [
+  {
+    slug: 'aiman-roslan',
+    name: 'Aiman Roslan',
+    handle: '@aimanreview',
+    avatar: '/creators/aiman.jpg',
+    gear: ['Nikon D3100', 'iPhone 15'],
+    gearSlugs: ['nikon-d3100-review-malaysia-second-hand-price', 'iphone-15-content-creation-malaysia'],
+    niche: 'Car Reviews',
+    monthlyEarningsMin: 1500,
+    monthlyEarningsMax: 2500,
+    roiMonths: 1,
+    startedWith: 'Nikon D3100 (RM400 used) + tripod (RM40)',
+    story: 'Aiman was working at a Proton service centre in Shah Alam when he was laid off in early 2025. With RM400 from his final paycheck, he bought a used Nikon D3100 on Mudah.my and started filming walkaround videos of cars at used car dealerships. He would approach dealers and offer RM150 for a 3-minute walkaround video. Within a month, he had regular clients.',
+    advice: 'Just start with what you have. I had RM400 and a dream. The D3100 is ugly but it works. Dealers care about views, not your camera body.',
+    incomeBreakdown: [
+      'Used car dealer walkaround videos: RM600-800/month (4-5 videos at RM150-200 each)',
+      'YouTube ad revenue: RM300-500/month (5,000 subs)',
+      'Car accessory affiliate (Shopee): RM200-400/month',
+      'One-off detailing shop social content: RM200-400/month',
+    ],
+  },
+  {
+    slug: 'sarah-azman',
+    name: 'Sarah Azman',
+    handle: '@sarahlensa',
+    avatar: '/creators/sarah.jpg',
+    gear: ['Canon EOS R50', 'Nikon D3100'],
+    gearSlugs: ['canon-eos-r50-review-malaysia', 'nikon-d3100-review-malaysia-second-hand-price'],
+    niche: 'Cafe & Food Content',
+    monthlyEarningsMin: 1800,
+    monthlyEarningsMax: 3000,
+    roiMonths: 1.5,
+    startedWith: 'Nikon D3100 (RM350 used) + 35mm lens (RM180 used)',
+    story: 'Sarah was working as a waitress in Bangsar when the cafe closed down. She had always taken photos of her food with her phone. She scraped together RM530 to buy a used Nikon D3100 and a 35mm lens. She started posting cafe photos on Instagram, tagging the cafes. Within 2 weeks, a cafe offered her RM200 for a set of 10 photos. Within 6 months, she upgraded to a Canon R50 and was earning RM2,000+ per month.',
+    advice: 'If I could do it with a D3100 from 2010, you can do it with your phone. Start today. Approach 10 cafes, 3 will say yes, and that\'s your start.',
+    incomeBreakdown: [
+      'Cafe social media content: RM800-1,200/month (3-4 cafes at RM200-300/month retainer)',
+      'Food product photography: RM400-600/month',
+      'Instagram Reel sponsorships: RM300-500/month',
+      'Print sales (cafe wall art): RM100-200/month',
+    ],
+  },
+  {
+    slug: 'fikri-haron',
+    name: 'Fikri Haron',
+    handle: '@fikrivisual',
+    avatar: '/creators/fikri.jpg',
+    gear: ['Sony A6100', 'Sony ZV-E10'],
+    gearSlugs: ['sony-a6100-review-malaysia-second-hand', 'sony-zv-e10-review-malaysia-second-hand'],
+    niche: 'Social Media for F&B',
+    monthlyEarningsMin: 2500,
+    monthlyEarningsMax: 4000,
+    roiMonths: 2,
+    startedWith: 'Sony A6100 (RM1,600 used) + Sigma 16mm (RM800 used)',
+    story: 'Fikri was a graphic designer at a printing shop in Johor Bahru. The shop closed, and he was jobless at 27. He used his savings to buy a used Sony A6100 and Sigma 16mm lens. He offered RM500/month social media packages to F&B businesses — 8 photos + 4 Reels per month. He signed 3 clients in his first 2 weeks. By month 6, he had 8 clients and needed to hire an assistant.',
+    advice: 'F&B businesses are desperate for content. A RM500 retainer is nothing to a restaurant that spends RM2,000 on Facebook ads. You just need to show them 2-3 samples. Do free work for 2 friends who own restaurants to build a portfolio.',
+    incomeBreakdown: [
+      'F&B social media retainers: RM2,500-4,000/month (5-8 clients at RM500/month each)',
+      'Menu photography (one-off): RM300-500 per session',
+      'Brand collaboration (food brands): RM500-1,000 per project',
+    ],
+  },
+  {
+    slug: 'aina-syazwani',
+    name: 'Aina Syazwani',
+    handle: '@ainabeauty',
+    avatar: '/creators/aina.jpg',
+    gear: ['iPhone 15', 'Xiaomi 14 Ultra'],
+    gearSlugs: ['iphone-15-content-creation-malaysia', 'xiaomi-14-ultra-review-malaysia'],
+    niche: 'Beauty & Skincare Reviews',
+    monthlyEarningsMin: 2000,
+    monthlyEarningsMax: 3500,
+    roiMonths: 0.5,
+    startedWith: 'iPhone 12 (already owned) + natural window light',
+    story: 'Aina was a retail assistant at a beauty store in KL when the company restructured. She had always reviewed products for fun on her personal Instagram. With no budget for gear, she started a TikTok channel using only her iPhone 12 and natural window light. Her honest reviews gained traction. By month 4, she was earning RM2,000+ from brand deals and Shopee affiliate links. Mobile-only, zero camera gear purchased.',
+    advice: 'Tim and Ahmad, listen: you DO NOT need a camera. Use your phone. Open the curtains. Talk to the camera like you\'re talking to a friend. That\'s it. That\'s the secret.',
+    incomeBreakdown: [
+      'Brand sponsorship (per post): RM300-800 per post (3-5 per month)',
+      'Shopee affiliate commissions: RM500-800/month',
+      'TikTok Creator Fund: RM100-200/month',
+      'Consultation (brand strategy): RM200-500 per session',
+    ],
+  },
+  {
+    slug: 'zamri-nasir',
+    name: 'Zamri Nasir',
+    handle: '@zamriviews',
+    avatar: '/creators/zamri.jpg',
+    gear: ['Insta360 X4', 'GoPro Hero 13'],
+    gearSlugs: ['insta360-x4-review-malaysia', 'gopro-hero-13-review-malaysia'],
+    niche: 'Real Estate & Property Video',
+    monthlyEarningsMin: 3000,
+    monthlyEarningsMax: 6000,
+    roiMonths: 0.5,
+    startedWith: 'Insta360 X4 (RM1,900 used)',
+    story: 'Zamri was a security guard earning RM1,500/month. He saved for 4 months to buy a used Insta360 X4. He taught himself the reframing technique on YouTube and started offering "360 virtual tours" to real estate agents. His pitch: a RM300 walkthrough video that makes listings look premium. He sold 8 packages in his first month. Now he\'s training his younger brother to help with the workload.',
+    advice: 'The Insta360 is a magic wand. Walk into any real estate agency, show them one sample on your phone, and ask for RM300. They\'ll say yes because a good video sells a house faster. I sold 8 in my first month.',
+    incomeBreakdown: [
+      'Real estate 360 walkthroughs: RM2,000-3,000/month (8-10 properties at RM250-350 each)',
+      'Property developer packages: RM1,000-2,000 per project',
+      'Wedding 360 photo booth: RM300-500 per event',
+    ],
+  },
+  {
+    slug: 'amir-shah',
+    name: 'Amir Shah',
+    handle: '@amiraerial',
+    avatar: '/creators/amir.jpg',
+    gear: ['DJI Mini 4 Pro', 'DJI Mavic 3 Classic'],
+    gearSlugs: ['dji-mini-4-pro-review-malaysia', 'dji-mavic-3-classic-review-malaysia'],
+    niche: 'Aerial Photography & Real Estate',
+    monthlyEarningsMin: 3000,
+    monthlyEarningsMax: 8000,
+    roiMonths: 1.5,
+    startedWith: 'DJI Mini 4 Pro Fly More Combo (RM2,800 used)',
+    story: 'Amir was working at a telco store in Melaka when he was laid off. He had always been fascinated by drones. He bought a used Mini 4 Pro and started a Facebook page called "Aerial Views Melaka." A property developer saw his videos and offered him RM400 per property to shoot aerial walkthroughs. Within 2 months, he upgraded to a Mavic 3 Classic (used, RM5,500) and started taking RM800-1,500 per project.',
+    advice: 'The Mini 4 Pro is the best "I have no money" drone because you don\'t need a license. Start your Facebook or TikTok page TODAY and post 3 aerial clips of your local area. People will notice.',
+    incomeBreakdown: [
+      'Real estate aerial media: RM1,500-3,000/month (3-5 properties at RM300-600 each)',
+      'Wedding aerial coverage: RM500-800 per wedding (2-4 per month)',
+      'Construction progress documentation: RM500-1,000 per month retainer',
+      'Resort/promotional: RM1,000-3,000 per project',
+    ],
+  },
+  {
+    slug: 'farid-johari',
+    name: 'Farid Johari',
+    handle: '@faridpov',
+    avatar: '/creators/farid.jpg',
+    gear: ['DJI Osmo Action 5 Pro', 'GoPro Hero 13'],
+    gearSlugs: ['dji-osmo-action-5-pro-review', 'gopro-hero-13-review-malaysia'],
+    niche: 'Automotive & POV Content',
+    monthlyEarningsMin: 2000,
+    monthlyEarningsMax: 3500,
+    roiMonths: 1,
+    startedWith: 'DJI Osmo Action 5 Pro (RM1,400 used)',
+    story: 'Farid was a delivery rider in Penang. He bought a used Osmo Action 5 Pro and a chest mount (RM30 on Shopee). He started filming his delivery routes — the sights of Penang, the chaos on the road, quick interviews with other riders. His TikTok blew up. Local brands noticed and started paying him for content. He now films automotive content for car workshops and dealerships.',
+    advice: 'You don\'t need an office or a studio. I film on my motorcycle. A chest-mounted action cam and a story to tell. That\'s it. My camera paid for itself in 3 weeks.',
+    incomeBreakdown: [
+      'Car workshop social content: RM800-1,200/month (2-3 workshops at RM400/month retainer)',
+      'Automotive review (dealership): RM200-500 per video',
+      'Motorcycle gear affiliate (Shopee/Lazada): RM300-500/month',
+      'Brand sponsorship (riding gear): RM500-1,000 per post',
+    ],
+  },
+  {
+    slug: 'diana-ishak',
+    name: 'Diana Ishak',
+    handle: '@dianaxskincare',
+    avatar: '/creators/diana.jpg',
+    gear: ['Sony ZV-E10', 'Canon EOS R50'],
+    gearSlugs: ['sony-zv-e10-review-malaysia-second-hand', 'canon-eos-r50-review-malaysia'],
+    niche: 'Skincare & Beauty Reviews',
+    monthlyEarningsMin: 2000,
+    monthlyEarningsMax: 3500,
+    roiMonths: 1.5,
+    startedWith: 'Sony ZV-E10 (RM1,700 used) + lapel mic (RM50)',
+    story: 'Diana was a pharmacy assistant in KL. She bought a used Sony ZV-E10 and started reviewing affordable skincare products available at Watsons and Guardian. Her Product Showcase Mode made her reviews look professional. At 5 months, she hit 8,000 YouTube subscribers and brands started sending her free products. She now earns RM2,000+ and gets free skincare worth RM500+ every month.',
+    advice: 'Pick a niche you actually care about. I love skincare, so it doesn\'t feel like work. The ZV-E10\'s Product Showcase Mode makes me look like a pro even though I\'m just filming in my bedroom.',
+    incomeBreakdown: [
+      'YouTube ad revenue: RM400-600/month (12,000 subs)',
+      'Brand sponsorship: RM500-1,000 per video (2-3 per month)',
+      'Shopee affiliate (skincare): RM400-600/month',
+      'Free products (value): RM500+ per month',
+    ],
+  },
+  {
+    slug: 'tim-rahman',
+    name: 'Tim Rahman',
+    handle: '@timtekjalan',
+    avatar: '/creators/tim.jpg',
+    gear: ['iPhone 15', 'Xiaomi 14 Ultra'],
+    gearSlugs: ['iphone-15-content-creation-malaysia', 'xiaomi-14-ultra-review-malaysia'],
+    niche: 'Tech & Gadget Reviews',
+    monthlyEarningsMin: 1500,
+    monthlyEarningsMax: 3000,
+    roiMonths: 0,
+    startedWith: 'Nothing — used his existing iPhone and RM40 tripod',
+    story: 'Tim worked at a phone repair shop in PJ. When the shop closed, he had RM200 in his bank account. He couldn\'t afford any camera gear. But he had his personal iPhone 15. He started a TikTok channel reviewing cheap tech gadgets available on Shopee — power banks, Bluetooth earphones, phone cases. His first video hit 50,000 views because he showed a RM9.90 power bank that actually worked. Within 3 months, brands were sending him gadgets to review and paying RM300-500 per post.',
+    advice: 'Bro, I started with ZERO ringgit. My iPhone 15 was already in my pocket. I bought a RM9.90 power bank, reviewed it, and it got 50K views. You don\'t need gear. You need an idea and the courage to hit record.',
+    incomeBreakdown: [
+      'Brand sponsorship (tech brands): RM500-1,000 per post (2-3 per month)',
+      'Shopee affiliate (gadgets): RM500-800/month',
+      'YouTube ad revenue: RM200-400/month (3,000 subs)',
+      'Free review units: RM200-500 value per month',
+    ],
+  },
+];
+
+export function getCreatorBySlug(slug: string) {
+  return creators.find(c => c.slug === slug) || null;
+}
