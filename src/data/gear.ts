@@ -16,6 +16,7 @@ export interface GearItem {
   content: string;
   pros: string[];
   cons: string[];
+  roiDesc: string;
   usedTip: string;
   creatorUses: string[];
 }
@@ -59,6 +60,7 @@ For Tim and Ahmad, this is the "I have literally no money" option. And here's th
 - Thumbnail images for YouTube
 
 Real creator example: **Aiman Roslan** started his car review channel with a D3100 and a RM40 tripod. Within 6 months, he was earning RM1,500-2,000 per month from ads and sponsorship. His total starter cost was under RM600.`,
+    roiDesc: 'Under RM500 second-hand. Aiman broke even in 2 weeks. Best "I have no money" starter camera in Malaysia.',
     pros: ['Cheapest usable camera in MY market', 'Good image quality for the price', 'Huge used lens ecosystem', 'Takes great photos for thumbnails'],
     cons: ['No flip screen', '1080p only (no 4K)', 'Poor low-light without fast lens', 'No microphone jack'],
     usedTip: 'Check shutter count under 50k, test for mould on lens, offer RM350 cash',
@@ -105,6 +107,7 @@ On Mudah.my and Carousell Malaysia, you'll find the A6100 with kit 16-50mm lens 
 - YouTube thumbnail photography: RM50-100 per session
 
 Creator case study: **Fikri Haron** started with an A6100 and a single Sigma 16mm lens. He approached 15 local F&B businesses offering social media content. 3 said yes at RM500/month each. Within 2 months, his gear was paid off and he was making RM1,500/month net.`,
+    roiDesc: 'Used RM1,400-1,800. Fikri paid his off in 2 months with 3 F&B clients at RM500/month each. Best value mirrorless for Malaysian creators.',
     pros: ['Best autofocus in its price class', '4K video with no crop', 'Flip-up screen for vlogging', 'Microphone jack', 'Compact and lightweight'],
     cons: ['No in-body stabilization', 'Plastic build', 'No headphone jack', 'Overheats in 4K after 30min'],
     usedTip: 'Test 4K recording for 20min to check overheating, bring a lens to test AF, check sensor dust',
@@ -156,6 +159,7 @@ Month 1: Shoot with iPhone only, post 3x/week on TikTok and IG Reels
 Month 2: At RM500 saved, buy a lapel mic and tripod
 Month 3: At RM1,000 saved, consider used A6100 if you want to level up
 Month 6: You now have a decision — stay mobile or invest in dedicated gear`,
+    roiDesc: 'Zero upfront cost if you already own one. Aina earned RM2,000/month with just her phone. Start today.',
     pros: ['Already in your pocket = zero upfront cost', 'Excellent video quality for social', 'Huge app ecosystem', 'iCloud backup', 'Familiar interface'],
     cons: ['Small sensor limits low-light', 'No optical zoom (digital only)', 'Battery drains fast in 4K', 'Overheats in direct sun'],
     usedTip: 'Check battery health (>85%), confirm iCloud is unlocked, test all cameras',
@@ -194,6 +198,7 @@ Month 6: You now have a decision — stay mobile or invest in dedicated gear`,
 - Group event coverage (wedding, parties, corporate events)
 
 Creator case study: **Zamri Nasir** bought a used X4 for RM1,900 and started offering "360 real estate video tours" to property agents on Facebook. His pitch: "RM300 for a walkthrough video that makes your listing look premium." He sold 8 packages in his first month. Revenue: RM2,400. Gear paid off + RM500 profit.`,
+    roiDesc: 'Used RM1,800-2,200. Zamri earned back his investment in under a month. 8 real estate gigs at RM300 each = RM2,400. Profit from day one.',
     pros: ['Unique 360 content no other camera can do', 'Invisible selfie stick effect', 'Reframe after shooting (saves time)', 'Waterproof', 'Great for social media vertical video'],
     cons: ['Stitching required in app', 'Lower quality than traditional action cam', 'Battery heats up quickly', 'Learning curve for editing'],
     usedTip: 'Check lens for scratches (cannot be replaced), test stitching in app, demand original box',
@@ -232,6 +237,7 @@ Creator case study: **Zamri Nasir** bought a used X4 for RM1,900 and started off
 - RM500-1,000/month: Regular content for a gym or sports coach
 
 **The budget mindset:** A used Osmo Action 5 Pro at RM1,400 can be paid off with just 4-5 small gigs. If you do one gig per weekend, that's one month to breakeven.`,
+    roiDesc: 'Used RM1,200-1,600. Pays off in 4-5 gigs. Front screen makes vlogging easy. Great entry action cam for Malaysian creators.',
     pros: ['Front + back screens for vlogging', 'Best-in-class stabilization', 'Great battery life', 'Waterproof 20m', 'DJI Mimo app is excellent'],
     cons: ['Smaller sensor than phone', 'Color science not as natural as GoPro', 'Limited in very low light', 'Accessories ecosystem smaller than GoPro'],
     usedTip: 'Check for sticky buttons, test front screen for scratches, ensure USB-C charges properly',
@@ -266,6 +272,7 @@ Creator case study: **Zamri Nasir** bought a used X4 for RM1,900 and started off
 **Real creator story — Amir Shah:** Amir bought a Mini 4 Pro Fly More Combo used for RM2,800. He created a simple Facebook page called "Aerial Views Malaysia" and posted 3 sample videos of his local area. Within 2 weeks, a property developer contacted him to shoot 5 landed properties at RM400 each. He earned RM2,000 in his first month. His parents stopped asking when he'd get a "real job."
 
 **The "no license" advantage:** Unlike the Mavic 3 series which requires CAAM registration and a drone license (costing RM500-1,000 and 2-3 months processing), the Mini 4 Pro can be flown same-day after purchase. This is huge for Tim and Ahmad if they're strapped for cash and time.`,
+    roiDesc: 'Used RM2,500-3,200. No license needed under 250g. Real estate gigs pay RM300-600 each. Amir paid his off in 6 properties.',
     pros: ['No license required under 250g', 'Omni-directional obstacle sensing', '4K 100fps slow motion', 'Excellent image quality for the size', 'Portable and quiet'],
     cons: ['Wind limits (cannot fly in strong wind)', 'Smaller sensor than Mavic series', 'Battery life ~34min', 'Cannot fly in rain'],
     usedTip: 'Check gimbal for scratches, test all obstacle sensors, demand Fly More Combo for extra batteries',
@@ -306,6 +313,7 @@ Creator case study: **Zamri Nasir** bought a used X4 for RM1,900 and started off
 - Your Mini 4 Pro is fully utilized and you have RM5,000 saved
 
 **The ROI reality:** A used Mavic 3 Classic at RM5,000 requires a bigger commitment. At RM1,000 per gig average, you need 5 gigs to break even. If you're already established with a Mini 4 Pro client base, this takes 1-2 months.`,
+    roiDesc: 'Used RM4,500-5,500. Pro-level aerial. Requires CAAM license. Big investment but RM1,000+ per gig. Amir upgraded after 2 months of Mini 4 Pro work.',
     pros: ['4/3 sensor = cinema quality', '5.1K 10-bit video', '46min battery life', 'Excellent wind resistance', 'Professional image quality'],
     cons: ['Requires CAAM drone license', 'Heavy (895g)', 'Expensive', 'Larger = more intimidating in public', 'ND filters required for video'],
     usedTip: 'CAAM license required for >250g — factor in RM500-800 cost. Check for gimbal issues common on used units.',
@@ -353,6 +361,7 @@ RF-S lenses are still limited compared to Sony's E-mount. Your options:
 - Event photography: RM200-500 per event
 
 Creator story: **Sarah Azman** bought a used Canon R50 with kit lens for RM1,900. She started a TikTok account reviewing local cafes in KL. Within 3 months, she had 15,000 followers and cafes were paying her RM200-400 for a video. She upgraded to a used RF 50mm f/1.8 for RM350 and started offering "aesthetic cafe content" packages.`,
+    roiDesc: 'Used RM1,800-2,200. Sarah paid hers off in 6 cafe shoots. Canon colours = less editing time. Great for lifestyle and food creators.',
     pros: ['Beautiful Canon color science', 'Flip-out screen for vlogging', 'Excellent Dual Pixel AF', 'Lightweight and compact', 'Great for beginners'],
     cons: ['Limited RF-S lens selection', 'Kit lens is slow (f/6.3)', 'No IBIS', '4K has slight crop', 'RF lenses more expensive than EF'],
     usedTip: 'Check for kit lens wobble common on 18-45mm, test eye AF in video mode, bring an SD card',
@@ -397,6 +406,7 @@ Ultra-wide, 3.2x and 5x optical zoom — versatile creative options
 - Backup/second camera for events: RM150-300 per event
 
 **For Tim and Ahmad who need versatility:** If you can only afford ONE device, the Xiaomi 14 Ultra is the best Swiss Army knife. Camera, phone, editing device, upload device — all in one. The Leica partnership means your photos have a distinctive look that stands out on social media.`,
+    roiDesc: 'Used RM3,000-3,500. One device does everything. 1-inch Leica sensor rivals dedicated cameras. Great single-device solution.',
     pros: ['1-inch sensor best-in-class for phone', 'Leica optics and color science', '5x optical zoom', 'Excellent low-light', 'Charges and edits in one device'],
     cons: ['MIUI software still has bloatware', 'No eSIM on some Malaysia units', 'Heavy compared to other phones', 'Video stabilization not as good as iPhone', 'Resale value drops fast'],
     usedTip: 'Check for MIUI account lock, inspect Leica lens glass for scratches, test all 4 cameras',
@@ -444,6 +454,7 @@ Ultra-wide, 3.2x and 5x optical zoom — versatile creative options
 - Unboxing videos (brands send you free products): free products + RM100-300
 
 Creator case study: **Diana Ishak** bought a used ZV-E10 for RM1,700 and started a YouTube channel reviewing affordable skincare available at Watsons and Guardian. Her Product Showcase Mode made her reviews look professional. At 5 months and 8,000 subscribers, brands started sending her products. By month 8, she was earning RM1,500-2,000/month from Google AdSense and sponsorships. Total investment: RM1,700.`,
+    roiDesc: 'Used RM1,600-2,000. Built for content creators. Product Showcase Mode is magic for reviews. Diana paid hers off in 3 brand deals.',
     pros: ['Built for content creators specifically', 'Product Showcase Mode is incredible for reviews', 'Background defocus button', 'Directional mic included', 'Flip-out screen', 'Great starter price used'],
     cons: ['No viewfinder', 'Plastic build', 'No IBIS', '4K 30fps limit (no 60fps)', 'Battery life average'],
     usedTip: 'Test Product Showcase Mode, check the directional mic for wind damage, ensure flip screen hinge is tight',
@@ -491,6 +502,7 @@ Creator case study: **Diana Ishak** bought a used ZV-E10 for RM1,700 and started
 - RM400-800/month: Regular content for a car workshop or gym
 
 **The "mounted camera" advantage:** A GoPro on a chest mount or head mount lets you shoot hands-free content that looks immersive. This is content that's hard to create with a phone or DSLR — giving you a unique selling point.`,
+    roiDesc: 'Used RM1,300-1,700. Best mount ecosystem. Great for POV, automotive, and action content. Farid paid his off in 3 car dealer videos.',
     pros: ['Best action cam ecosystem', 'HyperSmooth 6.0 stabilization', 'Waterproof 10m', 'Huge mount selection on Shopee/Lazada', 'Built-in mounting'],
     cons: ['Small sensor struggles in low light', 'Battery life ~60min recording', 'Expensive new', 'GoPro subscription is pushed aggressively', 'Minor upgrade from Hero 12'],
     usedTip: 'Check for overheating (record 4K for 20min), inspect lens for scratches, ensure Bluetooth/WiFi works',

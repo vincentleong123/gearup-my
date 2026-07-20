@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://gearup.my'),
   title: {
     default: 'GearUp Malaysia — Camera & Gear Reviews for Malaysian Content Creators | ROI in Ringgit',
     template: '%s | GearUp Malaysia',
