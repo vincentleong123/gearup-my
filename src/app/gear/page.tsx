@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { gearList, categories } from '@/data/gear';
+import { gearImg, categoryImg } from '@/data/images';
 import { formatPrice, roiColor, roiBarColor, getLevelLabel } from '@/lib/utils';
 
 export const metadata: Metadata = {
@@ -28,8 +29,14 @@ export default function GearPage() {
               href={`/gear/${g.slug}`}
               className="group block bg-zinc-900/80 border border-zinc-800 rounded-2xl overflow-hidden hover:border-red-500/30 hover:shadow-xl hover:shadow-red-500/5 transition-all duration-300"
             >
-              <div className="h-40 bg-gradient-to-br from-zinc-800 to-zinc-900 flex items-center justify-center text-5xl relative">
-                <span className="opacity-30">{g.category === 'camera' ? '📷' : g.category === 'mobile' ? '📱' : g.category === 'drone' ? '🛸' : '🎥'}</span>
+              <div className="h-40 relative overflow-hidden bg-zinc-900">
+                <img
+                  src={gearImg(g.slug) || categoryImg(g.category)}
+                  alt={g.name}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-zinc-900/70 to-transparent" />
                 <div className="absolute top-3 right-3">
                   <span className={`text-xs font-bold px-2.5 py-1 rounded-full ${
                     g.level === 'beginner' ? 'bg-green-500/20 text-green-400 border border-green-500/30' :

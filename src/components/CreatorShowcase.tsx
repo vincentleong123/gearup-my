@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { creators } from '@/data/creators';
+import { creatorImg } from '@/data/images';
 import { h } from '@/lib/utils';
 
 export default function CreatorShowcase() {
@@ -23,9 +24,12 @@ export default function CreatorShowcase() {
               style={{ animationDelay: `${i * 80}ms` }}
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="w-14 h-14 rounded-full bg-gradient-to-br from-cyan-500/20 to-blue-500/20 flex items-center justify-center text-2xl font-black text-cyan-400">
-                  {c.name.split(' ').map(n => n[0]).join('')}
-                </div>
+                <img
+                  src={creatorImg(c.slug)}
+                  alt={c.name}
+                  className="w-14 h-14 rounded-full object-cover border-2 border-zinc-700"
+                  loading="lazy"
+                />
                 <div>
                   <div className="font-bold text-lg group-hover:text-cyan-400 transition-colors">{c.name}</div>
                   <div className="text-sm text-zinc-500">{c.handle}</div>

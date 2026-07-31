@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { gearList, getGearBySlug } from '@/data/gear';
 import { creators } from '@/data/creators';
+import { gearImg } from '@/data/images';
+import ScenarioGallery from '@/components/ScenarioGallery';
 import { formatPrice, roiColor, roiBarColor, getLevelLabel, h } from '@/lib/utils';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
@@ -171,6 +173,9 @@ export default async function GearPage({ params }: Props) {
             </div>
           </div>
 
+          {/* Scenario gallery */}
+          <ScenarioGallery gearSlug={gear.slug} />
+
           {/* Creators using this gear */}
           {relatedCreators.length > 0 && (
             <div className="mb-10">
@@ -200,10 +205,20 @@ export default async function GearPage({ params }: Props) {
               <h2 className="text-2xl font-bold mb-6">Compare with Similar Gear</h2>
               <div className="grid md:grid-cols-3 gap-4">
                 {relatedGear.map(g => (
-                  <Link key={g.slug} href={`/gear/${g.slug}`} className="block bg-zinc-900/60 border border-zinc-800 rounded-xl p-4 hover:border-red-500/30 transition-all group text-center">
-                    <div className="text-3xl mb-2">{g.category === 'camera' ? '📷' : g.category === 'mobile' ? '📱' : g.category === 'drone' ? '🛸' : '🎥'}</div>
-                    <div className="font-bold group-hover:text-red-400 transition-colors text-sm">{g.name}</div>
-                    <div className="text-green-400 font-bold mt-1">{formatPrice(g.priceUsed)}</div>
+                  <Link key={g.slug} href={`/gear/${g.slug}`} className="block bg-zinc-900/60 border border-zinc-800 rounded-xl overflow-hidden hover:border-red-500/30 transition-all group">
+                    <div className="h-24 relative overflow-hidden bg-zinc-800">
+                      <img
+                        src={gearImg(g.slug)}
+                        alt={g.name}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        loading="lazy"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-zinc-900/70 to-transparent" />
+                    </div>
+                    <div className="p-3">
+                      <div className="font-bold group-hover:text-red-400 transition-colors text-sm text-center">{g.name}</div>
+                      <div className="text-green-400 font-bold text-center mt-1">{formatPrice(g.priceUsed)}</div>
+                    </div>
                   </Link>
                 ))}
               </div>

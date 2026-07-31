@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { creators, getCreatorBySlug } from '@/data/creators';
 import { gearList } from '@/data/gear';
+import { creatorImg } from '@/data/images';
 import { h, formatPrice } from '@/lib/utils';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
@@ -56,9 +57,11 @@ export default async function CreatorPage({ params }: Props) {
           </nav>
 
           <div className="flex items-center gap-6 mb-8">
-            <div className="w-20 h-20 rounded-full bg-gradient-to-br from-cyan-500/20 to-blue-500/20 flex items-center justify-center text-4xl font-black text-cyan-400">
-              {creator.name.split(' ').map(n => n[0]).join('')}
-            </div>
+            <img
+              src={creatorImg(creator.slug)}
+              alt={creator.name}
+              className="w-20 h-20 rounded-full object-cover border-2 border-zinc-700"
+            />
             <div>
               <h1 className="text-3xl md:text-5xl font-black">{creator.name}</h1>
               <div className="text-lg text-zinc-500">{creator.handle}</div>

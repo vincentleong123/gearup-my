@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { LangProvider } from '@/i18n/context';
 import "./globals.css";
 
 const geistSans = Geist({
@@ -44,7 +45,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#09090b" />
         <meta name="google-site-verification" content="" />
       </head>
-      <body className="min-h-full bg-[#09090b] text-[#fafafa]">{children}</body>
+      <body className="min-h-full bg-[#09090b] text-[#fafafa]"><LangProvider>{children}</LangProvider></body>
     </html>
   );
 }

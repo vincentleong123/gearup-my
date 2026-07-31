@@ -3,7 +3,15 @@
 import { useState, useEffect } from 'react';
 import { gearList, categories, GearItem } from '@/data/gear';
 import { h, formatPrice, roiColor, roiBarColor, getLevelLabel } from '@/lib/utils';
+import { gearImg } from '@/data/images';
 import Link from 'next/link';
+
+const fallbackImgs: Record<string, string> = {
+  camera: 'https://images.unsplash.com/photo-1516035066931-62601d7af140?w=800&h=600&fit=crop',
+  mobile: 'https://images.unsplash.com/photo-1598387993441-a364f854c3e1?w=800&h=600&fit=crop',
+  drone: 'https://images.unsplash.com/photo-1506943057087-5f4d4f5c0b7a?w=800&h=600&fit=crop',
+  action: 'https://images.unsplash.com/photo-1625719497441-c1b0c6af22fb?w=800&h=600&fit=crop',
+};
 
 export default function GearGrid() {
   const [active, setActive] = useState('all');
@@ -49,12 +57,15 @@ export default function GearGrid() {
               className="group block bg-zinc-900/80 border border-zinc-800 rounded-2xl overflow-hidden hover:border-red-500/30 hover:shadow-xl hover:shadow-red-500/5 transition-all duration-300"
               style={{ animationDelay: `${i * 50}ms` }}
             >
-              <div className="h-48 bg-gradient-to-br from-zinc-800 to-zinc-900 flex items-center justify-center text-6xl relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-t from-zinc-900/80 to-transparent z-10" />
-                <span className="relative z-0 opacity-30 text-8xl">
-                  {g.category === 'camera' ? '📷' : g.category === 'mobile' ? '📱' : g.category === 'drone' ? '🛸' : '🎥'}
-                </span>
-                <div className="absolute top-3 right-3 z-20">
+              <div className="h-48 relative overflow-hidden bg-zinc-900">
+                <img
+                  src={gearImg(g.slug) || fallbackImgs[g.category] || fallbackImgs.camera}
+                  alt={g.name}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-zinc-900 via-zinc-900/20 to-transparent" />
+                <div className="absolute top-3 right-3 z-10">
                   <span className={`text-xs font-bold px-2.5 py-1 rounded-full ${
                     g.level === 'beginner' ? 'bg-green-500/20 text-green-400 border border-green-500/30' :
                     g.level === 'mid' ? 'bg-yellow-500/20 text-yellow-400 border border-yellow-500/30' :
@@ -62,6 +73,9 @@ export default function GearGrid() {
                   }`}>
                     {getLevelLabel(g.level)}
                   </span>
+                </div>
+                <div className="absolute bottom-3 left-3 z-10">
+                  <span className="bg-zinc-900/70 backdrop-blur-sm text-white text-sm font-bold px-2.5 py-1 rounded-lg">{g.name}</span>
                 </div>
               </div>
               <div className="p-5">

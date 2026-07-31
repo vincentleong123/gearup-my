@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { articles } from '@/data/articles';
 import { gearList } from '@/data/gear';
+import { blogImg } from '@/data/images';
 import { h, formatPrice } from '@/lib/utils';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
@@ -57,6 +58,14 @@ export default async function ArticlePage({ params }: Props) {
           </nav>
 
           <div className="mb-10">
+            <div className="h-48 md:h-64 rounded-2xl overflow-hidden relative mb-6 bg-zinc-900">
+              <img
+                src={blogImg(article.slug)}
+                alt={article.title}
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/80 via-transparent to-transparent" />
+            </div>
             <div className="flex items-center gap-3 text-sm text-zinc-500 mb-4">
               <span className="text-xs font-bold px-3 py-1 rounded-full bg-green-500/20 text-green-400 border border-green-500/30 uppercase">{article.category}</span>
               <span>{article.date}</span>
