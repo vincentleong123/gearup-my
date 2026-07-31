@@ -9,7 +9,8 @@ import Link from 'next/link';
 import { gearList } from '@/data/gear';
 import { articles } from '@/data/articles';
 import { creators } from '@/data/creators';
-import { heroImg, blogImg, gearImg, ctaImg } from '@/data/images';
+import { gigs } from '@/data/gigs';
+import { heroImg, blogImg, gearImg, ctaImg, gigImg } from '@/data/images';
 
 export const metadata: Metadata = {
   title: 'GearUp Malaysia — Camera & Gear Reviews for Malaysian Content Creators | ROI in Ringgit',
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
     locale: 'en_MY',
     siteName: 'GearUp Malaysia',
   },
-  keywords: ['content creation malaysia', 'camera review malaysia', 'second hand camera malaysia', 'nikon d3100 malaysia', 'sony a6100 used price', 'insta360 x4 malaysia', 'dji mini 4 pro price malaysia', 'creator gear roi', 'tim and ahmad', 'content creator job malaysia'],
+  keywords: ['content creation malaysia', 'camera review malaysia', 'second hand camera malaysia', 'nikon d3100 malaysia', 'sony a6100 used price', 'insta360 x4 malaysia', 'dji mini 4 pro price malaysia', 'creator gear roi', 'tim and ahmad', 'content creator job malaysia', 'camera paid for gigs malaysia', 'graduation photography malaysia', 'wedding photography malaysia', 'gala dinner photographer', 'portrait photography malaysia', 'part time camera jobs'],
   robots: { index: true, follow: true },
   alternates: { canonical: 'https://gearup.my' },
 };
@@ -149,6 +150,60 @@ export default function HomePage() {
                 <div className="text-xs text-green-400 font-semibold">{q.roi}</div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* GIG-TO-GEAR */}
+      <section className="py-16 md:py-24 bg-gradient-to-b from-amber-500/[0.04] to-transparent">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center gap-2 bg-amber-500/10 border border-amber-500/20 rounded-full px-4 py-1.5 text-sm text-amber-400 font-semibold mb-5">
+              💰 The Gig-to-Gear Engine
+            </div>
+            <h2 className="text-3xl md:text-5xl font-black mb-4">
+              Your Camera Is <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-yellow-500">A Few Gigs Away</span>
+            </h2>
+            <p className="text-zinc-400 max-w-2xl mx-auto text-lg">
+              Graduation shoots, gala dinners, portraits, weddings, video content — real Malaysian part-time jobs with real rates.
+              Do a few, and the camera is yours. We did the math for you.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            {['graduation-photography', 'wedding-coverage', 'gala-dinner-event'].map(slug => {
+              const g = gigs.find(x => x.slug === slug);
+              if (!g) return null;
+              return (
+                <Link key={g.slug} href={`/gigs/${g.slug}`} className="group block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-amber-500/40 hover:shadow-xl hover:shadow-amber-500/5 transition-all duration-300">
+                  <div className="h-44 relative overflow-hidden bg-zinc-900">
+                    <img
+                      src={gigImg(g.slug)}
+                      alt={g.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      loading="lazy"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-zinc-900 via-zinc-900/20 to-transparent" />
+                    <div className="absolute bottom-3 left-3 text-4xl drop-shadow">{g.emoji}</div>
+                  </div>
+                  <div className="p-5">
+                    <h3 className="font-bold text-lg group-hover:text-amber-400 transition-colors mb-1">{g.title}</h3>
+                    <p className="text-sm text-zinc-400 line-clamp-2 mb-3">{g.tagline}</p>
+                    <div className="flex items-center justify-between">
+                      <div className="text-xs text-zinc-500">{g.timeEstimate}</div>
+                      <div className="text-amber-400 font-black">RM {g.rateMin.toLocaleString()}–{g.rateMax.toLocaleString()}</div>
+                    </div>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+          <div className="mt-10 flex flex-wrap justify-center gap-4">
+            <Link href="/gigs" className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-amber-400 to-yellow-500 text-zinc-950 font-bold rounded-xl text-lg hover:shadow-xl hover:shadow-amber-500/25 transition-all duration-300">
+              Explore All {gigs.length} Gigs →
+            </Link>
+            <Link href="/curate" className="inline-flex items-center gap-2 px-8 py-4 bg-zinc-800/50 text-white font-bold rounded-xl text-lg border border-zinc-700/50 hover:bg-zinc-800 transition-all duration-300">
+              🔀 Surprise Me — Live Inspiration Wall
+            </Link>
           </div>
         </div>
       </section>

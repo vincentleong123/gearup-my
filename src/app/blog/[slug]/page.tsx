@@ -91,12 +91,11 @@ export default async function ArticlePage({ params }: Props) {
                 // Simple table rendering
                 const cells = line.split('|').filter(Boolean);
                 if (cells.length > 0 && !line.includes('---')) {
-                  const isHeader = line.includes('---') ? false : i > 0 && article.content.split('\n')[i - 1]?.startsWith('|---');
-                  if (isHeader) return null;
+                  const isHeader = i > 0 && article.content.split('\n')[i - 1]?.startsWith('|---');
                   return (
-                    <div key={i} className={`flex gap-4 py-2 ${line.includes('---') ? 'border-b border-zinc-700' : ''}`}>
+                    <div key={i} className={`flex gap-4 py-2 ${isHeader ? 'mt-6 rounded-t-lg bg-zinc-900/70 font-bold text-amber-300' : 'border-b border-zinc-800'}`}>
                       {cells.map((c, j) => (
-                        <div key={j} className="flex-1 text-sm" style={j === 0 ? { fontWeight: 600 } : {}}>{c.trim()}</div>
+                        <div key={j} className={`flex-1 text-sm ${j === 0 ? (isHeader ? '' : 'font-semibold') : ''}`}>{c.trim()}</div>
                       ))}
                     </div>
                   );

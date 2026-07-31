@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { gearList, categories, GearItem } from '@/data/gear';
 import { h, formatPrice, roiColor, roiBarColor, getLevelLabel } from '@/lib/utils';
 import { gearImg } from '@/data/images';
@@ -15,11 +15,7 @@ const fallbackImgs: Record<string, string> = {
 
 export default function GearGrid() {
   const [active, setActive] = useState('all');
-  const [items, setItems] = useState<GearItem[]>([]);
-
-  useEffect(() => {
-    setItems(gearList);
-  }, []);
+  const [items] = useState<GearItem[]>(gearList);
 
   const filtered = active === 'all' ? items : items.filter(g => g.category === active);
 

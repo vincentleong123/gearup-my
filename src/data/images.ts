@@ -63,6 +63,58 @@ export const scenarioRefs: Record<string, string[]> = {
     'photo-1488085061387-422e29b40080?w=800&h=600&fit=crop',        // travel
     'photo-1507525428034-b723cf961d3e?w=800&h=600&fit=crop',        // beach
   ],
+  // ===== Gig scenarios (for gig pages + curation wall) =====
+  'gig-graduation': [
+    'photo-1523050854058-8df90110c9f1?w=800&h=600&fit=crop',        // caps thrown
+    'photo-1541339907198-e08756dedf3f?w=800&h=600&fit=crop',        // ceremony
+    'photo-1523580494863-6f3031224c94?w=800&h=600&fit=crop',        // graduate portrait
+  ],
+  'gig-gala': [
+    'photo-1511578314322-379afb476865?w=800&h=600&fit=crop',        // event dinner
+    'photo-1492684223066-81342ee5ff30?w=800&h=600&fit=crop',        // crowd confetti
+    'photo-1530103862676-de8c9debad1d?w=800&h=600&fit=crop',        // party lights
+  ],
+  'gig-portrait': [
+    'photo-1494790108377-be9c29b29330?w=800&h=600&fit=crop',        // woman portrait
+    'photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop',        // man portrait
+    'photo-1524504388940-b1c1722653e1?w=800&h=600&fit=crop',        // fashion portrait
+    'photo-1517841905240-472988babdf9?w=800&h=600&fit=crop',        // window portrait
+  ],
+  'gig-wedding': [
+    'photo-1519741497674-611481863552?w=800&h=600&fit=crop',        // couple
+    'photo-1465495976277-4387d4b0b4c6?w=800&h=600&fit=crop',        // wedding party
+    'photo-1583939003579-730e3918a45a?w=800&h=600&fit=crop',        // rings
+  ],
+  'gig-video': [
+    'photo-1492691527719-9d1e07e534b4?w=800&h=600&fit=crop',        // film set camera
+    'photo-1520612150153-f8aa1f461f4e?w=800&h=600&fit=crop',        // film production
+    'photo-1536240478700-b869070f9279?w=800&h=600&fit=crop',        // editing timeline
+  ],
+  'gig-product': [
+    'photo-1523275335684-37898b6baf30?w=800&h=600&fit=crop',        // watch product shot
+    'photo-1505740420928-5e560c06d30e?w=800&h=600&fit=crop',        // headphones product
+    'photo-1542291026-7eec264c27ff?w=800&h=600&fit=crop',           // sneaker product
+  ],
+  'gig-realestate': [
+    'photo-1560518883-ce09059eeffa?w=800&h=600&fit=crop',           // modern house
+    'photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop',        // luxury home
+    'photo-1512917774080-9991f1c4c750?w=800&h=600&fit=crop',        // house exterior
+  ],
+  'gig-food': [
+    'photo-1414235077428-338989a2e8c0?w=800&h=600&fit=crop',        // food plating
+    'photo-1504674900247-0877df9cc836?w=800&h=600&fit=crop',        // food top down
+    'photo-1512621776951-a57141f2eefd?w=800&h=600&fit=crop',        // healthy bowl
+  ],
+  'gig-corporate': [
+    'photo-1540575467063-178a50c2df87?w=800&h=600&fit=crop',        // conference audience
+    'photo-1505373877841-8d25f7d46678?w=800&h=600&fit=crop',        // stage speaker
+    'photo-1515187029135-18ee286d815b?w=800&h=600&fit=crop',        // meeting hands
+  ],
+  'gig-photobooth': [
+    'photo-1464349153735-7db50ed83c84?w=800&h=600&fit=crop',        // party
+    'photo-1533174072545-7a4b6ad7a6c3?w=800&h=600&fit=crop',        // birthday decor
+    'photo-1513151233558-d860c5398176?w=800&h=600&fit=crop',        // confetti celebration
+  ],
 };
 
 // For each gear slug, map to the relevant scenario keys
@@ -119,6 +171,10 @@ export const images = {
     'content-creator-gear-roi-malaysia-calculator': 'photo-1554224155-8d04cb21cd6c?w=1200&h=630&fit=crop',
     'insta360-x4-vs-gopro-hero-13-vs-dji-osmo-action-5-pro': 'photo-1625719497441-c1b0c6af22fb?w=1200&h=630&fit=crop',
     'used-camera-buying-guide-malaysia-mudah-carousell': 'photo-1498050108023-c5249f4df085?w=1200&h=630&fit=crop',
+    'camera-paid-for-part-time-gigs-malaysia': 'photo-1554224155-8d04cb21cd6c?w=1200&h=630&fit=crop',
+    'graduation-photography-malaysia-guide': 'photo-1523050854058-8df90110c9f1?w=1200&h=630&fit=crop',
+    'wedding-photography-side-hustle-malaysia': 'photo-1519741497674-611481863552?w=1200&h=630&fit=crop',
+    'gala-dinner-event-photography-malaysia': 'photo-1511578314322-379afb476865?w=1200&h=630&fit=crop',
   },
   categories: {
     camera: 'photo-1516035066931-62601d7af140?w=800&h=600&fit=crop',
@@ -196,4 +252,49 @@ const scenarioLabels: Record<string, string> = {
   'beauty-review-setup': 'Beauty Review Lighting',
   'car-review-pov': 'Car Review POV',
   'travel-vlog-malaysia': 'Travel Vlogging Malaysia',
+  'gig-graduation': 'Graduation Shoot',
+  'gig-gala': 'Gala Dinner & Events',
+  'gig-portrait': 'Portrait Sessions',
+  'gig-wedding': 'Wedding Coverage',
+  'gig-video': 'Video Content for Business',
+  'gig-product': 'Product Photography',
+  'gig-realestate': 'Real Estate Media',
+  'gig-food': 'Food & Beverage Content',
+  'gig-corporate': 'Corporate & Conferences',
+  'gig-photobooth': 'Photo Booths & Events',
 };
+
+// ===== Gig imagery =====
+
+const gigImageMap: Record<string, string[]> = {
+  'graduation-photography': ['gig-graduation'],
+  'gala-dinner-event': ['gig-gala'],
+  'portrait-photography': ['gig-portrait'],
+  'wedding-coverage': ['gig-wedding'],
+  'video-content-business': ['gig-video'],
+  'product-photography': ['gig-product'],
+  'real-estate-media': ['gig-realestate'],
+  'food-content': ['gig-food'],
+  'corporate-event-coverage': ['gig-corporate'],
+  'photo-booth-events': ['gig-photobooth'],
+};
+
+export function gigImg(slug: string, w = 1200, h = 700): string {
+  const keys = gigImageMap[slug] || [];
+  const first = keys[0] && scenarioRefs[keys[0]];
+  const path = first && first[0] ? first[0] : 'photo-1516035066931-62601d7af140?w=1200&h=700&fit=crop';
+  return imgUrl(path.replace(/\?w=\d+&h=\d+&fit=crop/, `?w=${w}&h=${h}&fit=crop`));
+}
+
+export function gigScenes(slug: string): { label: string; images: string[] }[] {
+  const keys = gigImageMap[slug] || [];
+  return keys.map(key => ({
+    label: scenarioLabels[key] || key,
+    images: (scenarioRefs[key] || []).map(p => imgUrl(p)),
+  }));
+}
+
+export function gigGalleryImages(slug: string): string[] {
+  const scenes = gigScenes(slug);
+  return scenes.flatMap(s => s.images);
+}

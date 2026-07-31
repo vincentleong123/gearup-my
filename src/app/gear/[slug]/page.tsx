@@ -5,6 +5,7 @@ import { gearList, getGearBySlug } from '@/data/gear';
 import { creators } from '@/data/creators';
 import { gearImg } from '@/data/images';
 import ScenarioGallery from '@/components/ScenarioGallery';
+import PayoffPath from '@/components/PayoffPath';
 import { formatPrice, roiColor, roiBarColor, getLevelLabel, h } from '@/lib/utils';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
@@ -113,6 +114,9 @@ export default async function GearPage({ params }: Props) {
               <p className="text-zinc-400">💰 {gear.roiDesc}</p>
             </div>
           </div>
+
+          {/* How to pay it off */}
+          <PayoffPath gear={gear} />
 
           {/* Specs */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">

@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     default: 'GearUp Malaysia — Camera & Gear Reviews for Malaysian Content Creators | ROI in Ringgit',
     template: '%s | GearUp Malaysia',
   },
-  description: 'Tim and Ahmad lost their jobs. This site shows them — and you — how to start content creation with zero budget. Compare cameras, drones, Insta360, and mobile gear with real second-hand prices in Malaysia.',
+  description: 'Tim and Ahmad lost their jobs. This site shows them — and you — how to start content creation with zero budget, and how a few part-time gigs (graduation, galas, portraits, weddings) can pay for your camera. Compare cameras, drones, Insta360, and mobile gear with real second-hand prices in Malaysia. See what creators actually earn.',
   openGraph: {
     type: 'website',
     locale: 'en_MY',

@@ -78,7 +78,7 @@ export default function GlossaryClient() {
                 {t.manglish && (
                   <div className="bg-cyan-500/5 border border-cyan-500/20 rounded-lg p-3">
                     <span className="text-xs text-cyan-400 font-bold uppercase tracking-wider">Manglish version</span>
-                    <p className="text-zinc-300 mt-1">"{t.manglish}"</p>
+                    <p className="text-zinc-300 mt-1">&quot;{t.manglish}&quot;</p>
                   </div>
                 )}
               </div>

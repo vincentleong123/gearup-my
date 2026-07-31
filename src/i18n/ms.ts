@@ -1,12 +1,14 @@
 export const ms: Record<string, string> = {
   /* ===== Navigation ===== */
   'nav.gear': 'Perkakas',
+  'nav.gigs': 'Kerja Gig',
   'nav.compare': 'Bandingkan',
   'nav.quiz': 'Kuiz',
   'nav.niches': 'Topik',
   'nav.creators': 'Kreator',
   'nav.roiCalc': 'Kalkulator ROI',
   'nav.blog': 'Blog',
+  'nav.curate': 'Inspirasi',
   'nav.glossary': 'Glosari',
 
   /* ===== Footer ===== */

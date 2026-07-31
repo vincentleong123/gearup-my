@@ -24,11 +24,13 @@ export default function Footer() {
             <h4 className="text-sm font-bold text-zinc-300 mb-3 uppercase tracking-wider">{t('footer.explore', 'Explore')}</h4>
             <div className="space-y-2">
               <Link href="/#gear" className="block text-sm text-zinc-400 hover:text-white transition-colors">{t('nav.gear', 'Gear Reviews')}</Link>
+              <Link href="/gigs" className="block text-sm text-amber-400 hover:text-amber-300 transition-colors font-medium">{t('nav.gigs', 'Gigs That Pay For Your Gear')}</Link>
               <Link href="/compare" className="block text-sm text-zinc-400 hover:text-white transition-colors">{t('nav.compare', 'Compare Gear')}</Link>
               <Link href="/quiz" className="block text-sm text-zinc-400 hover:text-white transition-colors">{t('nav.quiz', 'Gear Match Quiz')}</Link>
               <Link href="/#creators" className="block text-sm text-zinc-400 hover:text-white transition-colors">{t('nav.creators', 'Creator Stories')}</Link>
               <Link href="/#calculator" className="block text-sm text-zinc-400 hover:text-white transition-colors">{t('nav.roiCalc', 'ROI Calculator')}</Link>
               <Link href="/blog" className="block text-sm text-zinc-400 hover:text-white transition-colors">{t('nav.blog', 'Blog & Guides')}</Link>
+              <Link href="/curate" className="block text-sm text-zinc-400 hover:text-white transition-colors">{t('nav.curate', 'Inspiration Wall')}</Link>
               <Link href="/glossary" className="block text-sm text-zinc-400 hover:text-white transition-colors">{t('nav.glossary', 'Gear Glossary')}</Link>
             </div>
           </div>
