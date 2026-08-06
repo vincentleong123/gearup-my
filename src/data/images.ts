@@ -16,23 +16,23 @@ export const scenarioRefs: Record<string, string[]> = {
     'photo-1531746020798-e6953c6e8e04?w=600&h=800&fit=crop',       // girl natural light selfie
   ],
   'nikon-d3100-starter': [
-    'photo-1516035066931-62601d7af140?w=800&h=600&fit=crop',       // old camera
+    'photo-1452780212940-6f5c0d14d848?w=800&h=600&fit=crop',       // old camera
     'photo-1502920917128-1aa500764cbd?w=800&h=600&fit=crop',       // budget camera setup
   ],
   'sony-a6100-vlog': [
-    'photo-1526170335885-b1a6b9f9e2a9?w=800&h=600&fit=crop',        // camera on tripod
-    'photo-1510127033240-b0af7c0ae506?w=800&h=600&fit=crop',        // mirrorless camera
+    'photo-1526170375885-4d8ecf77b99f?w=800&h=600&fit=crop',        // camera on tripod
+    'photo-1495707902641-75cac588d2e9?w=800&h=600&fit=crop',        // mirrorless camera
   ],
   'insta360-action': [
-    'photo-1625719497441-c1b0c6af22fb?w=800&h=600&fit=crop',        // action cam
-    'photo-1558618666-fcd25c85f82e?w=800&h=600&fit=crop',           // mountain bike action
+    'photo-1544348817-5f2cf14b88c8?w=800&h=600&fit=crop',        // action cam
+    'photo-1544191696-102dbdaeeaa0?w=800&h=600&fit=crop',           // mountain bike action
   ],
   'drone-aerial-malaysia': [
-    'photo-1506943057087-5f4d4f5c0b7a?w=800&h=600&fit=crop',        // drone aerial island
-    'photo-1473969631238-f77a905dcd47?w=800&h=600&fit=crop',        // aerial city
+    'photo-1473580044384-7ba9967e16a0?w=800&h=600&fit=crop',        // drone aerial island
+    'photo-1446776877081-d282a0f896e2?w=800&h=600&fit=crop',        // aerial city
   ],
   'gopro-chest-mount': [
-    'photo-1625719497441-c1b0c6af22fb?w=800&h=600&fit=crop',
+    'photo-1544348817-5f2cf14b88c8?w=800&h=600&fit=crop',
     'photo-1544636331-e26879cd4d9b?w=800&h=600&fit=crop',           // car driving
   ],
   'food-overhead': [
@@ -40,7 +40,7 @@ export const scenarioRefs: Record<string, string[]> = {
     'photo-1504674900247-0877df9cc836?w=800&h=600&fit=crop',        // food top down
   ],
   'desk-setup-ring-light': [
-    'photo-1498049794561-7780b7230f7d?w=800&h=600&fit=crop',        // desk computer
+    'photo-1517180102446-f3ece451e9d8?w=800&h=600&fit=crop',        // desk computer
     'photo-1526374965328-7f61d4dc18c5?w=800&h=600&fit=crop',        // desk with keyboard
   ],
   'lapel-mic-audio': [
@@ -49,7 +49,7 @@ export const scenarioRefs: Record<string, string[]> = {
   ],
   'used-camera-shop': [
     'photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop',        // electronics desk
-    'photo-1510127033240-b0af7c0ae506?w=800&h=600&fit=crop',        // camera
+    'photo-1495707902641-75cac588d2e9?w=800&h=600&fit=crop',        // camera
   ],
   'beauty-review-setup': [
     'photo-1487412912498-0447578fcca8?w=800&h=600&fit=crop',        // makeup
@@ -65,7 +65,7 @@ export const scenarioRefs: Record<string, string[]> = {
   ],
   // ===== Gig scenarios (for gig pages + curation wall) =====
   'gig-graduation': [
-    'photo-1523050854058-8df90110c9f1?w=800&h=600&fit=crop',        // caps thrown
+    'photo-1531545514256-b1400bc00f31?w=800&h=600&fit=crop',        // caps thrown
     'photo-1541339907198-e08756dedf3f?w=800&h=600&fit=crop',        // ceremony
     'photo-1523580494863-6f3031224c94?w=800&h=600&fit=crop',        // graduate portrait
   ],
@@ -87,8 +87,8 @@ export const scenarioRefs: Record<string, string[]> = {
   ],
   'gig-video': [
     'photo-1492691527719-9d1e07e534b4?w=800&h=600&fit=crop',        // film set camera
-    'photo-1520612150153-f8aa1f461f4e?w=800&h=600&fit=crop',        // film production
-    'photo-1536240478700-b869070f9279?w=800&h=600&fit=crop',        // editing timeline
+    'photo-1478720568477-152d9b164e26?w=800&h=600&fit=crop',        // film production
+    'photo-1535016120720-40c646be5580?w=800&h=600&fit=crop',        // editing timeline
   ],
   'gig-product': [
     'photo-1523275335684-37898b6baf30?w=800&h=600&fit=crop',        // watch product shot
@@ -115,6 +115,11 @@ export const scenarioRefs: Record<string, string[]> = {
     'photo-1533174072545-7a4b6ad7a6c3?w=800&h=600&fit=crop',        // birthday decor
     'photo-1513151233558-d860c5398176?w=800&h=600&fit=crop',        // confetti celebration
   ],
+  'gig-drone': [
+    'photo-1473580044384-7ba9967e16a0?w=800&h=600&fit=crop',        // drone in flight
+    'photo-1446776877081-d282a0f896e2?w=800&h=600&fit=crop',        // aerial earth
+    'photo-1527977966376-1c8408f9f108?w=800&h=600&fit=crop',        // drone against sky
+  ],
 };
 
 // For each gear slug, map to the relevant scenario keys
@@ -123,28 +128,28 @@ export const gearScenarios: Record<string, string[]> = {
   'sony-a6100-review-malaysia-second-hand': ['sony-a6100-vlog', 'desk-setup-ring-light'],
   'iphone-15-content-creation-malaysia': ['iphone-window-light', 'beauty-review-setup'],
   'insta360-x4-review-malaysia': ['insta360-action'],
-  'dji-osmo-action-5-pro-review-malaysia': ['insta360-action'],
+  'dji-osmo-action-5-pro-review': ['insta360-action'],
   'dji-mini-4-pro-review-malaysia': ['drone-aerial-malaysia', 'travel-vlog-malaysia'],
   'dji-mavic-3-classic-review-malaysia': ['drone-aerial-malaysia'],
-  'canon-r50-review-malaysia': ['sony-a6100-vlog', 'food-overhead'],
+  'canon-eos-r50-review-malaysia': ['food-overhead', 'beauty-review-setup'],
   'xiaomi-14-ultra-review-malaysia': ['iphone-window-light'],
-  'sony-zv-e10-review-malaysia': ['sony-a6100-vlog', 'lapel-mic-audio'],
+  'sony-zv-e10-review-malaysia-second-hand': ['sony-a6100-vlog', 'lapel-mic-audio'],
   'gopro-hero-13-review-malaysia': ['gopro-chest-mount', 'car-review-pov'],
 };
 
 export const images = {
   gear: {
-    'nikon-d3100-review-malaysia-second-hand-price': 'photo-1516035066931-62601d7af140?w=800&h=600&fit=crop',
-    'sony-a6100-review-malaysia-second-hand': 'photo-1510127033240-b0af7c0ae506?w=800&h=600&fit=crop',
+    'nikon-d3100-review-malaysia-second-hand-price': 'photo-1452780212940-6f5c0d14d848?w=800&h=600&fit=crop',
+    'sony-a6100-review-malaysia-second-hand': 'photo-1495707902641-75cac588d2e9?w=800&h=600&fit=crop',
     'iphone-15-content-creation-malaysia': 'photo-1598387993441-a364f854c3e1?w=800&h=600&fit=crop',
-    'insta360-x4-review-malaysia': 'photo-1625719497441-c1b0c6af22fb?w=800&h=600&fit=crop',
-    'dji-osmo-action-5-pro-review-malaysia': 'photo-1589782183178-9d7c3d2d490d?w=800&h=600&fit=crop',
-    'dji-mini-4-pro-review-malaysia': 'photo-1506943057087-5f4d4f5c0b7a?w=800&h=600&fit=crop',
-    'dji-mavic-3-classic-review-malaysia': 'photo-1508615033588-8c5557eaf6b7?w=800&h=600&fit=crop',
-    'canon-r50-review-malaysia': 'photo-1510127033240-b0af7c0ae506?w=800&h=600&fit=crop',
+    'insta360-x4-review-malaysia': 'photo-1544348817-5f2cf14b88c8?w=800&h=600&fit=crop',
+    'dji-osmo-action-5-pro-review': 'photo-1470071459604-3b5ec3a7fe05?w=800&h=600&fit=crop',
+    'dji-mini-4-pro-review-malaysia': 'photo-1473580044384-7ba9967e16a0?w=800&h=600&fit=crop',
+    'dji-mavic-3-classic-review-malaysia': 'photo-1527977966376-1c8408f9f108?w=800&h=600&fit=crop',
+    'canon-eos-r50-review-malaysia': 'photo-1495707902641-75cac588d2e9?w=800&h=600&fit=crop',
     'xiaomi-14-ultra-review-malaysia': 'photo-1511707171634-5f897ff02aa9?w=800&h=600&fit=crop',
-    'sony-zv-e10-review-malaysia': 'photo-1526170335885-b1a6b9f9e2a9?w=800&h=600&fit=crop',
-    'gopro-hero-13-review-malaysia': 'photo-1625719497441-c1b0c6af22fb?w=800&h=600&fit=crop',
+    'sony-zv-e10-review-malaysia-second-hand': 'photo-1526170375885-4d8ecf77b99f?w=800&h=600&fit=crop',
+    'gopro-hero-13-review-malaysia': 'photo-1508700115892-45ecd05ae2ad?w=800&h=600&fit=crop',
   },
   creators: {
     'aiman-roslan': 'photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face',
@@ -152,14 +157,16 @@ export const images = {
     'fikri-haron': 'photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop&crop=face',
     'aina-syazwani': 'photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop&crop=face',
     'zamri-nasir': 'photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face',
-    'amir-ishak': 'photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face',
+    'amir-shah': 'photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face',
     'diana-ishak': 'photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop&crop=face',
-    'farid-hassan': 'photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop&crop=face',
-    'tim-rahman': 'photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face',
+    'farid-johari': 'photo-1552058544-f2b08422138a?w=400&h=400&fit=crop&crop=face',
+    'tim-rahman': 'photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop&crop=face',
+    'alif-hakim': 'photo-1502781252888-9143ba7f074e?w=400&h=400&fit=crop&crop=face',
+    'rizuan-mustafa': 'photo-1531427186611-ecfd6d936c79?w=400&h=400&fit=crop&crop=face',
   },
   niches: {
     'food-review': 'photo-1414235077428-338989a2e8c0?w=1200&h=800&fit=crop',
-    'tech-review': 'photo-1498049794561-7780b7230f7d?w=1200&h=800&fit=crop',
+    'tech-review': 'photo-1517180102446-f3ece451e9d8?w=1200&h=800&fit=crop',
     'beauty-fashion': 'photo-1487412912498-0447578fcca8?w=1200&h=800&fit=crop',
     'travel': 'photo-1488085061387-422e29b40080?w=1200&h=800&fit=crop',
     'automotive': 'photo-1544636331-e26879cd4d9b?w=1200&h=800&fit=crop',
@@ -167,21 +174,21 @@ export const images = {
   },
   blog: {
     'content-creator-malaysia-no-money-start': 'photo-1486312338219-ce68d2c6f44d?w=1200&h=630&fit=crop',
-    'nikon-d3100-vs-sony-a6100-which-better-malaysia': 'photo-1516035066931-62601d7af140?w=1200&h=630&fit=crop',
+    'nikon-d3100-vs-sony-a6100-which-better-malaysia': 'photo-1452780212940-6f5c0d14d848?w=1200&h=630&fit=crop',
     'content-creator-gear-roi-malaysia-calculator': 'photo-1554224155-8d04cb21cd6c?w=1200&h=630&fit=crop',
-    'insta360-x4-vs-gopro-hero-13-vs-dji-osmo-action-5-pro': 'photo-1625719497441-c1b0c6af22fb?w=1200&h=630&fit=crop',
+    'insta360-vs-gopro-which-buy-malaysia-2026': 'photo-1544348817-5f2cf14b88c8?w=1200&h=630&fit=crop',
     'used-camera-buying-guide-malaysia-mudah-carousell': 'photo-1498050108023-c5249f4df085?w=1200&h=630&fit=crop',
     'camera-paid-for-part-time-gigs-malaysia': 'photo-1554224155-8d04cb21cd6c?w=1200&h=630&fit=crop',
-    'graduation-photography-malaysia-guide': 'photo-1523050854058-8df90110c9f1?w=1200&h=630&fit=crop',
+    'graduation-photography-malaysia-guide': 'photo-1531545514256-b1400bc00f31?w=1200&h=630&fit=crop',
     'wedding-photography-side-hustle-malaysia': 'photo-1519741497674-611481863552?w=1200&h=630&fit=crop',
     'gala-dinner-event-photography-malaysia': 'photo-1511578314322-379afb476865?w=1200&h=630&fit=crop',
-    'sony-zv-e10-vs-sony-a6100-which-buy-malaysia': 'photo-1510127033240-b0af7c0ae506?w=1200&h=630&fit=crop',
-    'canon-eos-r50-vs-sony-a6100-which-better-malaysia': 'photo-1516035066931-62601d7af140?w=1200&h=630&fit=crop',
+    'sony-zv-e10-vs-sony-a6100-which-buy-malaysia': 'photo-1495707902641-75cac588d2e9?w=1200&h=630&fit=crop',
+    'canon-eos-r50-vs-sony-a6100-which-better-malaysia': 'photo-1452780212940-6f5c0d14d848?w=1200&h=630&fit=crop',
     'best-budget-lapel-microphone-malaysia-audio-guide': 'photo-1478737270239-2f02b77fc618?w=1200&h=630&fit=crop',
-    'best-tripod-phone-camera-malaysia-guide': 'photo-1526170335885-b1a6b9f9e2a9?w=1200&h=630&fit=crop',
+    'best-tripod-phone-camera-malaysia-guide': 'photo-1526170375885-4d8ecf77b99f?w=1200&h=630&fit=crop',
     'budget-lighting-setup-content-creation-malaysia': 'photo-1498050108023-c5249f4df085?w=1200&h=630&fit=crop',
     'iphone-vs-mirrorless-camera-content-creation-malaysia': 'photo-1598387993441-a364f854c3e1?w=1200&h=630&fit=crop',
-    'free-video-editing-software-malaysia-beginners': 'photo-1536240478700-b869070f9279?w=1200&h=630&fit=crop',
+    'free-video-editing-software-malaysia-beginners': 'photo-1535016120720-40c646be5580?w=1200&h=630&fit=crop',
     'youtube-thumbnails-that-get-clicks-malaysia': 'photo-1526374965328-7f61d4dc18c5?w=1200&h=630&fit=crop',
     'tiktok-reels-shorts-strategy-malaysia-2026': 'photo-1522202176988-66273c2fd55f?w=1200&h=630&fit=crop',
     'food-content-creation-gig-malaysia': 'photo-1414235077428-338989a2e8c0?w=1200&h=630&fit=crop',
@@ -189,10 +196,10 @@ export const images = {
     'product-photography-ecommerce-gig-malaysia': 'photo-1505740420928-5e560c06d30e?w=1200&h=630&fit=crop',
   },
   categories: {
-    camera: 'photo-1516035066931-62601d7af140?w=800&h=600&fit=crop',
+    camera: 'photo-1452780212940-6f5c0d14d848?w=800&h=600&fit=crop',
     mobile: 'photo-1598387993441-a364f854c3e1?w=800&h=600&fit=crop',
-    drone: 'photo-1506943057087-5f4d4f5c0b7a?w=800&h=600&fit=crop',
-    action: 'photo-1625719497441-c1b0c6af22fb?w=800&h=600&fit=crop',
+    drone: 'photo-1473580044384-7ba9967e16a0?w=800&h=600&fit=crop',
+    action: 'photo-1544348817-5f2cf14b88c8?w=800&h=600&fit=crop',
   },
   hero: 'photo-1522202176988-66273c2fd55f?w=1920&h=1080&fit=crop',
   cta: 'photo-1554224155-8d04cb21cd6c?w=1920&h=800&fit=crop',
@@ -274,6 +281,7 @@ const scenarioLabels: Record<string, string> = {
   'gig-food': 'Food & Beverage Content',
   'gig-corporate': 'Corporate & Conferences',
   'gig-photobooth': 'Photo Booths & Events',
+  'gig-drone': 'Aerial Drone Shoots',
 };
 
 // ===== Gig imagery =====
@@ -289,12 +297,13 @@ const gigImageMap: Record<string, string[]> = {
   'food-content': ['gig-food'],
   'corporate-event-coverage': ['gig-corporate'],
   'photo-booth-events': ['gig-photobooth'],
+  'aerial-drone-media': ['gig-drone'],
 };
 
 export function gigImg(slug: string, w = 1200, h = 700): string {
   const keys = gigImageMap[slug] || [];
   const first = keys[0] && scenarioRefs[keys[0]];
-  const path = first && first[0] ? first[0] : 'photo-1516035066931-62601d7af140?w=1200&h=700&fit=crop';
+  const path = first && first[0] ? first[0] : 'photo-1452780212940-6f5c0d14d848?w=1200&h=700&fit=crop';
   return imgUrl(path.replace(/\?w=\d+&h=\d+&fit=crop/, `?w=${w}&h=${h}&fit=crop`));
 }
 

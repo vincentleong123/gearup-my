@@ -7,10 +7,10 @@ import { gearImg } from '@/data/images';
 import Link from 'next/link';
 
 const fallbackImgs: Record<string, string> = {
-  camera: 'https://images.unsplash.com/photo-1516035066931-62601d7af140?w=800&h=600&fit=crop',
+  camera: 'https://images.unsplash.com/photo-1452780212940-6f5c0d14d848?w=800&h=600&fit=crop',
   mobile: 'https://images.unsplash.com/photo-1598387993441-a364f854c3e1?w=800&h=600&fit=crop',
-  drone: 'https://images.unsplash.com/photo-1506943057087-5f4d4f5c0b7a?w=800&h=600&fit=crop',
-  action: 'https://images.unsplash.com/photo-1625719497441-c1b0c6af22fb?w=800&h=600&fit=crop',
+  drone: 'https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?w=800&h=600&fit=crop',
+  action: 'https://images.unsplash.com/photo-1544348817-5f2cf14b88c8?w=800&h=600&fit=crop',
 };
 
 type SortKey = 'featured' | 'roi' | 'rating' | 'price-low' | 'price-high';

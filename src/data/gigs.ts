@@ -342,6 +342,52 @@ export const gigs: Gig[] = [
     searchTerms: ['property photography Malaysia price', 'real estate videographer KL', '360 virtual tour Malaysia', 'property agent photography service'],
   },
   {
+    slug: 'aerial-drone-media',
+    title: 'Aerial & Drone Media',
+    emoji: '🚁',
+    tagline: 'Drones are Malaysia\'s highest-demand skill gap — estates, resorts and agents cannot find anyone who can fly.',
+    description:
+      'Aerial content is the fastest-growing premium gig in Malaysia. Plantation owners want crop-health flyovers, resorts want promo footage, property agents want roof-to-roadwalk shots, and construction firms want progress documentation. Under 250g drones (like the Mini 4 Pro) need no CAAM license, so you can start earning the day after you buy one. Every shoot takes 1-2 hours and pays RM400-1,200.',
+    difficulty: 'moderate',
+    rateMin: 400,
+    rateMax: 1200,
+    rateUnit: 'per shoot (1-2 hours)',
+    timeEstimate: '1-2 hours + 30 min editing',
+    peakSeason: 'Year-round; spikes during construction seasons and resort bookings',
+    demand: 'Growing fast — most agents, estates and resorts have no drone operator on call',
+    starterGearSlugs: ['dji-mini-4-pro-review-malaysia', 'iphone-15-content-creation-malaysia'],
+    upgradeGearSlugs: ['dji-mavic-3-classic-review-malaysia', 'insta360-x4-review-malaysia'],
+    deliverables: [
+      '3-6 minutes of edited aerial footage (4K), split into vertical + horizontal versions',
+      '5-10 still aerial photos (for listings, brochures, or Instagram)',
+      'A clean "no-fly safe" disclaimer and CAAM rule checklist for the client',
+      'Next-day delivery via Google Drive',
+    ],
+    howToGetGigs: [
+      'Walk into 5 plantations, resorts or construction sites near you and show 30 seconds of aerial footage on your phone',
+      'Post 3 aerial clips of your own area on TikTok/Facebook with #aerialmalaysia — owners will find you',
+      'DM property agents with a 60-second sample of a landed property from above',
+      'Offer a discounted "first flyover" to a resort — then upsell a monthly retainer',
+      'Partner with wedding videographers who don\'t have drone coverage',
+    ],
+    tips: [
+      'Under 250g = no CAAM license needed. Above 250g (e.g. Mavic 3) requires one — factor RM500-800 into pricing',
+      'Fly at sunrise or golden hour — flat midday light makes footage look cheap',
+      'Master 5 moves: reveal, orbit, fly-through, rise-and-look, and the "pull back" — that is 80% of paid work',
+      'Always shoot with the ND filter on in bright Malaysian sun to avoid jittery footage',
+      'Check your no-fly zones (KLIA area, military bases) with the DJI Fly app BEFORE quoting',
+      'Deliver vertical (9:16) and horizontal (16:9) versions — clients always ask for both',
+    ],
+    sampleGig: {
+      headline: 'One estate flyover → a construction retainer',
+      story:
+        'Rizuan offered a plantation owner near Ipoh a RM400 flyover to check a new sapling block. The owner showed it to a cousin who was managing a housing development — and within two weeks Rizuan signed a RM1,500/month construction-progress retainer, plus RM500 per extra resort shoot.',
+      earnings: 'RM1,900 in month one from a single RM400 first gig',
+    },
+    hashtags: ['dronemalaysia', 'aerialmalaysia', 'dronevideo', 'plantation', 'dronefootage', 'constructionmalaysia', 'aerialphotography'],
+    searchTerms: ['drone videographer Malaysia', 'aerial photography price Malaysia', 'plantation drone survey Malaysia', 'construction progress drone Malaysia', 'resort drone video Malaysia'],
+  },
+  {
     slug: 'food-content',
     title: 'Food & Beverage Content',
     emoji: '🍜',
@@ -503,6 +549,7 @@ export const rateCard: RateRow[] = [
   { service: '🏢 Corporate / conference day', entry: 'RM400', typical: 'RM600-800', premium: 'RM1,000', time: '4-8 hrs', demand: 'Conference seasons' },
   { service: '📸 Photo booth (per event)', entry: 'RM300', typical: 'RM400-600', premium: 'RM800', time: '3-4 hrs', demand: 'Weekends' },
   { service: '📸 Real estate 360° tour', entry: 'RM250', typical: 'RM300-500', premium: 'RM600', time: '1 hr', demand: 'Year-round' },
+  { service: '🚁 Aerial / drone shoot', entry: 'RM250', typical: 'RM400-600', premium: 'RM1,200', time: '1-2 hrs', demand: 'Year-round' },
 ];
 
 // ============================================================

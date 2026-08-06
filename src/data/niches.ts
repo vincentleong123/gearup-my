@@ -18,7 +18,7 @@ export const niches: Niche[] = [
     tagline: 'Review mamak, cafes, and restaurants from KL to Penang',
     description: 'Malaysians LOVE food content. From Nasi Lemak reviews to hidden kopitiam gems, food content is the easiest niche to start because every eat-out is content. Restaurants will happily feed you for a review — that is your first "payment" before you ever see cash.',
     image: '🍜',
-    bestGearSlugs: ['iphone-15-content-creation-malaysia', 'sony-a6100-review-malaysia-second-hand', 'canon-r50-review-malaysia'],
+    bestGearSlugs: ['iphone-15-content-creation-malaysia', 'sony-a6100-review-malaysia-second-hand', 'canon-eos-r50-review-malaysia'],
     starterCost: 0,
     earningPotential: 'RM 1,500 – 4,000/month',
     tips: [
@@ -43,7 +43,7 @@ export const niches: Niche[] = [
     tagline: 'Gadget and tech reviews for the Malaysian audience',
     description: 'Malaysians love tech but hate overpaying. Your job is to review gadgets and answer the one question every Malaysian has: "Confirm boleh pakai ke?" — "Is this actually worth my money?" Tech reviewers in Malaysia earn through affiliate links (Shopee/TikTok Shop) and brand sponsorships.',
     image: '💻',
-    bestGearSlugs: ['sony-a6100-review-malaysia-second-hand', 'canon-r50-review-malaysia', 'xiaomi-14-ultra-review-malaysia'],
+    bestGearSlugs: ['sony-a6100-review-malaysia-second-hand', 'canon-eos-r50-review-malaysia', 'xiaomi-14-ultra-review-malaysia'],
     starterCost: 1600,
     earningPotential: 'RM 2,000 – 6,000/month',
     tips: [
@@ -68,7 +68,7 @@ export const niches: Niche[] = [
     tagline: 'Skincare, makeup, and OOTD content for the Malaysian girlies',
     description: 'Beauty and fashion is the biggest content category in Malaysia — and the most profitable. Brands like Wardah, Safi, L\'Oréal Malaysia, and local fashion houses pay RM300-2,000 per post depending on your following. The key: consistency and lighting.',
     image: '💄',
-    bestGearSlugs: ['iphone-15-content-creation-malaysia', 'sony-zv-e10-review-malaysia', 'canon-r50-review-malaysia'],
+    bestGearSlugs: ['iphone-15-content-creation-malaysia', 'sony-zv-e10-review-malaysia-second-hand', 'canon-eos-r50-review-malaysia'],
     starterCost: 0,
     earningPotential: 'RM 2,000 – 8,000/month',
     tips: [
@@ -118,7 +118,7 @@ export const niches: Niche[] = [
     tagline: 'Car and motorbike reviews for the Malaysian road',
     description: 'Malaysians are obsessed with cars. Myvi, Axia, Bezza, Viva — reviewers like Aiman Roslan built entire channels reviewing affordable Malaysian cars. Automotive creators earn through dealer sponsorships, workshop referrals, and YouTube ads. The barrier: you need access to cars.',
     image: '🚗',
-    bestGearSlugs: ['gopro-hero-13-review-malaysia', 'dji-osmo-action-5-pro-review-malaysia', 'dji-mini-4-pro-review-malaysia'],
+    bestGearSlugs: ['gopro-hero-13-review-malaysia', 'dji-osmo-action-5-pro-review', 'dji-mini-4-pro-review-malaysia'],
     starterCost: 1300,
     earningPotential: 'RM 2,000 – 6,000/month',
     tips: [
@@ -143,7 +143,7 @@ export const niches: Niche[] = [
     tagline: 'Day in the life content that people actually watch',
     description: 'Daily vlogging is the most personal niche. Malaysians love watching "real" content — going to work, buying nasi lemak, dealing with KL traffic, weekend plans. The barrier to entry is zero. Your phone is enough. Your life is the content.',
     image: '🎬',
-    bestGearSlugs: ['iphone-15-content-creation-malaysia', 'sony-a6100-review-malaysia-second-hand', 'sony-zv-e10-review-malaysia'],
+    bestGearSlugs: ['iphone-15-content-creation-malaysia', 'sony-a6100-review-malaysia-second-hand', 'sony-zv-e10-review-malaysia-second-hand'],
     starterCost: 0,
     earningPotential: 'RM 1,000 – 3,000/month',
     tips: [
