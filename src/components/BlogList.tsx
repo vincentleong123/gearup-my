@@ -1,0 +1,142 @@
+'use client';
+
+import { useMemo, useState } from 'react';
+import Link from 'next/link';
+import { articles } from '@/data/articles';
+import { blogImg } from '@/data/images';
+
+const categoryColors: Record<string, string> = {
+  guide: 'bg-green-500/20 text-green-400 border-green-500/30',
+  comparison: 'bg-purple-500/20 text-purple-400 border-purple-500/30',
+  gear: 'bg-amber-500/20 text-amber-400 border-amber-500/30',
+  inspiration: 'bg-cyan-500/20 text-cyan-400 border-cyan-500/30',
+};
+
+const filters = [
+  { id: 'all', label: 'All' },
+  { id: 'guide', label: 'Guides' },
+  { id: 'comparison', label: 'Comparisons' },
+  { id: 'gear', label: 'Gear' },
+  { id: 'inspiration', label: 'Inspiration' },
+] as const;
+
+type FilterId = (typeof filters)[number]['id'];
+
+export default function BlogList() {
+  const [filter, setFilter] = useState<FilterId>('all');
+
+  const sorted = useMemo(() => [...articles].sort((a, b) => (a.date < b.date ? 1 : -1)), []);
+  const list = useMemo(() => (filter === 'all' ? sorted : sorted.filter(a => a.category === filter)), [filter, sorted]);
+
+  const [featured, ...rest] = list;
+
+  return (
+    <>
+      {/* Filters */}
+      <div className="flex justify-center gap-2 flex-wrap mb-10">
+        {filters.map(f => (
+          <button
+            key={f.id}
+            onClick={() => setFilter(f.id)}
+            className={`px-5 py-2.5 rounded-full text-sm font-bold transition-all ${
+              filter === f.id
+                ? 'bg-gradient-to-r from-green-500 to-emerald-600 text-zinc-950 shadow-lg shadow-green-500/25'
+                : 'bg-zinc-800/50 text-zinc-400 hover:text-white border border-zinc-700/50'
+            }`}
+          >
+            {f.label}
+          </button>
+        ))}
+      </div>
+
+      {/* Featured */}
+      {featured && (
+        <Link
+          href={`/blog/${featured.slug}`}
+          className="group relative block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden mb-8 hover:border-green-500/30 hover:shadow-2xl hover:shadow-green-600/10 transition-all duration-300"
+        >
+          <div className="h-64 md:h-96 relative overflow-hidden bg-zinc-900">
+            <img
+              src={blogImg(featured.slug)}
+              alt={featured.title}
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-900/40 to-transparent" />
+            <div className="absolute top-4 left-4 flex items-center gap-2">
+              <span className="text-xs font-bold px-3 py-1 rounded-full bg-green-500 text-zinc-950 uppercase">Featured</span>
+              <span className={`text-xs font-bold px-3 py-1 rounded-full border uppercase backdrop-blur-sm ${categoryColors[featured.category]}`}>{featured.category}</span>
+            </div>
+          </div>
+          <div className="p-6 md:p-10 -mt-24 relative z-10">
+            <div className="flex items-center gap-3 text-sm text-zinc-400 mb-3">
+              <span>{featured.date}</span>
+              <span>·</span>
+              <span>{featured.readTime} min read</span>
+            </div>
+            <h2 className="text-2xl md:text-4xl font-black group-hover:text-green-400 transition-colors mb-3 max-w-2xl">{featured.title}</h2>
+            <p className="text-zinc-300 max-w-2xl leading-relaxed text-lg">{featured.description}</p>
+          </div>
+        </Link>
+      )}
+
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {rest.map(a => (
+          <Link
+            key={a.slug}
+            href={`/blog/${a.slug}`}
+            className="group block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-green-500/30 hover:-translate-y-1 hover:shadow-xl hover:shadow-green-600/5 transition-all duration-300"
+          >
+            <div className="h-44 relative overflow-hidden bg-zinc-900">
+              <img
+                src={blogImg(a.slug)}
+                alt={a.title}
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                loading="lazy"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-zinc-900/70 to-transparent" />
+              <div className="absolute top-4 left-4">
+                <span className={`text-xs font-bold px-3 py-1 rounded-full border uppercase backdrop-blur-sm ${categoryColors[a.category]}`}>{a.category}</span>
+              </div>
+            </div>
+            <div className="p-5">
+              <div className="flex items-center gap-2 mb-2 text-xs text-zinc-500">
+                <span>{a.date}</span>
+                <span>·</span>
+                <span>{a.readTime} min read</span>
+              </div>
+              <h2 className="text-lg font-bold group-hover:text-green-400 transition-colors mb-2 line-clamp-2">{a.title}</h2>
+              <p className="text-zinc-400 text-sm line-clamp-2 mb-3">{a.description}</p>
+              <div className="flex flex-wrap gap-1.5">
+                {a.tags.slice(0, 3).map(t => (
+                  <span key={t} className="text-[11px] text-zinc-500 bg-zinc-800/60 px-2 py-0.5 rounded-full">#{t}</span>
+                ))}
+              </div>
+            </div>
+          </Link>
+        ))}
+      </div>
+
+      {rest.length === 0 && (
+        <div className="text-center py-16">
+          <div className="text-4xl mb-3">📭</div>
+          <p className="text-zinc-400 font-semibold">No articles in this category yet. New ones drop every week.</p>
+        </div>
+      )}
+
+      <div className="mt-14 text-center">
+        <div className="inline-flex flex-col sm:flex-row items-center gap-3 bg-zinc-900/60 border border-zinc-800 rounded-2xl px-6 py-5">
+          <span className="text-2xl">📬</span>
+          <p className="text-sm text-zinc-400">
+            <strong className="text-white">New review every week.</strong> Get the 2026 Gear Guide + price drop alerts free.
+          </p>
+          <Link
+            href="/#gear"
+            className="px-5 py-2.5 bg-gradient-to-r from-green-500 to-emerald-600 text-zinc-950 text-sm font-bold rounded-xl hover:shadow-lg hover:shadow-green-500/25 transition-all"
+          >
+            Browse Gear →
+          </Link>
+        </div>
+      </div>
+    </>
+  );
+}
