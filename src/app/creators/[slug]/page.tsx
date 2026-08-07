@@ -19,10 +19,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const creator = getCreatorBySlug(slug);
   if (!creator) return {};
   return {
-    title: `${creator.name} — Malaysian ${creator.niche} Creator Story & Earnings | GearUp MY`,
+    title: `${creator.name} — Malaysian ${creator.niche} Creator Story & Earnings | Kameralog MY`,
     description: `${creator.name} started with ${creator.startedWith}. Now earns RM${creator.monthlyEarningsMin.toLocaleString()}+/month. See their gear, income breakdown, and advice for new creators.`,
-    openGraph: { title: `${creator.name} — Creator Story | GearUp Malaysia`, description: `From ${creator.startedWith} to RM${creator.monthlyEarningsMin.toLocaleString()}+/month.` },
-    alternates: { canonical: `https://gearup.my/creators/${creator.slug}` },
+    openGraph: { title: `${creator.name} — Creator Story | Kameralog Malaysia`, description: `From ${creator.startedWith} to RM${creator.monthlyEarningsMin.toLocaleString()}+/month.` },
+    alternates: { canonical: `https://kameralog.com/creators/${creator.slug}` },
   };
 }
 
@@ -39,7 +39,7 @@ export default async function CreatorPage({ params }: Props) {
     name: creator.name,
     description: `${creator.niche} content creator in Malaysia. Earns RM${creator.monthlyEarningsMin.toLocaleString()}+ monthly.`,
     knowsAbout: creator.gear,
-    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://gearup.my/creators/${creator.slug}` },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://kameralog.com/creators/${creator.slug}` },
   };
 
   return (

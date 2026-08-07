@@ -7,14 +7,14 @@ import { allGigTopics } from '@/lib/curation';
 import { imgUrl, scenarioRefs } from '@/data/images';
 
 export const metadata: Metadata = {
-  title: 'Inspiration Wall — Live Camera Gigs Content Curated from Google & Social | GearUp MY',
+  title: 'Inspiration Wall — Live Camera Gigs Content Curated from Google & Social | Kameralog MY',
   description:
     'An auto-curating inspiration wall for Malaysian camera gigs. Live search links to Google Images, Instagram hashtags, TikTok and YouTube — plus shuffled imagery for every gig niche.',
   openGraph: {
-    title: 'Inspiration Wall — GearUp Malaysia',
+    title: 'Inspiration Wall — Kameralog Malaysia',
     description: 'Live-curated inspiration for graduation shoots, weddings, galas, portraits and more.',
   },
-  alternates: { canonical: 'https://gearup.my/curate' },
+  alternates: { canonical: 'https://kameralog.com/curate' },
 };
 
 function scenarioTopic(id: string, label: string, emoji: string, hashtags: string[], searchTerms: string[]): CurationTopic {

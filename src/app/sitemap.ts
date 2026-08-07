@@ -6,7 +6,7 @@ import { niches } from '@/data/niches';
 import { gigs } from '@/data/gigs';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = 'https://gearup.my';
+  const base = 'https://kameralog.com';
 
   const staticPages = [
     { url: base, lastModified: '2026-07-15', changeFrequency: 'daily' as const, priority: 1 },
@@ -20,6 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/glossary`, lastModified: '2026-07-15', changeFrequency: 'monthly' as const, priority: 0.6 },
     { url: `${base}/gigs`, lastModified: '2026-08-01', changeFrequency: 'weekly' as const, priority: 0.9 },
     { url: `${base}/curate`, lastModified: '2026-08-01', changeFrequency: 'weekly' as const, priority: 0.8 },
+    { url: `${base}/advertise`, lastModified: '2026-08-01', changeFrequency: 'monthly' as const, priority: 0.6 },
   ];
 
   const gearPages = gearList.map(g => ({

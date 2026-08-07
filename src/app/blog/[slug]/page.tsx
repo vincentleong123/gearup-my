@@ -22,10 +22,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const article = articles.find(a => a.slug === slug);
   if (!article) return {};
   return {
-    title: `${article.title} | GearUp Malaysia`,
+    title: `${article.title} | Kameralog Malaysia`,
     description: article.description,
     openGraph: { title: article.title, description: article.description },
-    alternates: { canonical: `https://gearup.my/blog/${article.slug}` },
+    alternates: { canonical: `https://kameralog.com/blog/${article.slug}` },
   };
 }
 
@@ -43,8 +43,8 @@ export default async function ArticlePage({ params }: Props) {
     headline: article.title,
     description: article.description,
     datePublished: article.date,
-    author: { '@type': 'Organization', name: 'GearUp Malaysia' },
-    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://gearup.my/blog/${article.slug}` },
+    author: { '@type': 'Organization', name: 'Kameralog Malaysia' },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://kameralog.com/blog/${article.slug}` },
   };
 
   return (

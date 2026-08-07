@@ -1982,4 +1982,1109 @@ That's not nothing. That's a niche. That's you.
 
 Turn on the phone. The stories are already in you.`,
   },
+  {
+    slug: 'fujifilm-x100vi-hype-worth-it-malaysia',
+    title: 'Fujifilm X100VI: Is the RM7,199 Hype Worth It in Malaysia?',
+    description: 'The X100VI is the camera everyone is queueing for — and reselling at markup. We do the maths on whether the hype price is worth it, or whether the X-M5 gets you 80% of the look for half the money.',
+    image: '/blog/x100vi-hype.jpg',
+    category: 'gear',
+    readTime: 8,
+    date: '2026-08-01',
+    tags: ['fujifilm', 'compact-camera', 'hype', 'malaysia'],
+    relatedGear: ['fujifilm-x100vi-review-malaysia', 'fujifilm-x-m5-review-malaysia'],
+    content: `Every photography forum in Malaysia has the same thread: "Where can I buy an X100VI?" followed by "RM8,000 for a used one, should I?" 
+
+Let's talk honestly about the most hyped camera of 2024-2026.
+
+## Why the X100VI is hyped
+
+The X100VI is not just a camera — it's a vibe. A fixed 23mm f/2 lens, film simulations, a rangefinder look, and the kind of photos that make Instagram feeds look effortless. Content creators made it famous, and every TikTok photographer wants one.
+
+**The problem:** Fujifilm cannot make enough. Malaysian authorised dealers sell out in days, and the grey market and used market charge RM1,000-2,000 above retail. A camera with an RM6,999 launch price regularly sells used at RM7,500-8,000.
+
+## The real question: does the hype pay for itself?
+
+The X100VI is a brilliant camera. It's also a luxury purchase. Unlike a gig camera — an A7C II or R6 II that earns money at weddings and events — the X100VI is mostly a lifestyle camera.
+
+- **You can't rent it out** profitably (too fragile, fixed lens, niche demand)
+- **It doesn't shoot gigs** (no interchangeable lens, limited for paid event work)
+- **It pays off through content**, not clients — and content income is slow
+
+For most Malaysians, paying RM7,200 for a camera that won't earn back its price is a lifestyle choice, not an investment. That's fine — just know what you're buying.
+
+## The honest alternative: Fujifilm X-M5
+
+Here's the trick the hype crowd won't tell you: **the X-M5 shares the same 40MP sensor and the same film simulations as the X100VI.** That's where 80% of the X100VI look comes from — the colour science, not the lens.
+
+- X-M5 with a 27mm f/2.8 pancake lens: ~RM4,200 total
+- X100VI new: ~RM6,999 (if you can find one)
+- X-M5: interchangeable lenses, 6.2K video, better for vlogging, earns money at gigs
+
+**X-M5 pros over X100VI:** half the price, 6.2K video, interchangeable lens, video autofocus, proper mic input.
+**X100VI pros over X-M5:** built-in viewfinder, leaf shutter (flash sync at any speed), classic rangefinder body, portability.
+
+## The verdict for Malaysian buyers
+
+- **Buy the X100VI** if you're a hobbyist with RM7k spare, you love the look, and you'll carry it daily. It's a joy you'll never regret.
+- **Buy the X-M5** if you want Fujifilm colour AND want your camera to earn money at content gigs.
+- **Never pay markup.** If you must have an X100VI, wait for stock or buy the X100V (previous gen) used — 80% of the hype, RM3,500-4,000.
+
+The hype is real. The price is not.`,
+  },
+  {
+    slug: 'insta360-x5-vs-x4-malaysia-review',
+    title: 'Insta360 X5 vs X4: Is the Upgrade Worth RM1,000?',
+    description: 'The X5 is Insta360\'s biggest X-series jump in years — 1-inch sensor, better low light, new storage. We compare both for Malaysian creators and say who should upgrade.',
+    image: '/blog/x5-vs-x4.jpg',
+    category: 'comparison',
+    readTime: 7,
+    date: '2026-07-28',
+    tags: ['comparison', 'insta360', '360-camera', 'action-cam'],
+    relatedGear: ['insta360-x5-review-malaysia', 'insta360-x4-review-malaysia'],
+    content: `The Insta360 X5 landed in 2026 and it's the biggest X-series upgrade since the X3 became X4. But is it worth upgrading if you already own an X4? For new buyers, is the extra RM1,000 justified?
+
+Here's the honest split.
+
+## What the X5 fixes
+
+The X5's headline upgrade is a **1-inch sensor** — the first in an X-series camera. In plain terms: noticeably better low light, cleaner 8K footage, and less noise than the X4's 1/2-inch sensor.
+
+**Other real upgrades:**
+- **8K 30fps 360 footage** (up from 5.7K on the X4)
+- **Battery-free internal storage option** — buy the 1TB model and you never swap cards
+- **Better mic array** with directional audio for vloggers
+- **Faster stitching and reframing** in the Insta360 app
+- Longer battery life per charge
+
+**What hasn't changed much:** the invisible selfie stick trick (same concept), the general workflow, and the accessory mount compatibility with the X4.
+
+## The price gap
+
+- **X4:** RM2,199 new, RM1,500-1,800 used
+- **X5:** RM2,999 new, RM2,400-2,600 used
+- **Difference:** RM800-1,000
+
+That RM1,000 buys the 1-inch sensor (better night shots, less noise in indoor content) and cleaner 8K. If you shoot real estate, weddings, or night market content — the X5 is worth it. If you shoot outdoors in daylight — the X4 still delivers.
+
+## Should you upgrade?
+
+**Upgrade to X5 if you:**
+- Shoot indoor content (food reviews, showrooms, night markets) where low light matters
+- Deliver 8K to clients who care about resolution
+- Vlog with the 360 cam and want better audio
+- Are annoyed by X4's battery life
+
+**Keep your X4 if you:**
+- Shoot mostly daylight content (travel, cars, outdoor events)
+- Deliver in 4K anyway (most social media)
+- Want to spend the money on an X5-style invisible-stick third-party accessory instead
+
+## The new-buyer verdict
+
+If you have no 360 camera: **buy the X5.** The 1-inch sensor is a genuine step up and you'll keep it for years.
+
+If you already have an X4: the X5 is a real upgrade, not a cash grab — but it's only worth it if you shoot the kind of content the bigger sensor helps. Light-dependent creators: upgrade. Daylight shooters: hold on.
+
+The X4 is still one of the best value 360 cameras on the used market.`,
+  },
+  {
+    slug: 'osmo-action-6-pro-vs-gopro-hero-14-malaysia',
+    title: 'DJI Osmo Action 6 Pro vs GoPro Hero 14: 2026 Action Cam Showdown',
+    description: 'The two kings of action cams, head to head for Malaysian creators. Front screens, stabilisation, battery life, and which one earns its keep at gigs.',
+    image: '/blog/action6-vs-hero14.jpg',
+    category: 'comparison',
+    readTime: 7,
+    date: '2026-07-25',
+    tags: ['comparison', 'action-cam', 'dji', 'gopro'],
+    relatedGear: ['dji-osmo-action-6-pro-review', 'gopro-hero-14-review-malaysia'],
+    content: `For Malaysian action cam buyers, the 2026 battle is a two-horse race: DJI's Osmo Action 6 Pro versus GoPro's Hero 14. Both are excellent. They're not the same camera.
+
+## DJI Osmo Action 6 Pro — the vlogger's choice
+
+The Action 6 Pro keeps everything that made the Action 5 Pro great and adds a bigger, sharper screen.
+
+**Pros:**
+- Front + back touchscreens — see yourself while recording
+- RockSteady 4.0 — arguably the best stabilisation in any action cam
+- Excellent battery life and runs cool
+- DJI Mimo app for quick edits
+
+**Cons:**
+- Colour science is more "flat" than GoPro out of the box
+- Smaller accessory ecosystem in Malaysia (though growing fast)
+- Slightly narrower FOV than GoPro
+
+**Best for:** Vloggers, travel content, gym and POV creators, anyone who talks to camera.
+
+## GoPro Hero 14 — the action classic, refined
+
+The Hero 14 is GoPro's response to DJI's dominance — better low light than the Hero 13 and the most polished HyperSmooth yet.
+
+**Pros:**
+- Unmatched accessory ecosystem (mounts everywhere on Shopee, cheaper)
+- HyperSmooth 7.0 with horizon lock
+- Best-in-class outdoor colour straight from the camera
+- GP-Log for serious colour grading
+
+**Cons:**
+- No front-facing screen
+- Runs hot in Malaysian 30°C+ weather after long clips
+- GoPro subscription adds cost if you want the full suite
+
+**Best for:** Sports, automotive, motorcycle POV, mount-heavy setups.
+
+## The pricing reality
+
+- **Osmo Action 6 Pro:** RM2,099 new, RM1,600-1,700 used
+- **GoPro Hero 14:** RM2,299 new, RM1,700-1,900 used
+
+Both hold value about equally. The used market for DJI action cams is younger, so deals are slightly better.
+
+## The verdict for Malaysian creators
+
+**Buy the Osmo Action 6 Pro** if you vlog or film yourself talking to camera — the front screen is non-negotiable and the battery life wins.
+
+**Buy the GoPro Hero 14** if you're building a mount system (car, helmet, motorcycle) and want the biggest ecosystem — or you prefer GoPro's punchy out-of-camera colour.
+
+**Buy either used.** The previous-gen (Action 5 Pro, Hero 13) is 90% as good for 60% of the price.
+
+Both cameras will earn their keep at gigs. Neither is a bad buy. Pick based on how you hold the camera, not the spec sheet.`,
+  },
+  {
+    slug: 'iphone-17-pro-vs-mirrorless-malaysia-2026',
+    title: 'iPhone 17 Pro vs a RM9,000 Mirrorless: Does the Phone Win in 2026?',
+    description: 'The iPhone 17 Pro shoots 8K and 4K 120fps ProRes. Is a Sony A7C II still worth RM9,500? We compare both honestly for Malaysian content creators.',
+    image: '/blog/iphone17-vs-mirrorless.jpg',
+    category: 'comparison',
+    readTime: 8,
+    date: '2026-07-22',
+    tags: ['comparison', 'iphone', 'mirrorless', 'content-creation'],
+    relatedGear: ['iphone-17-pro-content-creation-malaysia', 'sony-a7c-ii-review-malaysia'],
+    content: `The iPhone 17 Pro is the most capable smartphone camera ever made. 8K video, 4K 120fps ProRes, and computational photography that rivals full-frame sensors for stills. So why would anyone spend RM9,500 on a Sony A7C II?
+
+This is the question Tim keeps asking — and the answer is more honest than the phone-first crowd admits.
+
+## What the iPhone 17 Pro genuinely wins
+
+**Convenience is not a marketing word.** The phone in your pocket:
+- Is always with you — the best camera is the one you have
+- Shoots 4K 120fps slow motion that a RM3,000 mirrorless can't match
+- Has instant AI editing, excellent HDR, and zero learning curve
+- Syncs to the cloud the moment you stop filming
+- Costs RM5,999 and already does your messaging, maps and banking
+
+For vertical content, TikTok, Reels, and quick YouTube — an iPhone 17 Pro is genuinely hard to beat. Most Malaysian creators never need more.
+
+## Where the mirrorless still wins
+
+Here's what the phone evangelists won't tell you:
+
+- **Low light.** A full-frame A7C II sensor crushes the phone in dim weddings, concerts and night gigs. No amount of AI can fake real dynamic range.
+- **Lenses.** You can't put an 85mm f/1.8 on an iPhone. Compression, bokeh and reach are optical, not digital.
+- **Control.** Manual exposure, focus peaking, log profiles — the tools that make paid work look professional.
+- **Client perception.** Paying clients see a big camera and think "professional." That matters more than you'd like.
+- **It earns money.** Weddings, events, product shoots pay. Your phone is your phone.
+
+## The numbers that matter
+
+- **iPhone 17 Pro:** RM5,999 — a phone you'd buy anyway. The camera is effectively free.
+- **Sony A7C II + 28-60mm kit:** ~RM10,000 with a lens. Pure tool cost.
+- **Rentability:** the A7C II rents to creators and shoots client gigs; the iPhone doesn't.
+
+## The honest verdict
+
+**Buy the iPhone 17 Pro** if you're a solo creator making social-first content and your camera income is zero today. It's the fastest path to "I have great gear" with zero extra spend.
+
+**Buy the mirrorless** the moment you're doing paid work — weddings, events, portraits, brand shoots — or when the iPhone's low light starts costing you jobs.
+
+**The pro move:** buy the iPhone now, start earning, and buy the A7C II with the money you make. That's exactly what Tim and Ahmad did — and it's the order that works in Malaysia.`,
+  },
+  {
+    slug: 'best-vlogging-camera-malaysia-2026',
+    title: 'The Best Vlogging Camera in Malaysia for 2026 (RM2,000 to RM9,000)',
+    description: 'From the Fujifilm X-M5 to the Sony ZV-E10 II and A7C II — the honest, tested guide to which vlogging camera to buy in Malaysia this year.',
+    image: '/blog/best-vlogging-camera-2026.jpg',
+    category: 'guide',
+    readTime: 9,
+    date: '2026-07-18',
+    tags: ['guide', 'vlogging', 'camera', 'buying-guide'],
+    relatedGear: ['fujifilm-x-m5-review-malaysia', 'sony-zv-e10-ii-review-malaysia', 'sony-a7c-ii-review-malaysia'],
+    content: `Vlogging in Malaysia means heat, humidity, harsh light, and a lot of handholding your camera while talking. The best vlogging camera for you depends on budget and how much you care about colour versus autofocus.
+
+Here's the 2026 shortlist, honestly ranked.
+
+## Under RM4,000: The vlogging sweet spot
+
+### Sony ZV-E10 II — the safe choice (RM3,899)
+
+The ZV-E10 II is still the default recommendation for a reason: excellent video autofocus, a proper mic input, a flip screen, and a huge lens ecosystem.
+
+**Watch out for:** overheating in direct Malaysian sun during long clips, and the rolling shutter. Add a USB fan for outdoor shoots.
+
+### Fujifilm X-M5 — the colour choice (RM3,899)
+
+The X-M5 gives you the famous Fujifilm film simulations — the "X100VI look" — plus 6.2K video and a real 3.5mm mic input, all in a small body. If your vlogs are about aesthetics (cafes, travel, fashion), this is the most fun camera you can buy at the price.
+
+**Watch out for:** no in-body stabilisation — handheld vlogs are shaky; you'll want a tripod or a gimbal. No viewfinder.
+
+## RM4,000-6,000: When you want image quality
+
+### DJI Osmo Pocket 3 — the beginner cheat code (RM2,199)
+
+It's not technically a camera-body vlogging camera, but the Pocket 3's built-in gimbal and tiny size mean it produces smoother, more professional-looking footage than cameras costing three times more. For talking-to-camera beginners, this is the highest ROI purchase in Malaysian vlogging.
+
+### Sony A7C II — the hybrid upgrade (RM9,499)
+
+The A7C II is what you buy when vlogging becomes income. Full-frame low light, real stabilisation, eye autofocus that tracks you while you walk, and stills good enough for client work. It's a one-camera business.
+
+**Watch out for:** the kit lens is mediocre — budget an extra RM2,000 for a good prime like the 40mm f/2.5.
+
+## The two rules every vlogger breaks
+
+**Rule 1: Audio beats video.** Viewers forgive soft focus. They don't forgive bad audio. Every camera on this list is held back without a good mic. Budget for a DJI Mic 2 or a RM150 lapel mic before you upgrade your camera.
+
+**Rule 2: Light beats camera.** A RM200 light panel improves your footage more than a RM2,000 camera upgrade. The ZV-E10 II with good light beats an A7C II in bad light, every time.
+
+## The 2026 verdict
+
+- **First vlog ever:** DJI Osmo Pocket 3, full stop.
+- **Social-first creator, aesthetics matter:** Fujifilm X-M5.
+- **Serious hybrid work (stills + video):** Sony A7C II.
+- **Budget used market:** a used Sony ZV-E10 for ~RM2,200 is still unbeatable value.
+
+Whichever you pick — buy the mic first.`,
+  },
+  {
+    slug: 'camera-sd-card-speed-guide-malaysia',
+    title: 'SD Card & CFexpress Guide: Don\'t Let a RM40 Card Ruin Your RM10,000 Camera',
+    description: 'The single most misunderstood accessory in Malaysia. V60 vs V90 vs CFexpress — which card your camera actually needs, and where to buy them in Malaysia without getting scammed.',
+    image: '/blog/sd-card-guide.jpg',
+    category: 'guide',
+    readTime: 6,
+    date: '2026-07-15',
+    tags: ['guide', 'accessories', 'sd-card', 'beginner'],
+    relatedGear: ['canon-eos-r6-mark-ii-review-malaysia', 'sony-a7c-ii-review-malaysia'],
+    content: `You spend RM10,000 on a camera and then buy the RM40 SD card at the pasar malam stall. Three months later it corrupts a wedding shoot and you lose RM1,000 of work.
+
+This is the most common gear mistake in Malaysia — and the easiest to fix.
+
+## First: what does the "V" number mean?
+
+SD cards are rated V30, V60, V90 — the speed class for video recording. It's the *minimum* sustained write speed in MB/s.
+
+- **V30:** 30MB/s min — fine for 4K 30fps, most phone-style shooting
+- **V60:** 60MB/s min — fine for 4K 60fps, most mirrorless video
+- **V90:** 90MB/s min — needed for 4K 120fps, 8K, and high-bitrate ProRes/log
+
+**The rule:** read your camera's manual. It lists the card speed required for each mode. If your camera wants V90 for 8K and you put in a V30 — it will either refuse to record or drop frames mid-shot.
+
+## The trick: what your camera actually needs
+
+- **iPhone / phone gimbal shooting:** V30 is fine
+- **ZV-E10, X-M5, R50 (4K 30-60fps):** V30 or V60
+- **A7C II, R6 II, A6700 (4K 60fps high bitrate):** V60 minimum, V90 for log
+- **X100VI (stills mostly):** V60 is plenty
+- **8K cameras (X5, R6 II 8K modes):** V90 or CFexpress
+
+**Cheap-but-correct:** most Malaysian creators never need V90. A good V60 from Sandisk or Lexar (RM150-250) covers 90% of cameras. Buy V90 only if you shoot 8K or ProRes.
+
+## CFexpress: when you actually need it
+
+CFexpress Type A/B cards are fast (500-1700MB/s) but expensive (RM800-2,000). You need one if:
+- Your camera only has CFexpress slots (some higher-end models)
+- You shoot 8K raw or high-bitrate ProRes
+- You do burst stills at 20+ fps for long sequences
+
+**Honest advice:** if you're not sure you need CFexpress, you don't. V60/V90 UHS-II covers most work.
+
+## Where to buy in Malaysia without getting scammed
+
+- **Authorised dealers** (official Shopee/Lazada stores for Sandisk, Lexar, Kingston) — authentic and warrantied
+- **Check for fakes:** genuine cards have a serial number verifiable on the manufacturer's site; RM40 "128GB V90" from an unknown seller is always a fake
+- **Price sanity check:** a genuine 128GB V60 costs RM120-180. If it's half that, it's a fake that will corrupt your data
+
+## The one-card rule
+
+Never shoot a paid gig with a single card that's more than 70% full, and never reuse a card you're unsure about. Format in-camera before every shoot. A RM200 card protects RM10,000 of camera and RM1,000+ of client work — it's the cheapest insurance in photography.`,
+  },
+  {
+    slug: 'dji-mic-2-vs-budget-lapel-malaysia',
+    title: 'DJI Mic 2 vs a RM150 Lapel Mic: Do You Really Need the Pro Audio?',
+    description: 'Everyone tells you audio matters most. But does a RM1,600 DJI Mic 2 beat a RM150 wireless lapel for Malaysian creators? We give you the honest threshold.',
+    image: '/blog/mic2-vs-lapel.jpg',
+    category: 'comparison',
+    readTime: 6,
+    date: '2026-07-12',
+    tags: ['comparison', 'audio', 'microphone', 'beginner'],
+    relatedGear: ['dji-mic-2-review-malaysia', 'sony-zv-e10-ii-review-malaysia'],
+    content: `"Buy a good mic before you upgrade your camera." Every creator youtuber says it. But here's the fine print nobody gives you: a RM150 wireless lapel from Shopee already fixes 90% of your audio problems.
+
+So when is the RM1,599 DJI Mic 2 actually worth it?
+
+## The RM150 lapel: the realistic baseline
+
+For under RM200 you get a wireless lapel set — transmitter, receiver, phone or camera connection. What it fixes:
+
+- **The dead-camera-mic problem:** built-in mics sound distant and echoey; a lapel sounds close and clear
+- **The wind problem:** foam covers fix outdoor hiss on most cheap sets
+- **The talking-to-camera problem:** clips on your collar, hands free
+
+**Honest limits:** audio can sound a little thin, range drops beyond ~10 metres, and the build won't survive daily hard use for years.
+
+**Good enough for:** TikTok, Reels, casual vlogs, interviews, first 50 videos.
+
+## What the DJI Mic 2 actually adds
+
+The Mic 2 costs 10x more. This is what the money buys:
+
+- **Far better audio quality:** 32-bit float recording means you can never blow out the audio — it records on the transmitter itself as a backup
+- **Serious range and reliability:** 250m wireless range, dual-channel (two people, two mics)
+- **Pro features:** records to the transmitter in case the connection drops, better noise cancellation, build quality that lasts years of daily use
+- **Multi-device:** works with camera, phone, and laptop — one set for every gig
+
+## The honest threshold: when to upgrade
+
+**Stay with the RM150 lapel** if you're starting out, your income is zero, and your content is casual. The money is better spent on a light or a tripod.
+
+**Upgrade to the DJI Mic 2 when:**
+- You're doing paid interviews or client shoots where audio failure is unacceptable
+- You're making money — RM1,600 is about 3-5 paid shoots
+- You shoot with two people regularly (the second channel)
+- You've hit a point where thin audio is genuinely costing you engagement
+
+**The in-between option:** the DJI Mic 2 Mini (~RM700) gives you the core quality and reliability for less than half the price, without the charging case.
+
+## The verdict
+
+Audio matters — but "buy the best mic" is bad advice for beginners. Buy a RM150 lapel, learn to use it, and upgrade the day you can trace a lost job or a silent engagement dip to your audio. That's the day it becomes a business expense, not a purchase.
+
+Tim filmed his first 40 videos on a RM140 wireless set. The Mic 2 came later — paid for by the videos the cheap one made possible.`,
+  },
+  {
+    slug: 'best-camera-beginners-malaysia-2026',
+    title: 'The Best Camera for Beginners in Malaysia in 2026 (RM500 to RM4,000)',
+    description: 'New to photography or content creation? The 2026 beginner shortlist for Malaysian budgets — from a RM500 second-hand Nikon to a RM3,900 X-M5 — with honest advice on what to buy and what to skip.',
+    image: '/blog/best-camera-beginners.jpg',
+    category: 'guide',
+    readTime: 10,
+    date: '2026-08-06',
+    tags: ['beginner', 'buying-guide', 'camera', 'malaysia'],
+    relatedGear: ['sony-zv-e10-review-malaysia-second-hand', 'canon-eos-r50-review-malaysia', 'sony-a6100-review-malaysia-second-hand', 'fujifilm-x-m5-review-malaysia'],
+    content: `"I want to start photography/content creation. Which camera should I buy?" is the single most asked question in Malaysia — and the most dangerous one to answer with "buy the latest full frame."
+
+Here's the honest 2026 beginner shortlist, tiered by budget, built around the same rule we use everywhere on Kameralog: **the camera must pay for itself, or be cheap enough that it doesn't need to.**
+
+## Tier 1: RM500 and under — start today
+
+**Nikon D3100 (used, RM300-500)**
+
+Still the best RM500 you can spend in Malaysia. 14MP, 1080p video, and a huge pool of cheap second-hand F-mount lenses on Mudah and Carousell. It will not win awards, and it will not film cinematic 4K — but it teaches you aperture, shutter and ISO properly.
+
+**Who it's for:** absolute beginners, students, anyone who isn't sure photography is for them yet. Lose nothing, learn everything.
+
+## Tier 2: RM1,400-2,500 — the "used mirrorless" sweet spot
+
+**Sony A6100 (used, RM1,400-1,900)**
+
+The best used value in Malaysian mirrorless. Real autofocus, 4K video, flip screen, and Sony's lens ecosystem — so when you outgrow the kit lens, there's an upgrade path. This is the camera Tim and Ahmad bought after their first gigs.
+
+**Sony ZV-E10 (used, RM2,000-2,300)**
+
+The content-creation specialist: bigger grip for vlogging, product-showcase mode, and the same sensor/autofocus as the A6100. If your goal is YouTube/TikTok first and stills second, this is the one.
+
+## Tier 3: RM3,500-4,000 — new and modern
+
+**Canon EOS R50 (RM3,499 new)**
+
+Canon's beginner RF-mount camera. Dual-pixel autofocus that tracks faces reliably, 4K video, and the easiest menus in the business. Buy it with the 18-45mm kit lens and a second-hand 50mm f/1.8 and you have a gig-ready kit.
+
+**Fujifilm X-M5 (RM3,899 new)**
+
+The 2026 hype pick that's actually worth it. Same 40MP sensor and film simulations as the RM7,000 X100VI, plus 6.2K video and a mic input. If you want your feed to look "Fujifilm" without the hype tax — this is the honest answer.
+
+## What beginners should NOT buy
+
+- **A RM6,000+ full frame** as your first camera. You won't use 80% of it, and the money is better spent on lenses or gigs.
+- **Any "starter kit" with 3 lenses for RM800.** They're junk. One decent lens beats five bad ones.
+- **The latest flagship phone just for the camera**, unless you'll also use it as a phone. An iPhone 17 Pro is a fine camera — but it's a RM5,999 *phone*.
+
+## The 2026 verdict
+
+- **Under RM500:** Nikon D3100 used — start learning today.
+- **Serious on a budget:** Sony A6100 used — the value king.
+- **Content creation first:** Sony ZV-E10 used.
+- **New and modern:** Canon R50 or Fujifilm X-M5.
+- **The golden rule:** whatever you choose, the best upgrade is never a bigger sensor — it's a lens, a mic, and a light. And then a gig.
+
+Read the full reviews on each before you decide — every price above is a real 2026 Malaysian estimate, and second-hand prices move.`,
+  },
+  {
+    slug: 'best-mirrorless-camera-malaysia-2026',
+    title: 'Best Mirrorless Camera in Malaysia 2026: Every Budget From RM3,000 to RM12,000',
+    description: 'The definitive mirrorless buying guide for Malaysia in 2026: APS-C value picks, full-frame options, and the hybrids that earn their keep at gigs — with real 2026 prices.',
+    image: '/blog/best-mirrorless.jpg',
+    category: 'guide',
+    readTime: 10,
+    date: '2026-08-05',
+    tags: ['mirrorless', 'buying-guide', 'camera', 'malaysia'],
+    relatedGear: ['sony-a6700-review-malaysia', 'canon-eos-r8-review-malaysia', 'sony-a7c-ii-review-malaysia', 'fujifilm-x-m5-review-malaysia'],
+    content: `Mirrorless is now the only serious game in town — DSLRs are dead as new purchases and new mirrorless models keep getting cheaper. But in Malaysia, "which mirrorless?" splits into four very different budgets. Here's the 2026 map.
+
+## RM3,500-4,000: the new-entry tier
+
+**Fujifilm X-M5 (RM3,899)** — the aesthetics pick. 40MP sensor, film simulations, 6.2K video. No viewfinder, no IBIS — buy it for the look, keep it for travel and café content.
+
+**Canon EOS R50 (RM3,499)** — the easy pick. Canon's beginner AF is the friendliest in class, and RF-S lenses are compact. Not a camera you'll outgrow in week one.
+
+## RM4,000-6,500: the working APS-C tier
+
+**Sony A6700 (RM5,999 new, ~RM5,200 used)** — the hybrid workhorse. Excellent autofocus, 4K 120fps, IBIS, and a real upgrade path into Sony's huge lens line. This is the "I want one camera to do everything" recommendation.
+
+**Canon EOS R8 (RM6,299 new, ~RM5,400 used)** — the full-frame price breaker. Yes, it's full frame at an APS-C price: superb low light and the compact RF system. No IBIS and battery life is modest — the trade-off for the price.
+
+## RM9,000-12,000: the full-frame pro tier
+
+**Sony A7C II (RM9,499 new, RM6,900 used)** — the one-camera business. Full-frame sensor, IBIS, real-time AF that tracks faces even at f/1.4 in a wedding hall, and stills good enough for client work. If you're booking gigs, this is the camera that pays for itself fastest. Budget extra for a good prime — the kit lens is average.
+
+**Canon EOS R6 Mark II (RM11,999 new, RM7,800 used)** — the wedding machine. Dual slots, superb AF, and the reliability professionals demand. The used price makes it the pro pick for Malaysian wedding and event shooters who want to buy once.
+
+## The honest 2026 verdict
+
+- **Budget first:** Fujifilm X-M5 or Canon R50 — both new, both under RM4,000.
+- **One camera for everything:** Sony A6700.
+- **Full frame on a budget:** Canon R8 (buy used).
+- **Serious gig money:** Sony A7C II (used) — the best value pro hybrid in Malaysia right now.
+- **Weddings as a business:** Canon R6 Mark II (used).
+
+**Never buy new if you can buy used.** A used A6700 or R8 is often RM700-1,200 cheaper for the same body, and Malaysian used markets (Mudah, Carousell, Facebook groups) are full of barely-used cameras from people who bought hype they didn't need.`,
+  },
+  {
+    slug: 'camera-under-2000-malaysia-2026',
+    title: 'Best Cameras Under RM2,000 in Malaysia 2026 (New and Second-Hand)',
+    description: 'Great photography does not need a RM10,000 camera. The best new and used cameras under RM2,000 in Malaysia for 2026 — and the gigs that can pay them off in weeks.',
+    image: '/blog/camera-under-2000.jpg',
+    category: 'guide',
+    readTime: 9,
+    date: '2026-08-04',
+    tags: ['budget', 'buying-guide', 'second-hand', 'malaysia'],
+    relatedGear: ['sony-a6100-review-malaysia-second-hand', 'nikon-d3100-review-malaysia-second-hand-price', 'canon-eos-r50-review-malaysia'],
+    content: `RM2,000 is a strange budget in Malaysia: it's below the new-mirrorless price point, but way above what you need for a genuinely capable used camera. So the honest answer to "best camera under RM2,000" is: **buy used, and buy Sony.**
+
+## The value king: Sony A6100 (used, RM1,400-1,900)
+
+Still the best camera money can buy under RM2,000 in Malaysia. 24MP APS-C sensor, real 4K, class-leading autofocus, flip-up screen, and access to Sony's enormous lens ecosystem.
+
+**Why it beats everything new at this price:** there is simply no new camera under RM2,000 that offers its autofocus and lens choice. That's why it tops every "budget mirrorless" list year after year.
+
+**Buy with:** the 16-50mm kit lens to start, then add a used 50mm f/1.8 (RM400-600) when you can.
+
+## The "learn properly" pick: Nikon D3100 (used, RM300-500)
+
+For the price of a weekend out, you get a real DSLR with real controls. It's the classic Malaysian starting camera for a reason — and when you've outgrown it, you sell it for almost what you paid.
+
+## The content-creator pick: Sony ZV-E10 (used, RM2,000-2,300)
+
+A fraction over RM2,000, but worth the stretch if your goal is video first. Product-showcase mode, vlogging grip, and the same sensor as the A6100. If you can't stretch, the A6100 flips up and does fine.
+
+## The wildcard: DJI Osmo Pocket 3 (RM2,199 new)
+
+Not a "camera" in the traditional sense — but for under RM2,200 new, the Pocket 3's built-in gimbal produces smoother footage than any camera body you could afford at this price. For talking-to-camera content, it's the highest ROI purchase in Malaysia right now.
+
+## What you should skip under RM2,000
+
+- **Any new "beginner kit" camera at RM1,000-1,500.** A brand-new entry DSLR from 2015 sold in 2026 is worse than a 2020 used mirrorless for the same money.
+- **The newest GoPro/action cam** if your goal is photography. Action cams are for POV and travel — buy used instead.
+- **"4K, 48MP, 8 lenses" bundles from unknown brands.** Those spec numbers mean nothing. Real brands with real lens ecosystems or nothing.
+
+## The gig math that changes everything
+
+You don't need to *afford* this camera — you need it to afford itself:
+
+- 1 graduation shoot (RM200-450) + 1 portrait session (RM150-400) = a Nikon D3100
+- 4-5 graduation shoots = a used Sony A6100
+- 1 corporate event (RM400-1,000) + 1 wedding (RM300-2,500) = the ZV-E10
+
+Under RM2,000, the camera pays for itself in a handful of Malaysian gigs — which is the whole point of the Gig-to-Gear system.`,
+  },
+  {
+    slug: 'mirrorless-vs-dslr-malaysia',
+    title: 'Mirrorless vs DSLR: Which Should Malaysians Actually Buy in 2026?',
+    description: 'The DSLR vs mirrorless debate explained simply for Malaysians: what the difference actually is, what it means for your money, and when a used DSLR is still the right buy.',
+    image: '/blog/mirrorless-vs-dslr.jpg',
+    category: 'guide',
+    readTime: 8,
+    date: '2026-08-03',
+    tags: ['mirrorless', 'dslr', 'buying-guide', 'beginner'],
+    relatedGear: ['nikon-d3100-review-malaysia-second-hand-price', 'sony-zv-e10-review-malaysia-second-hand'],
+    content: `Every Malaysian camera forum has the eternal question: mirrorless or DSLR? By 2026 the answer for *new* buyers is almost always mirrorless — but for *used* buyers, the old DSLR can still be the smartest ringgit in your pocket. Here's the honest breakdown.
+
+## The actual difference (simply)
+
+A DSLR has a mirror that flips up to let light hit the sensor. A mirrorless camera has no mirror — the sensor is always exposed and you view through it electronically.
+
+**What this means in practice:**
+- **Mirrorless is smaller and lighter** — every gram matters when you carry a camera around KL all day
+- **Mirrorless has modern autofocus** — face/eye tracking that a DSLR can't match
+- **Mirrorless shows what you'll get** — WYSIWYG exposure, focus peaking, zebras
+- **DSLRs have optical viewfinders** — never lag, no battery drain
+- **DSLRs have giant used lens markets** — cheap, proven, everywhere
+
+## The money question
+
+The price difference has collapsed at the high end, but it's huge at the budget end:
+
+- **Used Nikon D3100 (DSLR):** RM300-500
+- **Used Sony A6100 (mirrorless):** RM1,400-1,900
+
+For a beginner with RM500, the D3100 is a *better* teacher than anything else in its class — the old-tech AF force you to learn manual focus and composition. For a beginner with RM1,500, the A6100 is the better buy because its autofocus gets out of your way and lets you learn *content* instead of *focusing*.
+
+## When a used DSLR is still the right buy in 2026
+
+1. **Budget under RM800.** No mirrorless at this price beats a used mid-range DSLR.
+2. **You want the cheapest portrait lens system.** Used 50mm f/1.8 lenses for DSLR mounts cost RM200-400. That bokeh is real and cheap.
+3. **You're testing whether you like photography** before spending real money. A RM400 DSLR you resell at RM350 teaches you everything with almost no downside.
+
+## When to go mirrorless
+
+- **Content creation / video.** Every new mirrorless records 4K with working autofocus; DSLRs were never designed for it.
+- **Any paid gig work.** Clients don't care about the mirror, but you will care about the AF and the flip screen.
+- **Travel and daily carry.** Size and weight win.
+- **Any budget above RM1,200.** At that point mirrorless autofocus and lenses justify themselves.
+
+## The 2026 verdict
+
+**Buy mirrorless if you can afford RM1,200+** — the autofocus and size advantages are worth it, and used mirrorless is now common.
+
+**Buy a used DSLR only under RM800**, for learning, or for the cheapest possible portrait setup. The D3100's era is over as a primary workhorse — but as a RM400 teacher and resale-worthy starter, it's still unbeatable.
+
+Whichever you choose: it's not the camera that makes the photos. It's the person, the light, and the gigs.`,
+  },
+  {
+    slug: 'full-frame-vs-crop-sensor-malaysia',
+    title: 'Full Frame vs Crop Sensor: Is the Extra RM3,000 Worth It in Malaysia?',
+    description: 'Full-frame sensors cost RM3,000+ more in Malaysia. We break down what you actually get for the money — low light, bokeh, dynamic range — and who should skip the upgrade entirely.',
+    image: '/blog/full-frame-vs-crop.jpg',
+    category: 'guide',
+    readTime: 9,
+    date: '2026-08-02',
+    tags: ['full-frame', 'sensor', 'buying-guide', 'camera'],
+    relatedGear: ['sony-a7c-ii-review-malaysia', 'sony-a6700-review-malaysia'],
+    content: `"Should I go full frame?" is the upgrade question that empties Malaysian wallets. A full-frame body costs RM3,000-6,000 more than a comparable crop-sensor camera — before you even touch the pricier full-frame lenses.
+
+The honest answer: **full frame is worth it for some people and a waste of money for others.** Here's how to know which one you are.
+
+## What full frame actually gives you
+
+**1. Better low light (the big one).** A full-frame sensor is roughly 2.25x larger than APS-C, so it collects more light. In a dim wedding hall or night market, a full-frame A7C II at ISO 6400 looks like an APS-C A6700 at ISO 2500-3200. This is the difference between "usable" and "clean" in real Malaysian event conditions.
+
+**2. More dynamic range.** Full frame recovers more detail from shadows and highlights. Sunset backlit portraits that blow out on crop sensors grade beautifully on full frame.
+
+**3. Easier bokeh.** Same lens aperture = shallower depth of field on full frame. If portraits are your thing, this matters.
+
+**4. Better sensor tech.** Flagship-grade autofocus, faster readout, higher-res sensors — features flow to full-frame bodies first.
+
+## What full frame does NOT give you
+
+- **Sharper photos.** A great lens on crop beats a mediocre lens on full frame, every time.
+- **More reach.** In fact crop sensors give you "free zoom" — a 200mm lens is effectively 300mm on APS-C. Sports and wildlife shooters often *prefer* crop.
+- **Easier handheld shooting.** IBIS on modern APS-C cameras (A6700) already covers most shake.
+
+## The cost reality in Malaysia
+
+- **APS-C:** Sony A6700 (RM5,999), Fujifilm X-M5 (RM3,899), Canon R50 (RM3,499)
+- **Full frame:** Sony A7C II (RM9,499), Canon R8 (RM6,299), Canon R6 II (RM11,999)
+- **Lenses:** a full-frame 24-70mm f/2.8 costs RM4,000-7,000; the APS-C equivalent f/2.8 zoom is often RM1,500-2,500 less
+
+Total ownership gap is easily RM4,000-8,000 once lenses are included.
+
+## Who should buy full frame
+
+- **Wedding/event shooters** who work in low light and charge RM500+ per gig
+- **Portrait photographers** building a client business
+- **Any gig where ISO 3200+ is routine** — you literally cannot do the job well on crop
+
+## Who should skip full frame
+
+- **Beginners.** Spend the difference on lenses, a light, and gigs instead.
+- **Vloggers / social creators.** 4K video looks nearly identical on A6700 vs A7C II once compressed for TikTok.
+- **Outdoor/travel shooters.** Daylight is daylight — crop sensors excel.
+
+## The verdict
+
+Full frame is a **business purchase**, not a gear purchase. The moment a gig goes unbooked because your low light wasn't clean enough, that's when you earn the upgrade — and the A7C II (used, RM6,900) is the smartest way to make it in Malaysia. Before that moment? Keep the crop sensor and buy a fast prime. It'll change your photos more than any sensor size.`,
+  },
+  {
+    slug: 'best-first-lens-malaysia',
+    title: 'The Best First Lens for Malaysian Creators (And the Lenses You Should Skip)',
+    description: 'The kit lens is fine, but your second lens changes everything. The best first lens to add in Malaysia by camera brand — and which popular lenses are a waste of ringgit.',
+    image: '/blog/best-first-lens.jpg',
+    category: 'guide',
+    readTime: 8,
+    date: '2026-07-31',
+    tags: ['lens', 'buying-guide', 'accessories', 'beginner'],
+    relatedGear: ['sony-a6100-review-malaysia-second-hand', 'canon-eos-r50-review-malaysia'],
+    content: `You bought your camera. Now the internet is shouting "buy this lens, buy that lens!" Before you spend, here's the honest 2026 lens advice for Malaysian budgets — including what to skip.
+
+## Rule one: keep the kit lens for now
+
+The 16-50mm / 18-45mm kit lens that came with your camera is genuinely fine for daylight content, and it's the cheapest way to learn focal length. Don't sell it, don't upgrade it immediately. Just add to it.
+
+## The only first lens that matters: a 50mm f/1.8
+
+A 50mm f/1.8 prime is the single highest-impact, lowest-cost upgrade in photography. The wide aperture (f/1.8) blurs backgrounds and captures 4x more light than the kit lens, which means:
+
+- Portraits with real bokeh
+- Sharper, brighter indoor shots without buying a light
+- You learn composition because you can't zoom
+
+**Malaysian prices by mount:**
+- **Sony E:** 50mm f/1.8 OSS — RM700-900 new, RM500-600 used
+- **Canon RF:** RF 50mm f/1.8 — RM800-1,000 new
+- **Nikon F (used DSLR):** 50mm f/1.8 D — RM300-400 used (the budget legend)
+- **Micro four-thirds:** Panasonic 25mm f/1.7 (50mm equivalent) — RM600-800
+
+That RM300-500 used Nikon F 50mm is the cheapest bokeh machine in Malaysia.
+
+## What to buy second: the "useful everyday" prime
+
+A **35mm f/1.8** (Sony) or equivalent gives you a wider everyday view than 50mm — great for vlogs, food, and travel. Buy this after the 50mm if you shoot content more than portraits.
+
+## The lenses you should SKIP in 2026
+
+- **Any "3-in-1" or "6-in-1" macro/wide/tele converter kits** (RM100-300). Cheap glass on top of glass = soft, hazy photos. A scam of convenience.
+- **The 70-300mm budget telephoto** as a first lens. Heavy, slow, and you won't use it. Telephoto reach is a *later* purchase, for events and wildlife.
+- **An f/3.5-5.6 upgrade kit lens** ("faster zoom!"). Marginal improvement, real money. Save for the prime.
+- **A 30mm f/1.4 "portrait" lens if you're on crop Sony** — it's actually a ~45mm equivalent; fine, but the 50mm f/1.8 OSS is better value for most.
+
+## The 2026 lens ladder
+
+1. **Own the kit lens** — learn what focal lengths you actually use
+2. **Add a 50mm f/1.8** — the bokeh and low-light step (RM300-900)
+3. **Add a 35mm f/1.8** — the everyday/ vlog step, if content is your goal
+4. **Only then consider zooms** (16-55mm f/2.8) once gig income justifies it
+
+A used 50mm f/1.8 plus your existing body will out-photograph someone with a RM10,000 body and a kit lens. The lens is where the ringgit counts.`,
+  },
+  {
+    slug: 'camera-price-guide-malaysia-2026',
+    title: 'The 2026 Malaysia Camera Price Guide: 40+ Cameras, New and Second-Hand Prices',
+    description: 'One page, every camera we review, with real 2026 Malaysian prices — new and second-hand. Your single reference before buying any camera, drone or action cam in Malaysia.',
+    image: '/blog/camera-price-guide.jpg',
+    category: 'guide',
+    readTime: 12,
+    date: '2026-07-30',
+    tags: ['price-guide', 'buying-guide', 'second-hand', 'malaysia'],
+    relatedGear: ['sony-a6100-review-malaysia-second-hand', 'canon-eos-r50-review-malaysia', 'sony-a7c-ii-review-malaysia'],
+    content: `This is your 2026 price reference for every camera and gear we've reviewed on Kameralog. Prices are estimates from Malaysian dealers, Shopee/Lazada flagship stores, Mudah and Carousell as of August 2026 — always check the individual review for the latest numbers and negotiation tips.
+
+## Entry level (RM500 and under, second-hand)
+
+| Gear | Used price |
+| --- | --- |
+| Nikon D3100 (body) | RM300-500 |
+| Sony A6100 (used, body) | RM1,400-1,900 |
+
+## Content creation & vlogging
+
+| Gear | New | Used |
+| --- | --- | --- |
+| Sony ZV-E10 | — | RM2,000-2,300 |
+| Sony ZV-E10 II | RM3,899 | RM3,200-3,500 |
+| DJI Osmo Pocket 3 | RM2,199 | RM1,700-1,900 |
+| DJI Mic 2 | RM1,599 | RM1,100-1,300 |
+
+## Cameras (APS-C)
+
+| Gear | New | Used |
+| --- | --- | --- |
+| Canon EOS R50 | RM3,499 | RM2,800-3,100 |
+| Fujifilm X-M5 | RM3,899 | RM3,200-3,500 |
+| Sony A6700 | RM5,999 | RM5,000-5,300 |
+
+## Cameras (Full frame)
+
+| Gear | New | Used |
+| --- | --- | --- |
+| Canon EOS R8 | RM6,299 | RM5,200-5,500 |
+| Sony A7C II | RM9,499 | RM6,900-7,400 |
+| Canon EOS R6 Mark II | RM11,999 | RM7,800-8,500 |
+
+## Compact & hype
+
+| Gear | New | Used |
+| --- | --- | --- |
+| Fujifilm X100VI | RM6,999 (rare) | RM7,500-8,000 (hype tax) |
+
+## Drones
+
+| Gear | New | Used |
+| --- | --- | --- |
+| DJI Mini 3 Pro | RM2,199 | RM1,300-1,800 |
+| DJI Mini 4 Pro | RM3,299 | RM2,400-2,800 |
+| DJI Mini 5 | RM2,999 | — |
+| DJI Air 3S | RM6,299 | RM5,000-5,500 |
+| DJI Mavic 4 | RM10,499 | RM8,500-9,000 |
+
+## Action & 360
+
+| Gear | New | Used |
+| --- | --- | --- |
+| GoPro Hero 12 | RM2,199 | RM950-1,200 |
+| GoPro Hero 13 | RM2,399 | RM1,500-1,700 |
+| GoPro Hero 14 | RM2,299 | RM1,700-1,900 |
+| DJI Osmo Action 4 | — | RM1,000-1,300 |
+| DJI Osmo Action 5 Pro | — | RM1,400-1,600 |
+| DJI Osmo Action 6 Pro | RM2,099 | RM1,600-1,800 |
+| Insta360 X4 | RM2,199 | RM1,500-1,800 |
+| Insta360 X5 | RM2,999 | RM2,400-2,600 |
+
+## Mobile (the cameras in your pocket)
+
+| Gear | New | Used |
+| --- | --- | --- |
+| iPhone 15 | RM3,499 | RM2,600-3,000 |
+| iPhone 16 Pro | RM5,499 | RM4,500-5,000 |
+| iPhone 17 Pro | RM5,999 | RM5,000-5,400 |
+| Samsung S25 Ultra | RM6,299 | RM5,000-5,500 |
+| Google Pixel 9 Pro | RM5,999 | RM4,500-5,000 |
+| Xiaomi 15 Ultra | RM5,999 | RM5,000-5,500 |
+
+## Three rules for reading this table
+
+1. **Used prices are ranges, not absolutes.** Condition, shutter count and accessories move every deal. Always negotiate.
+2. **The hype tax is real.** Cameras like the X100VI sell *above* new price used. Never pay it — wait for stock or buy last gen.
+3. **The best price is the one you can verify.** Check Mudah, Carousell and Facebook groups on the same day, and use the honest prices above as your anchor.
+
+Every single row in this table links to a full review with pros, cons, and the gig math to pay it off. That's the Kameralog difference — price and payoff on every page.`,
+  },
+  {
+    slug: 'how-many-gigs-pay-off-camera-malaysia',
+    title: 'How Many Part-Time Gigs Pay Off Your Camera in Malaysia? (The Full Math)',
+    description: 'The exact gig-to-gear math for Malaysian creators: how many graduation shoots, weddings, galas or drone jobs cover a used A6100, A7C II, or X-M5 — with real 2026 rates.',
+    image: '/blog/how-many-gigs.jpg',
+    category: 'guide',
+    readTime: 9,
+    date: '2026-07-29',
+    tags: ['gigs', 'income', 'roi', 'malaysia'],
+    relatedGear: ['sony-a6100-review-malaysia-second-hand', 'sony-a7c-ii-review-malaysia', 'canon-eos-r8-review-malaysia'],
+    content: `"I can't afford a camera" is not the real problem. The real problem is thinking you must *save up* before you can buy one — when in fact a camera pays for itself in a handful of Malaysian part-time gigs.
+
+Here's the full math, using our real 2026 gig rates.
+
+## The rate card (what Malaysian clients actually pay)
+
+| Gig | Typical rate |
+| --- | --- |
+| Graduation photoshoot | RM200-450 |
+| Portrait session | RM150-400 |
+| Food/brand content | RM150-400 |
+| Gala dinner coverage | RM300-600 |
+| Real estate media | RM250-600 |
+| Corporate event coverage | RM400-1,000 |
+| Photo booth event | RM400-800 |
+| Wedding coverage | RM300-2,500 |
+| Drone aerial media | RM400-1,200 |
+| Video content for business | RM500-1,500 |
+
+## How many gigs per camera (using realistic mid-rates)
+
+**Nikon D3100 — used RM400**
+- 2 graduation shoots (RM200-450) or
+- 1-2 portrait sessions (RM150-400)
+
+**Sony A6100 — used RM1,650**
+- 4-5 graduation shoots, or
+- 2-3 corporate events (RM400-1,000), or
+- 2 real estate shoots (RM250-600) + 2 graduations
+
+**Canon R50 — new RM3,499**
+- 6-7 graduations, or
+- 4-5 galas (RM300-600), or
+- 3 weddings on the low end (RM300) — or 1 wedding with a RM2,500 client
+
+**Sony A7C II — used RM7,000**
+- 7-8 corporate events (RM400-1,000), or
+- 4-5 real estate shoots + 3 events, or
+- 3-4 mid-range weddings (RM800-1,200)
+
+**Canon R6 Mark II — used RM8,000**
+- 8-9 graduations, or
+- 4-5 weddings at RM1,500 average, or
+- 8 drone aerial jobs (RM400-1,200) for the video business
+
+## The pattern that matters
+
+Notice something? **The expensive cameras pay off in fewer gigs than the cheap ones** — because expensive gear unlocks expensive gigs (weddings, events, drone work). The A7C II's RM7,000 is covered by roughly the same *number* of gigs as the A6100's RM1,650.
+
+That's the real math of the Gig-to-Gear system: you're not buying a camera, you're buying *access to higher-paying work*.
+
+## The honest timing
+
+- **Month 1:** book 2-3 easy gigs (graduations, portraits) at RM200-450
+- **Month 2:** level up to events and real estate at RM400-1,000
+- **By month 3:** the camera is paid off and you're keeping the profit
+
+That's 2-3 months of part-time evenings and weekends — not a year of saving.
+
+## The three rules that make this work
+
+1. **Price the gig, not the gear.** Charge for your time and delivery, not "to pay for the camera."
+2. **Start with your phone** if you must — a graduation shoot booked today with an iPhone is a camera paid off sooner.
+3. **Never wait to be "ready."** The camera pays for itself *through* the gigs, not before them.
+
+Pick your camera, count the gigs, and book the first one this week. The math is on your side.`,
+  },
+  {
+    slug: 'dji-mini-3-pro-vs-mini-4-pro-malaysia',
+    title: 'DJI Mini 3 Pro vs Mini 4 Pro Malaysia: Is the 4 Pro Worth RM1,000 More?',
+    description: 'Two license-free drones, one decision. We compare the DJI Mini 3 Pro and Mini 4 Pro for Malaysian buyers in 2026 — including the used-price gap and the gig math.',
+    image: '/blog/mini3-vs-mini4.jpg',
+    category: 'comparison',
+    readTime: 7,
+    date: '2026-07-27',
+    tags: ['comparison', 'drone', 'dji', 'malaysia'],
+    relatedGear: ['dji-mini-3-pro-review-malaysia', 'dji-mini-4-pro-review-malaysia'],
+    content: `For Malaysian drone buyers, the 2026 "cheap but capable" decision is still Mini 3 Pro vs Mini 4 Pro — both under 250g, both license-free under CAAM rules, both brilliant. The question is whether the 4 Pro's extras justify the RM1,000+ gap.
+
+## The specs that matter
+
+**DJI Mini 3 Pro (2022)**
+- 1/1.3-inch 48MP sensor, 4K 60fps
+- Three-way obstacle sensing
+- ~34 min battery
+- Vertical video support
+
+**DJI Mini 4 Pro (2023)**
+- Same sensor, same 4K 60fps headline
+- **Omnidirectional (360°) obstacle sensing** — the big one
+- **4K 100fps slow motion** (vs 60fps)
+- Better follow-mode subject tracking
+- 10-bit D-Log M colour
+
+## The Malaysian price gap
+
+- **Mini 3 Pro:** RM2,199 new / RM1,300-1,800 used
+- **Mini 4 Pro:** RM3,299 new / RM2,400-2,800 used
+- **Gap:** RM800-1,300, bigger on the used market
+
+## What the 4 Pro does that actually matters
+
+**Omnidirectional obstacle sensing.** The Mini 3 Pro sees obstacles in three directions (front, back, bottom). The 4 Pro sees in all directions — front, back, left, right, up and down. If you're flying in tight spots (between trees, inside property walkthroughs), this is the single biggest safety upgrade in the lineup.
+
+**4K 100fps slow motion.** One of the most used features by creators. 60fps is smooth; 100fps slow-mo is *cinematic*.
+
+**Better tracking.** Follow-mode on the 4 Pro holds subjects through obstacles and turns better. Wedding and sports content looks far more professional.
+
+## Where the 3 Pro still wins
+
+- **Price.** RM1,000+ is a real difference.
+- **Vertical video.** Both do it; if TikTok/Reels is your main output, the 3 Pro covers you.
+- **The used market.** RM1,300-1,800 for a license-free, 4K 60fps drone is the best value aerial content purchase in Malaysia.
+
+## The gig math
+
+- **Mini 3 Pro used (RM1,500):** 3-4 real estate shoots (RM250-600) or 2-3 drone aerial jobs (RM400-1,200)
+- **Mini 4 Pro used (RM2,600):** 4-5 real estate shoots or 3 aerial jobs
+
+Both pay for themselves within a month of weekend property work. The 4 Pro pays off only 1-2 jobs slower than the 3 Pro.
+
+## The 2026 verdict
+
+**Buy the Mini 4 Pro** if you're flying for money in tight spaces (real estate, events) — omnidirectional sensing is insurance that pays for itself the first time it stops a crash.
+
+**Buy the Mini 3 Pro** if you're a beginner or hobbyist, or if you want the absolute cheapest entry into license-free aerial income. Used at RM1,300-1,800, it's the value king.
+
+**Never buy the 4 Pro at full new price** if you can find it used — the RM400-800 used saving funds a spare battery and extra props, which is what actually keeps you flying.`,
+  },
+  {
+    slug: 'best-drone-malaysia-2026',
+    title: 'Best Drone in Malaysia 2026: License-Free to Pro, Every Budget',
+    description: 'From the RM900 DJI Neo to the RM10,000 Mavic 4 — the 2026 drone buying guide for Malaysia, including CAAM rules, which drones need a license, and which pay for themselves.',
+    image: '/blog/best-drone.jpg',
+    category: 'guide',
+    readTime: 9,
+    date: '2026-07-26',
+    tags: ['drone', 'buying-guide', 'dji', 'malaysia'],
+    relatedGear: ['dji-mini-4-pro-review-malaysia', 'dji-mini-5-review-malaysia', 'dji-mavic-4-review-malaysia'],
+    content: `Drones are the fastest way to earn with a camera in Malaysia — property aerials and event footage pay RM400-1,200 per job. But before you buy, you need to know one rule that changes everything:
+
+**In Malaysia, drones under 250g don't need a CAAM license. Heavier drones do.**
+
+That single rule shapes the entire 2026 buying guide.
+
+## The rule (get this right)
+
+- **Under 250g** (DJI Mini series, DJI Neo): fly for business same-day, no CAAM license. Register online as a hobbyist/operator, follow the no-fly zone rules.
+- **Over 250g** (DJI Air, Mavic series): you need a CAAM Remote Pilot License and to register the drone. Takes time, costs money, and it's legally required for paid work.
+
+For 90% of Malaysian creators, "under 250g" is the answer.
+
+## The 2026 shortlist
+
+### RM900-1,500: the entry option
+
+**DJI Neo (RM999)** — the palm-sized selfie drone. 4K, no controller needed (phone control), safe around people. It's a content toy more than a gig drone — fun for vlog b-roll, not for client work.
+
+**DJI Mini 3 Pro (used, RM1,300-1,800)** — the best value aerial camera in Malaysia. Under 250g, license-free, 4K 60fps. Buy this used and start earning this month.
+
+### RM2,400-3,500: the earning sweet spot
+
+**DJI Mini 4 Pro (used, RM2,400-2,800)** — omnidirectional obstacle sensing and 4K 100fps slow-mo. This is the drone most Malaysian creators should buy.
+
+**DJI Mini 5 (RM2,999 new)** — the 2026 flagship mini: longer battery, better obstacle avoidance, and the latest tracking. If you're buying new and want the best mini, this is it.
+
+### RM5,000-11,000: pro territory (CAAM license required)
+
+**DJI Air 3S (RM6,299)** — 3-axis gimbal, dual camera, great in low light. The step-up that unlocks serious aerial clients. Needs a CAAM license.
+
+**DJI Mavic 4 (RM10,499)** — the professional flagship. If you're building an aerial media business, this is the tool — but only after the license and the clients justify it.
+
+## Which drone pays for itself fastest?
+
+| Drone | Price | Gigs to pay off (RM400-1,200 aerial jobs) |
+| --- | --- | --- |
+| DJI Neo | RM999 | 2-3 |
+| Mini 3 Pro used | RM1,500 | 2-4 |
+| Mini 4 Pro used | RM2,600 | 3-5 |
+| Air 3S | RM6,299 | 6-10 (plus license costs) |
+
+The Mini series pays for itself within a month of weekend property work — and it needs **no CAAM license** to do it.
+
+## The 2026 verdict
+
+- **Budget first / test the waters:** DJI Neo — or a used Mini 3 Pro for serious quality
+- **The smart buy:** Mini 4 Pro used — license-free, pro features, pays off fast
+- **New and future-proof:** DJI Mini 5
+- **Aerial business:** Air 3S or Mavic 4, once you've done the CAAM license
+
+Remember: the license-free 249g Mini drones can legally earn in Malaysia from day one. That's why they're the smartest aerial purchase a creator can make.`,
+  },
+  {
+    slug: 'best-action-camera-malaysia-2026',
+    title: 'Best Action Camera in Malaysia 2026: DJI, GoPro or Insta360?',
+    description: 'Action cams by use case: DJI Osmo Action 6 Pro for vloggers, GoPro Hero 14 for mount systems, Insta360 X5 for unique 360 content. The honest 2026 Malaysian buying guide.',
+    image: '/blog/best-action-camera.jpg',
+    category: 'guide',
+    readTime: 8,
+    date: '2026-07-24',
+    tags: ['action-cam', 'gopro', 'dji', 'insta360'],
+    relatedGear: ['insta360-x5-review-malaysia', 'dji-osmo-action-6-pro-review', 'gopro-hero-12-review-malaysia'],
+    content: `Every action cam spec sheet says "the best ever." None of them tell you which one is right for *your* content. In 2026 the Malaysian choice is really three cameras, each with a different superpower.
+
+## The three-way split
+
+### DJI Osmo Action 6 Pro (RM2,099 new) — the vlogger's action cam
+
+**The superpower: front screen.** You can see yourself while recording. For talking-to-camera, POV vlogs, gym and travel content — this is the single most useful feature in the category.
+
+**Also great:** best-in-class stabilisation (RockSteady 4.0), long battery life, runs cool in Malaysian heat.
+
+**Best for:** vloggers, travel creators, anyone who films themselves.
+
+### GoPro Hero 14 (RM2,299 new) — the mount king
+
+**The superpower: the accessory ecosystem.** GoPro has decades of mounts — helmet, chest, car, motorcycle — and they're cheap and everywhere in Malaysia. If you're building a POV setup, no other brand comes close.
+
+**Also great:** punchy out-of-camera colour, HyperSmooth 7.0, GP-Log for grading.
+
+**Best for:** motorsports, motorcycle content, automotive, mount-heavy POV.
+
+### Insta360 X5 (RM2,999 new) — the unique-content machine
+
+**The superpower: 360 capture.** Shoot in every direction, then "reframe" after — so one ride through the city produces a drone-style third-person shot with the invisible selfie-stick trick. No other camera can do this.
+
+**Also great:** the 1-inch sensor makes it the best low-light 360 cam yet, 8K 30fps, built-in storage options.
+
+**Best for:** real estate, automotive walkarounds, creative social content, anyone who wants footage nobody else has.
+
+## Prices compared
+
+| Camera | New | Used |
+| --- | --- | --- |
+| DJI Osmo Action 6 Pro | RM2,099 | RM1,600-1,800 |
+| GoPro Hero 14 | RM2,299 | RM1,700-1,900 |
+| Insta360 X5 | RM2,999 | RM2,400-2,600 |
+
+**The value play:** GoPro Hero 12 used (RM950-1,200) and DJI Osmo Action 4 used (RM1,000-1,300) are 90% of the current flagships at half the price. The Insta360 X4 used (RM1,500-1,800) is the same story for 360.
+
+## The gig math
+
+- **Real estate:** the Insta360 (X4 or X5) is the money maker — clients love the walkthrough shots. 2-3 jobs pay it off.
+- **Automotive/car content:** GoPro (any gen) — a mount system + car dealership content pays for itself in 2-3 shoots.
+- **Travel/vlogs:** Osmo Action — front screen plus stabilisation is all you need.
+
+## The 2026 verdict
+
+- **Film yourself:** DJI Osmo Action 6 Pro (or the used Action 5 Pro for less)
+- **Mount-based POV:** GoPro Hero 14 (or used Hero 12/13)
+- **Want viral/unique footage:** Insta360 X5 (or used X4)
+- **Best value overall:** buy last year's model used — action cams improve slowly and drop in price fast
+
+Whichever you pick, buy a couple of extra batteries and a good chest/helmet mount. The camera is the cheap part; the accessory system is where the content gets good.`,
+  },
+  {
+    slug: 'part-time-photographer-earnings-malaysia',
+    title: 'How Much Do Part-Time Photographers Actually Earn in Malaysia? (2026 Rates)',
+    description: 'Real Malaysian part-time photography income in 2026: rates per gig, realistic monthly totals, and what separates a RM500 hobbyist month from a RM5,000 side hustle.',
+    image: '/blog/photographer-earnings.jpg',
+    category: 'inspiration',
+    readTime: 9,
+    date: '2026-07-23',
+    tags: ['income', 'gigs', 'part-time', 'malaysia'],
+    relatedGear: ['sony-zv-e10-review-malaysia-second-hand', 'sony-a7c-ii-review-malaysia'],
+    content: `"How much can I actually earn as a part-time photographer in Malaysia?" Everyone asks, nobody gives a straight number. So here it is — straight, with real 2026 rates.
+
+## The rate reality by gig type
+
+| Gig type | Rate range | Typical time |
+| --- | --- | --- |
+| Graduation photoshoot | RM200-450 | 1-2 hours + editing |
+| Portrait session | RM150-400 | 1 hour + editing |
+| Food/brand content | RM150-400 | 1-2 hours |
+| Real estate media | RM250-600 | 1-2 hours |
+| Gala/event coverage | RM300-600 | 2-4 hours |
+| Corporate event | RM400-1,000 | 3-6 hours |
+| Photo booth | RM400-800 | 3-4 hours |
+| Wedding (half-day) | RM800-1,500 | 4-6 hours |
+| Wedding (full-day) | RM1,500-2,500 | 8-10 hours |
+| Drone aerial | RM400-1,200 | 1-3 hours |
+| Video content for business | RM500-1,500 | half day + editing |
+
+## What this means for monthly income
+
+**Realistic part-time month — beginner (RM500-1,200):**
+- 3 graduations (RM200-450 each) = RM600-1,350
+- Takes: weekends only, 2-3 evenings editing
+
+**Realistic part-time month — established (RM1,500-3,000):**
+- 2 graduations + 1 gala + 1 corporate event
+- = RM400-900 + RM300-600 + RM400-1,000
+
+**Realistic part-time month — skilled specialist (RM3,000-6,000):**
+- 1-2 weddings (RM800-2,500 each) + 2 real estate jobs + 1 video gig
+- = RM2,000-5,000 + RM500-1,200 + RM500-1,500
+
+These are real numbers from creators on this site, not internet fantasy. The key: **the specialist earns 3-5x the beginner doing the same number of gigs**, because higher-value work (weddings, video, drone) pays 5-10x per hour.
+
+## What separates RM500 from RM5,000 months
+
+1. **Skill stacking, not gear.** The jump from graduation (RM200-450) to wedding (RM800-2,500) is the same camera — it's the portfolio, the reviews, and the confidence that changed.
+2. **Delivery quality.** Clients pay for fast, reliable, well-edited delivery. The photographer who delivers in 3 days gets rebooked; the one who delivers in 3 weeks doesn't.
+3. **Referral chains.** One happy wedding client = 5-10 referrals. That's the whole growth engine of Malaysian gig photography.
+4. **Pricing confidence.** Beginners undercharge. At RM200 you attract bad clients; at RM450 you attract the ones who value your work.
+
+## The 12-month trajectory
+
+- **Months 1-3:** RM500-1,200/month (learn, portfolio, first reviews)
+- **Months 4-6:** RM1,500-3,000/month (steady graduations, first events)
+- **Months 7-12:** RM3,000-6,000/month (weddings, video, drone — the specialists' tier)
+
+That trajectory pays for a used A6100 in month 1-2, a full-frame in month 4-6, and a professional kit by the end of year one — all without quitting your day job.
+
+## The honest warning
+
+Not everyone gets here. It requires consistent booking, professional delivery, and treating it like a business. But the rates above are real, the demand is real, and the only thing between you and them is booking the first gig.
+
+**Start tonight:** pick one gig type, price it at the mid-range, and offer it to three people you know. The market rewards people who show up.`,
+  },
 ];

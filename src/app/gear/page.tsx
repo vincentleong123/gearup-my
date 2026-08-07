@@ -7,7 +7,7 @@ import GearGrid from '@/components/GearGrid';
 export const metadata: Metadata = {
   title: 'Compare Camera & Content Creation Gear | Second-Hand Prices Malaysia',
   description: 'Browse all camera, drone, action cam, and mobile gear reviewed for Malaysian creators. Filter by type, compare second-hand prices in MYR, check ROI scores.',
-  openGraph: { title: 'Gear Comparison — GearUp Malaysia', description: 'Compare second-hand gear prices and ROI for Malaysian content creators.' },
+  openGraph: { title: 'Gear Comparison — Kameralog Malaysia', description: 'Compare second-hand gear prices and ROI for Malaysian content creators.' },
 };
 
 export default function GearPage() {

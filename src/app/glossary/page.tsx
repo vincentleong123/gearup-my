@@ -4,10 +4,10 @@ import Footer from '@/components/Footer';
 import GlossaryClient from './GlossaryClient';
 
 export const metadata: Metadata = {
-  title: 'Camera Gear Glossary — Terms Explained in Simple English & Manglish | GearUp MY',
+  title: 'Camera Gear Glossary — Terms Explained in Simple English & Manglish | Kameralog MY',
   description: 'Confused by aperture, ISO, bokeh, and LUTs? Our gear glossary explains camera and content creation terms in simple English — with Manglish translations for Malaysian creators.',
-  openGraph: { title: 'Gear Glossary — GearUp Malaysia', description: 'Camera terms explained in simple English and Manglish for Malaysian creators.' },
-  alternates: { canonical: 'https://gearup.my/glossary' },
+  openGraph: { title: 'Gear Glossary — Kameralog Malaysia', description: 'Camera terms explained in simple English and Manglish for Malaysian creators.' },
+  alternates: { canonical: 'https://kameralog.com/glossary' },
 };
 
 export default function GlossaryPage() {

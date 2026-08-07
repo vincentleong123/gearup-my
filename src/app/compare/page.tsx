@@ -4,10 +4,10 @@ import Footer from '@/components/Footer';
 import CompareClient from './CompareClient';
 
 export const metadata: Metadata = {
-  title: 'Compare Gear Side-by-Side | GearUp Malaysia',
+  title: 'Compare Gear Side-by-Side | Kameralog Malaysia',
   description: 'Compare cameras, drones, action cams, and phones side-by-side. See second-hand prices, specs, ROI scores, and pros/cons for Malaysian content creators.',
-  openGraph: { title: 'Gear Comparison — GearUp Malaysia', description: 'Compare gear side-by-side with real MYR prices and ROI data.' },
-  alternates: { canonical: 'https://gearup.my/compare' },
+  openGraph: { title: 'Gear Comparison — Kameralog Malaysia', description: 'Compare gear side-by-side with real MYR prices and ROI data.' },
+  alternates: { canonical: 'https://kameralog.com/compare' },
 };
 
 export default function ComparePage() {

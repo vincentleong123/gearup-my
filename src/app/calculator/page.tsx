@@ -4,9 +4,9 @@ import Footer from '@/components/Footer';
 import RoiCalculator from '@/components/RoiCalculator';
 
 export const metadata: Metadata = {
-  title: 'ROI Calculator for Content Creation Gear — Breakeven in Ringgit Malaysia | GearUp MY',
+  title: 'ROI Calculator for Content Creation Gear — Breakeven in Ringgit Malaysia | Kameralog MY',
   description: 'Calculate how many paid gigs it takes to break even on any camera, drone, or content creation gear. Prices in MYR.',
-  openGraph: { title: 'ROI Calculator — GearUp Malaysia', description: 'See how fast your gear pays for itself. Free ROI calculator for Malaysian creators.' },
+  openGraph: { title: 'ROI Calculator — Kameralog Malaysia', description: 'See how fast your gear pays for itself. Free ROI calculator for Malaysian creators.' },
 };
 
 export default function CalculatorPage() {

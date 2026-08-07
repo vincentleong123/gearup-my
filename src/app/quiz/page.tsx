@@ -4,10 +4,10 @@ import Footer from '@/components/Footer';
 import QuizClient from './QuizClient';
 
 export const metadata: Metadata = {
-  title: 'Gear Match Quiz — Find Your Perfect Starter Camera | GearUp Malaysia',
+  title: 'Gear Match Quiz — Find Your Perfect Starter Camera | Kameralog Malaysia',
   description: 'Answer 5 questions and get a personalised gear recommendation for Malaysian content creators. Budget, niche, and experience matched.',
-  openGraph: { title: 'Gear Match Quiz — GearUp Malaysia', description: 'Find the perfect gear for your budget and niche in 5 questions.' },
-  alternates: { canonical: 'https://gearup.my/quiz' },
+  openGraph: { title: 'Gear Match Quiz — Kameralog Malaysia', description: 'Find the perfect gear for your budget and niche in 5 questions.' },
+  alternates: { canonical: 'https://kameralog.com/quiz' },
 };
 
 export default function QuizPage() {

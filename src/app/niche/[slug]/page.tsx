@@ -19,10 +19,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const niche = niches.find(n => n.slug === slug);
   if (!niche) return {};
   return {
-    title: `${niche.title} Content Creation — Best Gear & Tips Malaysia | GearUp MY`,
+    title: `${niche.title} Content Creation — Best Gear & Tips Malaysia | Kameralog MY`,
     description: niche.description.slice(0, 160),
-    openGraph: { title: `${niche.title} Creator Guide — GearUp Malaysia` },
-    alternates: { canonical: `https://gearup.my/niche/${niche.slug}` },
+    openGraph: { title: `${niche.title} Creator Guide — Kameralog Malaysia` },
+    alternates: { canonical: `https://kameralog.com/niche/${niche.slug}` },
   };
 }
 
@@ -38,7 +38,7 @@ export default async function NichePage({ params }: Props) {
     '@type': 'CollectionPage',
     name: `${niche.title} Content Creation Guide — Malaysia`,
     description: niche.description,
-    url: `https://gearup.my/niche/${niche.slug}`,
+    url: `https://kameralog.com/niche/${niche.slug}`,
   };
 
   return (

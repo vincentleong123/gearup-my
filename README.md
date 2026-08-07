@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kameralog Malaysia
 
-## Getting Started
+Camera & gear reviews for Malaysian content creators — with ROI in Ringgit. Real second-hand prices, creator earnings, and the Gig-to-Gear system that shows how part-time gigs pay for your camera.
 
-First, run the development server:
+## Stack
+
+- **Next.js 16** (App Router, SSG) + **React 19** + **Tailwind CSS v4**
+- **TypeScript**
+- Self-hosted: **Node/Express (Next standalone)** behind **Caddy** (TLS) + **cloudflared** tunnel
+- Analytics: Cloudflare Web Analytics
+
+## Content
+
+- `src/data/gear.ts` — gear reviews (priceNew / priceUsed in MYR, roiScore, pros/cons, gig payoff math)
+- `src/data/articles.ts` — buying guides, price guides, comparisons, and gig-to-gear math
+- `src/data/gigs.ts` — Malaysian part-time photography gigs with real 2026 rates (rateMin / rateMax)
+- `src/data/creators.ts` — fictional-but-realistic Malaysian creator stories
+- `src/data/images.ts` — Wikimedia Commons (CC-licensed) + Unsplash images with photo credits
+- `src/i18n/ms.ts` — Bahasa Malaysia translations (toggle `EN` / `BM` in the nav)
+
+## Local dev
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Production build
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build        # typechecks + prerenders all static pages
+npm start            # serves the build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Self-host launch checklist (home server)
 
-## Learn More
+1. **Build:** `npm run build` — must end green (all pages SSG).
+2. **Server:** run the Next standalone server (Node). It serves the static export on port 3000.
+3. **Caddy (reverse proxy + TLS):** put the Node server behind Caddy for `https://kameralog.com` with automatic HTTPS:
+   ```
+   kameralog.com {
+     reverse_proxy localhost:3000
+     encode gzip
+   }
+   ```
+4. **cloudflared tunnel:** expose the Caddy port to the internet. Point `kameralog.com` DNS at Cloudflare, then:
+   ```bash
+   cloudflared tunnel create kameralog
+   cloudflared tunnel route dns kameralog kameralog.com
+   cloudflared tunnel run kameralog
+   ```
+   (Origin server address: `http://localhost:80` — the Caddy port.)
+5. **Analytics:** add your Cloudflare Web Analytics token in `src/app/layout.tsx` (`data-cf-beacon` token).
+6. **Ads:** `public/ads.txt` is live for direct-sold ads; the `/advertise` media kit is at `https://kameralog.com/advertise`. Replace the contact email (`ads@kameralog.com`) with your real address.
+7. **Images:** Wikimedia product photos link back with CC attribution via `gearPhotoCredit(slug)`. Keep credits intact.
 
-To learn more about Next.js, take a look at the following resources:
+## Launch tasks before going public
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [ ] Add your real Cloudflare Web Analytics token in `src/app/layout.tsx`
+- [ ] Replace placeholder social links in `src/components/Footer.tsx`
+- [ ] Point DNS + Cloudflare tunnel at Caddy
+- [ ] Swap `ads@kameralog.com` for your inbox in `src/app/advertise/page.tsx`
+- [ ] Verify `https://kameralog.com/sitemap.xml` and `robots.txt`
+- [ ] `npm run build` one final time on the server

@@ -16,7 +16,7 @@ export const ms: Record<string, string> = {
   'footer.explore': 'Terokai',
   'footer.popularGear': 'Perkakas Popular',
   'footer.nicheGuides': 'Panduan Topik',
-  'footer.copyright': '© 2026 GearUp Malaysia. All rights reserved.',
+  'footer.copyright': '© 2026 Kameralog Malaysia. All rights reserved.',
   'footer.madeBy': 'Dibina untuk content creator Malaysia.',
 
   /* ===== Homepage ===== */

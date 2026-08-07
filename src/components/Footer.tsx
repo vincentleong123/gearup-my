@@ -52,7 +52,7 @@ function Logo({ id = 'gubar-foot' }: { id?: string }) {
         </svg>
       </span>
       <span className="flex items-baseline gap-1.5">
-        <span className="bg-gradient-to-r from-white via-zinc-200 to-zinc-400 bg-clip-text text-transparent">GearUp</span>
+        <span className="bg-gradient-to-r from-white via-zinc-200 to-zinc-400 bg-clip-text text-transparent">Kameralog</span>
         <span className="text-xs bg-gradient-to-r from-red-500 to-pink-600 text-white px-1.5 py-0.5 rounded-md font-bold">MY</span>
       </span>
     </Link>
@@ -66,41 +66,42 @@ export default function Footer() {
     <footer className="border-t border-zinc-800/50 bg-zinc-950 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent to-red-600/[0.03] pointer-events-none" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 relative z-10">
-        {/* Newsletter */}
+        {/* About the founder */}
         <div className="gradient-border rounded-3xl bg-zinc-900/70 p-8 md:p-10 mb-12">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <h3 className="text-2xl md:text-3xl font-black mb-2">
-                Get the <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-pink-500 to-fuchsia-500">2026 Gear Guide</span> free
+                A 10-year dream, <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-pink-500 to-fuchsia-500">finally launched</span>
               </h3>
               <p className="text-zinc-400 text-sm md:text-base">
-                One email a month. New reviews, second-hand price drops, and gig ideas for Malaysian creators. No spam, unsubscribe anytime.
+                Kameralog started life as cameralogue.com in 2016 — a personal log of cameras I wished I could buy. Ten years later, it&apos;s a real review site for Malaysian creators: honest ROI scores, real second-hand prices, and gear that pays for itself. No paywalled content, no fake guru talk — just useful logging.
               </p>
             </div>
-            <form
-              onSubmit={e => e.preventDefault()}
-              className="flex flex-col sm:flex-row gap-3"
-            >
-              <input
-                type="email"
-                required
-                placeholder="you@email.com"
-                aria-label="Email address"
-                className="flex-1 bg-zinc-800/80 border border-zinc-700 rounded-xl px-4 py-3.5 text-white placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-pink-500/50 focus:border-pink-500/50 transition-all"
-              />
-              <button
-                type="submit"
-                className="px-6 py-3.5 bg-gradient-to-r from-red-500 to-pink-600 text-white font-bold rounded-xl shadow-lg shadow-pink-600/25 hover:shadow-pink-500/40 hover:-translate-y-0.5 transition-all duration-300 whitespace-nowrap"
-              >
-                Subscribe →
-              </button>
-            </form>
+            <div className="space-y-3">
+              <p className="text-sm text-zinc-400">
+                The best way to follow along is free: new reviews and price drops land here every week. If you want them sooner, we&apos;re on the platforms below.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {socials.map(s => (
+                  <a
+                    key={s.name}
+                    href={s.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-4 py-2.5 bg-zinc-800/80 border border-zinc-700 rounded-xl text-sm font-semibold text-zinc-300 hover:text-white hover:border-pink-500/50 hover:-translate-y-0.5 transition-all duration-300"
+                  >
+                    <svg viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4">{s.icon}</svg>
+                    {s.name}
+                  </a>
+                ))}
+              </div>
+            </div>
           </div>
           {/* Trust badges */}
           <div className="flex flex-wrap gap-x-8 gap-y-2 mt-8 pt-6 border-t border-zinc-800/60 text-xs text-zinc-500">
             <span className="inline-flex items-center gap-1.5"><span>🇲🇾</span> Malaysian prices in MYR</span>
             <span className="inline-flex items-center gap-1.5"><span>🆕</span> 2026 Edition — updated Aug 2026</span>
-            <span className="inline-flex items-center gap-1.5"><span>🔒</span> No spam, ever</span>
+            <span className="inline-flex items-center gap-1.5"><span>📖</span> Free to read, no newsletter spam</span>
             <span className="inline-flex items-center gap-1.5"><span>⭐</span> Rated 4.9/5 by readers</span>
           </div>
         </div>
@@ -136,6 +137,7 @@ export default function Footer() {
               <Link href="/quiz" className="block text-sm text-zinc-400 hover:text-white transition-colors">{t('nav.quiz', 'Gear Match Quiz')}</Link>
               <Link href="/blog" className="block text-sm text-zinc-400 hover:text-white transition-colors">{t('nav.blog', 'Blog & Guides')}</Link>
               <Link href="/glossary" className="block text-sm text-zinc-400 hover:text-white transition-colors">{t('nav.glossary', 'Gear Glossary')}</Link>
+              <Link href="/advertise" className="block text-sm text-zinc-400 hover:text-white transition-colors">Advertise</Link>
             </div>
           </div>
 
@@ -163,7 +165,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-zinc-800/50 pt-8 flex flex-col md:flex-row items-center justify-between gap-3 text-center text-sm text-zinc-600">
-          <p>{t('footer.copyright', '© 2026 GearUp Malaysia. Prices in Ringgit Malaysia (MYR).')}</p>
+          <p>{t('footer.copyright', '© 2026 Kameralog Malaysia. Prices in Ringgit Malaysia (MYR).')}</p>
           <p className="text-xs">Earnings based on creator estimates. Always verify second-hand gear before buying.</p>
         </div>
       </div>

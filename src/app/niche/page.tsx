@@ -7,10 +7,10 @@ import { nicheImg } from '@/data/images';
 import { formatPrice } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Content Creation Niches in Malaysia — Find Your Path | GearUp MY',
+  title: 'Content Creation Niches in Malaysia — Find Your Path | Kameralog MY',
   description: 'Explore content creation niches popular in Malaysia. Food review, tech review, beauty, travel, automotive, and daily vlog — with gear recommendations and earning potential.',
-  openGraph: { title: 'Content Niches — GearUp Malaysia' },
-  alternates: { canonical: 'https://gearup.my/niche' },
+  openGraph: { title: 'Content Niches — Kameralog Malaysia' },
+  alternates: { canonical: 'https://kameralog.com/niche' },
 };
 
 export default function NichesPage() {
@@ -24,7 +24,7 @@ export default function NichesPage() {
       item: {
         '@type': 'CollectionPage',
         name: `${n.title} Content Creation Guide`,
-        url: `https://gearup.my/niche/${n.slug}`,
+        url: `https://kameralog.com/niche/${n.slug}`,
       },
     })),
   };

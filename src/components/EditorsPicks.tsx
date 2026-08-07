@@ -37,7 +37,7 @@ export default function EditorsPicks() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 bg-purple-500/10 border border-purple-500/20 rounded-full px-4 py-1.5 text-sm text-purple-300 font-semibold mb-5">
-            🏆 GearUp 2026 Editor&apos;s Choice Awards
+            🏆 Kameralog 2026 Editor&apos;s Choice Awards
           </div>
           <h2 className="text-3xl md:text-5xl font-black mb-4">
             The <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">Best of 2026</span>, Picked By Us

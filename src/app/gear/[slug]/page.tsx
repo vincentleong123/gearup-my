@@ -24,13 +24,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const gear = getGearBySlug(slug);
   if (!gear) return {};
   return {
-    title: `${gear.name} Review Malaysia ${gear.priceUsed > 0 ? '— Second Hand Price RM' + gear.priceUsed : ''} | GearUp MY`,
+    title: `${gear.name} Review Malaysia ${gear.priceUsed > 0 ? '— Second Hand Price RM' + gear.priceUsed : ''} | Kameralog MY`,
     description: gear.excerpt,
     openGraph: {
-      title: `${gear.name} Review — GearUp Malaysia`,
+      title: `${gear.name} Review — Kameralog Malaysia`,
       description: gear.excerpt,
     },
-    alternates: { canonical: `https://gearup.my/gear/${gear.slug}` },
+    alternates: { canonical: `https://kameralog.com/gear/${gear.slug}` },
   };
 }
 
@@ -72,7 +72,7 @@ export default async function GearPage({ params }: Props) {
     review: {
       '@type': 'Review',
       reviewRating: { '@type': 'Rating', ratingValue: gear.rating, bestRating: 5 },
-      author: { '@type': 'Organization', name: 'GearUp Malaysia' },
+      author: { '@type': 'Organization', name: 'Kameralog Malaysia' },
     },
   };
 
@@ -113,7 +113,7 @@ export default async function GearPage({ params }: Props) {
                 <span className="text-sm text-zinc-500">/ 5</span>
               </span>
               <span className="text-sm text-zinc-500">·</span>
-              <span className="text-sm text-zinc-400">Reviewed by the GearUp team · 2026 Edition</span>
+              <span className="text-sm text-zinc-400">Reviewed by the Kameralog team · 2026 Edition</span>
             </div>
             <p className="text-xl text-zinc-400 leading-relaxed">{gear.excerpt}</p>
           </div>

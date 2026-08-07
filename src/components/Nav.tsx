@@ -41,7 +41,7 @@ function Logo({ id = 'gubar-nav' }: { id?: string }) {
         </svg>
       </span>
       <span className="flex items-baseline gap-1.5">
-        <span className="bg-gradient-to-r from-white via-zinc-200 to-zinc-400 bg-clip-text text-transparent">GearUp</span>
+        <span className="bg-gradient-to-r from-white via-zinc-200 to-zinc-400 bg-clip-text text-transparent">Kameralog</span>
         <span className="text-xs bg-gradient-to-r from-red-500 to-pink-600 text-white px-1.5 py-0.5 rounded-md font-bold">MY</span>
       </span>
     </Link>

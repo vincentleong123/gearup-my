@@ -6,15 +6,15 @@ import { gigs, rateCard, difficultyMeta } from '@/data/gigs';
 import { gigImg } from '@/data/images';
 
 export const metadata: Metadata = {
-  title: 'Part-Time Camera Gigs in Malaysia — Gigs That Pay For Your Gear | GearUp MY',
+  title: 'Part-Time Camera Gigs in Malaysia — Gigs That Pay For Your Gear | Kameralog MY',
   description:
     'Graduation photography, gala dinners, weddings, portraits, and more. Real 2026 Malaysian gig rates that can pay off a camera in weeks. Includes a full creative services rate card.',
   openGraph: {
-    title: 'Gigs That Pay For Your Camera — GearUp Malaysia',
+    title: 'Gigs That Pay For Your Camera — Kameralog Malaysia',
     description:
       '10 part-time camera gigs with real Malaysian rates. See exactly how many gigs pay off your gear.',
   },
-  alternates: { canonical: 'https://gearup.my/gigs' },
+  alternates: { canonical: 'https://kameralog.com/gigs' },
 };
 
 export default function GigsPage() {
@@ -23,7 +23,7 @@ export default function GigsPage() {
     '@type': 'CollectionPage',
     name: 'Part-Time Camera Gigs Malaysia',
     description: 'Real Malaysian gig opportunities that pay for camera gear: graduation, weddings, galas, portraits, video and more.',
-    url: 'https://gearup.my/gigs',
+    url: 'https://kameralog.com/gigs',
   };
 
   return (

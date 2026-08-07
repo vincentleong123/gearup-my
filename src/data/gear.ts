@@ -1,7 +1,7 @@
 export interface GearItem {
   slug: string;
   name: string;
-  category: 'camera' | 'mobile' | 'drone' | 'action';
+  category: 'camera' | 'mobile' | 'drone' | 'action' | 'audio';
   priceNew: number;
   priceUsed: number;
   type: string;
@@ -1195,6 +1195,408 @@ Creator case study: **Diana Ishak** bought a used ZV-E10 for RM1,700 and started
     usedTip: 'Record 4K for 20min to check overheating, inspect lens glass, ensure Bluetooth/WiFi pair cleanly',
     creatorUses: ['farid-johari', 'alif-hakim'],
   },
+  {
+    slug: 'fujifilm-x100vi-review-malaysia',
+    name: 'Fujifilm X100VI',
+    category: 'camera',
+    priceNew: 7199,
+    priceUsed: 6200,
+    type: 'Compact APS-C Fixed-Lens',
+    sensor: '40.2MP APS-C X-Trans CMOS 5 HR',
+    video: '6.2K 30fps / 4K 60fps',
+    weight: '521g',
+    rating: 4.6,
+    roiScore: 70,
+    level: 'mid',
+    excerpt: 'The camera everyone waited two years for. 40MP, film simulations, and IBIS in a body that starts conversations. Used RM5,800-6,500. The hype is real — but it is a style camera, not a gig workhorse.',
+    content: `The Fujifilm X100VI is the most hyped camera of the decade. The X100V became a TikTok icon; the X100VI turned that into two-year waiting lists and RM7k+ asking prices. In 2026 you can finally buy one used in Malaysia — for about the price of a used full-frame kit.
+
+**Malaysia market:** RM7,199 new, RM5,800-6,500 used. Units move fast on Mudah.my and Carousell because the hype has not fully cooled.
+
+**Why everyone is obsessed:**
+- 40.2MP X-Trans sensor — a genuine leap over the X100V
+- In-body stabilisation — the first X100 with IBIS
+- Fujifilm film simulations (Velvia, Classic Chrome, Reala Ace) straight out of camera
+- The fixed 23mm f/2 lens with a leaf shutter you barely hear
+- A beautiful, carry-everywhere body that starts conversations and street shoots
+
+**The honest truth for Malaysian creators:**
+The X100VI is a content and client-wow machine, not a pay-off-fast machine. At RM6,000+ used, it is the slowest ROI item on this site. You buy it for the look, the joy of shooting, and the portrait/food content that clients notice.
+
+**Earning with it:**
+- Street and lifestyle content with an unmistakable look: RM300-600 per session
+- Food and cafe photography clients pay a premium for: RM200-400 per session
+- It is a walking business card — people ask what camera that is
+- Hold its value — the X100 line resells at nearly new price
+
+**Who should buy:** creators who already earn from a camera and want joy + style. **Who should skip:** Tim and Ahmad starting from zero — the D3100 or A6100 pays you back in a month; this takes years.`,
+    roiDesc: 'Used RM5,800-6,500. Slow ROI but huge style and value-retention. Buy for joy and premium content, not for gig payback.',
+    pros: ['40.2MP sensor', 'In-body stabilisation (first X100)', 'Beautiful film simulations', 'Compact, iconic design', 'Holds value incredibly well'],
+    cons: ['Very expensive second-hand', 'Fixed 23mm lens only', 'Hype keeps prices high', 'Slow ROI for gig work'],
+    usedTip: 'Check the fixed lens for dust and scratches, test IBIS in video, verify shutter count under 50k, check the top-plate dials',
+    creatorUses: ['sarah-azman', 'diana-ishak'],
+  },
+  {
+    slug: 'fujifilm-x-m5-review-malaysia',
+    name: 'Fujifilm X-M5',
+    category: 'camera',
+    priceNew: 3899,
+    priceUsed: 3200,
+    type: 'Vlogging Mirrorless APS-C',
+    sensor: '26.1MP APS-C X-Trans CMOS 4',
+    video: '6.2K 30fps (4K 60fps)',
+    weight: '355g',
+    rating: 4.5,
+    roiScore: 93,
+    level: 'beginner',
+    excerpt: 'The 2024 viral vlogging camera. 6.2K open-gate video, Fujifilm film sims, and a 355g body at a creator-friendly price. Used RM3,000-3,400. The budget way into the Fujifilm look.',
+    content: `The Fujifilm X-M5 was the sleeper hit of 2024-2025. It is a lightweight vlogging mirrorless with Fujifilm's famous film simulations and open-gate 6.2K video — features creators normally pay double for. It sold out everywhere at launch; in 2026 the used market has settled into a sweet spot.
+
+**Malaysia market:** RM3,899 new, RM3,000-3,400 used. Great availability on Mudah.my and Carousell now that the rush is over.
+
+**Why creators love it:**
+- 6.2K open-gate video — crop to vertical AND horizontal from one take
+- 4K 60fps with Fujifilm's gorgeous colour science
+- Film simulations (including Reala Ace) that cut editing time to zero
+- 355g — the lightest vlogging kit you can carry daily
+- Retro three-dial design that is genuinely fun to shoot
+
+**The catch:**
+No viewfinder and no IBIS. You are committing to screen-based shooting, and hand-held video will be shaky without a gimbal or stabilised lens. For tripod talking-head, review and product content it is perfect.
+
+**Earning with it:**
+- Brand review retainers: RM800-1,500/month
+- Cafe and lifestyle content with the Fujifilm look: RM300-600 per session
+- Product videos where colour sells: RM200-500 per video
+- The look impresses — clients see film-sim footage and ask for more
+
+**Who should buy:** budget creators who want the Fujifilm aesthetic and shoot mostly on a tripod. **Who should skip:** anyone shooting lots of handheld walking video — get a DJI Osmo Pocket 3 instead.`,
+    roiDesc: 'Used RM3,000-3,400. Diana paid hers off in 3 brand retainers at RM1,000/month. The 2024 viral vlogging king.',
+    pros: ['6.2K open-gate video', 'Fujifilm film simulations', 'Ultra-light 355g body', 'Affordable Fujifilm entry', 'Great colour out of camera'],
+    cons: ['No viewfinder', 'No IBIS', 'X-mount cheap lens pool smaller than Sony', 'Menu learning curve'],
+    usedTip: 'Record 6.2K for 10min to check heat, test the tilt screen hinge, bring an SD card, check no menu freeze or EVF ghosting',
+    creatorUses: ['diana-ishak', 'sarah-azman'],
+  },
+  {
+    slug: 'canon-eos-r6-mark-ii-review-malaysia',
+    name: 'Canon EOS R6 Mark II',
+    category: 'camera',
+    priceNew: 11999,
+    priceUsed: 7800,
+    type: 'Full-Frame Hybrid',
+    sensor: '24.2MP Full-Frame CMOS',
+    video: '4K 60fps 10-bit',
+    weight: '670g',
+    rating: 4.8,
+    roiScore: 79,
+    level: 'pro',
+    excerpt: 'The full-frame hybrid Malaysian wedding and event shooters trust. Reliable eye AF, 4K 60fps 10-bit, and superb low light. Used RM7,200-8,200. The pro leap for serious money.',
+    content: `The Canon EOS R6 Mark II is the camera you hire when the client is paying real money. It is the full-frame hybrid that Malaysian wedding, event and corporate photographers have used for years — and the used market is finally full of well-loved units.
+
+**Malaysia market:** RM11,999 new, RM7,200-8,200 used. Plenty of units around wedding season as pros upgrade to the R5 II or Mavic 4.
+
+**Why pros pick it:**
+- Dual Pixel CMOS AF II — eye tracking that simply does not miss
+- 4K 60fps 10-bit internal recording
+- Excellent high-ISO performance for dark banquet halls
+- Dual SD card slots for paid-work safety
+- 40fps electronic burst for event moments
+
+**Earning with it:**
+- Lead weddings: RM1,500-2,500 per wedding
+- Corporate and gala events: RM600-1,200 per event
+- Portrait sessions clients take seriously: RM300-600 per session
+- It is the camera that makes clients comfortable paying premium rates
+
+**The honest catch:** RF full-frame lenses are pricey, and it is heavy compared to crop bodies. At this money you should already be booking paid work. If you are starting from zero, the A6100 or R50 earns your first ringgit far sooner.
+
+**Who should buy:** working creators upgrading for client credibility and low light. **Who should skip:** beginners — this is a tool for an already-running business.`,
+    roiDesc: 'Used RM7,200-8,200. Rizuan paid his off in 3 weddings at RM1,800 each. The pro hybrid Malaysia trusts for paid events.',
+    pros: ['Excellent eye-tracking AF', '4K 60fps 10-bit', 'Great low light', 'Dual SD card slots', 'Pro build quality'],
+    cons: ['RF lenses are expensive', 'Heavier than crop bodies', 'Big investment', 'Overkill for beginners'],
+    usedTip: 'Check shutter count under 80k, test eye AF in video mode, verify both card slots, inspect sensor on a white wall at f/16',
+    creatorUses: ['rizuan-mustafa', 'amir-shah'],
+  },
+  {
+    slug: 'sony-a7c-ii-review-malaysia',
+    name: 'Sony A7C II',
+    category: 'camera',
+    priceNew: 9499,
+    priceUsed: 6900,
+    type: 'Compact Full-Frame Mirrorless',
+    sensor: '33MP Full-Frame BSI CMOS',
+    video: '4K 60fps 10-bit',
+    weight: '514g',
+    rating: 4.6,
+    roiScore: 81,
+    level: 'mid',
+    excerpt: 'Full-frame power in a small travel body. 33MP, AI autofocus, and 7-stop IBIS with the whole E-mount ecosystem. Used RM6,500-7,300. The do-everything upgrade for growing creators.',
+    content: `The Sony A7C II shrinks full-frame quality into a body barely bigger than an A6100. It pairs the AI autofocus chip from Sony's pro cameras with 33 megapixels and 7 stops of stabilisation — and it takes every E-mount lens ever made.
+
+**Malaysia market:** RM9,499 new, RM6,500-7,300 used. A healthy used pool because it is the natural upgrade path from the A6100/ZV-E10.
+
+**Why it is the hybrid upgrade:**
+- 33MP full-frame sensor — crop, print, and sell your shots
+- AI autofocus that tracks people, animals, birds and vehicles
+- 7-stop IBIS for smooth handheld video
+- 4K 60fps 10-bit internal recording
+- Compact and light enough to carry on travel shoots
+
+**Earning with it:**
+- Corporate and event coverage: RM500-1,200 per event
+- Travel and destination content retainers: RM1,000-2,500/month
+- Client portraits with real full-frame depth: RM300-600 per session
+- All your A6100 E-mount lenses still fit — no new glass needed
+
+**The honest catch:** single SD card slot, a small viewfinder, and 4K 60 has noticeable rolling shutter. If you shoot demanding paid video, the A6700 or A7 IV may suit better. For most creators, this is the best all-round full-frame upgrade in Malaysia.
+
+**Who should buy:** creators earning consistently who want a compact full-frame. **Who should skip:** beginners — the A6100 pays back far faster.`,
+    roiDesc: 'Used RM6,500-7,300. Fikri paid his off in 5 corporate retainers at RM1,200/month. Compact full-frame with AI autofocus.',
+    pros: ['33MP full-frame', 'AI autofocus', 'Compact and light', '7-stop IBIS', 'Full E-mount lens range'],
+    cons: ['Single SD card slot', 'Small viewfinder', 'Rolling shutter at 4K 60', 'Pricey for beginners'],
+    usedTip: 'Test the AI AF on faces and pets, check IBIS in video, inspect the mount for wear, verify shutter count under 50k',
+    creatorUses: ['fikri-haron', 'alif-hakim'],
+  },
+  {
+    slug: 'insta360-x5-review-malaysia',
+    name: 'Insta360 X5',
+    category: 'action',
+    priceNew: 2999,
+    priceUsed: 2400,
+    type: '360° Action Cam',
+    sensor: '1/2" 8K dual lens',
+    video: '8K 30fps 360°',
+    weight: '206g',
+    rating: 4.7,
+    roiScore: 92,
+    level: 'mid',
+    excerpt: 'The 2025 flagship 360 camera. 8K, better low light, longer battery, and the invisible selfie stick effect that sells real estate. Used RM2,200-2,600. The upgrade X4 owners are eyeing.',
+    content: `The Insta360 X5 is the 2025 evolution of the X4 — the camera that turned 360 content into a Malaysian side hustle. It keeps the invisible selfie stick magic and adds 8K resolution, noticeably better low light, and a battery that finally lasts a shoot.
+
+**Malaysia market:** RM2,999 new, RM2,200-2,600 used. Early upgraders are already listing mint X5 units on Mudah.my and Carousell.
+
+**What is new over the X4:**
+- 8K 30fps 360 video — punch in to clean 1080p reframes
+- Better low light (a real gap in the X4)
+- Larger battery for a full day of shooting
+- Improved stitching and AI reframing in the app
+- Still waterproof to 13m and uses the same popular accessories
+
+**Earning with it:**
+- Real estate 360 tours: RM300-500 per property — agents queue for these
+- Automotive walkarounds: RM250-400 per video
+- Group event and wedding b-roll that looks impossible to shoot: RM300-800
+- Content retainers for a "unique angle": RM500-1,200/month
+
+**The honest catch:** it is still a 360 camera — you must edit (stitch and reframe) and it is not a substitute for a traditional action cam. And 8K files eat battery and storage.
+
+**Who should buy:** creators doing real estate, events, or wanting viral "impossible shot" content. **Who should skip:** vloggers who need a front screen — get the Osmo Action 6 Pro or Pocket 3.`,
+    roiDesc: 'Used RM2,200-2,600. Zamri charged RM350/tour — 7 real estate tours paid it off. The 8K 360 that sells itself to agents.',
+    pros: ['8K 360 video', 'Better low light than X4', 'Longer battery life', 'Invisible stick + reframe', 'Waterproof 13m'],
+    cons: ['Stitching/editing required', 'Not a traditional action cam', 'Fragile lens caps', '8K drains battery fast'],
+    usedTip: 'Check both lenses for scratches, test reframe in the app, verify battery health, demand the original box and warranty proof',
+    creatorUses: ['zamri-nasir', 'alif-hakim'],
+  },
+  {
+    slug: 'dji-osmo-action-6-pro-review',
+    name: 'DJI Osmo Action 6 Pro',
+    category: 'action',
+    priceNew: 2099,
+    priceUsed: 1600,
+    type: 'Action Cam',
+    sensor: '1/1.3" CMOS',
+    video: '4K 120fps',
+    weight: '148g',
+    rating: 4.6,
+    roiScore: 90,
+    level: 'beginner',
+    excerpt: 'The 2025 action cam to beat. Front and back screens, silky stabilisation, better colour, and long battery life. Used RM1,400-1,800. The vlogger-friendly choice over the Hero 14.',
+    content: `The DJI Osmo Action 6 Pro is 2025's answer to the GoPro Hero 14 — and most creators rate it the better buy. It keeps the front screen that makes vlogging easy, improves the colour science, and runs cooler and longer than its rivals.
+
+**Malaysia market:** RM2,099 new, RM1,400-1,800 used. The DJI Malaysia buy/sell groups are full of lightly used units.
+
+**Why it beats the Hero 14 for most creators:**
+- Front + back touchscreens — see yourself while vlogging
+- RockSteady stabilisation that looks gimbal-made
+- Better colour science than the Action 5 Pro
+- Long battery life that survives a full shoot day
+- Waterproof to 20m without a housing
+
+**Earning with it:**
+- POV content for gyms, workshops and riders: RM250-500 per video
+- Corporate b-roll days: RM200-400 per day
+- Content retainers for active businesses: RM400-1,000/month
+- A second angle at events for almost zero extra cost
+
+**The honest catch:** the mount ecosystem is smaller than GoPro's, and it is only a modest step over the Action 5 Pro. If the price gap is big, grab the 5 Pro instead — it is the same sensor and screens.
+
+**Who should buy:** vloggers and POV creators who want the best all-round action cam. **Who should skip:** people already on an Action 5 Pro — the upgrade is small.`,
+    roiDesc: 'Used RM1,400-1,800. Farid paid his off in 4 workshop videos at RM350 each. The 2025 action cam to beat.',
+    pros: ['Front + back screens', 'Excellent stabilisation', 'Better colour than Action 5', 'Long battery life', 'Waterproof 20m'],
+    cons: ['Smaller ecosystem than GoPro', 'Modest upgrade over 5 Pro', 'Accessories cost more', 'No GPS overlays'],
+    usedTip: 'Check the front screen for scratches, test all buttons, record 4K for 15min to check thermals, verify USB-C charging',
+    creatorUses: ['farid-johari', 'alif-hakim'],
+  },
+  {
+    slug: 'iphone-17-pro-content-creation-malaysia',
+    name: 'iPhone 17 Pro',
+    category: 'mobile',
+    priceNew: 5999,
+    priceUsed: 5000,
+    type: 'Flagship Smartphone',
+    sensor: '48MP Main + 48MP UW + 12MP 5x Tele',
+    video: '8K 30fps / 4K 120fps ProRes',
+    weight: '201g',
+    rating: 4.7,
+    roiScore: 93,
+    level: 'mid',
+    excerpt: 'The 2025 creator phone. 8K video, 4K 120fps slow motion, Apple Log, and the best stabilisation in a phone. Used RM4,800-5,400. The most complete camera most people will ever own.',
+    content: `The iPhone 17 Pro is the phone that finally makes the dedicated camera debate interesting. 8K video, 4K 120fps slow motion, Apple Log for real colour grading, and a 48MP ultra-wide — a video tool that fits in a pocket.
+
+**Malaysia market:** RM5,999 new, RM4,800-5,400 used. Most units on Mudah.my and Carousell still have 90%+ battery health.
+
+**Why creators pick it:**
+- 8K 30fps — footage you can crop and sell
+- 4K 120fps slow motion that looks cinematic with zero effort
+- Apple Log for genuine colour grading (a real edge over Android)
+- Best-in-class video stabilisation for run-and-gun work
+- The Camera Control button makes quick framing genuinely fast
+
+**Earning with it:**
+- Social media content retainers: RM800-2,000/month
+- Event coverage as a photo/video shooter: RM300-600 per event
+- Food and cafe content: RM200-500 per session
+- 8K and ProRes win premium corporate and wedding b-roll
+
+**The honest catch:** 8K and ProRes eat storage and battery fast, and it is expensive even used. If you already own a 16 Pro, skip it — the jump is nice, not essential. Buy the mic and light instead.
+
+**Who should buy:** creators who want one device for everything. **Who should skip:** anyone on an iPhone 15 Pro or newer who shoots mostly social — your phone is already enough.`,
+    roiDesc: 'Used RM4,800-5,400. Aina paid hers off in 2 retainers at RM1,500/month. The most complete creator phone in 2026.',
+    pros: ['8K 30fps video', '4K 120fps slow motion', 'Apple Log grading', 'Best-in-class stabilisation', 'Long software support'],
+    cons: ['Expensive even used', 'Storage fills fast at 8K', 'Battery drains on heavy video', 'No optical beyond 5x'],
+    usedTip: 'Check battery health above 90%, confirm the Apple ID is signed out, test the 5x lens for dust, verify 8K records cleanly',
+    creatorUses: ['aina-syazwani', 'tim-rahman'],
+  },
+  {
+    slug: 'dji-mic-2-review-malaysia',
+    name: 'DJI Mic 2',
+    category: 'audio',
+    priceNew: 1599,
+    priceUsed: 1100,
+    type: 'Wireless Microphone Kit',
+    sensor: 'Dual wireless + receiver',
+    video: '24-bit / 48kHz audio',
+    weight: '31g per mic',
+    rating: 4.7,
+    roiScore: 95,
+    level: 'beginner',
+    excerpt: 'The wireless mic creators actually upgrade to. Touchscreen receiver, clean audio, and each transmitter doubles as a recorder. Used RM900-1,200. The best reliability upgrade for paid gigs.',
+    content: `Viewers forgive grainy video. They never forgive bad audio. The DJI Mic 2 is the wireless microphone system that serious Malaysian creators graduate to — after their first RM50 generic mic dies on a paid shoot.
+
+**Malaysia market:** RM1,599 new, RM900-1,200 used. Demand is strong, so mint units hold value on Mudah.my and Carousell.
+
+**Why it is worth the step up:**
+- Clean, reliable wireless audio with a touchscreen receiver
+- Each transmitter doubles as an on-body recorder — a built-in safety net
+- 30-hour battery life via the charging case
+- Records up to 24-bit / 48kHz for clean, editable audio
+- Pairs with phones, cameras, and computers
+
+**Earning with it:**
+- Every client video sounds professional: RM200-800 per video
+- Interviews and two-person shoots become effortless
+- The recording backup means you never lose a paid take
+- Clients notice the difference in the first 10 seconds
+
+**The honest catch:** it costs 10x the RM50 starter lapel mic. If you are only posting to TikTok with your phone, the RM50 wired mic is still the smart first buy. Buy the DJI Mic 2 when you are getting paid.
+
+**Who should buy:** creators doing paid gigs. **Who should skip:** true beginners — buy the RM50 lapel mic first and bank the difference.`,
+    roiDesc: 'Used RM900-1,200. Every paid gig gets cleaner audio — the cheapest reliability upgrade for working creators.',
+    pros: ['Clean wireless audio', 'Transmitter doubles as recorder', 'Touchscreen receiver', '30h battery via case', 'Compact and durable'],
+    cons: ['Pricier than generic sets', 'Needs charging habit', 'Wind muff needed outdoors', 'Overkill for phone-only beginners'],
+    usedTip: 'Test both transmitters, check the charging case pins, verify firmware is current, test range at 20m before buying',
+    creatorUses: ['diana-ishak', 'fikri-haron'],
+  },
+  {
+    slug: 'dji-mini-3-pro-review-malaysia',
+    name: 'DJI Mini 3 Pro',
+    category: 'drone',
+    priceNew: 2199,
+    priceUsed: 1500,
+    type: 'Drone < 250g',
+    sensor: '1/1.3" 48MP',
+    video: '4K 60fps',
+    weight: '249g',
+    rating: 4.4,
+    roiScore: 90,
+    level: 'beginner',
+    excerpt: 'The 2023 classic that became 2026\'s smartest buy. Under 250g so no CAAM license, 4K 60fps, 48MP, and obstacle sensing — for less than half the Mini 4 Pro price. Used RM1,300-1,800.',
+    content: `The DJI Mini 3 Pro was the drone everyone bought in 2022-2023, flew a few times, and kept in the cupboard. In 2026 that cupboard is your opportunity: a license-free, capable drone at a price that finally makes sense for Malaysian creators.
+
+**Malaysia market:** RM2,199 new, RM1,300-1,800 used. Because millions were sold, the used market is huge and prices are the lowest they will ever be.
+
+**Why it is the smart 2026 buy:**
+- Under 250g — no CAAM drone license needed, fly commercially same-day
+- 4K 60fps video and 48MP photos
+- Three-way obstacle sensing (yes, it has it)
+- Vertical video support for TikTok and Reels
+- Huge pool of spare batteries and parts on Shopee
+
+**Earning with it:**
+- Real estate aerials: RM300-500 per property
+- Wedding aerial shots: RM400-700 per wedding
+- Event and festival coverage: RM300-800 per event
+- The cheapest way into license-free aerial income
+
+**The honest catch:** it is one generation behind the Mini 4 Pro and Mini 5 — no 4K 120fps, older processor. But for the price difference (RM1,500 vs RM2,500+), most beginners should start here and upgrade with gig money.
+
+**Who should buy:** creators who want a license-free drone without the flagship price. **Who should skip:** anyone booking heavy aerial work — get the Mini 5 or Air 3S.`,
+    roiDesc: 'Used RM1,300-1,800. Amir paid his off in 4 property shoots at RM350 each. The 2023 classic is 2026\'s smart buy.',
+    pros: ['No CAAM license needed', '4K 60fps video', '48MP photos', 'Obstacle sensing', 'Huge cheap used market'],
+    cons: ['One gen behind Mini 4/5', 'Battery ~34min', 'No 4K 120fps', 'Older processor'],
+    usedTip: 'Check the gimbal for scratches, verify prop arms are straight, test obstacle sensors, demand extra batteries in the deal',
+    creatorUses: ['amir-shah', 'zamri-nasir'],
+  },
+  {
+    slug: 'gopro-hero-12-review-malaysia',
+    name: 'GoPro Hero 12',
+    category: 'action',
+    priceNew: 2199,
+    priceUsed: 950,
+    type: 'Action Cam',
+    sensor: '1/1.9" 27MP',
+    video: '5.3K 60fps',
+    weight: '154g',
+    rating: 4.2,
+    roiScore: 88,
+    level: 'beginner',
+    excerpt: 'The 2023 action cam at a 2026 bargain price. 5.3K 60fps, the endless GoPro mount ecosystem, and waterproof to 10m — for under RM1,000 used. The cheapest real POV camera in Malaysia.',
+    content: `The GoPro Hero 12 is the action cam that thousands of Malaysians bought in 2023 and have since replaced. Which makes it the best-value POV camera you can buy in 2026 — under RM1,000, with the biggest accessory ecosystem in the world.
+
+**Malaysia market:** RM2,199 new, RM850-1,100 used. The used pool from upgrade-happy owners is enormous on Mudah.my and Carousell.
+
+**Why it is the budget POV king:**
+- 5.3K 60fps video that still looks modern
+- HyperSmooth stabilisation for smooth walking and driving shots
+- The GoPro mount ecosystem — chest, helmet, suction, clip — all on Shopee
+- Waterproof to 10m without a housing
+- A fraction of the price of a Hero 13 or 14
+
+**Earning with it:**
+- Car dealer POV videos: RM250-500 per video
+- Motorcycle and delivery rider content: RM200-400 per video
+- Workshop and gym content retainers: RM400-800/month
+- B-roll that a phone or DSLR cannot easily shoot
+
+**The honest catch:** no front screen, small sensor in low light, and battery life around an hour. For bright, action-heavy content it is perfect; for indoor vlogging it is the wrong tool.
+
+**Who should buy:** anyone who wants POV content for the lowest ringgit. **Who should skip:** vloggers who need a front screen — get the DJI Action 4 or 6 instead.`,
+    roiDesc: 'Used RM850-1,100. The cheapest real POV camera in 2026. Farid shoots workshop content that pays RM300 a video.',
+    pros: ['Sub-RM1,000 used', '5.3K 60fps video', 'Huge mount ecosystem', 'Waterproof 10m', 'HyperSmooth stabilisation'],
+    cons: ['No front screen', 'Small sensor in low light', 'Battery ~60min recording', 'Older processor'],
+    usedTip: 'Check the lens glass for scratches, test all buttons, record 4K for 15min to check thermals, verify Bluetooth pairing',
+    creatorUses: ['farid-johari'],
+  },
 ];
 
 export const categories = [
@@ -1203,6 +1605,7 @@ export const categories = [
   { id: 'mobile', label: 'Mobile' },
   { id: 'drone', label: 'Drones' },
   { id: 'action', label: 'Action / 360°' },
+  { id: 'audio', label: 'Audio' },
 ] as const;
 export function getGearBySlug(slug: string) {
   return gearList.find(g => g.slug === slug) || null;

@@ -6,6 +6,7 @@ import CreatorShowcase from '@/components/CreatorShowcase';
 import EditorsPicks from '@/components/EditorsPicks';
 import RoiCalculator from '@/components/RoiCalculator';
 import Footer from '@/components/Footer';
+import AdSlot from '@/components/AdSlot';
 import Link from 'next/link';
 import { gearList } from '@/data/gear';
 import { articles } from '@/data/articles';
@@ -14,18 +15,18 @@ import { gigs } from '@/data/gigs';
 import { heroImg, blogImg, gigImg } from '@/data/images';
 
 export const metadata: Metadata = {
-  title: 'GearUp Malaysia — Camera & Gear Reviews for Malaysian Content Creators | ROI in Ringgit',
+  title: 'Kameralog Malaysia — Camera & Gear Reviews for Malaysian Content Creators | ROI in Ringgit',
   description: 'Tim and Ahmad lost their jobs. This site shows them — and you — how to start content creation with zero budget. Compare cameras, drones, Insta360, and mobile gear with real second-hand prices in Malaysia. See what creators actually earn.',
   openGraph: {
-    title: 'GearUp Malaysia — Gear That Pays For Itself',
+    title: 'Kameralog Malaysia — Gear That Pays For Itself',
     description: 'Lost your job? Start creating. Compare second-hand camera prices, creator earnings, and ROI in Ringgit Malaysia.',
     type: 'website',
     locale: 'en_MY',
-    siteName: 'GearUp Malaysia',
+    siteName: 'Kameralog Malaysia',
   },
   keywords: ['content creation malaysia', 'camera review malaysia', 'second hand camera malaysia', 'nikon d3100 malaysia', 'sony a6100 used price', 'insta360 x4 malaysia', 'dji mini 4 pro price malaysia', 'creator gear roi', 'tim and ahmad', 'content creator job malaysia', 'camera paid for gigs malaysia', 'graduation photography malaysia', 'wedding photography malaysia', 'gala dinner photographer', 'portrait photography malaysia', 'part time camera jobs'],
   robots: { index: true, follow: true },
-  alternates: { canonical: 'https://gearup.my' },
+  alternates: { canonical: 'https://kameralog.com' },
 };
 
 const tools = [
@@ -73,8 +74,8 @@ export default function HomePage() {
     '@graph': [
       {
         '@type': 'WebSite',
-        name: 'GearUp Malaysia',
-        url: 'https://gearup.my',
+        name: 'Kameralog Malaysia',
+        url: 'https://kameralog.com',
         description: 'Camera and content creation gear reviews for Malaysian creators. Compare prices, earnings, and ROI.',
         inLanguage: 'en-MY',
       },
@@ -220,6 +221,10 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10">
+        <AdSlot />
+      </div>
 
       {/* 2026 EDITOR'S CHOICE AWARDS */}
       <EditorsPicks />

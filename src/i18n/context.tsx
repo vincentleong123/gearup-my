@@ -5,7 +5,7 @@ import { ms } from './ms';
 
 type Lang = 'en' | 'ms';
 
-const STORAGE_KEY = 'gearup-lang';
+const STORAGE_KEY = 'kameralog-lang';
 
 const listeners = new Set<() => void>();
 

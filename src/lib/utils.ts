@@ -35,6 +35,6 @@ export function generateSlug(text: string): string {
 }
 
 export function siteUrl(path = ''): string {
-  const base = 'https://gearup.my';
+  const base = 'https://kameralog.com';
   return base + path;
 }

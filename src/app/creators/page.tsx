@@ -4,9 +4,9 @@ import { creators } from '@/data/creators';
 import { h } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Malaysian Content Creator Stories — Who Earns What | GearUp MY',
+  title: 'Malaysian Content Creator Stories — Who Earns What | Kameralog MY',
   description: 'Real Malaysian creators who started with almost nothing. See their gear, monthly earnings, and advice for Tim & Ahmad.',
-  openGraph: { title: 'Creator Stories — GearUp Malaysia', description: 'See what Malaysian content creators actually earn and the gear they use.' },
+  openGraph: { title: 'Creator Stories — Kameralog Malaysia', description: 'See what Malaysian content creators actually earn and the gear they use.' },
 };
 
 export default function CreatorsPage() {

@@ -22,13 +22,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const gig = getGigBySlug(slug);
   if (!gig) return {};
   return {
-    title: `${gig.title} in Malaysia — Rates, Gear & How to Get Gigs | GearUp MY`,
+    title: `${gig.title} in Malaysia — Rates, Gear & How to Get Gigs | Kameralog MY`,
     description: `How to start ${gig.title.toLowerCase()} in Malaysia. Real 2026 rates (RM ${gig.rateMin.toLocaleString()}-${gig.rateMax.toLocaleString()} per gig), the minimal gear you need, hashtags to search, and a path to pay off your camera.`,
     openGraph: {
-      title: `${gig.emoji} ${gig.title} — GearUp Malaysia`,
+      title: `${gig.emoji} ${gig.title} — Kameralog Malaysia`,
       description: gig.tagline,
     },
-    alternates: { canonical: `https://gearup.my/gigs/${gig.slug}` },
+    alternates: { canonical: `https://kameralog.com/gigs/${gig.slug}` },
   };
 }
 
