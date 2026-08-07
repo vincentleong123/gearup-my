@@ -135,21 +135,55 @@ export const gearScenarios: Record<string, string[]> = {
   'xiaomi-14-ultra-review-malaysia': ['iphone-window-light'],
   'sony-zv-e10-review-malaysia-second-hand': ['sony-a6100-vlog', 'lapel-mic-audio'],
   'gopro-hero-13-review-malaysia': ['gopro-chest-mount', 'car-review-pov'],
+  'iphone-16-pro-content-creation-malaysia': ['iphone-window-light', 'beauty-review-setup'],
+  'samsung-galaxy-s25-ultra-review-malaysia': ['iphone-window-light', 'food-overhead'],
+  'google-pixel-9-pro-review-malaysia': ['iphone-window-light'],
+  'xiaomi-15-ultra-review-malaysia': ['iphone-window-light', 'beauty-review-setup'],
+  'sony-zv-e10-ii-review-malaysia': ['sony-a6100-vlog', 'lapel-mic-audio'],
+  'dji-osmo-pocket-3-review-malaysia': ['sony-a6100-vlog', 'travel-vlog-malaysia'],
+  'insta360-ace-pro-2-review-malaysia': ['insta360-action', 'car-review-pov'],
+  'panasonic-lumix-s9-review-malaysia': ['sony-a6100-vlog', 'beauty-review-setup'],
+  'sony-a6700-review-malaysia': ['sony-a6100-vlog', 'beauty-review-setup'],
+  'nikon-z50-ii-review-malaysia': ['food-overhead', 'beauty-review-setup'],
+  'canon-eos-r8-review-malaysia': ['gig-wedding', 'gig-gala'],
+  'dji-mavic-4-review-malaysia': ['drone-aerial-malaysia', 'gig-drone'],
+  'dji-air-3s-review-malaysia': ['drone-aerial-malaysia', 'gig-realestate'],
+  'dji-mini-5-review-malaysia': ['drone-aerial-malaysia', 'travel-vlog-malaysia'],
+  'dji-neo-review-malaysia': ['travel-vlog-malaysia', 'gig-drone'],
+  'dji-osmo-action-4-review-malaysia': ['gopro-chest-mount', 'car-review-pov'],
+  'gopro-hero-14-review-malaysia': ['gopro-chest-mount', 'car-review-pov'],
 };
 
 export const images = {
   gear: {
-    'nikon-d3100-review-malaysia-second-hand-price': 'photo-1452780212940-6f5c0d14d848?w=800&h=600&fit=crop',
-    'sony-a6100-review-malaysia-second-hand': 'photo-1495707902641-75cac588d2e9?w=800&h=600&fit=crop',
-    'iphone-15-content-creation-malaysia': 'photo-1598387993441-a364f854c3e1?w=800&h=600&fit=crop',
-    'insta360-x4-review-malaysia': 'photo-1544348817-5f2cf14b88c8?w=800&h=600&fit=crop',
-    'dji-osmo-action-5-pro-review': 'photo-1470071459604-3b5ec3a7fe05?w=800&h=600&fit=crop',
-    'dji-mini-4-pro-review-malaysia': 'photo-1473580044384-7ba9967e16a0?w=800&h=600&fit=crop',
-    'dji-mavic-3-classic-review-malaysia': 'photo-1527977966376-1c8408f9f108?w=800&h=600&fit=crop',
-    'canon-eos-r50-review-malaysia': 'photo-1495707902641-75cac588d2e9?w=800&h=600&fit=crop',
-    'xiaomi-14-ultra-review-malaysia': 'photo-1511707171634-5f897ff02aa9?w=800&h=600&fit=crop',
-    'sony-zv-e10-review-malaysia-second-hand': 'photo-1526170375885-4d8ecf77b99f?w=800&h=600&fit=crop',
-    'gopro-hero-13-review-malaysia': 'photo-1508700115892-45ecd05ae2ad?w=800&h=600&fit=crop',
+    'nikon-d3100-review-malaysia-second-hand-price': 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Nikon_D3100.jpg/960px-Nikon_D3100.jpg',
+    'sony-a6100-review-malaysia-second-hand': 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/SST_Condensed_%28ILCE-6100Y%29.jpg/960px-SST_Condensed_%28ILCE-6100Y%29.jpg',
+    'iphone-15-content-creation-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Back_of_iPhone_15.jpg/960px-Back_of_iPhone_15.jpg',
+    'insta360-x4-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Insta360_X4.jpg/960px-Insta360_X4.jpg',
+    'dji-osmo-action-5-pro-review': 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/DJI_Osmo_Action_5_Pro_01.jpg/960px-DJI_Osmo_Action_5_Pro_01.jpg',
+    'dji-mini-4-pro-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/2024_Dron_DJI_Mini_4_Pro_%2801%29.jpg/960px-2024_Dron_DJI_Mini_4_Pro_%2801%29.jpg',
+    'dji-mavic-3-classic-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/DJI_-_Drohne_Mavic_3.JPG/960px-DJI_-_Drohne_Mavic_3.JPG',
+    'canon-eos-r50-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Canon_EOS_R50%2BRF-S_55-210mm_f5-7.1_IS_STM.jpg/960px-Canon_EOS_R50%2BRF-S_55-210mm_f5-7.1_IS_STM.jpg',
+    'xiaomi-14-ultra-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/23116PN5BC.jpg/960px-23116PN5BC.jpg',
+    'sony-zv-e10-review-malaysia-second-hand': 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Sony_ZV-E10_Camera_%2B_16-50mm_Lens.jpg/960px-Sony_ZV-E10_Camera_%2B_16-50mm_Lens.jpg',
+    'gopro-hero-13-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/GoPro_H%C3%A9ro_13_Black_-_01.jpg/960px-GoPro_H%C3%A9ro_13_Black_-_01.jpg',
+    'iphone-16-pro-content-creation-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/IPhone_16_Pro_series.jpg/960px-IPhone_16_Pro_series.jpg',
+    'samsung-galaxy-s25-ultra-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Samsung_Galaxy_S25_Ultra.jpg/960px-Samsung_Galaxy_S25_Ultra.jpg',
+    'google-pixel-9-pro-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Pixel_9_%26_Pixel_9_Pro_Hands-On_Impressions_%28ShoAndTech%29_%282160p_24fps_VP9_LQ-160kbit_Opus%29-00.01.44.000.png/960px-Pixel_9_%26_Pixel_9_Pro_Hands-On_Impressions_%28ShoAndTech%29_%282160p_24fps_VP9_LQ-160kbit_Opus%29-00.01.44.000.png',
+    'xiaomi-15-ultra-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Xiaomi_15_Ultra.jpg/960px-Xiaomi_15_Ultra.jpg',
+    'sony-zv-e10-ii-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Sony_ZV-E10_Mark_II.tiff/lossy-page1-960px-Sony_ZV-E10_Mark_II.tiff.jpg',
+    'dji-osmo-pocket-3-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/DJI_Osmo_Pocket_3_-_3.jpg/960px-DJI_Osmo_Pocket_3_-_3.jpg',
+    'insta360-ace-pro-2-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/HK_%E7%9B%B8%E6%A9%9F%E5%99%A8%E6%9D%90_Insta360_Ace_Pro_camera_February_2024_R12S_13.jpg/960px-HK_%E7%9B%B8%E6%A9%9F%E5%99%A8%E6%9D%90_Insta360_Ace_Pro_camera_February_2024_R12S_13.jpg',
+    'panasonic-lumix-s9-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Panasonic_Lumix_DC-S9_25_may_2024a.jpg/960px-Panasonic_Lumix_DC-S9_25_may_2024a.jpg',
+    'sony-a6700-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Sony_A6700_by_Henry_S%C3%B6derlund.jpg/960px-Sony_A6700_by_Henry_S%C3%B6derlund.jpg',
+    'nikon-z50-ii-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Nikon_Z50II_28_nov_2024a.jpg/960px-Nikon_Z50II_28_nov_2024a.jpg',
+    'canon-eos-r8-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Canon_EOS_R8_%2852853735946%29.jpg/960px-Canon_EOS_R8_%2852853735946%29.jpg',
+    'dji-mavic-4-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/DJI_-_Drohne_Mavic_4_Pro.JPG/960px-DJI_-_Drohne_Mavic_4_Pro.JPG',
+    'dji-air-3s-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/2024_Dron_DJI_Air_3S_%281%29.jpg/960px-2024_Dron_DJI_Air_3S_%281%29.jpg',
+    'dji-mini-5-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/DJI_MT5MFND_Mini_5_Pro_%28FA3TPCHHM7%29_%283-1-2026%29.jpg/960px-DJI_MT5MFND_Mini_5_Pro_%28FA3TPCHHM7%29_%283-1-2026%29.jpg',
+    'dji-neo-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/DJI_Neo_2024.jpg/960px-DJI_Neo_2024.jpg',
+    'dji-osmo-action-4-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/DJI_Osmo_Action_-_2.jpg/960px-DJI_Osmo_Action_-_2.jpg',
+    'gopro-hero-14-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/GoPro_Hero_10_Black_with_battery_door_open.jpg/960px-GoPro_Hero_10_Black_with_battery_door_open.jpg',
   },
   creators: {
     'aiman-roslan': 'photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face',
@@ -194,6 +228,12 @@ export const images = {
     'food-content-creation-gig-malaysia': 'photo-1414235077428-338989a2e8c0?w=1200&h=630&fit=crop',
     'real-estate-media-gig-malaysia': 'photo-1560518883-ce09059eeffa?w=1200&h=630&fit=crop',
     'product-photography-ecommerce-gig-malaysia': 'photo-1505740420928-5e560c06d30e?w=1200&h=630&fit=crop',
+    'turning-50-panic-content-creation-second-act': 'photo-1500648767791-00dcc994a43e?w=1200&h=630&fit=crop',
+    'turning-50-panic-plan-content-side-hustle-malaysia': 'photo-1522202176988-66273c2fd55f?w=1200&h=630&fit=crop',
+    'age-50-vs-age-25-content-creator-malaysia': 'photo-1554224155-8d04cb21cd6c?w=1200&h=630&fit=crop',
+    'midlife-crisis-camera-gear-turning-50': 'photo-1452780212940-6f5c0d14d848?w=1200&h=630&fit=crop',
+    'turning-50-second-act-gig-guide-malaysia': 'photo-1511578314322-379afb476865?w=1200&h=630&fit=crop',
+    'turning-50-experience-niche-content-creation': 'photo-1507003211169-0a1dd7228f2d?w=1200&h=630&fit=crop',
   },
   categories: {
     camera: 'photo-1452780212940-6f5c0d14d848?w=800&h=600&fit=crop',
@@ -206,18 +246,61 @@ export const images = {
 } as const;
 
 export function imgUrl(path: string, w = 800, h = 600): string {
-  // Accepts a full Unsplash path like "photo-XXXXX?w=800&h=600&fit=crop"
-  // or a shorthand slug
-  const base = 'https://images.unsplash.com/';
-  if (path.startsWith('photo-')) {
-    return base + path;
+  // Absolute URLs (e.g. Wikimedia Commons product photos) pass through as-is
+  if (path.startsWith('http://') || path.startsWith('https://')) {
+    return path;
   }
+  // Otherwise treat as an Unsplash path like "photo-XXXXX?w=800&h=600&fit=crop"
+  const base = 'https://images.unsplash.com/';
   return base + path;
 }
 
 export function gearImg(slug: string): string {
   const key = slug as keyof typeof images.gear;
   return images.gear[key] ? imgUrl(images.gear[key]) : '';
+}
+
+// Wikimedia Commons photo credits for the gear images above.
+// CC BY / CC BY-SA licenses require attribution, so link back to the file page.
+export interface GearPhotoCredit {
+  artist: string;
+  license: string;
+  page: string;
+}
+
+export const gearPhotoCredits: Record<string, GearPhotoCredit> = {
+  'nikon-d3100-review-malaysia-second-hand-price': { artist: 'Nikon Polska', license: 'CC BY 2.0', page: 'https://commons.wikimedia.org/wiki/File:Nikon_D3100.jpg' },
+  'sony-a6100-review-malaysia-second-hand': { artist: 'Hydrogen14O', license: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:SST_Condensed_(ILCE-6100Y).jpg' },
+  'iphone-15-content-creation-malaysia': { artist: 'ThePhotoGraphIc', license: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:Back_of_iPhone_15.jpg' },
+  'insta360-x4-review-malaysia': { artist: 'Realdjizzy61', license: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:Insta360_X4.jpg' },
+  'dji-osmo-action-5-pro-review': { artist: 'Gannu03', license: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:DJI_Osmo_Action_5_Pro_01.jpg' },
+  'dji-mini-4-pro-review-malaysia': { artist: 'Jacek Halicki', license: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:2024_Dron_DJI_Mini_4_Pro_(01).jpg' },
+  'dji-mavic-3-classic-review-malaysia': { artist: 'C.Stadler/Bwag', license: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:DJI_-_Drohne_Mavic_3.JPG' },
+  'canon-eos-r50-review-malaysia': { artist: 'Dinkun Chen', license: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:Canon_EOS_R50%2BRF-S_55-210mm_f5-7.1_IS_STM.jpg' },
+  'xiaomi-14-ultra-review-malaysia': { artist: 'HualinXMN', license: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:23116PN5BC.jpg' },
+  'sony-zv-e10-review-malaysia-second-hand': { artist: 'Sumitsurai', license: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:Sony_ZV-E10_Camera_%2B_16-50mm_Lens.jpg' },
+  'gopro-hero-13-review-malaysia': { artist: 'François de Dijon', license: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:GoPro_H%C3%A9ro_13_Black_-_01.jpg' },
+  'iphone-16-pro-content-creation-malaysia': { artist: 'Jakub CA', license: 'CC BY 4.0', page: 'https://commons.wikimedia.org/wiki/File:IPhone_16_Pro_series.jpg' },
+  'samsung-galaxy-s25-ultra-review-malaysia': { artist: 'Jakub CA', license: 'CC BY 4.0', page: 'https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S25_Ultra.jpg' },
+  'google-pixel-9-pro-review-malaysia': { artist: 'ShoAndTech', license: 'CC BY 3.0', page: 'https://commons.wikimedia.org/wiki/File:Pixel_9_%26_Pixel_9_Pro_Hands-On_Impressions_(ShoAndTech)_(2160p_24fps_VP9_LQ-160kbit_Opus)-00.01.44.000.png' },
+  'xiaomi-15-ultra-review-malaysia': { artist: 'Andreas Fuchs/Weber Shandwick', license: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:Xiaomi_15_Ultra.jpg' },
+  'sony-zv-e10-ii-review-malaysia': { artist: 'PJ', license: 'CC BY 4.0', page: 'https://commons.wikimedia.org/wiki/File:Sony_ZV-E10_Mark_II.tiff' },
+  'dji-osmo-pocket-3-review-malaysia': { artist: 'Kyu3a', license: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:DJI_Osmo_Pocket_3_-_3.jpg' },
+  'insta360-ace-pro-2-review-malaysia': { artist: 'Shum Zhung Wangai 2024', license: 'CC0', page: 'https://commons.wikimedia.org/wiki/File:HK_%E7%9B%B8%E6%A9%9F%E5%99%A8%E6%9D%90_Insta360_Ace_Pro_camera_February_2024_R12S_13.jpg' },
+  'panasonic-lumix-s9-review-malaysia': { artist: '昼落ち', license: 'CC0', page: 'https://commons.wikimedia.org/wiki/File:Panasonic_Lumix_DC-S9_25_may_2024a.jpg' },
+  'sony-a6700-review-malaysia': { artist: 'Henry Söderlund', license: 'CC BY 2.0', page: 'https://commons.wikimedia.org/wiki/File:Sony_A6700_by_Henry_S%C3%B6derlund.jpg' },
+  'nikon-z50-ii-review-malaysia': { artist: '昼落ち', license: 'CC0', page: 'https://commons.wikimedia.org/wiki/File:Nikon_Z50II_28_nov_2024a.jpg' },
+  'canon-eos-r8-review-malaysia': { artist: 'Henry Söderlund', license: 'CC BY 2.0', page: 'https://commons.wikimedia.org/wiki/File:Canon_EOS_R8_(52853735946).jpg' },
+  'dji-mavic-4-review-malaysia': { artist: 'C.Stadler/Bwag', license: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:DJI_-_Drohne_Mavic_4_Pro.JPG' },
+  'dji-air-3s-review-malaysia': { artist: 'Jacek Halicki', license: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:2024_Dron_DJI_Air_3S_(1).jpg' },
+  'dji-mini-5-review-malaysia': { artist: 'ZLEA', license: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:DJI_MT5MFND_Mini_5_Pro_(FA3TPCHHM7)_(3-1-2026).jpg' },
+  'dji-neo-review-malaysia': { artist: 'NAN LIU', license: 'CC BY-SA 2.0', page: 'https://commons.wikimedia.org/wiki/File:DJI_Neo_2024.jpg' },
+  'dji-osmo-action-4-review-malaysia': { artist: 'KKPCW', license: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:DJI_Osmo_Action_-_2.jpg' },
+  'gopro-hero-14-review-malaysia': { artist: '4300streetcar', license: 'CC BY 4.0', page: 'https://commons.wikimedia.org/wiki/File:GoPro_Hero_10_Black_with_battery_door_open.jpg' },
+};
+
+export function gearPhotoCredit(slug: string): GearPhotoCredit | null {
+  return gearPhotoCredits[slug] || null;
 }
 
 export function creatorImg(slug: string): string {
@@ -249,9 +332,10 @@ export function ctaImg(): string {
 }
 
 // Get scenario reference images for a specific gear slug
-export function getGearScenarios(slug: string): { label: string; images: string[] }[] {
+export function getGearScenarios(slug: string): { key: string; label: string; images: string[] }[] {
   const scenarioKeys = gearScenarios[slug] || [];
   return scenarioKeys.map(key => ({
+    key,
     label: scenarioLabels[key] || key,
     images: (scenarioRefs[key] || []).map(p => imgUrl(p)),
   }));

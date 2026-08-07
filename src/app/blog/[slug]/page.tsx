@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import type { ReactElement } from 'react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { articles } from '@/data/articles';
@@ -7,6 +8,8 @@ import { blogImg } from '@/data/images';
 import { h, formatPrice } from '@/lib/utils';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
+import Figure from '@/components/Figure';
+import { articleFigures } from '@/data/curated';
 
 interface Props { params: Promise<{ slug: string }> }
 
@@ -32,6 +35,7 @@ export default async function ArticlePage({ params }: Props) {
   if (!article) notFound();
 
   const relatedGear = gearList.filter(g => article.relatedGear.includes(g.slug));
+  const figures = articleFigures(article.slug);
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -77,46 +81,64 @@ export default async function ArticlePage({ params }: Props) {
           </div>
 
           <div className="prose prose-invert prose-zinc max-w-none">
-            {article.content.split('\n').map((line, i) => {
-              if (line.startsWith('## ')) {
-                return <h2 key={i} className="text-2xl font-bold mt-10 mb-4">{line.replace('## ', '')}</h2>;
-              }
-              if (line.startsWith('### ')) {
-                return <h3 key={i} className="text-xl font-bold mt-8 mb-3">{line.replace('### ', '')}</h3>;
-              }
-              if (line.startsWith('**') && line.endsWith('**')) {
-                return <h3 key={i} className="text-xl font-bold mt-6 mb-3">{line.replace(/\*\*/g, '')}</h3>;
-              }
-              if (line.startsWith('|')) {
-                // Simple table rendering
-                const cells = line.split('|').filter(Boolean);
-                if (cells.length > 0 && !line.includes('---')) {
-                  const isHeader = i > 0 && article.content.split('\n')[i - 1]?.startsWith('|---');
-                  return (
-                    <div key={i} className={`flex gap-4 py-2 ${isHeader ? 'mt-6 rounded-t-lg bg-zinc-900/70 font-bold text-amber-300' : 'border-b border-zinc-800'}`}>
-                      {cells.map((c, j) => (
-                        <div key={j} className={`flex-1 text-sm ${j === 0 ? (isHeader ? '' : 'font-semibold') : ''}`}>{c.trim()}</div>
-                      ))}
-                    </div>
-                  );
+            {(() => {
+              const lines = article.content.split('\n');
+              let headingCount = 0;
+              let figIdx = 0;
+              const out: ReactElement[] = [];
+              lines.forEach((line, i) => {
+                if (line.startsWith('## ') || line.startsWith('### ')) {
+                  headingCount += 1;
+                  if (headingCount > 1 && figures.length > 0) {
+                    const fig = figures[figIdx % figures.length];
+                    figIdx += 1;
+                    out.push(<Figure key={`fig-${i}`} figure={fig} />);
+                  }
+                  const isH2 = line.startsWith('## ');
+                  const text = line.replace(/^#+ /, '');
+                  out.push(isH2
+                    ? <h2 key={i} className="text-2xl font-bold mt-10 mb-4">{text}</h2>
+                    : <h3 key={i} className="text-xl font-bold mt-8 mb-3">{text}</h3>);
+                  return;
                 }
-                return null;
-              }
-              if (line.startsWith('- **')) {
-                const match = line.match(/- \*\*(.+?)\*\*(.*)/);
-                if (match) {
-                  return <li key={i} className="text-zinc-300 mb-1 ml-4"><strong>{match[1]}</strong>{match[2]}</li>;
+                if (line.startsWith('**') && line.endsWith('**')) {
+                  out.push(<h3 key={i} className="text-xl font-bold mt-6 mb-3">{line.replace(/\*\*/g, '')}</h3>);
+                  return;
                 }
-              }
-              if (line.startsWith('- ')) {
-                return <li key={i} className="text-zinc-300 mb-1 ml-4">{line.slice(2)}</li>;
-              }
-              if (/^\d+\.\s/.test(line)) {
-                return <li key={i} className="text-zinc-300 mb-2 ml-4 list-decimal">{line.replace(/^\d+\.\s/, '')}</li>;
-              }
-              if (line.trim() === '') return <br key={i} />;
-              return <p key={i} className="text-zinc-300 leading-relaxed mb-4 text-lg">{line}</p>;
-            })}
+                if (line.startsWith('|')) {
+                  const cells = line.split('|').filter(Boolean);
+                  if (cells.length > 0 && !line.includes('---')) {
+                    const isHeader = i > 0 && lines[i - 1]?.startsWith('|---');
+                    out.push(
+                      <div key={i} className={`flex gap-4 py-2 ${isHeader ? 'mt-6 rounded-t-lg bg-zinc-900/70 font-bold text-amber-300' : 'border-b border-zinc-800'}`}>
+                        {cells.map((c, j) => (
+                          <div key={j} className={`flex-1 text-sm ${j === 0 ? (isHeader ? '' : 'font-semibold') : ''}`}>{c.trim()}</div>
+                        ))}
+                      </div>
+                    );
+                  }
+                  return;
+                }
+                if (line.startsWith('- **')) {
+                  const match = line.match(/- \*\*(.+?)\*\*(.*)/);
+                  if (match) {
+                    out.push(<li key={i} className="text-zinc-300 mb-1 ml-4"><strong>{match[1]}</strong>{match[2]}</li>);
+                  }
+                  return;
+                }
+                if (line.startsWith('- ')) {
+                  out.push(<li key={i} className="text-zinc-300 mb-1 ml-4">{line.slice(2)}</li>);
+                  return;
+                }
+                if (/^\d+\.\s/.test(line)) {
+                  out.push(<li key={i} className="text-zinc-300 mb-2 ml-4 list-decimal">{line.replace(/^\d+\.\s/, '')}</li>);
+                  return;
+                }
+                if (line.trim() === '') { out.push(<br key={i} />); return; }
+                out.push(<p key={i} className="text-zinc-300 leading-relaxed mb-4 text-lg">{line}</p>);
+              });
+              return out;
+            })()}
           </div>
 
           {/* Related Gear */}

@@ -1,11 +1,14 @@
 import { Metadata } from 'next';
+import type { ReactElement } from 'react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { gearList, getGearBySlug } from '@/data/gear';
 import { creators } from '@/data/creators';
-import { gearImg } from '@/data/images';
+import { gearImg, gearPhotoCredit } from '@/data/images';
 import ScenarioGallery from '@/components/ScenarioGallery';
 import PayoffPath from '@/components/PayoffPath';
+import Figure from '@/components/Figure';
+import { gearFigures } from '@/data/curated';
 import { formatPrice, roiColor, roiBarColor, getLevelLabel, h } from '@/lib/utils';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
@@ -115,6 +118,41 @@ export default async function GearPage({ params }: Props) {
             <p className="text-xl text-zinc-400 leading-relaxed">{gear.excerpt}</p>
           </div>
 
+          {/* Gear hero image */}
+          <div className="gradient-border rounded-2xl overflow-hidden mb-6">
+            <div className="relative aspect-[16/9] bg-zinc-900">
+              <img
+                src={gearImg(gear.slug)}
+                alt={`${gear.name} — ${gear.type} review`}
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/80 via-transparent to-transparent pointer-events-none" />
+              <div className="absolute bottom-4 left-4 right-4 flex flex-wrap items-center gap-2">
+                <span className="text-xs font-bold px-3 py-1 rounded-full bg-zinc-950/70 backdrop-blur-sm text-cyan-300 border border-cyan-400/20">{gear.type}</span>
+                {gear.priceUsed > 0 && (
+                  <span className="text-xs font-bold px-3 py-1 rounded-full bg-green-500/15 text-green-400 border border-green-500/30">
+                    Used {formatPrice(gear.priceUsed)}
+                  </span>
+                )}
+              </div>
+            </div>
+            {(() => {
+              const credit = gearPhotoCredit(gear.slug);
+              if (!credit) return null;
+              return (
+                <a
+                  href={credit.page}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex justify-between items-center gap-2 px-3 py-1.5 text-[10px] text-zinc-500 hover:text-zinc-300 bg-zinc-950/50"
+                >
+                  <span>Photo: {credit.artist} · {credit.license}</span>
+                  <span>Wikimedia Commons ↗</span>
+                </a>
+              );
+            })()}
+          </div>
+
           {/* Scoreboard card */}
           <div className="gradient-border rounded-2xl bg-zinc-900/70 p-6 md:p-8 mb-6">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 items-center">
@@ -185,22 +223,40 @@ export default async function GearPage({ params }: Props) {
           {/* Full Review */}
           <h2 className="text-2xl font-black mb-4">Full Review</h2>
           <div className="prose prose-invert prose-zinc max-w-none mb-10">
-            {gear.content.split('\n').map((line, i) => {
-              if (line.startsWith('**') && line.endsWith('**')) {
-                return <h3 key={i} className="text-xl font-bold mt-6 mb-3">{line.replace(/\*\*/g, '')}</h3>;
-              }
-              if (line.startsWith('- **')) {
-                const match = line.match(/- \*\*(.+?)\*\*(.*)/);
-                if (match) {
-                  return <li key={i} className="text-zinc-300 mb-1"><strong>{match[1]}</strong>{match[2]}</li>;
+            {(() => {
+              const lines = gear.content.split('\n');
+              let sectionCount = 0;
+              let figIdx = 0;
+              const figures = gearFigures(gear.slug);
+              const out: ReactElement[] = [];
+              lines.forEach((line, i) => {
+                const isHeading = line.startsWith('**') && line.endsWith('**');
+                if (isHeading) {
+                  sectionCount += 1;
+                  if (sectionCount > 1 && figures.length > 0) {
+                    const fig = figures[figIdx % figures.length];
+                    figIdx += 1;
+                    out.push(<Figure key={`fig-${i}`} figure={fig} />);
+                  }
+                  out.push(<h3 key={i} className="text-xl font-bold mt-6 mb-3">{line.replace(/\*\*/g, '')}</h3>);
+                  return;
                 }
-              }
-              if (line.startsWith('- ')) {
-                return <li key={i} className="text-zinc-300 mb-1">{line.slice(2)}</li>;
-              }
-              if (line.trim() === '') return <br key={i} />;
-              return <p key={i} className="text-zinc-300 leading-relaxed mb-3">{line}</p>;
-            })}
+                if (line.startsWith('- **')) {
+                  const match = line.match(/- \*\*(.+?)\*\*(.*)/);
+                  if (match) {
+                    out.push(<li key={i} className="text-zinc-300 mb-1"><strong>{match[1]}</strong>{match[2]}</li>);
+                  }
+                  return;
+                }
+                if (line.startsWith('- ')) {
+                  out.push(<li key={i} className="text-zinc-300 mb-1">{line.slice(2)}</li>);
+                  return;
+                }
+                if (line.trim() === '') { out.push(<br key={i} />); return; }
+                out.push(<p key={i} className="text-zinc-300 leading-relaxed mb-3">{line}</p>);
+              });
+              return out;
+            })()}
           </div>
 
           {/* Pros/Cons */}
