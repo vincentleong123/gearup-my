@@ -137,9 +137,9 @@ export default function HomePage() {
           <img
             src={heroImg()}
             alt=""
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-[62%_25%] lg:object-center"
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-zinc-950/95 via-zinc-950/85 to-zinc-950/95" />
+          <div className="absolute inset-0 bg-gradient-to-br from-zinc-950/95 via-zinc-950/70 to-zinc-950/90" />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-zinc-950/20 to-zinc-950" />
           <div className="absolute inset-0 grid-bg opacity-60 pointer-events-none" />
         </div>

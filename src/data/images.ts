@@ -281,13 +281,13 @@ export const images = {
     action: 'photo-1544348817-5f2cf14b88c8?w=800&h=600&fit=crop',
     audio: 'photo-1478737270239-2f02b77fc618?w=800&h=600&fit=crop',
   },
-  hero: 'photo-1522202176988-66273c2fd55f?w=1920&h=1080&fit=crop',
+  hero: '/v2_look_viewer_hero.jpg',
   cta: 'photo-1554224155-8d04cb21cd6c?w=1920&h=800&fit=crop',
 } as const;
 
 export function imgUrl(path: string, w = 800, h = 600): string {
-  // Absolute URLs (e.g. Wikimedia Commons product photos) pass through as-is
-  if (path.startsWith('http://') || path.startsWith('https://')) {
+  // Local public assets (e.g. "/hero.jpg") and absolute URLs pass through as-is
+  if (path.startsWith('/') || path.startsWith('http://') || path.startsWith('https://')) {
     return path;
   }
   // Otherwise treat as an Unsplash path like "photo-XXXXX?w=800&h=600&fit=crop"
