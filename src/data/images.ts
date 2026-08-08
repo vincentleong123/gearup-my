@@ -4,7 +4,7 @@
 // Scenario references: real-world search terms you can paste into Google/IG/TikTok:
 // "iPhone natural window light selfie", "Nikon D3100 kit lens photo",
 // "Sony A6100 flip screen vlog", "Insta360 X4 invisible stick Malaysia",
-// "DJI Mini 4 Pro aerial Malaysia", "GoPro Hero chest mount POV car",
+// "DJI Mini 4 Pro aerial Malaysia", "GoPro Hero chest mount POV",
 // "food overhead phone mount tiktok", "ring light desk setup malaysia",
 // "lapel microphone review setup", "used camera shop malaysia mudah"
 
@@ -33,7 +33,7 @@ export const scenarioRefs: Record<string, string[]> = {
   ],
   'gopro-chest-mount': [
     'photo-1544348817-5f2cf14b88c8?w=800&h=600&fit=crop',
-    'photo-1544636331-e26879cd4d9b?w=800&h=600&fit=crop',           // car driving
+    'photo-1544191696-102dbdaeeaa0?w=800&h=600&fit=crop',           // motorbike action POV
   ],
   'food-overhead': [
     'photo-1414235077428-338989a2e8c0?w=800&h=600&fit=crop',        // food plating
@@ -55,9 +55,25 @@ export const scenarioRefs: Record<string, string[]> = {
     'photo-1487412912498-0447578fcca8?w=800&h=600&fit=crop',        // makeup
     'photo-1529626455594-4ff0802cfb7e?w=600&h=800&fit=crop',        // portrait
   ],
-  'car-review-pov': [
-    'photo-1544636331-e26879cd4d9b?w=800&h=600&fit=crop',           // car interior
-    'photo-1449965408869-eaa3f722e40d?w=800&h=600&fit=crop',        // driving
+  'eye-closeup-look': [
+    'photo-1516220362602-dba5272034e7?w=800&h=600&fit=crop',        // close-up eye
+    'photo-1460904577954-8fadb262612c?w=800&h=600&fit=crop',        // close-up eyes
+    'photo-1534627425233-f7d6335ca734?w=800&h=600&fit=crop',        // macro eye
+  ],
+  'girl-creator-portrait': [
+    'photo-1541516160071-4bb0c5af65ba?w=800&h=600&fit=crop',        // girl holding DSLR
+    'photo-1549981832-2ba2ee913334?w=800&h=600&fit=crop',           // girl with black DSLR
+    'photo-1542036072-0e1292cda4f5?w=800&h=600&fit=crop',           // girl with camera
+  ],
+  'bts-portrait-shoot': [
+    'photo-1531796311868-83672cd144f3?w=800&h=600&fit=crop',        // photographer + model in frame
+    'photo-1541701494587-cb58502866ab?w=800&h=600&fit=crop',        // behind the scenes
+    'photo-1565672377218-afb6d165973a?w=800&h=600&fit=crop',        // girl holding camera
+  ],
+  'kpop-dance-filming': [
+    'photo-1508700929628-666bc8bd84ea?w=800&h=600&fit=crop',        // dancers
+    'photo-1535525153412-5a42439a210d?w=800&h=600&fit=crop',        // group dance
+    'photo-1508804185872-d7badad00f7d?w=800&h=600&fit=crop',        // performance
   ],
   'travel-vlog-malaysia': [
     'photo-1488085061387-422e29b40080?w=800&h=600&fit=crop',        // travel
@@ -134,14 +150,14 @@ export const gearScenarios: Record<string, string[]> = {
   'canon-eos-r50-review-malaysia': ['food-overhead', 'beauty-review-setup'],
   'xiaomi-14-ultra-review-malaysia': ['iphone-window-light'],
   'sony-zv-e10-review-malaysia-second-hand': ['sony-a6100-vlog', 'lapel-mic-audio'],
-  'gopro-hero-13-review-malaysia': ['gopro-chest-mount', 'car-review-pov'],
+  'gopro-hero-13-review-malaysia': ['gopro-chest-mount', 'kpop-dance-filming'],
   'iphone-16-pro-content-creation-malaysia': ['iphone-window-light', 'beauty-review-setup'],
   'samsung-galaxy-s25-ultra-review-malaysia': ['iphone-window-light', 'food-overhead'],
   'google-pixel-9-pro-review-malaysia': ['iphone-window-light'],
   'xiaomi-15-ultra-review-malaysia': ['iphone-window-light', 'beauty-review-setup'],
   'sony-zv-e10-ii-review-malaysia': ['sony-a6100-vlog', 'lapel-mic-audio'],
   'dji-osmo-pocket-3-review-malaysia': ['sony-a6100-vlog', 'travel-vlog-malaysia'],
-  'insta360-ace-pro-2-review-malaysia': ['insta360-action', 'car-review-pov'],
+  'insta360-ace-pro-2-review-malaysia': ['insta360-action', 'kpop-dance-filming'],
   'panasonic-lumix-s9-review-malaysia': ['sony-a6100-vlog', 'beauty-review-setup'],
   'sony-a6700-review-malaysia': ['sony-a6100-vlog', 'beauty-review-setup'],
   'nikon-z50-ii-review-malaysia': ['food-overhead', 'beauty-review-setup'],
@@ -150,8 +166,8 @@ export const gearScenarios: Record<string, string[]> = {
   'dji-air-3s-review-malaysia': ['drone-aerial-malaysia', 'gig-realestate'],
   'dji-mini-5-review-malaysia': ['drone-aerial-malaysia', 'travel-vlog-malaysia'],
   'dji-neo-review-malaysia': ['travel-vlog-malaysia', 'gig-drone'],
-  'dji-osmo-action-4-review-malaysia': ['gopro-chest-mount', 'car-review-pov'],
-  'gopro-hero-14-review-malaysia': ['gopro-chest-mount', 'car-review-pov'],
+  'dji-osmo-action-4-review-malaysia': ['gopro-chest-mount', 'kpop-dance-filming'],
+  'gopro-hero-14-review-malaysia': ['gopro-chest-mount', 'kpop-dance-filming'],
   'fujifilm-x100vi-review-malaysia': ['beauty-review-setup', 'travel-vlog-malaysia'],
   'fujifilm-x-m5-review-malaysia': ['sony-a6100-vlog', 'food-overhead'],
   'canon-eos-r6-mark-ii-review-malaysia': ['gig-wedding', 'gig-gala'],
@@ -161,7 +177,7 @@ export const gearScenarios: Record<string, string[]> = {
   'iphone-17-pro-content-creation-malaysia': ['iphone-window-light', 'beauty-review-setup'],
   'dji-mic-2-review-malaysia': ['lapel-mic-audio'],
   'dji-mini-3-pro-review-malaysia': ['drone-aerial-malaysia', 'travel-vlog-malaysia'],
-  'gopro-hero-12-review-malaysia': ['gopro-chest-mount', 'car-review-pov'],
+  'gopro-hero-12-review-malaysia': ['gopro-chest-mount', 'insta360-action'],
 };
 
 export const images = {
@@ -203,7 +219,7 @@ export const images = {
     'dji-mini-3-pro-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/DJI_Mini_3_Pro.jpg/960px-DJI_Mini_3_Pro.jpg',
     'dji-osmo-action-6-pro-review': 'https://images.unsplash.com/photo-1544348817-5f2cf14b88c8?w=960&h=640&fit=crop',
     'dji-mic-2-review-malaysia': 'https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=960&h=640&fit=crop',
-    'gopro-hero-12-review-malaysia': 'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=960&h=640&fit=crop',
+    'gopro-hero-12-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/GoPro_Hero_9_Black_-_Front.jpg/960px-GoPro_Hero_9_Black_-_Front.jpg',
   },
   creators: {
     'aiman-roslan': 'photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face',
@@ -223,7 +239,6 @@ export const images = {
     'tech-review': 'photo-1517180102446-f3ece451e9d8?w=1200&h=800&fit=crop',
     'beauty-fashion': 'photo-1487412912498-0447578fcca8?w=1200&h=800&fit=crop',
     'travel': 'photo-1488085061387-422e29b40080?w=1200&h=800&fit=crop',
-    'automotive': 'photo-1544636331-e26879cd4d9b?w=1200&h=800&fit=crop',
     'daily-vlog': 'photo-1492725764893-90b379c2b6e7?w=1200&h=800&fit=crop',
   },
   blog: {
@@ -320,6 +335,7 @@ export const gearPhotoCredits: Record<string, GearPhotoCredit> = {
   'xiaomi-14-ultra-review-malaysia': { artist: 'HualinXMN', license: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:23116PN5BC.jpg' },
   'sony-zv-e10-review-malaysia-second-hand': { artist: 'Sumitsurai', license: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:Sony_ZV-E10_Camera_%2B_16-50mm_Lens.jpg' },
   'gopro-hero-13-review-malaysia': { artist: 'François de Dijon', license: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:GoPro_H%C3%A9ro_13_Black_-_01.jpg' },
+  'gopro-hero-12-review-malaysia': { artist: 'Greyfiveys', license: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:GoPro_Hero_9_Black_-_Front.jpg' },
   'iphone-16-pro-content-creation-malaysia': { artist: 'Jakub CA', license: 'CC BY 4.0', page: 'https://commons.wikimedia.org/wiki/File:IPhone_16_Pro_series.jpg' },
   'samsung-galaxy-s25-ultra-review-malaysia': { artist: 'Jakub CA', license: 'CC BY 4.0', page: 'https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S25_Ultra.jpg' },
   'google-pixel-9-pro-review-malaysia': { artist: 'ShoAndTech', license: 'CC BY 3.0', page: 'https://commons.wikimedia.org/wiki/File:Pixel_9_%26_Pixel_9_Pro_Hands-On_Impressions_(ShoAndTech)_(2160p_24fps_VP9_LQ-160kbit_Opus)-00.01.44.000.png' },
@@ -400,7 +416,10 @@ const scenarioLabels: Record<string, string> = {
   'lapel-mic-audio': 'Lapel Mic Recording',
   'used-camera-shop': 'Buying Used Camera',
   'beauty-review-setup': 'Beauty Review Lighting',
-  'car-review-pov': 'Car Review POV',
+  'eye-closeup-look': 'Eye Close-Up Portrait',
+  'girl-creator-portrait': 'Girl Creator Portrait',
+  'bts-portrait-shoot': 'Behind the Scenes Shoot',
+  'kpop-dance-filming': 'K-Pop Dance Filming',
   'travel-vlog-malaysia': 'Travel Vlogging Malaysia',
   'gig-graduation': 'Graduation Shoot',
   'gig-gala': 'Gala Dinner & Events',

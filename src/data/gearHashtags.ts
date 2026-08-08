@@ -1,0 +1,46 @@
+// Per-model curated hashtags — the tags Malaysian creators actually search.
+// "DJIOSMO" style: brand + model compacted, so a GoPro Hero 13 becomes GOPROHERO13.
+export const gearHashtags: Record<string, string[]> = {
+  'nikon-d3100-review-malaysia-second-hand-price': ['nikond3100', 'd3100', 'budgetdslr', 'dslrmalaysia'],
+  'sony-a6100-review-malaysia-second-hand': ['sonya6100', 'a6100', 'mirrorlessmalaysia', 'vloggingcamera'],
+  'iphone-15-content-creation-malaysia': ['iphone15', 'iphonevideography', 'phonecreators'],
+  'insta360-x4-review-malaysia': ['insta360x4', 'insta360malaysia', '360video'],
+  'dji-osmo-action-5-pro-review': ['DJIOSMO', 'DJIOSMOACTION5PRO', 'actioncamera', 'osmomotion'],
+  'dji-mini-4-pro-review-malaysia': ['DJIMINI4PRO', 'dronemalaysia', 'dronevideo'],
+  'dji-mavic-3-classic-review-malaysia': ['DJIMAVIC3', 'dronemalaysia', 'aerialsabah'],
+  'canon-eos-r50-review-malaysia': ['CANONEOSR50', 'canonmalaysia', 'mirrorlessmalaysia'],
+  'xiaomi-14-ultra-review-malaysia': ['XIAOMI14ULTRA', 'xiaomicamera', 'cameraphone'],
+  'sony-zv-e10-review-malaysia-second-hand': ['SONYZVE10', 'sonyvlog', 'vloggingcamera', 'contentcreator'],
+  'gopro-hero-13-review-malaysia': ['GOPROHERO13', 'goprohero', 'actioncamera', 'gopromalaysia'],
+  'iphone-16-pro-content-creation-malaysia': ['IPHONE16PRO', 'iphonevideography', 'phonecreators'],
+  'samsung-galaxy-s25-ultra-review-malaysia': ['S25ULTRA', 'samsungcamera', 'galaxycamera', 'cameraphone'],
+  'google-pixel-9-pro-review-malaysia': ['PIXEL9PRO', 'googlecamera', 'pixelmalaysia', 'cameraphone'],
+  'xiaomi-15-ultra-review-malaysia': ['XIAOMI15ULTRA', 'xiaomicamera', 'cameraphone'],
+  'sony-zv-e10-ii-review-malaysia': ['SONYZVE10II', 'sonyvlog', 'vloggingcamera'],
+  'dji-osmo-pocket-3-review-malaysia': ['DJIOSMOPOCKET3', 'pocketcamera', 'djimalaysia', 'vloggingcamera'],
+  'insta360-ace-pro-2-review-malaysia': ['INSTA360ACEPRO2', 'acepro', 'insta360malaysia', 'actioncamera'],
+  'panasonic-lumix-s9-review-malaysia': ['LUMIXS9', 'panasoniccamera', 'fullframe', 'lumix'],
+  'sony-a6700-review-malaysia': ['SONYA6700', 'sonyalpha', 'mirrorlessmalaysia'],
+  'nikon-z50-ii-review-malaysia': ['NIKONZ50II', 'nikonmalaysia', 'mirrorlessmalaysia'],
+  'canon-eos-r8-review-malaysia': ['CANONEOSR8', 'canonmalaysia', 'fullframe', 'mirrorless'],
+  'dji-mavic-4-review-malaysia': ['DJIMAVIC4', 'dronemalaysia', 'aerialsabah'],
+  'dji-air-3s-review-malaysia': ['DJIAIR3S', 'dronemalaysia', 'dronevideo'],
+  'dji-mini-5-review-malaysia': ['DJIMINI5', 'DJIMINI5PRO', 'dronemalaysia', 'minidrone'],
+  'dji-neo-review-malaysia': ['DJINEO', 'smartdrone', 'dronevideo'],
+  'dji-osmo-action-4-review-malaysia': ['DJIOSMO', 'DJIOSMOACTION4', 'actioncamera', 'osmomotion'],
+  'gopro-hero-14-review-malaysia': ['GOPROHERO14', 'goprohero', 'actioncamera', 'gopromalaysia'],
+  'fujifilm-x100vi-review-malaysia': ['FUJIFILMX100VI', 'x100vi', 'fujifilm', 'photowalk'],
+  'fujifilm-x-m5-review-malaysia': ['FUJIFILMXM5', 'fujifilm', 'mirrorlessmalaysia'],
+  'canon-eos-r6-mark-ii-review-malaysia': ['CANONEOSR6II', 'canonmalaysia', 'fullframe', 'weddingphotography'],
+  'sony-a7c-ii-review-malaysia': ['SONYA7CII', 'sonyalpha', 'fullframe', 'mirrorless'],
+  'insta360-x5-review-malaysia': ['INSTA360X5', 'insta360malaysia', '360video'],
+  'dji-osmo-action-6-pro-review': ['DJIOSMO', 'DJIOSMOACTION6', 'actioncamera', 'osmomotion'],
+  'iphone-17-pro-content-creation-malaysia': ['IPHONE17PRO', 'iphonevideography', 'phonecreators'],
+  'dji-mic-2-review-malaysia': ['DJIMIC2', 'djiwireless', 'lapelmic', 'audiomatters'],
+  'dji-mini-3-pro-review-malaysia': ['DJIMINI3PRO', 'dronemalaysia', 'minidrone'],
+  'gopro-hero-12-review-malaysia': ['GOPROHERO12', 'goprohero', 'actioncamera', 'gopromalaysia'],
+};
+
+export function gearHashtagsFor(slug: string): string[] {
+  return gearHashtags[slug] || [];
+}

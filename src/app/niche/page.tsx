@@ -8,7 +8,7 @@ import { formatPrice } from '@/lib/utils';
 
 export const metadata: Metadata = {
   title: 'Content Creation Niches in Malaysia — Find Your Path | Kameralog MY',
-  description: 'Explore content creation niches popular in Malaysia. Food review, tech review, beauty, travel, automotive, and daily vlog — with gear recommendations and earning potential.',
+  description: 'Explore content creation niches popular in Malaysia. Food review, tech review, beauty, travel, and daily vlog — with gear recommendations and earning potential.',
   openGraph: { title: 'Content Niches — Kameralog Malaysia' },
   alternates: { canonical: 'https://kameralog.com/niche' },
 };

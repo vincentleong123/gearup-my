@@ -6,6 +6,7 @@ import { gearList, getGearBySlug } from '@/data/gear';
 import { creators } from '@/data/creators';
 import { gearImg, gearPhotoCredit } from '@/data/images';
 import ScenarioGallery from '@/components/ScenarioGallery';
+import HashtagBank from '@/components/HashtagBank';
 import PayoffPath from '@/components/PayoffPath';
 import Figure from '@/components/Figure';
 import { gearFigures } from '@/data/curated';
@@ -291,6 +292,9 @@ export default async function GearPage({ params }: Props) {
 
           {/* Scenario gallery */}
           <ScenarioGallery gearSlug={gear.slug} />
+
+          {/* Hashtag bank */}
+          <HashtagBank gearSlug={gear.slug} gearName={gear.name} />
 
           {/* Creators using this gear */}
           {relatedCreators.length > 0 && (

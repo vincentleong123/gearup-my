@@ -45,7 +45,7 @@ The most common mistake new creators make is being too general. "I want to be a 
 **Profitable niches in Malaysia for 2026:**
 - Budget gadget reviews (the more specific the better — "power banks under RM50")
 - Local food reviews (cafes, hawker stalls, mamak — every area has its favourites)
-- Car/truck walkarounds (used car dealers need content, approach them directly)
+- Dance covers and performance content (K-pop covers are huge on TikTok)
 - Affordable skincare (Watsons and Guardian products — massive market)
 - DIY and repair tutorials (fixing things saves people money)
 - Motorcycle/delivery content (Penang, KL, JB — relatable to thousands of riders)
@@ -307,7 +307,7 @@ The GoPod ecosystem is unmatched. If you buy a GoPro, you're buying into decades
 - GoPro subscription is expensive
 - Minor upgrade from Hero 12
 
-**Best for:** Sports, automotive, motorcycle, people who already have GoPro mounts
+**Best for:** Sports, motorcycle, dance covers, people who already have GoPro mounts
 
 ## Insta360 X4 (RM2,000 used) — Best for Unique Content
 
@@ -326,12 +326,12 @@ The Insta360 X4 is not an action camera. It's a 360 camera. This is a different 
 - Quality is lower than traditional action cams
 - Learning curve is real
 
-**Best for:** Real estate tours, automotive walkarounds, creative social media, group events, anyone who wants viral content
+**Best for:** Real estate tours, POV walkarounds, creative social media, group events, anyone who wants viral content
 
 ## The Decision
 
 **Ahmad (vlogging):** DJI Osmo Action 5 Pro. Front screen is non-negotiable.
-**Farid (automotive):** GoPro Hero 13 or Osmo Action 5 Pro. Both are great for POV.
+**Farid (POV):** GoPro Hero 13 or Osmo Action 5 Pro. Both are great for POV.
 **Zamri (real estate):** Insta360 X4. The 360 content sells itself to clients.
 
 **Tim (phone-first creator):** None of these. Use your iPhone.`,
@@ -2131,7 +2131,7 @@ The Hero 14 is GoPro's response to DJI's dominance — better low light than the
 - Runs hot in Malaysian 30°C+ weather after long clips
 - GoPro subscription adds cost if you want the full suite
 
-**Best for:** Sports, automotive, motorcycle POV, mount-heavy setups.
+**Best for:** Sports, motorcycle POV, dance covers, mount-heavy setups.
 
 ## The pricing reality
 
@@ -2987,7 +2987,7 @@ Remember: the license-free 249g Mini drones can legally earn in Malaysia from da
 
 **Also great:** punchy out-of-camera colour, HyperSmooth 7.0, GP-Log for grading.
 
-**Best for:** motorsports, motorcycle content, automotive, mount-heavy POV.
+**Best for:** motorsports, motorcycle content, dance POV, mount-heavy POV.
 
 ### Insta360 X5 (RM2,999 new) — the unique-content machine
 
@@ -2995,7 +2995,7 @@ Remember: the license-free 249g Mini drones can legally earn in Malaysia from da
 
 **Also great:** the 1-inch sensor makes it the best low-light 360 cam yet, 8K 30fps, built-in storage options.
 
-**Best for:** real estate, automotive walkarounds, creative social content, anyone who wants footage nobody else has.
+**Best for:** real estate, POV walkarounds, creative social content, anyone who wants footage nobody else has.
 
 ## Prices compared
 
@@ -3010,7 +3010,7 @@ Remember: the license-free 249g Mini drones can legally earn in Malaysia from da
 ## The gig math
 
 - **Real estate:** the Insta360 (X4 or X5) is the money maker — clients love the walkthrough shots. 2-3 jobs pay it off.
-- **Automotive/car content:** GoPro (any gen) — a mount system + car dealership content pays for itself in 2-3 shoots.
+- **Dance/performance content:** GoPro (any gen) — a mount system + dance studio content pays for itself in 2-3 shoots.
 - **Travel/vlogs:** Osmo Action — front screen plus stabilisation is all you need.
 
 ## The 2026 verdict

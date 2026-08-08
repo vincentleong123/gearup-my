@@ -9,7 +9,9 @@ import { h, formatPrice } from '@/lib/utils';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 import Figure from '@/components/Figure';
+import CurationWall from '@/components/CurationWall';
 import { articleFigures } from '@/data/curated';
+import { articleTopic } from '@/lib/curation';
 
 interface Props { params: Promise<{ slug: string }> }
 
@@ -139,6 +141,18 @@ export default async function ArticlePage({ params }: Props) {
               });
               return out;
             })()}
+          </div>
+
+          {/* Watch it in the wild */}
+          <div className="mt-12">
+            <div className="flex items-center gap-3 mb-4">
+              <h2 className="text-2xl font-bold">Watch real creators doing this</h2>
+              <span className="text-xs font-bold px-3 py-1 rounded-full bg-red-500/15 text-red-400 border border-red-500/30 uppercase">Live</span>
+            </div>
+            <p className="text-zinc-400 mb-4">
+              Skip the theory — see who&apos;s already making money with this on Instagram, TikTok and YouTube. Tap any tile to open the live search and study real posts.
+            </p>
+            <CurationWall topics={[articleTopic(article)]} title={`#${article.tags[0] || article.slug} in the wild`} />
           </div>
 
           {/* Related Gear */}

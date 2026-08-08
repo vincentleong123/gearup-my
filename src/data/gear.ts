@@ -57,7 +57,7 @@ For Tim and Ahmad, this is the "I have literally no money" option. And here's th
 - Behind-the-scenes photos for Instagram
 - Thumbnail images for YouTube
 
-Real creator example: **Aiman Roslan** started his car review channel with a D3100 and a RM40 tripod. Within 6 months, he was earning RM1,500-2,000 per month from ads and sponsorship. His total starter cost was under RM600.`,
+Real creator example: **Aiman Roslan** started his local business review channel with a D3100 and a RM40 tripod. Within 6 months, he was earning RM1,500-2,000 per month from ads and sponsorship. His total starter cost was under RM600.`,
     roiDesc: 'Under RM500 second-hand. Aiman broke even in 2 weeks. Best "I have no money" starter camera in Malaysia.',
     pros: ['Cheapest usable camera in MY market', 'Good image quality for the price', 'Huge used lens ecosystem', 'Takes great photos for thumbnails'],
     cons: ['No flip screen', '1080p only (no 4K)', 'Poor low-light without fast lens', 'No microphone jack'],
@@ -476,21 +476,21 @@ Creator case study: **Diana Ishak** bought a used ZV-E10 for RM1,700 and started
 
 **Content ideas for GoPro:**
 - POV cooking videos (ceiling mount or chest mount)
-- Driving/car content (suction cup mount)
+- Dance practice/cover videos (tripod or chest mount)
 - Water park/pool content (waterproof)
 - Gym workout videos (tripod or chest mount)
 - Motorcycle/cycling content
 - Behind-the-scenes of photo shoots
 
 **Earning with a GoPro:**
-- RM200-400: A day of automotive content for a car dealer
+- RM200-400: A day of POV content for a dance studio or gym
 - RM300-500: A week of construction progress POV
 - RM150-300: A single cooking tutorial POV
 - RM100-200: B-roll footage for corporate videos
-- RM400-800/month: Regular content for a car workshop or gym
+- RM400-800/month: Regular content for a gym or dance studio
 
 **The "mounted camera" advantage:** A GoPro on a chest mount or head mount lets you shoot hands-free content that looks immersive. This is content that's hard to create with a phone or DSLR — giving you a unique selling point.`,
-    roiDesc: 'Used RM1,300-1,700. Best mount ecosystem. Great for POV, automotive, and action content. Farid paid his off in 3 car dealer videos.',
+    roiDesc: 'Used RM1,300-1,700. Best mount ecosystem. Great for POV, dance, and action content. Farid paid his off in 3 POV brand videos.',
     pros: ['Best action cam ecosystem', 'HyperSmooth 6.0 stabilization', 'Waterproof 10m', 'Huge mount selection on Shopee/Lazada', 'Built-in mounting'],
     cons: ['Small sensor struggles in low light', 'Battery life ~60min recording', 'Expensive new', 'GoPro subscription is pushed aggressively', 'Minor upgrade from Hero 12'],
     usedTip: 'Check for overheating (record 4K for 20min), inspect lens for scratches, ensure Bluetooth/WiFi works',
@@ -1151,7 +1151,7 @@ Creator case study: **Diana Ishak** bought a used ZV-E10 for RM1,700 and started
 - It is a second angle at events that costs you almost nothing
 
 **The honest catch:** No GPS track overlays, and it is a step below the Action 5 Pro's battery life and colour. If the price difference is RM200, get the 5 Pro. If it is RM500+, the Action 4 is the smart buy.`,
-    roiDesc: 'Used RM1,000-1,400. Farid shot 4 workshop videos at RM300 each — paid off in 2 weekends. Best value action cam in Malaysia.',
+    roiDesc: 'Used RM1,000-1,400. Farid shot 4 POV brand videos at RM300 each — paid off in 2 weekends. Best value action cam in Malaysia.',
     pros: ['1/1.3-inch sensor', 'Front + back screens', 'RockSteady 3.0 stabilisation', '4K 120fps', 'Waterproof 18m'],
     cons: ['No GPS overlays', 'Battery life below Action 5 Pro', 'Smaller ecosystem than GoPro'],
     usedTip: 'Test front screen for scratches, check buttons are clicky, record 4K for 15min to check thermals',
@@ -1189,7 +1189,7 @@ Creator case study: **Diana Ishak** bought a used ZV-E10 for RM1,700 and started
 - The accessory range means you can shoot angles rivals cannot
 
 **The honest catch:** The sensor is smaller than the DJI rivals, it pushes the GoPro subscription hard, and the Hero 14 is a modest step over the Hero 13. Buy used, and you will not feel the difference.`,
-    roiDesc: 'Used RM1,700-2,100. Farid paid his off in 3 car dealer videos at RM400 each. The familiar, proven action cam.',
+    roiDesc: 'Used RM1,700-2,100. Farid paid his off in 3 POV brand videos at RM400 each. The familiar, proven action cam.',
     pros: ['5.7K 60fps / 4K 120fps', 'HyperSmooth stabilisation', 'Largest mount ecosystem', 'Waterproof 10m', 'GP-Log for grading'],
     cons: ['Smaller sensor than DJI rivals', 'Subscription pushed hard', 'Modest upgrade over Hero 13', 'Battery ~60min recording'],
     usedTip: 'Record 4K for 20min to check overheating, inspect lens glass, ensure Bluetooth/WiFi pair cleanly',
@@ -1431,7 +1431,7 @@ No viewfinder and no IBIS. You are committing to screen-based shooting, and hand
 **The honest catch:** the mount ecosystem is smaller than GoPro's, and it is only a modest step over the Action 5 Pro. If the price gap is big, grab the 5 Pro instead — it is the same sensor and screens.
 
 **Who should buy:** vloggers and POV creators who want the best all-round action cam. **Who should skip:** people already on an Action 5 Pro — the upgrade is small.`,
-    roiDesc: 'Used RM1,400-1,800. Farid paid his off in 4 workshop videos at RM350 each. The 2025 action cam to beat.',
+    roiDesc: 'Used RM1,400-1,800. Farid paid his off in 4 POV brand videos at RM350 each. The 2025 action cam to beat.',
     pros: ['Front + back screens', 'Excellent stabilisation', 'Better colour than Action 5', 'Long battery life', 'Waterproof 20m'],
     cons: ['Smaller ecosystem than GoPro', 'Modest upgrade over 5 Pro', 'Accessories cost more', 'No GPS overlays'],
     usedTip: 'Check the front screen for scratches, test all buttons, record 4K for 15min to check thermals, verify USB-C charging',
@@ -1591,7 +1591,7 @@ No viewfinder and no IBIS. You are committing to screen-based shooting, and hand
 **The honest catch:** no front screen, small sensor in low light, and battery life around an hour. For bright, action-heavy content it is perfect; for indoor vlogging it is the wrong tool.
 
 **Who should buy:** anyone who wants POV content for the lowest ringgit. **Who should skip:** vloggers who need a front screen — get the DJI Action 4 or 6 instead.`,
-    roiDesc: 'Used RM850-1,100. The cheapest real POV camera in 2026. Farid shoots workshop content that pays RM300 a video.',
+    roiDesc: 'Used RM850-1,100. The cheapest real POV camera in 2026. Farid shoots POV content that pays RM300 a video.',
     pros: ['Sub-RM1,000 used', '5.3K 60fps video', 'Huge mount ecosystem', 'Waterproof 10m', 'HyperSmooth stabilisation'],
     cons: ['No front screen', 'Small sensor in low light', 'Battery ~60min recording', 'Older processor'],
     usedTip: 'Check the lens glass for scratches, test all buttons, record 4K for 15min to check thermals, verify Bluetooth pairing',

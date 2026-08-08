@@ -23,13 +23,16 @@ const scenarioSearch: Record<string, { hashtags: string[]; terms: string[] }> = 
   'sony-a6100-vlog': { hashtags: ['sonya6100', 'mirrorlessmalaysia'], terms: ['Sony A6100 flip screen vlog', 'mirrorless vlog setup'] },
   'insta360-action': { hashtags: ['insta360x4', 'insta360malaysia'], terms: ['Insta360 X4 invisible stick', '360 action cam video'] },
   'drone-aerial-malaysia': { hashtags: ['dronemalaysia', 'aerialsabah'], terms: ['DJI Mini 4 Pro aerial Malaysia', 'drone aerial video'] },
-  'gopro-chest-mount': { hashtags: ['goprohero', 'chestmountpov'], terms: ['GoPro chest mount POV car', 'action cam POV vlog'] },
+  'gopro-chest-mount': { hashtags: ['goprohero', 'chestmountpov'], terms: ['GoPro chest mount POV motorcycle', 'action cam POV vlog'] },
   'food-overhead': { hashtags: ['foodtiktokmy', 'overheadshot'], terms: ['food overhead phone mount tiktok', 'malaysian food content'] },
   'desk-setup-ring-light': { hashtags: ['desksetup', 'ringlightmalaysia'], terms: ['ring light desk setup', 'content creator setup malaysia'] },
   'lapel-mic-audio': { hashtags: ['audiomatters', 'lapelmic'], terms: ['lapel microphone review setup', 'audio for video creators'] },
   'used-camera-shop': { hashtags: ['usedcamera', 'cameramalaysia'], terms: ['used camera shop malaysia', 'second hand camera mudah'] },
   'beauty-review-setup': { hashtags: ['beautytiktok', 'skincaremy'], terms: ['beauty review setup', 'makeup content creator setup'] },
-  'car-review-pov': { hashtags: ['carculturemy', 'cardetailpov'], terms: ['car review POV video', 'automotive content creator'] },
+  'eye-closeup-look': { hashtags: ['eyecloseup', 'portraitmalaysia'], terms: ['close up eye looking at camera', 'eye contact portrait malaysia'] },
+  'girl-creator-portrait': { hashtags: ['girlcreator', 'malaysiancreators'], terms: ['girl holding camera portrait', 'woman content creator malaysia'] },
+  'bts-portrait-shoot': { hashtags: ['behindthescenes', 'photoshootbts'], terms: ['behind the scenes photoshoot malaysia', 'photographer holding camera portrait'] },
+  'kpop-dance-filming': { hashtags: ['kpopdancecover', 'dancecovermalaysia'], terms: ['kpop dance cover malaysia', 'filming dance video vlog'] },
   'travel-vlog-malaysia': { hashtags: ['travelmalaysia', 'vlogmalaysia'], terms: ['travel vlog malaysia', 'malaysian travel vlogger'] },
 };
 

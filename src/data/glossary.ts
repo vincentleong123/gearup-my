@@ -234,7 +234,7 @@ export const glossary: GlossaryTerm[] = [
   {
     term: 'Slow Motion (Overcrank)',
     shortDef: 'Shooting at a high frame rate so playback is slow and smooth',
-    longDef: 'Shooting at a high frame rate (60, 120 or 240fps) and playing it back at 24-30fps to create slow motion. The DJI Mini 4 Pro does 4K 100fps; the Osmo Action 5 Pro does 4K 120fps; GoPro Hero 13 does 5.3K 60fps. Great for food pours, car shots, and cinematic transitions. Note: higher fps needs more light — slow motion in dark rooms gets noisy fast.',
+    longDef: 'Shooting at a high frame rate (60, 120 or 240fps) and playing it back at 24-30fps to create slow motion. The DJI Mini 4 Pro does 4K 100fps; the Osmo Action 5 Pro does 4K 120fps; GoPro Hero 13 does 5.3K 60fps. Great for food pours, dance covers, and cinematic transitions. Note: higher fps needs more light — slow motion in dark rooms gets noisy fast.',
     category: 'camera',
     manglish: 'Rakam laju, main lambat. Tuang air, motor laju, tutup pintu — semua jadi cinematic. Power untuk b-roll.',
   },

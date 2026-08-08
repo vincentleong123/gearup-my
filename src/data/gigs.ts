@@ -246,7 +246,7 @@ export const gigs: Gig[] = [
     sampleGig: {
       headline: '3 retainers = a paid-off A6100 in 2 months',
       story:
-        'Fikri signed a mamak (RM700), a car workshop (RM800) and a boutique (RM600) on RM500-800 retainers after showing each a 30-second sample Reel. Total RM2,100/month recurring — his used A6100 was paid off by month two, then became pure profit.',
+        'Fikri signed a mamak (RM700), a gym (RM800) and a boutique (RM600) on RM500-800 retainers after showing each a 30-second sample Reel. Total RM2,100/month recurring — his used A6100 was paid off by month two, then became pure profit.',
       earnings: 'RM1,500-3,000/month recurring from 2-4 retainer clients',
     },
     hashtags: ['socialmediamarketing', 'reelsmalaysia', 'fbreel', 'contentcreator', 'videocontent', 'umkm', 'bisnes'],
