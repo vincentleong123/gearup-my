@@ -9,7 +9,9 @@ const links = [
   { href: '/#gear', key: 'nav.gear', label: 'Gear' },
   { href: '/gigs', key: 'nav.gigs', label: 'Gigs' },
   { href: '/compare', key: 'nav.compare', label: 'Compare' },
+  { href: '/niche', key: 'nav.niches', label: 'Niches' },
   { href: '/blog', key: 'nav.blog', label: 'Reviews' },
+  { href: '/glossary', key: 'nav.glossary', label: 'Glossary' },
   { href: '/#creators', key: 'nav.creators', label: 'Creators' },
   { href: '/#calculator', key: 'nav.roiCalc', label: 'ROI Calc' },
 ];
@@ -95,7 +97,7 @@ export default function Nav() {
           <div className="flex items-center justify-between h-16">
             <Logo />
 
-            <div className="hidden lg:flex items-center gap-1">
+            <div className="hidden xl:flex items-center gap-1">
               {links.map(l => (
                 <Link
                   key={l.key}
@@ -114,7 +116,7 @@ export default function Nav() {
               ))}
             </div>
 
-            <div className="hidden lg:flex items-center gap-2">
+            <div className="hidden xl:flex items-center gap-2">
               <button
                 onClick={() => setLang(lang === 'ms' ? 'en' : 'ms')}
                 className="px-3 py-2 text-xs font-bold rounded-lg border border-zinc-700 hover:border-red-500/50 hover:text-red-400 transition-all uppercase tracking-wider"
@@ -131,7 +133,7 @@ export default function Nav() {
             </div>
 
             {/* Mobile: lang + hamburger */}
-            <div className="flex items-center gap-2 lg:hidden">
+            <div className="flex items-center gap-2 xl:hidden">
               <button
                 onClick={() => setLang(lang === 'ms' ? 'en' : 'ms')}
                 className="px-2 py-1 text-xs font-bold rounded-lg border border-zinc-700 hover:border-red-500/50 transition-all uppercase tracking-wider"
@@ -158,7 +160,7 @@ export default function Nav() {
 
         {/* Mobile menu */}
         {open && (
-          <div className="lg:hidden border-t border-zinc-800/50 bg-zinc-950/95 backdrop-blur-xl animate-fade-in">
+          <div className="xl:hidden border-t border-zinc-800/50 bg-zinc-950/95 backdrop-blur-xl animate-fade-in">
             <div className="px-4 py-3 space-y-1">
               {links.map(l => (
                 <Link

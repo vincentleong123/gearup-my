@@ -1,3 +1,10 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  robots: { index: false, follow: false },
+  title: 'Hero Preview',
+};
+
 const candidates = [
   'v2_look_viewer_hero.jpg',
   'v2_shoulder_hero.jpg',
