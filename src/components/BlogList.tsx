@@ -22,18 +22,40 @@ const filters = [
 
 type FilterId = (typeof filters)[number]['id'];
 
+const langFilters = [
+  { id: 'all', label: 'All Languages' },
+  { id: 'ms', label: 'Bahasa Melayu' },
+  { id: 'en', label: 'English' },
+] as const;
+
+type LangFilterId = (typeof langFilters)[number]['id'];
+
+const langBadge = (lang?: 'ms') =>
+  lang === 'ms'
+    ? 'bg-red-500/20 text-red-400 border-red-500/30'
+    : 'bg-zinc-700/40 text-zinc-300 border-zinc-600/40';
+
 export default function BlogList() {
   const [filter, setFilter] = useState<FilterId>('all');
+  const [lang, setLang] = useState<LangFilterId>('all');
 
   const sorted = useMemo(() => [...articles].sort((a, b) => (a.date < b.date ? 1 : -1)), []);
-  const list = useMemo(() => (filter === 'all' ? sorted : sorted.filter(a => a.category === filter)), [filter, sorted]);
+  const list = useMemo(
+    () =>
+      sorted.filter(a => {
+        const catOk = filter === 'all' || a.category === filter;
+        const langOk = lang === 'all' || (a.lang ?? 'en') === lang;
+        return catOk && langOk;
+      }),
+    [filter, lang, sorted]
+  );
 
   const [featured, ...rest] = list;
 
   return (
     <>
       {/* Filters */}
-      <div className="flex justify-center gap-2 flex-wrap mb-10">
+      <div className="flex justify-center gap-2 flex-wrap mb-4">
         {filters.map(f => (
           <button
             key={f.id}
@@ -41,6 +63,21 @@ export default function BlogList() {
             className={`px-5 py-2.5 rounded-full text-sm font-bold transition-all ${
               filter === f.id
                 ? 'bg-gradient-to-r from-green-500 to-emerald-600 text-zinc-950 shadow-lg shadow-green-500/25'
+                : 'bg-zinc-800/50 text-zinc-200 hover:text-white border border-zinc-700/50'
+            }`}
+          >
+            {f.label}
+          </button>
+        ))}
+      </div>
+      <div className="flex justify-center gap-2 flex-wrap mb-10">
+        {langFilters.map(f => (
+          <button
+            key={f.id}
+            onClick={() => setLang(f.id)}
+            className={`px-4 py-2 rounded-full text-sm font-bold transition-all ${
+              lang === f.id
+                ? 'bg-gradient-to-r from-red-500 to-rose-600 text-zinc-950 shadow-lg shadow-red-500/25'
                 : 'bg-zinc-800/50 text-zinc-200 hover:text-white border border-zinc-700/50'
             }`}
           >
@@ -65,6 +102,7 @@ export default function BlogList() {
             <div className="absolute top-4 left-4 flex items-center gap-2">
               <span className="text-xs font-bold px-3 py-1 rounded-full bg-green-500 text-zinc-950 uppercase">Featured</span>
               <span className={`text-xs font-bold px-3 py-1 rounded-full border uppercase backdrop-blur-sm ${categoryColors[featured.category]}`}>{featured.category}</span>
+              <span className={`text-xs font-bold px-3 py-1 rounded-full border uppercase backdrop-blur-sm ${langBadge(featured.lang)}`}>{featured.lang === 'ms' ? 'Bahasa Melayu' : 'English'}</span>
             </div>
           </div>
           <div className="p-6 md:p-10 -mt-24 relative z-10">
@@ -94,8 +132,9 @@ export default function BlogList() {
                 loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-zinc-900/70 to-transparent" />
-              <div className="absolute top-4 left-4">
+              <div className="absolute top-4 left-4 flex items-center gap-2">
                 <span className={`text-xs font-bold px-3 py-1 rounded-full border uppercase backdrop-blur-sm ${categoryColors[a.category]}`}>{a.category}</span>
+                <span className={`text-xs font-bold px-3 py-1 rounded-full border uppercase backdrop-blur-sm ${langBadge(a.lang)}`}>{a.lang === 'ms' ? 'BM' : 'EN'}</span>
               </div>
             </div>
             <div className="p-5">

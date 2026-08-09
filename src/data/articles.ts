@@ -9,9 +9,13 @@ export interface Article {
   date: string;
   tags: string[];
   relatedGear: string[];
+  lang?: 'ms';
 }
 
+import { msArticles } from './articles-ms';
+
 export const articles: Article[] = [
+  ...msArticles,
   {
     slug: 'content-creator-malaysia-no-money-start',
     title: 'How to Start Content Creation in Malaysia with Zero Ringgit (Tim & Ahmad\'s Guide)',

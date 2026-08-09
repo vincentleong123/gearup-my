@@ -74,6 +74,9 @@ export default async function ArticlePage({ params }: Props) {
             </div>
             <div className="flex items-center gap-3 text-sm text-zinc-500 mb-4">
               <span className="text-xs font-bold px-3 py-1 rounded-full bg-green-500/20 text-green-400 border border-green-500/30 uppercase">{article.category}</span>
+              {article.lang === 'ms' && (
+                <span className="text-xs font-bold px-3 py-1 rounded-full bg-red-500/15 text-red-400 border border-red-500/30 uppercase">Bahasa Melayu</span>
+              )}
               <span>{article.date}</span>
               <span>·</span>
               <span>{article.readTime} min read</span>
