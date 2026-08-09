@@ -11,7 +11,7 @@ export default function CreatorShowcase() {
           <h2 className="text-3xl md:text-5xl font-black mb-4">
             They Had <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">No Money</span> Too
           </h2>
-          <p className="text-zinc-400 max-w-2xl mx-auto text-lg">
+          <p className="text-zinc-200 max-w-2xl mx-auto text-lg">
             Real Malaysian creators who started with nothing. Their gear, their earnings, their advice for Tim & Ahmad.
           </p>
         </div>
@@ -38,10 +38,10 @@ export default function CreatorShowcase() {
               <div className="text-xs text-cyan-400/80 bg-cyan-500/5 px-3 py-1 rounded-full inline-block mb-3 font-semibold">{c.niche}</div>
               <div className="flex flex-wrap gap-1.5 mb-4">
                 {c.gear.map(g => (
-                  <span key={g} className="text-xs text-zinc-400 bg-zinc-800/50 px-2 py-0.5 rounded">{g}</span>
+                  <span key={g} className="text-xs text-zinc-200 bg-zinc-800/50 px-2 py-0.5 rounded">{g}</span>
                 ))}
               </div>
-              <p className="text-zinc-400 text-sm line-clamp-3 mb-4">{c.story}</p>
+              <p className="text-zinc-200 text-sm line-clamp-3 mb-4">{c.story}</p>
               <div className="flex gap-3">
                 <div className="flex-1 bg-zinc-800/50 rounded-xl p-3 text-center">
                   <div className="text-lg font-bold text-green-400">RM {c.monthlyEarningsMin.toLocaleString()}+</div>
@@ -59,7 +59,7 @@ export default function CreatorShowcase() {
           ))}
         </div>
         <div className="text-center mt-8">
-          <Link href="/creators" className="inline-flex items-center gap-2 text-zinc-400 hover:text-white transition-colors font-medium">
+          <Link href="/creators" className="inline-flex items-center gap-2 text-zinc-200 hover:text-white transition-colors font-medium">
             See all creators →
           </Link>
         </div>

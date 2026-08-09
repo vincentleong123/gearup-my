@@ -40,7 +40,7 @@ export default function GigsPage() {
             <h1 className="text-4xl md:text-6xl font-black mb-4">
               Part-Time Gigs That <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-yellow-500">Pay For Your Camera</span>
             </h1>
-            <p className="text-zinc-400 text-lg leading-relaxed">
+            <p className="text-zinc-200 text-lg leading-relaxed">
               Graduation shoots. Gala dinners. Portraits. Weddings. Video content. These are real jobs Malaysians are
               already paying real money for — and every single one of them can buy you a camera. No gear envy. Just gigs.
             </p>
@@ -71,7 +71,7 @@ export default function GigsPage() {
                 </div>
                 <div className="p-5">
                   <h2 className="text-lg font-bold group-hover:text-amber-400 transition-colors mb-2">{g.title}</h2>
-                  <p className="text-zinc-400 text-sm line-clamp-2 mb-4">{g.tagline}</p>
+                  <p className="text-zinc-200 text-sm line-clamp-2 mb-4">{g.tagline}</p>
                   <div className="flex items-center justify-between text-sm">
                     <div>
                       <span className="text-xs text-zinc-500">Per gig</span>
@@ -83,7 +83,7 @@ export default function GigsPage() {
                     </div>
                     <div className="text-right text-xs text-zinc-500">
                       <div>{g.timeEstimate}</div>
-                      <div className="text-zinc-400">{g.peakSeason.split(',')[0]}</div>
+                      <div className="text-zinc-200">{g.peakSeason.split(',')[0]}</div>
                     </div>
                   </div>
                 </div>
@@ -100,26 +100,26 @@ export default function GigsPage() {
               <div className="bg-zinc-900/60 border border-zinc-800 rounded-xl p-6">
                 <div className="text-4xl mb-3">📷</div>
                 <div className="text-2xl font-black mb-1">Nikon D3100</div>
-                <div className="text-zinc-400 text-sm mb-3">RM 450 second-hand</div>
+                <div className="text-zinc-200 text-sm mb-3">RM 450 second-hand</div>
                 <div className="text-amber-400 font-black text-xl">2 graduation shoots</div>
                 <div className="text-zinc-500 text-xs mt-2">@ RM200-250 each — paid off in one Saturday</div>
               </div>
               <div className="bg-zinc-900/60 border border-amber-500/30 rounded-xl p-6">
                 <div className="text-4xl mb-3">🎥</div>
                 <div className="text-2xl font-black mb-1">Sony A6100</div>
-                <div className="text-zinc-400 text-sm mb-3">RM 1,600 second-hand</div>
+                <div className="text-zinc-200 text-sm mb-3">RM 1,600 second-hand</div>
                 <div className="text-amber-400 font-black text-xl">2-3 wedding gigs</div>
                 <div className="text-zinc-500 text-xs mt-2">@ RM500-800 each — or 3 client retainers in a month</div>
               </div>
               <div className="bg-zinc-900/60 border border-zinc-800 rounded-xl p-6">
                 <div className="text-4xl mb-3">🚁</div>
                 <div className="text-2xl font-black mb-1">DJI Mini 4 Pro</div>
-                <div className="text-zinc-400 text-sm mb-3">RM 2,900 second-hand</div>
+                <div className="text-zinc-200 text-sm mb-3">RM 2,900 second-hand</div>
                 <div className="text-amber-400 font-black text-xl">5 property gigs</div>
                 <div className="text-zinc-500 text-xs mt-2">@ RM400-600 aerial package each — under a month</div>
               </div>
             </div>
-            <p className="text-center text-zinc-400 text-sm mt-8">
+            <p className="text-center text-zinc-200 text-sm mt-8">
               Every gear review page has a <span className="text-amber-400 font-bold">&quot;How to pay it off&quot;</span> panel with your exact path.
               Open any <Link href="/gear" className="text-amber-400 hover:underline font-bold">gear review</Link> to see yours.
             </p>
@@ -131,7 +131,7 @@ export default function GigsPage() {
               <h2 className="text-3xl md:text-5xl font-black mb-3">
                 Malaysia 2026 <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-yellow-500">Creative Rate Card</span>
               </h2>
-              <p className="text-zinc-400 max-w-2xl mx-auto text-lg">
+              <p className="text-zinc-200 max-w-2xl mx-auto text-lg">
                 What Malaysian clients are actually paying right now. Entry = beginner skill. Typical = consistent freelancer. Premium = pro with portfolio.
               </p>
             </div>
@@ -139,7 +139,7 @@ export default function GigsPage() {
               <div className="overflow-x-auto">
                 <table className="w-full text-sm">
                   <thead>
-                    <tr className="text-left text-zinc-400 uppercase tracking-wider text-xs border-b border-zinc-800">
+                    <tr className="text-left text-zinc-200 uppercase tracking-wider text-xs border-b border-zinc-800">
                       <th className="px-5 py-4 font-bold">Service</th>
                       <th className="px-4 py-4 font-bold">Entry</th>
                       <th className="px-4 py-4 font-bold">Typical</th>
@@ -152,10 +152,10 @@ export default function GigsPage() {
                     {rateCard.map((r, i) => (
                       <tr key={i} className={i % 2 ? 'bg-zinc-900/40' : ''}>
                         <td className="px-5 py-3.5 font-semibold">{r.service}</td>
-                        <td className="px-4 py-3.5 text-zinc-400">{r.entry}</td>
+                        <td className="px-4 py-3.5 text-zinc-200">{r.entry}</td>
                         <td className="px-4 py-3.5 font-bold text-amber-400">{r.typical}</td>
-                        <td className="px-4 py-3.5 text-zinc-300">{r.premium}</td>
-                        <td className="px-4 py-3.5 text-zinc-400">{r.time}</td>
+                        <td className="px-4 py-3.5 text-zinc-100">{r.premium}</td>
+                        <td className="px-4 py-3.5 text-zinc-200">{r.time}</td>
                         <td className="px-5 py-3.5 text-right text-zinc-500">{r.demand}</td>
                       </tr>
                     ))}
@@ -170,7 +170,7 @@ export default function GigsPage() {
             <h2 className="text-3xl md:text-4xl font-black mb-3">
               Your camera is <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-yellow-500">a few gigs away</span>
             </h2>
-            <p className="text-zinc-400 max-w-xl mx-auto mb-8 text-lg">
+            <p className="text-zinc-200 max-w-xl mx-auto mb-8 text-lg">
               Pick a gig, see the exact gear you need, and watch the live inspiration wall fill with real examples from Google and social media.
             </p>
             <div className="flex flex-wrap justify-center gap-4">

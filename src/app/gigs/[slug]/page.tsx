@@ -64,7 +64,7 @@ export default async function GigPage({ params }: Props) {
             <span>/</span>
             <Link href="/gigs" className="hover:text-white transition-colors">Gigs</Link>
             <span>/</span>
-            <span className="text-zinc-300">{gig.title}</span>
+            <span className="text-zinc-100">{gig.title}</span>
           </nav>
 
           {/* Hero */}
@@ -82,7 +82,7 @@ export default async function GigPage({ params }: Props) {
             </div>
             <h1 className="text-4xl md:text-5xl font-black mb-3">{gig.title}</h1>
             <p className="text-xl text-amber-400/90 font-semibold mb-4">{gig.tagline}</p>
-            <p className="text-zinc-400 leading-relaxed text-lg">{gig.description}</p>
+            <p className="text-zinc-200 leading-relaxed text-lg">{gig.description}</p>
           </div>
 
           {/* Stats */}
@@ -144,14 +144,14 @@ export default async function GigPage({ params }: Props) {
               <h2 className="text-xl font-bold text-amber-400 mb-3">🧮 The payoff maths</h2>
               {cheapestStarter && cheapestStarter.priceUsed > 0 ? (
                 <>
-                  <p className="text-zinc-300 text-sm leading-relaxed mb-4">
+                  <p className="text-zinc-100 text-sm leading-relaxed mb-4">
                     Start with the <strong className="text-white">{cheapestStarter.name}</strong> at{' '}
                     <strong className="text-amber-400">{formatPrice(cheapestStarter.priceUsed)}</strong> second-hand. At up to{' '}
                     <strong className="text-amber-400">RM {gig.rateMax.toLocaleString()}</strong> per {gig.rateUnit}, that&apos;s
                   </p>
                   <div className="text-center py-4 mb-3">
                     <div className="text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-yellow-500">{gigsNeeded}</div>
-                    <div className="text-zinc-400 mt-1 font-semibold">{gig.title.toLowerCase()} gig{gigsNeeded > 1 ? 's' : ''}</div>
+                    <div className="text-zinc-200 mt-1 font-semibold">{gig.title.toLowerCase()} gig{gigsNeeded > 1 ? 's' : ''}</div>
                     <div className="text-xs text-zinc-500 mt-1">to own it free &amp; clear</div>
                   </div>
                   <p className="text-xs text-zinc-500 leading-relaxed mt-auto">
@@ -159,7 +159,7 @@ export default async function GigPage({ params }: Props) {
                   </p>
                 </>
               ) : (
-                <p className="text-zinc-300 text-sm leading-relaxed">
+                <p className="text-zinc-100 text-sm leading-relaxed">
                   Start with what you already own — likely a phone. This gig can begin today at RM0. Earn the deposit, then grab the gear that makes it easier.
                 </p>
               )}
@@ -176,7 +176,7 @@ export default async function GigPage({ params }: Props) {
               {gig.deliverables.map((d, i) => (
                 <div key={i} className="flex items-start gap-3 bg-zinc-900/40 border border-zinc-800/50 rounded-xl p-4">
                   <span className="text-amber-400 mt-0.5">✓</span>
-                  <span className="text-zinc-300">{d}</span>
+                  <span className="text-zinc-100">{d}</span>
                 </div>
               ))}
             </div>
@@ -190,7 +190,7 @@ export default async function GigPage({ params }: Props) {
                 {gig.howToGetGigs.map((s, i) => (
                   <div key={i} className="flex items-start gap-3 bg-zinc-900/40 border border-zinc-800/50 rounded-xl p-4">
                     <span className="text-amber-400 font-black flex-shrink-0">{i + 1}.</span>
-                    <span className="text-zinc-300 text-sm leading-relaxed">{s}</span>
+                    <span className="text-zinc-100 text-sm leading-relaxed">{s}</span>
                   </div>
                 ))}
               </div>
@@ -201,7 +201,7 @@ export default async function GigPage({ params }: Props) {
                 {gig.tips.map((t, i) => (
                   <div key={i} className="flex items-start gap-3 bg-cyan-500/5 border border-cyan-500/15 rounded-xl p-4">
                     <span className="text-cyan-400 mt-0.5">💡</span>
-                    <span className="text-zinc-300 text-sm leading-relaxed">{t}</span>
+                    <span className="text-zinc-100 text-sm leading-relaxed">{t}</span>
                   </div>
                 ))}
               </div>
@@ -212,7 +212,7 @@ export default async function GigPage({ params }: Props) {
           <div className="bg-gradient-to-br from-amber-500/10 to-yellow-500/5 border border-amber-500/25 rounded-2xl p-6 md:p-8 mb-10">
             <h2 className="text-xl font-bold text-amber-400 mb-4">🏆 Real example</h2>
             <div className="font-black text-lg mb-2">{gig.sampleGig.headline}</div>
-            <p className="text-zinc-300 leading-relaxed mb-4">{gig.sampleGig.story}</p>
+            <p className="text-zinc-100 leading-relaxed mb-4">{gig.sampleGig.story}</p>
             <div className="inline-flex items-center gap-2 bg-amber-500/10 border border-amber-500/30 px-4 py-2 rounded-xl text-amber-400 font-bold">
               {gig.sampleGig.earnings}
             </div>
@@ -265,7 +265,7 @@ export default async function GigPage({ params }: Props) {
           {/* CTA */}
           <div className="bg-gradient-to-br from-amber-500/10 to-yellow-500/5 border border-amber-500/20 rounded-2xl p-8 text-center">
             <h2 className="text-2xl font-black mb-2">Ready to earn?</h2>
-            <p className="text-zinc-400 mb-6">Find the exact gear for this gig with the Gear Match quiz, or explore every gig in one wall.</p>
+            <p className="text-zinc-200 mb-6">Find the exact gear for this gig with the Gear Match quiz, or explore every gig in one wall.</p>
             <div className="flex flex-wrap justify-center gap-3">
               <Link href="/quiz" className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-amber-400 to-yellow-500 text-zinc-950 font-bold rounded-xl hover:shadow-lg hover:shadow-amber-500/25 transition-all">
                 🎯 Gear Match Quiz

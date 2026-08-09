@@ -60,7 +60,7 @@ export default async function ArticlePage({ params }: Props) {
             <span>/</span>
             <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
             <span>/</span>
-            <span className="text-zinc-300 line-clamp-1">{article.title}</span>
+            <span className="text-zinc-100 line-clamp-1">{article.title}</span>
           </nav>
 
           <div className="mb-10">
@@ -79,7 +79,7 @@ export default async function ArticlePage({ params }: Props) {
               <span>{article.readTime} min read</span>
             </div>
             <h1 className="text-3xl md:text-5xl font-black leading-tight mb-4">{article.title}</h1>
-            <p className="text-xl text-zinc-400">{article.description}</p>
+            <p className="text-xl text-zinc-200">{article.description}</p>
           </div>
 
           <div className="prose prose-invert prose-zinc max-w-none">
@@ -124,20 +124,20 @@ export default async function ArticlePage({ params }: Props) {
                 if (line.startsWith('- **')) {
                   const match = line.match(/- \*\*(.+?)\*\*(.*)/);
                   if (match) {
-                    out.push(<li key={i} className="text-zinc-300 mb-1 ml-4"><strong>{match[1]}</strong>{match[2]}</li>);
+                    out.push(<li key={i} className="text-zinc-100 mb-1 ml-4"><strong>{match[1]}</strong>{match[2]}</li>);
                   }
                   return;
                 }
                 if (line.startsWith('- ')) {
-                  out.push(<li key={i} className="text-zinc-300 mb-1 ml-4">{line.slice(2)}</li>);
+                  out.push(<li key={i} className="text-zinc-100 mb-1 ml-4">{line.slice(2)}</li>);
                   return;
                 }
                 if (/^\d+\.\s/.test(line)) {
-                  out.push(<li key={i} className="text-zinc-300 mb-2 ml-4 list-decimal">{line.replace(/^\d+\.\s/, '')}</li>);
+                  out.push(<li key={i} className="text-zinc-100 mb-2 ml-4 list-decimal">{line.replace(/^\d+\.\s/, '')}</li>);
                   return;
                 }
                 if (line.trim() === '') { out.push(<br key={i} />); return; }
-                out.push(<p key={i} className="text-zinc-300 leading-relaxed mb-4 text-lg">{line}</p>);
+                out.push(<p key={i} className="text-zinc-100 leading-relaxed mb-4 text-lg">{line}</p>);
               });
               return out;
             })()}
@@ -149,7 +149,7 @@ export default async function ArticlePage({ params }: Props) {
               <h2 className="text-2xl font-bold">Watch real creators doing this</h2>
               <span className="text-xs font-bold px-3 py-1 rounded-full bg-red-500/15 text-red-400 border border-red-500/30 uppercase">Live</span>
             </div>
-            <p className="text-zinc-400 mb-4">
+            <p className="text-zinc-200 mb-4">
               Skip the theory — see who&apos;s already making money with this on Instagram, TikTok and YouTube. Tap any tile to open the live search and study real posts.
             </p>
             <CurationWall topics={[articleTopic(article)]} title={`#${article.tags[0] || article.slug} in the wild`} />
@@ -166,7 +166,7 @@ export default async function ArticlePage({ params }: Props) {
                       <h3 className="font-bold group-hover:text-red-400 transition-colors">{g.name}</h3>
                       <span className="text-green-400 font-bold text-sm">{formatPrice(g.priceUsed)}</span>
                     </div>
-                    <p className="text-sm text-zinc-400 line-clamp-2">{g.excerpt}</p>
+                    <p className="text-sm text-zinc-200 line-clamp-2">{g.excerpt}</p>
                   </Link>
                 ))}
               </div>

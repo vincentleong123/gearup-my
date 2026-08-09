@@ -19,7 +19,7 @@ export default function ComparePage() {
           <h1 className="text-4xl md:text-6xl font-black mb-4">
             ⚔️ <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-purple-500 to-pink-500">Compare Gear</span>
           </h1>
-          <p className="text-zinc-400 max-w-xl mx-auto text-lg">
+          <p className="text-zinc-200 max-w-xl mx-auto text-lg">
             Pick up to 3 gear items and see them side-by-side. Specs, price, ROI — all in one view.
           </p>
         </div>

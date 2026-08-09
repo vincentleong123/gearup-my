@@ -44,7 +44,7 @@ export default function GlossaryClient() {
               className={`px-3 py-2 rounded-lg text-sm font-bold transition-all ${
                 active === c.id
                   ? 'bg-gradient-to-r from-red-500 to-pink-600 text-white'
-                  : 'bg-zinc-800/50 text-zinc-400 hover:text-white border border-zinc-700/50'
+                  : 'bg-zinc-800/50 text-zinc-200 hover:text-white border border-zinc-700/50'
               }`}
             >
               {c.label}
@@ -68,17 +68,17 @@ export default function GlossaryClient() {
                   <span className="font-bold text-lg">{t.term}</span>
                   <span className="text-xs text-zinc-500 bg-zinc-800 px-2 py-0.5 rounded">{t.category}</span>
                 </div>
-                <p className="text-sm text-zinc-400">{t.shortDef}</p>
+                <p className="text-sm text-zinc-200">{t.shortDef}</p>
               </div>
               <span className="text-zinc-500 ml-4">{expanded === t.term ? '▲' : '▼'}</span>
             </button>
             {expanded === t.term && (
               <div className="px-4 pb-4 border-t border-zinc-800 pt-3 space-y-3">
-                <p className="text-zinc-300 leading-relaxed">{t.longDef}</p>
+                <p className="text-zinc-100 leading-relaxed">{t.longDef}</p>
                 {t.manglish && (
                   <div className="bg-cyan-500/5 border border-cyan-500/20 rounded-lg p-3">
                     <span className="text-xs text-cyan-400 font-bold uppercase tracking-wider">Manglish version</span>
-                    <p className="text-zinc-300 mt-1">&quot;{t.manglish}&quot;</p>
+                    <p className="text-zinc-100 mt-1">&quot;{t.manglish}&quot;</p>
                   </div>
                 )}
               </div>

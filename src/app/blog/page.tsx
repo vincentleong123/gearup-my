@@ -19,7 +19,7 @@ export default function BlogPage() {
           <h1 className="text-4xl md:text-6xl font-black mb-4">
             Reviews & <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-emerald-500">Guides</span>
           </h1>
-          <p className="text-zinc-400 max-w-xl mx-auto text-lg">
+          <p className="text-zinc-200 max-w-xl mx-auto text-lg">
             Everything Tim & Ahmad need to know about starting content creation in Malaysia — from zero budget to consistent income.
           </p>
         </div>

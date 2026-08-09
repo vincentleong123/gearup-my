@@ -67,7 +67,7 @@ export default function AdvertisePage() {
             <h1 className="text-4xl md:text-6xl font-black mb-4">
               Reach the creators who <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-pink-500 to-fuchsia-500">buy and recommend</span> your gear
             </h1>
-            <p className="text-zinc-400 text-lg leading-relaxed">
+            <p className="text-zinc-200 text-lg leading-relaxed">
               Kameralog is where Malaysian photographers, vloggers and side-hustle creators decide what to buy.
               Transparent metrics, honest editorial, and rates that make sense for local brands.
             </p>
@@ -86,7 +86,7 @@ export default function AdvertisePage() {
                 <div className="text-3xl md:text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-pink-500">
                   {s.value}
                 </div>
-                <div className="text-sm text-zinc-400 mt-1">{s.label}</div>
+                <div className="text-sm text-zinc-200 mt-1">{s.label}</div>
               </div>
             ))}
           </div>
@@ -101,7 +101,7 @@ export default function AdvertisePage() {
                   <span className="text-sm font-black text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-pink-500">{f.price}</span>
                 </div>
                 <p className="text-xs text-zinc-500 uppercase tracking-wider mb-2">{f.format}</p>
-                <p className="text-sm text-zinc-400">{f.detail}</p>
+                <p className="text-sm text-zinc-200">{f.detail}</p>
               </div>
             ))}
           </div>
@@ -112,19 +112,19 @@ export default function AdvertisePage() {
             <div className="grid md:grid-cols-3 gap-8">
               <div>
                 <h3 className="font-bold mb-2">🔒 No inflated numbers</h3>
-                <p className="text-sm text-zinc-400">
+                <p className="text-sm text-zinc-200">
                   Our &quot;2,300+ readers&quot; is honest, verified traffic — not a vanity stat. We share real numbers before you book.
                 </p>
               </div>
               <div>
                 <h3 className="font-bold mb-2">🖊️ Editorial stays independent</h3>
-                <p className="text-sm text-zinc-400">
+                <p className="text-sm text-zinc-200">
                   Sponsored reviews are always labelled. If a product is bad, we say so — that&apos;s why our readers trust our recommendations.
                 </p>
               </div>
               <div>
                 <h3 className="font-bold mb-2">🇲🇾 Malaysian first</h3>
-                <p className="text-sm text-zinc-400">
+                <p className="text-sm text-zinc-200">
                   Prices in ringgit, stores that ship to Malaysia, and creators like your actual customers.
                 </p>
               </div>
@@ -140,7 +140,7 @@ export default function AdvertisePage() {
                   Can I see real traffic numbers before booking?
                   <span className="text-pink-400 group-open:rotate-45 transition-transform">+</span>
                 </summary>
-                <p className="text-sm text-zinc-400 mt-3">
+                <p className="text-sm text-zinc-200 mt-3">
                   Yes — email us and we&apos;ll share current analytics (sessions, pageviews, geography) so you know exactly what you&apos;re buying.
                 </p>
               </details>
@@ -149,7 +149,7 @@ export default function AdvertisePage() {
                   How does sponsored content stay honest?
                   <span className="text-pink-400 group-open:rotate-45 transition-transform">+</span>
                 </summary>
-                <p className="text-sm text-zinc-400 mt-3">
+                <p className="text-sm text-zinc-200 mt-3">
                   Every sponsored post carries a visible disclosure. We keep our scoring (ROI score, pros/cons) genuine — readers stay because we don&apos;t flatter products.
                 </p>
               </details>
@@ -158,7 +158,7 @@ export default function AdvertisePage() {
                   Do you accept affiliate links or exchanges?
                   <span className="text-pink-400 group-open:rotate-45 transition-transform">+</span>
                 </summary>
-                <p className="text-sm text-zinc-400 mt-3">
+                <p className="text-sm text-zinc-200 mt-3">
                   Cash first, always. Products for review are fine, but ads and sponsored posts are paid placements. Contact us to discuss.
                 </p>
               </details>

@@ -89,7 +89,7 @@ export default async function GearPage({ params }: Props) {
             <span>/</span>
             <Link href="/gear" className="hover:text-white transition-colors">Gear Reviews</Link>
             <span>/</span>
-            <span className="text-zinc-300">{gear.name}</span>
+            <span className="text-zinc-100">{gear.name}</span>
           </nav>
 
           {/* Review header */}
@@ -101,7 +101,7 @@ export default async function GearPage({ params }: Props) {
                 gear.level === 'mid' ? 'bg-yellow-500/20 text-yellow-400 border border-yellow-500/30' :
                 'bg-red-500/20 text-red-400 border border-red-500/30'
               }`}>{getLevelLabel(gear.level)}</span>
-              <span className="text-xs text-zinc-400 bg-zinc-800/70 px-3 py-1 rounded-full">{gear.type}</span>
+              <span className="text-xs text-zinc-200 bg-zinc-800/70 px-3 py-1 rounded-full">{gear.type}</span>
               {isTopPick && (
                 <span className="text-xs font-bold px-3 py-1 rounded-full bg-gradient-to-r from-amber-500 to-yellow-500 text-zinc-950">🏆 2026 Editor&apos;s Choice</span>
               )}
@@ -114,9 +114,9 @@ export default async function GearPage({ params }: Props) {
                 <span className="text-sm text-zinc-500">/ 5</span>
               </span>
               <span className="text-sm text-zinc-500">·</span>
-              <span className="text-sm text-zinc-400">Reviewed by the Kameralog team · 2026 Edition</span>
+              <span className="text-sm text-zinc-200">Reviewed by the Kameralog team · 2026 Edition</span>
             </div>
-            <p className="text-xl text-zinc-400 leading-relaxed">{gear.excerpt}</p>
+            <p className="text-xl text-zinc-200 leading-relaxed">{gear.excerpt}</p>
           </div>
 
           {/* Gear hero image */}
@@ -145,7 +145,7 @@ export default async function GearPage({ params }: Props) {
                   href={credit.page}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex justify-between items-center gap-2 px-3 py-1.5 text-[10px] text-zinc-500 hover:text-zinc-300 bg-zinc-950/50"
+                  className="flex justify-between items-center gap-2 px-3 py-1.5 text-[10px] text-zinc-500 hover:text-zinc-100 bg-zinc-950/50"
                 >
                   <span>Photo: {credit.artist} · {credit.license}</span>
                   <span>Wikimedia Commons ↗</span>
@@ -197,7 +197,7 @@ export default async function GearPage({ params }: Props) {
               <span className="text-2xl">🧾</span>
               <div>
                 <h2 className="font-black text-lg mb-1.5">Bottom Line</h2>
-                <p className="text-zinc-300 leading-relaxed">{gear.roiDesc}</p>
+                <p className="text-zinc-100 leading-relaxed">{gear.roiDesc}</p>
               </div>
             </div>
           </div>
@@ -245,16 +245,16 @@ export default async function GearPage({ params }: Props) {
                 if (line.startsWith('- **')) {
                   const match = line.match(/- \*\*(.+?)\*\*(.*)/);
                   if (match) {
-                    out.push(<li key={i} className="text-zinc-300 mb-1"><strong>{match[1]}</strong>{match[2]}</li>);
+                    out.push(<li key={i} className="text-zinc-100 mb-1"><strong>{match[1]}</strong>{match[2]}</li>);
                   }
                   return;
                 }
                 if (line.startsWith('- ')) {
-                  out.push(<li key={i} className="text-zinc-300 mb-1">{line.slice(2)}</li>);
+                  out.push(<li key={i} className="text-zinc-100 mb-1">{line.slice(2)}</li>);
                   return;
                 }
                 if (line.trim() === '') { out.push(<br key={i} />); return; }
-                out.push(<p key={i} className="text-zinc-300 leading-relaxed mb-3">{line}</p>);
+                out.push(<p key={i} className="text-zinc-100 leading-relaxed mb-3">{line}</p>);
               });
               return out;
             })()}
@@ -265,13 +265,13 @@ export default async function GearPage({ params }: Props) {
             <div className="bg-green-500/5 border border-green-500/20 rounded-xl p-6">
               <h3 className="font-bold text-green-400 mb-3 uppercase text-sm tracking-wider">Pros</h3>
               <ul className="space-y-2">
-                {gear.pros.map(p => <li key={p} className="text-zinc-300 flex items-start gap-2"><span className="text-green-400 mt-0.5">✓</span> {p}</li>)}
+                {gear.pros.map(p => <li key={p} className="text-zinc-100 flex items-start gap-2"><span className="text-green-400 mt-0.5">✓</span> {p}</li>)}
               </ul>
             </div>
             <div className="bg-red-500/5 border border-red-500/20 rounded-xl p-6">
               <h3 className="font-bold text-red-400 mb-3 uppercase text-sm tracking-wider">Cons</h3>
               <ul className="space-y-2">
-                {gear.cons.map(c => <li key={c} className="text-zinc-300 flex items-start gap-2"><span className="text-red-400 mt-0.5">✗</span> {c}</li>)}
+                {gear.cons.map(c => <li key={c} className="text-zinc-100 flex items-start gap-2"><span className="text-red-400 mt-0.5">✗</span> {c}</li>)}
               </ul>
             </div>
           </div>
@@ -280,7 +280,7 @@ export default async function GearPage({ params }: Props) {
           {gear.usedTip && (
             <div className="bg-yellow-500/5 border border-yellow-500/20 rounded-xl p-6 mb-10">
               <h3 className="font-bold text-yellow-400 mb-2">💡 Second-Hand Buying Tip</h3>
-              <p className="text-zinc-300">{gear.usedTip}</p>
+              <p className="text-zinc-100">{gear.usedTip}</p>
               <Link
                 href="/blog/used-camera-buying-guide-malaysia-mudah-carousell"
                 className="inline-flex items-center gap-1.5 mt-3 text-sm text-yellow-300 hover:text-yellow-200 font-semibold transition-colors"
@@ -312,7 +312,7 @@ export default async function GearPage({ params }: Props) {
                         <div className="text-sm text-zinc-500">{c.niche} · RM{c.monthlyEarningsMin.toLocaleString()}+/mo</div>
                       </div>
                     </div>
-                    <p className="text-sm text-zinc-400 line-clamp-2">&ldquo;{h(c.advice.slice(0, 100))}&rdquo;</p>
+                    <p className="text-sm text-zinc-200 line-clamp-2">&ldquo;{h(c.advice.slice(0, 100))}&rdquo;</p>
                   </Link>
                 ))}
               </div>
@@ -324,7 +324,7 @@ export default async function GearPage({ params }: Props) {
             <div className="mb-10">
               <div className="flex items-center justify-between mb-6">
                 <h2 className="text-2xl font-black">Compare with Similar Gear</h2>
-                <Link href="/compare" className="text-sm text-zinc-400 hover:text-white font-semibold transition-colors">
+                <Link href="/compare" className="text-sm text-zinc-200 hover:text-white font-semibold transition-colors">
                   Open Compare tool →
                 </Link>
               </div>
@@ -361,7 +361,7 @@ export default async function GearPage({ params }: Props) {
           <div className="gradient-border rounded-2xl bg-zinc-900/70 p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div>
               <div className="font-black text-lg">{gear.name} — worth it in 2026?</div>
-              <div className="text-sm text-zinc-400">{gear.rating.toFixed(1)}/5 rating · {gear.roiScore}/100 ROI score</div>
+              <div className="text-sm text-zinc-200">{gear.rating.toFixed(1)}/5 rating · {gear.roiScore}/100 ROI score</div>
             </div>
             <Link
               href="/blog/used-camera-buying-guide-malaysia-mudah-carousell"

@@ -49,7 +49,7 @@ export default function CuratePage() {
             <h1 className="text-4xl md:text-6xl font-black mb-4">
               Inspiration <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-purple-500 to-pink-500">Wall</span>
             </h1>
-            <p className="text-zinc-400 text-lg leading-relaxed">
+            <p className="text-zinc-200 text-lg leading-relaxed">
               Never run out of ideas. Pick a gig niche and the wall curates fresh visual inspiration while live-linking you to
               Google Images, Instagram hashtags, TikTok and YouTube — so you can study what real clients pay for and replicate it locally.
             </p>
@@ -62,21 +62,21 @@ export default function CuratePage() {
             <div className="bg-zinc-900/40 border border-zinc-800 rounded-2xl p-6">
               <div className="text-3xl mb-3">1️⃣</div>
               <h3 className="font-bold mb-2">Pick a niche</h3>
-              <p className="text-zinc-400 text-sm leading-relaxed">
+              <p className="text-zinc-200 text-sm leading-relaxed">
                 Tap a topic chip — graduation, wedding, gala, portrait, video, food, property… Each has its own curated visuals.
               </p>
             </div>
             <div className="bg-zinc-900/40 border border-zinc-800 rounded-2xl p-6">
               <div className="text-3xl mb-3">2️⃣</div>
               <h3 className="font-bold mb-2">Follow the live search</h3>
-              <p className="text-zinc-400 text-sm leading-relaxed">
+              <p className="text-zinc-200 text-sm leading-relaxed">
                 Switch platform — Google, Instagram, TikTok, YouTube — and tap any tile. It opens the live search with real posts and real prices.
               </p>
             </div>
             <div className="bg-zinc-900/40 border border-zinc-800 rounded-2xl p-6">
               <div className="text-3xl mb-3">3️⃣</div>
               <h3 className="font-bold mb-2">Replicate locally</h3>
-              <p className="text-zinc-400 text-sm leading-relaxed">
+              <p className="text-zinc-200 text-sm leading-relaxed">
                 Copy the shot list, the angle, the hook. Shoot it in your town, tag it, and pitch it to local clients. That&apos;s the whole system.
               </p>
             </div>
@@ -104,7 +104,7 @@ export default function CuratePage() {
           {/* CTA */}
           <div className="mt-12 bg-gradient-to-br from-red-500/10 to-pink-500/5 border border-red-500/20 rounded-3xl p-8 md:p-12 text-center">
             <h2 className="text-2xl md:text-3xl font-black mb-3">Inspiration is only half the equation</h2>
-            <p className="text-zinc-400 max-w-xl mx-auto mb-6">
+            <p className="text-zinc-200 max-w-xl mx-auto mb-6">
               See the gear each gig needs and how fast it pays for itself. Start with the Gear Match quiz or browse the gig hub.
             </p>
             <div className="flex flex-wrap justify-center gap-3">

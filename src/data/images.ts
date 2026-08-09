@@ -180,6 +180,24 @@ export const gearScenarios: Record<string, string[]> = {
   'gopro-hero-12-review-malaysia': ['gopro-chest-mount', 'insta360-action'],
 };
 
+// ===== Hero collage =====
+// Real photography (Unsplash) — eye close-up, lens macro, camera gear,
+// portrait with camera. Used as a multi-tile hero collage (object-cover,
+// never stretched) instead of a single AI-generated full-bleed image.
+export const heroCollage = [
+  'photo-1541516160071-4bb0c5af65ba', // woman holding DSLR — portrait + gear
+  'photo-1516220362602-dba5272034e7', // macro eye close-up
+  'photo-1522125670776-3c7abb882bc2', // lens glass macro
+  'photo-1519183071298-a2962feb14f4', // hands holding camera
+  'photo-1471341971476-ae15ff5dd4ea', // woman framing shot through viewfinder
+  'photo-1524805444758-089113d48a6d', // photographer mid-shoot
+];
+
+export function heroCollageImg(i: number, w = 900, h = 900): string {
+  const safe = i % heroCollage.length;
+  return imgUrl(heroCollage[safe], w, h);
+}
+
 export const images = {
   gear: {
     'nikon-d3100-review-malaysia-second-hand-price': 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Nikon_D3100.jpg/960px-Nikon_D3100.jpg',

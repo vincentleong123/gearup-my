@@ -17,7 +17,7 @@ export default function CreatorsPage() {
           <h1 className="text-4xl md:text-6xl font-black mb-4">
             Creator <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Stories</span>
           </h1>
-          <p className="text-zinc-400 max-w-xl mx-auto text-lg">
+          <p className="text-zinc-200 max-w-xl mx-auto text-lg">
             Real Malaysians. Real earnings. Real advice for Tim, Ahmad, and anyone starting from zero.
           </p>
         </div>
@@ -40,10 +40,10 @@ export default function CreatorsPage() {
               <div className="text-xs text-cyan-400/80 bg-cyan-500/5 px-3 py-1 rounded-full inline-block mb-3 font-semibold">{c.niche}</div>
               <div className="flex flex-wrap gap-1.5 mb-4">
                 {c.gear.map(g => (
-                  <span key={g} className="text-xs text-zinc-400 bg-zinc-800/50 px-2 py-0.5 rounded">{g}</span>
+                  <span key={g} className="text-xs text-zinc-200 bg-zinc-800/50 px-2 py-0.5 rounded">{g}</span>
                 ))}
               </div>
-              <p className="text-zinc-400 text-sm line-clamp-3 mb-4">{c.story}</p>
+              <p className="text-zinc-200 text-sm line-clamp-3 mb-4">{c.story}</p>
               <div className="flex gap-3">
                 <div className="flex-1 bg-zinc-800/50 rounded-xl p-3 text-center">
                   <div className="text-lg font-bold text-green-400">RM {c.monthlyEarningsMin.toLocaleString()}+</div>
@@ -54,7 +54,7 @@ export default function CreatorsPage() {
                   <div className="text-xs text-zinc-500">breakeven</div>
                 </div>
                 <div className="flex-1 bg-zinc-800/50 rounded-xl p-3 text-center">
-                  <div className="text-lg font-bold text-zinc-300">{c.startedWith.length > 15 ? c.startedWith.slice(0, 12) + '…' : c.startedWith}</div>
+                  <div className="text-lg font-bold text-zinc-100">{c.startedWith.length > 15 ? c.startedWith.slice(0, 12) + '…' : c.startedWith}</div>
                   <div className="text-xs text-zinc-500">starter kit</div>
                 </div>
               </div>

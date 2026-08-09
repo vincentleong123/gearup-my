@@ -73,12 +73,12 @@ export default function Footer() {
               <h3 className="text-2xl md:text-3xl font-black mb-2">
                 A 10-year dream, <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-pink-500 to-fuchsia-500">finally launched</span>
               </h3>
-              <p className="text-zinc-400 text-sm md:text-base">
+              <p className="text-zinc-200 text-sm md:text-base">
                 Kameralog started life as cameralogue.com in 2016 — a personal log of cameras I wished I could buy. Ten years later, it&apos;s a real review site for Malaysian creators: honest ROI scores, real second-hand prices, and gear that pays for itself. No paywalled content, no fake guru talk — just useful logging.
               </p>
             </div>
             <div className="space-y-3">
-              <p className="text-sm text-zinc-400">
+              <p className="text-sm text-zinc-200">
                 The best way to follow along is free: new reviews and price drops land here every week. If you want them sooner, we&apos;re on the platforms below.
               </p>
               <div className="flex flex-wrap gap-2">
@@ -88,7 +88,7 @@ export default function Footer() {
                     href={s.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-4 py-2.5 bg-zinc-800/80 border border-zinc-700 rounded-xl text-sm font-semibold text-zinc-300 hover:text-white hover:border-pink-500/50 hover:-translate-y-0.5 transition-all duration-300"
+                    className="inline-flex items-center gap-2 px-4 py-2.5 bg-zinc-800/80 border border-zinc-700 rounded-xl text-sm font-semibold text-zinc-100 hover:text-white hover:border-pink-500/50 hover:-translate-y-0.5 transition-all duration-300"
                   >
                     <svg viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4">{s.icon}</svg>
                     {s.name}
@@ -109,7 +109,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-10">
           <div className="md:col-span-1">
             <Logo />
-            <p className="text-zinc-400 text-sm leading-relaxed mt-4">
+            <p className="text-zinc-200 text-sm leading-relaxed mt-4">
               {t('footer.tagline', 'Helping Malaysian creators find gear that pays for itself. Real reviews, real prices, real earnings.')}
             </p>
             <div className="flex gap-3 mt-5">
@@ -120,7 +120,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={s.name}
-                  className="grid place-items-center h-9 w-9 rounded-lg bg-zinc-800/60 border border-zinc-700/60 text-zinc-400 hover:text-white hover:border-pink-500/50 hover:-translate-y-0.5 transition-all duration-300"
+                  className="grid place-items-center h-9 w-9 rounded-lg bg-zinc-800/60 border border-zinc-700/60 text-zinc-200 hover:text-white hover:border-pink-500/50 hover:-translate-y-0.5 transition-all duration-300"
                 >
                   <svg viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4">{s.icon}</svg>
                 </a>
@@ -129,37 +129,37 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-sm font-bold text-zinc-300 mb-3 uppercase tracking-wider">{t('footer.explore', 'Explore')}</h4>
+            <h4 className="text-sm font-bold text-zinc-100 mb-3 uppercase tracking-wider">{t('footer.explore', 'Explore')}</h4>
             <div className="space-y-2">
-              <Link href="/#gear" className="block text-sm text-zinc-400 hover:text-white transition-colors">{t('nav.gear', 'Gear Reviews')}</Link>
+              <Link href="/#gear" className="block text-sm text-zinc-200 hover:text-white transition-colors">{t('nav.gear', 'Gear Reviews')}</Link>
               <Link href="/gigs" className="block text-sm text-amber-400 hover:text-amber-300 transition-colors font-medium">{t('nav.gigs', 'Gigs That Pay For Your Gear')}</Link>
-              <Link href="/compare" className="block text-sm text-zinc-400 hover:text-white transition-colors">{t('nav.compare', 'Compare Gear')}</Link>
-              <Link href="/quiz" className="block text-sm text-zinc-400 hover:text-white transition-colors">{t('nav.quiz', 'Gear Match Quiz')}</Link>
-              <Link href="/blog" className="block text-sm text-zinc-400 hover:text-white transition-colors">{t('nav.blog', 'Blog & Guides')}</Link>
-              <Link href="/glossary" className="block text-sm text-zinc-400 hover:text-white transition-colors">{t('nav.glossary', 'Gear Glossary')}</Link>
-              <Link href="/advertise" className="block text-sm text-zinc-400 hover:text-white transition-colors">Advertise</Link>
+              <Link href="/compare" className="block text-sm text-zinc-200 hover:text-white transition-colors">{t('nav.compare', 'Compare Gear')}</Link>
+              <Link href="/quiz" className="block text-sm text-zinc-200 hover:text-white transition-colors">{t('nav.quiz', 'Gear Match Quiz')}</Link>
+              <Link href="/blog" className="block text-sm text-zinc-200 hover:text-white transition-colors">{t('nav.blog', 'Blog & Guides')}</Link>
+              <Link href="/glossary" className="block text-sm text-zinc-200 hover:text-white transition-colors">{t('nav.glossary', 'Gear Glossary')}</Link>
+              <Link href="/advertise" className="block text-sm text-zinc-200 hover:text-white transition-colors">Advertise</Link>
             </div>
           </div>
 
           <div>
-            <h4 className="text-sm font-bold text-zinc-300 mb-3 uppercase tracking-wider">Top Reviews 2026</h4>
+            <h4 className="text-sm font-bold text-zinc-100 mb-3 uppercase tracking-wider">Top Reviews 2026</h4>
             <div className="space-y-2">
-              <Link href="/gear/nikon-d3100-review-malaysia-second-hand-price" className="block text-sm text-zinc-400 hover:text-white transition-colors">Nikon D3100 Review</Link>
-              <Link href="/gear/sony-a6100-review-malaysia-second-hand" className="block text-sm text-zinc-400 hover:text-white transition-colors">Sony A6100 Review</Link>
-              <Link href="/gear/sony-zv-e10-review-malaysia-second-hand" className="block text-sm text-zinc-400 hover:text-white transition-colors">Sony ZV-E10 Review</Link>
-              <Link href="/gear/insta360-x4-review-malaysia" className="block text-sm text-zinc-400 hover:text-white transition-colors">Insta360 X4 Review</Link>
-              <Link href="/gear/dji-mini-4-pro-review-malaysia" className="block text-sm text-zinc-400 hover:text-white transition-colors">DJI Mini 4 Pro Review</Link>
+              <Link href="/gear/nikon-d3100-review-malaysia-second-hand-price" className="block text-sm text-zinc-200 hover:text-white transition-colors">Nikon D3100 Review</Link>
+              <Link href="/gear/sony-a6100-review-malaysia-second-hand" className="block text-sm text-zinc-200 hover:text-white transition-colors">Sony A6100 Review</Link>
+              <Link href="/gear/sony-zv-e10-review-malaysia-second-hand" className="block text-sm text-zinc-200 hover:text-white transition-colors">Sony ZV-E10 Review</Link>
+              <Link href="/gear/insta360-x4-review-malaysia" className="block text-sm text-zinc-200 hover:text-white transition-colors">Insta360 X4 Review</Link>
+              <Link href="/gear/dji-mini-4-pro-review-malaysia" className="block text-sm text-zinc-200 hover:text-white transition-colors">DJI Mini 4 Pro Review</Link>
             </div>
           </div>
 
           <div>
-            <h4 className="text-sm font-bold text-zinc-300 mb-3 uppercase tracking-wider">Popular Guides</h4>
+            <h4 className="text-sm font-bold text-zinc-100 mb-3 uppercase tracking-wider">Popular Guides</h4>
             <div className="space-y-2">
-              <Link href="/blog/content-creator-malaysia-no-money-start" className="block text-sm text-zinc-400 hover:text-white transition-colors">Start with RM0</Link>
-              <Link href="/blog/used-camera-buying-guide-malaysia-mudah-carousell" className="block text-sm text-zinc-400 hover:text-white transition-colors">Used Camera Buying Guide</Link>
-              <Link href="/blog/camera-paid-for-part-time-gigs-malaysia" className="block text-sm text-zinc-400 hover:text-white transition-colors">Gig-to-Gear System</Link>
-              <Link href="/blog/wedding-photography-side-hustle-malaysia" className="block text-sm text-zinc-400 hover:text-white transition-colors">Wedding Side Hustle</Link>
-              <Link href="/blog/graduation-photography-malaysia-guide" className="block text-sm text-zinc-400 hover:text-white transition-colors">Graduation Photography</Link>
+              <Link href="/blog/content-creator-malaysia-no-money-start" className="block text-sm text-zinc-200 hover:text-white transition-colors">Start with RM0</Link>
+              <Link href="/blog/used-camera-buying-guide-malaysia-mudah-carousell" className="block text-sm text-zinc-200 hover:text-white transition-colors">Used Camera Buying Guide</Link>
+              <Link href="/blog/camera-paid-for-part-time-gigs-malaysia" className="block text-sm text-zinc-200 hover:text-white transition-colors">Gig-to-Gear System</Link>
+              <Link href="/blog/wedding-photography-side-hustle-malaysia" className="block text-sm text-zinc-200 hover:text-white transition-colors">Wedding Side Hustle</Link>
+              <Link href="/blog/graduation-photography-malaysia-guide" className="block text-sm text-zinc-200 hover:text-white transition-colors">Graduation Photography</Link>
             </div>
           </div>
         </div>

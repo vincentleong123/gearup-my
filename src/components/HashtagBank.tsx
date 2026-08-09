@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { gearHashtagsFor } from '@/data/gearHashtags';
 
 interface Props {
@@ -24,15 +25,21 @@ export default function HashtagBank({ gearSlug, gearName }: Props) {
       <div className="flex items-center justify-between flex-wrap gap-2 mb-1">
         <h2 className="text-xl font-black">🏷️ Search #{gearName.replace(/\s+/g, '')} on Social</h2>
       </div>
-      <p className="text-sm text-zinc-400 mb-4">
-        One-tap live hashtag searches — the exact tags creators tag this model with on Instagram and TikTok.
+      <p className="text-sm text-zinc-200 mb-4">
+        Curated on-site hashtag glossary for this model, plus one-tap external searches on Instagram and TikTok.
       </p>
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap items-start gap-2">
         {tags.map(tag => (
           <div key={tag} className="inline-flex flex-col gap-1">
-            <span className="text-xs font-bold px-3 py-1.5 rounded-lg bg-zinc-800/80 border border-zinc-700/50 text-cyan-300">
-              #{tag}
-            </span>
+            <div className="flex items-center gap-1">
+              <Link
+                href={`/hashtags#${tag.replace('#', '').trim()}`}
+                className="text-xs font-bold px-3 py-1.5 rounded-lg bg-zinc-800/80 border border-zinc-700/50 text-cyan-300 hover:border-pink-500/40 hover:text-pink-300 transition-all"
+              >
+                #{tag}
+              </Link>
+              <span className="text-[10px] font-bold px-1 rounded border border-emerald-500/30 text-emerald-400">on-site</span>
+            </div>
             <div className="flex gap-1">
               {(['instagram', 'tiktok', 'youtube', 'google'] as const).map(p => (
                 <a

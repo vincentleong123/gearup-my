@@ -63,7 +63,7 @@ export default function ScenarioGallery({ gearSlug }: Props) {
         <h2 className="text-2xl font-bold">Real Creator Setups</h2>
         <span className="text-xs text-zinc-500">Tap to switch scene</span>
       </div>
-      <p className="text-sm text-zinc-400 mb-4">
+      <p className="text-sm text-zinc-200 mb-4">
         Curated references for this setup — plus one-tap live searches on the platforms Malaysian creators actually post on.
       </p>
       <div className="flex gap-2 mb-3 flex-wrap">
@@ -74,7 +74,7 @@ export default function ScenarioGallery({ gearSlug }: Props) {
             className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
               i === activeIdx
                 ? 'bg-gradient-to-r from-red-500 to-pink-600 text-white'
-                : 'bg-zinc-800/50 text-zinc-400 hover:text-white border border-zinc-700/50'
+                : 'bg-zinc-800/50 text-zinc-200 hover:text-white border border-zinc-700/50'
             }`}
           >
             {s.label}

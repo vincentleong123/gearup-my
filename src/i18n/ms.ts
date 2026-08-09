@@ -8,7 +8,9 @@ export const ms: Record<string, string> = {
   'nav.creators': 'Kreator',
   'nav.roiCalc': 'Kalkulator ROI',
   'nav.blog': 'Blog',
+  'nav.videos': 'Video',
   'nav.curate': 'Inspirasi',
+  'nav.hashtags': 'Hashtag',
   'nav.glossary': 'Glosari',
 
   /* ===== Footer ===== */
@@ -50,6 +52,12 @@ export const ms: Record<string, string> = {
   'home.blog.heading2': 'Inspirasi',
   'home.blog.desc': 'Artikel untuk bantu anda jadi content creator di Malaysia.',
   'home.blog.readAll': 'Baca Semua Artikel',
+
+  'home.videos.heading2': 'Sebelum Beli',
+  'home.videos.viewAll': 'Buka Video Wall Penuh',
+
+  'home.ig.heading2': 'Nilai & Simpan',
+  'home.ig.viewAll': 'Lihat Semua Di Wall',
 
   'home.tools.heading1': 'Lagik',
   'home.tools.heading2': 'Alatan',

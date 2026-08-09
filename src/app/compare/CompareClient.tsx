@@ -41,9 +41,9 @@ function CompareInner() {
                 <div className="p-5 space-y-4">
                   <div className="grid grid-cols-2 gap-3 text-sm">
                     <div><span className="text-zinc-500 block text-xs">Price Used</span><span className="text-green-400 font-bold text-lg">{formatPrice(gear.priceUsed)}</span></div>
-                    <div><span className="text-zinc-500 block text-xs">New</span><span className="text-zinc-300 font-bold">{formatPrice(gear.priceNew)}</span></div>
-                    <div><span className="text-zinc-500 block text-xs">Type</span><span className="text-zinc-300">{gear.type}</span></div>
-                    <div><span className="text-zinc-500 block text-xs">Rating</span><span className="text-zinc-300">{gear.rating}</span></div>
+                    <div><span className="text-zinc-500 block text-xs">New</span><span className="text-zinc-100 font-bold">{formatPrice(gear.priceNew)}</span></div>
+                    <div><span className="text-zinc-500 block text-xs">Type</span><span className="text-zinc-100">{gear.type}</span></div>
+                    <div><span className="text-zinc-500 block text-xs">Rating</span><span className="text-zinc-100">{gear.rating}</span></div>
                   </div>
                   <div>
                     <div className="flex justify-between text-xs mb-1"><span className="text-zinc-500">ROI</span><span className={`font-bold ${roiColor(gear.roiScore)}`}>{gear.roiScore}/100</span></div>
@@ -62,9 +62,9 @@ function CompareInner() {
                     </div>
                   </div>
                   <div className="text-xs text-zinc-500 space-y-0.5">
-                    <p><span className="text-zinc-400">Sensor:</span> {gear.sensor}</p>
-                    <p><span className="text-zinc-400">Video:</span> {gear.video}</p>
-                    <p><span className="text-zinc-400">Weight:</span> {gear.weight}</p>
+                    <p><span className="text-zinc-200">Sensor:</span> {gear.sensor}</p>
+                    <p><span className="text-zinc-200">Video:</span> {gear.video}</p>
+                    <p><span className="text-zinc-200">Weight:</span> {gear.weight}</p>
                   </div>
                   <Link href={'/gear/' + gear.slug} className="block text-center text-sm text-red-400 hover:text-red-300 font-semibold pt-2 border-t border-zinc-800">Full Review &rarr;</Link>
                 </div>
@@ -79,12 +79,12 @@ function CompareInner() {
         <div className="text-center py-16">
           <div className="text-5xl mb-4">&#x2694;&#xFE0F;</div>
           <h2 className="text-2xl font-bold mb-2">Select gear to compare</h2>
-          <p className="text-zinc-400 mb-6">Pick 2 or 3 gear items below and see them side by side</p>
+          <p className="text-zinc-200 mb-6">Pick 2 or 3 gear items below and see them side by side</p>
         </div>
       )}
 
       <div className="border-t border-zinc-800 pt-10">
-        <h3 className="text-sm font-bold text-zinc-400 uppercase tracking-wider mb-4">
+        <h3 className="text-sm font-bold text-zinc-200 uppercase tracking-wider mb-4">
           {selected.length < 3 ? 'Select ' + (3 - selected.length) + ' more item' + (3 - selected.length === 1 ? '' : 's') + ' to compare' : 'Selected 3 items'}
         </h3>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3">

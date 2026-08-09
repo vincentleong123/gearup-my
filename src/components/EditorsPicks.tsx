@@ -42,7 +42,7 @@ export default function EditorsPicks() {
           <h2 className="text-3xl md:text-5xl font-black mb-4">
             The <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">Best of 2026</span>, Picked By Us
           </h2>
-          <p className="text-zinc-400 max-w-2xl mx-auto text-lg">
+          <p className="text-zinc-200 max-w-2xl mx-auto text-lg">
             We test, we shoot, we break even. These are the six cameras and gadgets we&apos;d actually spend our own ringgit on this year — all second-hand prices, all Malaysian context.
           </p>
         </div>
@@ -88,7 +88,7 @@ export default function EditorsPicks() {
                     <Stars rating={g.rating} />
                     <span className="text-xs text-zinc-500 bg-zinc-800/70 px-2 py-0.5 rounded-full">{getLevelLabel(g.level)}</span>
                   </div>
-                  <p className="text-sm text-zinc-400 line-clamp-2 mb-4">{g.excerpt}</p>
+                  <p className="text-sm text-zinc-200 line-clamp-2 mb-4">{g.excerpt}</p>
                   <div className="flex items-center justify-between">
                     <div className="text-xs text-zinc-500">ROI Score</div>
                     <div className="text-sm font-black text-green-400">{g.roiScore}/100</div>

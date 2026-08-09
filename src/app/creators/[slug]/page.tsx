@@ -53,7 +53,7 @@ export default async function CreatorPage({ params }: Props) {
             <span>/</span>
             <Link href="/creators" className="hover:text-white transition-colors">Creators</Link>
             <span>/</span>
-            <span className="text-zinc-300">{creator.name}</span>
+            <span className="text-zinc-100">{creator.name}</span>
           </nav>
 
           <div className="flex items-center gap-6 mb-8">
@@ -80,7 +80,7 @@ export default async function CreatorPage({ params }: Props) {
               <div className="text-sm text-zinc-500">Time to Breakeven</div>
             </div>
             <div className="bg-zinc-900/80 border border-zinc-800 rounded-xl p-5 text-center">
-              <div className="text-2xl font-black text-zinc-300">{creator.startedWith.length > 20 ? creator.startedWith.slice(0, 18) + '…' : creator.startedWith}</div>
+              <div className="text-2xl font-black text-zinc-100">{creator.startedWith.length > 20 ? creator.startedWith.slice(0, 18) + '…' : creator.startedWith}</div>
               <div className="text-sm text-zinc-500">Started With</div>
             </div>
           </div>
@@ -88,7 +88,7 @@ export default async function CreatorPage({ params }: Props) {
           {/* Story */}
           <div className="prose prose-invert prose-zinc max-w-none mb-10">
             <h2 className="text-2xl font-bold">The Story</h2>
-            <p className="text-zinc-300 leading-relaxed text-lg">{creator.story}</p>
+            <p className="text-zinc-100 leading-relaxed text-lg">{creator.story}</p>
           </div>
 
           {/* Income Breakdown */}
@@ -98,7 +98,7 @@ export default async function CreatorPage({ params }: Props) {
               {creator.incomeBreakdown.map((item, i) => (
                 <div key={i} className="flex items-start gap-3">
                   <span className="text-green-400 mt-0.5">•</span>
-                  <span className="text-zinc-300">{item}</span>
+                  <span className="text-zinc-100">{item}</span>
                 </div>
               ))}
             </div>
@@ -107,7 +107,7 @@ export default async function CreatorPage({ params }: Props) {
           {/* Advice */}
           <div className="bg-cyan-500/5 border border-cyan-500/20 rounded-2xl p-6 mb-10">
             <h2 className="text-xl font-bold text-cyan-400 mb-3">💬 Advice for Tim & Ahmad</h2>
-            <p className="text-zinc-300 text-lg leading-relaxed italic">&ldquo;{creator.advice}&rdquo;</p>
+            <p className="text-zinc-100 text-lg leading-relaxed italic">&ldquo;{creator.advice}&rdquo;</p>
           </div>
 
           {/* Gear Used */}
@@ -121,7 +121,7 @@ export default async function CreatorPage({ params }: Props) {
                       <h3 className="font-bold group-hover:text-red-400 transition-colors">{g.name}</h3>
                       <span className="text-green-400 font-bold text-sm">{formatPrice(g.priceUsed)}</span>
                     </div>
-                    <p className="text-sm text-zinc-400 line-clamp-2">{g.excerpt}</p>
+                    <p className="text-sm text-zinc-200 line-clamp-2">{g.excerpt}</p>
                     <div className="flex gap-1.5 mt-2">
                       <span className={`text-xs font-bold px-2 py-0.5 rounded ${
                         g.level === 'beginner' ? 'bg-green-500/20 text-green-400' :
@@ -138,8 +138,8 @@ export default async function CreatorPage({ params }: Props) {
 
           {/* Started With Detail */}
           <div className="bg-zinc-900/40 border border-zinc-800 rounded-xl p-5">
-            <h3 className="text-sm font-bold text-zinc-400 uppercase tracking-wider mb-2">Total Starter Investment</h3>
-            <p className="text-zinc-300">{creator.startedWith}</p>
+            <h3 className="text-sm font-bold text-zinc-200 uppercase tracking-wider mb-2">Total Starter Investment</h3>
+            <p className="text-zinc-100">{creator.startedWith}</p>
           </div>
         </div>
       </article>

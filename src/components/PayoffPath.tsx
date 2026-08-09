@@ -9,7 +9,7 @@ export default function PayoffPath({ gear }: { gear: GearItem }) {
     return (
       <div className="bg-amber-500/5 border border-amber-500/20 rounded-2xl p-6 mb-10">
         <h3 className="font-bold text-amber-400 mb-2">💰 Zero to pay off</h3>
-        <p className="text-zinc-300 text-sm">
+        <p className="text-zinc-100 text-sm">
           {gear.name} is already in your pocket. Anything you earn is pure profit. Open the curtains and start shooting today.
         </p>
       </div>
@@ -24,7 +24,7 @@ export default function PayoffPath({ gear }: { gear: GearItem }) {
           {gear.priceUsed > 0 ? `Target: RM ${gear.priceUsed.toLocaleString()}` : 'Already free'}
         </span>
       </div>
-      <p className="text-zinc-400 text-sm mb-4">
+      <p className="text-zinc-200 text-sm mb-4">
         Real Malaysian gigs, real rates. Each line = how many of that gig you need to fully own the {gear.name}.
       </p>
       <div className="grid md:grid-cols-2 gap-3">

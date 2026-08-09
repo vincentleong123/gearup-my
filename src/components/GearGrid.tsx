@@ -82,7 +82,7 @@ export default function GearGrid({ withHeader = true }: { withHeader?: boolean }
               <h2 className="text-3xl md:text-5xl font-black mb-4">
                 Gear That <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-purple-500 to-pink-500">Pays You Back</span>
               </h2>
-              <p className="text-zinc-400 max-w-2xl mx-auto mb-8 text-lg">
+              <p className="text-zinc-200 max-w-2xl mx-auto mb-8 text-lg">
                 Second-hand prices, honest reviews, and real ROI data for Malaysian creators. Filter, search, and sort by what matters to you.
               </p>
             </>
@@ -105,7 +105,7 @@ export default function GearGrid({ withHeader = true }: { withHeader?: boolean }
             <select
               value={sort}
               onChange={e => setSort(e.target.value as SortKey)}
-              className="bg-zinc-800/60 border border-zinc-700 rounded-full px-4 py-2.5 text-sm font-semibold text-zinc-300 focus:outline-none focus:ring-2 focus:ring-red-500/40 focus:border-red-500/40 transition-all"
+              className="bg-zinc-800/60 border border-zinc-700 rounded-full px-4 py-2.5 text-sm font-semibold text-zinc-100 focus:outline-none focus:ring-2 focus:ring-red-500/40 focus:border-red-500/40 transition-all"
               aria-label="Sort gear"
             >
               <option value="featured">Sort: Featured</option>
@@ -124,7 +124,7 @@ export default function GearGrid({ withHeader = true }: { withHeader?: boolean }
                 className={`px-5 py-2.5 rounded-full text-sm font-bold transition-all ${
                   active === c.id
                     ? 'bg-gradient-to-r from-red-500 to-pink-600 text-white shadow-lg shadow-red-500/25'
-                    : 'bg-zinc-800/50 text-zinc-400 hover:text-white border border-zinc-700/50'
+                    : 'bg-zinc-800/50 text-zinc-200 hover:text-white border border-zinc-700/50'
                 }`}
               >
                 {c.label}
@@ -175,7 +175,7 @@ export default function GearGrid({ withHeader = true }: { withHeader?: boolean }
                   <Stars rating={g.rating} />
                   <AwardBadge g={g} />
                 </div>
-                <p className="text-zinc-400 text-sm line-clamp-2 mb-4">{g.excerpt}</p>
+                <p className="text-zinc-200 text-sm line-clamp-2 mb-4">{g.excerpt}</p>
                 <div className="flex items-center gap-4 mb-4">
                   <div>
                     <span className="text-xs text-zinc-500">Used Price</span>
@@ -184,7 +184,7 @@ export default function GearGrid({ withHeader = true }: { withHeader?: boolean }
                   {g.priceNew > 0 && (
                     <div>
                       <span className="text-xs text-zinc-500">New</span>
-                      <div className="text-sm text-zinc-400 line-through">{formatPrice(g.priceNew)}</div>
+                      <div className="text-sm text-zinc-200 line-through">{formatPrice(g.priceNew)}</div>
                     </div>
                   )}
                 </div>
@@ -213,7 +213,7 @@ export default function GearGrid({ withHeader = true }: { withHeader?: boolean }
         {filtered.length === 0 && (
           <div className="text-center py-16">
             <div className="text-4xl mb-3">🔍</div>
-            <p className="text-zinc-400 font-semibold">No gear matches &quot;{query}&quot;. Try another search or clear the filter.</p>
+            <p className="text-zinc-200 font-semibold">No gear matches &quot;{query}&quot;. Try another search or clear the filter.</p>
           </div>
         )}
       </div>

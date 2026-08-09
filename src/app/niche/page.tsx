@@ -39,7 +39,7 @@ export default function NichesPage() {
             <h1 className="text-4xl md:text-6xl font-black mb-4">
               Find Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-purple-500 to-pink-500">Content Niche</span>
             </h1>
-            <p className="text-zinc-400 max-w-xl mx-auto text-lg">
+            <p className="text-zinc-200 max-w-xl mx-auto text-lg">
               Not sure what content to make? Pick a niche below. We show you the gear, the tips, and how much you can earn in Malaysia.
             </p>
           </div>
@@ -62,7 +62,7 @@ export default function NichesPage() {
                 </div>
                 <div className="p-5">
                   <h2 className="text-xl font-bold group-hover:text-red-400 transition-colors mb-2">{n.title}</h2>
-                  <p className="text-zinc-400 text-sm line-clamp-2 mb-3">{n.tagline}</p>
+                  <p className="text-zinc-200 text-sm line-clamp-2 mb-3">{n.tagline}</p>
                   <div className="flex items-center justify-between text-sm">
                     <div>
                       <span className="text-zinc-500">Start from</span>

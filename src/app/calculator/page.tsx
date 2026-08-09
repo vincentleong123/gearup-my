@@ -15,8 +15,8 @@ export default function CalculatorPage() {
       <Nav />
       <RoiCalculator />
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
-        <div className="bg-zinc-900/40 border border-zinc-800 rounded-xl p-6 text-sm text-zinc-400">
-          <h3 className="font-bold text-zinc-300 mb-2">How to use this calculator</h3>
+        <div className="bg-zinc-900/40 border border-zinc-800 rounded-xl p-6 text-sm text-zinc-200">
+          <h3 className="font-bold text-zinc-100 mb-2">How to use this calculator</h3>
           <ol className="space-y-2 list-decimal ml-4">
             <li>Enter the price of the gear you want to buy (use second-hand price — it&apos;s smarter)</li>
             <li>Enter how much you charge per gig (e.g., RM300 for a real estate walkthrough)</li>

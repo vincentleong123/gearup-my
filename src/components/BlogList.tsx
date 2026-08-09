@@ -41,7 +41,7 @@ export default function BlogList() {
             className={`px-5 py-2.5 rounded-full text-sm font-bold transition-all ${
               filter === f.id
                 ? 'bg-gradient-to-r from-green-500 to-emerald-600 text-zinc-950 shadow-lg shadow-green-500/25'
-                : 'bg-zinc-800/50 text-zinc-400 hover:text-white border border-zinc-700/50'
+                : 'bg-zinc-800/50 text-zinc-200 hover:text-white border border-zinc-700/50'
             }`}
           >
             {f.label}
@@ -68,13 +68,13 @@ export default function BlogList() {
             </div>
           </div>
           <div className="p-6 md:p-10 -mt-24 relative z-10">
-            <div className="flex items-center gap-3 text-sm text-zinc-400 mb-3">
+            <div className="flex items-center gap-3 text-sm text-zinc-200 mb-3">
               <span>{featured.date}</span>
               <span>·</span>
               <span>{featured.readTime} min read</span>
             </div>
             <h2 className="text-2xl md:text-4xl font-black group-hover:text-green-400 transition-colors mb-3 max-w-2xl">{featured.title}</h2>
-            <p className="text-zinc-300 max-w-2xl leading-relaxed text-lg">{featured.description}</p>
+            <p className="text-zinc-100 max-w-2xl leading-relaxed text-lg">{featured.description}</p>
           </div>
         </Link>
       )}
@@ -105,7 +105,7 @@ export default function BlogList() {
                 <span>{a.readTime} min read</span>
               </div>
               <h2 className="text-lg font-bold group-hover:text-green-400 transition-colors mb-2 line-clamp-2">{a.title}</h2>
-              <p className="text-zinc-400 text-sm line-clamp-2 mb-3">{a.description}</p>
+              <p className="text-zinc-200 text-sm line-clamp-2 mb-3">{a.description}</p>
               <div className="flex flex-wrap gap-1.5">
                 {a.tags.slice(0, 3).map(t => (
                   <span key={t} className="text-[11px] text-zinc-500 bg-zinc-800/60 px-2 py-0.5 rounded-full">#{t}</span>
@@ -119,14 +119,14 @@ export default function BlogList() {
       {rest.length === 0 && (
         <div className="text-center py-16">
           <div className="text-4xl mb-3">📭</div>
-          <p className="text-zinc-400 font-semibold">No articles in this category yet. New ones drop every week.</p>
+          <p className="text-zinc-200 font-semibold">No articles in this category yet. New ones drop every week.</p>
         </div>
       )}
 
       <div className="mt-14 text-center">
         <div className="inline-flex flex-col sm:flex-row items-center gap-3 bg-zinc-900/60 border border-zinc-800 rounded-2xl px-6 py-5">
           <span className="text-2xl">📬</span>
-          <p className="text-sm text-zinc-400">
+          <p className="text-sm text-zinc-200">
             <strong className="text-white">New review every week.</strong> Get the 2026 Gear Guide + price drop alerts free.
           </p>
           <Link

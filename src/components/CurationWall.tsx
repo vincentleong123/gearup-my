@@ -101,7 +101,7 @@ export default function CurationWall({ topics, title = 'Live Inspiration' }: Pro
             className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
               rotate
                 ? 'bg-red-500/15 text-red-400 border border-red-500/30'
-                : 'bg-zinc-800/50 text-zinc-400 border border-zinc-700/50'
+                : 'bg-zinc-800/50 text-zinc-200 border border-zinc-700/50'
             }`}
           >
             {rotate ? '⏸ Auto-pause' : '▶ Auto-play'}
@@ -124,7 +124,7 @@ export default function CurationWall({ topics, title = 'Live Inspiration' }: Pro
             className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
               i === topicIdx
                 ? 'bg-zinc-700 text-white'
-                : 'bg-zinc-800/50 text-zinc-400 hover:text-white border border-zinc-700/50'
+                : 'bg-zinc-800/50 text-zinc-200 hover:text-white border border-zinc-700/50'
             }`}
           >
             {t.emoji} {t.label}
@@ -142,7 +142,7 @@ export default function CurationWall({ topics, title = 'Live Inspiration' }: Pro
               className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
                 platform === p.id
                   ? 'bg-gradient-to-r from-red-500 to-pink-600 text-white'
-                  : 'bg-zinc-800/50 text-zinc-400 hover:text-white border border-zinc-700/50'
+                  : 'bg-zinc-800/50 text-zinc-200 hover:text-white border border-zinc-700/50'
               }`}
             >
               {p.icon} {p.label}
@@ -208,8 +208,8 @@ export default function CurationWall({ topics, title = 'Live Inspiration' }: Pro
 
       {/* Footer note */}
       <div className="px-5 pb-5 text-xs text-zinc-500 leading-relaxed">
-        Tap any tile to open a <strong className="text-zinc-300">live {platformMeta.label} search</strong> for this topic. The wall
-        auto-rotates fresh angles every few seconds — or hit <strong className="text-zinc-300">🔀 Surprise me</strong> to jump topics.
+        Tap any tile to open a <strong className="text-zinc-100">live {platformMeta.label} search</strong> for this topic. The wall
+        auto-rotates fresh angles every few seconds — or hit <strong className="text-zinc-100">🔀 Surprise me</strong> to jump topics.
       </div>
     </div>
   );

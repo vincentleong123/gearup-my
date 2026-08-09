@@ -32,7 +32,7 @@ function Slider({
   return (
     <div>
       <div className="flex items-center justify-between mb-2">
-        <label className="text-sm text-zinc-400 font-semibold uppercase tracking-wider">{label}</label>
+        <label className="text-sm text-zinc-200 font-semibold uppercase tracking-wider">{label}</label>
         <span className={`text-lg font-black ${tint}`}>{value.toLocaleString()}{suffix}</span>
       </div>
       <input
@@ -99,7 +99,7 @@ export default function RoiCalculator() {
             <h2 className="text-3xl md:text-5xl font-black mb-4">
               Will Your Gear <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">Pay For Itself?</span>
             </h2>
-            <p className="text-zinc-400 text-lg">How many gigs will it take to break even on your gear? Calculate in Ringgit Malaysia.</p>
+            <p className="text-zinc-200 text-lg">How many gigs will it take to break even on your gear? Calculate in Ringgit Malaysia.</p>
           </div>
 
           {/* Presets */}
@@ -112,7 +112,7 @@ export default function RoiCalculator() {
                 className={`px-4 py-2 rounded-full text-sm font-bold border transition-all ${
                   price === p.price
                     ? 'bg-gradient-to-r from-amber-400 to-yellow-500 text-zinc-950 border-transparent shadow-lg shadow-amber-500/25'
-                    : 'bg-zinc-800/60 text-zinc-300 border-zinc-700/60 hover:text-white hover:border-amber-500/40'
+                    : 'bg-zinc-800/60 text-zinc-100 border-zinc-700/60 hover:text-white hover:border-amber-500/40'
                 }`}
               >
                 {p.label} · RM {p.price.toLocaleString()}
@@ -160,9 +160,9 @@ export default function RoiCalculator() {
                 <div className={`text-7xl md:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-r ${toneStyles.ring} leading-none`}>
                   {months.toFixed(1)}
                 </div>
-                <div className="text-zinc-400 mt-2 text-lg font-semibold">months</div>
+                <div className="text-zinc-200 mt-2 text-lg font-semibold">months</div>
 
-                <div className="mt-6 space-y-2.5 text-sm text-zinc-400">
+                <div className="mt-6 space-y-2.5 text-sm text-zinc-200">
                   <div className="flex justify-between"><span>Revenue per month</span><strong className="text-white">RM {monthly.toLocaleString()}</strong></div>
                   <div className="flex justify-between"><span>Gigs to breakeven</span><strong className="text-white">{Math.ceil(gigsToBreakeven)} gigs</strong></div>
                   <div className="flex justify-between"><span>Annual potential</span><strong className="text-green-400">RM {annual.toLocaleString()}</strong></div>

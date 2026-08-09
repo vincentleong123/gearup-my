@@ -50,7 +50,7 @@ export default async function NichePage({ params }: Props) {
           <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-8">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <span>/</span>
-            <span className="text-zinc-300">{niche.title} Creator Guide</span>
+            <span className="text-zinc-100">{niche.title} Creator Guide</span>
           </nav>
 
           <div className="mb-10">
@@ -64,8 +64,8 @@ export default async function NichePage({ params }: Props) {
               <div className="absolute bottom-4 left-4 text-5xl">{niche.image}</div>
             </div>
             <h1 className="text-4xl md:text-6xl font-black mb-4">{niche.title} <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-purple-500 to-pink-500">Malaysia</span></h1>
-            <p className="text-xl text-zinc-300 font-semibold mb-4">{niche.tagline}</p>
-            <p className="text-zinc-400 leading-relaxed">{niche.description}</p>
+            <p className="text-xl text-zinc-100 font-semibold mb-4">{niche.tagline}</p>
+            <p className="text-zinc-200 leading-relaxed">{niche.description}</p>
           </div>
 
           <div className="bg-zinc-900/80 border border-zinc-800 rounded-2xl p-6 mb-10">
@@ -121,7 +121,7 @@ export default async function NichePage({ params }: Props) {
               {niche.tips.map((tip, i) => (
                 <div key={i} className="flex items-start gap-3 bg-zinc-900/40 border border-zinc-800/50 rounded-xl p-4">
                   <span className="text-cyan-400 font-bold mt-0.5">💡</span>
-                  <p className="text-zinc-300">{tip}</p>
+                  <p className="text-zinc-100">{tip}</p>
                 </div>
               ))}
             </div>
@@ -133,7 +133,7 @@ export default async function NichePage({ params }: Props) {
               {niche.contentIdeas.map((idea, i) => (
                 <div key={i} className="bg-zinc-900/40 border border-zinc-800/50 rounded-xl p-4 flex items-center gap-3">
                   <span className="text-red-400 font-bold text-lg">{i + 1}.</span>
-                  <p className="text-zinc-300">{idea}</p>
+                  <p className="text-zinc-100">{idea}</p>
                 </div>
               ))}
             </div>
@@ -141,7 +141,7 @@ export default async function NichePage({ params }: Props) {
 
           <div className="bg-gradient-to-br from-red-500/5 to-pink-500/5 border border-red-500/10 rounded-2xl p-8 text-center">
             <h2 className="text-2xl font-bold mb-2">Ready to start?</h2>
-            <p className="text-zinc-400 mb-6">Take the Gear Match quiz and find the perfect gear for your budget.</p>
+            <p className="text-zinc-200 mb-6">Take the Gear Match quiz and find the perfect gear for your budget.</p>
             <Link href="/quiz" className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-red-500 to-pink-600 text-white font-bold rounded-xl hover:shadow-xl hover:shadow-red-500/25 transition-all duration-300">
               Take the Quiz 🎯
             </Link>

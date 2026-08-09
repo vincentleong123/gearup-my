@@ -128,7 +128,7 @@ export default function QuizClient() {
         <div className="text-center mb-8">
           <div className="text-5xl mb-3">🎉</div>
           <h2 className="text-3xl font-black mb-2">Your Perfect Gear Matches</h2>
-          <p className="text-zinc-400">Based on your answers, here are the best gear options for you.</p>
+          <p className="text-zinc-200">Based on your answers, here are the best gear options for you.</p>
         </div>
         <div className="space-y-4 mb-8">
           {results.map((gear, i) => (
@@ -157,7 +157,7 @@ export default function QuizClient() {
                     }`}>{getLevelLabel(gear.level)}</span>
                   </div>
                   <h3 className="font-bold text-lg group-hover:text-red-400 transition-colors">{gear.name}</h3>
-                  <p className="text-sm text-zinc-400 line-clamp-1">{gear.excerpt.slice(0, 80)}...</p>
+                  <p className="text-sm text-zinc-200 line-clamp-1">{gear.excerpt.slice(0, 80)}...</p>
                 </div>
                 <div className="text-right">
                   <div className="text-green-400 font-black text-xl">{formatPrice(gear.priceUsed)}</div>

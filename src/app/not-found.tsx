@@ -20,7 +20,7 @@ export default function NotFound() {
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center flex-1 flex flex-col items-center justify-center">
           <p className="text-[11px] sm:text-xs uppercase tracking-[0.35em] text-red-400 font-medium mb-4">404 — Off the beaten path</p>
           <h1 className="font-display text-6xl sm:text-7xl md:text-8xl leading-none tracking-tight mb-5">Frame lost<span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-pink-400 to-fuchsia-400">.</span></h1>
-          <p className="text-lg md:text-xl text-zinc-400 max-w-xl mx-auto mb-10 font-light">
+          <p className="text-lg md:text-xl text-zinc-200 max-w-xl mx-auto mb-10 font-light">
             That shot doesn&apos;t exist — the link may be old or mistyped. Let&apos;s get you back in the frame.
           </p>
           <div className="flex flex-wrap gap-4 justify-center mb-16">
@@ -37,11 +37,11 @@ export default function NotFound() {
 
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl w-full text-left">
             <div className="border border-zinc-800/60 rounded-2xl bg-zinc-900/30 p-6">
-              <h2 className="text-sm font-bold text-zinc-300 mb-4 uppercase tracking-wider">Popular Gear Reviews</h2>
+              <h2 className="text-sm font-bold text-zinc-100 mb-4 uppercase tracking-wider">Popular Gear Reviews</h2>
               <ul className="space-y-2.5">
                 {popularGear.map(g => (
                   <li key={g.slug}>
-                    <Link href={`/gear/${g.slug}`} className="text-sm text-zinc-400 hover:text-white transition-colors">
+                    <Link href={`/gear/${g.slug}`} className="text-sm text-zinc-200 hover:text-white transition-colors">
                       {g.name} →
                     </Link>
                   </li>
@@ -49,11 +49,11 @@ export default function NotFound() {
               </ul>
             </div>
             <div className="border border-zinc-800/60 rounded-2xl bg-zinc-900/30 p-6">
-              <h2 className="text-sm font-bold text-zinc-300 mb-4 uppercase tracking-wider">Latest Guides</h2>
+              <h2 className="text-sm font-bold text-zinc-100 mb-4 uppercase tracking-wider">Latest Guides</h2>
               <ul className="space-y-2.5">
                 {recentGuides.map(a => (
                   <li key={a.slug}>
-                    <Link href={`/blog/${a.slug}`} className="text-sm text-zinc-400 hover:text-white transition-colors">
+                    <Link href={`/blog/${a.slug}`} className="text-sm text-zinc-200 hover:text-white transition-colors">
                       {a.title} →
                     </Link>
                   </li>

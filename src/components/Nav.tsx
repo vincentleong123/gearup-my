@@ -11,6 +11,8 @@ const links = [
   { href: '/compare', key: 'nav.compare', label: 'Compare' },
   { href: '/niche', key: 'nav.niches', label: 'Niches' },
   { href: '/blog', key: 'nav.blog', label: 'Reviews' },
+  { href: '/hashtags', key: 'nav.hashtags', label: 'Hashtags' },
+  { href: '/videos', key: 'nav.videos', label: 'Videos' },
   { href: '/glossary', key: 'nav.glossary', label: 'Glossary' },
   { href: '/#creators', key: 'nav.creators', label: 'Creators' },
   { href: '/#calculator', key: 'nav.roiCalc', label: 'ROI Calc' },
@@ -21,6 +23,8 @@ const defaultLabels: Record<string, string> = {
   'nav.gigs': 'Gigs',
   'nav.compare': 'Compare',
   'nav.blog': 'Reviews',
+  'nav.hashtags': 'Hashtags',
+  'nav.videos': 'Videos',
   'nav.creators': 'Creators',
   'nav.roiCalc': 'ROI Calc',
 };
@@ -105,7 +109,7 @@ export default function Nav() {
                   className={`relative px-3 py-2 text-sm font-semibold rounded-lg transition-all ${
                     isActive(l.href)
                       ? 'text-white bg-zinc-800/60'
-                      : 'text-zinc-400 hover:text-white hover:bg-zinc-800/40'
+                      : 'text-zinc-200 hover:text-white hover:bg-zinc-800/40'
                   }`}
                 >
                   {t(l.key, defaultLabels[l.key] || l.label)}
@@ -143,7 +147,7 @@ export default function Nav() {
               </button>
               <button
                 onClick={() => setOpen(!open)}
-                className="p-2 text-zinc-300 hover:text-white rounded-lg hover:bg-zinc-800/60 transition-all"
+                className="p-2 text-zinc-100 hover:text-white rounded-lg hover:bg-zinc-800/60 transition-all"
                 aria-label="Toggle menu"
               >
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -168,7 +172,7 @@ export default function Nav() {
                   href={l.href}
                   onClick={() => setOpen(false)}
                   className={`block px-4 py-3 rounded-lg font-semibold transition-all ${
-                    isActive(l.href) ? 'text-white bg-zinc-800/60' : 'text-zinc-400 hover:text-white hover:bg-zinc-800/50'
+                    isActive(l.href) ? 'text-white bg-zinc-800/60' : 'text-zinc-200 hover:text-white hover:bg-zinc-800/50'
                   }`}
                 >
                   {t(l.key, defaultLabels[l.key] || l.label)}

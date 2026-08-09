@@ -5,6 +5,8 @@ import GearGrid from '@/components/GearGrid';
 import CreatorShowcase from '@/components/CreatorShowcase';
 import EditorsPicks from '@/components/EditorsPicks';
 import RoiCalculator from '@/components/RoiCalculator';
+import VideoWall from '@/components/VideoWall';
+import InstagramWall from '@/components/InstagramWall';
 import Footer from '@/components/Footer';
 import AdSlot from '@/components/AdSlot';
 import Link from 'next/link';
@@ -12,7 +14,7 @@ import { gearList } from '@/data/gear';
 import { articles } from '@/data/articles';
 import { creators } from '@/data/creators';
 import { gigs } from '@/data/gigs';
-import { heroImg, blogImg, gigImg } from '@/data/images';
+import { heroCollageImg, blogImg, gigImg } from '@/data/images';
 
 export const metadata: Metadata = {
   title: 'Kameralog Malaysia — Camera & Gear Reviews for Malaysian Content Creators | ROI in Ringgit',
@@ -134,59 +136,84 @@ export default function HomePage() {
       {/* HERO */}
       <section className="min-h-screen flex flex-col relative overflow-hidden pt-24">
         <div className="absolute inset-0">
-          <img
-            src={heroImg()}
-            alt=""
-            className="w-full h-full object-cover object-[62%_25%] lg:object-center"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-zinc-950 via-zinc-950/80 to-zinc-950/30" />
-          <div className="absolute inset-0 bg-gradient-to-b from-zinc-950/70 via-transparent to-zinc-950" />
+          <div className="absolute inset-0 bg-gradient-to-b from-zinc-950/60 via-zinc-950/20 to-zinc-950" />
+          <div className="absolute -top-32 -left-32 w-[480px] h-[480px] bg-gradient-to-br from-red-600/12 via-pink-600/8 to-transparent blur-3xl rounded-full pointer-events-none" />
+          <div className="absolute bottom-0 right-0 w-[420px] h-[420px] bg-gradient-to-tl from-fuchsia-600/10 to-transparent blur-3xl rounded-full pointer-events-none" />
           <div className="film-grain" />
         </div>
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 w-full flex-1 flex flex-col justify-center">
-          <div className="max-w-3xl">
-            <div className="flex items-center gap-4 mb-8">
-              <span className="hero-kicker-line h-px w-12 sm:w-16" />
-              <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-zinc-300 font-medium">
-                <T k="home.hero.badge" en="Malaysia's Camera Review Journal — 2026" />
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full flex-1 flex flex-col justify-center">
+          <div className="grid lg:grid-cols-2 gap-14 lg:gap-10 items-center">
+            {/* Copy */}
+            <div className="max-w-3xl">
+              <div className="flex items-center gap-4 mb-8">
+                <span className="hero-kicker-line h-px w-12 sm:w-16" />
+                <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-zinc-100 font-medium">
+                  <T k="home.hero.badge" en="Malaysia's Camera Review Journal — 2026" />
+                </p>
+              </div>
+
+              <h1 className="font-display text-4xl sm:text-6xl lg:text-7xl xl:text-[5.5rem] leading-[1.06] tracking-tight mb-7">
+                <T k="home.hero.title" en="Your Kit to" />{' '}
+                <em className="italic text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-pink-400 to-fuchsia-400">
+                  <T k="home.hero.titleAccent" en="Start Creating" />
+                </em>
+              </h1>
+
+              <p className="text-base md:text-xl text-zinc-200 max-w-2xl mb-10 leading-relaxed font-light">
+                <T k="home.hero.subtitle" en="Like Tim & Ahmad — two jobless grads who started from zero. Old phone, window light, RM400 Nikon D3100. Six months later they bought a used Sony A6100 with content money." />
               </p>
+
+              <div className="flex flex-wrap gap-4 mb-12">
+                <Link href="#top-picks" className="group inline-flex items-center gap-2.5 px-7 py-3.5 bg-white text-zinc-950 font-semibold rounded-full text-base hover:bg-red-500 hover:text-white hover:shadow-xl hover:shadow-red-500/25 hover:-translate-y-0.5 transition-all duration-300">
+                  <T k="home.hero.cta" en="2026 Top Picks" />
+                  <span className="transition-transform duration-300 group-hover:translate-x-0.5">→</span>
+                </Link>
+                <Link href="#gear" className="inline-flex items-center gap-2 px-7 py-3.5 bg-white/5 text-white font-semibold rounded-full text-base border border-white/15 backdrop-blur hover:bg-white/10 hover:border-red-500/40 transition-all duration-300">
+                  <T k="home.hero.readGuide" en="Browse All Gear" />
+                </Link>
+                <Link href="/compare" className="inline-flex items-center gap-2 px-6 py-3.5 text-zinc-100 font-medium rounded-full text-base hover:text-white transition-all duration-300">
+                  ⚖️ <T k="home.hero.compareCta" en="Compare Side-by-Side" />
+                </Link>
+              </div>
+
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-px overflow-hidden rounded-2xl border border-white/10 bg-white/10">
+                {[
+                  { value: 'RM 0', label: 'Minimum to start', grad: 'from-cyan-400 to-blue-500' },
+                  { value: `${gearList.length}+`, label: 'Gear reviewed', grad: 'from-green-400 to-emerald-500' },
+                  { value: `${creators.length}`, label: 'Creator stories', grad: 'from-yellow-400 to-orange-500' },
+                  { value: '2026', label: 'Edition — updated', grad: 'from-red-400 to-pink-500' },
+                ].map(s => (
+                  <div key={s.label} className="bg-zinc-950/60 backdrop-blur px-4 py-4">
+                    <div className={`text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r ${s.grad}`}>{s.value}</div>
+                    <div className="text-[11px] uppercase tracking-wider text-zinc-500 mt-0.5">{s.label}</div>
+                  </div>
+                ))}
+              </div>
             </div>
 
-            <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem] leading-[1.06] tracking-tight mb-7">
-              <T k="home.hero.title" en="Your Kit to" />{' '}
-              <em className="italic text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-pink-400 to-fuchsia-400">
-                <T k="home.hero.titleAccent" en="Start Creating" />
-              </em>
-            </h1>
-
-            <p className="text-lg md:text-2xl text-zinc-400 max-w-2xl mb-10 leading-relaxed font-light">
-              <T k="home.hero.subtitle" en="Like Tim & Ahmad — two jobless grads who started from zero. Old phone, window light, RM400 Nikon D3100. Six months later they bought a used Sony A6100 with content money." />
-            </p>
-
-            <div className="flex flex-wrap gap-4 mb-12">
-              <Link href="#top-picks" className="group inline-flex items-center gap-2.5 px-7 py-3.5 bg-white text-zinc-950 font-semibold rounded-full text-base hover:bg-red-500 hover:text-white hover:shadow-xl hover:shadow-red-500/25 hover:-translate-y-0.5 transition-all duration-300">
-                <T k="home.hero.cta" en="2026 Top Picks" />
-                <span className="transition-transform duration-300 group-hover:translate-x-0.5">→</span>
-              </Link>
-              <Link href="#gear" className="inline-flex items-center gap-2 px-7 py-3.5 bg-white/5 text-white font-semibold rounded-full text-base border border-white/15 backdrop-blur hover:bg-white/10 hover:border-red-500/40 transition-all duration-300">
-                <T k="home.hero.readGuide" en="Browse All Gear" />
-              </Link>
-              <Link href="/compare" className="inline-flex items-center gap-2 px-6 py-3.5 text-zinc-300 font-medium rounded-full text-base hover:text-white transition-all duration-300">
-                ⚖️ <T k="home.hero.compareCta" en="Compare Side-by-Side" />
-              </Link>
-            </div>
-
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-px overflow-hidden rounded-2xl border border-white/10 bg-white/10">
+            {/* Photo collage — real photos, square tiles, object-cover (no stretch) */}
+            <div className="grid grid-cols-2 gap-3 lg:gap-4">
               {[
-                { value: 'RM 0', label: 'Minimum to start', grad: 'from-cyan-400 to-blue-500' },
-                { value: `${gearList.length}+`, label: 'Gear reviewed', grad: 'from-green-400 to-emerald-500' },
-                { value: `${creators.length}`, label: 'Creator stories', grad: 'from-yellow-400 to-orange-500' },
-                { value: '2026', label: 'Edition — updated', grad: 'from-red-400 to-pink-500' },
-              ].map(s => (
-                <div key={s.label} className="bg-zinc-950/70 backdrop-blur px-4 py-4">
-                  <div className={`text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r ${s.grad}`}>{s.value}</div>
-                  <div className="text-[11px] uppercase tracking-wider text-zinc-500 mt-0.5">{s.label}</div>
-                </div>
+                { i: 0, pos: 'object-[70%_20%]', span: 'lg:row-span-2', label: 'Portrait', emoji: '📷' },
+                { i: 1, pos: 'object-center', span: '', label: 'The Eye', emoji: '👁️' },
+                { i: 2, pos: 'object-center', span: '', label: 'The Lens', emoji: '🔭' },
+                { i: 3, pos: 'object-[50%_30%]', span: 'lg:col-span-2', label: 'The Gear', emoji: '🛠️' },
+              ].map(t => (
+                <figure
+                  key={t.label}
+                  className={`group relative overflow-hidden rounded-2xl border border-white/10 shadow-xl shadow-black/40 hover:shadow-2xl hover:shadow-pink-600/10 transition-all duration-500 ${t.span}`}
+                >
+                  <img
+                    src={heroCollageImg(t.i, 800, t.span.includes('row-span') ? 1080 : 760)}
+                    alt={t.label}
+                    className={`w-full h-full object-cover ${t.pos} group-hover:scale-[1.04] transition-transform duration-700`}
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/70 via-zinc-950/10 to-transparent" />
+                  <figcaption className="absolute bottom-3 left-3 flex items-center gap-2 text-xs font-bold tracking-wide text-white/90">
+                    <span className="grid place-items-center h-7 w-7 rounded-full bg-zinc-950/60 backdrop-blur border border-white/15">{t.emoji}</span>
+                    {t.label}
+                  </figcaption>
+                </figure>
               ))}
             </div>
           </div>
@@ -214,7 +241,7 @@ export default function HomePage() {
                   <span className="flex text-amber-400 text-sm">★★★★★</span>
                   <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-green-500/10 text-green-400 border border-green-500/20 uppercase tracking-wider">Verified</span>
                 </div>
-                <p className="text-zinc-300 text-sm leading-relaxed mb-4">“<T k={q.textKey} en={q.textEn} />”</p>
+                <p className="text-zinc-100 text-sm leading-relaxed mb-4">“<T k={q.textKey} en={q.textEn} />”</p>
                 <div className="flex items-center justify-between">
                   <div>
                     <div className="font-bold text-sm">{q.name}</div>
@@ -247,7 +274,7 @@ export default function HomePage() {
             <h2 className="text-3xl md:text-5xl font-black mb-4">
               Your Camera Is <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-yellow-500">A Few Gigs Away</span>
             </h2>
-            <p className="text-zinc-400 max-w-2xl mx-auto text-lg">
+            <p className="text-zinc-200 max-w-2xl mx-auto text-lg">
               Graduation shoots, gala dinners, portraits, weddings, video content — real Malaysian part-time jobs with real rates.
               Do a few, and the camera is yours. We did the math for you.
             </p>
@@ -270,7 +297,7 @@ export default function HomePage() {
                   </div>
                   <div className="p-5">
                     <h3 className="font-bold text-lg group-hover:text-amber-400 transition-colors mb-1">{g.title}</h3>
-                    <p className="text-sm text-zinc-400 line-clamp-2 mb-3">{g.tagline}</p>
+                    <p className="text-sm text-zinc-200 line-clamp-2 mb-3">{g.tagline}</p>
                     <div className="flex items-center justify-between">
                       <div className="text-xs text-zinc-500">{g.timeEstimate}</div>
                       <div className="text-amber-400 font-black">RM {g.rateMin.toLocaleString()}–{g.rateMax.toLocaleString()}</div>
@@ -307,7 +334,7 @@ export default function HomePage() {
                 <T k="home.blog.heading1" en="Latest" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-emerald-500"><T k="home.blog.heading2" en="Reviews & Guides" /></span>
               </h2>
             </div>
-            <Link href="/blog" className="inline-flex items-center gap-2 text-zinc-400 hover:text-white transition-colors font-semibold whitespace-nowrap">
+            <Link href="/blog" className="inline-flex items-center gap-2 text-zinc-200 hover:text-white transition-colors font-semibold whitespace-nowrap">
               <T k="home.blog.readAll" en="Read all articles" /> →
             </Link>
           </div>
@@ -330,13 +357,13 @@ export default function HomePage() {
                 </div>
               </div>
               <div className="p-6 md:p-8 -mt-24 relative z-10">
-                <div className="flex items-center gap-3 text-sm text-zinc-400 mb-3">
+                <div className="flex items-center gap-3 text-sm text-zinc-200 mb-3">
                   <span>{featured.date}</span>
                   <span>·</span>
                   <span>{featured.readTime} min read</span>
                 </div>
                 <h3 className="text-2xl md:text-3xl font-black group-hover:text-green-400 transition-colors mb-3 max-w-2xl">{featured.title}</h3>
-                <p className="text-zinc-300 max-w-2xl leading-relaxed">{featured.description}</p>
+                <p className="text-zinc-100 max-w-2xl leading-relaxed">{featured.description}</p>
               </div>
             </Link>
           )}
@@ -367,11 +394,67 @@ export default function HomePage() {
                     <span>{a.readTime} min read</span>
                   </div>
                   <h3 className="font-bold group-hover:text-green-400 transition-colors mb-2 line-clamp-2">{a.title}</h3>
-                  <p className="text-sm text-zinc-400 line-clamp-2">{a.description}</p>
+                  <p className="text-sm text-zinc-200 line-clamp-2">{a.description}</p>
                 </div>
               </Link>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* VIDEOS PREVIEW */}
+      <section className="py-16 md:py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-10 gap-4">
+            <div>
+              <div className="inline-flex items-center gap-2 bg-pink-500/10 border border-pink-500/20 rounded-full px-4 py-1.5 text-sm text-pink-400 font-semibold mb-4">
+                🎬 Learn To Create — Short & Curated
+              </div>
+              <h2 className="text-3xl md:text-5xl font-black">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-pink-400 to-fuchsia-400">Watch & Learn</span>{' '}
+                <T k="home.videos.heading2" en="Before You Buy" />
+              </h2>
+              <p className="text-zinc-200 max-w-2xl mt-3 text-lg">
+                Mobile, portrait, drones, gimbals, mirrorless, editing and AI — short tutorials picked for the Malaysian creator starting from RM0.
+              </p>
+            </div>
+            <Link href="/videos" className="inline-flex items-center gap-2 text-zinc-200 hover:text-white transition-colors font-semibold whitespace-nowrap">
+              <T k="home.videos.viewAll" en="Open the full video wall" /> →
+            </Link>
+          </div>
+
+          <VideoWall limit={6} />
+
+          <div className="mt-10 text-center">
+            <Link href="/videos" className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-pink-600 to-fuchsia-600 text-white font-bold rounded-xl text-lg hover:shadow-xl hover:shadow-pink-600/25 hover:-translate-y-0.5 transition-all duration-300">
+              ▶ <T k="home.videos.viewAll" en="Open the full video wall" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* INSTAGRAM CAMERALOGUE STRIP */}
+      <section className="py-16 md:py-24 bg-zinc-900/20 border-y border-zinc-800/50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-10 gap-4">
+            <div>
+              <div className="inline-flex items-center gap-2 bg-gradient-to-r from-fuchsia-600/20 to-pink-600/20 border border-fuchsia-500/30 rounded-full px-4 py-1.5 text-sm text-pink-300 font-semibold mb-4">
+                📸 Live From Instagram
+              </div>
+              <h2 className="text-3xl md:text-5xl font-black">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 via-pink-400 to-red-400">Gear We Actually</span>{' '}
+                <T k="home.ig.heading2" en="Rate & Save" />
+              </h2>
+              <p className="text-zinc-400 max-w-2xl mt-3 text-lg">
+                Hand-saved camera reels from our private cameralogue — unboxings, lens tests and lighting setups. Tap any card for the real post.
+              </p>
+            </div>
+            <Link href="/videos#instagram" className="inline-flex items-center gap-2 text-zinc-400 hover:text-white transition-colors font-semibold whitespace-nowrap">
+              <T k="home.ig.viewAll" en="See all on the wall" /> →
+            </Link>
+          </div>
+
+          <InstagramWall limit={6} />
         </div>
       </section>
 
@@ -382,7 +465,7 @@ export default function HomePage() {
             <h2 className="text-3xl md:text-5xl font-black mb-4">
               <T k="home.tools.heading1" en="More" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-purple-500 to-pink-500"><T k="home.tools.heading2" en="Tools" /></span>
             </h2>
-            <p className="text-zinc-400 max-w-2xl mx-auto text-lg"><T k="home.tools.desc" en="Everything you need to find the right gear, compare options, and understand the lingo." /></p>
+            <p className="text-zinc-200 max-w-2xl mx-auto text-lg"><T k="home.tools.desc" en="Everything you need to find the right gear, compare options, and understand the lingo." /></p>
           </div>
           <div className="grid md:grid-cols-4 gap-4">
             {tools.map(tool => (
@@ -392,7 +475,7 @@ export default function HomePage() {
                   <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">{tool.icon}</svg>
                 </div>
                 <h3 className="font-bold group-hover:text-red-400 transition-colors mb-1"><T k={tool.titleKey} en={tool.titleEn} /></h3>
-                <p className="text-sm text-zinc-400"><T k={tool.descKey} en={tool.descEn} /></p>
+                <p className="text-sm text-zinc-200"><T k={tool.descKey} en={tool.descEn} /></p>
                 <div className="mt-4 text-xs font-bold text-zinc-500 group-hover:text-white transition-colors">Open tool →</div>
               </Link>
             ))}
@@ -408,13 +491,13 @@ export default function HomePage() {
             <div className="absolute inset-0 bg-gradient-to-br from-red-500/8 via-transparent to-purple-500/8 pointer-events-none" />
             <div className="absolute -top-24 left-1/2 -translate-x-1/2 w-[480px] h-[240px] bg-gradient-to-r from-red-600/15 via-pink-600/15 to-purple-600/15 blur-3xl rounded-full pointer-events-none" />
             <div className="relative z-10">
-              <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-4 py-1.5 text-sm text-zinc-300 font-semibold mb-5">
+              <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-4 py-1.5 text-sm text-zinc-100 font-semibold mb-5">
                 🇲🇾 Built for Malaysian creators, by Malaysian creators
               </div>
               <h2 className="text-3xl md:text-5xl font-black mb-4">
                 <T k="home.cta.heading1" en="Your Gear Should" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-purple-500 to-pink-500"><T k="home.cta.heading2" en="Pay For Itself" /></span>
               </h2>
-              <p className="text-zinc-400 max-w-xl mx-auto mb-8 text-lg">
+              <p className="text-zinc-200 max-w-xl mx-auto mb-8 text-lg">
                 <T k="home.cta.desc" en="Start with nothing. Compare gear, read creator stories, calculate your ROI." />
               </p>
               <div className="flex flex-wrap justify-center gap-4">

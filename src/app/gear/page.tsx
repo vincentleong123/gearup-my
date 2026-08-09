@@ -23,7 +23,7 @@ export default function GearPage() {
           <h1 className="text-4xl md:text-6xl font-black mb-4">
             All <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-purple-500 to-pink-500">Gear Reviews</span>
           </h1>
-          <p className="text-zinc-400 max-w-xl mx-auto text-lg">
+          <p className="text-zinc-200 max-w-xl mx-auto text-lg">
             Every piece of gear reviewed for Malaysian creators. Prices in Ringgit Malaysia. Second-hand prices prioritized.
           </p>
         </div>
@@ -39,7 +39,7 @@ export default function GearPage() {
             >
               <div className="text-xs font-bold text-red-400 mb-2">🏆 Top ROI Pick</div>
               <h2 className="text-lg font-bold group-hover:text-red-400 transition-colors mb-1">{g.name}</h2>
-              <p className="text-zinc-400 text-sm line-clamp-2 mb-3">{g.excerpt}</p>
+              <p className="text-zinc-200 text-sm line-clamp-2 mb-3">{g.excerpt}</p>
               <div className="flex items-center gap-4">
                 <div>
                   <span className="text-xs text-zinc-500">Used</span>
