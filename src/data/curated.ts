@@ -188,6 +188,36 @@ const articleTheme: Record<string, CuratedShot[]> = {
   'turning-50-experience-niche-content-creation': [
     people[16], gearShots[4], people[23], gearShots[7],
   ],
+  'tamron-17-50mm-vc-review-malaysia': [
+    gearShots[0], gearShots[8], gearShots[2], people[6],
+  ],
+  'nikon-d500-reality-check-2026': [
+    gearShots[0], gearShots[1], people[6], gearShots[2],
+  ],
+  'second-hand-camera-scams-malaysia': [
+    gearShots[8], gearShots[0], people[18], gearShots[1],
+  ],
+  'video-stabilization-ibis-gimbal-tripod-malaysia': [
+    gearShots[2], gearShots[5], gearShots[4], gigShots.video[0],
+  ],
+  'content-calendar-malaysia-creators': [
+    gearShots[4], people[18], gearShots[7], people[16],
+  ],
+  'drone-license-registration-malaysia-2026': [
+    gearShots[6], gigShots.realestate[0], gearShots[4], people[20],
+  ],
+  'wedding-videography-side-hustle-malaysia': [
+    gigShots.wedding[0], people[18], gigShots.wedding[1], gearShots[1],
+  ],
+  'photo-booth-business-malaysia': [
+    gigShots.gala[1], people[20], gigShots.gala[0], gearShots[7],
+  ],
+  'camera-gear-maintenance-humidity-malaysia': [
+    gearShots[0], gearShots[8], people[16], gearShots[1],
+  ],
+  'youtube-monetization-malaysia-2026': [
+    gearShots[4], people[18], gearShots[7], people[20],
+  ],
 };
 
 // ==== Curated breaks for gear Full Reviews ====
