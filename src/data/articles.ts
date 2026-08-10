@@ -15,7 +15,7 @@ export interface Article {
 import { msArticles } from './articles-ms';
 
 export const articles: Article[] = [
-  ...msArticles,
+  ...msArticles.map(a => ({ ...a, lang: 'ms' as const })),
   {
     slug: 'content-creator-malaysia-no-money-start',
     title: 'How to Start Content Creation in Malaysia with Zero Ringgit (Tim & Ahmad\'s Guide)',
@@ -3979,5 +3979,611 @@ Malaysian-focused channels earn from a happy accident: Malaysian CPMs sit betwee
 YouTube monetization in Malaysia is real, but ad money alone won't retire anyone. The channel's real value is the audience - which converts to sponsorships, affiliates, and gigs.
 
 Hit 1,000 subs and 4,000 hours, build long-form video (the 10-20x RPM tier), and let the channel become your portfolio. That's the path from RM0 to your first payout - and then to your first client.`,
+  },
+  {
+    slug: 'canon-eos-r5-mark-ii-review-malaysia',
+    title: 'Canon EOS R5 Mark II Review: The Malaysian Creator\'s Flagship, Tested',
+    description: 'Canon\'s 45MP stacked-sensor hybrid is the most complete camera money can buy in Malaysia. We break down whether the R5 Mark II justifies its RM18k+ price for photographers, videographers and hybrid creators.',
+    image: '/blog/canon-eos-r5-mark-ii-review-malaysia.jpg',
+    category: 'gear',
+    readTime: 12,
+    date: '2026-08-10',
+    tags: ['canon', 'full-frame', 'hybrid', '8k', 'review'],
+    relatedGear: ['canon-eos-r6-mark-ii-review-malaysia', 'canon-eos-r50-review-malaysia', 'sony-a7c-ii-review-malaysia'],
+    content: `The Canon EOS R5 Mark II is the camera every serious hybrid shooter in Malaysia has been staring at for a year. It's the mirrorless that promises 8K RAW, 45 megapixels and autofocus that embarrasses every DSLR it competes with. We spent three weeks shooting with one in KL — portraits, food, events and video — to find out if it earns its RM18,000-plus Malaysian price tag.
+
+This review is written the way we actually use cameras: real shoots, real Malaysian conditions, real heat.
+
+## Who should even be looking at this camera
+
+Before the specs, the honesty. The R5 Mark II is not for everyone. It's for:
+
+- **Hybrid pros** who shoot stills and video in the same job (corporate, weddings, events)
+- **Photographers upgrading** from an R5, R6 or a DSLR who want one body for everything
+- **Video clients** who demand 8K deliverables, RAW or high frame rates
+
+If you shoot family photos and weekend street, stop reading and buy a Canon R50 or an R8. This review is for people who charge money with a camera.
+
+## Key specs at a glance
+
+| Spec | R5 Mark II |
+| --- | --- |
+| Sensor | 45MP full-frame stacked CMOS |
+| Stills burst | 30fps electronic, 12fps mechanical |
+| Video | 8K60 RAW, 4K120, oversampled 4K |
+| IBIS | Up to 8.5 stops |
+| Viewfinder | 5.76M-dot, 0.9x magnification |
+| Card slots | 1x CFexpress + 1x SD UHS-II |
+| Weight | ~746g (with battery and card) |
+
+## Autofocus that changes how you shoot
+
+The headline feature isn't the resolution — it's the autofocus. Canon's Eye Control AF lets you look at a subject's eye in the viewfinder and the focus point jumps there. It sounds like a gimmick. It isn't.
+
+In practice at a Malaysian wedding dinner (dim ballroom, fast movement), the R5 Mark II locked onto faces and stayed with them where an A7 IV or R6 II would occasionally hunt. The new Action Priority mode even anticipates sports moves before they happen — genuinely useful for football, futsal and e-sports events.
+
+## 8K you will actually use
+
+Let's be real: nobody in Malaysia delivers 8K. But 8K60 RAW is useful for two reasons:
+
+1. **Oversampling.** Downscale 8K to 4K and you get the cleanest 4K of any Canon.
+2. **Reframing.** Shoot 8K, punch in 2x in the edit, and your interview or event footage looks like it was shot on three cameras.
+
+The catch is heat. In Malaysia's climate, long 8K takes in direct sunlight will make the camera throttle faster than you'd like. Our advice: shoot 4K60 for long indoor takes, use 8K for highlight shots. The camera handles 4K120 and long 4K60 recording without complaint.
+
+## IBIS and the RF lens reality
+
+The 8.5-stop IBIS is the best in the business. Handheld video in a mamak at dusk is genuinely usable. And because the RF mount finally has third-party support — Tamron and Sigma RF lenses are appearing in Malaysian shops — you're not locked into Canon pricing forever.
+
+## Malaysian pricing and warranty reality
+
+The R5 Mark II body lists around RM17,999-19,999 in Malaysia. Key notes:
+
+- **Canon Store Malaysia / CanonCare:** official units carry Canon's 1-year CanonCare warranty, which covers far more than the basic manufacturer warranty.
+- **Grey imports** from Singapore or Japan sell RM1,000-2,000 cheaper but lose CanonCare and local servicing speed. For a camera this expensive, the warranty is worth the premium.
+- **The total cost trap:** body + one RF lens + CFexpress card + batteries is easily RM25,000. Plan for that, not just the body.
+
+## How it compares in Malaysia
+
+| Camera | Price (body) | Best for |
+| --- | --- | --- |
+| Canon R5 Mark II | ~RM18,000-20,000 | Hybrid pros who want everything |
+| Canon R6 Mark II | ~RM10,000-11,000 | Hybrids on a budget, no 8K needed |
+| Sony A7 IV | ~RM8,000-9,000 | Stills-first hybrid, best value |
+| Sony A7C II | ~RM10,500-11,500 | Compact full-frame street + vlog |
+
+## The bottom line
+
+The Canon EOS R5 Mark II is the most complete camera most Malaysian professionals will ever buy. The autofocus, image quality and video tools are best-in-class, and with CanonCare it's a genuinely safe long-term investment.
+
+Buy it if you earn with your camera and want one body to do everything for the next five years. Save your money if you don't shoot 8K, don't need 30fps, and your clients never ask for RAW.`,
+  },
+  {
+    slug: 'sony-a7-iv-review-malaysia',
+    title: 'Sony A7 IV Review in 2026: Still the Best First Full-Frame Camera in Malaysia?',
+    description: 'Three years on, the A7 IV is still the camera every Malaysian photographer is told to buy. Here\'s our long-term review: 33MP, 4K60, real autofocus, and whether it still wins against the 2026 field.',
+    image: '/blog/sony-a7-iv-review-malaysia.jpg',
+    category: 'gear',
+    readTime: 11,
+    date: '2026-08-09',
+    tags: ['sony', 'full-frame', 'hybrid', 'vlog', 'review'],
+    relatedGear: ['sony-a7c-ii-review-malaysia', 'sony-a6700-review-malaysia', 'sony-zv-e10-ii-review-malaysia', 'canon-eos-r6-mark-ii-review-malaysia'],
+    content: `Every Malaysian photographer who wanted to go full-frame in the last three years has heard the same advice: "Just buy the Sony A7 IV." It's the default recommendation in every Facebook group, every forum, every shop in Low Yat Plaza. In 2026, with newer cameras everywhere, is it still the right answer?
+
+We've been shooting the A7 IV on and off for over a year — gigs, travel, portraits and video. Here's the long-term review we wish we had before buying.
+
+## The specs that made it famous
+
+| Spec | Sony A7 IV |
+| --- | --- |
+| Sensor | 33MP full-frame BSI CMOS |
+| Stills burst | 10fps with deep buffer |
+| Video | 4K60 10-bit 4:2:2, S-Log3, S-Cinetone |
+| IBIS | 5.5 stops |
+| Viewfinder | 3.69M-dot |
+| Screen | 3" fully articulating touch |
+| Card slots | Dual SD UHS-II |
+
+## Why it's still the value king
+
+The A7 IV's superpower has never been one headline spec. It's that it does everything competently at a price the market has spent three years flooding with cheap lenses.
+
+- **33MP** is the sweet spot — enough resolution for print and heavy crop, small enough files that a mid-range laptop edits them fine.
+- **4K60 10-bit** with S-Cinetone gives you a cinematic look straight out of camera — no LUT needed for most client work.
+- **Real-time tracking** with Eye AF for humans, animals and birds is still class-leading for the price.
+- **The lens ecosystem** — this is the real moat. Tamron, Sigma and Rokinon make outstanding affordable E-mount glass. A RM3,000 Tamron 28-75mm f/2.8 on an A7 IV outperforms a RM15,000 system on any other brand.
+
+## The 2026 problems nobody mentions
+
+Honesty section. Three years on, the A7 IV has warts:
+
+- **4K60 is cropped** to Super 35mm. Fine for interviews, annoying for wide shots.
+- **The 3.69M-dot EVF** feels dated next to the 5.76M-dot finders on newer Sony bodies.
+- **Processing speed** — the menus are improved but the camera still feels slower to boot and buffer than the A7C II or A6700.
+- **No 8K, no 4K120.** If your clients ask for high frame rates, look at the A6700 or the R6 II.
+
+## Malaysian pricing and where to buy
+
+- **Sony Store Malaysia** official units: around RM8,000-9,000 body-only. Sony Malaysia's warranty support is reliable and reasonably fast.
+- **Grey imports** from Singapore: RM500-1,500 cheaper, but check the firmware region and local warranty before buying.
+- **Second-hand:** clean used A7 IV bodies appear at RM6,000-7,000 on Mudah and Carousell. The A7 IV is built like a tank — a used one is a genuinely smart buy.
+
+## The comparison that matters in 2026
+
+| Camera | Body price | Why you'd choose it over the A7 IV |
+| --- | --- | --- |
+| Sony A7C II | ~RM10,500-11,500 | Compact, newer AF, uncropped 4K60 |
+| Sony A6700 | ~RM7,000-8,000 | APS-C, 4K120, cheaper lenses |
+| Sony ZV-E10 II | ~RM5,000-5,500 | Vlog-first, small and cheap |
+| Canon R6 II | ~RM10,000-11,000 | Uncropped 4K60, better IBIS |
+
+## The bottom line
+
+The Sony A7 IV is still the best first full-frame camera in Malaysia — the question is whether you're buying it for the right reasons. If you want a workhorse that shoots everything well, has the best lens ecosystem on the planet, and costs less than its rivals, it's the answer.
+
+If you mostly shoot video, want uncropped 4K60, or want the newest autofocus, the A7C II is the smarter 2026 upgrade. Either way, you can't go wrong with the A7 IV — that's why it's still the default.`,
+  },
+  {
+    slug: 'nikon-z8-review-malaysia',
+    title: 'Nikon Z8 Review: The Z9 Mini for Malaysian Pros — But There\'s a Catch',
+    description: 'The Z8 gives you Z9 performance at a fraction of the weight and price. We test 8K60, 20fps RAW and class-leading subject detection — and explain the realistic total cost for a Malaysian buyer.',
+    image: '/blog/nikon-z8-review-malaysia.jpg',
+    category: 'gear',
+    readTime: 11,
+    date: '2026-08-08',
+    tags: ['nikon', 'z-mount', 'full-frame', '8k', 'pro'],
+    relatedGear: ['nikon-z50-ii-review-malaysia', 'canon-eos-r5-mark-ii-review-malaysia', 'sony-a7-iv-review-malaysia'],
+    content: `The Nikon Z9 was the camera that announced Nikon was back. The Z8 is the same camera in a smaller body, at a lower price, with one uncomfortable compromise. For Malaysian photographers who want flagship speed without flagship bulk, it's the most exciting release in years.
+
+But the real story in Malaysia isn't the body — it's everything you have to buy around it. Here's our review after a month of shooting the Z8 in KL, including the honest total cost.
+
+## The specs that matter
+
+| Spec | Nikon Z8 |
+| --- | --- |
+| Sensor | 45.7MP stacked full-frame CMOS |
+| Stills burst | 20fps RAW, 30fps JPEG, 120fps 11MP |
+| Video | 8K60 12-bit N-RAW, 4K120, 8.5-stop VR |
+| IBIS | 5 stops body, 6 stops with VR lenses |
+| Viewfinder | 3.69M-dot |
+| Screen | 3.2" 4-axis tilting touch |
+| Card slots | 1x CFexpress + 1x SD UHS-II |
+
+## The Z9 experience in a smaller body
+
+The Z8 does almost everything the RM24,000 Z9 does, for about RM18,000. That's the pitch, and it mostly holds:
+
+- **20fps RAW with pre-release capture.** Half-press the shutter and the camera records a full second before you press — bird photographers in Malaysia have stopped missing shots entirely.
+- **8K60 internal N-RAW.** Real 12-bit RAW video in a body this small is absurd. Downscaled, it produces the cleanest 4K available.
+- **Subject detection** that finds birds, insects, animals, planes and cars automatically. For Malaysian wildlife shooters, this is the flagship.
+
+## What the Z8 won't tell you: the total cost
+
+Here's the catch most reviews skip. The Z8 body is RM17,000-19,000, and then:
+
+- **Z lenses cost pro money.** A 70-200mm f/2.8 Z is ~RM10,000+. The old F-mount versions need an adapter that adds cost.
+- **CFexpress cards are expensive.** A quality 256GB card is RM600-900. You'll want two.
+- **Battery life is the honest weakness.** The Z8 uses the smaller EN-EL15c battery (the Z9 has a bigger one) — a heavy shooting day needs two or three spares.
+
+Budget RM25,000-30,000 realistically for a Z8 kit, or it'll catch you by surprise.
+
+## Shooting it in Malaysia
+
+- **Heat:** the Z8 manages thermal throttling far better than most rivals. A 20-minute 8K clip in Malaysian afternoon sun is possible — both it and the Canon R5 II will warn you eventually, but it takes a while.
+- **Weight:** 910g with battery is heavy for a mirrorless, but for a body this capable it's a trade-off pros accept.
+- **Rain:** fully weather-sealed. We shot a monsoon afternoon in the park without a second thought.
+
+## The comparison
+
+| Camera | Body price | Z8 beats it on | Loses on |
+| --- | --- | --- | --- |
+| Nikon Z8 | ~RM18,000 | Speed, 8K60 RAW | Battery life, price |
+| Canon R5 II | ~RM19,000 | Eye Control AF, IBIS | Raw burst speed |
+| Sony A7 IV | ~RM8,500 | Everything (it's 2x cheaper) | - |
+
+## The bottom line
+
+The Nikon Z8 is the best speed camera most Malaysian pros will ever afford — if they can also afford the glass. For wildlife, sports, events and serious video, nothing near its price matches the package.
+
+Buy it if you're all-in on Nikon Z or coming from a pro F-mount system. If you're starting fresh, the Sony A7 IV plus lenses gives you more usable system for less money.`,
+  },
+  {
+    slug: 'fujifilm-x-t5-review-malaysia',
+    title: 'Fujifilm X-T5 Review: 40MP Retro Charm Without the Pro Price Tag',
+    description: 'The X-T5 brings the 40MP X-Trans sensor and film simulations to a compact, affordable body. For Malaysian street and portrait shooters, this is the most fun camera you can buy.',
+    image: '/blog/fujifilm-x-t5-review-malaysia.jpg',
+    category: 'gear',
+    readTime: 10,
+    date: '2026-08-07',
+    tags: ['fujifilm', 'aps-c', 'retro', 'film-simulation', 'review'],
+    relatedGear: ['fujifilm-x100vi-hype-worth-it-malaysia', 'fujifilm-x-m5-review-malaysia', 'canon-eos-r50-review-malaysia'],
+    content: `Some cameras are tools. The Fujifilm X-T5 is a personality. In a market of identical black rectangles, it's the camera that makes Malaysian street and portrait shooters fall in love with photography all over again — and with the 40MP X-Trans sensor, it's more capable than its retro face suggests.
+
+Here's our hands-on, and the honest advice on whether to buy it over the X-M5 or the hyped X100VI.
+
+## The specs
+
+| Spec | Fujifilm X-T5 |
+| --- | --- |
+| Sensor | 40.2MP X-Trans CMOS 5 HR (APS-C) |
+| Stills burst | 15fps mechanical, 20fps e-shutter |
+| Video | 6.2K30, 4K60, 10-bit F-Log2 |
+| IBIS | 5 stops |
+| Viewfinder | 3.69M-dot |
+| Screen | 3" 3-way tilting touch |
+| Card slots | Dual SD UHS-II |
+
+## Why it's fun to shoot
+
+- **The dials.** ISO, shutter speed and exposure compensation are physical dials on top. You set the aperture on the lens. No menus, no chasing settings — just dials, exactly like the film cameras it celebrates.
+- **Film simulations.** JPEGs straight out of camera look like a finished edit. Classic Chrome, Velvia and the newer Nostalgic Neg make your food shots and street photos instantly shareable. This is the number one reason Fuji users don't shoot RAW.
+- **40MP with real sharpness.** The pixel count gets dismissed as a gimmick, but the 40MP X-Trans sensor genuinely out-resolves the 26MP competition when paired with good glass.
+
+## Video: good, but it's not the point
+
+The X-T5 does 6.2K30 and 4K60 10-bit with F-Log2. It's very competent — but it's also not a video-first camera. The 3-way tilt screen and the burst rates scream stills. If you're buying a Fuji mainly for video, the X-H2 or X-M5 serve you better.
+
+## Autofocus: finally trustworthy
+
+Fuji's autofocus used to be the asterisk on every review. Not anymore. The X-T5's subject detection — face, eye, animal, bird — locks on and holds. It's not Canon or Sony level, but it's close enough that portrait and street work is genuinely effortless.
+
+## Malaysian pricing and buying advice
+
+- **Official Fujifilm Store Malaysia:** the X-T5 body sells around RM7,500-8,500. Fuji Malaysia offers proper warranty and periodic promotions.
+- **Grey imports from Japan:** RM500-1,000 cheaper. The X-T5 is hugely popular in Japan, so clean used units and parallel imports are common. Check the menu language and warranty status.
+- **The X-M5 alternative:** at roughly RM4,000-4,500, the X-M5 gives you the same sensor and film simulations in a smaller, video-first body. It's the smart budget Fuji.
+- **The X100VI comparison:** the fixed-lens X100VI is all hype and resale value; the X-T5 is a real system you can build lenses around. For most people the X-T5 is the better buy.
+
+## The bottom line
+
+The Fujifilm X-T5 is the most enjoyable camera you can buy in Malaysia under RM10,000. The 40MP sensor is legitimately excellent, the film simulations make your photos look finished, and the dials make you want to shoot more.
+
+Buy it if you shoot stills, love the craft of photography and want JPEGs that don't need editing. Skip it if you're video-first or need the newest autofocus.`,
+  },
+  {
+    slug: 'panasonic-lumix-gh7-review-malaysia',
+    title: 'Panasonic Lumix GH7 Review: The Video Camera Malaysian Filmmakers Sleep On',
+    description: 'Phase-detect autofocus, internal ProRes RAW and ARRI LogC3 in a compact M4/3 body — the GH7 is the best hybrid for event and wedding videography Malaysia has seen. Here\'s our hands-on.',
+    image: '/blog/panasonic-lumix-gh7-review-malaysia.jpg',
+    category: 'gear',
+    readTime: 11,
+    date: '2026-08-06',
+    tags: ['panasonic', 'm43', 'video', 'wedding', 'review'],
+    relatedGear: ['sony-a6700-review-malaysia', 'dji-rs-4-pro-review-malaysia', 'panasonic-lumix-s9-review-malaysia'],
+    content: `Ask a Malaysian wedding videographer what they actually use and half of them will say a Panasonic GH camera. The GH5 was the kenduri workhorse for a decade. The GH7 is the modern version — and with Panasonic finally fixing its autofocus, it's the best video camera most people in this market have never seriously considered.
+
+## The specs
+
+| Spec | Lumix GH7 |
+| --- | --- |
+| Sensor | 25.2MP M4/3 BSI CMOS |
+| Stills burst | 14fps (7fps mechanical), 60fps e-shutter JPEG |
+| Video | 5.7K60 ProRes RAW, 4K120, 4K60 10-bit |
+| AF | Phase-detect (hybrid) + real-time tracking |
+| IBIS | 5-axis, up to 7.5 stops with Dual IS 2 |
+| Card slots | 1x CFexpress Type B + 1x SD UHS-II |
+| Extras | Internal SSD recording via USB-C, ARRI LogC3 |
+
+## Why M4/3 still makes sense in Malaysia
+
+The full-frame-or-nothing crowd will tell you the M4/3 sensor is too small. For the actual work being done in Malaysia — weddings, kenduri, events, corporate — the GH7's strengths matter more than sensor size:
+
+- **Lenses are small and cheap.** A 12-60mm f/2.8-4 kit, a 35-100mm f/2.8 and a 20mm f/1.7 fit in one small bag and cost a fraction of the full-frame equivalents.
+- **Dual IS is terrifyingly smooth.** Panasonic's IBIS is the best in the industry — handheld gimbal-like footage without a gimbal.
+- **Heat management.** The GH7 records for hours in Malaysian heat without shutting down. That alone is worth the price for event videographers.
+
+## The autofocus fix
+
+This is the big one. Panasonic moved to phase-detect autofocus (inherited from the S5II generation) and it changes everything. The GH7's AF now locks faces, tracks subjects in video, and holds in low light. It's not Sony-level, but it's trustworthy — which the old contrast-detect system never was. For talking heads, event speeches and follow-cam, it just works.
+
+## The video toolkit
+
+- **ProRes RAW internally** — 5.7K30 ProRes RAW to CFexpress, or even to an external SSD over USB-C (cheaper storage than buying more cards).
+- **ARRI LogC3** — you can match the GH7's footage to an ARRI Alexa in post. This is the feature that got Panasonic taken seriously by professionals.
+- **4K120** for slow-mo ceremony moments and product shots.
+
+## Malaysian pricing
+
+- **Official units** run around RM11,000-12,000 body-only. Panasonic Malaysia warranty is decent.
+- **The lens system is the bargain:** a full M4/3 kit (body + 2-3 lenses) costs what a full-frame body alone costs.
+- **Used GH6s** are appearing at RM7,000-8,000 — a strong budget alternative if you don't need internal ProRes RAW.
+
+## Who should buy it
+
+- **Wedding and kenduri videographers** — this is the market's workhorse, done properly.
+- **Event and corporate shooters** who need long recording and dual cards.
+- **Creators with a small bag budget** who want cinema-level tools.
+
+## The bottom line
+
+The GH7 is the video camera Malaysian filmmakers sleep on. Between the phase-detect AF, the ProRes RAW, the heat endurance and the affordable lens system, it's arguably the best-value pro video package in the market — as long as you're not obsessed with full-frame shallow depth of field.
+
+For kenduri season in Malaysia, nothing else on this list will get you through a 12-hour shoot with a smile like the GH7.`,
+  },
+  {
+    slug: 'dji-rs-4-pro-review-malaysia',
+    title: 'DJI RS 4 Pro Review: Is This the Last Gimbal You\'ll Ever Need?',
+    description: '4.5kg payload, lidar autofocus and lightning-fast axis locks. We put the RS 4 Pro through a Malaysian wedding weekend — rain, kenduri and all — to see if it earns the RM3k+ price.',
+    image: '/blog/dji-rs-4-pro-review-malaysia.jpg',
+    category: 'gear',
+    readTime: 10,
+    date: '2026-08-05',
+    tags: ['dji', 'gimbal', 'stabilizer', 'video', 'review'],
+    relatedGear: ['dji-osmo-pocket-3-review-malaysia', 'sony-a7-iv-review-malaysia', 'panasonic-lumix-gh7-review-malaysia'],
+    content: `Every serious videographer in Malaysia reaches a point where a gimbal is non-negotiable. The DJI RS 4 Pro is the current flagship of that category — 4.5kg payload, lidar autofocus, and automatic axis locks that turn the most tedious part of gimbal work into a one-touch move. We ran it through a full Malaysian wedding weekend to see if it earns the RM3,000+ price.
+
+## The specs
+
+| Spec | RS 4 Pro |
+| --- | --- |
+| Payload | 4.5kg |
+| Autofocus | Lidar system for manual and legacy lenses |
+| Axis locks | Automatic, with joystick trigger |
+| Wireless | 20m control range, Bluetooth |
+| Battery | ~12 hours, removable |
+| Build | Carbon fibre arms, quick-release |
+
+## The two things that justify the flagship
+
+**1. Automatic axis locks.** This sounds small until you've done it. You press one button, all three axis locks engage, the gimbal folds itself for transport, and re-balancing a new lens takes seconds instead of five minutes. In a fast-moving shoot, this saves your whole day.
+
+**2. Lidar autofocus.** DJI's lidar module projects focus points and drives the lens autofocus — even on old manual-focus cinema lenses and some lenses whose native AF is unusable on a gimbal. For Malaysian crews shooting with adapted glass, this is a genuinely unique feature.
+
+## Real-world: a Malaysian wedding weekend
+
+We shot a full kenduri weekend — morning prep at the bride's house, an outdoor midday session, and an evening dinner ballroom.
+
+- **Setup time:** 40 seconds from case to balanced camera. The automatic locks and the new balancing knobs make it the fastest gimbal we've used.
+- **Battery:** 12 hours held up across two full days with charge to spare. One charger, done.
+- **Payload:** we ran a full-frame body with a 24-70mm f/2.8 — well within the 4.5kg limit, with the motors barely breaking a sweat.
+- **Stability:** moving shots at walking pace in the ballroom were tripod-smooth. The upgraded motors handle longer lenses with far less micro-jitter than the RS 3.
+
+## Do you need the Pro over the RS 4?
+
+| | RS 4 | RS 4 Pro |
+| --- | --- | --- |
+| Payload | 3kg | 4.5kg |
+| Lidar AF | No | Yes |
+| Price (MY) | ~RM2,000-2,300 | ~RM3,200-3,800 |
+
+Buy the standard RS 4 if you shoot a single mirrorless body. Buy the Pro if you run full-frame with bigger glass, use cinema lenses, or want lidar AF for client confidence.
+
+## Malaysian pricing and notes
+
+- **DJI Malaysia official** RS 4 Pro runs ~RM3,200-3,800 with the gimbal and focus system bundle. DJI Malaysia's local warranty service is genuinely good.
+- **Grey imports** are RM300-600 cheaper but DJI warranty is region-locked for many repairs — the saving isn't worth it.
+- **Humidity maintenance:** like all electronics in Malaysia, store the gimbal with a silica gel pack in its case. We've seen two gimbals develop sticky motors from humid storerooms.
+
+## The bottom line
+
+The DJI RS 4 Pro is the last gimbal most videographers will need for years. The axis locks and lidar AF genuinely change your workflow, the battery is day-long, and the build is pro-grade.
+
+If you already own an RS 3 Pro in good condition, the upgrade is optional. If you're buying your first serious gimbal for client work, skip the cheap ones and start here.`,
+  },
+  {
+    slug: 'godox-sl150iii-review-malaysia',
+    title: 'Godox SL150III Review: The RM700 Light That Transforms Malaysian Home Studios',
+    description: 'A 150W COB LED with app control for less than the price of a mid-range lens. We review the SL150III for food, product and content-creation shoots — the budget light Malaysian creators actually need.',
+    image: '/blog/godox-sl150iii-review-malaysia.jpg',
+    category: 'gear',
+    readTime: 9,
+    date: '2026-08-04',
+    tags: ['godox', 'lighting', 'studio', 'budget', 'content'],
+    relatedGear: ['budget-lighting-setup-content-creation-malaysia', 'product-photography-ecommerce-gig-malaysia', 'food-content-creation-gig-malaysia'],
+    content: `Every Malaysian content creator reaches the same crossroads: "Do I buy a better camera, or better light?" For nine out of ten people, the answer is light — and the Godox SL150III is the best RM700 you'll ever spend in photography.
+
+## Why lighting beats cameras
+
+Your phone or entry mirrorless is already capable. The reason your product photos look flat and your food shots look dull isn't the sensor — it's that you're shooting with whatever light happens to be in the room. A 150W LED is the single biggest image-quality upgrade available to you, full stop.
+
+## The specs
+
+| Spec | Godox SL150III |
+| --- | --- |
+| Power | 150W COB LED |
+| Colour temp | 5600K daylight (±200K) |
+| Output | ~42,500 lux at 1m (with reflector) |
+| Mount | Bowens S-mount (universal softboxes) |
+| Dimming | 0-100% continuous |
+| Control | Bluetooth app + remote |
+| Fan | Quiet mode + sport mode |
+
+## Using it in a Malaysian home studio
+
+- **Brightness reality:** 150W is a lot. Bare, it punches through a window-lit afternoon. Through a 90cm softbox, it gives you soft, controlled key light for portraits and products.
+- **Bowens mount** means any cheap softbox, umbrella or beauty dish from Shopee or Lazada fits. You're not locked into Godox accessories.
+- **App control:** the Godox Light app adjusts brightness and effects from your phone. No more walking back and forth to tweak the dial.
+- **The fan:** on quiet mode it's audible but not annoying on set. For talking-head video, keep the mic away from it or use sport mode between takes.
+
+## The setup that changes your gigs
+
+| Scenario | Before | After SL150III |
+| --- | --- | --- |
+| Product photography | Flat, shadowy | Crisp, controlled |
+| Food content | Dull, orange | Bright, appetising |
+| Video talking head | Noisy, mixed light | Clean key light |
+| Portraits | Harsh flash | Soft window-like light |
+
+## Malaysian pricing
+
+- **Godox Malaysia official** SL150III sells around RM750-900 including a softbox bundle. Godox has proper local distribution, so warranty claims are painless.
+- **The SL60II** at ~RM350-450 is the budget entry point, but 150W is worth the extra for product and video work.
+- **The SL300** doubles the power for ~RM1,600 — only needed if you shoot large sets or want to overpower the sun.
+
+## The bottom line
+
+The Godox SL150III is the best lighting value in Malaysia, period. It turns a boring corner of your bedroom into a studio, and it will improve your photos more than any camera upgrade at the same price.
+
+Buy one with a 90cm softbox. Learn to position it. Your content — and your gig income — will thank you.`,
+  },
+  {
+    slug: 'sigma-18-50mm-f28-dc-dn-review-malaysia',
+    title: 'Sigma 18-50mm f/2.8 Review: The One Lens to Own on APS-C',
+    description: 'F/2.8 constant aperture, 290g, native autofocus on E and X mount. For Sony A6100, ZV-E10, X-T5 and X-M5 owners, the Sigma 18-50mm might end your search for the perfect everyday lens.',
+    image: '/blog/sigma-18-50mm-f28-dc-dn-review-malaysia.jpg',
+    category: 'gear',
+    readTime: 9,
+    date: '2026-08-03',
+    tags: ['sigma', 'lens', 'aps-c', 'zoom', 'review'],
+    relatedGear: ['sony-a6100-review-malaysia-second-hand', 'sony-zv-e10-review-malaysia-second-hand', 'fujifilm-x-t5-review-malaysia'],
+    content: `If you own a Sony A6100, ZV-E10 or Fujifilm X-T5, there's a good chance your camera is better than your lens. The fix for that is usually a prime — but the Sigma 18-50mm f/2.8 DC DN is the rare zoom that ends the upgrade question entirely. It might be the only lens you'll ever need on APS-C.
+
+## The specs
+
+| Spec | Sigma 18-50mm f/2.8 DC DN |
+| --- | --- |
+| Focal length | 18-50mm (27-75mm equivalent) |
+| Aperture | f/2.8 constant |
+| Weight | 290g |
+| Filter | 67mm |
+| Mounts | Sony E, Fujifilm X, L-mount |
+| Design | Contemporary line, compact |
+
+## Why it's the one-lens answer
+
+- **Constant f/2.8.** Unlike kit lenses that dim to f/5.6 when you zoom, this stays bright at every focal length. More light, more bokeh, less ISO noise — everywhere.
+- **290g.** The whole point of APS-C is a light kit. This lens is barely bigger than a pancake zoom, perfect for a gimbal, a vlog or a day out in KL.
+- **Native autofocus.** No adapters, no hunting. On the A6100 and ZV-E10 it locks fast and quietly, and it works with face and eye tracking.
+- **Sharp from f/2.8.** The modern Contemporary line is technically excellent wide open — a big step up from older budget zooms.
+
+## Real-world on an A6100
+
+We ran the Sigma 18-50mm as a daily lens on a Sony A6100 for content gigs:
+
+- **Food and product:** at 50mm f/2.8 it gives you that expensive shallow look for overhead and flat-lay shots.
+- **Video:** constant aperture means exposure stays stable while zooming — the lens isn't fully parfocal, so you still re-pull focus, but exposure never shifts.
+- **Vlogging:** 18mm on a selfie screen is wide enough with the crop — and at 290g it balances perfectly on the ZV-E10's small grip.
+
+## The comparison that matters
+
+| | Sigma 18-50mm f/2.8 | Tamron 17-70mm f/2.8 |
+| --- | --- | --- |
+| Range | 27-75mm | 25.5-105mm |
+| Stabilisation | None | VC (helps video) |
+| Weight | 290g | 525g |
+| Price (MY) | ~RM2,500-2,900 | ~RM3,200-3,700 |
+
+The Tamron gives you more range and image stabilisation; the Sigma gives you a much lighter, cheaper kit. If you shoot handheld video a lot, the Tamron's VC matters. If you want the smallest possible professional kit, it's the Sigma.
+
+## Malaysian pricing and buying
+
+- **Sigma Malaysia official:** the 18-50mm f/2.8 runs ~RM2,500-2,900. Sigma's local warranty is handled cleanly.
+- **Bundle note:** with a used A6100 (~RM1,800) and this lens, you have a professional-level kit for under RM5,000 — less than half the price of the full-frame equivalent.
+- **If you mostly shoot one focal length,** the Sigma 30mm f/1.4 (~RM1,400) is sharper and faster for portraits. The zoom wins on versatility.
+
+## The bottom line
+
+The Sigma 18-50mm f/2.8 DC DN is the best value lens in APS-C photography. It's the only lens many Malaysian creators will ever need, and it turns a modest camera into a professional tool.
+
+If you own an A6100, ZV-E10, X-T5 or X-M5 and you're using a kit lens, this is your first upgrade. It will change more of your photos than any camera body ever could.`,
+  },
+  {
+    slug: 'rode-wireless-pro-review-malaysia',
+    title: 'Rode Wireless PRO Review: Why This Microphone System Is Worth RM1,900',
+    description: '32-bit float recording, timecode and a 260m range. We review the Rode Wireless PRO for Malaysian creators and gig videographers — and compare it to the DJI Mic 2 you keep seeing everywhere.',
+    image: '/blog/rode-wireless-pro-review-malaysia.jpg',
+    category: 'gear',
+    readTime: 9,
+    date: '2026-08-02',
+    tags: ['rode', 'audio', 'microphone', 'wireless', 'review'],
+    relatedGear: ['dji-mic-2-vs-budget-lapel-malaysia', 'best-budget-lapel-microphone-malaysia-audio-guide', 'sony-zv-e10-ii-review-malaysia'],
+    content: `Bad audio is the fastest way to look amateur. It's also the easiest problem to fix — and the Rode Wireless PRO is the fix. Two professional transmitters, 32-bit float recording, timecode and a 260m range make it the microphone system that ends the "which mic should I buy?" question for Malaysian creators and gig shooters.
+
+## The specs
+
+| Spec | Rode Wireless PRO |
+| --- | --- |
+| Channels | 2 transmitters + dual-channel receiver |
+| Recording | 32-bit float, 32GB internal per transmitter |
+| Range | Up to 260m |
+| Extras | Timecode, GainAssist, Safety Track |
+| Mounts | Shoe, cold shoe, camera connector |
+| Battery | ~7 hours per charge, recharged via case |
+
+## Why 32-bit float is a superpower
+
+Normal microphones clip when the talent speaks loudly or the level jumps. With 32-bit float, the level is recorded after the fact — you literally can't clip. In post, you just drag the volume up or down and the audio is clean, no matter what happened on the shoot.
+
+For a Malaysian content creator filming in a market, a mamak, or a windy rooftop interview, this is the difference between a usable take and a ruined one. You stop watching levels and start focusing on the interview.
+
+## The features that earn the price
+
+- **Internal recording.** Each transmitter records its own copy to 32GB of internal storage. If the wireless signal drops (it happens in crowded KL ballrooms), the audio is still saved. This is the pro feature budget mics simply don't have.
+- **Timecode.** The receiver syncs timecode to your camera or to free Rode software. Multi-camera setups line up in seconds, not hours.
+- **GainAssist.** Automatic gain that adjusts to the room. Point, shoot, never touch the levels.
+- **Range.** 260m claimed — in practice it held a clean signal across an entire football field with no dropouts.
+
+## Malaysian pricing and the comparison
+
+- **Rode Malaysia official** Wireless PRO runs ~RM1,800-2,200. Rode's local warranty service is dependable.
+- **The DJI Mic 2** you see everywhere is ~RM1,400-1,700 and it's genuinely good — lighter, touchscreen receiver, magnetic clips. What the Rode gives you over it: 32-bit float, internal recording per transmitter, and timecode.
+- **The budget alternative** (RM50-150 lapels) works for phone vlogging but clips, has no backup recording and sounds thin. For client work, the difference is embarrassing.
+
+| Feature | Rode Wireless PRO | DJI Mic 2 |
+| --- | --- | --- |
+| 32-bit float | Yes | No |
+| Internal backup recording | Yes (per transmitter) | No |
+| Timecode | Yes | No |
+| Price | ~RM1,900 | ~RM1,500 |
+
+## The bottom line
+
+The Rode Wireless PRO is the last wireless mic system you'll need to buy. The 32-bit float recording, per-transmitter backup and timecode are the features that make professional audio bulletproof — and for the Malaysian gig economy, where every take counts, that's worth every ringgit.
+
+If you're just starting and money is tight, buy the RM50 lapel and learn. The moment you take a paid client, upgrade to this.`,
+  },
+  {
+    slug: 'peak-design-everyday-v2-review-malaysia',
+    title: 'Peak Design Everyday Backpack V2 Review: The RM1,300 Bag Malaysian Photographers Justify Buying',
+    description: 'It costs more than a used Nikon D3100. We spent months carrying the Peak Design Everyday Backpack 20L through KL gigs, rain and trains to decide if the hype — and the price — is actually worth it.',
+    image: '/blog/peak-design-everyday-v2-review-malaysia.jpg',
+    category: 'gear',
+    readTime: 9,
+    date: '2026-08-01',
+    tags: ['peak-design', 'bag', 'everyday-carry', 'review'],
+    relatedGear: ['nikon-d3100-review-malaysia-second-hand-price', 'camera-gear-maintenance-humidity-malaysia', 'sony-a6100-review-malaysia-second-hand'],
+    content: `Let's get the obvious out of the way: RM1,300 for a backpack is absurd. That's more than a used Nikon D3100, which is a whole camera. And yet the Peak Design Everyday Backpack is one of the most-loved pieces of gear in photography — including on this site. We spent months carrying the 20L version through KL gigs, rain, trains and mamak hangs to figure out whether it's worth the premium.
+
+## What you're paying for
+
+| Feature | What it does |
+| --- | --- |
+| FlexFold dividers | Magnetic folding dividers that adapt to your gear |
+| MagLatch | Magnetic lid that opens and closes one-handed |
+| Side access | Grab your camera without opening the top |
+| Weatherproofing | 400D shell + zippers that shrug off rain |
+| Tripod carry | External straps for a tripod or drone |
+
+## The good
+
+- **The divider system is brilliant.** Magnetic folds snap into whatever layout your gear needs today — camera with lens on, camera bag full of groceries tomorrow, drone kit the day after. No velcro screaming every time you dig inside.
+- **One-handed access.** MagLatch opens with a pull, the camera comes out the side, and the strap stays on your shoulder. In a crowded LRT during rush hour, this is a genuinely better experience than any zipper bag.
+- **Weatherproof in Malaysian rain.** The shell and the zippers are genuinely rain-proof. We've stood in a KL downpour; the camera stayed dry. The fabric does collect dust and lint, but nothing gets through.
+- **Comfort.** The back panel and straps carry a heavy load well. A full-frame body, three lenses and a drone are fine for a full day of shooting.
+
+## The bad
+
+- **It's heavy for what it is.** The 20L is 1.65kg empty. For many people, half that weight in a simpler bag would be smarter.
+- **The price.** RM1,200-1,400 locally. You are paying for design, not materials.
+- **No dedicated external laptop sleeve** — the laptop lives behind the main compartment, which means opening the bag to get it out.
+- **The volume lies a little.** "20L" feels like 15L once the dividers are in. The 30L version is a better buy if you carry more than a body and two lenses.
+
+## The Malaysian math
+
+| Option | Price | Verdict |
+| --- | --- | --- |
+| Peak Design 20L V2 | ~RM1,300 | The experience, if you can afford it |
+| Cheap camera inserts + normal bag | ~RM100-300 | 80% of the function |
+| Shimoda / Lowepro alternatives | RM500-900 | Better value, clunkier access |
+
+The honest truth: the Everyday Backpack is a luxury purchase, not a need. A RM150 camera insert in a normal backpack protects your gear just as well. What the Peak gives you is access speed — the camera out of the bag and in your hands in under five seconds.
+
+## The bottom line
+
+The Peak Design Everyday Backpack V2 is the nicest way to carry a camera in Malaysia, and also one of the most expensive. If you shoot every day, hate fumbling for your camera, and want one bag that works for work and travel, the 20L is worth the money — treat it as a five-year purchase.
+
+If you're on a tight budget, skip it. Buy a RM150 insert, put it in a normal backpack, and spend the RM1,150 you saved on a lens. That lens will improve your photos more than the bag ever will.
+
+We still love the bag, though. That's Peak Design's magic.`,
   },
 ];
