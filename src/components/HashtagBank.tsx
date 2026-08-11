@@ -1,9 +1,11 @@
 import Link from 'next/link';
 import { gearHashtagsFor } from '@/data/gearHashtags';
+import { withLang } from '@/lib/lang';
 
 interface Props {
   gearSlug: string;
   gearName: string;
+  lang: string;
 }
 
 function buildUrl(tag: string, gearName: string, platform: 'instagram' | 'tiktok' | 'youtube' | 'google'): string {
@@ -16,7 +18,7 @@ function buildUrl(tag: string, gearName: string, platform: 'instagram' | 'tiktok
   }
 }
 
-export default function HashtagBank({ gearSlug, gearName }: Props) {
+export default function HashtagBank({ gearSlug, gearName, lang }: Props) {
   const tags = gearHashtagsFor(gearSlug);
   if (tags.length === 0) return null;
 
@@ -33,7 +35,7 @@ export default function HashtagBank({ gearSlug, gearName }: Props) {
           <div key={tag} className="inline-flex flex-col gap-1">
             <div className="flex items-center gap-1">
               <Link
-                href={`/hashtags#${tag.replace('#', '').trim()}`}
+                href={withLang(lang, `/hashtags#${tag.replace('#', '').trim()}`)}
                 className="text-xs font-bold px-3 py-1.5 rounded-lg bg-zinc-800/80 border border-zinc-700/50 text-cyan-300 hover:border-pink-500/40 hover:text-pink-300 transition-all"
               >
                 #{tag}

@@ -347,7 +347,7 @@ export const gigs: Gig[] = [
     emoji: '🚁',
     tagline: 'Drones are Malaysia\'s highest-demand skill gap — estates, resorts and agents cannot find anyone who can fly.',
     description:
-      'Aerial content is the fastest-growing premium gig in Malaysia. Plantation owners want crop-health flyovers, resorts want promo footage, property agents want roof-to-roadwalk shots, and construction firms want progress documentation. Under 250g drones (like the Mini 4 Pro) need no CAAM license, so you can start earning the day after you buy one. Every shoot takes 1-2 hours and pays RM400-1,200.',
+      'Aerial content is the fastest-growing premium gig in Malaysia. Plantation owners want crop-health flyovers, resorts want promo footage, property agents want roof-to-roadwalk shots, and construction firms want progress documentation. Under 250g drones (like the Mini 4 Pro) sit in the lighter CAAM class — no Remote Pilot License, but check the current registration rules before you fly commercially. Every shoot takes 1-2 hours and pays RM400-1,200.',
     difficulty: 'moderate',
     rateMin: 400,
     rateMax: 1200,
@@ -371,7 +371,7 @@ export const gigs: Gig[] = [
       'Partner with wedding videographers who don\'t have drone coverage',
     ],
     tips: [
-      'Under 250g = no CAAM license needed. Above 250g (e.g. Mavic 3) requires one — factor RM500-800 into pricing',
+      'Under 250g = no Remote Pilot License (still check CAAM registration rules). Above 250g (e.g. Mavic 3) requires a license — factor RM500-800 into pricing',
       'Fly at sunrise or golden hour — flat midday light makes footage look cheap',
       'Master 5 moves: reveal, orbit, fly-through, rise-and-look, and the "pull back" — that is 80% of paid work',
       'Always shoot with the ND filter on in bright Malaysian sun to avoid jittery footage',

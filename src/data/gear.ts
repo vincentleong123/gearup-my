@@ -57,8 +57,8 @@ For Tim and Ahmad, this is the "I have literally no money" option. And here's th
 - Behind-the-scenes photos for Instagram
 - Thumbnail images for YouTube
 
-Real creator example: **Aiman Roslan** started his local business review channel with a D3100 and a RM40 tripod. Within 6 months, he was earning RM1,500-2,000 per month from ads and sponsorship. His total starter cost was under RM600.`,
-    roiDesc: 'Under RM500 second-hand. Aiman broke even in 2 weeks. Best "I have no money" starter camera in Malaysia.',
+Illustrative example: **Aiman Roslan** (a fictional creator journey) started his local business review channel with a D3100 and a RM40 tripod. Within 6 months, he was earning RM1,500-2,000 per month from ads and sponsorship. His total starter cost was under RM600.`,
+    roiDesc: 'Under RM500 second-hand. Aiman (illustrative) broke even in 2 weeks. Best "I have no money" starter camera in Malaysia.',
     pros: ['Cheapest usable camera in MY market', 'Good image quality for the price', 'Huge used lens ecosystem', 'Takes great photos for thumbnails'],
     cons: ['No flip screen', '1080p only (no 4K)', 'Poor low-light without fast lens', 'No microphone jack'],
     usedTip: 'Check shutter count under 50k, test for mould on lens, offer RM350 cash',
@@ -250,8 +250,8 @@ Creator case study: **Zamri Nasir** bought a used X4 for RM1,900 and started off
     rating: 4.7,
     roiScore: 89,
     level: 'mid',
-    excerpt: 'Under 250g = no drone license needed in Malaysia. This is the gateway drone for creators. Second-hand RM2,500-RM3,200. Real estate, events, weddings — clients pay premium for aerial.',
-    content: `The DJI Mini 4 Pro is the most popular drone for Malaysian content creators, and for good reason. At just 249g, it falls under the limit requiring a drone license from the Malaysian Civil Aviation Authority (CAAM). You can fly it commercially without a license (as long as you follow basic safety rules).
+    excerpt: 'The under-250g gateway drone for creators. Second-hand RM2,500-RM3,200. Real estate, events, weddings — clients pay premium for aerial. Check current CAAM rules.',
+    content: `The DJI Mini 4 Pro is the most popular drone for Malaysian content creators, and for good reason. At just 249g it sits in a lighter CAAM class than heavy drones like the Mavic series — fewer hoops to fly. Always check the current CAAM registration and flight rules before you take money for a job.
 
 **Malaysia second-hand market:** RM2,500-RM3,200 on Mudah.my, Carousell, and the DJI Malaysia groups on Facebook. Look for the Fly More Combo which includes extra batteries and a charging hub.
 
@@ -262,11 +262,11 @@ Creator case study: **Zamri Nasir** bought a used X4 for RM1,900 and started off
 - Construction progress documentation: RM200-500 per visit
 - Resort/hotel promotional content: RM1,000-3,000 per project
 
-**Real creator story — Amir Shah:** Amir bought a Mini 4 Pro Fly More Combo used for RM2,800. He created a simple Facebook page called "Aerial Views Malaysia" and posted 3 sample videos of his local area. Within 2 weeks, a property developer contacted him to shoot 5 landed properties at RM400 each. He earned RM2,000 in his first month. His parents stopped asking when he'd get a "real job."
+**Illustrative story — Amir Shah:** Amir bought a Mini 4 Pro Fly More Combo used for RM2,800. He created a simple Facebook page called "Aerial Views Malaysia" and posted 3 sample videos of his local area. Within 2 weeks, a property developer contacted him to shoot 5 landed properties at RM400 each. He earned RM2,000 in his first month. His parents stopped asking when he'd get a "real job."
 
-**The "no license" advantage:** Unlike the Mavic 3 series which requires CAAM registration and a drone license (costing RM500-1,000 and 2-3 months processing), the Mini 4 Pro can be flown same-day after purchase. This is huge for Tim and Ahmad if they're strapped for cash and time.`,
-    roiDesc: 'Used RM2,500-3,200. No license needed under 250g. Real estate gigs pay RM300-600 each. Amir paid his off in 6 properties.',
-    pros: ['No license required under 250g', 'Omni-directional obstacle sensing', '4K 100fps slow motion', 'Excellent image quality for the size', 'Portable and quiet'],
+**The lighter-class advantage:** The Mini 4 Pro is in the same under-250g class as the Mini 3 Pro — far fewer registration hurdles than a Mavic 3 (which needs CAAM registration and a remote pilot license). For Tim and Ahmad starting out strapped for cash and time, that lighter class is a real advantage — but the rules still apply, so check them.`,
+    roiDesc: 'Used RM2,500-3,200. Under-250g class keeps hurdles low. Real estate gigs pay RM300-600 each. Amir paid his off in 6 properties.',
+    pros: ['Light under-250g class', 'Omni-directional obstacle sensing', '4K 100fps slow motion', 'Excellent image quality for the size', 'Portable and quiet'],
     cons: ['Wind limits (cannot fly in strong wind)', 'Smaller sensor than Mavic series', 'Battery life ~34min', 'Cannot fly in rain'],
     usedTip: 'Check gimbal for scratches, test all obstacle sensors, demand Fly More Combo for extra batteries',
     creatorUses: ['amir-shah', 'rizuan-mustafa'],
@@ -1045,10 +1045,10 @@ Creator case study: **Diana Ishak** bought a used ZV-E10 for RM1,700 and started
     rating: 4.7,
     roiScore: 91,
     level: 'mid',
-    excerpt: 'The no-license Mini 4 Pro successor — under 250g so no CAAM license needed, now with 4K 120fps and better tracking. Used RM2,300-2,800.',
-    content: `The DJI Mini 5 keeps everything creators loved about the Mini 4 Pro — the under-250g weight that means no CAAM license — and adds faster video, better tracking, and smarter flight modes.
+    excerpt: 'The Mini 4 Pro successor in the under-250g class — 4K 120fps and better tracking. Check current CAAM rules before you fly. Used RM2,300-2,800.',
+    content: `The DJI Mini 5 keeps everything creators loved about the Mini 4 Pro — the compact under-250g weight that keeps it in a lighter CAAM class — and adds faster video, better tracking, and smarter flight modes.
 
-**Malaysia market:** RM3,299 new, RM2,300-2,800 used. The best-selling drone class in Malaysia because it is the only license-free option with this quality.
+**Malaysia market:** RM3,299 new, RM2,300-2,800 used. The best-selling drone class in Malaysia for good reason.
 
 **What's new over the Mini 4 Pro:**
 - 4K 120fps slow motion
@@ -1057,8 +1057,8 @@ Creator case study: **Diana Ishak** bought a used ZV-E10 for RM1,700 and started
 - Longer battery life
 - Same omni-directional obstacle sensing
 
-**The license-free advantage:**
-- Fly commercially same-day — no CAAM registration, no waiting
+**The under-250g advantage:**
+- Lighter class means fewer hoops than heavy drones — but CAAM registration and where you can fly still apply, so check the current rules
 - Perfect for quick client demos: "let me show you the shot right now"
 - Lighter to carry, faster to deploy on a property shoot
 
@@ -1068,10 +1068,10 @@ Creator case study: **Diana Ishak** bought a used ZV-E10 for RM1,700 and started
 - Event coverage: RM400-1,000 per event
 - Construction progress: RM200-500 per visit
 
-**The honest catch:** Smaller sensor than the Air or Mavic — do not push it in low light or strong wind. For 90% of Malaysian creator work, it is all the drone you need, license-free.`,
-    roiDesc: 'Used RM2,300-2,800. Amir paid his off in 5 property shoots at RM400 each. The best license-free drone in Malaysia.',
-    pros: ['No CAAM license needed', '4K 120fps slow motion', '50MP sensor', 'Omnidirectional sensing', 'Light and portable'],
-    cons: ['Small sensor in low light', 'Wind limits', 'Battery life ~34min', 'No license = no large commercial jobs'],
+**The honest catch:** Smaller sensor than the Air or Mavic — do not push it in low light or strong wind. For 90% of Malaysian creator work, it is all the drone you need.`,
+    roiDesc: 'Used RM2,300-2,800. Amir paid his off in 5 property shoots at RM400 each. The best-selling under-250g drone in Malaysia.',
+    pros: ['Under-250g class', '4K 120fps slow motion', '50MP sensor', 'Omnidirectional sensing', 'Light and portable'],
+    cons: ['Check CAAM registration rules', 'Small sensor in low light', 'Wind limits', 'Battery life ~34min'],
     usedTip: 'Check gimbal for scratches, test all obstacle sensors, demand the extra battery kit',
     creatorUses: ['amir-shah', 'rizuan-mustafa'],
   },
@@ -1091,7 +1091,7 @@ Creator case study: **Diana Ishak** bought a used ZV-E10 for RM1,700 and started
     excerpt: 'The RM900 palm-sized selfie drone. Tap to fly, no controller needed, tracks you automatically. The cheapest way to get drone content — and a phone-vlog killer.',
     content: `The DJI Neo is the drone for creators who never planned to buy a drone. At 135g it sits in your palm, you tap a button on the drone itself, and it flies itself around you filming — no controller, no app, no pilot skills.
 
-**Malaysia market:** RM1,399 new, RM900-1,200 used. Under 250g, so no CAAM license needed.
+**Malaysia market:** RM1,399 new, RM900-1,200 used. At 135g it's in the lighter under-250g class — check current CAAM rules before flying commercially.
 
 **What it is:**
 - Palm-launch selfie drone with face tracking
@@ -1530,13 +1530,13 @@ No viewfinder and no IBIS. You are committing to screen-based shooting, and hand
     rating: 4.4,
     roiScore: 90,
     level: 'beginner',
-    excerpt: 'The 2023 classic that became 2026\'s smartest buy. Under 250g so no CAAM license, 4K 60fps, 48MP, and obstacle sensing — for less than half the Mini 4 Pro price. Used RM1,300-1,800.',
-    content: `The DJI Mini 3 Pro was the drone everyone bought in 2022-2023, flew a few times, and kept in the cupboard. In 2026 that cupboard is your opportunity: a license-free, capable drone at a price that finally makes sense for Malaysian creators.
+    excerpt: 'The 2023 classic that became 2026\'s smartest buy. Under 250g class, 4K 60fps, 48MP, and obstacle sensing — for less than half the Mini 4 Pro price. Used RM1,300-1,800. Check CAAM rules.',
+    content: `The DJI Mini 3 Pro was the drone everyone bought in 2022-2023, flew a few times, and kept in the cupboard. In 2026 that cupboard is your opportunity: a capable under-250g drone at a price that finally makes sense for Malaysian creators.
 
 **Malaysia market:** RM2,199 new, RM1,300-1,800 used. Because millions were sold, the used market is huge and prices are the lowest they will ever be.
 
 **Why it is the smart 2026 buy:**
-- Under 250g — no CAAM drone license needed, fly commercially same-day
+- Under 250g — lighter CAAM class than heavy drones (still check current registration rules)
 - 4K 60fps video and 48MP photos
 - Three-way obstacle sensing (yes, it has it)
 - Vertical video support for TikTok and Reels
@@ -1546,13 +1546,13 @@ No viewfinder and no IBIS. You are committing to screen-based shooting, and hand
 - Real estate aerials: RM300-500 per property
 - Wedding aerial shots: RM400-700 per wedding
 - Event and festival coverage: RM300-800 per event
-- The cheapest way into license-free aerial income
+- The cheapest entry into under-250g aerial income
 
 **The honest catch:** it is one generation behind the Mini 4 Pro and Mini 5 — no 4K 120fps, older processor. But for the price difference (RM1,500 vs RM2,500+), most beginners should start here and upgrade with gig money.
 
-**Who should buy:** creators who want a license-free drone without the flagship price. **Who should skip:** anyone booking heavy aerial work — get the Mini 5 or Air 3S.`,
-    roiDesc: 'Used RM1,300-1,800. Amir paid his off in 4 property shoots at RM350 each. The 2023 classic is 2026\'s smart buy.',
-    pros: ['No CAAM license needed', '4K 60fps video', '48MP photos', 'Obstacle sensing', 'Huge cheap used market'],
+**Who should buy:** creators who want a capable drone without the flagship price. **Who should skip:** anyone booking heavy aerial work — get the Mini 5 or Air 3S.`,
+    roiDesc: 'Used RM1,300-1,800. Amir (illustrative) paid his off in 4 property shoots at RM350 each. The 2023 classic is 2026\'s smart buy.',
+    pros: ['Under-250g class', '4K 60fps video', '48MP photos', 'Obstacle sensing', 'Huge cheap used market'],
     cons: ['One gen behind Mini 4/5', 'Battery ~34min', 'No 4K 120fps', 'Older processor'],
     usedTip: 'Check the gimbal for scratches, verify prop arms are straight, test obstacle sensors, demand extra batteries in the deal',
     creatorUses: ['amir-shah', 'zamri-nasir'],
@@ -1596,6 +1596,202 @@ No viewfinder and no IBIS. You are committing to screen-based shooting, and hand
     cons: ['No front screen', 'Small sensor in low light', 'Battery ~60min recording', 'Older processor'],
     usedTip: 'Check the lens glass for scratches, test all buttons, record 4K for 15min to check thermals, verify Bluetooth pairing',
     creatorUses: ['farid-johari'],
+  },
+  {
+    slug: 'canon-70d-review-malaysia',
+    name: 'Canon EOS 70D',
+    category: 'camera',
+    priceNew: 0,
+    priceUsed: 1400,
+    type: 'Mid-Range DSLR',
+    sensor: '20.2MP APS-C CMOS',
+    video: '1080p30 (Dual Pixel AF)',
+    weight: '755g',
+    rating: 4.3,
+    roiScore: 92,
+    level: 'beginner',
+    excerpt: "The 60D's proper successor and the cheapest Dual Pixel AF camera in Malaysia. RM1,200–1,600 used. A photo-first event workhorse that pays for itself in 2–4 gigs.",
+    content: `The Canon EOS 70D is the camera the 60D should have been — and the reason we tell Malaysian gig shooters to look past their old body. Launched in 2013, it brought two things the 60D never had: Dual Pixel CMOS AF (the autofocus that finally made live view and video usable) and a touchscreen. In 2026 it trades for RM1,200–1,600 on Mudah and Carousell, which makes it the cheapest way into Canon's modern AF.
+
+**What you get for RM1,400 used:**
+- Dual Pixel CMOS AF — touch-to-focus that actually works, in stills and video
+- 20.2MP APS-C sensor and 7fps burst — plenty for events
+- Flip-out touchscreen — the waist-level trick the 60D loved, now focusable by tap
+- Weather-sealed magnesium body — built for Malaysian humidity
+- The full EF/EF-S lens library — tens of millions of cheap used lenses
+
+**Why it is a photo-first workhorse:**
+The 70D is a stills machine. In live view, Dual Pixel AF nails focus where the 60D hunted for seconds. At events you tap a face on the touchscreen and let the camera track it. 7fps covers group shots and candids. This is the camera for graduation, gala dinners and portrait sessions.
+
+**Where it is weak — be honest with yourself:**
+- 1080p30 only, old codec — client reels will look dated
+- No 4K, no IBIS, no headphone jack
+- 20.2MP and an older sensor in low light — plan for a flash or a fast prime
+- Heavy at 755g
+
+**The gig math:**
+Event coverage pays RM300–600 in Malaysia. At RM1,400 used, that is 2–4 events to own it outright — the fastest breakeven on any Canon DSLR you can buy. Portrait sessions at RM150–400 cover it in 4–9 sessions. Most 70D owners clear the body in a month of weekend gigs.
+
+**Buying a used 70D:**
+- Shutter count under 100k is ideal; 70Ds routinely pass 200k
+- Test Dual Pixel AF in live view with a lens attached
+- Check the grip rubber — it peels on old 70Ds
+- Inspect the mode dial and top LCD for scratches
+- Bring an SD card and shoot 1080p for 5 minutes to test recording
+
+**Who should buy:** gig beginners on the 60D upgrade path, and anyone who shoots mostly events and portraits. **Who should skip:** creators whose main goal is video — get an A6000 or a used mirrorless instead. The 70D is a photography tool that happens to record video.`,
+    roiDesc: 'Used RM1,200–1,600. Event gigs pay RM300–600 each — 2–4 events and the 70D is yours. The cheapest Dual Pixel AF camera in Malaysia.',
+    pros: ['Dual Pixel AF (first of its kind)', '7fps burst', 'Flip-out touchscreen', 'Huge cheap EF lens pool', 'Weather-sealed build'],
+    cons: ['1080p only', 'Old 20.2MP sensor in low light', 'Heavy at 755g', 'No IBIS, no headphone jack'],
+    usedTip: 'Check shutter count under 100k, test Dual Pixel AF in live view, inspect grip rubber for peeling, shoot 1080p for 5min to test recording',
+    creatorUses: [],
+  },
+  {
+    slug: 'nikon-d7200-review-malaysia',
+    name: 'Nikon D7200',
+    category: 'camera',
+    priceNew: 0,
+    priceUsed: 1850,
+    type: 'Prosumer DSLR',
+    sensor: '24.2MP APS-C CMOS',
+    video: '1080p60',
+    weight: '765g',
+    rating: 4.4,
+    roiScore: 90,
+    level: 'mid',
+    excerpt: "Nikon's toughest APS-C DSLR — weather-sealed, dual slots, and it drives cheap old screw-drive lenses. RM1,600–2,100 used. Portrait and event money for years.",
+    content: `The Nikon D7200 is the D7100 with the two weaknesses fixed — battery life and Wi-Fi — and it has stayed the favourite stills body of Malaysian portrait and event shooters since 2015. It is also the only camera on this list that drives cheap old screw-drive AF lenses, which makes a pro-quality kit absurdly affordable. Used price: RM1,600–2,100 on Mudah, Carousell and Facebook Marketplace.
+
+**What you get for RM1,850 used:**
+- 24.2MP APS-C sensor with excellent dynamic range — edit shadows without fear
+- Weather-sealed, magnesium-alloy body — built like a tank
+- Dual SD card slots — the safety net paid work demands
+- Screw-drive AF — a RM150 50mm f/1.8D autofocuses like a lens ten times its price
+- Wi-Fi and 1080p60 video — the video is fine, not great
+
+**Why it is a stills machine:**
+The D7200 is one of the last great DSLRs. The optical viewfinder, dual dials, weather sealing and dual slots make it a dependable event and portrait body. Dynamic range is genuinely class-leading for its era — you can recover blown skies and deep shadows in Lightroom. This is the camera you want when a client says "we cannot reshoot this."
+
+**Where it shows its age:**
+- No 4K — 1080p60 is the ceiling
+- No flip screen — low-angle and selfie work is awkward
+- Live-view AF is slow — you will shoot through the viewfinder
+- Heavy at 765g
+
+**The gig math:**
+Portrait sessions pay RM150–400 and events pay RM300–600. At RM1,850 used, that is roughly 4–6 gigs to break even. It is slower to pay off than a sub-RM1,000 body, but it is also the camera you will still be using in ten years.
+
+**Buying a used D7200:**
+- Shutter count under 100k; the D7200 is rated for 150k
+- Test screw-drive AF with a cheap 50mm f/1.8D before you buy
+- Check the weather seals and battery door for wear
+- Look for mould in the viewfinder — common in Malaysia's humidity
+- Test both SD slots
+
+**Who should buy:** portrait and event shooters who want a dependable, weather-sealed stills body. **Who should skip:** video-first creators and anyone who hates carrying a big DSLR — the A6000 or X-T2 serves you better.`,
+    roiDesc: 'Used RM1,600–2,100. Portraits at RM150–400 and events at RM300–600 — 4–6 gigs to break even. The stills machine that refuses to die.',
+    pros: ['24.2MP with excellent dynamic range', 'Dual SD slots', 'Weather-sealed', 'Screw-drive AF for cheap old lenses', 'Huge F-mount ecosystem'],
+    cons: ['No 4K', 'No flip screen', 'Heavy at 765g', 'Slow live-view AF'],
+    usedTip: 'Check shutter count under 100k, test screw-drive AF with a 50mm f/1.8D, inspect weather seals, look for mould in the viewfinder',
+    creatorUses: [],
+  },
+  {
+    slug: 'sony-a6000-review-malaysia-second-hand',
+    name: 'Sony A6000',
+    category: 'camera',
+    priceNew: 0,
+    priceUsed: 1100,
+    type: 'Compact Mirrorless',
+    sensor: '24.3MP APS-C CMOS',
+    video: '1080p60',
+    weight: '344g',
+    rating: 4.4,
+    roiScore: 96,
+    level: 'beginner',
+    excerpt: 'The tiny 2014 Sony that is still the best value used camera in Malaysia. RM900–1,300, fast AF, 11fps, pocketable. Two small-business gigs cover it.',
+    content: `The Sony A6000 was the camera that made mirrorless mainstream, and in 2026 it is the single best value used camera in Malaysia. At RM900–1,300 on Mudah and Carousell, you get a 24.3MP camera with fast phase-detect autofocus, 11fps burst, and a body small enough to pocket. No other camera on this site pays for itself faster.
+
+**What you get for RM1,100 used:**
+- 179-point phase-detect AF — fast, even by 2026 standards
+- 24.3MP APS-C sensor and 11fps burst — action and events covered
+- Tiny 344g body — the best "carry it everywhere" camera here
+- 1080p60 video with the multi-interface shoe — a real hybrid at its price
+- The huge E-mount lens pool — Sony glass plus cheap Sigma and Meike primes
+
+**Why it is the fastest-paying camera:**
+Two small-business content gigs at RM500–800 each cover the body. F&B retainers, product sets, graduation mini-sessions — the A6000 is small enough to hand-hold for hours and fast enough to never miss a moment. This is the camera Tim and Ahmad should buy when their phone outgrows the job.
+
+**What it lacks:**
+- No 4K — 1080p60 only
+- No microphone jack — you need the hot-shoe adapter for clean audio
+- No touchscreen, tilt screen only — no flip-up selfie screen
+- Older menu system and no IBIS
+
+**The gig math:**
+Product sets at RM200–500 and small-business content at RM500–800/month. At RM1,100 used, that is 2–3 gigs to break even — usually inside the first month of weekends. This is the fastest ROI on the entire site.
+
+**Buying a used A6000:**
+- Check the EVF for spots or dead pixels
+- Test autofocus with a lens attached — all 179 points
+- Inspect the sensor for dust at f/16 against a white wall
+- Check the rubber eyecup — it creeps off on old units
+- Bring two batteries — the A6000 eats them
+
+**Who should buy:** first-time gig shooters and anyone whose phone is holding them back. **Who should skip:** videographers who need 4K and a mic jack — add the ZV-E10 instead.`,
+    roiDesc: 'Used RM900–1,300. Two small-business content gigs at RM500–800 each cover it. The fastest-paying camera on this site.',
+    pros: ['Fast 179-point AF', '11fps burst', 'Tiny 344g and pocketable', '24.3MP sensor', 'Huge cheap E-mount lens pool'],
+    cons: ['No 4K', 'No mic jack', 'No touchscreen', 'Tilt screen only', 'Older menus'],
+    usedTip: 'Check the EVF for spots, test all 179 AF points, inspect sensor dust at f/16 on a white wall, bring two batteries',
+    creatorUses: [],
+  },
+  {
+    slug: 'fujifilm-x-t2-review-malaysia',
+    name: 'Fujifilm X-T2',
+    category: 'camera',
+    priceNew: 0,
+    priceUsed: 2300,
+    type: 'Mirrorless APS-C',
+    sensor: '24.3MP APS-C X-Trans CMOS III',
+    video: '4K 30fps',
+    weight: '507g',
+    rating: 4.5,
+    roiScore: 89,
+    level: 'mid',
+    excerpt: "Fujifilm's do-both king. Weather-sealed, dual cards, 4K, and film simulations that kill editing time. RM2,000–2,600 used. The pre-wedding workhorse.",
+    content: `The Fujifilm X-T2 is the do-both camera of the 2013–2019 generation. Weather-sealed, dual SD slots, 4K 30fps, and Fujifilm's film simulations that make images look finished straight out of camera. In 2026 it trades for RM2,000–2,600 used — the price of an A6100, with a build quality that feels twice the price.
+
+**What you get for RM2,300 used:**
+- 24.3MP X-Trans sensor and film simulations — Classic Chrome, Velvia and the rest, baked in
+- 4K 30fps video at 100Mbps
+- Weather-sealed magnesium body and dual SD slots
+- Classic analog dials — you set ISO, shutter and aperture on physical rings
+- 325-point phase-detect AF — fast enough for pre-wedding and events
+
+**Why it is the do-both star:**
+The film simulations are the killer feature. You shoot JPEGs that look like a colourist touched them — clients see the look and ask for more. For hybrid work (photos in the morning, a promo video in the afternoon) the X-T2 does both without compromise.
+
+**What to know before you buy:**
+- X-mount lenses are pricier than E-mount or EF — budget for the kit 18-55mm f/2.8-4, which is excellent
+- No IBIS — stabilised lenses or a gimbal for handheld video
+- Battery life is modest — buy two spare batteries or the battery grip
+- The dials and menu have a learning curve — plan a week
+
+**The gig math:**
+Pre-wedding sessions pay RM500–1,500 and portrait sessions pay RM150–400 in Malaysia. At RM2,300 used, that is 4–6 gigs to break even. It is the slowest payoff on this page — and the only one you will never outgrow for photo work.
+
+**Buying a used X-T2:**
+- Shutter count under 80k; X-T2s are tough but check anyway
+- Test every dial and the ISO knob for stiffness
+- Look for weather-seal wear around the ports and battery door
+- Check the sensor at f/16 on a white wall — X-Trans dust is a thing
+- Bring an SD card and shoot 4K for 10 minutes to test thermals
+
+**Who should buy:** hybrid shooters who want finished-looking photos and one camera for everything. **Who should skip:** budget-first beginners — the A6000 or 70D pays for itself first, and you can upgrade with the profits.`,
+    roiDesc: 'Used RM2,000–2,600. Pre-wedding sessions pay RM500–1,500 — 4–6 gigs to break even. Film simulations cut your editing time to zero.',
+    pros: ['Beautiful film simulations', '4K 30fps video', 'Weather-sealed + dual SD', 'Classic physical dials', 'Best-in-class JPEGs'],
+    cons: ['X-mount lenses pricey', 'Modest battery life', 'No IBIS', 'AF trails modern bodies', 'Menu learning curve'],
+    usedTip: 'Check shutter count under 80k, test all dials, inspect weather seals, check sensor dust at f/16, shoot 4K for 10min to test thermals',
+    creatorUses: [],
   },
 ];
 

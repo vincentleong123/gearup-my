@@ -218,6 +218,21 @@ const articleTheme: Record<string, CuratedShot[]> = {
   'youtube-monetization-malaysia-2026': [
     gearShots[4], people[18], gearShots[7], people[20],
   ],
+  'old-dslr-era-60d-d3100-gig-payoff-malaysia': [
+    gearShots[0], gigShots.graduation[0], gigShots.portrait[0], gearShots[2],
+  ],
+  '20-best-second-hand-cameras-after-60d-malaysia': [
+    gearShots[0], gearShots[1], gearShots[8], gearShots[2],
+  ],
+  'canon-60d-50mm-f18-photography-video-malaysia': [
+    gearShots[0], people[0], gigShots.portrait[0], gearShots[2],
+  ],
+  'photography-vs-video-camera-malaysia-beginners': [
+    gearShots[1], people[5], gearShots[3], gigShots.video[0],
+  ],
+  'insta360-luna-vs-dslr-photography-malaysia': [
+    gearShots[5], gearShots[2], gigShots.video[0], people[8],
+  ],
 };
 
 // ==== Curated breaks for gear Full Reviews ====
@@ -305,6 +320,18 @@ const gearTheme: Record<string, CuratedShot[]> = {
   ],
   'gopro-hero-14-review-malaysia': [
     gearShots[5], gigShots.video[1], people[8], gearShots[2],
+  ],
+  'canon-70d-review-malaysia': [
+    gearShots[0], gigShots.gala[0], gearShots[2], people[18],
+  ],
+  'nikon-d7200-review-malaysia': [
+    gearShots[0], gigShots.portrait[0], gearShots[1], people[6],
+  ],
+  'sony-a6000-review-malaysia-second-hand': [
+    gearShots[1], gigShots.video[1], people[8], gearShots[2],
+  ],
+  'fujifilm-x-t2-review-malaysia': [
+    gearShots[1], gigShots.wedding[0], people[20], gearShots[0],
   ],
 };
 

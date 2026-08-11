@@ -1,8 +1,9 @@
 import Link from 'next/link';
 import { GearItem } from '@/data/gear';
 import { getPayoffPath } from '@/data/gigs';
+import { withLang } from '@/lib/lang';
 
-export default function PayoffPath({ gear }: { gear: GearItem }) {
+export default function PayoffPath({ gear, lang }: { gear: GearItem; lang: string }) {
   const paths = getPayoffPath(gear);
 
   if (paths.length === 0) {
@@ -31,7 +32,7 @@ export default function PayoffPath({ gear }: { gear: GearItem }) {
         {paths.map(p => (
           <Link
             key={p.gig.slug}
-            href={`/gigs/${p.gig.slug}`}
+            href={withLang(lang, `/gigs/${p.gig.slug}`)}
             className="group flex items-center gap-3 bg-zinc-900/60 border border-zinc-800 rounded-xl p-4 hover:border-amber-500/40 hover:bg-zinc-900 transition-all"
           >
             <span className="text-3xl">{p.gig.emoji}</span>

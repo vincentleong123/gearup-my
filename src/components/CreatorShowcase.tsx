@@ -2,23 +2,25 @@ import Link from 'next/link';
 import { creators } from '@/data/creators';
 import { creatorImg } from '@/data/images';
 import { h } from '@/lib/utils';
+import { T } from '@/components/T';
+import { withLang } from '@/lib/lang';
 
-export default function CreatorShowcase() {
+export default function CreatorShowcase({ lang }: { lang: string }) {
   return (
     <section id="creators" className="py-16 md:py-24 bg-zinc-900/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-5xl font-black mb-4">
-            They Had <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">No Money</span> Too
+            <T k="creatorshow.head" en="They Had" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500"><T k="creatorshow.headAccent" en="No Money" /></span> Too
           </h2>
           <p className="text-zinc-200 max-w-2xl mx-auto text-lg">
-            Real Malaysian creators who started with nothing. Their gear, their earnings, their advice for Tim & Ahmad.
+            <T k="creatorshow.desc" en="Real Malaysian creators who started with nothing. Their gear, their earnings, their advice for Tim & Ahmad." />
           </p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {creators.slice(0, 6).map((c, i) => (
             <Link
-              href={`/creators/${c.slug}`}
+              href={withLang(lang, `/creators/${c.slug}`)}
               key={c.slug}
               className="group block bg-zinc-900/60 border border-zinc-800 rounded-2xl p-6 hover:border-cyan-500/30 hover:shadow-lg hover:shadow-cyan-500/5 transition-all duration-300"
               style={{ animationDelay: `${i * 80}ms` }}
@@ -45,11 +47,11 @@ export default function CreatorShowcase() {
               <div className="flex gap-3">
                 <div className="flex-1 bg-zinc-800/50 rounded-xl p-3 text-center">
                   <div className="text-lg font-bold text-green-400">RM {c.monthlyEarningsMin.toLocaleString()}+</div>
-                  <div className="text-xs text-zinc-500">/month</div>
+                  <div className="text-xs text-zinc-500"><T k="creators.perMonth" en="/month" /></div>
                 </div>
                 <div className="flex-1 bg-zinc-800/50 rounded-xl p-3 text-center">
                   <div className="text-lg font-bold text-cyan-400">{c.roiMonths} mo</div>
-                  <div className="text-xs text-zinc-500">breakeven</div>
+                  <div className="text-xs text-zinc-500"><T k="creators.breakeven" en="breakeven" /></div>
                 </div>
               </div>
               <div className="mt-4 pt-4 border-t border-zinc-800">
@@ -59,8 +61,8 @@ export default function CreatorShowcase() {
           ))}
         </div>
         <div className="text-center mt-8">
-          <Link href="/creators" className="inline-flex items-center gap-2 text-zinc-200 hover:text-white transition-colors font-medium">
-            See all creators →
+          <Link href={withLang(lang, '/creators')} className="inline-flex items-center gap-2 text-zinc-200 hover:text-white transition-colors font-medium">
+            <T k="creatorshow.seeAll" en="See all creators" /> →
           </Link>
         </div>
       </div>

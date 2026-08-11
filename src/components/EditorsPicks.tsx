@@ -2,6 +2,8 @@ import Link from 'next/link';
 import { gearList } from '@/data/gear';
 import { gearImg } from '@/data/images';
 import { formatPrice, getLevelLabel } from '@/lib/utils';
+import { T } from '@/components/T';
+import { withLang } from '@/lib/lang';
 
 const awards: { slug: string; title: string; badge: string }[] = [
   { slug: 'nikon-d3100-review-malaysia-second-hand-price', title: 'Best Budget Starter', badge: 'Wallet-Friendly' },
@@ -27,7 +29,7 @@ function Stars({ rating }: { rating: number }) {
   );
 }
 
-export default function EditorsPicks() {
+export default function EditorsPicks({ lang }: { lang: string }) {
   const medals = ['🥇', '🥈', '🥉', '4', '5', '6'];
 
   return (
@@ -37,13 +39,13 @@ export default function EditorsPicks() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 bg-purple-500/10 border border-purple-500/20 rounded-full px-4 py-1.5 text-sm text-purple-300 font-semibold mb-5">
-            🏆 Kameralog 2026 Editor&apos;s Choice Awards
+            🏆 <T k="editors.badge" en="Kameralog 2026 Editor's Choice Awards" />
           </div>
           <h2 className="text-3xl md:text-5xl font-black mb-4">
-            The <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">Best of 2026</span>, Picked By Us
+            <T k="editors.head" en="The" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500"><T k="editors.accent" en="Best of 2026" /></span>, <T k="editors.pickedBy" en="Picked By Us" />
           </h2>
           <p className="text-zinc-200 max-w-2xl mx-auto text-lg">
-            We test, we shoot, we break even. These are the six cameras and gadgets we&apos;d actually spend our own ringgit on this year — all second-hand prices, all Malaysian context.
+            <T k="editors.desc" en="We test, we shoot, we break even. These are the six cameras and gadgets we'd actually spend our own ringgit on this year — all second-hand prices, all Malaysian context." />
           </p>
         </div>
 
@@ -54,7 +56,7 @@ export default function EditorsPicks() {
             return (
               <Link
                 key={a.slug}
-                href={`/gear/${g.slug}`}
+                href={withLang(lang, `/gear/${g.slug}`)}
                 className="group relative block bg-zinc-900/70 border border-zinc-800 rounded-2xl overflow-hidden hover:border-purple-500/40 hover:shadow-2xl hover:shadow-purple-600/10 hover:-translate-y-1 transition-all duration-300"
               >
                 <div className="relative h-44 overflow-hidden bg-zinc-900">

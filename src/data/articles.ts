@@ -2841,14 +2841,14 @@ Pick your camera, count the gigs, and book the first one this week. The math is 
   {
     slug: 'dji-mini-3-pro-vs-mini-4-pro-malaysia',
     title: 'DJI Mini 3 Pro vs Mini 4 Pro Malaysia: Is the 4 Pro Worth RM1,000 More?',
-    description: 'Two license-free drones, one decision. We compare the DJI Mini 3 Pro and Mini 4 Pro for Malaysian buyers in 2026 — including the used-price gap and the gig math.',
+    description: 'Two under-250g drones, one decision. We compare the DJI Mini 3 Pro and Mini 4 Pro for Malaysian buyers in 2026 — including the used-price gap and the gig math.',
     image: '/blog/mini3-vs-mini4.jpg',
     category: 'comparison',
     readTime: 7,
     date: '2026-07-27',
     tags: ['comparison', 'drone', 'dji', 'malaysia'],
     relatedGear: ['dji-mini-3-pro-review-malaysia', 'dji-mini-4-pro-review-malaysia'],
-    content: `For Malaysian drone buyers, the 2026 "cheap but capable" decision is still Mini 3 Pro vs Mini 4 Pro — both under 250g, both license-free under CAAM rules, both brilliant. The question is whether the 4 Pro's extras justify the RM1,000+ gap.
+    content: `For Malaysian drone buyers, the 2026 "cheap but capable" decision is still Mini 3 Pro vs Mini 4 Pro — both under 250g, both in the lighter CAAM class (no Remote Pilot License, but check the current registration rules), both brilliant. The question is whether the 4 Pro's extras justify the RM1,000+ gap.
 
 ## The specs that matter
 
@@ -2883,7 +2883,7 @@ Pick your camera, count the gigs, and book the first one this week. The math is 
 
 - **Price.** RM1,000+ is a real difference.
 - **Vertical video.** Both do it; if TikTok/Reels is your main output, the 3 Pro covers you.
-- **The used market.** RM1,300-1,800 for a license-free, 4K 60fps drone is the best value aerial content purchase in Malaysia.
+- **The used market.** RM1,300-1,800 for an under-250g, 4K 60fps drone is the best value aerial content purchase in Malaysia.
 
 ## The gig math
 
@@ -2896,7 +2896,7 @@ Both pay for themselves within a month of weekend property work. The 4 Pro pays 
 
 **Buy the Mini 4 Pro** if you're flying for money in tight spaces (real estate, events) — omnidirectional sensing is insurance that pays for itself the first time it stops a crash.
 
-**Buy the Mini 3 Pro** if you're a beginner or hobbyist, or if you want the absolute cheapest entry into license-free aerial income. Used at RM1,300-1,800, it's the value king.
+**Buy the Mini 3 Pro** if you're a beginner or hobbyist, or if you want the cheapest entry into under-250g aerial income. Used at RM1,300-1,800, it's the value king.
 
 **Never buy the 4 Pro at full new price** if you can find it used — the RM400-800 used saving funds a spare battery and extra props, which is what actually keeps you flying.`,
   },
@@ -2912,13 +2912,13 @@ Both pay for themselves within a month of weekend property work. The 4 Pro pays 
     relatedGear: ['dji-mini-4-pro-review-malaysia', 'dji-mini-5-review-malaysia', 'dji-mavic-4-review-malaysia'],
     content: `Drones are the fastest way to earn with a camera in Malaysia — property aerials and event footage pay RM400-1,200 per job. But before you buy, you need to know one rule that changes everything:
 
-**In Malaysia, drones under 250g don't need a CAAM license. Heavier drones do.**
+**In Malaysia, drones under 250g sit in a lighter class than heavier drones — fewer license hurdles, but rules still apply. Heavier drones need a CAAM Remote Pilot License.**
 
 That single rule shapes the entire 2026 buying guide.
 
 ## The rule (get this right)
 
-- **Under 250g** (DJI Mini series, DJI Neo): fly for business same-day, no CAAM license. Register online as a hobbyist/operator, follow the no-fly zone rules.
+- **Under 250g** (DJI Mini series, DJI Neo): no CAAM Remote Pilot License required. You still register as an operator, follow no-fly zone rules, and insurance is on you. Check the current CAAM rules before you take paid work.
 - **Over 250g** (DJI Air, Mavic series): you need a CAAM Remote Pilot License and to register the drone. Takes time, costs money, and it's legally required for paid work.
 
 For 90% of Malaysian creators, "under 250g" is the answer.
@@ -2929,7 +2929,7 @@ For 90% of Malaysian creators, "under 250g" is the answer.
 
 **DJI Neo (RM999)** — the palm-sized selfie drone. 4K, no controller needed (phone control), safe around people. It's a content toy more than a gig drone — fun for vlog b-roll, not for client work.
 
-**DJI Mini 3 Pro (used, RM1,300-1,800)** — the best value aerial camera in Malaysia. Under 250g, license-free, 4K 60fps. Buy this used and start earning this month.
+**DJI Mini 3 Pro (used, RM1,300-1,800)** — the best value aerial camera in Malaysia. Under 250g, light license class, 4K 60fps. Buy this used and start earning this month.
 
 ### RM2,400-3,500: the earning sweet spot
 
@@ -2952,16 +2952,16 @@ For 90% of Malaysian creators, "under 250g" is the answer.
 | Mini 4 Pro used | RM2,600 | 3-5 |
 | Air 3S | RM6,299 | 6-10 (plus license costs) |
 
-The Mini series pays for itself within a month of weekend property work — and it needs **no CAAM license** to do it.
+The Mini series pays for itself within a month of weekend property work — and it stays in the lighter under-250g class to do it.
 
 ## The 2026 verdict
 
 - **Budget first / test the waters:** DJI Neo — or a used Mini 3 Pro for serious quality
-- **The smart buy:** Mini 4 Pro used — license-free, pro features, pays off fast
+- **The smart buy:** Mini 4 Pro used — light license class, pro features, pays off fast
 - **New and future-proof:** DJI Mini 5
 - **Aerial business:** Air 3S or Mavic 4, once you've done the CAAM license
 
-Remember: the license-free 249g Mini drones can legally earn in Malaysia from day one. That's why they're the smartest aerial purchase a creator can make.`,
+Remember: under-250g Mini drones keep your license paperwork light — but registration, no-fly zones and insurance still apply. That's why they're the smartest aerial purchase a creator can make.`,
   },
   {
     slug: 'best-action-camera-malaysia-2026',
@@ -4585,5 +4585,390 @@ The Peak Design Everyday Backpack V2 is the nicest way to carry a camera in Mala
 If you're on a tight budget, skip it. Buy a RM150 insert, put it in a normal backpack, and spend the RM1,150 you saved on a lens. That lens will improve your photos more than the bag ever will.
 
 We still love the bag, though. That's Peak Design's magic.`,
+  },
+  {
+    slug: 'old-dslr-era-60d-d3100-gig-payoff-malaysia',
+    title: 'Old DSLRs That Pay for Themselves: The D3100 & Canon 60D Era (2009–2013) in Malaysia',
+    description: 'You do not need a new camera to start earning. We ranked the 2010s DSLR era — Nikon D3100, Canon 60D, D90, D7000, 700D and friends — by how fast they pay themselves back with weekend gigs. Photo vs video, plus breakeven math.',
+    image: '/blog/old-dslr-era-60d-d3100-gig-payoff-malaysia.jpg',
+    category: 'gear',
+    readTime: 11,
+    date: '2026-08-11',
+    tags: ['old dslr', 'canon 60d', 'nikon d3100', 'gig', 'second-hand'],
+    relatedGear: ['nikon-d3100-review-malaysia-second-hand-price', 'sony-a6100-review-malaysia-second-hand', 'canon-70d-review-malaysia'],
+    content: `If you grew up on Malaysian photography forums, the years 2009 to 2013 were the golden age of the cheap DSLR. This is the era of the Nikon D3100, the Canon 60D, the D90 and the 700D — the cameras that taught a whole generation to shoot. And here is the secret nobody in the gear business tells you: in 2026, these cameras are cheaper than ever, and they still make money.
+
+This is the first article in our Old DSLR That Pays for Itself series. We already covered the D3100 in depth. Now we widen the lens: every serious DSLR from that era, what it is actually good at, and — most importantly — how many gigs it takes before the camera pays for itself.
+
+## Why the 2009–2013 era still earns
+
+Three reasons the old era refuses to die:
+
+- **The bodies are cheap now.** A 60D or D7000 that sold for RM3,000+ new now trades at RM700–1,300 used. That is the price of one good gig.
+- **The lens ecosystems are huge and cheap.** Canon EF/EF-S and Nikon F have tens of millions of used lenses, from RM150 primes to RM500 pro zooms.
+- **Clients do not see your sensor.** They see the finished photo. A 2010 body with a fast lens and decent light produces photos that sell at RM150–800 per session — the same price as a 2026 mirrorless shoot.
+
+## The photo vs video split you need first
+
+This era is a photography era. Here is the honest 2026 reality:
+
+- **Photo:** Excellent. Real viewfinders, dials, fast lenses, huge ecosystems. These cameras win portrait, graduation, event and product gigs today.
+- **Video:** A bonus, not a career. No 4K, contrast-detect autofocus that hunts, and on most bodies no touchscreen focus. If video content is your goal, your phone beats them, and a used A6100 crushes them.
+
+So when you read the table below, read the Best gig column as a photography gig.
+
+## The era at a glance
+
+| Camera | Used price | Photo | Video | Best gig | Gigs to breakeven |
+|---|---|---|---|---|---|
+| Canon 60D (2010) | RM700–1,100 | Strong | Basic 1080p | Portrait / event | 3–5 |
+| Canon 600D (2011) | RM450–650 | Good | Basic 1080p | Graduation | 2–3 |
+| Canon 650D (2012) | RM550–750 | Good | Hybrid AF 1080p | Graduation | 3–4 |
+| Canon 700D (2013) | RM600–800 | Good | Hybrid AF 1080p | Portrait | 3–4 |
+| Canon 1100D (2011) | RM300–450 | Decent | 720p only | Thumbnails / product | 1–2 |
+| Nikon D90 (2008) | RM600–900 | Strong | 720p only | Portrait / event | 2–4 |
+| Nikon D5100 (2011) | RM500–700 | Good | 1080p, flip screen | Graduation | 2–3 |
+| Nikon D5200 (2012) | RM650–850 | Good | 1080p60, mic jack | Portrait | 2–3 |
+| Nikon D3200 (2012) | RM400–550 | Good | 1080p | Thumbnails / product | 1–2 |
+| Nikon D7000 (2010) | RM900–1,300 | Strong | 1080p | Event / portrait | 3–4 |
+| Sony A57 (2012) | RM500–800 | Good | 1080p60 | Portrait | 2–3 |
+| Pentax K-30 (2012) | RM600–900 | Good | 1080p, weather-sealed | Outdoor portrait | 2–3 |
+
+Gigs to breakeven uses the realistic 2026 Malaysian rates we track on this site: graduation RM200–450, portrait RM150–300, small events RM300–600, product sets RM200–500.
+
+## The star of the era: Canon 60D
+
+The 60D is the semi-pro body of the generation, and it is the camera we keep returning to — it is the one we still own, paired with a 50mm f/1.8 portrait lens. Magnesium-alloy body, dual control dials, a top LCD, a proper flip screen and a microphone jack. In 2010 it was a serious tool; in 2026 it is still a serious tool, just a cheap one.
+
+- **Photo strength:** Real viewfinder, fast to operate, and the EF lens ecosystem is bottomless. Portraits, events, graduations, product work — all winnable today.
+- **Video reality:** 1080p30, no 4K, and the autofocus in live view is slow contrast-detect. Do not plan a YouTube career around the 60D video mode.
+- **The verdict:** The best I already own it photography earner of the era. If you are jobless and have a 60D in a drawer, you are holding RM700–1,100 of income-generating equipment.
+
+We wrote a dedicated breakdown on the 60D + 50mm f/1.8 setup — it is the single best cheap portrait combo in Malaysia.
+
+## The Nikon side
+
+Nikon era cameras split into two families:
+
+- **The D3100–D5200 line** (no top LCD, one dial, plastic): the perfect beginner earner. Cheap to buy, huge F-mount lens pool, and the D5200 even adds 1080p60 and a mic jack.
+- **The D90 and D7000 line** (dual dials, top LCD, screw-drive autofocus): the poor man pro bodies. They autofocus old AF-D lenses that cost RM150–300, which makes them absurd value for event work.
+
+## The video reality check
+
+Let us be blunt so you do not waste money:
+
+- No era DSLR shoots 4K.
+- No era DSLR has reliable video autofocus. The 650D and 700D added hybrid AF, which helps for static talking heads only.
+- Most lack a microphone jack — the D3100, D5100, D3200 and 1100D all miss it. The 60D, 700D, D5200 and D7000 have one.
+
+If you want video content, buy a phone mount and a RM50 lapel mic, or jump to a used mirrorless. If you want photos that sell, buy the old DSLR.
+
+## The gig ladder for era owners
+
+If you are starting from zero, follow this ladder in order:
+
+1. Thumbnails and product sets — RM50–200 a job. Easy, repeatable, uses natural light.
+2. Graduation mini-sessions — RM200–450. Peak seasons in March, June and December.
+3. Portrait mini-sessions — RM150–300 per hour. One lens is enough.
+4. Small events with a RM180 flash — RM300–600 per event. The highest per-hour earner for this era.
+
+Do two or three gigs from the top of the ladder and the camera has paid for itself. Everything after that is profit — and your down payment on the next body.
+
+## The bottom line
+
+The 2009–2013 DSLR era is the cheapest professional training system in Malaysia. For under RM1,000 you can own a body that wins paid photography work. Treat it as a photography tool, keep video on your phone, and you will be earning before people with new cameras have finished paying interest.
+
+Upgrade only when the gigs demand it — and when they do, the 20 best second-hand cameras from the next era will still be waiting for you.`,
+  },
+  {
+    slug: '20-best-second-hand-cameras-after-60d-malaysia',
+    title: '20 Best Second-Hand Cameras After the 60D Era (2013–2019): Photo, Video, or Both?',
+    description: 'Twenty proven used cameras from the 70D, D7200, A6000, X-T2 and GH4 generation — every one a known earner. Malaysian second-hand prices, a photo-vs-video verdict for each, and how many gigs each needs to pay for itself.',
+    image: '/blog/20-best-second-hand-cameras-after-60d-malaysia.jpg',
+    category: 'gear',
+    readTime: 14,
+    date: '2026-08-10',
+    tags: ['second-hand', 'dslr', 'mirrorless', 'gig', 'camera list'],
+    relatedGear: ['canon-70d-review-malaysia', 'nikon-d7200-review-malaysia', 'sony-a6000-review-malaysia-second-hand', 'fujifilm-x-t2-review-malaysia', 'sony-a6100-review-malaysia-second-hand', 'sony-zv-e10-review-malaysia-second-hand', 'canon-eos-r50-review-malaysia'],
+    content: `The 60D era taught us the DSLR lesson: buy used, shoot photo gigs, and let the camera pay for itself. The cameras that came after — 2013 to 2019 — fixed the old era weaknesses and added real video. This is the sweet spot of the used market in 2026: cheap enough to break even fast, modern enough to shoot 4K and nail autofocus.
+
+We picked 20 proven bodies, split into three buckets: photo-first, video-first, and do-both. Every price is a realistic Malaysian second-hand range on Mudah, Carousell and Facebook Marketplace. Every gigs-to-breakeven number uses the rates we track on this site.
+
+## The photo-first picks
+
+These cameras are stills machines. Perfect for portraits, events, weddings and product work. Video exists but is not the reason you buy them.
+
+- **Canon 70D (2013)** — RM1,200–1,600 used. First Dual Pixel AF, real touchscreen, solid 1080p. Best gig: event photography. Breakeven: 2–4 events.
+- **Canon 80D (2016)** — RM1,800–2,300 used. The 70D successor, better everything, 24MP. Best gig: weddings as second shooter. Breakeven: 3–5.
+- **Canon 100D / SL1 (2013)** — RM500–700 used. The smallest DSLR ever made. Best gig: graduation mini-sessions. Breakeven: 1–2.
+- **Canon 6D (2012)** — RM2,200–2,800 used. The cheapest way into full frame. Beautiful low light, and old EF lenses are cheap. Best gig: low-light events. Breakeven: 4–6.
+- **Canon 7D Mark II (2014)** — RM2,500–3,200 used. 10fps sports machine with 65-point AF. Best gig: sports and performance. Breakeven: 5–8.
+- **Nikon D7100 (2013)** — RM1,300–1,800 used. 24MP, weather-sealed, screw-drive AF for cheap old lenses. Best gig: event and portrait. Breakeven: 3–5.
+- **Nikon D7200 (2015)** — RM1,600–2,100 used. The D7100 with better battery and Wi-Fi. Best gig: portrait and event. Breakeven: 4–6.
+- **Nikon D5500 (2015)** — RM900–1,300 used. Flip touchscreen, tiny and light. Best gig: graduation. Breakeven: 3–4.
+- **Nikon D5600 (2016)** — RM1,100–1,500 used. The D5500 with SnapBridge. Best gig: graduation and portrait. Breakeven: 3–5.
+- **Nikon D610 (2013)** — RM2,000–2,600 used. The cheapest dependable full frame with two card slots. Best gig: weddings and events. Breakeven: 4–6.
+
+## The video-first picks
+
+These cameras are built for moving pictures. If your goal is vlogs, business promo videos, real estate walkthroughs or TikTok, this is your bucket — and the old DSLR you own becomes your photography backup.
+
+- **Canon M50 (2018)** — RM1,000–1,400 used. 4K with a crop, Dual Pixel AF, flip screen, tiny. Best gig: talking-head content. Breakeven: 2–3.
+- **Panasonic GH4 (2014)** — RM1,100–1,500 used. The 4K workhorse that started the mirrorless video wave. Best gig: corporate video. Breakeven: 2–4.
+- **Sony A6000 (2014)** — RM900–1,300 used. 11fps and fast AF for its day, 1080p60, pocketable. Best gig: content for small businesses. Breakeven: 2–3.
+- **Sony A6400 (2019)** — RM1,900–2,400 used. 4K, real-time Eye AF, flip screen, mic jack. Best gig: client promo videos. Breakeven: 3–5.
+- **Olympus OM-D E-M5 Mark II (2015)** — RM1,200–1,600 used. Five-axis in-body stabilisation makes handheld video watchable. Best gig: run-and-gun event video. Breakeven: 3–5.
+
+## The do-both picks
+
+If you genuinely want one camera for photos and video, these are the ones. They are the most expensive on this list, but they end the upgrade cycle.
+
+- **Nikon D7500 (2017)** — RM2,200–2,800 used. 20MP, 4K, flip touchscreen, 8fps. Best gig: hybrid event coverage. Breakeven: 4–6.
+- **Nikon D500 (2016)** — RM3,000–4,000 used. The pro APS-C body: 10fps, 4K, 153-point AF. Best gig: sports and wildlife, second-shooter weddings. Breakeven: 5–8.
+- **Sony A7 II (2014)** — RM2,300–2,900 used. Full frame with in-body stabilisation — a photography dream that also shoots decent 1080p. Best gig: portraits and pre-wedding. Breakeven: 3–5.
+- **Fujifilm X-T20 (2017)** — RM1,500–2,000 used. 24MP, film simulations, 4K, tiny. The images look finished straight out of camera. Best gig: portrait and street content. Breakeven: 4–6.
+- **Fujifilm X-T2 (2016)** — RM2,000–2,600 used. Weather-sealed, dual card, 4K. Best gig: pre-wedding and events. Breakeven: 4–6.
+
+## How to choose in one minute
+
+- Own an old DSLR already? Keep it for photos, and add one video-first camera only when video clients appear.
+- Zero budget? Buy a photo-first body under RM1,000 — the 70D, D5500 or A6000 — and start shooting graduation and portrait gigs.
+- Money for exactly one camera? Buy a do-both body: the A7 II for portraits, or the D7500 for events.
+
+## The breakeven math that matters
+
+Every camera on this list follows the same rule: your first 3–6 paid gigs cover the body. At RM200–500 per gig, that is two months of weekend work. The camera after that pays for itself, and the camera after that is the one you upgrade to.
+
+This is the whole game. Pick one, learn it, and let the gigs do the buying.`,
+  },
+  {
+    slug: 'canon-60d-50mm-f18-photography-video-malaysia',
+    title: 'Canon 60D + 50mm f/1.8 in 2026: The Old Camera You Still Own Can Still Earn',
+    description: 'Still holding a Canon 60D with a 50mm f/1.8? Good news — it is a 2010 semi-pro body that still wins paid work in 2026. Where it crushes as a photo tool, where it dies as a video camera, and the gigs that repay your next body.',
+    image: '/blog/canon-60d-50mm-f18-boleh-buat-kerja-malaysia.jpg',
+    category: 'gear',
+    readTime: 10,
+    date: '2026-08-09',
+    tags: ['canon 60d', '50mm', 'portrait', 'gig', 'second-hand'],
+    relatedGear: ['nikon-d3100-review-malaysia-second-hand-price', 'sony-a6100-review-malaysia-second-hand', 'canon-70d-review-malaysia'],
+    content: `You bought it years ago. It has a scar on the grip, the shutter sounds like a machine gun from a 2010 action movie, and every influencer tells you to buy a mirrorless. But the Canon 60D — with the 50mm f/1.8 screwed on the front — is still one of the most underrated money-making cameras in Malaysia in 2026.
+
+We are biased: this is the setup we kept when everything else got sold. Here is exactly what it can still do, what it cannot, and how many gigs it takes to repay your next body.
+
+## What you actually own
+
+| Spec | Canon 60D |
+|---|---|
+| Sensor | 18MP APS-C CMOS |
+| Burst | 5.3 fps |
+| Video | 1080p30 |
+| Screen | Flip-out, 3-inch |
+| Mic jack | Yes |
+| Body | Magnesium alloy, weather-sealed |
+| Mount | Canon EF / EF-S |
+
+In 2010 this was a RM3,500 camera. In 2026 it trades for RM700–1,100 on Mudah and Carousell — which means you already own a paid tool, not a paperweight.
+
+## Where the 60D still crushes: photography
+
+- **Real viewfinder.** You aim and shoot through glass, not a screen. In bright Malaysian sunlight at a graduation or outdoor portrait, that is a huge advantage over screen-only cameras.
+- **Fast to operate.** Dual control dials and a top LCD let you change shutter, aperture and ISO without taking your eye off the subject.
+- **The flip screen.** Waist-level shots, low angles, family group shots — this feature never got old.
+- **The EF lens library.** Tens of millions of used Canon lenses exist. You can add a 50mm f/1.8 STM, an 85mm f/1.8 or a 24mm f/2.8 for RM200–700 used.
+- **Flash support.** Add a RM180 Yongnuo and the 60D becomes a real event camera. This is the biggest single upgrade you can make — bigger than any new body.
+
+The 50mm f/1.8 in your hand is the portrait lens of the decade. On APS-C it gives an 80mm full-frame look: soft backgrounds, flattering compression, and gorgeous skin tones with just a window for light. There is a reason photographers call it the bokeh machine.
+
+## Where the 60D dies: video
+
+Let us be honest, because too many people waste months trying to make it work:
+
+- **1080p30 only.** No 4K, and the codec is old. Fine for archive footage, not for client reels.
+- **Autofocus in live view hunts.** Contrast-detect only, and no touchscreen to pull focus. For anything moving, forget it.
+- **No image stabilisation in the body.** You will see every handshake.
+- **No headphone jack.** Monitoring audio properly is not possible.
+
+The verdict: the 60D is a photography camera that happens to record video. If you need video content, keep the 60D for stills and use your phone — or a used A6100 — for motion.
+
+## The gigs that pay for your next camera
+
+Work the camera where it is strong. Realistic 2026 Malaysian rates:
+
+| Gig | Rate | Why the 60D wins it |
+|---|---|---|
+| Portrait mini-session | RM150–300 / hour | 50mm f/1.8 bokeh, viewfinder |
+| Graduation shoot | RM200–450 / session | Fast to operate, flip screen |
+| Small event + flash | RM300–600 / event | Dual dials, flash, burst |
+| Product set | RM200–500 / set | Tripod, live view, sharp lens |
+| Pre-wedding session | RM500–1,500 / session | Portrait strength, cheap setup |
+
+Do the math for a used A6100 at RM1,600: three graduation shoots at RM450 each, or two event gigs at RM600 each, and the new body is yours. Every gig before that was profit from gear you already owned.
+
+## The sample setup that costs under RM500
+
+- **Canon 60D** — you own it. Value: RM800+.
+- **50mm f/1.8 STM** — RM250–350 used. Sharp, quiet, and video-friendly when you do need footage.
+- **Yongnuo 560 flash** — RM180. Opens event and indoor work.
+- **Tripod** — RM100. Product and group shots.
+- **Reflector** — RM30. Portrait fill light for free.
+
+Total new spend: under RM500. New earning capability: RM1,000+ a month of part-time gigs. That is the fastest return on investment in the whole Malaysian camera market.
+
+## The bottom line
+
+The 60D is not the best camera you could own in 2026. It is the best camera you already own. Stop scrolling for a new body, book a portrait session this weekend, and let the camera you have pay for the camera you want.
+
+When you finally outgrow it, the upgrade path is clear: a used A6100 or A6400 keeps the lens-swapping skill you learned and adds the video mode the 60D never had.`,
+  },
+  {
+    slug: 'photography-vs-video-camera-malaysia-beginners',
+    title: 'Photography vs Video: Which Should a Total Beginner Learn First in Malaysia?',
+    description: 'Zero video experience? Here is how photo-first, video-first and hybrid cameras actually differ, what each unlocks as a paid skill, and which second-hand cameras belong in which bucket.',
+    image: '/blog/photography-vs-video-camera-malaysia-beginners.jpg',
+    category: 'guide',
+    readTime: 9,
+    date: '2026-08-08',
+    tags: ['beginner', 'photography', 'video', 'guide', 'second-hand'],
+    relatedGear: ['nikon-d3100-review-malaysia-second-hand-price', 'sony-a6100-review-malaysia-second-hand', 'dji-osmo-pocket-3-review-malaysia'],
+    content: `Most people who message us say the same thing: I want to be a content creator, which camera should I buy? And every time, we have to stop them — because content creator is not a camera decision. Photography and video are two different skills, two different gig markets, and often two different cameras. If you know nothing about video, this article is your map.
+
+## Why the two worlds are different
+
+- **Photography sells moments.** Portraits, events, graduations, products, weddings. One strong still, delivered fast, is the product.
+- **Video sells attention.** Reels, business promos, walkthroughs, vlogs. The product is motion, sound and story.
+- **Clients are different.** Photography clients are families, couples and event organisers. Video clients are businesses, restaurants and agents.
+- **Gear demands are different.** Photo needs lenses and light. Video needs stabilisation, audio and editing skills.
+
+The mistake beginners make is buying one camera and assuming it does both jobs well. It never does, not really — and the used market actually makes this easy to fix.
+
+## The five differences that decide the camera
+
+| Feature | Photography-first | Video-first |
+|---|---|---|
+| Autofocus | Fast single-shot is enough | Must track moving faces |
+| Resolution | 18MP+ is plenty | 4K output matters more |
+| Stabilisation | Nice, not essential | Essential |
+| Audio | Ignore it | Mic jack and monitor are life |
+| Screen | Flip helps, viewfinder matters | Flip-out, self-facing |
+
+## Bucket one: photo-first cameras
+
+These are stills machines. You buy them to shoot people, products and events, and the ROI comes from one skill: composition plus light.
+
+- **Why:** Real viewfinders, cheap fast lenses, huge used ecosystems, and they are cheap as chips.
+- **Examples:** Canon 60D, 70D, 80D; Nikon D90, D7100, D7200, D7500; Sony A7 II; Fujifilm X-T2.
+- **What it unlocks:** Portrait sessions RM150–300, graduation RM200–450, small events RM300–600, product sets RM200–500.
+- **How long to learn:** A month of weekend practice gets you to paid hobby level.
+
+## Bucket two: video-first cameras
+
+These are built for motion. The ROI comes from a different skill stack: framing for moving shots, sound, and editing.
+
+- **Why:** Real-time autofocus, mic jacks, flip screens, stabilisation, 4K.
+- **Examples:** Panasonic GH4, Canon M50, Sony A6100, A6400, ZV-E10, DJI Osmo Pocket 3, the new Insta360 Luna.
+- **What it unlocks:** Business promo videos RM300–1,000, real estate walkthroughs RM300–600, event reels RM400–800, talking-head content for brands RM200–500.
+- **How long to learn:** Longer — editing is the real course. Budget 3–6 months.
+
+## Bucket three: do-both cameras
+
+The expensive middle. You buy these when clients genuinely pay for both from one person.
+
+- **Why:** You already have gigs and cash flow, and you want to stop swapping gear.
+- **Examples:** Nikon D7500, D500, Sony A7 II, Fujifilm X-T4-class bodies.
+- **Warning:** Do both usually means does neither brilliantly. Buy one only when the money justifies it.
+
+## If you are a total video zero, like the writer of this site
+
+Be honest with yourself: your brain thinks in stills. That is not a weakness — it is a market. The photo gig market in Malaysia — graduations, portraits, events, products — is enormous, repeatable, and needs exactly the skills a photo-first camera teaches.
+
+Start there. Shoot 20 portrait sessions before you buy a gimbal. Earn the money that buys your first video camera, and learn video on a camera that is already paid for by photos. That is the fastest, lowest-risk path in Malaysia.
+
+## A learning path that works
+
+1. Month 1: learn exposure, focus, composition. One lens, your used photo-first camera. Post every day.
+2. Month 2: shoot for free for two friends or family. Learn to deliver a finished set of 15–20 photos.
+3. Month 3: charge RM100–200. Book graduation or portrait mini-sessions.
+4. Month 4: add one video skill — talking-head clips on your phone. Learn sound before picture.
+5. Month 5: if video clicks, buy a used video-first body with photo profits. If it does not, buy a better photo lens.
+
+## The bottom line
+
+Photography and video are not the same hobby or the same business. Pick the one that matches how your brain works, pick the camera bucket that serves it, and let gigs buy your second camera. For the photography side, the old DSLR era is the cheapest place to start in Malaysia. For the video side, the compact gimbal cameras of 2026 are about to make their case.`,
+  },
+  {
+    slug: 'insta360-luna-vs-dslr-photography-malaysia',
+    title: 'Insta360 Luna vs Your Old DSLR: Can a Tiny Pocket Camera Beat Big-Lens Photography?',
+    description: 'The Insta360 Luna is built for unintrusive, stabilised video — but is it a real photography camera? The honest verdict on 1-inch gimbal cameras vs big-lens DSLRs, and which one repays faster in Malaysia.',
+    image: '/blog/insta360-luna-vs-dslr-photography-malaysia.jpg',
+    category: 'comparison',
+    readTime: 10,
+    date: '2026-08-07',
+    tags: ['insta360 luna', 'osmo pocket', 'dslr', 'video', 'comparison'],
+    relatedGear: ['insta360-x4-review-malaysia', 'dji-osmo-pocket-3-review-malaysia', 'nikon-d3100-review-malaysia-second-hand-price'],
+    content: `Every generation of gear asks the same question about the new tiny thing: is this better than the big thing? In 2026 the new tiny thing is the Insta360 Luna — a pocket-sized gimbal camera aimed squarely at vloggers and content creators who want invisible, stabilised video. And the big thing is the DSLR you already own.
+
+Here is the honest answer you will not get from an influencer: the Luna is a video camera that can shoot photos. It does not beat your DSLR at photography. But for video gigs, it is not even close. Here is the full breakdown.
+
+## What the Insta360 Luna is
+
+The Luna is Insta360 2026 pocket gimbal camera, co-engineered with Leica, and the direct rival to the DJI Osmo Pocket line. The announced and leaked details that matter:
+
+- **Pocket-sized 3-axis gimbal.** Slips into a pocket and shoots without drawing attention.
+- **Dual-lens system.** 360-degree capture up to 8K, plus a standard wide-angle mode at 4K60.
+- **1-inch class sensor on the flagship model.** A huge jump for a pocket camera — and the key question for photography.
+- **AI tracking and stabilisation.** It follows you, and the footage is smooth with no gimbal skill required.
+- **Waterproof and drop-resistant (IPX8).** Shoot in rain, on beaches, anywhere.
+- **Detachable display and remote.** Frame shots from across the room.
+- **Price:** roughly RM2,200–3,100 in Malaysia depending on model and bundle.
+
+This is the class of camera built for unintrusive videography: you hold it like a pen, nobody notices it, and the footage is broadcast-ready.
+
+## Where the Luna destroys a DSLR: video
+
+- **Unintrusive.** At an event, a wedding, a mamak — nobody reacts to a pocket gimbal the way they react to a big lens. Real, candid footage.
+- **Stabilised handheld.** No tripod, no gimbal rig, no shoulder mount. The 3-axis stabilisation does the work.
+- **Instant vertical content.** Flip it and shoot 4K vertical for TikTok, Reels and Shorts natively.
+- **AI tracking.** Solo creators can film themselves walking, presenting, cooking — the camera follows.
+- **360 capture.** One pass at a real estate walkthrough or event gives you footage you can reframe later. No reshoots.
+- **Audio.** 32-bit audio on the flagship model means you can fix levels in edit without distortion.
+
+For video gigs — real estate walkthroughs, event reels, restaurant promos, vlogs — the Luna is a better tool than your DSLR, full stop. It is lighter, faster to set up, and the results are smoother.
+
+## Where it loses at photography
+
+Now the part nobody on TikTok will tell you:
+
+- **Sensor size.** A 1-inch sensor on the flagship is roughly 6x smaller than APS-C and 12x smaller than full frame. In good light it is excellent; in dim ballrooms it shows noise and loses detail that your DSLR shrugs off.
+- **No interchangeable lens.** Your 50mm f/1.8 at 80mm-equivalent with creamy bokeh is physically impossible on a pocket gimbal. No telephoto reach, no wide-angle drama, no macro.
+- **Stills are a by-product.** The Luna captures great stills pulled from video, but it is not a camera you use to compose a paid portrait session.
+- **No real viewfinder and a tiny screen.** Reviewing and precision-framing a portrait is painful.
+- **Depth and control.** Aperture is fixed. You cannot throw a background out of focus the way a fast prime lens does.
+
+In a head-to-head photography shoot — portrait, graduation, wedding, product — a RM700 used Canon 60D with a 50mm f/1.8 produces better-selling stills than the Luna. Every time.
+
+## The verdict table
+
+| Job | Luna wins? | Why |
+|---|---|---|
+| Real estate walkthrough | Yes | Stabilised, 360, one pass |
+| Event b-roll and reels | Yes | Invisible, smooth, vertical |
+| Vlog / talking head | Yes | AI tracking, pocket, audio |
+| Wedding stills | No | Sensor and lens size matter |
+| Portrait session | No | No bokeh, no viewfinder |
+| Graduation stills | No | Speed of DSLR plus flash |
+| Product stills | No | Sharpness and lens choice |
+
+## The repays-faster question
+
+Both are income tools; they just earn differently:
+
+- **The DSLR path:** RM700–1,100 for a 60D-class body. The first portrait or graduation gig covers it. Photography earnings start from gig one.
+- **The Luna path:** RM2,200–3,100. But video gigs pay more per job — a real estate walkthrough RM300–600, a restaurant promo RM400–800. It pays itself back in 4–8 video jobs, and video jobs are easier to sell in 2026 because every business wants reels.
+
+If you already own a DSLR: keep it for photography, and buy a compact video camera only when video clients actually appear. If you own neither and are starting from zero: learn photography on a cheap old DSLR first — it is a cheaper way to learn the fundamentals, and the camera pays for itself before you ever touch a gimbal.
+
+## The bottom line
+
+The Insta360 Luna is one of the best video tools of 2026, and a genuinely bad idea as your only photography camera. The DSLR is the opposite. The smart Malaysian setup is both — bought in the right order. Start with the old DSLR, let it pay for itself with photo gigs, then let the Luna pay for itself with video. That is the fastest, cheapest way to own both worlds.`,
   },
 ];

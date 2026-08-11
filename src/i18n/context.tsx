@@ -1,35 +1,12 @@
 'use client';
 
-import { createContext, useContext, useSyncExternalStore, ReactNode } from 'react';
+import { createContext, useCallback, useContext, ReactNode } from 'react';
+import { useRouter, usePathname } from 'next/navigation';
 import { ms } from './ms';
+import { zh } from './zh';
+import type { Lang } from './langs';
 
-type Lang = 'en' | 'ms';
-
-const STORAGE_KEY = 'kameralog-lang';
-
-const listeners = new Set<() => void>();
-
-function subscribe(cb: () => void) {
-  listeners.add(cb);
-  return () => {
-    listeners.delete(cb);
-  };
-}
-
-function getStoredLang(): Lang {
-  if (typeof window === 'undefined') return 'en';
-  try {
-    const stored = window.localStorage.getItem(STORAGE_KEY);
-    return stored === 'en' || stored === 'ms' ? stored : 'en';
-  } catch {
-    return 'en';
-  }
-}
-
-function setLangStored(l: Lang) {
-  window.localStorage.setItem(STORAGE_KEY, l);
-  listeners.forEach((cb) => cb());
-}
+const dictionaries: Record<Exclude<Lang, 'en'>, Record<string, string>> = { ms, zh };
 
 interface LangContextType {
   lang: Lang;
@@ -43,16 +20,22 @@ const LangContext = createContext<LangContextType>({
   t: (_, fallback) => fallback,
 });
 
-export function LangProvider({ children }: { children: ReactNode }) {
-  const lang = useSyncExternalStore<Lang>(subscribe, getStoredLang, () => 'en');
+export function LangProvider({ lang, children }: { lang: Lang; children: ReactNode }) {
+  const router = useRouter();
+  const pathname = usePathname();
 
-  const setLang = (l: Lang) => {
-    setLangStored(l);
-  };
+  const setLang = useCallback(
+    (l: Lang) => {
+      if (l === lang) return;
+      const rest = pathname.replace(/^\/(en|ms|zh)(?=\/|$)/, '');
+      router.push(`/${l}${rest}`);
+    },
+    [router, pathname, lang],
+  );
 
   const t = (key: string, fallback: string): string => {
-    if (lang !== 'ms') return fallback;
-    return ms[key] || fallback;
+    if (lang === 'en') return fallback;
+    return dictionaries[lang][key] || fallback;
   };
 
   return (
@@ -65,3 +48,5 @@ export function LangProvider({ children }: { children: ReactNode }) {
 export function useLang() {
   return useContext(LangContext);
 }
+
+export type { Lang };

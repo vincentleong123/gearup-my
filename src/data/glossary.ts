@@ -262,7 +262,7 @@ export const glossary: GlossaryTerm[] = [
   {
     term: 'Drone License (CAAM)',
     shortDef: 'Malaysia\'s aviation permit required for drones over 250g',
-    longDef: 'The Civil Aviation Authority of Malaysia requires a Remote Pilot Licence (RPL) for commercial drone flights and for drones above 250g. It costs roughly RM500-800 and takes 1-2 months to process. Drones under 250g — like the DJI Mini 4 Pro — do not need a license for most flying, which is why they are the classic "start today" drone for Malaysian creators.',
+    longDef: 'The Civil Aviation Authority of Malaysia requires a Remote Pilot Licence (RPL) for commercial drone flights and for drones above 250g. It costs roughly RM500-800 and takes 1-2 months to process. Drones under 250g — like the DJI Mini 4 Pro — do not need the RPL, though CAAM registration, no-fly zones and insurance still apply, so check the current rules before flying for money.',
     category: 'general',
     manglish: 'Lesen terbang drone. Bawah 250g tak payah (macam Mini 4 Pro). Atas 250g kena ada lesen CAAM — harga ~RM500-800.',
   },

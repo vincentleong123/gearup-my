@@ -3,7 +3,8 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useLang } from '@/i18n/context';
+import { useLang, Lang } from '@/i18n/context';
+import { withLang } from '@/lib/lang';
 
 const links = [
   { href: '/#gear', key: 'nav.gear', label: 'Gear' },
@@ -29,9 +30,40 @@ const defaultLabels: Record<string, string> = {
   'nav.roiCalc': 'ROI Calc',
 };
 
-function Logo({ id = 'gubar-nav' }: { id?: string }) {
+const LANGS: { id: Lang; label: string }[] = [
+  { id: 'en', label: 'EN' },
+  { id: 'ms', label: 'BM' },
+  { id: 'zh', label: '中文' },
+];
+
+function LangSwitch({ lang, setLang, t }: { lang: Lang; setLang: (l: Lang) => void; t: (k: string, f: string) => string }) {
   return (
-    <Link href="/" className="group flex items-center gap-2.5 font-black text-xl tracking-tight">
+    <div
+      role="group"
+      aria-label={t('nav.langSwitch', 'Switch language')}
+      className="flex items-center gap-0.5 rounded-lg border border-zinc-700 p-0.5"
+    >
+      {LANGS.map(l => (
+        <button
+          key={l.id}
+          onClick={() => setLang(l.id)}
+          aria-pressed={lang === l.id}
+          className={`px-2.5 py-1.5 text-xs font-bold rounded-md transition-all ${
+            lang === l.id
+              ? 'bg-gradient-to-r from-red-500 to-pink-600 text-white'
+              : 'text-zinc-300 hover:text-white'
+          }`}
+        >
+          {l.label}
+        </button>
+      ))}
+    </div>
+  );
+}
+
+function Logo({ id = 'gubar-nav', lang }: { id?: string; lang: Lang }) {
+  return (
+    <Link href={withLang(lang, '/')} className="group flex items-center gap-2.5 font-black text-xl tracking-tight">
       <span className="relative grid place-items-center h-9 w-9 rounded-xl bg-gradient-to-br from-red-500 via-pink-600 to-fuchsia-600 shadow-lg shadow-pink-600/30 group-hover:shadow-pink-500/50 group-hover:-translate-y-0.5 transition-all duration-300">
         <svg viewBox="0 0 24 24" fill="none" className="h-5 w-5 text-white">
           <defs>
@@ -71,8 +103,10 @@ export default function Nav() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
+  const navLinks = links.map(l => ({ ...l, href: withLang(lang, l.href) }));
+
   const isActive = (href: string) => {
-    if (href.includes('#')) return pathname === '/';
+    if (href.includes('#')) return pathname === withLang(lang, '/');
     return pathname === href;
   };
 
@@ -82,7 +116,8 @@ export default function Nav() {
       <div className="relative bg-gradient-to-r from-red-600 via-pink-600 to-fuchsia-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-[11px] sm:text-xs font-semibold text-center py-1.5 tracking-wide truncate">
-            🇲🇾 Malaysia&apos;s #1 Camera &amp; Gear Review Site for 2026 &nbsp;·&nbsp; Second-hand prices updated Aug 2026
+            <span className="hidden sm:inline">{t('nav.announce', "🇲🇾 Malaysia's Camera & Gear Review Journal for 2026 · Jobless? Your gear can pay for itself — niches, events & gigs that repay fast")}</span>
+            <span className="sm:hidden">{t('nav.announce', "🇲🇾 Malaysia's Camera & Gear Review Journal 2026 · Gear that pays for itself")}</span>
           </p>
         </div>
       </div>
@@ -99,10 +134,10 @@ export default function Nav() {
       <nav className="border-b border-zinc-800/50 bg-zinc-950/80 backdrop-blur-xl">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
-            <Logo />
+            <Logo lang={lang} />
 
             <div className="hidden xl:flex items-center gap-1">
-              {links.map(l => (
+              {navLinks.map(l => (
                 <Link
                   key={l.key}
                   href={l.href}
@@ -121,30 +156,18 @@ export default function Nav() {
             </div>
 
             <div className="hidden xl:flex items-center gap-2">
-              <button
-                onClick={() => setLang(lang === 'ms' ? 'en' : 'ms')}
-                className="px-3 py-2 text-xs font-bold rounded-lg border border-zinc-700 hover:border-red-500/50 hover:text-red-400 transition-all uppercase tracking-wider"
-                aria-label="Switch language"
-              >
-                {lang === 'ms' ? 'EN' : 'BM'}
-              </button>
+              <LangSwitch lang={lang} setLang={setLang} t={t} />
               <Link
-                href="/quiz"
+                href={withLang(lang, '/quiz')}
                 className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-red-500 to-pink-600 text-white text-sm font-bold rounded-lg shadow-lg shadow-pink-600/25 hover:shadow-pink-500/40 hover:-translate-y-0.5 transition-all duration-300"
               >
-                <span>⚡</span> Start Here
+                <span>⚡</span> {t('nav.startHere', 'Start Here')}
               </Link>
             </div>
 
             {/* Mobile: lang + hamburger */}
             <div className="flex items-center gap-2 xl:hidden">
-              <button
-                onClick={() => setLang(lang === 'ms' ? 'en' : 'ms')}
-                className="px-2 py-1 text-xs font-bold rounded-lg border border-zinc-700 hover:border-red-500/50 transition-all uppercase tracking-wider"
-                aria-label="Switch language"
-              >
-                {lang === 'ms' ? 'EN' : 'BM'}
-              </button>
+              <LangSwitch lang={lang} setLang={setLang} t={t} />
               <button
                 onClick={() => setOpen(!open)}
                 className="p-2 text-zinc-100 hover:text-white rounded-lg hover:bg-zinc-800/60 transition-all"
@@ -166,7 +189,7 @@ export default function Nav() {
         {open && (
           <div className="xl:hidden border-t border-zinc-800/50 bg-zinc-950/95 backdrop-blur-xl animate-fade-in">
             <div className="px-4 py-3 space-y-1">
-              {links.map(l => (
+              {navLinks.map(l => (
                 <Link
                   key={l.key}
                   href={l.href}
@@ -179,11 +202,11 @@ export default function Nav() {
                 </Link>
               ))}
               <Link
-                href="/quiz"
+                href={withLang(lang, '/quiz')}
                 onClick={() => setOpen(false)}
                 className="mt-2 flex items-center justify-center gap-2 px-4 py-3 bg-gradient-to-r from-red-500 to-pink-600 text-white font-bold rounded-lg shadow-lg shadow-pink-600/25"
               >
-                <span>⚡</span> Start Here — Gear Match Quiz
+                <span>⚡</span> {t('nav.startHereMobile', 'Start Here — Gear Match Quiz')}
               </Link>
             </div>
           </div>

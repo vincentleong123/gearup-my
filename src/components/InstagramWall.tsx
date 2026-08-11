@@ -90,9 +90,6 @@ export default function InstagramWall({ limit }: { limit?: number }) {
               <div className="min-w-0">
                 <div className="flex items-center gap-1 text-sm font-bold text-white">
                   <span className="truncate">{p.username}</span>
-                  <svg className="h-3.5 w-3.5 shrink-0 text-sky-400" viewBox="0 0 24 24" fill="currentColor">
-                    <path fillRule="evenodd" d="M8.6 3.5A3 3 0 0111.4 2h1.2a3 3 0 012.8 1.5l.5.8a3 3 0 002.6 1.5h.9a3 3 0 013 3v1.5c.1 1.1.6 2.1 1.4 2.8l.6.5a3 3 0 010 4.5l-.6.5a3.9 3.9 0 00-1.4 2.8V23a3 3 0 01-3 3h-.9a3 3 0 00-2.6 1.5l-.5.8a3 3 0 01-2.8 1.5h-1.2a3 3 0 01-2.8-1.5l-.5-.8a3 3 0 00-2.6-1.5h-.9a3 3 0 01-3-3v-1.5c0-1.1-.5-2.1-1.4-2.8l-.6-.5a3 3 0 010-4.5l.6-.5c.9-.7 1.4-1.7 1.4-2.8V8a3 3 0 013-3h.9a3 3 0 002.6-1.5l.5-.8zM12 17.5a4.5 4.5 0 100-9 4.5 4.5 0 000 9zm0-2a2.5 2.5 0 110-5 2.5 2.5 0 010 5z" clipRule="evenodd" />
-                  </svg>
                   <span className="hidden sm:block text-zinc-500 font-normal truncate">· {p.author}</span>
                 </div>
                 <div className="text-[11px] text-zinc-500">{p.date}</div>
@@ -186,9 +183,6 @@ export default function InstagramWall({ limit }: { limit?: number }) {
                 <div className="min-w-0">
                   <div className="flex items-center gap-1 text-sm font-bold text-white">
                     <span className="truncate">{playing.username}</span>
-                    <svg className="h-3.5 w-3.5 shrink-0 text-sky-400" viewBox="0 0 24 24" fill="currentColor">
-                      <path fillRule="evenodd" d="M8.6 3.5A3 3 0 0111.4 2h1.2a3 3 0 012.8 1.5l.5.8a3 3 0 002.6 1.5h.9a3 3 0 013 3v1.5c.1 1.1.6 2.1 1.4 2.8l.6.5a3 3 0 010 4.5l-.6.5a3.9 3.9 0 00-1.4 2.8V23a3 3 0 01-3 3h-.9a3 3 0 00-2.6 1.5l-.5.8a3 3 0 01-2.8 1.5h-1.2a3 3 0 01-2.8-1.5l-.5-.8a3 3 0 00-2.6-1.5h-.9a3 3 0 01-3-3v-1.5c0-1.1-.5-2.1-1.4-2.8l-.6-.5a3 3 0 010-4.5l.6-.5c.9-.7 1.4-1.7 1.4-2.8V8a3 3 0 013-3h.9a3 3 0 002.6-1.5l.5-.8zM12 17.5a4.5 4.5 0 100-9 4.5 4.5 0 000 9zm0-2a2.5 2.5 0 110-5 2.5 2.5 0 010 5z" clipRule="evenodd" />
-                    </svg>
                   </div>
                   <div className="text-[11px] text-zinc-500">{playing.date}</div>
                 </div>

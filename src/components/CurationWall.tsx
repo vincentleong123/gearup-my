@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
+import { useLang } from '@/i18n/context';
 
 export interface CurationTopic {
   id: string;
@@ -51,6 +52,7 @@ function buildDisplay(topic: CurationTopic, platform: PlatformId): string {
 }
 
 export default function CurationWall({ topics, title = 'Live Inspiration' }: Props) {
+  const { t } = useLang();
   const [topicIdx, setTopicIdx] = useState(0);
   const [platform, setPlatform] = useState<PlatformId>('google');
   const [rotate, setRotate] = useState(true);
@@ -92,8 +94,8 @@ export default function CurationWall({ topics, title = 'Live Inspiration' }: Pro
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75" />
             <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-red-500" />
           </span>
-          <span className="text-sm font-bold uppercase tracking-wider text-red-400">{title}</span>
-          <span className="text-sm text-zinc-500 hidden sm:inline">— curated from the open web &amp; social tags</span>
+          <span className="text-sm font-bold uppercase tracking-wider text-red-400">{t('curate.wallTitle', title)}</span>
+          <span className="text-sm text-zinc-500 hidden sm:inline">{t('curate.wallSub', '— curated from the open web & social tags')}</span>
         </div>
         <div className="flex items-center gap-2">
           <button
@@ -104,13 +106,13 @@ export default function CurationWall({ topics, title = 'Live Inspiration' }: Pro
                 : 'bg-zinc-800/50 text-zinc-200 border border-zinc-700/50'
             }`}
           >
-            {rotate ? '⏸ Auto-pause' : '▶ Auto-play'}
+            {rotate ? t('curate.autoPause', '⏸ Auto-pause') : t('curate.autoPlay', '▶ Auto-play')}
           </button>
           <button
             onClick={shuffle}
             className="px-3 py-1.5 rounded-lg text-xs font-bold bg-gradient-to-r from-red-500 to-pink-600 text-white hover:shadow-lg hover:shadow-red-500/25 transition-all"
           >
-            🔀 Surprise me
+            🔀 {t('curate.surprise', 'Surprise me')}
           </button>
         </div>
       </div>
@@ -155,7 +157,7 @@ export default function CurationWall({ topics, title = 'Live Inspiration' }: Pro
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 text-sm font-semibold text-cyan-400 bg-cyan-500/5 border border-cyan-500/20 px-4 py-2 rounded-xl hover:bg-cyan-500/10 transition-all self-start sm:self-auto"
         >
-          {platformMeta.hint}: <span className="text-white">{display}</span> ↗
+          {platformMeta.hint === 'Search' ? t('curate.search', 'Search') : t('curate.hashtag', 'Hashtag')}: <span className="text-white">{display}</span> ↗
         </a>
       </div>
 

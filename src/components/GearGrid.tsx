@@ -4,7 +4,10 @@ import { useMemo, useState } from 'react';
 import { gearList, categories, GearItem } from '@/data/gear';
 import { formatPrice, roiColor, roiBarColor, getLevelLabel } from '@/lib/utils';
 import { gearImg } from '@/data/images';
+import { useLang } from '@/i18n/context';
+import { T } from '@/components/T';
 import Link from 'next/link';
+import { withLang } from '@/lib/lang';
 
 const fallbackImgs: Record<string, string> = {
   camera: 'https://images.unsplash.com/photo-1452780212940-6f5c0d14d848?w=800&h=600&fit=crop',
@@ -31,15 +34,16 @@ function Stars({ rating }: { rating: number }) {
 
 function AwardBadge({ g }: { g: GearItem }) {
   if (g.roiScore >= 93) {
-    return <span className="inline-flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded-full bg-green-500/15 text-green-300 border border-green-500/30 uppercase tracking-wide">🏆 2026 Top Pick</span>;
+    return <span className="inline-flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded-full bg-green-500/15 text-green-300 border border-green-500/30 uppercase tracking-wide">🏆 <T k="geargrid.topPick" en="2026 Top Pick" /></span>;
   }
   if (g.roiScore >= 86 || g.rating >= 4.5) {
-    return <span className="inline-flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-500/30 uppercase tracking-wide">⭐ Great Value</span>;
+    return <span className="inline-flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-500/30 uppercase tracking-wide">⭐ <T k="geargrid.greatValue" en="Great Value" /></span>;
   }
   return null;
 }
 
 export default function GearGrid({ withHeader = true }: { withHeader?: boolean }) {
+  const { t, lang } = useLang();
   const [active, setActive] = useState('all');
   const [query, setQuery] = useState('');
   const [sort, setSort] = useState<SortKey>('featured');
@@ -77,13 +81,13 @@ export default function GearGrid({ withHeader = true }: { withHeader?: boolean }
           {withHeader && (
             <>
               <div className="inline-flex items-center gap-2 bg-red-500/10 border border-red-500/20 rounded-full px-4 py-1.5 text-sm text-red-400 font-semibold mb-5">
-                📷 The Review Lab
+                📷 <T k="geargrid.badge" en="The Review Lab" />
               </div>
               <h2 className="text-3xl md:text-5xl font-black mb-4">
-                Gear That <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-purple-500 to-pink-500">Pays You Back</span>
+                <T k="geargrid.head" en="Gear That" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-purple-500 to-pink-500"><T k="geargrid.headAccent" en="Pays You Back" /></span>
               </h2>
               <p className="text-zinc-200 max-w-2xl mx-auto mb-8 text-lg">
-                Second-hand prices, honest reviews, and real ROI data for Malaysian creators. Filter, search, and sort by what matters to you.
+                <T k="geargrid.desc" en="Second-hand prices, honest reviews, and real ROI data for Malaysian creators. Filter, search, and sort by what matters to you." />
               </p>
             </>
           )}
@@ -98,7 +102,7 @@ export default function GearGrid({ withHeader = true }: { withHeader?: boolean }
                 type="text"
                 value={query}
                 onChange={e => setQuery(e.target.value)}
-                placeholder="Search gear, e.g. 'drone' or 'mirrorless'..."
+                placeholder={t('geargrid.search', "Search gear, e.g. 'drone' or 'mirrorless'...")}
                 className="w-full bg-zinc-800/60 border border-zinc-700 rounded-full pl-11 pr-4 py-2.5 text-sm placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-red-500/40 focus:border-red-500/40 transition-all"
               />
             </div>
@@ -106,13 +110,13 @@ export default function GearGrid({ withHeader = true }: { withHeader?: boolean }
               value={sort}
               onChange={e => setSort(e.target.value as SortKey)}
               className="bg-zinc-800/60 border border-zinc-700 rounded-full px-4 py-2.5 text-sm font-semibold text-zinc-100 focus:outline-none focus:ring-2 focus:ring-red-500/40 focus:border-red-500/40 transition-all"
-              aria-label="Sort gear"
+              aria-label={t('geargrid.sortAria', 'Sort gear')}
             >
-              <option value="featured">Sort: Featured</option>
-              <option value="roi">Highest ROI</option>
-              <option value="rating">Top Rated</option>
-              <option value="price-low">Price: Low to High</option>
-              <option value="price-high">Price: High to Low</option>
+              <option value="featured">{t('geargrid.sortFeatured', 'Sort: Featured')}</option>
+              <option value="roi">{t('geargrid.sortRoi', 'Highest ROI')}</option>
+              <option value="rating">{t('geargrid.sortRating', 'Top Rated')}</option>
+              <option value="price-low">{t('geargrid.sortLow', 'Price: Low to High')}</option>
+              <option value="price-high">{t('geargrid.sortHigh', 'Price: High to Low')}</option>
             </select>
           </div>
 
@@ -133,14 +137,14 @@ export default function GearGrid({ withHeader = true }: { withHeader?: boolean }
           </div>
 
           <p className="text-xs text-zinc-600 mt-5">
-            {filtered.length} item{filtered.length !== 1 ? 's' : ''} · prices are typical second-hand in MYR
+            {filtered.length} {t('geargrid.count', 'items · prices are typical second-hand in MYR')}
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filtered.map((g, i) => (
             <Link
-              href={`/gear/${g.slug}`}
+              href={withLang(lang, `/gear/${g.slug}`)}
               key={g.slug}
               className="group block bg-zinc-900/80 border border-zinc-800 rounded-2xl overflow-hidden hover:border-red-500/30 hover:shadow-2xl hover:shadow-red-500/5 hover:-translate-y-1 transition-all duration-300"
               style={{ animationDelay: `${i * 50}ms` }}
@@ -178,19 +182,19 @@ export default function GearGrid({ withHeader = true }: { withHeader?: boolean }
                 <p className="text-zinc-200 text-sm line-clamp-2 mb-4">{g.excerpt}</p>
                 <div className="flex items-center gap-4 mb-4">
                   <div>
-                    <span className="text-xs text-zinc-500">Used Price</span>
+                    <span className="text-xs text-zinc-500">{t('geargrid.usedPrice', 'Used Price')}</span>
                     <div className="text-xl font-bold text-green-400">{formatPrice(g.priceUsed)}</div>
                   </div>
                   {g.priceNew > 0 && (
                     <div>
-                      <span className="text-xs text-zinc-500">New</span>
+                      <span className="text-xs text-zinc-500">{t('common.new', 'New')}</span>
                       <div className="text-sm text-zinc-200 line-through">{formatPrice(g.priceNew)}</div>
                     </div>
                   )}
                 </div>
                 <div className="space-y-1 mb-4">
                   <div className="flex justify-between text-xs">
-                    <span className="text-zinc-500">ROI Score</span>
+                    <span className="text-zinc-500">{t('gear.roiScore', 'ROI Score')}</span>
                     <span className={`font-bold ${roiColor(g.roiScore)}`}>{g.roiScore}/100</span>
                   </div>
                   <div className="h-1.5 bg-zinc-800 rounded-full overflow-hidden">
@@ -203,7 +207,7 @@ export default function GearGrid({ withHeader = true }: { withHeader?: boolean }
                   ))}
                 </div>
                 <div className="text-sm font-bold text-red-400/80 group-hover:text-red-300 transition-colors">
-                  Read full review →
+                  {t('gear.review', 'Read full review')} →
                 </div>
               </div>
             </Link>
@@ -213,7 +217,7 @@ export default function GearGrid({ withHeader = true }: { withHeader?: boolean }
         {filtered.length === 0 && (
           <div className="text-center py-16">
             <div className="text-4xl mb-3">🔍</div>
-            <p className="text-zinc-200 font-semibold">No gear matches &quot;{query}&quot;. Try another search or clear the filter.</p>
+            <p className="text-zinc-200 font-semibold">{t('geargrid.noResults', 'No gear matches "{query}". Try another search or clear the filter.').replace('{query}', query)}</p>
           </div>
         )}
       </div>

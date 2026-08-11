@@ -178,6 +178,10 @@ export const gearScenarios: Record<string, string[]> = {
   'dji-mic-2-review-malaysia': ['lapel-mic-audio'],
   'dji-mini-3-pro-review-malaysia': ['drone-aerial-malaysia', 'travel-vlog-malaysia'],
   'gopro-hero-12-review-malaysia': ['gopro-chest-mount', 'insta360-action'],
+  'canon-70d-review-malaysia': ['used-camera-shop', 'gig-gala'],
+  'nikon-d7200-review-malaysia': ['used-camera-shop', 'gig-portrait'],
+  'sony-a6000-review-malaysia-second-hand': ['sony-a6100-vlog', 'gig-video'],
+  'fujifilm-x-t2-review-malaysia': ['gig-portrait', 'gig-wedding'],
 };
 
 // ===== Hero collage =====
@@ -238,6 +242,10 @@ export const images = {
     'dji-osmo-action-6-pro-review': 'https://images.unsplash.com/photo-1544348817-5f2cf14b88c8?w=960&h=640&fit=crop',
     'dji-mic-2-review-malaysia': 'https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=960&h=640&fit=crop',
     'gopro-hero-12-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/GoPro_Hero_9_Black_-_Front.jpg/960px-GoPro_Hero_9_Black_-_Front.jpg',
+    'canon-70d-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Canon_EOS_70D_03.jpg/960px-Canon_EOS_70D_03.jpg',
+    'nikon-d7200-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/2024_Nikon_D7200.jpg/960px-2024_Nikon_D7200.jpg',
+    'sony-a6000-review-malaysia-second-hand': 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Sony_a6000_with_Sony_16-50mm_lens.jpg/960px-Sony_a6000_with_Sony_16-50mm_lens.jpg',
+    'fujifilm-x-t2-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Fujifilm_X-T2_20160716a.jpg/960px-Fujifilm_X-T2_20160716a.jpg',
   },
   creators: {
     'aiman-roslan': 'photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face',
@@ -354,6 +362,11 @@ export const images = {
     'gig-edit-retouch-no-camera-malaysia': '/blog/gig-edit-retouch-no-camera-malaysia.jpg',
     'gig-jual-stock-foto-malaysia': '/blog/gig-jual-stock-foto-malaysia.jpg',
     'sewa-lensa-60d-gig-malaysia': '/blog/sewa-lensa-60d-gig-malaysia.jpg',
+    'old-dslr-era-60d-d3100-gig-payoff-malaysia': 'photo-1452780212940-6f5c0d14d848?w=1200&h=630&fit=crop',
+    '20-best-second-hand-cameras-after-60d-malaysia': 'photo-1498050108023-c5249f4df085?w=1200&h=630&fit=crop',
+    'canon-60d-50mm-f18-photography-video-malaysia': '/blog/canon-60d-50mm-f18-boleh-buat-kerja-malaysia.jpg',
+    'photography-vs-video-camera-malaysia-beginners': 'photo-1495707902641-75cac588d2e9?w=1200&h=630&fit=crop',
+    'insta360-luna-vs-dslr-photography-malaysia': 'photo-1544348817-5f2cf14b88c8?w=1200&h=630&fit=crop',
   },
   categories: {
     camera: 'photo-1452780212940-6f5c0d14d848?w=800&h=600&fit=crop',
@@ -426,6 +439,10 @@ export const gearPhotoCredits: Record<string, GearPhotoCredit> = {
   'insta360-x5-review-malaysia': { artist: 'VlaDexa', license: 'CC BY 4.0', page: 'https://commons.wikimedia.org/wiki/File:Insta360_X5.webp' },
   'iphone-17-pro-content-creation-malaysia': { artist: '茅野ふたば', license: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:IPhone_17_Pro.jpg' },
   'dji-mini-3-pro-review-malaysia': { artist: 'KKPCW（Kyu3）', license: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:DJI_Mini_3_Pro.jpg' },
+  'canon-70d-review-malaysia': { artist: 'Luke Ma', license: 'CC BY 2.0', page: 'https://commons.wikimedia.org/wiki/File:Canon_EOS_70D_03.jpg' },
+  'nikon-d7200-review-malaysia': { artist: 'Jacek Halicki', license: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:2024_Nikon_D7200.jpg' },
+  'sony-a6000-review-malaysia-second-hand': { artist: 'Akairom', license: 'CC0', page: 'https://commons.wikimedia.org/wiki/File:Sony_a6000_with_Sony_16-50mm_lens.jpg' },
+  'fujifilm-x-t2-review-malaysia': { artist: 'Focus35mm', license: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:Fujifilm_X-T2_20160716a.jpg' },
 };
 
 export function gearPhotoCredit(slug: string): GearPhotoCredit | null {

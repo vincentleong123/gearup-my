@@ -4,6 +4,8 @@ import { useMemo, useState } from 'react';
 import Link from 'next/link';
 import { articles } from '@/data/articles';
 import { blogImg } from '@/data/images';
+import { useLang } from '@/i18n/context';
+import { withLang } from '@/lib/lang';
 
 const categoryColors: Record<string, string> = {
   guide: 'bg-green-500/20 text-green-400 border-green-500/30',
@@ -26,16 +28,23 @@ const langFilters = [
   { id: 'all', label: 'All Languages' },
   { id: 'ms', label: 'Bahasa Melayu' },
   { id: 'en', label: 'English' },
+  { id: 'zh', label: '中文' },
 ] as const;
 
 type LangFilterId = (typeof langFilters)[number]['id'];
 
-const langBadge = (lang?: 'ms') =>
+const langBadge = (lang?: 'ms' | 'zh') =>
   lang === 'ms'
     ? 'bg-red-500/20 text-red-400 border-red-500/30'
+    : lang === 'zh'
+    ? 'bg-rose-500/20 text-rose-400 border-rose-500/30'
     : 'bg-zinc-700/40 text-zinc-300 border-zinc-600/40';
 
+const langLabel = (lang: 'ms' | 'zh' | undefined, t: (k: string, f: string) => string) =>
+  lang === 'ms' ? t('blog.langFilter.ms', 'Bahasa Melayu') : lang === 'zh' ? t('blog.langFilter.zh', '中文') : t('blog.langFilter.en', 'English');
+
 export default function BlogList() {
+  const { t, lang: routeLang } = useLang();
   const [filter, setFilter] = useState<FilterId>('all');
   const [lang, setLang] = useState<LangFilterId>('all');
 
@@ -52,6 +61,21 @@ export default function BlogList() {
 
   const [featured, ...rest] = list;
 
+  const filterLabels: Record<FilterId, string> = {
+    all: t('blog.filter.all', 'All'),
+    guide: t('blog.filter.guides', 'Guides'),
+    comparison: t('blog.filter.comparisons', 'Comparisons'),
+    gear: t('blog.filter.gear', 'Gear'),
+    inspiration: t('blog.filter.inspiration', 'Inspiration'),
+  };
+
+  const langFilterLabels: Record<LangFilterId, string> = {
+    all: t('blog.langFilter.all', 'All Languages'),
+    ms: t('blog.langFilter.ms', 'Bahasa Melayu'),
+    en: t('blog.langFilter.en', 'English'),
+    zh: t('blog.langFilter.zh', '中文'),
+  };
+
   return (
     <>
       {/* Filters */}
@@ -66,7 +90,7 @@ export default function BlogList() {
                 : 'bg-zinc-800/50 text-zinc-200 hover:text-white border border-zinc-700/50'
             }`}
           >
-            {f.label}
+            {filterLabels[f.id]}
           </button>
         ))}
       </div>
@@ -81,7 +105,7 @@ export default function BlogList() {
                 : 'bg-zinc-800/50 text-zinc-200 hover:text-white border border-zinc-700/50'
             }`}
           >
-            {f.label}
+            {langFilterLabels[f.id]}
           </button>
         ))}
       </div>
@@ -89,7 +113,7 @@ export default function BlogList() {
       {/* Featured */}
       {featured && (
         <Link
-          href={`/blog/${featured.slug}`}
+          href={withLang(routeLang, `/blog/${featured.slug}`)}
           className="group relative block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden mb-8 hover:border-green-500/30 hover:shadow-2xl hover:shadow-green-600/10 transition-all duration-300"
         >
           <div className="h-64 md:h-96 relative overflow-hidden bg-zinc-900">
@@ -100,16 +124,16 @@ export default function BlogList() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-900/40 to-transparent" />
             <div className="absolute top-4 left-4 flex items-center gap-2">
-              <span className="text-xs font-bold px-3 py-1 rounded-full bg-green-500 text-zinc-950 uppercase">Featured</span>
+              <span className="text-xs font-bold px-3 py-1 rounded-full bg-green-500 text-zinc-950 uppercase">{t('blog.featured', 'Featured')}</span>
               <span className={`text-xs font-bold px-3 py-1 rounded-full border uppercase backdrop-blur-sm ${categoryColors[featured.category]}`}>{featured.category}</span>
-              <span className={`text-xs font-bold px-3 py-1 rounded-full border uppercase backdrop-blur-sm ${langBadge(featured.lang)}`}>{featured.lang === 'ms' ? 'Bahasa Melayu' : 'English'}</span>
+              <span className={`text-xs font-bold px-3 py-1 rounded-full border uppercase backdrop-blur-sm ${langBadge(featured.lang)}`}>{langLabel(featured.lang, t)}</span>
             </div>
           </div>
           <div className="p-6 md:p-10 -mt-24 relative z-10">
             <div className="flex items-center gap-3 text-sm text-zinc-200 mb-3">
               <span>{featured.date}</span>
               <span>·</span>
-              <span>{featured.readTime} min read</span>
+              <span>{featured.readTime} {t('common.minRead', 'min read')}</span>
             </div>
             <h2 className="text-2xl md:text-4xl font-black group-hover:text-green-400 transition-colors mb-3 max-w-2xl">{featured.title}</h2>
             <p className="text-zinc-100 max-w-2xl leading-relaxed text-lg">{featured.description}</p>
@@ -121,7 +145,7 @@ export default function BlogList() {
         {rest.map(a => (
           <Link
             key={a.slug}
-            href={`/blog/${a.slug}`}
+            href={withLang(routeLang, `/blog/${a.slug}`)}
             className="group block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-green-500/30 hover:-translate-y-1 hover:shadow-xl hover:shadow-green-600/5 transition-all duration-300"
           >
             <div className="h-44 relative overflow-hidden bg-zinc-900">
@@ -134,14 +158,14 @@ export default function BlogList() {
               <div className="absolute inset-0 bg-gradient-to-t from-zinc-900/70 to-transparent" />
               <div className="absolute top-4 left-4 flex items-center gap-2">
                 <span className={`text-xs font-bold px-3 py-1 rounded-full border uppercase backdrop-blur-sm ${categoryColors[a.category]}`}>{a.category}</span>
-                <span className={`text-xs font-bold px-3 py-1 rounded-full border uppercase backdrop-blur-sm ${langBadge(a.lang)}`}>{a.lang === 'ms' ? 'BM' : 'EN'}</span>
+                <span className={`text-xs font-bold px-3 py-1 rounded-full border uppercase backdrop-blur-sm ${langBadge(a.lang)}`}>{a.lang === 'ms' ? 'BM' : a.lang === 'zh' ? '中文' : 'EN'}</span>
               </div>
             </div>
             <div className="p-5">
               <div className="flex items-center gap-2 mb-2 text-xs text-zinc-500">
                 <span>{a.date}</span>
                 <span>·</span>
-                <span>{a.readTime} min read</span>
+                <span>{a.readTime} {t('common.minRead', 'min read')}</span>
               </div>
               <h2 className="text-lg font-bold group-hover:text-green-400 transition-colors mb-2 line-clamp-2">{a.title}</h2>
               <p className="text-zinc-200 text-sm line-clamp-2 mb-3">{a.description}</p>
@@ -158,7 +182,7 @@ export default function BlogList() {
       {rest.length === 0 && (
         <div className="text-center py-16">
           <div className="text-4xl mb-3">📭</div>
-          <p className="text-zinc-200 font-semibold">No articles in this category yet. New ones drop every week.</p>
+          <p className="text-zinc-200 font-semibold">{t('blog.noArticles', 'No articles in this category yet. New ones drop every week.')}</p>
         </div>
       )}
 
@@ -166,13 +190,14 @@ export default function BlogList() {
         <div className="inline-flex flex-col sm:flex-row items-center gap-3 bg-zinc-900/60 border border-zinc-800 rounded-2xl px-6 py-5">
           <span className="text-2xl">📬</span>
           <p className="text-sm text-zinc-200">
-            <strong className="text-white">New review every week.</strong> Get the 2026 Gear Guide + price drop alerts free.
+            <strong className="text-white">{t('blog.cta.title', 'New review every week.')}</strong>{' '}
+            {t('blog.cta.desc', 'Get the 2026 Gear Guide + price drop alerts free.')}
           </p>
           <Link
-            href="/#gear"
+            href={withLang(routeLang, '/#gear')}
             className="px-5 py-2.5 bg-gradient-to-r from-green-500 to-emerald-600 text-zinc-950 text-sm font-bold rounded-xl hover:shadow-lg hover:shadow-green-500/25 transition-all"
           >
-            Browse Gear →
+            {t('blog.cta.browse', 'Browse Gear')} →
           </Link>
         </div>
       </div>

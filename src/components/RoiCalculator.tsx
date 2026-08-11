@@ -2,6 +2,8 @@
 
 import { useMemo, useState } from 'react';
 import Link from 'next/link';
+import { useLang } from '@/i18n/context';
+import { withLang } from '@/lib/lang';
 
 const presets = [
   { label: 'Nikon D3100', price: 450 },
@@ -54,6 +56,7 @@ function Slider({
 }
 
 export default function RoiCalculator() {
+  const { t, lang } = useLang();
   const [price, setPrice] = useState(1600);
   const [rate, setRate] = useState(300);
   const [gigs, setGigs] = useState(4);
@@ -66,20 +69,20 @@ export default function RoiCalculator() {
     let verdict: string;
     let tone: 'green' | 'amber' | 'red';
     if (months <= 1) {
-      verdict = "🔥 You'll break even within a month. Start NOW.";
+      verdict = t('calc.verdict.fire', "🔥 You'll break even within a month. Start NOW.");
       tone = 'green';
     } else if (months <= 3) {
-      verdict = "💪 Solid ROI. A few weekends of work and it's paid off.";
+      verdict = t('calc.verdict.solid', "💪 Solid ROI. A few weekends of work and it's paid off.");
       tone = 'green';
     } else if (months <= 6) {
-      verdict = "👍 Reasonable. Consistent work will make this work.";
+      verdict = t('calc.verdict.reasonable', '👍 Reasonable. Consistent work will make this work.');
       tone = 'amber';
     } else {
-      verdict = "⏳ Consider cheaper gear or raise your rates.";
+      verdict = t('calc.verdict.cheaper', '⏳ Consider cheaper gear or raise your rates.');
       tone = 'red';
     }
     return { monthly, months, gigsToBreakeven, annual, verdict, verdictTone: tone };
-  }, [price, rate, gigs]);
+  }, [price, rate, gigs, t]);
 
   const barWidth = Math.min(100, Math.round((months / 12) * 100));
   const toneStyles = {
@@ -94,17 +97,17 @@ export default function RoiCalculator() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-10">
             <div className="inline-flex items-center gap-2 bg-amber-500/10 border border-amber-500/20 rounded-full px-4 py-1.5 text-sm text-amber-400 font-semibold mb-5">
-              🧮 ROI Calculator
+              🧮 {t('calc.badge', 'ROI Calculator')}
             </div>
             <h2 className="text-3xl md:text-5xl font-black mb-4">
-              Will Your Gear <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">Pay For Itself?</span>
+              {t('calc.head', 'Will Your Gear')} <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">{t('calc.headAccent', 'Pay For Itself?')}</span>
             </h2>
-            <p className="text-zinc-200 text-lg">How many gigs will it take to break even on your gear? Calculate in Ringgit Malaysia.</p>
+            <p className="text-zinc-200 text-lg">{t('calc.desc', 'How many gigs will it take to break even on your gear? Calculate in Ringgit Malaysia.')}</p>
           </div>
 
           {/* Presets */}
           <div className="flex flex-wrap justify-center gap-2 mb-8">
-            <span className="text-xs text-zinc-500 self-center font-semibold uppercase tracking-wider mr-1">Quick pick:</span>
+            <span className="text-xs text-zinc-500 self-center font-semibold uppercase tracking-wider mr-1">{t('calc.quickPick', 'Quick pick:')}</span>
             {presets.map(p => (
               <button
                 key={p.label}
@@ -124,7 +127,7 @@ export default function RoiCalculator() {
             <div className="grid md:grid-cols-2 gap-10">
               <div className="space-y-7">
                 <Slider
-                  label="Gear Price (RM)"
+                  label={t('calc.gearPrice', 'Gear Price (RM)')}
                   value={price}
                   min={100}
                   max={6000}
@@ -134,7 +137,7 @@ export default function RoiCalculator() {
                   tint="text-amber-400"
                 />
                 <Slider
-                  label="Your Rate Per Gig (RM)"
+                  label={t('calc.ratePerGig', 'Your Rate Per Gig (RM)')}
                   value={rate}
                   min={50}
                   max={1000}
@@ -144,7 +147,7 @@ export default function RoiCalculator() {
                   tint="text-pink-400"
                 />
                 <Slider
-                  label="Gigs Per Month"
+                  label={t('calc.gigsPerMonth', 'Gigs Per Month')}
                   value={gigs}
                   min={1}
                   max={12}
@@ -156,16 +159,16 @@ export default function RoiCalculator() {
               </div>
 
               <div className="flex flex-col justify-center text-center md:border-l border-zinc-800 md:pl-10">
-                <div className={`mb-2 text-sm font-bold uppercase tracking-wider ${toneStyles.text}`}>Time to breakeven</div>
+                <div className={`mb-2 text-sm font-bold uppercase tracking-wider ${toneStyles.text}`}>{t('calc.timeToBreakeven', 'Time to breakeven')}</div>
                 <div className={`text-7xl md:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-r ${toneStyles.ring} leading-none`}>
                   {months.toFixed(1)}
                 </div>
-                <div className="text-zinc-200 mt-2 text-lg font-semibold">months</div>
+                <div className="text-zinc-200 mt-2 text-lg font-semibold">{t('calc.monthsLabel', 'months')}</div>
 
                 <div className="mt-6 space-y-2.5 text-sm text-zinc-200">
-                  <div className="flex justify-between"><span>Revenue per month</span><strong className="text-white">RM {monthly.toLocaleString()}</strong></div>
-                  <div className="flex justify-between"><span>Gigs to breakeven</span><strong className="text-white">{Math.ceil(gigsToBreakeven)} gigs</strong></div>
-                  <div className="flex justify-between"><span>Annual potential</span><strong className="text-green-400">RM {annual.toLocaleString()}</strong></div>
+                  <div className="flex justify-between"><span>{t('calc.revenueMonth', 'Revenue per month')}</span><strong className="text-white">RM {monthly.toLocaleString()}</strong></div>
+                  <div className="flex justify-between"><span>{t('calc.gigsToBreakeven', 'Gigs to breakeven')}</span><strong className="text-white">{Math.ceil(gigsToBreakeven)} {t('calc.gigsUnit', 'gigs')}</strong></div>
+                  <div className="flex justify-between"><span>{t('calc.annualPotential', 'Annual potential')}</span><strong className="text-green-400">RM {annual.toLocaleString()}</strong></div>
                 </div>
 
                 <div className="mt-5">
@@ -183,10 +186,10 @@ export default function RoiCalculator() {
                 </div>
 
                 <Link
-                  href="/blog/content-creator-gear-roi-malaysia-calculator"
+                  href={withLang(lang, '/blog/content-creator-gear-roi-malaysia-calculator')}
                   className="mt-4 text-xs text-zinc-500 hover:text-amber-300 transition-colors font-semibold"
                 >
-                  How we calculate this → read the ROI guide
+                  {t('calc.readGuide', 'How we calculate this → read the ROI guide')}
                 </Link>
               </div>
             </div>
