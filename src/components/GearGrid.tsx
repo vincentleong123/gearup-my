@@ -14,6 +14,8 @@ const fallbackImgs: Record<string, string> = {
   mobile: 'https://images.unsplash.com/photo-1598387993441-a364f854c3e1?w=800&h=600&fit=crop',
   drone: 'https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?w=800&h=600&fit=crop',
   action: 'https://images.unsplash.com/photo-1544348817-5f2cf14b88c8?w=800&h=600&fit=crop',
+  security: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&h=600&fit=crop',
+  dashcam: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800&h=600&fit=crop',
 };
 
 type SortKey = 'featured' | 'roi' | 'rating' | 'price-low' | 'price-high';

@@ -19,7 +19,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function ContactPage({ params }: Props) {
   const { lang } = await params;
 
-  const channels = [
+  interface Channel {
+    emoji: string;
+    key: string;
+    en: string;
+    d: string;
+    den: string;
+    mail?: string;
+    href?: string;
+    cta?: string;
+  }
+
+  const channels: Channel[] = [
     {
       emoji: '📬',
       key: 'contact.ads.t',
@@ -52,6 +63,23 @@ export default async function ContactPage({ params }: Props) {
       den: 'Which gear should I buy? Your questions become articles and updated reviews.',
       mail: 'hello@kameralog.com',
     },
+    {
+      emoji: '📸',
+      key: 'contact.ig.t',
+      en: 'Founder on Instagram',
+      d: 'contact.ig.d',
+      den: 'Gear shots, behind-the-scenes, and new-review alerts from the founder.',
+      href: 'https://instagram.com/cameralogue',
+      cta: '@cameralogue',
+    },
+    {
+      emoji: '✉️',
+      key: 'contact.founder.t',
+      en: 'Founder direct line',
+      d: 'contact.founder.d',
+      den: 'Prefer the founder&rsquo;s personal inbox? cameralogue@gmail.com works too.',
+      mail: 'cameralogue@gmail.com',
+    },
   ];
 
   return (
@@ -78,10 +106,12 @@ export default async function ContactPage({ params }: Props) {
                 <h2 className="text-lg font-bold mb-1"><T k={c.key} en={c.en} /></h2>
                 <p className="text-sm text-zinc-200 mb-4"><T k={c.d} en={c.den} /></p>
                 <a
-                  href={`mailto:${c.mail}`}
+                  href={c.href ?? `mailto:${c.mail}`}
+                  target={c.href ? '_blank' : undefined}
+                  rel={c.href ? 'noopener noreferrer' : undefined}
                   className="inline-flex items-center gap-2 text-sm font-bold text-pink-400 hover:text-pink-300 transition-colors"
                 >
-                  <T k="contact.emailBtn" en="Email us" /> → {c.mail}
+                  {c.href ? <T k="contact.followBtn" en="Follow on Instagram" /> : <T k="contact.emailBtn" en="Email us" />} → {c.cta ?? c.mail}
                 </a>
               </div>
             ))}

@@ -50,8 +50,16 @@ export default function Footer() {
             </div>
             <div className="space-y-3">
               <p className="text-sm text-zinc-200">
-                {t('footer.follow', "The best way to follow along is free: new reviews and price drops land here every week. Social profiles are coming soon — until then, bookmark us.")}
+                {t('footer.follow', "The best way to follow along is free: new reviews and price drops land here every week. The founder posts gear shots and behind-the-scenes on Instagram.")}
               </p>
+              <a
+                href="https://instagram.com/cameralogue"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-sm font-bold text-pink-400 hover:text-pink-300 transition-colors"
+              >
+                <span>📸</span> @cameralogue →
+              </a>
             </div>
           </div>
           {/* Trust badges */}
@@ -97,6 +105,8 @@ export default function Footer() {
               <Link href={withLang(lang, '/gear/fujifilm-x100vi-review-malaysia')} className="block text-sm text-zinc-200 hover:text-white transition-colors">Fujifilm X100VI Review</Link>
               <Link href={withLang(lang, '/gear/sony-zv-e10-review-malaysia-second-hand')} className="block text-sm text-zinc-200 hover:text-white transition-colors">Sony ZV-E10 Review</Link>
               <Link href={withLang(lang, '/gear/sony-a6100-review-malaysia-second-hand')} className="block text-sm text-zinc-200 hover:text-white transition-colors">Sony A6100 Review</Link>
+              <Link href={withLang(lang, '/gear/tapo-c210-review-malaysia')} className="block text-sm text-zinc-200 hover:text-white transition-colors">Tapo C210 Review</Link>
+              <Link href={withLang(lang, '/gear/70mai-a810-review-malaysia')} className="block text-sm text-zinc-200 hover:text-white transition-colors">70mai A810 Review</Link>
             </div>
           </div>
 
@@ -108,6 +118,8 @@ export default function Footer() {
               <Link href={withLang(lang, '/blog/camera-paid-for-part-time-gigs-malaysia')} className="block text-sm text-zinc-200 hover:text-white transition-colors">Gig-to-Gear System</Link>
               <Link href={withLang(lang, '/blog/wedding-photography-side-hustle-malaysia')} className="block text-sm text-zinc-200 hover:text-white transition-colors">Wedding Side Hustle</Link>
               <Link href={withLang(lang, '/blog/graduation-photography-malaysia-guide')} className="block text-sm text-zinc-200 hover:text-white transition-colors">Graduation Photography</Link>
+              <Link href={withLang(lang, '/blog/cctv-home-security-camera-guide-malaysia')} className="block text-sm text-cyan-400 hover:text-cyan-300 transition-colors font-medium">CCTV Buying Guide</Link>
+              <Link href={withLang(lang, '/blog/best-dashcam-malaysia-2026')} className="block text-sm text-cyan-400 hover:text-cyan-300 transition-colors font-medium">Best Dashcam 2026</Link>
             </div>
           </div>
         </div>

@@ -55,6 +55,10 @@ const gearShots = [
   shot('photo-1473580044384-7ba9967e16a0', 'Drone over water', 'Aerial = clients pay premium. Mini 4 Pro needs no license.', ['dronemalaysia', 'aerialvideo']),
   shot('photo-1598387993441-a364f854c3e1', 'Smartphone videography', 'The best camera is the one in your pocket.', ['phonevideography', 'mobilecontent']),
   shot('photo-1498050108023-c5249f4df085', 'Electronics workbench', 'Checking a used camera before you pay.', ['usedcamera', 'gearcheck']),
+  shot('photo-1517245386807-bb43f82c33c4', 'Home security camera', 'A RM79 indoor cam watches your shop while you sleep.', ['homesecurity', 'cctv']),
+  shot('photo-1560518883-ce09059eeffa', 'Modern home exterior', 'Landed property owners in Malaysia buy CCTV by the set.', ['securitycameras', 'homeoutdoor']),
+  shot('photo-1449965408869-eaa3f722e40d', 'Driving on a highway', 'Dashcam footage settles the claims photos cannot.', ['dashcam', 'driving']),
+  shot('photo-1553440569-bcc63803a83d', 'Car interior and dashboard', '4K front cams read plates at night — the whole point.', ['cardashboard', 'dashcam']),
 ];
 
 // ==== Gig themes ====
@@ -233,6 +237,24 @@ const articleTheme: Record<string, CuratedShot[]> = {
   'insta360-luna-vs-dslr-photography-malaysia': [
     gearShots[5], gearShots[2], gigShots.video[0], people[8],
   ],
+  'cctv-home-security-camera-guide-malaysia': [
+    gearShots[9], gigShots.realestate[0], gearShots[10], people[21],
+  ],
+  'best-dashcam-malaysia-2026': [
+    gearShots[11], people[8], gearShots[12], gigShots.video[0],
+  ],
+  'cctv-installer-gig-side-hustle-malaysia': [
+    gearShots[9], people[6], gigShots.realestate[1], gearShots[10],
+  ],
+  'tapo-c210-vs-c220-malaysia': [
+    gearShots[9], people[20], gearShots[9], gearShots[10],
+  ],
+  '70mai-a810-vs-a500s-dashcam-malaysia': [
+    gearShots[11], gearShots[12], people[8], gearShots[11],
+  ],
+  'cctv-vs-dashcam-malaysia': [
+    gearShots[9], gearShots[11], gearShots[10], gearShots[12],
+  ],
 };
 
 // ==== Curated breaks for gear Full Reviews ====
@@ -241,7 +263,7 @@ const gearTheme: Record<string, CuratedShot[]> = {
     gearShots[0], people[6], gearShots[2], people[8],
   ],
   'sony-a6100-review-malaysia-second-hand': [
-    gearShots[1], people[1], gearShots[2], gigShots.video[1],
+    gearShots[1], gearShots[2], gearShots[3], gigShots.video[1],
   ],
   'iphone-15-content-creation-malaysia': [
     gearShots[7], people[3], people[5], gigShots.food[1],
@@ -295,7 +317,7 @@ const gearTheme: Record<string, CuratedShot[]> = {
     gearShots[1], people[20], gearShots[0], gigShots.video[0],
   ],
   'sony-a6700-review-malaysia': [
-    gearShots[1], people[1], gearShots[2], gigShots.video[1],
+    gearShots[1], gearShots[2], gearShots[3], gigShots.video[1],
   ],
   'nikon-z50-ii-review-malaysia': [
     gearShots[1], people[19], gearShots[0], people[16],
@@ -332,6 +354,39 @@ const gearTheme: Record<string, CuratedShot[]> = {
   ],
   'fujifilm-x-t2-review-malaysia': [
     gearShots[1], gigShots.wedding[0], people[20], gearShots[0],
+  ],
+  'tapo-c210-review-malaysia': [
+    gearShots[9], gigShots.realestate[1], people[20], gearShots[9],
+  ],
+  'tapo-c220-review-malaysia': [
+    gearShots[9], people[6], gearShots[10], gigShots.realestate[0],
+  ],
+  'imou-ranger-2-pro-review-malaysia': [
+    gearShots[10], gearShots[9], gigShots.realestate[1], people[18],
+  ],
+  'ezviz-c8w-review-malaysia': [
+    gearShots[9], gigShots.realestate[0], gearShots[10], people[21],
+  ],
+  'tapo-c120-review-malaysia': [
+    gearShots[10], gearShots[9], gigShots.realestate[1], people[8],
+  ],
+  'hikvision-ds-2cd1023-review-malaysia': [
+    gearShots[9], people[4], gigShots.realestate[0], gearShots[10],
+  ],
+  '70mai-a810-review-malaysia': [
+    gearShots[11], people[8], gearShots[12], gigShots.video[0],
+  ],
+  'viofo-a229-pro-review-malaysia': [
+    gearShots[12], people[6], gearShots[11], gigShots.video[1],
+  ],
+  'ddpai-x5-pro-review-malaysia': [
+    gearShots[11], gearShots[12], people[20], gigShots.video[0],
+  ],
+  '70mai-a500s-review-malaysia': [
+    gearShots[11], people[3], gearShots[12], people[8],
+  ],
+  '70mai-m300-review-malaysia': [
+    gearShots[11], people[5], gearShots[12], people[6],
   ],
 };
 

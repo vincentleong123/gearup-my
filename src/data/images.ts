@@ -136,6 +136,18 @@ export const scenarioRefs: Record<string, string[]> = {
     'photo-1446776877081-d282a0f896e2?w=800&h=600&fit=crop',        // aerial earth
     'photo-1527977966376-1c8408f9f108?w=800&h=600&fit=crop',        // drone against sky
   ],
+  'cctv-home-security': [
+    'photo-1517245386807-bb43f82c33c4?w=800&h=600&fit=crop',        // CCTV security camera
+    'photo-1560518883-ce09059eeffa?w=800&h=600&fit=crop',           // modern house exterior
+    'photo-1512917774080-9991f1c4c750?w=800&h=600&fit=crop',        // house exterior
+    'photo-1521618755572-156ae0cdd74d?w=800&h=600&fit=crop',        // city night surveillance
+  ],
+  'dashcam-driving': [
+    'photo-1449965408869-eaa3f722e40d?w=800&h=600&fit=crop',        // driving highway
+    'photo-1502877338535-766e1452684a?w=800&h=600&fit=crop',        // car on road
+    'photo-1502161254066-6c74afbf07aa?w=800&h=600&fit=crop',        // steering wheel
+    'photo-1553440569-bcc63803a83d?w=800&h=600&fit=crop',           // car interior
+  ],
 };
 
 // For each gear slug, map to the relevant scenario keys
@@ -182,6 +194,17 @@ export const gearScenarios: Record<string, string[]> = {
   'nikon-d7200-review-malaysia': ['used-camera-shop', 'gig-portrait'],
   'sony-a6000-review-malaysia-second-hand': ['sony-a6100-vlog', 'gig-video'],
   'fujifilm-x-t2-review-malaysia': ['gig-portrait', 'gig-wedding'],
+  'tapo-c210-review-malaysia': ['cctv-home-security'],
+  'tapo-c220-review-malaysia': ['cctv-home-security'],
+  'imou-ranger-2-pro-review-malaysia': ['cctv-home-security'],
+  'ezviz-c8w-review-malaysia': ['cctv-home-security'],
+  'tapo-c120-review-malaysia': ['cctv-home-security'],
+  'hikvision-ds-2cd1023-review-malaysia': ['cctv-home-security'],
+  '70mai-a810-review-malaysia': ['dashcam-driving'],
+  'viofo-a229-pro-review-malaysia': ['dashcam-driving'],
+  'ddpai-x5-pro-review-malaysia': ['dashcam-driving'],
+  '70mai-a500s-review-malaysia': ['dashcam-driving'],
+  '70mai-m300-review-malaysia': ['dashcam-driving'],
 };
 
 // ===== Hero collage =====
@@ -246,6 +269,17 @@ export const images = {
     'nikon-d7200-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/2024_Nikon_D7200.jpg/960px-2024_Nikon_D7200.jpg',
     'sony-a6000-review-malaysia-second-hand': 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Sony_a6000_with_Sony_16-50mm_lens.jpg/960px-Sony_a6000_with_Sony_16-50mm_lens.jpg',
     'fujifilm-x-t2-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Fujifilm_X-T2_20160716a.jpg/960px-Fujifilm_X-T2_20160716a.jpg',
+    'tapo-c210-review-malaysia': 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=960&h=640&fit=crop',
+    'tapo-c220-review-malaysia': 'https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=960&h=640&fit=crop',
+    'imou-ranger-2-pro-review-malaysia': 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=960&h=640&fit=crop',
+    'ezviz-c8w-review-malaysia': 'https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=960&h=640&fit=crop',
+    'tapo-c120-review-malaysia': 'https://images.unsplash.com/photo-1567581935884-3349723552ca?w=960&h=640&fit=crop',
+    'hikvision-ds-2cd1023-review-malaysia': 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=960&h=640&fit=crop',
+    '70mai-a810-review-malaysia': 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=960&h=640&fit=crop',
+    'viofo-a229-pro-review-malaysia': 'https://images.unsplash.com/photo-1553440569-bcc63803a83d?w=960&h=640&fit=crop',
+    'ddpai-x5-pro-review-malaysia': 'https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=960&h=640&fit=crop',
+    '70mai-a500s-review-malaysia': 'https://images.unsplash.com/photo-1502877338535-766e1452684a?w=960&h=640&fit=crop',
+    '70mai-m300-review-malaysia': 'https://images.unsplash.com/photo-1542362567-b07e54358753?w=960&h=640&fit=crop',
   },
   creators: {
     'aiman-roslan': 'photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face',
@@ -367,6 +401,12 @@ export const images = {
     'canon-60d-50mm-f18-photography-video-malaysia': '/blog/canon-60d-50mm-f18-boleh-buat-kerja-malaysia.jpg',
     'photography-vs-video-camera-malaysia-beginners': 'photo-1495707902641-75cac588d2e9?w=1200&h=630&fit=crop',
     'insta360-luna-vs-dslr-photography-malaysia': 'photo-1544348817-5f2cf14b88c8?w=1200&h=630&fit=crop',
+    'cctv-home-security-camera-guide-malaysia': 'photo-1517245386807-bb43f82c33c4?w=1200&h=630&fit=crop',
+    'best-dashcam-malaysia-2026': 'photo-1449965408869-eaa3f722e40d?w=1200&h=630&fit=crop',
+    'cctv-installer-gig-side-hustle-malaysia': 'photo-1560518883-ce09059eeffa?w=1200&h=630&fit=crop',
+    'tapo-c210-vs-c220-malaysia': 'photo-1557597774-9d273605dfa9?w=1200&h=630&fit=crop',
+    '70mai-a810-vs-a500s-dashcam-malaysia': 'photo-1553440569-bcc63803a83d?w=1200&h=630&fit=crop',
+    'cctv-vs-dashcam-malaysia': 'photo-1512917774080-9991f1c4c750?w=1200&h=630&fit=crop',
   },
   categories: {
     camera: 'photo-1452780212940-6f5c0d14d848?w=800&h=600&fit=crop',
@@ -374,6 +414,8 @@ export const images = {
     drone: 'photo-1473580044384-7ba9967e16a0?w=800&h=600&fit=crop',
     action: 'photo-1544348817-5f2cf14b88c8?w=800&h=600&fit=crop',
     audio: 'photo-1478737270239-2f02b77fc618?w=800&h=600&fit=crop',
+    security: 'photo-1517245386807-bb43f82c33c4?w=800&h=600&fit=crop',
+    dashcam: 'photo-1449965408869-eaa3f722e40d?w=800&h=600&fit=crop',
   },
   hero: '/v2_look_viewer_hero.jpg',
   cta: 'photo-1554224155-8d04cb21cd6c?w=1920&h=800&fit=crop',
@@ -515,6 +557,8 @@ const scenarioLabels: Record<string, string> = {
   'gig-corporate': 'Corporate & Conferences',
   'gig-photobooth': 'Photo Booths & Events',
   'gig-drone': 'Aerial Drone Shoots',
+  'cctv-home-security': 'Home Security & CCTV',
+  'dashcam-driving': 'Dashcam & Driving',
 };
 
 // ===== Gig imagery =====

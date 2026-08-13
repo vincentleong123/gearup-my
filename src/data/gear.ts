@@ -1,7 +1,7 @@
 export interface GearItem {
   slug: string;
   name: string;
-  category: 'camera' | 'mobile' | 'drone' | 'action' | 'audio';
+  category: 'camera' | 'mobile' | 'drone' | 'action' | 'audio' | 'security' | 'dashcam';
   priceNew: number;
   priceUsed: number;
   type: string;
@@ -1793,6 +1793,451 @@ Pre-wedding sessions pay RM500–1,500 and portrait sessions pay RM150–400 in 
     usedTip: 'Check shutter count under 80k, test all dials, inspect weather seals, check sensor dust at f/16, shoot 4K for 10min to test thermals',
     creatorUses: [],
   },
+  {
+    slug: 'tapo-c210-review-malaysia',
+    name: 'TP-Link Tapo C210',
+    category: 'security',
+    priceNew: 89,
+    priceUsed: 60,
+    type: 'Indoor Pan/Tilt Wi-Fi Camera',
+    sensor: '2MP 1/2.9" CMOS',
+    video: '1080p Full HD @ 15fps',
+    weight: '346g',
+    rating: 4.3,
+    roiScore: 91,
+    level: 'beginner',
+    excerpt: 'The Tapo C210 is the RM79-89 indoor security camera that watches your shop, studio or home while you sleep. Pan/tilt, two-way audio, SD card storage and a real app — the cheapest peace of mind in Malaysia.',
+    content: `The TP-Link Tapo C210 is the camera that Malaysia's shopkeepers, landlords and studio owners all end up buying. At RM79-89 new on Shopee and Lazada — and RM50-70 used on Mudah — it is the entry point to home security that actually works.
+
+**What you get:**
+- 360° pan and 114° tilt with the phone app — sweep your whole shop from anywhere
+- 1080p Full HD with infrared night vision up to 9 metres
+- Two-way audio — talk to staff, warn off loiterers, say hi to the cat
+- Motion and sound alerts straight to your phone
+- Local microSD card storage (up to 256GB) — no cloud subscription needed
+- 24/7 continuous or motion-triggered recording
+
+**For content creators, it is a second job:**
+- Point it at your desk and you have a 24/7 studio monitoring cam
+- Use it as a safety net while filming — one eye on the phone, one on the gear
+- Timelapse mode for content b-roll of your workspace
+- If you run a small studio, shop or co-working space, one C210 is cheaper than one month of break-in losses
+
+**Gray import warning:** TP-Link is one of the few brands where Malaysia officially sells the same model as the gray import. Tapo's local warranty is handled by the official distributor. If the price on Shopee is a few ringgit cheaper from a gray import seller, you lose the local warranty claim for about RM15-20 savings. Not worth it.
+
+**Where to buy:** RM79-95 new on Shopee/Lazada official stores (frequent flash sales below RM75), RM50-70 used on Mudah and Carousell. During 11.11 and payday sales the official store routinely drops to RM69.
+
+**Install in 10 minutes:** plug in, download the Tapo app, scan the QR code, name the camera, stick it on a shelf or mount it on the ceiling bracket. No electrician needed for indoor units.
+
+**Who should buy:** first-time security buyers, studio and shop owners on a budget, anyone who wants remote eyes on their home. **Who should skip:** outdoor needs (buy the C220 or a weatherproof model) and anyone who needs 4MP+ detail for number plates or faces at distance.`,
+    roiDesc: 'RM89 new. One month of break-in/asset protection can cover it. Also doubles as a 24/7 studio monitoring cam and timelapse tool.',
+    pros: ['Cheapest reliable indoor cam in MY market', 'Real pan/tilt coverage', 'SD card storage, no subscription', 'Two-way audio', 'Rock-solid Tapo app'],
+    cons: ['1080p only (no 2K detail)', '2.4GHz Wi-Fi only', 'Indoor only — not weatherproof', '15fps is basic'],
+    usedTip: 'Test the pan/tilt motor from the app, reset to factory, check the SD card slot reads a 128GB card, offer RM50 cash',
+    creatorUses: [],
+  },
+  {
+    slug: 'tapo-c220-review-malaysia',
+    name: 'TP-Link Tapo C220',
+    category: 'security',
+    priceNew: 119,
+    priceUsed: 80,
+    type: 'Indoor Pan/Tilt 2K Camera',
+    sensor: '3MP 1/2.7" CMOS',
+    video: '2K QHD @ 20fps',
+    weight: '360g',
+    rating: 4.4,
+    roiScore: 89,
+    level: 'beginner',
+    excerpt: 'The Tapo C220 upgrades the C210 to 2K resolution with better night vision — RM109-129 new. When you need to read a face or a label across the room, this is the RM30 upgrade that pays.',
+    content: `The TP-Link Tapo C220 is what you buy when the C210's 1080p just is not sharp enough. For roughly RM30 more (RM109-129 new, RM70-90 used), you get a 2K sensor, brighter night vision and the same bulletproof Tapo app.
+
+**What upgrades over the C210:**
+- 2K QHD resolution (3MP) — actually read a face, a car plate or a product label
+- 360° pan and 114° tilt, same as the C210
+- Color night vision under dim light plus IR for total darkness
+- 24/7 recording to microSD up to 512GB
+- Motion, sound and person detection alerts
+
+**Why creators buy it:** if you film product close-ups or review items in a small studio, the 2K sensor pulls detail that 1080p loses — and a second-hand C220 makes a great cheap overhead camera for top-down shots. It is also the most common camera in Malaysian vape shops and clinics, which means resale demand is steady.
+
+**The RM30 question:** C210 or C220? If the camera watches a whole room from across the way, spend the extra RM30 for the 2K — faces at 3+ metres are blurry on the C210. If it is watching a single door or counter up close, the C210 is fine and saves money.
+
+**Gray import warning:** same as the C210 — buy from the official Tapo store or an authorized seller to keep the local warranty. The gray import discount is rarely more than RM15, and an RMA fight over a RM119 camera is not worth anyone's Saturday.
+
+**Who should buy:** anyone upgrading from a 1080p cam for sharper detail, small shops and clinics, creators wanting a cheap 2K overhead cam. **Who should skip:** outdoor mounting — get the C120 or a weatherproof model instead.`,
+    roiDesc: 'RM119 new. The 2K detail upgrade for under RM30 is the best value jump in the Tapo line. Doubles as a 2K overhead content camera.',
+    pros: ['Real 2K detail for faces and labels', 'Better color night vision', 'Pan/tilt + person alerts', 'SD card storage, no subscription', 'Same proven Tapo app'],
+    cons: ['Indoor only', '2.4GHz Wi-Fi only', '20fps tops', 'No built-in siren'],
+    usedTip: 'Verify the camera firmware updates to the latest Tapo version, test 2K recording to a 256GB card, check the pan motor, offer RM70 cash',
+    creatorUses: [],
+  },
+  {
+    slug: 'imou-ranger-2-pro-review-malaysia',
+    name: 'Imou Ranger 2 Pro',
+    category: 'security',
+    priceNew: 159,
+    priceUsed: 110,
+    type: 'Outdoor Wi-Fi Camera 5MP',
+    sensor: '5MP 1/2.7" CMOS',
+    video: '2K QHD @ 25fps',
+    weight: '620g',
+    rating: 4.4,
+    roiScore: 90,
+    level: 'mid',
+    excerpt: 'The Imou Ranger 2 Pro is the RM149-179 outdoor camera for Malaysian homes — 5MP detail, human detection, siren and siren-and-light deterrents, all weatherproof. The best first outdoor camera for landed property.',
+    content: `When you move from an indoor camera to watching the porch, the driveway or the back lane, the Imou Ranger 2 Pro is where most Malaysian buyers land. At RM149-179 new and RM100-130 used, it packs 5MP detail, human detection and an actual siren — deterrent features the budget Tapo units skip.
+
+**What you get:**
+- 5MP sensor with 2K QHD video @ 25fps — sharper than any 2MP outdoor cam
+- IP65 weatherproof — built for Malaysian sun, rain and humidity
+- Human shape detection (ignores dogs, leaves and shadows) with smart alerts
+- Siren + flashing light activated on detection — real deterrent
+- Two-way audio with noise reduction
+- microSD storage (up to 512GB) plus optional Imou cloud
+- 10m IR night vision
+
+**Why it matters for creators:** a camera with actual deterrent features makes better content too — unboxing, install, and "night security test" videos are a genuine niche on YouTube, and the Ranger 2 Pro is a popular enough product that search traffic comes with it.
+
+**Where to buy:** RM149-189 on Shopee/Lazada Imou official stores, RM100-140 used on Mudah and Carousell from people upgrading to 4MP+ NVR kits. Imou runs regular flash sales under RM145.
+
+**Install tips for Malaysian houses:**
+- Mount under the roof eave so rain does not hit the lens
+- Angle it at the gate line, not the wall — you want faces as they approach
+- Run the cable back to a covered 5V USB socket; use the included mount screws on brick with a masonry bit
+- Keep it under the roofline to avoid direct glare from security lights
+
+**Gray import warning:** Imou has official Malaysian distributors, but the market is flooded with gray imports at near-identical prices. Buy from the official Imou store or a listed authorized seller — the local warranty matters because outdoor units take weather abuse.
+
+**Who should buy:** homeowners on landed property, shopfront owners, anyone upgrading from an indoor cam to outdoor coverage. **Who should skip:** 4-camera+ property setups — an NVR kit works out cheaper per camera than four Ranger 2 Pros.`,
+    roiDesc: 'RM159 new. Real deterrent features (siren + light) plus 5MP detail. One attempted-break-in avoided pays for ten of these.',
+    pros: ['5MP sharpest in its price class', 'IP65 weatherproof', 'Human detection + siren deterrent', 'Two-way audio', 'Good app with person alerts'],
+    cons: ['Wi-Fi only — no PoE for hardline', '2.4GHz only', 'Cloud subscription optional but pushed', 'Mounting bracket is basic'],
+    usedTip: 'Check the IP seals around the cable gland, test the siren, confirm the camera holds Wi-Fi connection outdoors, offer RM100 cash',
+    creatorUses: [],
+  },
+  {
+    slug: 'ezviz-c8w-review-malaysia',
+    name: 'EZVIZ C8W',
+    category: 'security',
+    priceNew: 189,
+    priceUsed: 130,
+    type: 'Outdoor Pan/Tilt 2K Camera',
+    sensor: '4MP 1/2.7" CMOS',
+    video: '2K+ @ 25fps',
+    weight: '720g',
+    rating: 4.3,
+    roiScore: 86,
+    level: 'mid',
+    excerpt: 'The EZVIZ C8W gives you outdoor coverage WITH pan and tilt — 2K+ video, IP65 weatherproofing and 340° rotation. RM179-209 new. The camera for a yard you want to scan, not just watch.',
+    content: `The EZVIZ C8W is the answer to one specific problem: your outdoor camera only looks one direction, and you want to sweep the whole yard. With 340° horizontal pan and 90° vertical tilt on an outdoor, weatherproof body, it is the RM179-209 outdoor PTZ that Malaysian landed homeowners actually buy.
+
+**What you get:**
+- 4MP 2K+ video @ 25fps
+- 340° pan / 90° tilt — sweep gate to garden from the app
+- IP65 weatherproof, built for outdoors
+- Active Deterrence siren + spotlights on the newer firmware
+- Human shape detection with smart motion tracking — it follows the subject
+- microSD storage up to 256GB or EZVIZ cloud
+- Two-way audio
+
+**Smart tracking is the selling point:** when a person walks across your yard, the camera rotates to follow them and records the whole path — not just the 10 seconds they were in frame. For a driveway or garden, that is the difference between a clip and an answer.
+
+**Who it is for:** landed homes with a visible perimeter, back lanes, construction sites, and small compound businesses. **Who should skip:** covered porches that only need one fixed angle (buy the cheaper fixed outdoor cams) and anyone who wants hardline PoE power (go EZVIZ CS-C3N or an NVR kit).
+
+**Where to buy:** RM179-239 new on Shopee/Lazada, RM120-160 used on Mudah and Carousell. EZVIZ is well distributed in Malaysia — check the official store for warranty.
+
+**Gray import note:** EZVIZ cloud features (person detection, cloud storage) are region-locked in places; buy a Malaysian-market unit or cloud features may default to the Chinese server and run slower. Worth the official-store price.
+
+**Creators:** the PTZ tracking footage makes excellent demo and comparison content, and EZVIZ is a big search brand — review traffic is steady.`,
+    roiDesc: 'RM189 new. Outdoor PTZ with subject tracking — the only camera that follows a threat across your whole yard.',
+    pros: ['Outdoor pan/tilt coverage', 'Smart tracking follows subjects', '2K+ 4MP detail', 'IP65 weatherproof', 'Active Deterrence siren'],
+    cons: ['Cloud storage region quirks', 'Heavier — needs a solid mount', 'App nagware for subscriptions', '2.4GHz Wi-Fi only'],
+    usedTip: 'Test the pan/tilt sweep end-to-end, verify it is a Malaysian-market unit, check the weather seals, offer RM130 cash',
+    creatorUses: [],
+  },
+  {
+    slug: 'tapo-c120-review-malaysia',
+    name: 'TP-Link Tapo C120',
+    category: 'security',
+    priceNew: 79,
+    priceUsed: 55,
+    type: 'Outdoor Mini 2K Camera',
+    sensor: '3MP 1/2.8" CMOS',
+    video: '2K QHD @ 15fps',
+    weight: '390g',
+    rating: 4.2,
+    roiScore: 88,
+    level: 'beginner',
+    excerpt: 'The Tapo C120 is the cheapest weatherproof outdoor camera in Malaysia — RM69-89, 2K video, IP66 rain rating and SD storage. Three of these watch a whole house for under RM250.',
+    content: `If the Imou Ranger 2 Pro is the "proper" outdoor camera, the Tapo C120 is the budget one that gets the same job done for RM69-89. It is IP66 weatherproof, shoots 2K, records to a microSD card and uses the same excellent Tapo app — no subscription required.
+
+**What you get:**
+- 2K QHD 3MP video
+- IP66 weatherproof — rated for rain and dust, built for the Malaysian climate
+- 12m color night vision (starlight sensor)
+- Motion detection with person alerts
+- microSD storage up to 256GB
+- Two-way audio on the C120 model
+
+**The three-camera house for RM250:** the classic C120 setup is three units — front gate, back door, driveway. Under RM250 total, all recorded locally, all watched from one app. That is the cheapest complete outdoor security install in Malaysia, full stop.
+
+**Why the C120 over a pricier cam:** it is not as sharp as the 5MP Ranger 2 Pro and it has no siren or pan/tilt. But for a fixed-angle watch on a door or gate, the extra RM80-100 buys features you will not use. Buy the feature you need, not the biggest number on the box.
+
+**Where to buy:** RM69-95 new on Shopee/Lazada official stores (payday sales hit RM69), RM45-65 used on Mudah and Carousell.
+
+**Install:** the C120 comes with a wall bracket and screws. It needs a power socket nearby — a 5V USB adapter in a waterproof junction box, or the indoor-to-outdoor version includes a longer cable. Mount it under the eave, angled at the approach path.
+
+**Gray import warning:** same TP-Link story — local warranty only through official/authorized sellers. The saving on a gray import is small and the RMA headache is big.
+
+**Who should buy:** budget-first homeowners wanting outdoor coverage on three points, renters who cannot drill walls (double-sided mount works indoors), anyone building a multi-cam house on a tight budget.`,
+    roiDesc: 'RM79 new. The cheapest weatherproof outdoor camera — three-camera house coverage for under RM250.',
+    pros: ['Cheapest IP66 outdoor cam in MY', '2K detail', 'Local SD storage, no subscription', 'Tapo app reliability', '12m color night vision'],
+    cons: ['15fps only', 'No pan/tilt, no siren', 'Fixed angle mount', '2.4GHz Wi-Fi only'],
+    usedTip: 'Check the IP66 seals, test in the rain for a day before trusting it, verify the microSD slot works, offer RM50 cash',
+    creatorUses: [],
+  },
+  {
+    slug: 'hikvision-ds-2cd1023-review-malaysia',
+    name: 'Hikvision DS-2CD1023G0E-I',
+    category: 'security',
+    priceNew: 119,
+    priceUsed: 80,
+    type: 'Outdoor 1080p Bullet Camera',
+    sensor: '2MP 1/2.7" CMOS',
+    video: '1080p @ 25fps',
+    weight: '480g',
+    rating: 4.1,
+    roiScore: 84,
+    level: 'mid',
+    excerpt: 'Hikvision is the name on every shop CCTV in Malaysia. The DS-2CD1023G0E-I is the RM109-129 entry bullet camera that plugs into a DVR — for shop owners who already have a recorder and want more eyes.',
+    content: `Hikvision owns the Malaysian shop-CCTV market. If you walk into any pasar malam stall, clinic or workshop, the camera watching you is usually Hikvision recording into a DVR. The DS-2CD1023G0E-I is the entry bullet in that line — a 1080p outdoor camera designed to be a drop-in replacement or an extra eye on an existing Hikvision DVR system.
+
+**What it is:**
+- 2MP 1080p @ 25fps — smooth, DVR-compatible footage
+- IP67 weatherproof bullet body
+- 30m IR night vision
+- 2.8mm wide lens for a full coverage angle
+- Hardline: plugs into a DVR/NVR via PoE or 12V — no Wi-Fi, no app subscription
+- Works with the Hik-Connect app if the DVR is online
+
+**Who buys it:** shop owners who already run a Hikvision DVR kit and want to add a camera to the covered area or back room. Because it joins the existing recorder, the new camera costs nothing in monthly fees and shows up in the same app as the rest.
+
+**Why not for everyone:** it needs a DVR or NVR to record — there is no SD card slot. If you do not already own a Hikvision recorder, the Wi-Fi Tapo and Imou cameras are simpler and cheaper to set up. Buy this one when you are growing an existing system.
+
+**The creator angle:** surveillance footage with a proper DVR is what shop-security content is made of, and Hikvision is the search term Malaysian business owners actually type. Installation gigs for "add camera to existing DVR" pay RM80-150 per point.
+
+**Where to buy:** RM109-139 new on Shopee/Lazada (many gray imports — verify the seller), RM70-100 used on Mudah from closed shops selling off full systems.
+
+**Gray import warning:** Hikvision is heavy on gray imports in Malaysia and region-locked firmware is a real problem — a unit meant for another country may not pair with a local Hik-Connect account. Buy from a listed distributor.
+
+**Who should buy:** shop owners growing an existing Hikvision system, tech owners who want hardline reliability over Wi-Fi. **Who should skip:** first-time buyers with no DVR — get a Tapo or Imou instead.`,
+    roiDesc: 'RM119 new. Adds another eye to an existing DVR system for under RM120 — the cheapest "grow your system" camera in Malaysia.',
+    pros: ['Joins existing Hikvision DVR systems', 'IP67 bullet build', '30m IR night vision', 'Hardline reliability', 'Smooth 25fps footage'],
+    cons: ['No SD slot — needs a DVR/NVR', '1080p only', 'No Wi-Fi version of this model', 'Gray import firmware risks'],
+    usedTip: 'Test it on a DVR before buying, check the firmware region, verify the PoE port works, offer RM75 cash',
+    creatorUses: [],
+  },
+  {
+    slug: '70mai-a810-review-malaysia',
+    name: '70mai A810',
+    category: 'dashcam',
+    priceNew: 449,
+    priceUsed: 300,
+    type: '4K Front Dashcam',
+    sensor: '8MP Sony IMX678',
+    video: '4K @ 30fps',
+    weight: '118g',
+    rating: 4.5,
+    roiScore: 90,
+    level: 'mid',
+    excerpt: 'The 70mai A810 is Malaysia\'s default 4K dashcam — RM429-499 new, Sony STARVIS 2 sensor, 4K 30fps and a huge install base. When an accident happens, this is the footage that decides the insurance claim.',
+    content: `The 70mai A810 is the dashcam every Malaysian car reviewer and most serious drivers install. It is the best-selling 4K front dashcam in the country for a simple reason: it records plate-level detail in the dark, which is exactly when Malaysian accidents happen.
+
+**Why the A810 specifically:**
+- 8MP Sony IMX678 STARVIS 2 sensor — exceptional low-light detail at night
+- 4K 30fps front recording
+- Smart Parking Mode with 70mai hardwire kit — watches while parked
+- 5GHz + 2.4GHz Wi-Fi for fast phone transfer
+- ADAS driver assistance alerts (lane departure, forward collision)
+- Front camera only; add the RC12 rear cam for dual-channel
+
+**What makes the Sony IMX678 special:** the A810 uses the same sensor class as the top VIOFO and Thinkware units but at half the price. In the 7pm KL rain with headlights glaring, the A810 still reads number plates. That is the entire point of a dashcam.
+
+**Insurance reality in Malaysia:** when a hit-and-run or a disputed accident happens, police reports and insurance claims rely on evidence. A dashcam clip converts a "he said, she said" into a closed file. The RM449 camera routinely saves owners RM5,000-20,000 in disputed claims and repair fights.
+
+**For creators:** dashcam footage is a real content niche — near-miss compilations, road-trip timelapses, accident analysis. The A810's 4K quality holds up for YouTube; the rear RC12 module lets you record a full cockpit-and-road view.
+
+**Where to buy:** RM429-499 new on Shopee/Lazada 70mai stores (flash sales under RM420), RM280-330 used on Mudah and Carousell. The A810 is heavily gray-imported — buy from official/authorized stores for local warranty and Malaysian maps support.
+
+**Setup note:** hardwire it to the fuse box with the 70mai kit for parking mode; running it off the lighter socket is fine but the camera stops recording when the car is off.
+
+**Who should buy:** daily drivers, highway commuters, anyone who has been in a disputed accident. **Who should skip:** budget-first buyers — the A500S or M300 covers the basics for less.`,
+    roiDesc: 'RM449 new. Night footage that reads plates decides insurance claims — RM5,000+ of protection for the price of one claim argument.',
+    pros: ['Sony STARVIS 2 low-light king', '4K 30fps', 'Smart parking mode', '5GHz fast Wi-Fi', 'Huge install base = real resale market'],
+    cons: ['Front only (rear cam extra)', 'ADAS alerts can be chatty', 'Gray import market is deep', 'No built-in GPS in base model'],
+    usedTip: 'Test night footage on a plate at 10m, verify 4K recording to a high-endurance card, check the mount is tight, offer RM300 cash',
+    creatorUses: [],
+  },
+  {
+    slug: 'viofo-a229-pro-review-malaysia',
+    name: 'VIOFO A229 Pro',
+    category: 'dashcam',
+    priceNew: 899,
+    priceUsed: 620,
+    type: '4K Front + 2K Rear Dashcam',
+    sensor: '8MP Sony IMX678 + IMX675',
+    video: '4K @ 30fps + 2K rear',
+    weight: '135g',
+    rating: 4.6,
+    roiScore: 85,
+    level: 'pro',
+    excerpt: 'The VIOFO A229 Pro is the best dual-channel dashcam you can buy in Malaysia — 4K front, 2K rear, Sony STARVIS 2 sensors and a supercapacitor that survives Malaysian heat. RM849-949 new, worth it for serious drivers.',
+    content: `The VIOFO A229 Pro is what Malaysian owners buy when they stop asking "what is a good dashcam" and start asking "what is the best dashcam." It records 4K in front and 2K behind, uses Sony STARVIS 2 sensors both ends, and survives the one thing that kills budget dashcams here: the heat in a parked car.
+
+**Why it is the best:**
+- 4K 30fps front + 2K rear — both channels read plates
+- Sony IMX678 (front) + IMX675 (rear) STARVIS 2 sensors
+- Supercapacitor instead of a lithium battery — it does not bulge or die in a hot car
+- Buffered parking mode with low-bitrate recording
+- Built-in GPS logging (speed, route) for evidence
+- Dual-band Wi-Fi, 5GHz for fast transfers
+- 3-way mount with polarization filter
+
+**The supercapacitor is the killer feature:** a dashcam left in a Malaysian car in March hits 60-70°C inside. Lithium-battery dashcams degrade, bulge and die. The A229 Pro uses a supercapacitor that handles heat without expanding — it is the reason serious buyers pay the premium.
+
+**Evidence quality:** with GPS speed and location burned into the footage plus a CPL filter killing windshield glare, the A229 Pro produces the most airtight accident evidence of any dashcam commonly sold here. For drivers who value a clean insurance fight, it pays for itself the first time it is needed.
+
+**For creators:** dual-channel cockpit footage (front + cabin with the optional third channel) is what car-YouTubers and vloggers shoot. The A229 Pro's 4K front footage is genuinely publishable.
+
+**Where to buy:** RM849-999 new on Shopee/Lazada (official VIOFO sellers), RM580-700 used on Mudah from owners upgrading to the A329. VIOFO is less gray-imported than 70mai, but verify the seller for warranty.
+
+**Who should buy:** serious daily drivers, Grab and delivery drivers logging hours, car content creators. **Who should skip:** anyone on a budget — the A810 gets 90% of the night-quality for half the price.`,
+    roiDesc: 'RM899 new. Best dual-channel evidence quality in Malaysia, supercapacitor heat survival, GPS-logged footage for airtight insurance claims.',
+    pros: ['Best-in-class 4K+2K footage', 'Supercapacitor survives MY heat', 'GPS evidence logging', 'Buffered parking mode', 'Publishable footage for car content'],
+    cons: ['Pricey for a dashcam', 'Rear cam cable routing is fiddly', 'Max 32GB recommended per slot (2 slots)', 'Can overheat at full 4K in direct sun'],
+    usedTip: 'Verify both sensors are clean, test 4K+2K recording to two cards, check the supercapacitor holds power, offer RM600 cash',
+    creatorUses: [],
+  },
+  {
+    slug: 'ddpai-x5-pro-review-malaysia',
+    name: 'DDPai X5 Pro',
+    category: 'dashcam',
+    priceNew: 329,
+    priceUsed: 220,
+    type: '4K Front Dashcam',
+    sensor: '8MP Sony IMX415',
+    video: '4K @ 30fps',
+    weight: '112g',
+    rating: 4.3,
+    roiScore: 86,
+    level: 'mid',
+    excerpt: 'The DDPai X5 Pro is the RM299-359 value 4K dashcam with a full touchscreen and a proven Sony IMX415 sensor — the "does everything, costs less" pick between the A500S and the A810.',
+    content: `The DDPai X5 Pro sits in a sweet spot: it gives you 4K front recording and a big touchscreen for RM299-359 new — undercutting the A810 by RM100 while still shooting genuine 4K with a proven Sony sensor.
+
+**What you get:**
+- 8MP Sony IMX415 sensor, 4K 30fps front
+- 3" touchscreen — review footage on the camera, no app needed
+- 2K 60fps mode for smoother action
+- Rear cam support (sold separately)
+- Built-in GPS module for speed/route logging
+- DDPai app with fast Wi-Fi transfer
+- Supercapacitor power backup — heat safe
+
+**Touchscreen or app?** The X5 Pro is for people who hate fiddling with dashcam apps. You review, download and format right on the screen. For drivers who just want to check a clip after a near-miss without pulling out their phone, it is the friendliest 4K dashcam on the market.
+
+**IMX415 vs IMX678:** the IMX415 is last-generation Sony but still very good — bright daylight and street-lit night footage are clean, and it reads plates in decent light. It just does not match the A810's STARVIS 2 in pure darkness. If most of your driving is in daylight or well-lit KL streets, the X5 Pro saves you RM100.
+
+**Where to buy:** RM299-379 new on Shopee/Lazada DDPai stores, RM200-260 used on Mudah and Carousell. DDPai is a Chinese brand with a real Malaysian distributor — check warranty coverage at purchase.
+
+**Creators:** the 2K 60fps mode is nice b-roll for driving content, and the touchscreen makes on-site clip review a video moment itself.
+
+**Who should buy:** drivers who want 4K without paying A810 money, and anyone who hates dashcam apps. **Who should skip:** night-heavy drivers (A810) and drivers who want a rear cam included (dual-channel kits).`,
+    roiDesc: 'RM329 new. 4K with a touchscreen for RM100 under the A810 — the best "cheaper 4K" pick in Malaysia.',
+    pros: ['True 4K under RM350', 'Big touchscreen, no app needed', '2K 60fps mode', 'Built-in GPS', 'Supercapacitor heat safety'],
+    cons: ['IMX415 not as strong at night', 'Rear cam is an extra', 'DDPai app is clunkier than 70mai', 'Smaller install base for resale'],
+    usedTip: 'Test 4K recording to a 64GB high-endurance card, verify GPS locks, check the touchscreen responds fully, offer RM220 cash',
+    creatorUses: [],
+  },
+  {
+    slug: '70mai-a500s-review-malaysia',
+    name: '70mai A500S',
+    category: 'dashcam',
+    priceNew: 199,
+    priceUsed: 135,
+    type: '2K Front Dashcam',
+    sensor: '5MP Sony IMX335',
+    video: '2K @ 30fps',
+    weight: '90g',
+    rating: 4.3,
+    roiScore: 91,
+    level: 'beginner',
+    excerpt: 'The 70mai A500S is the RM179-219 budget dashcam that is genuinely good — 2K 30fps, Sony IMX335, 140° wide lens and night vision that beats most cheaper 1080p cams. The default first dashcam in Malaysia.',
+    content: `The 70mai A500S is the dashcam most Malaysian drivers actually own. At RM179-219 new and RM120-160 used, it gives you 2K 30fps from a proven Sony IMX335 sensor, a 140° field of view and a compact body that hides behind the mirror. It is the biggest-volume dashcam in the 70mai range for a reason: it is good enough for 95% of drivers at half the price of 4K.
+
+**What you get:**
+- 2K (2560x1440) 30fps front recording
+- 5MP Sony IMX335 — solid low-light for the class
+- 140° wide angle — covers your lane and both side lanes
+- 24-hour parking mode with the hardwire kit
+- 2" screen plus Wi-Fi app transfer
+- Smart ADAS alerts (optional, can be turned off)
+
+**Why 2K is the sweet spot:** at 30fps with a 140° lens, the A500S reads plates in daylight and reasonable night light — which is what 9 in 10 drivers need. The A810's 4K matters mostly in full darkness; the A500S covers the rest of the driving day for RM250 less.
+
+**The Grab and delivery pick:** the A500S is small, cheap enough to treat as consumable, and its parking mode with a hardwire kit watches the car at night. It is the default recommendation for Grab drivers, van owners and delivery riders who want evidence without spending A810 money.
+
+**Where to buy:** RM179-229 new on Shopee/Lazada 70mai stores (regular flash sales under RM179), RM120-170 used on Mudah and Carousell — one of the most traded dashcams in the used market.
+
+**Gray import warning:** same 70mai story as the A810 — buy official/authorized for warranty and Malaysian app/map support. The gray import savings are small.
+
+**Who should buy:** first-time dashcam buyers, budget drivers, Grab and delivery. **Who should skip:** night-heavy drivers and creators who want publishable 4K — get the A810.`,
+    roiDesc: 'RM199 new. The volume-market 2K dashcam — good enough for 95% of drivers, pays for itself the first time an accident is disputed.',
+    pros: ['Great 2K for the price', 'Sony IMX335 low-light', 'Compact, hides behind mirror', 'Parking mode with hardwire kit', 'Huge used market = easy resale'],
+    cons: ['2K not 4K', 'Front only', 'Small 2" screen', 'ADAS alerts need turning off'],
+    usedTip: 'Test 2K night footage, verify the mount holds over bumps, check the battery holds a charge, offer RM130 cash',
+    creatorUses: [],
+  },
+  {
+    slug: '70mai-m300-review-malaysia',
+    name: '70mai M300',
+    category: 'dashcam',
+    priceNew: 139,
+    priceUsed: 90,
+    type: '1080p Mini Dashcam',
+    sensor: '2MP Sony IMX307',
+    video: '1080p @ 30fps',
+    weight: '62g',
+    rating: 4.1,
+    roiScore: 88,
+    level: 'beginner',
+    excerpt: 'The 70mai M300 is the RM119-149 pocket dashcam — tiny, cheap, and good enough for basic evidence. The "just in case" camera you buy before you think you need one, and the best cheap dashcam in Malaysia.',
+    content: `The 70mai M300 is the RM119-149 dashcam for people who never planned to buy one. It is smaller than a matchbox, clips behind the mirror, and records 1080p evidence for under RM150. If you only want to cover your back in case of an accident, this is the camera.
+
+**What you get:**
+- 1080p Full HD @ 30fps front
+- 2MP Sony IMX307 sensor
+- 130° wide angle
+- Built-in G-sensor — locks footage on impact
+- Loop recording to a microSD card
+- Compact, lightweight (62g) with strong adhesive mount
+- Wi-Fi app for clip transfer (optional, works fine via card too)
+
+**Honest expectations:** the M300 records daytime footage that is fine for evidence and night footage that is adequate on lit streets. It is not for reading plates in darkness, and it is not for content creation. It is for the moment a motorcycle clips your bumper at a junction and you need proof.
+
+**Why it wins:** at RM139 there is no excuse not to have one. The typical argument — "I'll buy a proper dashcam later" — never happens, because later means never. Buy the M300 today, upgrade to the A500S or A810 when you actually use it.
+
+**Where to buy:** RM119-159 new on Shopee/Lazada 70mai stores, RM70-110 used on Mudah and Carousell — very frequently traded as owners upgrade.
+
+**Gray import note:** buy official/authorized for Malaysian warranty. At this price point the gray import savings are a few ringgit.
+
+**Who should buy:** first-ever dashcam buyers, second cars, parents and relatives who will never install a "serious" camera, rental cars you drive. **Who should skip:** night drivers and anyone who wants 2K+ — pay more.`,
+    roiDesc: 'RM139 new. The "no excuse" dashcam — pocket change for accident-proof evidence on any car.',
+    pros: ['Cheapest reliable dashcam in MY', 'Tiny and discreet', 'G-sensor locks impact footage', 'Simple setup, zero wiring needed', 'Great gift for parents'],
+    cons: ['1080p only', 'Weak night detail', 'No parking mode', 'Front only, no app-first design'],
+    usedTip: 'Test night footage on a lit street, verify loop recording wraps, check the adhesive mount is fresh, offer RM90 cash',
+    creatorUses: [],
+  },
 ];
 
 export const categories = [
@@ -1802,6 +2247,8 @@ export const categories = [
   { id: 'drone', label: 'Drones' },
   { id: 'action', label: 'Action / 360°' },
   { id: 'audio', label: 'Audio' },
+  { id: 'security', label: 'CCTV & Security' },
+  { id: 'dashcam', label: 'Dashcams' },
 ] as const;
 export function getGearBySlug(slug: string) {
   return gearList.find(g => g.slug === slug) || null;

@@ -4971,4 +4971,415 @@ If you already own a DSLR: keep it for photography, and buy a compact video came
 
 The Insta360 Luna is one of the best video tools of 2026, and a genuinely bad idea as your only photography camera. The DSLR is the opposite. The smart Malaysian setup is both — bought in the right order. Start with the old DSLR, let it pay for itself with photo gigs, then let the Luna pay for itself with video. That is the fastest, cheapest way to own both worlds.`,
   },
+  {
+    slug: 'cctv-home-security-camera-guide-malaysia',
+    title: 'CCTV Home Security Camera Guide Malaysia 2026: Best Budget Cameras & How to Install Them',
+    description: 'From RM69 indoor cams to RM189 outdoor PTZ — the honest guide to buying CCTV in Malaysia in 2026. Which camera, which app, which storage, and the gray import traps to avoid.',
+    image: '/blog/cctv-home-security-camera-guide-malaysia.jpg',
+    category: 'guide',
+    readTime: 12,
+    date: '2026-08-11',
+    tags: ['cctv', 'home security', 'budget cameras', 'malaysia'],
+    relatedGear: ['tapo-c210-review-malaysia', 'imou-ranger-2-pro-review-malaysia', 'tapo-c120-review-malaysia'],
+    content: `If you own a shop, a rented house, a landed home or a studio, someone has probably already told you to "install CCTV." In 2026 the good news is that a genuinely good setup costs less than one month of rent. This is the honest, no-nonsense buying guide for Malaysia.
+
+## Step 1: Know what you are buying
+
+Almost everything sold as "CCTV" on Shopee and Lazada is one of four things:
+
+- **Indoor Wi-Fi camera** — RM70-150. Plug in, watch on your phone. Best for apartments, shops, studios, monitoring the living room or a back room.
+- **Outdoor Wi-Fi camera** — RM80-200. Weatherproof, needs a power socket under a roof eave. Best for porches, gates, driveways.
+- **Outdoor PTZ** — RM180-350. Pan/tilt so one camera sweeps a whole yard. Best for landed homes.
+- **Full DVR/NVR kit** — RM400-1,200. 4-8 wired cameras recording to a hard drive. Best for shops, clinics, workshops that need reliable 24/7 coverage.
+
+For 90% of Malaysian homes, Wi-Fi cameras are enough and cost a tenth of a wired kit.
+
+## Step 2: The cameras that actually sell here
+
+| Camera | Price (MYR) | Type | Why it sells |
+|---|---|---|---|
+| TP-Link Tapo C210 | RM79-89 | Indoor pan/tilt 1080p | The default first camera. Cheap, reliable app |
+| TP-Link Tapo C220 | RM109-129 | Indoor pan/tilt 2K | 2K detail upgrade for RM30 more |
+| TP-Link Tapo C120 | RM69-89 | Outdoor mini 2K | Cheapest weatherproof outdoor cam |
+| Imou Ranger 2 Pro | RM149-179 | Outdoor 5MP | Sharpest outdoor detail, has siren |
+| EZVIZ C8W | RM179-209 | Outdoor PTZ 2K+ | Pan/tilt that tracks people |
+| Hikvision DS-2CD1023 | RM109-139 | Outdoor bullet (DVR) | Joins existing Hikvision systems |
+
+Full reviews of each are on our gear page under **CCTV & Security**.
+
+## Step 3: The three questions that decide your camera
+
+**1. Indoor or outdoor?** Never buy an indoor camera for outdoor use — the humidity and rain will kill it in months. An outdoor unit has an IP65/IP66 weather rating; an indoor unit does not.
+
+**2. Fixed or pan/tilt?** A fixed camera watches one door. A pan/tilt camera sweeps a whole room or yard. For a single room, save the RM30 and go fixed. For a yard, buy the PTZ or buy two fixed units — two angles are better than one moving one.
+
+**3. Wi-Fi or DVR?** Wi-Fi cameras record to a microSD card (usually 64-512GB) and alert your phone. DVR kits record to a hard drive and need professional installation. If you already have a Hikvision DVR, buy a matching camera. Otherwise, start with Wi-Fi — it is a tenth of the setup cost and you can install it yourself in 10 minutes.
+
+## Step 4: Storage — local SD beats the subscription
+
+The biggest scam in the budget CCTV market is the monthly cloud subscription upsell. A 256GB high-endurance microSD card costs RM45-70 and records weeks of footage continuously on a Tapo or Imou camera. Cloud plans charge RM10-30 a month forever. Buy the card. Keep the cloud only if you need off-site backup for a business.
+
+**Important:** buy a **high-endurance** microSD card, not a normal one. Dashcams and CCTV write constantly; a normal card dies in months. High-endurance cards (Samsung Pro Endurance, Sandisk High Endurance) are made for it.
+
+## Step 5: Gray import trap — read this before buying
+
+TP-Link, Imou and EZVIZ are all heavily gray-imported in Malaysia. The gray import unit is RM10-20 cheaper and has **no local warranty** — when it fails, you fight a cross-border RMA that usually ends in a refund you never see. For a RM79 camera, that is a bad trade. Buy from the **official store** on Shopee/Lazada or a listed authorized seller.
+
+Hikvision is worse: gray import units can be **region-locked** and may refuse to pair with a local Hik-Connect account. Buy Hikvision only from a listed distributor.
+
+## Step 6: Install like a pro in 10 minutes
+
+- **Indoor:** plug in, download the app, scan the QR code, name the camera. Done. Ceiling-mount bracket optional.
+- **Outdoor:** mount under the roof eave so rain does not hit the lens, angle at the approach path (gate line, not the wall), run the cable to a covered 5V USB socket.
+- **The golden rule:** one camera for the front gate/door, one for the back. Those two cover 80% of real incidents in Malaysian homes.
+
+## Step 7: The money angle
+
+A decent indoor cam is RM79. The average break-in or shoplifting incident in Malaysia costs thousands — in goods, damage and lost business. One prevented incident pays for a whole camera setup many times over. Insurance companies also discount premium for documented security measures, which pays the cameras back over two years.
+
+For creators, there is a second income angle: CCTV **installer gigs**. Businesses and elderly homeowners will happily pay RM80-200 per camera for someone to mount, connect and demo a Tapo or Imou unit. The full installer-gig breakdown is in our **CCTV installer side hustle** guide.
+
+## The bottom line
+
+In 2026, every Malaysian home and shop should have a camera. Start with a Tapo C210 indoors and a C120 or Imou Ranger 2 Pro outdoors — under RM300 total, installed in an afternoon, no subscriptions. Upgrade to a DVR kit only when you outgrow Wi-Fi. Buy local for the warranty, use SD cards, and angle for the approach path. That is the whole game.`,
+  },
+  {
+    slug: 'best-dashcam-malaysia-2026',
+    title: 'Best Dashcam Malaysia 2026: Which One to Buy, From RM139 to RM899',
+    description: 'Dashcams settle insurance claims and hit-and-runs. The honest Malaysia guide to the 70mai A810, VIOFO A229 Pro, A500S and budget picks — prices, night quality, and why the heat kills cheap batteries.',
+    image: '/blog/best-dashcam-malaysia-2026.jpg',
+    category: 'guide',
+    readTime: 11,
+    date: '2026-08-12',
+    tags: ['dashcam', 'car safety', '70mai', 'viofo', 'malaysia'],
+    relatedGear: ['70mai-a810-review-malaysia', 'viofo-a229-pro-review-malaysia', '70mai-a500s-review-malaysia', '70mai-m300-review-malaysia', 'ddpai-x5-pro-review-malaysia'],
+    content: `A dashcam is the RM139-899 gadget that decides who pays when a Malaysian accident happens. The police report says "both parties claim the other hit first." Your dashcam says otherwise, in 4K, with GPS speed. This is the guide to choosing the right one in 2026.
+
+## The cold truth about Malaysian driving
+
+Every day in KL, Penang and JB, drivers get into disputes with no witnesses. Motorcycle riders lane-split into your bumper. Cars reverse into you in parking lots and drive off. Taxis brake-check. If you have driven in Malaysia for more than a year, you have been in a situation where footage would have ended the argument instantly.
+
+**A dashcam does three things:**
+1. **Evidence in a dispute** — insurance and police accept dashcam footage as evidence
+2. **Deterrent** — most hit-and-runs and road-rage follow-ups never start when the other driver sees the camera
+3. **Protection when parked** — with a hardwire kit, it records while you are away
+
+## The Malaysia dashcam lineup
+
+| Camera | Price (MYR) | Spec | Best for |
+|---|---|---|---|
+| 70mai M300 | RM119-149 | 1080p mini | First camera, spare car, parents |
+| 70mai A500S | RM179-219 | 2K front | The default budget pick |
+| DDPai X5 Pro | RM299-359 | 4K + touchscreen | 4K without paying A810 money |
+| 70mai A810 | RM429-499 | 4K STARVIS 2 | Best night quality, most popular |
+| VIOFO A229 Pro | RM849-999 | 4K front + 2K rear | Serious drivers, full evidence |
+
+## 1080p, 2K or 4K? The honest answer
+
+- **1080p** is fine for daytime evidence and cheap protection. At night it cannot read plates.
+- **2K** reads plates in daylight and decent street light. The sweet spot for 90% of drivers.
+- **4K with a Sony STARVIS 2 sensor** reads plates at night. That is the real reason to pay for the A810 or A229 Pro — night footage.
+
+If you drive mostly in daylight, the A500S (2K) is genuinely enough and saves RM250. If you drive at night — highways, deliveries, night shifts — the A810's night quality pays for itself the first time it catches a plate at 10pm.
+
+## The thing that kills dashcams in Malaysia: heat
+
+This is the one nobody in Shopee reviews tells you. A car parked in Malaysian sun hits 60-70°C inside. **Lithium-battery dashcams bulge, degrade and die in that heat.** The 70mai budget line and many cheap cams use batteries.
+
+The fix:
+- **VIOFO** uses a **supercapacitor** instead of a battery — it survives heat without expanding. This is the #1 reason serious buyers pay VIOFO money.
+- **70mai A810** and newer units use improved heat-rated batteries that are much better than the old ones, but still not supercapacitor-proof.
+- If your cam has a visible battery, keep a spare and expect to replace it after 2-3 years of Malaysian parking.
+
+## Rear camera or not?
+
+Front-only covers the most common accidents. A rear camera (2-channel) covers the hit-from-behind cases — including the parking-lot reverse jobs where the front cam sees nothing. The VIOFO A229 Pro bundles front + rear at 4K/2K. The A810 and X5 Pro support rear modules sold separately. If you can afford the rear, buy it. If not, front-only is still 80% of the protection.
+
+## Gray import warning
+
+70mai and DDPai are heavily gray-imported. The RM10-20 saving buys you a warranty fight. Buy from official stores or authorized sellers. Also note: gray import units can ship without Malaysian GPS maps and app localization.
+
+## Setup in 15 minutes
+
+1. Mount the camera behind the rear-view mirror, centered
+2. Route the cable along the headliner and down the A-pillar
+3. For parking mode: hardwire to the fuse box with the brand's kit (or pay a shop RM50-80 to do it)
+4. Insert a high-endurance microSD card (64-128GB is plenty)
+5. Format the card in the camera before first use
+
+## Who should buy what
+
+- **RM140 budget:** 70mai M300. Just cover your back, no fuss.
+- **RM200 budget:** 70mai A500S. The best all-round value in Malaysia.
+- **RM300-450:** DDPai X5 Pro if you want 4K on a budget, or the A810 for best night quality.
+- **RM900 serious:** VIOFO A229 Pro — dual-channel, supercapacitor, GPS, publishable footage.
+- **Grab/delivery drivers:** A500S with hardwire kit. Evidence on every trip, consumable price.
+
+## The bottom line
+
+Any dashcam is better than none. Start with the A500S at RM199 if you are on a budget — it covers the vast majority of accidents in daylight. Upgrade to the A810 or A229 Pro if night driving is part of your life. Buy from an official store, use a high-endurance SD card, hardwire for parking mode, and let the heat-safe design be the tiebreaker between two similar cameras.`,
+  },
+  {
+    slug: 'cctv-installer-gig-side-hustle-malaysia',
+    title: 'CCTV Installer Gig Side Hustle Malaysia 2026: RM150-400 Per Camera, No License Needed',
+    description: 'Businesses and elderly homeowners are desperate for someone to install their cheap Shopee cameras. The CCTV installer gig pays RM80-200 per camera, needs no certification, and pays for itself in one weekend.',
+    image: '/blog/cctv-installer-gig-side-hustle-malaysia.jpg',
+    category: 'inspiration',
+    readTime: 10,
+    date: '2026-08-12',
+    tags: ['cctv', 'side hustle', 'installer', 'gig economy', 'malaysia'],
+    relatedGear: ['tapo-c210-review-malaysia', 'imou-ranger-2-pro-review-malaysia', 'hikvision-ds-2cd1023-review-malaysia'],
+    content: `The most profitable skill in the Malaysian gig economy in 2026 is not photography, not editing, and not drone flying. It is the ability to mount a RM79 Tapo camera, connect it to Wi-Fi, and point it at the right angle. This is the CCTV installer gig, and it pays RM80-400 per job for work you can learn in one afternoon.
+
+## The market nobody is serving
+
+Right now, hundreds of thousands of cheap CCTV cameras are being sold in Malaysia — and most of them are being installed wrong, or not at all. The buyers are:
+
+- **Shop owners** who bought a camera on Shopee and never managed to set it up
+- **Elderly homeowners** whose kids bought them a camera and then left the country
+- **Clinic, workshop and restaurant owners** who want more eyes but cannot do the wiring
+- **Landlords** with multiple properties who need cameras set up without paying a security company RM800
+
+The irony: the camera costs RM80, the installation they cannot do is worth RM150.
+
+## What the job actually is
+
+A CCTV installer gig is deceptively simple:
+
+1. Unbox the camera, read the mount
+2. Fix it to a wall, ceiling or roof eave (drill, anchor, screw — or use the 3M mount indoors)
+3. Run the cable to a power socket (or install a 5V junction box outdoors)
+4. Connect it to the customer's Wi-Fi via the app
+5. Set up the microSD card, motion alerts and the phone app for them
+6. Demo it: "watch this — when someone walks in, your phone beeps"
+
+Total time for an experienced installer: 30-60 minutes per indoor camera, 60-90 minutes for outdoor.
+
+## How much it pays
+
+| Job type | Typical charge (MYR) |
+|---|---|
+| Single indoor camera install | RM80-120 |
+| Single outdoor camera (drilling, eave mount) | RM150-200 |
+| 2-4 camera house setup | RM300-500 |
+| Full shop setup with DVR (refer to a pro) | RM500-1,200 (pro work) |
+
+A weekend doing two outdoor installs at RM180 each covers your tools, your transport, and more than pays for the camera you demo on. That is the whole business model: your demo unit is your shopfront.
+
+## What you need to start (under RM200)
+
+- **A drill and masonry bits** — RM80-150. You need to drill brick for outdoor mounts
+- **A demo camera** — your own Tapo C210 or C120, RM79-89. It proves the concept and shows the customer the end result
+- **A step ladder** — most people have one
+- **Cable clips, cable ties, a small ladder, double-sided 3M tape for indoor** — under RM30
+- **A WhatsApp business profile** — free
+
+That is it. No certification, no license, no insurance beyond your own basic third-party cover (worth getting once you are doing outdoor work on ladders).
+
+## How to get your first 5 clients
+
+1. **Walk into shops.** 20% of shops in your area have a camera mounted wrong or not installed. Offer: "I set up CCTV for RM120, done in an hour."
+2. **Post in your neighbourhood group.** Facebook groups and the condo/landed community WhatsApp are gold. "CCTV setup, RM100-180, done today, KL area."
+3. **Offer a free setup to one shop owner** in exchange for a photo and a review — that review closes the next 10 jobs.
+4. **Door-hang flyers** in shop lots — targeting the back-room camera owners.
+5. **Ask every client for a referral** — landlords and shop owners know each other.
+
+## The upsell that doubles your money
+
+Once you are trusted, the same customer needs: storage upgrades (sell them a 256GB high-endurance card you supply, +RM50), a second camera (they will say "can you do the back room too?" — always say yes, same day), and cleaning/re-alignment visits (+RM50-80). Your average invoice goes from RM120 to RM250 in one relationship.
+
+## Why this beats photography gigs for beginners
+
+- **Zero learning curve.** A photographer needs months of practice; you need one afternoon
+- **Repeat clients.** Shops add cameras; landlords add properties
+- **No equipment arms race.** Your RM150 drill is the whole kit
+- **Guaranteed need.** Security is bought on fear, and the fear is not going away
+
+## Gray import and quality tips (protect your reputation)
+
+- Only install cameras with **local warranty** — buy from official stores. If the camera dies in 6 months, your name is attached to it
+- Tell the customer upfront: budget Wi-Fi cameras are good, but a 5MP outdoor unit sees more than a 2MP one. Let them choose
+- Never promise 24/7 cloud recording — set them up with SD storage instead, and explain the difference honestly
+- Test the angle from the **approach path** — the customer will thank you later
+
+## The bottom line
+
+CCTV installation is the fastest-paying entry-level gig in Malaysia right now. Learn it in one afternoon, kit up for under RM200, and charge RM80-200 per camera to a market that is growing every month. Start with one camera on your own wall — install it, admire it, then go pitch the shop next door. That shop is your first client, and they are closer than you think.`,
+  },
+  {
+    slug: 'tapo-c210-vs-c220-malaysia',
+    title: 'TP-Link Tapo C210 vs C220 Malaysia: Which Indoor Camera Should You Buy?',
+    description: 'The RM30 question, answered: is the 2K C220 worth the extra ringgit over the 1080p C210? Night quality, detail, and the honest verdict for Malaysian homes and shops.',
+    image: '/blog/tapo-c210-vs-c220-malaysia.jpg',
+    category: 'comparison',
+    readTime: 8,
+    date: '2026-08-11',
+    tags: ['tapo', 'comparison', 'cctv', 'home security'],
+    relatedGear: ['tapo-c210-review-malaysia', 'tapo-c220-review-malaysia', 'tapo-c120-review-malaysia'],
+    content: `The Tapo C210 (RM79-89) and Tapo C220 (RM109-129) are the two best-selling indoor security cameras in Malaysia, and the difference between them is a single feature: resolution. The C210 is 1080p; the C220 is 2K. Is the RM30 worth it? Mostly yes. Here is the honest breakdown.
+
+## The specs side by side
+
+| | Tapo C210 | Tapo C220 |
+|---|---|---|
+| Resolution | 1080p Full HD | 2K QHD (3MP) |
+| Pan / tilt | 360° / 114° | 360° / 114° |
+| Night vision | IR to 9m | IR to 12m + color night vision |
+| MicroSD | up to 256GB | up to 512GB |
+| Price (MYR) | RM79-89 | RM109-129 |
+| App | Tapo | Tapo |
+
+Same app, same pan/tilt, same mounting. The only real differences are the sensor and the night vision.
+
+## Where the C220's 2K actually shows
+
+- **Faces across the room.** At 3+ metres, the C210's 1080p loses facial detail. The C220's 2K keeps it readable.
+- **Labels and details.** Product labels, a license plate on a driveway, a document on a desk — 2K reads them, 1080p smears them.
+- **Night vision.** The C220 has better IR reach (12m vs 9m) plus color night vision under dim light. If your room is dark at night, this matters more than the resolution.
+
+## Where the C210 is fine
+
+- **Watching a single door or counter** up close — within 2 metres, 1080p is plenty
+- **A hallway or a room you just want to hear and see** — the alert is what you care about, not the pixel count
+- **Budget-first setups** — saving RM30 per camera on a 3-camera house is RM90
+
+## The verdict
+
+- **Buy the C210 if:** it watches something close, you are on a tight budget, or you are covering a room where "something happened" is enough detail
+- **Buy the C220 if:** you want to actually read faces, labels or plates at a distance, or your room is dim at night
+
+**Our pick:** for RM30 more, the C220 is the smarter buy for a main room — the detail upgrade is real and it resells better when you upgrade. Keep the C210 for the second and third rooms where cost matters. The RM30 premium on the camera that watches your main door is the cheapest insurance upgrade you will ever make.
+
+## Don't forget
+
+- **Buy from the official Tapo store** — gray imports save RM15 and lose the warranty
+- **Use a high-endurance microSD** — a 128GB card is RM35-50 and runs for weeks
+- **Indoor only** — for outdoor, buy the C120 (RM69-89) or an Imou instead
+- **2.4GHz Wi-Fi only** — make sure your router broadcasts it
+
+Read the full reviews: [Tapo C210 review](/gear/tapo-c210-review-malaysia) and [Tapo C220 review](/gear/tapo-c220-review-malaysia).`,
+  },
+  {
+    slug: '70mai-a810-vs-a500s-dashcam-malaysia',
+    title: '70mai A810 vs A500S Malaysia: Is the 4K Worth Double the Price?',
+    description: 'The two most popular dashcams in Malaysia, head to head. The A810 costs RM250 more than the A500S — is the night-time plate-reading 4K worth it for your driving?',
+    image: '/blog/70mai-a810-vs-a500s-dashcam-malaysia.jpg',
+    category: 'comparison',
+    readTime: 8,
+    date: '2026-08-12',
+    tags: ['70mai', 'dashcam', 'comparison', 'car'],
+    relatedGear: ['70mai-a810-review-malaysia', '70mai-a500s-review-malaysia', '70mai-m300-review-malaysia'],
+    content: `The 70mai A810 (RM429-499) and A500S (RM179-219) are the two most-installed dashcams in Malaysia, and the question every driver asks is: is the 4K worth RM250 more? The honest answer depends entirely on one thing — how much you drive at night.
+
+## The specs side by side
+
+| | 70mai A500S | 70mai A810 |
+|---|---|---|
+| Resolution | 2K (2560x1440) | 4K (3840x2160) |
+| Sensor | Sony IMX335 | Sony IMX678 STARVIS 2 |
+| Night plate reading | Daylight / lit streets | True night quality |
+| Field of view | 140° | 150° |
+| Parking mode | Via hardwire kit | Via hardwire kit |
+| Wi-Fi | 2.4GHz | 5GHz + 2.4GHz |
+| Price (MYR) | RM179-219 | RM429-499 |
+
+## What the RM250 buys
+
+**The sensor, mostly.** The A810 uses the Sony IMX678 STARVIS 2 — the same class of sensor found in the premium VIOFO units. The A500S uses the IMX335, which is solid but two generations behind.
+
+In practice this means:
+- **Daylight:** both read plates. The A810 is sharper at the edges but both do the job.
+- **Lit streets at night:** both read plates reasonably.
+- **True darkness, headlight glare, rain at night:** the A810 reads plates; the A500S struggles.
+
+If you commute 9-to-5 in the city, the A500S covers you for most accidents. If you do night shifts, highway drives, deliveries, or just want the footage to be airtight, the A810 is the one.
+
+## The A810's other advantages
+
+- **150° lens** vs 140° — wider capture, more side-lane coverage
+- **5GHz Wi-Fi** — phone transfers finish in seconds instead of minutes
+- **Bigger install base and resale market** — used A810s hold value on Mudah/Carousell
+- **Optional rear camera (RC12)** — the A500S rear module is older and weaker
+
+## When the A500S is the right call
+
+- You drive mostly in daylight
+- You are on a strict budget and any protection is better than none
+- You want a camera for a second car, a rental, or a car you do not trust with expensive gadgets
+- You would rather spend the RM250 on a good hardwire kit and high-endurance SD cards
+
+## The verdict
+
+- **Buy the A500S if:** budget is the constraint and you mostly drive by day. It is the best value dashcam in Malaysia, full stop.
+- **Buy the A810 if:** you drive at night, or you want the footage to survive an insurance fight in the worst conditions. The RM250 is the price of night-time plate reading — and that is exactly when Malaysian accidents happen.
+
+**Our pick:** if you can stretch, the A810. You will not think about the RM250 again after the first night drive; you will think about the A500S's limits the first time it misses a plate in the dark. But be honest about your driving — if it is all daylight city miles, save the money and buy the A500S with a hardwire kit.
+
+Read the full reviews: [70mai A810 review](/gear/70mai-a810-review-malaysia) and [70mai A500S review](/gear/70mai-a500s-review-malaysia).`,
+  },
+  {
+    slug: 'cctv-vs-dashcam-malaysia',
+    title: 'CCTV vs Dashcam Malaysia 2026: Which "Cam" Should You Buy First?',
+    description: 'Both are RM150-500 security cameras that pay for themselves. The home-protection camera and the driving camera, compared — which one genuinely matters more for the average Malaysian?',
+    image: '/blog/cctv-vs-dashcam-malaysia.jpg',
+    category: 'comparison',
+    readTime: 8,
+    date: '2026-08-13',
+    tags: ['cctv', 'dashcam', 'comparison', 'security', 'malaysia'],
+    relatedGear: ['tapo-c210-review-malaysia', '70mai-a500s-review-malaysia', '70mai-a810-review-malaysia', 'imou-ranger-2-pro-review-malaysia'],
+    content: `Two security cameras. One watches your home, one watches your car. Both cost RM150-500. Both pay for themselves the first time something happens. If you only have budget for one in 2026, which do you buy? The honest answer for the average Malaysian driver-homeowner: the dashcam — barely. Here is the math.
+
+## The two jobs
+
+**CCTV** protects your property while you are away. It deters break-ins, catches shoplifters, and gives you evidence if someone enters your home.
+
+**Dashcam** protects you while you are on the road. It settles accident disputes, catches hit-and-runs, and gives you evidence in insurance claims.
+
+## The frequency question
+
+The uncomfortable truth: most Malaysians will be in a **driving dispute** long before they are in a **break-in**.
+
+- You drive daily. Accidents, near-misses and road rage are a weekly reality.
+- Break-ins and thefts are rarer, but catastrophic — RM5,000-20,000 in damage and loss.
+
+The dashcam protects you against a **common, moderate-cost** risk. The CCTV protects against a **rare, high-cost** risk.
+
+## The evidence question
+
+- A dashcam clip is **accepted by police and insurance** as evidence in a dispute. It ends arguments in minutes.
+- A CCTV clip is useful **if** the incident is captured, **if** the camera is angled right, and **if** the police ask for it.
+
+Dashcam footage is used; CCTV footage is stored. For pure "does this settle my problem," the dashcam wins.
+
+## The cost question
+
+| Item | CCTV (minimal setup) | Dashcam (minimal setup) |
+|---|---|---|
+| Hardware | RM79 (Tapo C210) | RM139 (70mai M300) |
+| Storage | RM45 (128GB high-endurance card) | RM45 (64GB high-endurance card) |
+| Install | 10 minutes, plug in | 15 minutes, hide the cable |
+| Monthly | RM0 | RM0 |
+| **Total** | **RM124** | **RM184** |
+
+Both are laughably cheap relative to the risk they cover. Neither requires a subscription.
+
+## The upgrade question
+
+- Your first CCTV (RM79) buys peace of mind and deters opportunists. The second camera (another RM79) doubles your coverage.
+- Your first dashcam (RM139) covers your back on every trip. The upgrade to 4K (A810, RM450) buys night-time plate reading.
+
+CCTV scales with property size. Dashcam quality scales with night driving.
+
+## The verdict for Malaysia 2026
+
+- **Buy the dashcam first if:** you drive daily (which most Malaysians do), even for short trips. The RM139 M300 or RM199 A500S is the highest-value security purchase most people can make.
+- **Buy the CCTV first if:** you have a shop, a landed home with valuables, or you have already been through a break-in. The deterrent value of a visible camera is real.
+- **Buy both, in the right order, if you can:** dashcam first (RM139-199), then a Tapo C210 for the main door (RM79). Under RM300 total, you are covered on the road and at home.
+
+## The one-sentence summary
+
+The dashcam is used weekly and settles daily risk; the CCTV is stored mostly unused but covers the catastrophic event. The average Malaysian driver should buy the dashcam first, then add CCTV coverage room by room. And if you want to make money instead of just spending it, skip both and read the CCTV **installer gig guide** — people are paying RM150 to have these cameras mounted.`,
+  },
 ];
+
+
