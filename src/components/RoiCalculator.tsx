@@ -186,7 +186,7 @@ export default function RoiCalculator() {
                 </div>
 
                 <Link
-                  href={withLang(lang, '/blog/content-creator-gear-roi-malaysia-calculator')}
+                  href={withLang('en', '/blog/content-creator-gear-roi-malaysia-calculator')}
                   className="mt-4 text-xs text-zinc-500 hover:text-amber-300 transition-colors font-semibold"
                 >
                   {t('calc.readGuide', 'How we calculate this → read the ROI guide')}

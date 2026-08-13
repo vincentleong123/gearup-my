@@ -45,7 +45,7 @@ export default async function NotFound() {
               <ul className="space-y-2.5">
                 {popularGear.map(g => (
                   <li key={g.slug}>
-                    <Link href={withLang(currentLang, `/gear/${g.slug}`)} className="text-sm text-zinc-200 hover:text-white transition-colors">
+                    <Link href={withLang('en', `/gear/${g.slug}`)} className="text-sm text-zinc-200 hover:text-white transition-colors">
                       {g.name} →
                     </Link>
                   </li>
@@ -57,7 +57,7 @@ export default async function NotFound() {
               <ul className="space-y-2.5">
                 {recentGuides.map(a => (
                   <li key={a.slug}>
-                    <Link href={withLang(currentLang, `/blog/${a.slug}`)} className="text-sm text-zinc-200 hover:text-white transition-colors">
+                    <Link href={withLang(a.lang ?? 'en', `/blog/${a.slug}`)} className="text-sm text-zinc-200 hover:text-white transition-colors">
                       {a.title} →
                     </Link>
                   </li>

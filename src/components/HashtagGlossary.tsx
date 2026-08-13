@@ -170,7 +170,7 @@ export default function HashtagGlossary() {
           const best = paths[0];
           return (
             <article key={post.id} className="group bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-pink-500/40 hover:-translate-y-1 hover:shadow-xl hover:shadow-pink-600/5 transition-all duration-300 flex flex-col">
-              <Link href={withLang(lang, `/gear/${post.gearSlug}`)} className="block relative aspect-[16/10] overflow-hidden bg-zinc-900">
+              <Link href={withLang('en', `/gear/${post.gearSlug}`)} className="block relative aspect-[16/10] overflow-hidden bg-zinc-900">
                 <img
                   src={post.image}
                   alt={post.title}
@@ -216,7 +216,7 @@ export default function HashtagGlossary() {
                       <>
                         <div className="text-[10px] font-bold uppercase tracking-wider text-amber-400 mb-1">💰 Pay it off</div>
                         <div className="text-xs text-zinc-200">
-                          <Link href={withLang(lang, `/gigs/${best.gig.slug}`)} className="font-bold text-amber-400 hover:text-amber-300">
+                          <Link href={withLang('en', `/gigs/${best.gig.slug}`)} className="font-bold text-amber-400 hover:text-amber-300">
                             {best.minGigs === best.maxGigs ? best.minGigs : `${best.minGigs}-${best.maxGigs}`}
                           </Link>{' '}
                           <span className="text-zinc-300">{best.gig.title}</span>

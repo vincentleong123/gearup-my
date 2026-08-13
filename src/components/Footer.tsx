@@ -97,29 +97,29 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-bold text-zinc-100 mb-3 uppercase tracking-wider">{t('footer.topReviews', 'Top Reviews 2026')}</h4>
             <div className="space-y-2">
-              <Link href={withLang(lang, '/gear/dji-mini-4-pro-review-malaysia')} className="block text-sm text-zinc-200 hover:text-white transition-colors">DJI Mini 4 Pro Review</Link>
-              <Link href={withLang(lang, '/gear/dji-mini-5-review-malaysia')} className="block text-sm text-zinc-200 hover:text-white transition-colors">DJI Mini 5 Review</Link>
-              <Link href={withLang(lang, '/gear/insta360-x4-review-malaysia')} className="block text-sm text-zinc-200 hover:text-white transition-colors">Insta360 X4 Review</Link>
-              <Link href={withLang(lang, '/gear/insta360-x5-review-malaysia')} className="block text-sm text-zinc-200 hover:text-white transition-colors">Insta360 X5 Review</Link>
-              <Link href={withLang(lang, '/gear/dji-osmo-pocket-3-review-malaysia')} className="block text-sm text-zinc-200 hover:text-white transition-colors">DJI Osmo Pocket 3 Review</Link>
-              <Link href={withLang(lang, '/gear/fujifilm-x100vi-review-malaysia')} className="block text-sm text-zinc-200 hover:text-white transition-colors">Fujifilm X100VI Review</Link>
-              <Link href={withLang(lang, '/gear/sony-zv-e10-review-malaysia-second-hand')} className="block text-sm text-zinc-200 hover:text-white transition-colors">Sony ZV-E10 Review</Link>
-              <Link href={withLang(lang, '/gear/sony-a6100-review-malaysia-second-hand')} className="block text-sm text-zinc-200 hover:text-white transition-colors">Sony A6100 Review</Link>
-              <Link href={withLang(lang, '/gear/tapo-c210-review-malaysia')} className="block text-sm text-zinc-200 hover:text-white transition-colors">Tapo C210 Review</Link>
-              <Link href={withLang(lang, '/gear/70mai-a810-review-malaysia')} className="block text-sm text-zinc-200 hover:text-white transition-colors">70mai A810 Review</Link>
+              <Link href={withLang('en', '/gear/dji-mini-4-pro-review-malaysia')} className="block text-sm text-zinc-200 hover:text-white transition-colors">DJI Mini 4 Pro Review</Link>
+              <Link href={withLang('en', '/gear/dji-mini-5-review-malaysia')} className="block text-sm text-zinc-200 hover:text-white transition-colors">DJI Mini 5 Review</Link>
+              <Link href={withLang('en', '/gear/insta360-x4-review-malaysia')} className="block text-sm text-zinc-200 hover:text-white transition-colors">Insta360 X4 Review</Link>
+              <Link href={withLang('en', '/gear/insta360-x5-review-malaysia')} className="block text-sm text-zinc-200 hover:text-white transition-colors">Insta360 X5 Review</Link>
+              <Link href={withLang('en', '/gear/dji-osmo-pocket-3-review-malaysia')} className="block text-sm text-zinc-200 hover:text-white transition-colors">DJI Osmo Pocket 3 Review</Link>
+              <Link href={withLang('en', '/gear/fujifilm-x100vi-review-malaysia')} className="block text-sm text-zinc-200 hover:text-white transition-colors">Fujifilm X100VI Review</Link>
+              <Link href={withLang('en', '/gear/sony-zv-e10-review-malaysia-second-hand')} className="block text-sm text-zinc-200 hover:text-white transition-colors">Sony ZV-E10 Review</Link>
+              <Link href={withLang('en', '/gear/sony-a6100-review-malaysia-second-hand')} className="block text-sm text-zinc-200 hover:text-white transition-colors">Sony A6100 Review</Link>
+              <Link href={withLang('en', '/gear/tapo-c210-review-malaysia')} className="block text-sm text-zinc-200 hover:text-white transition-colors">Tapo C210 Review</Link>
+              <Link href={withLang('en', '/gear/70mai-a810-review-malaysia')} className="block text-sm text-zinc-200 hover:text-white transition-colors">70mai A810 Review</Link>
             </div>
           </div>
 
           <div>
             <h4 className="text-sm font-bold text-zinc-100 mb-3 uppercase tracking-wider">{t('footer.popularGuides', 'Popular Guides')}</h4>
             <div className="space-y-2">
-              <Link href={withLang(lang, '/blog/content-creator-malaysia-no-money-start')} className="block text-sm text-zinc-200 hover:text-white transition-colors">Start with RM0</Link>
-              <Link href={withLang(lang, '/blog/used-camera-buying-guide-malaysia-mudah-carousell')} className="block text-sm text-zinc-200 hover:text-white transition-colors">Used Camera Buying Guide</Link>
-              <Link href={withLang(lang, '/blog/camera-paid-for-part-time-gigs-malaysia')} className="block text-sm text-zinc-200 hover:text-white transition-colors">Gig-to-Gear System</Link>
-              <Link href={withLang(lang, '/blog/wedding-photography-side-hustle-malaysia')} className="block text-sm text-zinc-200 hover:text-white transition-colors">Wedding Side Hustle</Link>
-              <Link href={withLang(lang, '/blog/graduation-photography-malaysia-guide')} className="block text-sm text-zinc-200 hover:text-white transition-colors">Graduation Photography</Link>
-              <Link href={withLang(lang, '/blog/cctv-home-security-camera-guide-malaysia')} className="block text-sm text-cyan-400 hover:text-cyan-300 transition-colors font-medium">CCTV Buying Guide</Link>
-              <Link href={withLang(lang, '/blog/best-dashcam-malaysia-2026')} className="block text-sm text-cyan-400 hover:text-cyan-300 transition-colors font-medium">Best Dashcam 2026</Link>
+              <Link href={withLang('en', '/blog/content-creator-malaysia-no-money-start')} className="block text-sm text-zinc-200 hover:text-white transition-colors">Start with RM0</Link>
+              <Link href={withLang('en', '/blog/used-camera-buying-guide-malaysia-mudah-carousell')} className="block text-sm text-zinc-200 hover:text-white transition-colors">Used Camera Buying Guide</Link>
+              <Link href={withLang('en', '/blog/camera-paid-for-part-time-gigs-malaysia')} className="block text-sm text-zinc-200 hover:text-white transition-colors">Gig-to-Gear System</Link>
+              <Link href={withLang('en', '/blog/wedding-photography-side-hustle-malaysia')} className="block text-sm text-zinc-200 hover:text-white transition-colors">Wedding Side Hustle</Link>
+              <Link href={withLang('en', '/blog/graduation-photography-malaysia-guide')} className="block text-sm text-zinc-200 hover:text-white transition-colors">Graduation Photography</Link>
+              <Link href={withLang('en', '/blog/cctv-home-security-camera-guide-malaysia')} className="block text-sm text-cyan-400 hover:text-cyan-300 transition-colors font-medium">CCTV Buying Guide</Link>
+              <Link href={withLang('en', '/blog/best-dashcam-malaysia-2026')} className="block text-sm text-cyan-400 hover:text-cyan-300 transition-colors font-medium">Best Dashcam 2026</Link>
             </div>
           </div>
         </div>

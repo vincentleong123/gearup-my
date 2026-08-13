@@ -20,7 +20,7 @@ export default function CreatorShowcase({ lang }: { lang: string }) {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {creators.slice(0, 6).map((c, i) => (
             <Link
-              href={withLang(lang, `/creators/${c.slug}`)}
+              href={withLang('en', `/creators/${c.slug}`)}
               key={c.slug}
               className="group block bg-zinc-900/60 border border-zinc-800 rounded-2xl p-6 hover:border-cyan-500/30 hover:shadow-lg hover:shadow-cyan-500/5 transition-all duration-300"
               style={{ animationDelay: `${i * 80}ms` }}
@@ -61,7 +61,7 @@ export default function CreatorShowcase({ lang }: { lang: string }) {
           ))}
         </div>
         <div className="text-center mt-8">
-          <Link href={withLang(lang, '/creators')} className="inline-flex items-center gap-2 text-zinc-200 hover:text-white transition-colors font-medium">
+          <Link href={withLang('en', '/creators')} className="inline-flex items-center gap-2 text-zinc-200 hover:text-white transition-colors font-medium">
             <T k="creatorshow.seeAll" en="See all creators" /> →
           </Link>
         </div>

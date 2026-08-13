@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 import CurationWall from '@/components/CurationWall';
@@ -10,17 +10,16 @@ import { articles } from '@/data/articles';
 import { gigImg, gearImg } from '@/data/images';
 import { gigTopic } from '@/lib/curation';
 import { formatPrice } from '@/lib/utils';
-import { LANGS } from '@/i18n/langs';
 import { langAlternates, withLang } from '@/lib/lang';
 
 interface Props { params: Promise<{ lang: string; slug: string }> }
 
 export async function generateStaticParams() {
-  return LANGS.flatMap(lang => gigs.map(g => ({ lang, slug: g.slug })));
+  return gigs.map(g => ({ lang: 'en', slug: g.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { lang, slug } = await params;
+  const { slug } = await params;
   const gig = getGigBySlug(slug);
   if (!gig) return {};
   return {
@@ -30,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: `${gig.emoji} ${gig.title} — Kameralog Malaysia`,
       description: gig.tagline,
     },
-    ...langAlternates(lang, `/gigs/${gig.slug}`),
+    ...langAlternates('en', `/gigs/${gig.slug}`, ['en']),
   };
 }
 
@@ -38,6 +37,7 @@ export default async function GigPage({ params }: Props) {
   const { lang, slug } = await params;
   const gig = getGigBySlug(slug);
   if (!gig) notFound();
+  if (lang !== 'en') redirect(withLang('en', `/gigs/${gig.slug}`));
 
   const starterGear = gearList.filter(g => gig.starterGearSlugs.includes(g.slug));
   const upgradeGear = gearList.filter(g => gig.upgradeGearSlugs.includes(g.slug));
@@ -254,7 +254,7 @@ export default async function GigPage({ params }: Props) {
               <h2 className="text-2xl font-bold mb-4">📚 Related guides</h2>
               <div className="grid md:grid-cols-3 gap-4">
                 {relatedArticles.map(a => (
-                  <Link key={a.slug} href={withLang(lang, `/blog/${a.slug}`)} className="block bg-zinc-900/60 border border-zinc-800 rounded-xl p-5 hover:border-amber-500/40 transition-all group">
+                  <Link key={a.slug} href={withLang(a.lang ?? 'en', `/blog/${a.slug}`)} className="block bg-zinc-900/60 border border-zinc-800 rounded-xl p-5 hover:border-amber-500/40 transition-all group">
                     <div className="text-xs text-amber-400 font-bold uppercase tracking-wider mb-2">{a.category}</div>
                     <div className="font-bold text-sm group-hover:text-amber-400 transition-colors mb-2">{a.title}</div>
                     <div className="text-xs text-zinc-500">{a.readTime} min read</div>

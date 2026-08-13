@@ -7,6 +7,8 @@ import { blogImg } from '@/data/images';
 import { useLang } from '@/i18n/context';
 import { withLang } from '@/lib/lang';
 
+const realLang = (a: { lang?: 'ms' | 'zh' }) => a.lang ?? 'en';
+
 const categoryColors: Record<string, string> = {
   guide: 'bg-green-500/20 text-green-400 border-green-500/30',
   comparison: 'bg-purple-500/20 text-purple-400 border-purple-500/30',
@@ -113,7 +115,7 @@ export default function BlogList() {
       {/* Featured */}
       {featured && (
         <Link
-          href={withLang(routeLang, `/blog/${featured.slug}`)}
+          href={withLang(realLang(featured), `/blog/${featured.slug}`)}
           className="group relative block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden mb-8 hover:border-green-500/30 hover:shadow-2xl hover:shadow-green-600/10 transition-all duration-300"
         >
           <div className="h-64 md:h-96 relative overflow-hidden bg-zinc-900">
@@ -145,7 +147,7 @@ export default function BlogList() {
         {rest.map(a => (
           <Link
             key={a.slug}
-            href={withLang(routeLang, `/blog/${a.slug}`)}
+            href={withLang(realLang(a), `/blog/${a.slug}`)}
             className="group block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-green-500/30 hover:-translate-y-1 hover:shadow-xl hover:shadow-green-600/5 transition-all duration-300"
           >
             <div className="h-44 relative overflow-hidden bg-zinc-900">

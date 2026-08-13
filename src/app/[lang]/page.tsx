@@ -143,8 +143,8 @@ export default async function HomePage({ params }: Props) {
       {/* HERO */}
       <section className="min-h-screen flex flex-col relative overflow-hidden pt-24">
         <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-gradient-to-b from-zinc-950/60 via-zinc-950/20 to-zinc-950" />
-          <div className="absolute -top-32 -left-32 w-[480px] h-[480px] bg-gradient-to-br from-red-600/12 via-pink-600/8 to-transparent blur-3xl rounded-full pointer-events-none" />
+          <div className="absolute inset-0 bg-gradient-to-b from-zinc-950/50 via-zinc-950/20 to-zinc-950" />
+          <div className="absolute -top-32 -left-32 w-[520px] h-[520px] bg-gradient-to-br from-purple-600/25 via-fuchsia-600/14 to-transparent blur-3xl rounded-full pointer-events-none" />
           <div className="absolute bottom-0 right-0 w-[420px] h-[420px] bg-gradient-to-tl from-fuchsia-600/10 to-transparent blur-3xl rounded-full pointer-events-none" />
           <div className="film-grain" />
         </div>
@@ -272,7 +272,7 @@ export default async function HomePage({ params }: Props) {
       <EditorsPicks lang={lang} />
 
       {/* GIG-TO-GEAR */}
-      <section className="py-16 md:py-24 bg-gradient-to-b from-amber-500/[0.04] to-transparent">
+      <section id="gigs" className="py-16 md:py-24 bg-gradient-to-b from-amber-500/[0.04] to-transparent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <div className="inline-flex items-center gap-2 bg-amber-500/10 border border-amber-500/20 rounded-full px-4 py-1.5 text-sm text-amber-400 font-semibold mb-5">
@@ -290,7 +290,7 @@ export default async function HomePage({ params }: Props) {
               const g = gigs.find(x => x.slug === slug);
               if (!g) return null;
               return (
-                <Link key={g.slug} href={withLang(lang, `/gigs/${g.slug}`)} className="group block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-amber-500/40 hover:shadow-xl hover:shadow-amber-500/5 hover:-translate-y-1 transition-all duration-300">
+                <Link key={g.slug} href={withLang('en', `/gigs/${g.slug}`)} className="group block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-amber-500/40 hover:shadow-xl hover:shadow-amber-500/5 hover:-translate-y-1 transition-all duration-300">
                   <div className="h-44 relative overflow-hidden bg-zinc-900">
                     <img
                       src={gigImg(g.slug)}
@@ -329,7 +329,7 @@ export default async function HomePage({ params }: Props) {
       <RoiCalculator />
 
       {/* BLOG PREVIEW */}
-      <section className="py-16 md:py-24 bg-zinc-900/30">
+      <section id="blog" className="py-16 md:py-24 bg-zinc-900/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-12 gap-4">
             <div>
@@ -347,7 +347,7 @@ export default async function HomePage({ params }: Props) {
 
           {featured && (
             <Link
-              href={withLang(lang, `/blog/${featured.slug}`)}
+              href={withLang(featured.lang ?? 'en', `/blog/${featured.slug}`)}
               className="group relative block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden mb-6 hover:border-green-500/30 hover:shadow-2xl hover:shadow-green-600/10 transition-all duration-300"
             >
               <div className="h-64 md:h-80 relative overflow-hidden bg-zinc-900">
@@ -378,7 +378,7 @@ export default async function HomePage({ params }: Props) {
             {rest.map(a => (
               <Link
                 key={a.slug}
-                href={withLang(lang, `/blog/${a.slug}`)}
+                href={withLang(a.lang ?? 'en', `/blog/${a.slug}`)}
                 className="group block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-green-500/30 hover:-translate-y-1 hover:shadow-xl hover:shadow-green-600/5 transition-all duration-300"
               >
                 <div className="h-44 relative overflow-hidden bg-zinc-900">
@@ -409,7 +409,7 @@ export default async function HomePage({ params }: Props) {
       </section>
 
       {/* VIDEOS PREVIEW */}
-      <section className="py-16 md:py-24">
+      <section id="videos" className="py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-10 gap-4">
             <div>
@@ -440,7 +440,7 @@ export default async function HomePage({ params }: Props) {
       </section>
 
       {/* INSTAGRAM CAMERALOGUE STRIP */}
-      <section className="py-16 md:py-24 bg-zinc-900/20 border-y border-zinc-800/50">
+      <section id="instagram" className="py-16 md:py-24 bg-zinc-900/20 border-y border-zinc-800/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-10 gap-4">
             <div>
@@ -465,7 +465,7 @@ export default async function HomePage({ params }: Props) {
       </section>
 
       {/* TOOLS STRIP */}
-      <section className="py-16 border-y border-zinc-800/50 bg-zinc-900/20">
+      <section id="tools" className="py-16 border-y border-zinc-800/50 bg-zinc-900/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <h2 className="text-3xl md:text-5xl font-black mb-4">

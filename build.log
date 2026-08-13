@@ -1,0 +1,132 @@
+
+> kameralog@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.2.10 (Turbopack)
+- Experiments (use with caution):
+  Γ£ô rootParams
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 47s
+  Running TypeScript ...
+  Finished TypeScript in 24.2s ...
+  Collecting page data using 3 workers ...
+  Generating static pages using 3 workers (0/617) ...
+  Generating static pages using 3 workers (154/617) 
+  Generating static pages using 3 workers (308/617) 
+  Generating static pages using 3 workers (462/617) 
+Γ£ô Generating static pages using 3 workers (617/617) in 44s
+  Finalizing page optimization ...
+
+Route (app)
+Γöî Γùï /_not-found
+Γö£ ΓùÅ /[lang]
+Γöé Γö£ /en
+Γöé Γö£ /ms
+Γöé Γöö /zh
+Γö£ ΓùÅ /[lang]/about
+Γöé Γö£ /en/about
+Γöé Γö£ /ms/about
+Γöé Γöö /zh/about
+Γö£ ΓùÅ /[lang]/advertise
+Γöé Γö£ /en/advertise
+Γöé Γö£ /ms/advertise
+Γöé Γöö /zh/advertise
+Γö£ ΓùÅ /[lang]/blog
+Γöé Γö£ /en/blog
+Γöé Γö£ /ms/blog
+Γöé Γöö /zh/blog
+Γö£ ΓùÅ /[lang]/blog/[slug]
+Γöé Γö£ /en/blog/side-hustle-fotografi-bayar-kamera-malaysia
+Γöé Γö£ /en/blog/panduan-harga-gig-fotografi-malaysia-2026
+Γöé Γö£ /en/blog/gig-fotografi-dron-hartanah-malaysia
+Γöé Γöö [+312 more paths]
+Γö£ ΓùÅ /[lang]/calculator
+Γöé Γö£ /en/calculator
+Γöé Γö£ /ms/calculator
+Γöé Γöö /zh/calculator
+Γö£ ΓùÅ /[lang]/compare
+Γöé Γö£ /en/compare
+Γöé Γö£ /ms/compare
+Γöé Γöö /zh/compare
+Γö£ ΓùÅ /[lang]/contact
+Γöé Γö£ /en/contact
+Γöé Γö£ /ms/contact
+Γöé Γöö /zh/contact
+Γö£ ΓùÅ /[lang]/creator
+Γöé Γö£ /en/creator
+Γöé Γö£ /ms/creator
+Γöé Γöö /zh/creator
+Γö£ ΓùÅ /[lang]/creators
+Γöé Γö£ /en/creators
+Γöé Γö£ /ms/creators
+Γöé Γöö /zh/creators
+Γö£ ΓùÅ /[lang]/creators/[slug]
+Γöé Γö£ /en/creators/aiman-roslan
+Γöé Γö£ /en/creators/sarah-azman
+Γöé Γö£ /en/creators/fikri-haron
+Γöé Γöö [+30 more paths]
+Γö£ ΓùÅ /[lang]/curate
+Γöé Γö£ /en/curate
+Γöé Γö£ /ms/curate
+Γöé Γöö /zh/curate
+Γö£ ΓùÅ /[lang]/gear
+Γöé Γö£ /en/gear
+Γöé Γö£ /ms/gear
+Γöé Γöö /zh/gear
+Γö£ ΓùÅ /[lang]/gear/[slug]
+Γöé Γö£ /en/gear/nikon-d3100-review-malaysia-second-hand-price
+Γöé Γö£ /en/gear/sony-a6100-review-malaysia-second-hand
+Γöé Γö£ /en/gear/iphone-15-content-creation-malaysia
+Γöé Γöö [+156 more paths]
+Γö£ ΓùÅ /[lang]/gigs
+Γöé Γö£ /en/gigs
+Γöé Γö£ /ms/gigs
+Γöé Γöö /zh/gigs
+Γö£ ΓùÅ /[lang]/gigs/[slug]
+Γöé Γö£ /en/gigs/graduation-photography
+Γöé Γö£ /en/gigs/gala-dinner-event
+Γöé Γö£ /en/gigs/portrait-photography
+Γöé Γöö [+30 more paths]
+Γö£ ΓùÅ /[lang]/glossary
+Γöé Γö£ /en/glossary
+Γöé Γö£ /ms/glossary
+Γöé Γöö /zh/glossary
+Γö£ ΓùÅ /[lang]/hashtags
+Γöé Γö£ /en/hashtags
+Γöé Γö£ /ms/hashtags
+Γöé Γöö /zh/hashtags
+Γö£ ΓùÅ /[lang]/niche
+Γöé Γö£ /en/niche
+Γöé Γö£ /ms/niche
+Γöé Γöö /zh/niche
+Γö£ ΓùÅ /[lang]/niche/[slug]
+Γöé Γö£ /en/niche/food-review
+Γöé Γö£ /en/niche/tech-review
+Γöé Γö£ /en/niche/beauty-fashion
+Γöé Γöö [+12 more paths]
+Γö£ ΓùÅ /[lang]/preview-hero
+Γöé Γö£ /en/preview-hero
+Γöé Γö£ /ms/preview-hero
+Γöé Γöö /zh/preview-hero
+Γö£ ΓùÅ /[lang]/quiz
+Γöé Γö£ /en/quiz
+Γöé Γö£ /ms/quiz
+Γöé Γöö /zh/quiz
+Γö£ ΓùÅ /[lang]/review-policy
+Γöé Γö£ /en/review-policy
+Γöé Γö£ /ms/review-policy
+Γöé Γöö /zh/review-policy
+Γö£ ΓùÅ /[lang]/videos
+Γöé Γö£ /en/videos
+Γöé Γö£ /ms/videos
+Γöé Γöö /zh/videos
+Γö£ Γùï /robots.txt
+Γöö Γùï /sitemap.xml
+
+
+╞Æ Proxy (Middleware)
+
+Γùï  (Static)  prerendered as static content
+ΓùÅ  (SSG)     prerendered as static HTML (uses generateStaticParams)
+

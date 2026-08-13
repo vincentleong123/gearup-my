@@ -56,7 +56,7 @@ export default function EditorsPicks({ lang }: { lang: string }) {
             return (
               <Link
                 key={a.slug}
-                href={withLang(lang, `/gear/${g.slug}`)}
+                href={withLang('en', `/gear/${g.slug}`)}
                 className="group relative block bg-zinc-900/70 border border-zinc-800 rounded-2xl overflow-hidden hover:border-purple-500/40 hover:shadow-2xl hover:shadow-purple-600/10 hover:-translate-y-1 transition-all duration-300"
               >
                 <div className="relative h-44 overflow-hidden bg-zinc-900">

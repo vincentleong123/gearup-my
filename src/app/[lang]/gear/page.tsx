@@ -43,7 +43,7 @@ export default async function GearPage({ params }: Props) {
           {featured.map(g => (
             <Link
               key={g.slug}
-              href={withLang(lang, `/gear/${g.slug}`)}
+              href={withLang('en', `/gear/${g.slug}`)}
               className="group block bg-zinc-900/40 border border-zinc-800 rounded-2xl p-6 hover:border-red-500/30 hover:-translate-y-1 transition-all duration-300"
             >
               <div className="text-xs font-bold text-red-400 mb-2">🏆 <T k="gear.topRoiPick" en="Top ROI Pick" /></div>

@@ -1,30 +1,29 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
 import { creators, getCreatorBySlug } from '@/data/creators';
 import { gearList } from '@/data/gear';
 import { creatorImg } from '@/data/images';
 import { h, formatPrice } from '@/lib/utils';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
-import { LANGS } from '@/i18n/langs';
 import { BASE_URL, langAlternates, withLang } from '@/lib/lang';
 
 interface Props { params: Promise<{ lang: string; slug: string }> }
 
 export async function generateStaticParams() {
-  return LANGS.flatMap(lang => creators.map(c => ({ lang, slug: c.slug })));
+  return creators.map(c => ({ lang: 'en', slug: c.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { lang, slug } = await params;
+  const { slug } = await params;
   const creator = getCreatorBySlug(slug);
   if (!creator) return {};
   return {
     title: `${creator.name} — Malaysian ${creator.niche} Creator Story (Illustrative) | Kameralog MY`,
     description: `An illustrative story based on typical Malaysian gig rates: a ${creator.niche} creator starting with ${creator.startedWith} and reaching about RM${creator.monthlyEarningsMin.toLocaleString()}+/month. See the gear and the math.`,
     openGraph: { title: `${creator.name} — Creator Story (Illustrative) | Kameralog Malaysia`, description: `From ${creator.startedWith} to an estimated RM${creator.monthlyEarningsMin.toLocaleString()}+/month — see the math behind it.` },
-    ...langAlternates(lang, `/creators/${creator.slug}`),
+    ...langAlternates('en', `/creators/${creator.slug}`, ['en']),
   };
 }
 
@@ -32,6 +31,7 @@ export default async function CreatorPage({ params }: Props) {
   const { lang, slug } = await params;
   const creator = getCreatorBySlug(slug);
   if (!creator) notFound();
+  if (lang !== 'en') redirect(withLang('en', `/creators/${creator.slug}`));
 
   const creatorGear = gearList.filter(g => creator.gearSlugs.includes(g.slug));
 

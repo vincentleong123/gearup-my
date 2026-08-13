@@ -146,7 +146,7 @@ export default function GearGrid({ withHeader = true }: { withHeader?: boolean }
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filtered.map((g, i) => (
             <Link
-              href={withLang(lang, `/gear/${g.slug}`)}
+              href={withLang('en', `/gear/${g.slug}`)}
               key={g.slug}
               className="group block bg-zinc-900/80 border border-zinc-800 rounded-2xl overflow-hidden hover:border-red-500/30 hover:shadow-2xl hover:shadow-red-500/5 hover:-translate-y-1 transition-all duration-300"
               style={{ animationDelay: `${i * 50}ms` }}

@@ -58,7 +58,7 @@ export default async function GigsPage({ params }: Props) {
             {gigs.map(g => (
               <Link
                 key={g.slug}
-                href={withLang(lang, `/gigs/${g.slug}`)}
+                href={withLang('en', `/gigs/${g.slug}`)}
                 className="group block bg-zinc-900/80 border border-zinc-800 rounded-2xl overflow-hidden hover:border-amber-500/40 hover:shadow-xl hover:shadow-amber-500/5 transition-all duration-300"
               >
                 <div className="h-40 relative overflow-hidden bg-zinc-900">

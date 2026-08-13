@@ -139,6 +139,27 @@ body {
   background: linear-gradient(90deg, transparent, #f43f5e 20%, #ec4899 50%, #d946ef 80%, transparent);
 }
 
+/* ===== Scroll-linked ambient glow ===== */
+:root {
+  --sg-x: 10%;
+  --sg-y: 5%;
+  --sg-o: 0.05;
+  --sg-x2: 15%;
+  --sg-y2: 15%;
+  --sg-o2: 0.04;
+}
+
+.scroll-glow {
+  position: fixed;
+  inset: 0;
+  z-index: -10;
+  pointer-events: none;
+  background:
+    radial-gradient(560px 560px at var(--sg-x) var(--sg-y), rgba(168, 85, 247, var(--sg-o)), transparent 70%),
+    radial-gradient(480px 480px at calc(100% - var(--sg-x2)) calc(100% - var(--sg-y2)), rgba(217, 70, 239, var(--sg-o2)), transparent 70%);
+  transition: background 0.2s linear;
+}
+
 /* ===== Range slider ===== */
 input[type="range"].gu-range {
   -webkit-appearance: none;

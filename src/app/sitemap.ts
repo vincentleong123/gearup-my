@@ -40,8 +40,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const langUrl = (lang: string, path: string) =>
     path === '/' ? `${base}/${lang}` : `${base}/${lang}${path}`;
 
+  const entry = (lang: string, p: { path: string; lastModified: string; changeFrequency: MetadataRoute.Sitemap[number]['changeFrequency']; priority: number }) => ({
+    url: langUrl(lang, p.path), lastModified: p.lastModified, changeFrequency: p.changeFrequency, priority: p.priority,
+  });
+
   return [
-    ...staticPages.flatMap(p => LANGS.map(l => ({ url: langUrl(l, p.path), lastModified: p.lastModified, changeFrequency: p.changeFrequency, priority: p.priority }))),
-    ...dynamicPages.flatMap(p => LANGS.map(l => ({ url: langUrl(l, p.path), lastModified: p.lastModified, changeFrequency: p.changeFrequency, priority: p.priority }))),
+    ...staticPages.flatMap(p => LANGS.map(l => entry(l, p))),
+    ...gearList.map(g => entry('en', { path: `/gear/${g.slug}`, lastModified: '2026-07-15', changeFrequency: 'monthly', priority: 0.8 })),
+    ...creators.map(c => entry('en', { path: `/creators/${c.slug}`, lastModified: '2026-07-15', changeFrequency: 'monthly', priority: 0.7 })),
+    ...articles.map(a => entry(a.lang ?? 'en', { path: `/blog/${a.slug}`, lastModified: a.date, changeFrequency: 'monthly', priority: 0.7 })),
+    ...niches.map(n => entry('en', { path: `/niche/${n.slug}`, lastModified: '2026-07-15', changeFrequency: 'monthly', priority: 0.7 })),
+    ...gigs.map(g => entry('en', { path: `/gigs/${g.slug}`, lastModified: '2026-08-01', changeFrequency: 'weekly', priority: 0.8 })),
   ];
 }

@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import type { ReactElement } from 'react';
 import Link from 'next/link';
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
 import { gearList, getGearBySlug } from '@/data/gear';
 import { creators } from '@/data/creators';
 import { gearImg, gearPhotoCredit } from '@/data/images';
@@ -13,17 +13,16 @@ import { gearFigures } from '@/data/curated';
 import { formatPrice, roiColor, roiBarColor, getLevelLabel, h } from '@/lib/utils';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
-import { LANGS } from '@/i18n/langs';
 import { langAlternates, withLang } from '@/lib/lang';
 
 interface Props { params: Promise<{ lang: string; slug: string }> }
 
 export async function generateStaticParams() {
-  return LANGS.flatMap(lang => gearList.map(g => ({ lang, slug: g.slug })));
+  return gearList.map(g => ({ lang: 'en', slug: g.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { lang, slug } = await params;
+  const { slug } = await params;
   const gear = getGearBySlug(slug);
   if (!gear) return {};
   return {
@@ -33,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: `${gear.name} Review — Kameralog Malaysia`,
       description: gear.excerpt,
     },
-    ...langAlternates(lang, `/gear/${gear.slug}`),
+    ...langAlternates('en', `/gear/${gear.slug}`, ['en']),
   };
 }
 
@@ -53,6 +52,7 @@ export default async function GearPage({ params }: Props) {
   const { lang, slug } = await params;
   const gear = getGearBySlug(slug);
   if (!gear) notFound();
+  if (lang !== 'en') redirect(withLang('en', `/gear/${gear.slug}`));
 
   const relatedCreators = creators.filter(c => c.gearSlugs.includes(gear.slug));
   const relatedGear = gearList.filter(g => g.category === gear.category && g.slug !== gear.slug).slice(0, 3);
@@ -240,7 +240,8 @@ export default async function GearPage({ params }: Props) {
                   if (sectionCount > 1 && figures.length > 0) {
                     const fig = figures[figIdx % figures.length];
                     figIdx += 1;
-                    out.push(<Figure key={`fig-${i}`} figure={fig} />);
+                    const alt = `${fig.caption || fig.alt} ${gear.name} Review Malaysia kameralog.com`;
+                    out.push(<Figure key={`fig-${i}`} figure={{ ...fig, alt }} />);
                   }
                   out.push(<h3 key={i} className="text-xl font-bold mt-6 mb-3">{line.replace(/\*\*/g, '')}</h3>);
                   return;

@@ -55,7 +55,7 @@ export default async function NichesPage({ params }: Props) {
             {niches.map(n => (
               <Link
                 key={n.slug}
-                href={withLang(lang, `/niche/${n.slug}`)}
+                href={withLang('en', `/niche/${n.slug}`)}
                 className="group block bg-zinc-900/80 border border-zinc-800 rounded-2xl overflow-hidden hover:border-red-500/30 hover:shadow-xl hover:shadow-red-500/5 transition-all duration-300"
               >
                 <div className="h-40 relative overflow-hidden bg-zinc-900">

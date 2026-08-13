@@ -48,13 +48,13 @@ const people = [
 const gearShots = [
   shot('photo-1452780212940-6f5c0d14d848', 'Vintage DSLR on a desk', 'Used cameras this age still make money in 2026.', ['usedcamera', 'budgetgear']),
   shot('photo-1495707902641-75cac588d2e9', 'Mirrorless camera ready to shoot', 'A used A6100-style mirrorless is the 2026 sweet spot.', ['mirrorless', 'secondhand']),
-  shot('photo-1526170375885-4d8ecf77b99f', 'Camera on a tripod', 'Tripod + camera = your first "professional" set.', ['vlogsetup', 'cameratripod']),
+  shot('photo-1660958256626-cb76d1b4faad', 'Camera on a tripod for vlogging Review Malaysia kameralog.com', 'Tripod + camera = your first "professional" set.', ['vlogsetup', 'cameratripod']),
   shot('photo-1478737270239-2f02b77fc618', 'Studio microphone', 'Audio beats video every time. RM50 mic changes everything.', ['audiomatters', 'lapelmic']),
   shot('photo-1526374965328-7f61d4dc18c5', 'Creator desk setup', 'Your RM0 setup: desk, laptop, phone, window.', ['desksetup', 'contentcreation']),
   shot('photo-1544348817-5f2cf14b88c8', 'Action camera', 'Chest-mount POV content pays in Malaysia.', ['actioncam', 'povcontent']),
   shot('photo-1473580044384-7ba9967e16a0', 'Drone over water', 'Aerial = clients pay premium. Mini 4 Pro needs no license.', ['dronemalaysia', 'aerialvideo']),
   shot('photo-1598387993441-a364f854c3e1', 'Smartphone videography', 'The best camera is the one in your pocket.', ['phonevideography', 'mobilecontent']),
-  shot('photo-1498050108023-c5249f4df085', 'Electronics workbench', 'Checking a used camera before you pay.', ['usedcamera', 'gearcheck']),
+  shot('photo-1665182731863-5675ee50dfee', 'Checking a used camera before you pay Review Malaysia kameralog.com', 'Checking a used camera before you pay.', ['usedcamera', 'gearcheck']),
   shot('photo-1517245386807-bb43f82c33c4', 'Home security camera', 'A RM79 indoor cam watches your shop while you sleep.', ['homesecurity', 'cctv']),
   shot('photo-1560518883-ce09059eeffa', 'Modern home exterior', 'Landed property owners in Malaysia buy CCTV by the set.', ['securitycameras', 'homeoutdoor']),
   shot('photo-1449965408869-eaa3f722e40d', 'Driving on a highway', 'Dashcam footage settles the claims photos cannot.', ['dashcam', 'driving']),
@@ -263,7 +263,7 @@ const gearTheme: Record<string, CuratedShot[]> = {
     gearShots[0], people[6], gearShots[2], people[8],
   ],
   'sony-a6100-review-malaysia-second-hand': [
-    gearShots[1], gearShots[2], gearShots[3], gigShots.video[1],
+    gearShots[2], gearShots[8], people[7], people[8],
   ],
   'iphone-15-content-creation-malaysia': [
     gearShots[7], people[3], people[5], gigShots.food[1],

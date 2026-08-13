@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import type { ReactElement } from 'react';
 import Link from 'next/link';
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
 import { articles } from '@/data/articles';
 import { gearList } from '@/data/gear';
 import { blogImg } from '@/data/images';
@@ -12,24 +12,27 @@ import Figure from '@/components/Figure';
 import CurationWall from '@/components/CurationWall';
 import { articleFigures } from '@/data/curated';
 import { articleTopic } from '@/lib/curation';
-import { LANGS } from '@/i18n/langs';
+import { type Lang } from '@/i18n/langs';
 import { BASE_URL, langAlternates, withLang } from '@/lib/lang';
 
 interface Props { params: Promise<{ lang: string; slug: string }> }
 
 export async function generateStaticParams() {
-  return LANGS.flatMap(lang => articles.map(a => ({ lang, slug: a.slug })));
+  return articles.map(a => ({ lang: a.lang ?? 'en', slug: a.slug }));
 }
+
+const realLang = (a: { lang?: 'ms' | 'zh' }): Lang => a.lang ?? 'en';
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang, slug } = await params;
   const article = articles.find(a => a.slug === slug);
   if (!article) return {};
+  const rl = realLang(article);
   return {
     title: `${article.title} | Kameralog Malaysia`,
     description: article.description,
     openGraph: { title: article.title, description: article.description },
-    ...langAlternates(lang, `/blog/${article.slug}`),
+    ...langAlternates(rl, `/blog/${article.slug}`, [rl]),
   };
 }
 
@@ -37,6 +40,7 @@ export default async function ArticlePage({ params }: Props) {
   const { lang, slug } = await params;
   const article = articles.find(a => a.slug === slug);
   if (!article) notFound();
+  if (lang !== realLang(article)) redirect(withLang(realLang(article), `/blog/${article.slug}`));
 
   const relatedGear = gearList.filter(g => article.relatedGear.includes(g.slug));
   const figures = articleFigures(article.slug);
@@ -166,7 +170,7 @@ export default async function ArticlePage({ params }: Props) {
               <h2 className="text-2xl font-bold mb-6">Related Gear</h2>
               <div className="grid md:grid-cols-2 gap-4">
                 {relatedGear.map(g => (
-                  <Link key={g.slug} href={withLang(lang, `/gear/${g.slug}`)} className="block bg-zinc-900/60 border border-zinc-800 rounded-xl p-5 hover:border-red-500/30 transition-all group">
+                  <Link key={g.slug} href={withLang('en', `/gear/${g.slug}`)} className="block bg-zinc-900/60 border border-zinc-800 rounded-xl p-5 hover:border-red-500/30 transition-all group">
                     <div className="flex items-start justify-between gap-3 mb-2">
                       <h3 className="font-bold group-hover:text-red-400 transition-colors">{g.name}</h3>
                       <span className="text-green-400 font-bold text-sm">{formatPrice(g.priceUsed)}</span>

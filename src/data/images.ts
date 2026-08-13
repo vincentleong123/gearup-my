@@ -20,7 +20,7 @@ export const scenarioRefs: Record<string, string[]> = {
     'photo-1502920917128-1aa500764cbd?w=800&h=600&fit=crop',       // budget camera setup
   ],
   'sony-a6100-vlog': [
-    'photo-1526170375885-4d8ecf77b99f?w=800&h=600&fit=crop',        // camera on tripod
+    'photo-1660958256626-cb76d1b4faad?w=800&h=600&fit=crop',       // camera on tripod
     'photo-1495707902641-75cac588d2e9?w=800&h=600&fit=crop',        // mirrorless camera
   ],
   'insta360-action': [
@@ -48,7 +48,7 @@ export const scenarioRefs: Record<string, string[]> = {
     'photo-1590602847861-f357a9332bbc?w=800&h=600&fit=crop',        // recording setup
   ],
   'used-camera-shop': [
-    'photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop',        // electronics desk
+    'photo-1665182731863-5675ee50dfee?w=800&h=600&fit=crop',        // checking used camera
     'photo-1495707902641-75cac588d2e9?w=800&h=600&fit=crop',        // camera
   ],
   'beauty-review-setup': [
@@ -228,7 +228,7 @@ export function heroCollageImg(i: number, w = 900, h = 900): string {
 export const images = {
   gear: {
     'nikon-d3100-review-malaysia-second-hand-price': 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Nikon_D3100.jpg/960px-Nikon_D3100.jpg',
-    'sony-a6100-review-malaysia-second-hand': 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/SST_Condensed_%28ILCE-6100Y%29.jpg/960px-SST_Condensed_%28ILCE-6100Y%29.jpg',
+    'sony-a6100-review-malaysia-second-hand': 'photo-1495707902641-75cac588d2e9?w=1200&h=675&fit=crop',
     'iphone-15-content-creation-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Back_of_iPhone_15.jpg/960px-Back_of_iPhone_15.jpg',
     'insta360-x4-review-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Insta360_X4.jpg/960px-Insta360_X4.jpg',
     'dji-osmo-action-5-pro-review': 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/DJI_Osmo_Action_5_Pro_01.jpg/960px-DJI_Osmo_Action_5_Pro_01.jpg',
@@ -306,7 +306,7 @@ export const images = {
     'nikon-d3100-vs-sony-a6100-which-better-malaysia': 'photo-1452780212940-6f5c0d14d848?w=1200&h=630&fit=crop',
     'content-creator-gear-roi-malaysia-calculator': 'photo-1554224155-8d04cb21cd6c?w=1200&h=630&fit=crop',
     'insta360-vs-gopro-which-buy-malaysia-2026': 'photo-1544348817-5f2cf14b88c8?w=1200&h=630&fit=crop',
-    'used-camera-buying-guide-malaysia-mudah-carousell': 'photo-1498050108023-c5249f4df085?w=1200&h=630&fit=crop',
+    'used-camera-buying-guide-malaysia-mudah-carousell': 'photo-1665182731863-5675ee50dfee?w=1200&h=630&fit=crop',
     'camera-paid-for-part-time-gigs-malaysia': 'photo-1554224155-8d04cb21cd6c?w=1200&h=630&fit=crop',
     'graduation-photography-malaysia-guide': 'photo-1531545514256-b1400bc00f31?w=1200&h=630&fit=crop',
     'wedding-photography-side-hustle-malaysia': 'photo-1519741497674-611481863552?w=1200&h=630&fit=crop',
@@ -314,8 +314,8 @@ export const images = {
     'sony-zv-e10-vs-sony-a6100-which-buy-malaysia': 'photo-1495707902641-75cac588d2e9?w=1200&h=630&fit=crop',
     'canon-eos-r50-vs-sony-a6100-which-better-malaysia': 'photo-1452780212940-6f5c0d14d848?w=1200&h=630&fit=crop',
     'best-budget-lapel-microphone-malaysia-audio-guide': 'photo-1478737270239-2f02b77fc618?w=1200&h=630&fit=crop',
-    'best-tripod-phone-camera-malaysia-guide': 'photo-1526170375885-4d8ecf77b99f?w=1200&h=630&fit=crop',
-    'budget-lighting-setup-content-creation-malaysia': 'photo-1498050108023-c5249f4df085?w=1200&h=630&fit=crop',
+    'best-tripod-phone-camera-malaysia-guide': 'photo-1660958256626-cb76d1b4faad?w=1200&h=630&fit=crop',
+    'budget-lighting-setup-content-creation-malaysia': 'photo-1526374965328-7f61d4dc18c5?w=1200&h=630&fit=crop',
     'iphone-vs-mirrorless-camera-content-creation-malaysia': 'photo-1598387993441-a364f854c3e1?w=1200&h=630&fit=crop',
     'free-video-editing-software-malaysia-beginners': 'photo-1535016120720-40c646be5580?w=1200&h=630&fit=crop',
     'youtube-thumbnails-that-get-clicks-malaysia': 'photo-1526374965328-7f61d4dc18c5?w=1200&h=630&fit=crop',
@@ -342,14 +342,14 @@ export const images = {
     'mirrorless-vs-dslr-malaysia': 'photo-1517180102446-f3ece451e9d8?w=1200&h=630&fit=crop',
     'full-frame-vs-crop-sensor-malaysia': 'photo-1554224155-8d04cb21cd6c?w=1200&h=630&fit=crop',
     'best-first-lens-malaysia': 'photo-1502920917128-1aa500764cbd?w=1200&h=630&fit=crop',
-    'camera-price-guide-malaysia-2026': 'photo-1498050108023-c5249f4df085?w=1200&h=630&fit=crop',
+    'camera-price-guide-malaysia-2026': 'photo-1452780212940-6f5c0d14d848?w=1200&h=630&fit=crop',
     'how-many-gigs-pay-off-camera-malaysia': 'photo-1522071820081-009f0129c71c?w=1200&h=630&fit=crop',
     'dji-mini-3-pro-vs-mini-4-pro-malaysia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/DJI_Mini_3_Pro.jpg/1200px-DJI_Mini_3_Pro.jpg',
     'best-drone-malaysia-2026': 'photo-1473580044384-7ba9967e16a0?w=1200&h=630&fit=crop',
     'best-action-camera-malaysia-2026': 'photo-1544348817-5f2cf14b88c8?w=1200&h=630&fit=crop',
     'part-time-photographer-earnings-malaysia': 'photo-1519389950473-47ba0277781c?w=1200&h=630&fit=crop',
     'side-hustle-fotografi-bayar-kamera-malaysia': 'photo-1522071820081-009f0129c71c?w=1200&h=630&fit=crop',
-    'panduan-harga-gig-fotografi-malaysia-2026': 'photo-1498050108023-c5249f4df085?w=1200&h=630&fit=crop',
+    'panduan-harga-gig-fotografi-malaysia-2026': 'photo-1495707902641-75cac588d2e9?w=1200&h=630&fit=crop',
     'gig-fotografi-dron-hartanah-malaysia': 'photo-1473580044384-7ba9967e16a0?w=1200&h=630&fit=crop',
     'gig-video-perniagaan-kecil-malaysia': 'photo-1495707902641-75cac588d2e9?w=1200&h=630&fit=crop',
     'gig-fotografi-kenduri-kahwin-malaysia': 'photo-1519741497674-611481863552?w=1200&h=630&fit=crop',
@@ -360,8 +360,8 @@ export const images = {
     'gig-fotografi-makanan-malaysia': 'photo-1414235077428-338989a2e8c0?w=1200&h=630&fit=crop',
     'tamron-17-50mm-vc-review-malaysia': 'photo-1502920917128-1aa500764cbd?w=1200&h=630&fit=crop',
     'nikon-d500-reality-check-2026': 'photo-1452780212940-6f5c0d14d848?w=1200&h=630&fit=crop',
-    'second-hand-camera-scams-malaysia': 'photo-1498050108023-c5249f4df085?w=1200&h=630&fit=crop',
-    'video-stabilization-ibis-gimbal-tripod-malaysia': 'photo-1526170375885-4d8ecf77b99f?w=1200&h=630&fit=crop',
+    'second-hand-camera-scams-malaysia': 'photo-1665182731863-5675ee50dfee?w=1200&h=630&fit=crop',
+    'video-stabilization-ibis-gimbal-tripod-malaysia': 'photo-1660958256626-cb76d1b4faad?w=1200&h=630&fit=crop',
     'content-calendar-malaysia-creators': 'photo-1526374965328-7f61d4dc18c5?w=1200&h=630&fit=crop',
     'drone-license-registration-malaysia-2026': 'photo-1473580044384-7ba9967e16a0?w=1200&h=630&fit=crop',
     'wedding-videography-side-hustle-malaysia': 'photo-1519741497674-611481863552?w=1200&h=630&fit=crop',
@@ -397,7 +397,7 @@ export const images = {
     'gig-jual-stock-foto-malaysia': '/blog/gig-jual-stock-foto-malaysia.jpg',
     'sewa-lensa-60d-gig-malaysia': '/blog/sewa-lensa-60d-gig-malaysia.jpg',
     'old-dslr-era-60d-d3100-gig-payoff-malaysia': 'photo-1452780212940-6f5c0d14d848?w=1200&h=630&fit=crop',
-    '20-best-second-hand-cameras-after-60d-malaysia': 'photo-1498050108023-c5249f4df085?w=1200&h=630&fit=crop',
+    '20-best-second-hand-cameras-after-60d-malaysia': 'photo-1665182731863-5675ee50dfee?w=1200&h=630&fit=crop',
     'canon-60d-50mm-f18-photography-video-malaysia': '/blog/canon-60d-50mm-f18-boleh-buat-kerja-malaysia.jpg',
     'photography-vs-video-camera-malaysia-beginners': 'photo-1495707902641-75cac588d2e9?w=1200&h=630&fit=crop',
     'insta360-luna-vs-dslr-photography-malaysia': 'photo-1544348817-5f2cf14b88c8?w=1200&h=630&fit=crop',
@@ -446,7 +446,6 @@ export interface GearPhotoCredit {
 
 export const gearPhotoCredits: Record<string, GearPhotoCredit> = {
   'nikon-d3100-review-malaysia-second-hand-price': { artist: 'Nikon Polska', license: 'CC BY 2.0', page: 'https://commons.wikimedia.org/wiki/File:Nikon_D3100.jpg' },
-  'sony-a6100-review-malaysia-second-hand': { artist: 'Hydrogen14O', license: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:SST_Condensed_(ILCE-6100Y).jpg' },
   'iphone-15-content-creation-malaysia': { artist: 'ThePhotoGraphIc', license: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:Back_of_iPhone_15.jpg' },
   'insta360-x4-review-malaysia': { artist: 'Realdjizzy61', license: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:Insta360_X4.jpg' },
   'dji-osmo-action-5-pro-review': { artist: 'Gannu03', license: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:DJI_Osmo_Action_5_Pro_01.jpg' },

@@ -1,30 +1,29 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 import { niches } from '@/data/niches';
 import { gearList } from '@/data/gear';
 import { nicheImg, gearImg } from '@/data/images';
 import { formatPrice, roiColor } from '@/lib/utils';
-import { LANGS } from '@/i18n/langs';
 import { BASE_URL, langAlternates, withLang } from '@/lib/lang';
 
 interface Props { params: Promise<{ lang: string; slug: string }> }
 
 export async function generateStaticParams() {
-  return LANGS.flatMap(lang => niches.map(n => ({ lang, slug: n.slug })));
+  return niches.map(n => ({ lang: 'en', slug: n.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { lang, slug } = await params;
+  const { slug } = await params;
   const niche = niches.find(n => n.slug === slug);
   if (!niche) return {};
   return {
     title: `${niche.title} Content Creation — Best Gear & Tips Malaysia | Kameralog MY`,
     description: niche.description.slice(0, 160),
     openGraph: { title: `${niche.title} Creator Guide — Kameralog Malaysia` },
-    ...langAlternates(lang, `/niche/${niche.slug}`),
+    ...langAlternates('en', `/niche/${niche.slug}`, ['en']),
   };
 }
 
@@ -32,6 +31,7 @@ export default async function NichePage({ params }: Props) {
   const { lang, slug } = await params;
   const niche = niches.find(n => n.slug === slug);
   if (!niche) notFound();
+  if (lang !== 'en') redirect(withLang('en', `/niche/${niche.slug}`));
 
   const bestGear = gearList.filter(g => niche.bestGearSlugs.includes(g.slug));
 

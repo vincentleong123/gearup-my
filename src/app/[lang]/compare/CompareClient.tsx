@@ -76,7 +76,7 @@ function CompareInner() {
                     <p><span className="text-zinc-200">{t('compare.label.video', 'Video')}:</span> {gear.video}</p>
                     <p><span className="text-zinc-200">{t('compare.label.weight', 'Weight')}:</span> {gear.weight}</p>
                   </div>
-                  <Link href={withLang(lang, '/gear/' + gear.slug)} className="block text-center text-sm text-red-400 hover:text-red-300 font-semibold pt-2 border-t border-zinc-800">{t('gear.review', 'Full Review →')}</Link>
+                  <Link href={withLang('en', '/gear/' + gear.slug)} className="block text-center text-sm text-red-400 hover:text-red-300 font-semibold pt-2 border-t border-zinc-800">{t('gear.review', 'Full Review →')}</Link>
                 </div>
                 <button onClick={() => toggleGear(gear.slug)} className="w-full p-3 text-sm text-zinc-500 hover:text-red-400 hover:bg-red-500/5 transition-colors border-t border-zinc-800 font-medium">{t('compare.remove', 'Remove')}</button>
               </div>

@@ -32,7 +32,7 @@ export default function PayoffPath({ gear, lang }: { gear: GearItem; lang: strin
         {paths.map(p => (
           <Link
             key={p.gig.slug}
-            href={withLang(lang, `/gigs/${p.gig.slug}`)}
+            href={withLang('en', `/gigs/${p.gig.slug}`)}
             className="group flex items-center gap-3 bg-zinc-900/60 border border-zinc-800 rounded-xl p-4 hover:border-amber-500/40 hover:bg-zinc-900 transition-all"
           >
             <span className="text-3xl">{p.gig.emoji}</span>

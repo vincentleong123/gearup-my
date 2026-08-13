@@ -5,6 +5,7 @@ import { LangProvider } from '@/i18n/context';
 import { LANGS, htmlLangs, isLang, type Lang } from '@/i18n/langs';
 import { BASE_URL } from '@/lib/lang';
 import BackToTop from '@/components/BackToTop';
+import ScrollGuide from '@/components/ScrollGuide';
 import '../globals.css';
 
 const geistSans = Geist({
@@ -71,7 +72,7 @@ export default async function Layout({
         <script async src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "YOUR_CLOUDFLARE_WEB_ANALYTICS_TOKEN"}'></script>
       </head>
       <body className="min-h-full bg-[#09090b] text-[#fafafa]">
-        <LangProvider lang={lang}>{children}<BackToTop /></LangProvider>
+        <LangProvider lang={lang}>{children}<BackToTop /><ScrollGuide /></LangProvider>
       </body>
     </html>
   );

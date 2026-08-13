@@ -37,7 +37,7 @@ export default async function CreatorsPage({ params }: Props) {
           {creators.map((c, i) => (
             <Link
               key={c.slug}
-              href={withLang(lang, `/creators/${c.slug}`)}
+              href={withLang('en', `/creators/${c.slug}`)}
               className="group block bg-zinc-900/80 border border-zinc-800 rounded-2xl p-6 hover:border-cyan-500/30 hover:shadow-lg hover:shadow-cyan-500/5 transition-all duration-300"
             >
               <div className="flex items-center gap-4 mb-4">
