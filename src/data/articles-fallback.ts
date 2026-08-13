@@ -14,7 +14,7 @@ export interface Article {
 
 import { msArticles } from './articles-ms';
 
-export const articles: Article[] = [
+export const fallbackArticles: Article[] = [
   ...msArticles.map(a => ({ ...a, lang: 'ms' as const })),
   {
     slug: 'content-creator-malaysia-no-money-start',

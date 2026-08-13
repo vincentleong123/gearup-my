@@ -11,8 +11,8 @@ Camera & gear reviews for Malaysian content creators — with ROI in Ringgit. Re
 
 ## Content
 
+- `content/articles/*.md` — **articles are managed in the TinaCMS admin** (markdown + frontmatter). `src/data/generated/articles.ts` is regenerated from these on every build.
 - `src/data/gear.ts` — gear reviews (priceNew / priceUsed in MYR, roiScore, pros/cons, gig payoff math)
-- `src/data/articles.ts` — buying guides, price guides, comparisons, and gig-to-gear math
 - `src/data/gigs.ts` — Malaysian part-time photography gigs with real 2026 rates (rateMin / rateMax)
 - `src/data/creators.ts` — fictional-but-realistic Malaysian creator stories
 - `src/data/images.ts` — Wikimedia Commons (CC-licensed) + Unsplash images with photo credits
@@ -23,8 +23,34 @@ Camera & gear reviews for Malaysian content creators — with ROI in Ringgit. Re
 ```bash
 npm install
 npm run dev
-# http://localhost:3000
+# Site:    http://localhost:3000
+# CMS:     http://localhost:4000/admin/index.html
 ```
+
+## CMS (TinaCMS)
+
+Articles live as markdown files in `content/articles/` and are edited through the
+TinaCMS admin — no code changes needed.
+
+**Edit content:**
+
+```bash
+npm run dev
+# open http://localhost:4000/admin/index.html → Articles
+# create/edit/save → writes content/articles/*.md
+```
+
+**Ship it:**
+
+```bash
+npm run build   # syncs markdown → typed data, then builds all static pages
+npm start
+```
+
+- `npm run sync` — regenerate `src/data/generated/articles.ts` from the markdown files (also runs automatically before `next build`).
+- `npm run seed` — one-time only: re-imports the original hardcoded articles back into `content/articles/` (don't run after you start editing in the CMS — it overwrites).
+- Schema lives in `tina/config.ts`; the admin app and generated client are built into `public/admin` + `tina/__generated__` by the Tina CLI when you run `tinacms dev`.
+- This setup is **local-only** (no Tina Cloud account needed): editing happens on your machine, and the deployed site is pure static HTML.
 
 ## Production build
 
