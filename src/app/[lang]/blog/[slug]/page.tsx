@@ -1,21 +1,25 @@
 import { Metadata } from 'next';
-import type { ReactElement } from 'react';
 import Link from 'next/link';
 import { notFound, redirect } from 'next/navigation';
-import { articles } from '@/data/articles';
+import { articles, type Article } from '@/data/articles';
 import { gearList } from '@/data/gear';
 import { blogImg } from '@/data/images';
-import { h, formatPrice } from '@/lib/utils';
+import { formatPrice } from '@/lib/utils';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
-import Figure from '@/components/Figure';
+import MarkdownBody from '@/components/MarkdownBody';
 import CurationWall from '@/components/CurationWall';
 import { articleFigures } from '@/data/curated';
 import { articleTopic } from '@/lib/curation';
 import { type Lang } from '@/i18n/langs';
 import { BASE_URL, langAlternates, withLang } from '@/lib/lang';
+import { getPostType } from '@/admin/types';
+import { readPost } from '@/lib/cms/fs';
 
-interface Props { params: Promise<{ lang: string; slug: string }> }
+interface Props {
+  params: Promise<{ lang: string; slug: string }>;
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
+}
 
 export async function generateStaticParams() {
   return articles.map(a => ({ lang: a.lang ?? 'en', slug: a.slug }));
@@ -23,27 +27,65 @@ export async function generateStaticParams() {
 
 const realLang = (a: { lang?: 'ms' | 'zh' }): Lang => a.lang ?? 'en';
 
+async function previewArticle(slug: string): Promise<Article | null> {
+  if (process.env.NODE_ENV !== 'development') return null;
+  const type = getPostType('article');
+  if (!type) return null;
+  try {
+    const post = await readPost(type, slug);
+    const v = post.values;
+    return {
+      slug: post.slug,
+      title: String(v.title || slug),
+      description: String(v.description || ''),
+      content: String(v.body || ''),
+      image: String(v.image || ''),
+      category: ((v.category as string) || 'guide') as Article['category'],
+      readTime: Number(v.readTime) || 5,
+      date: String(v.date || ''),
+      tags: Array.isArray(v.tags) ? v.tags.map(String) : [],
+      relatedGear: Array.isArray(v.relatedGear) ? v.relatedGear.map(String) : [],
+      ...(v.lang ? { lang: v.lang as 'ms' } : {}),
+      ...(v.author ? { author: String(v.author) } : {}),
+      ...(v.reviewedAt ? { reviewedAt: String(v.reviewedAt).slice(0, 10) } : {}),
+      ...(Array.isArray(v.imageCuration) ? { imageCuration: v.imageCuration as Article['imageCuration'] } : {}),
+      ...(v.seoTitle ? { seoTitle: String(v.seoTitle) } : {}),
+      ...(v.seoDescription ? { seoDescription: String(v.seoDescription) } : {}),
+    };
+  } catch {
+    return null;
+  }
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang, slug } = await params;
   const article = articles.find(a => a.slug === slug);
   if (!article) return {};
   const rl = realLang(article);
   return {
-    title: `${article.title} | Kameralog Malaysia`,
-    description: article.description,
-    openGraph: { title: article.title, description: article.description },
+    title: article.seoTitle || `${article.title} | Kameralog Malaysia`,
+    description: article.seoDescription || article.description,
+    openGraph: { title: article.title, description: article.seoDescription || article.description },
     ...langAlternates(rl, `/blog/${article.slug}`, [rl]),
   };
 }
 
-export default async function ArticlePage({ params }: Props) {
+export default async function ArticlePage({ params, searchParams }: Props) {
   const { lang, slug } = await params;
-  const article = articles.find(a => a.slug === slug);
+  const sp = await searchParams;
+  const isPreview = process.env.NODE_ENV === 'development' && sp?.preview === '1';
+
+  let article = articles.find(a => a.slug === slug);
+  if (isPreview) {
+    const preview = await previewArticle(slug);
+    if (preview) article = preview;
+  }
   if (!article) notFound();
-  if (lang !== realLang(article)) redirect(withLang(realLang(article), `/blog/${article.slug}`));
+  if (!isPreview && lang !== realLang(article)) redirect(withLang(realLang(article), `/blog/${article.slug}`));
 
   const relatedGear = gearList.filter(g => article.relatedGear.includes(g.slug));
   const figures = articleFigures(article.slug);
+  const heroImg = article.image || blogImg(article.slug);
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -51,7 +93,10 @@ export default async function ArticlePage({ params }: Props) {
     headline: article.title,
     description: article.description,
     datePublished: article.date,
-    author: { '@type': 'Organization', name: 'Kameralog Malaysia' },
+    dateModified: article.reviewedAt || article.date,
+    author: article.author
+      ? { '@type': 'Person', name: article.author }
+      : { '@type': 'Organization', name: 'Kameralog Malaysia' },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `${BASE_URL}${withLang(lang, `/blog/${article.slug}`)}` },
   };
 
@@ -72,13 +117,13 @@ export default async function ArticlePage({ params }: Props) {
           <div className="mb-10">
             <div className="h-48 md:h-64 rounded-2xl overflow-hidden relative mb-6 bg-zinc-900">
               <img
-                src={blogImg(article.slug)}
+                src={heroImg}
                 alt={article.title}
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/80 via-transparent to-transparent" />
             </div>
-            <div className="flex items-center gap-3 text-sm text-zinc-500 mb-4">
+            <div className="flex items-center gap-3 text-sm text-zinc-500 mb-4 flex-wrap">
               <span className="text-xs font-bold px-3 py-1 rounded-full bg-green-500/20 text-green-400 border border-green-500/30 uppercase">{article.category}</span>
               {article.lang === 'ms' && (
                 <span className="text-xs font-bold px-3 py-1 rounded-full bg-red-500/15 text-red-400 border border-red-500/30 uppercase">Bahasa Melayu</span>
@@ -86,71 +131,18 @@ export default async function ArticlePage({ params }: Props) {
               <span>{article.date}</span>
               <span>·</span>
               <span>{article.readTime} min read</span>
+              {article.author && <span>·</span>}
+              {article.author && <span className="text-zinc-300">{article.author}</span>}
+              {article.reviewedAt && <span className="text-xs text-zinc-600">· updated {article.reviewedAt}</span>}
+              {isPreview && (
+                <span className="text-xs font-bold px-3 py-1 rounded-full bg-amber-500/20 text-amber-400 border border-amber-500/30 uppercase">Preview</span>
+              )}
             </div>
             <h1 className="text-3xl md:text-5xl font-black leading-tight mb-4">{article.title}</h1>
             <p className="text-xl text-zinc-200">{article.description}</p>
           </div>
 
-          <div className="prose prose-invert prose-zinc max-w-none">
-            {(() => {
-              const lines = article.content.split('\n');
-              let headingCount = 0;
-              let figIdx = 0;
-              const out: ReactElement[] = [];
-              lines.forEach((line, i) => {
-                if (line.startsWith('## ') || line.startsWith('### ')) {
-                  headingCount += 1;
-                  if (headingCount > 1 && figures.length > 0) {
-                    const fig = figures[figIdx % figures.length];
-                    figIdx += 1;
-                    out.push(<Figure key={`fig-${i}`} figure={fig} />);
-                  }
-                  const isH2 = line.startsWith('## ');
-                  const text = line.replace(/^#+ /, '');
-                  out.push(isH2
-                    ? <h2 key={i} className="text-2xl font-bold mt-10 mb-4">{text}</h2>
-                    : <h3 key={i} className="text-xl font-bold mt-8 mb-3">{text}</h3>);
-                  return;
-                }
-                if (line.startsWith('**') && line.endsWith('**')) {
-                  out.push(<h3 key={i} className="text-xl font-bold mt-6 mb-3">{line.replace(/\*\*/g, '')}</h3>);
-                  return;
-                }
-                if (line.startsWith('|')) {
-                  const cells = line.split('|').filter(Boolean);
-                  if (cells.length > 0 && !line.includes('---')) {
-                    const isHeader = i > 0 && lines[i - 1]?.startsWith('|---');
-                    out.push(
-                      <div key={i} className={`flex gap-4 py-2 ${isHeader ? 'mt-6 rounded-t-lg bg-zinc-900/70 font-bold text-amber-300' : 'border-b border-zinc-800'}`}>
-                        {cells.map((c, j) => (
-                          <div key={j} className={`flex-1 text-sm ${j === 0 ? (isHeader ? '' : 'font-semibold') : ''}`}>{c.trim()}</div>
-                        ))}
-                      </div>
-                    );
-                  }
-                  return;
-                }
-                if (line.startsWith('- **')) {
-                  const match = line.match(/- \*\*(.+?)\*\*(.*)/);
-                  if (match) {
-                    out.push(<li key={i} className="text-zinc-100 mb-1 ml-4"><strong>{match[1]}</strong>{match[2]}</li>);
-                  }
-                  return;
-                }
-                if (line.startsWith('- ')) {
-                  out.push(<li key={i} className="text-zinc-100 mb-1 ml-4">{line.slice(2)}</li>);
-                  return;
-                }
-                if (/^\d+\.\s/.test(line)) {
-                  out.push(<li key={i} className="text-zinc-100 mb-2 ml-4 list-decimal">{line.replace(/^\d+\.\s/, '')}</li>);
-                  return;
-                }
-                if (line.trim() === '') { out.push(<br key={i} />); return; }
-                out.push(<p key={i} className="text-zinc-100 leading-relaxed mb-4 text-lg">{line}</p>);
-              });
-              return out;
-            })()}
-          </div>
+          <MarkdownBody content={article.content} figures={figures} imageCuration={article.imageCuration} />
 
           {/* Watch it in the wild */}
           <div className="mt-12">
@@ -196,3 +188,4 @@ export default async function ArticlePage({ params }: Props) {
     </>
   );
 }
+

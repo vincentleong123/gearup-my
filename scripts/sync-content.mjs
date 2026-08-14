@@ -1,7 +1,11 @@
 /**
- * Regenerates src/data/generated/articles.ts from the CMS markdown files in
- * content/articles. Runs automatically before `next build` so CMS edits are
- * reflected in the static site.
+ * Regenerates src/data/generated/*.ts from the CMS markdown files in
+ * content/<collection>. Runs automatically before `next build` so CMS edits
+ * are reflected in the static site.
+ *
+ * Collections:
+ *   - content/articles  -> src/data/generated/articles.ts  (Creator articles)
+ *   - content/security  -> src/data/generated/security.ts  (Security systems)
  *
  * Run: node scripts/sync-content.mjs
  */
@@ -9,47 +13,121 @@ import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import matter from 'gray-matter';
 
-const contentDir = join(process.cwd(), 'content/articles');
-const generatedDir = join(process.cwd(), 'src/data/generated');
-const outFile = join(generatedDir, 'articles.ts');
-
-mkdirSync(contentDir, { recursive: true });
+const cwd = process.cwd();
+const generatedDir = join(cwd, 'src/data/generated');
 mkdirSync(generatedDir, { recursive: true });
 
-const files = readdirSync(contentDir).filter((f) => f.endsWith('.md'));
+const pick = (data, key, fallback) => (data[key] === undefined || data[key] === null ? fallback : data[key]);
+const str = (v, fb = '') => String(v ?? fb);
+const num = (v, fb = 0) => Number(v) || fb;
+const arr = (v) => (Array.isArray(v) ? v.map(String) : []);
+const slice10 = (v) => String(v || '').slice(0, 10);
 
-const articles = files.map((file) => {
-  const raw = readFileSync(join(contentDir, file), 'utf8');
-  const { data, content } = matter(raw);
-  const date = String(data.date || '').slice(0, 10);
-  return {
-    slug: data.slug || file.replace(/\.md$/, ''),
-    title: data.title || '',
-    description: data.description || '',
-    content,
-    image: data.image || '',
-    category: data.category || 'guide',
-    readTime: Number(data.readTime) || 5,
-    date,
-    tags: Array.isArray(data.tags) ? data.tags.map(String) : [],
-    relatedGear: Array.isArray(data.relatedGear) ? data.relatedGear.map(String) : [],
-    ...(data.lang ? { lang: String(data.lang) } : {}),
-  };
-});
+const optional = (data, key) => (data[key] === undefined ? {} : { [key]: data[key] });
 
-articles.sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
+const collections = [
+  {
+    dir: join(cwd, 'content/articles'),
+    outFile: join(generatedDir, 'articles.ts'),
+    typeName: 'Article',
+    sourceType: '../articles-fallback',
+    exportName: 'generatedArticles',
+    map: (data, file) => ({
+      slug: str(pick(data, 'slug', file.replace(/\.md$/, ''))),
+      title: str(data.title),
+      description: str(data.description),
+      content: '',
+      image: str(data.image),
+      category: str(pick(data, 'category', 'guide')),
+      readTime: num(data.readTime, 5),
+      date: slice10(pick(data, 'date', '')),
+      tags: arr(data.tags),
+      relatedGear: arr(data.relatedGear),
+      ...optional(data, 'lang'),
+      ...optional(data, 'status'),
+      ...optional(data, 'author'),
+      ...optional(data, 'verticalCategory'),
+      ...optional(data, 'featuredImage'),
+      ...optional(data, 'gallery'),
+      ...optional(data, 'updatedAt'),
+      ...optional(data, 'reviewedAt'),
+      ...optional(data, 'seoTitle'),
+      ...optional(data, 'seoDescription'),
+      ...optional(data, 'roiCreator'),
+      ...optional(data, 'imageCuration'),
+    }),
+  },
+  {
+    dir: join(cwd, 'content/security'),
+    outFile: join(generatedDir, 'security.ts'),
+    typeName: 'SecuritySystem',
+    sourceType: '../security-fallback',
+    exportName: 'generatedSecuritySystems',
+    map: (data, file) => ({
+      slug: str(pick(data, 'slug', file.replace(/\.md$/, ''))),
+      title: str(data.title),
+      description: str(data.description),
+      content: '',
+      image: str(data.image),
+      category: str(pick(data, 'category', 'cctv')),
+      status: str(pick(data, 'status', 'published')),
+      date: slice10(data.date ?? data.publishDate ?? ''),
+      ...optional(data, 'updatedAt'),
+      ...optional(data, 'reviewedAt'),
+      ...optional(data, 'author'),
+      tags: arr(data.tags),
+      ...optional(data, 'lang'),
+      readTime: num(data.readTime, 6),
+      ...optional(data, 'environment'),
+      ...optional(data, 'deployment'),
+      ...optional(data, 'systemLineup'),
+      ...optional(data, 'systemCost'),
+      ...optional(data, 'installationCost'),
+      ...optional(data, 'maintenanceCost'),
+      ...optional(data, 'usefulLife'),
+      cameras: Array.isArray(data.cameras) ? data.cameras : [],
+      aiFeatures: arr(data.aiFeatures),
+      ...optional(data, 'storage'),
+      ...optional(data, 'networking'),
+      ...optional(data, 'incidentRoi'),
+      relatedGear: arr(data.relatedGear),
+      relatedArticles: arr(data.relatedArticles),
+      ...optional(data, 'seoTitle'),
+      ...optional(data, 'seoDescription'),
+      ...optional(data, 'featuredImage'),
+      ...optional(data, 'gallery'),
+      ...optional(data, 'imageCuration'),
+    }),
+  },
+];
 
-const lines = articles.map((a) => `  ${JSON.stringify(a)},`);
-const out = [
-  '// AUTO-GENERATED by scripts/sync-content.mjs - do not edit by hand.',
-  '// Source of truth: content/articles/*.md (managed via the TinaCMS admin).',
-  "import type { Article } from '../articles-fallback';",
-  '',
-  'export const generatedArticles: Article[] = [',
-  ...lines,
-  '];',
-  '',
-].join('\n');
+for (const col of collections) {
+  mkdirSync(col.dir, { recursive: true });
 
-writeFileSync(outFile, out);
-console.log(`Synced ${articles.length} articles -> ${outFile}`);
+  const files = readdirSync(col.dir).filter((f) => f.endsWith('.md'));
+
+  const items = files
+    .map((file) => {
+      const raw = readFileSync(join(col.dir, file), 'utf8');
+      const { data, content } = matter(raw);
+      const item = col.map(data, file);
+      item.content = content;
+      return item;
+    })
+    .sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
+
+  const lines = items.map((it) => `  ${JSON.stringify(it)},`);
+  const out = [
+    '// AUTO-GENERATED by scripts/sync-content.mjs - do not edit by hand.',
+    `// Source of truth: content/${col.dir.split(/[\\/]/).pop()}/*.md (managed via the CMS panel at /admin).`,
+    `import type { ${col.typeName} } from '${col.sourceType}';`,
+    '',
+    `export const ${col.exportName}: ${col.typeName}[] = [`,
+    ...lines,
+    '];',
+    '',
+  ].join('\n');
+
+  writeFileSync(col.outFile, out);
+  console.log(`Synced ${items.length} ${col.typeName}(s) -> ${col.outFile}`);
+}

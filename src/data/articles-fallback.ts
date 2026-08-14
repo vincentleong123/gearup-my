@@ -10,6 +10,23 @@ export interface Article {
   tags: string[];
   relatedGear: string[];
   lang?: 'ms';
+  /* CMS-managed optional fields (all optional so existing data keeps building) */
+  status?: 'draft' | 'scheduled' | 'published';
+  author?: string;
+  verticalCategory?: string;
+  featuredImage?: string;
+  gallery?: string[];
+  updatedAt?: string;
+  reviewedAt?: string;
+  seoTitle?: string;
+  seoDescription?: string;
+  roiCreator?: {
+    gearSlug?: string;
+    priceUsed?: number;
+    gigRate?: number;
+    gigsToBreakEven?: number;
+  };
+  imageCuration?: import('./content').ImageCurationBlock[];
 }
 
 import { msArticles } from './articles-ms';

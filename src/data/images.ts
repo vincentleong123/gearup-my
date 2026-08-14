@@ -417,6 +417,14 @@ export const images = {
     security: 'photo-1517245386807-bb43f82c33c4?w=800&h=600&fit=crop',
     dashcam: 'photo-1449965408869-eaa3f722e40d?w=800&h=600&fit=crop',
   },
+  security: {
+    'hikvision-8-camera-nvr-factory-malaysia': 'photo-1517245386807-bb43f82c33c4?w=1200&h=630&fit=crop', // CCTV camera
+    'tapo-4-camera-wifi-retail-shop-malaysia': 'photo-1557597774-9d273605dfa9?w=1200&h=630&fit=crop', // security cam close
+    'reolink-4-camera-poe-warehouse-malaysia': 'photo-1567581935884-3349723552ca?w=1200&h=630&fit=crop', // warehouse security
+    'hikvision-ds-2cd1023-review-malaysia': 'photo-1558494949-ef010cbdcc31?w=1200&h=630&fit=crop',
+    'tapo-c210-review-malaysia': 'photo-1517245386807-bb43f82c33c4?w=1200&h=630&fit=crop',
+    'tapo-c220-review-malaysia': 'photo-1557597774-9d273605dfa9?w=1200&h=630&fit=crop',
+  },
   hero: '/v2_look_viewer_hero.jpg',
   cta: 'photo-1554224155-8d04cb21cd6c?w=1920&h=800&fit=crop',
 } as const;
@@ -503,6 +511,11 @@ export function nicheImg(slug: string): string {
 export function blogImg(slug: string): string {
   const key = slug as keyof typeof images.blog;
   return images.blog[key] ? imgUrl(images.blog[key], 1200, 630) : '';
+}
+
+export function securityImg(slug: string): string {
+  const key = slug as keyof typeof images.security;
+  return images.security[key] ? imgUrl(images.security[key], 1200, 630) : '';
 }
 
 export function categoryImg(cat: string): string {

@@ -86,6 +86,7 @@ export default function Footer() {
               <Link href={withLang(lang, '/compare')} className="block text-sm text-zinc-200 hover:text-white transition-colors">{t('nav.compare', 'Compare Gear')}</Link>
               <Link href={withLang(lang, '/quiz')} className="block text-sm text-zinc-200 hover:text-white transition-colors">{t('nav.quiz', 'Gear Match Quiz')}</Link>
               <Link href={withLang(lang, '/blog')} className="block text-sm text-zinc-200 hover:text-white transition-colors">{t('nav.blog', 'Blog & Guides')}</Link>
+              <Link href={withLang(lang, '/security')} className="block text-sm text-cyan-400 hover:text-cyan-300 transition-colors font-medium">{t('nav.security', 'Security Systems')}</Link>
               <Link href={withLang(lang, '/glossary')} className="block text-sm text-zinc-200 hover:text-white transition-colors">{t('nav.glossary', 'Gear Glossary')}</Link>
               <Link href={withLang(lang, '/about')} className="block text-sm text-zinc-200 hover:text-white transition-colors">{t('nav.about', 'About Us')}</Link>
               <Link href={withLang(lang, '/review-policy')} className="block text-sm text-zinc-200 hover:text-white transition-colors">{t('nav.reviewPolicy', 'Review Policy')}</Link>

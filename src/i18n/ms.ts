@@ -8,6 +8,7 @@ export const ms: Record<string, string> = {
   'nav.creators': 'Kreator',
   'nav.roiCalc': 'Kalkulator ROI',
   'nav.blog': 'Blog',
+  'nav.security': 'Keselamatan',
   'nav.videos': 'Video',
   'nav.curate': 'Inspirasi',
   'nav.hashtags': 'Hashtag',

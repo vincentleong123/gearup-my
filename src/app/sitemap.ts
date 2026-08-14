@@ -4,6 +4,7 @@ import { creators } from '@/data/creators';
 import { articles } from '@/data/articles';
 import { niches } from '@/data/niches';
 import { gigs } from '@/data/gigs';
+import { visibleSecuritySystems } from '@/data/security';
 import { LANGS } from '@/i18n/langs';
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -14,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/gear', lastModified: '2026-07-15', changeFrequency: 'weekly' as const, priority: 0.9 },
     { path: '/creators', lastModified: '2026-07-15', changeFrequency: 'weekly' as const, priority: 0.9 },
     { path: '/blog', lastModified: '2026-07-15', changeFrequency: 'weekly' as const, priority: 0.8 },
+    { path: '/security', lastModified: '2026-08-14', changeFrequency: 'weekly' as const, priority: 0.8 },
     { path: '/calculator', lastModified: '2026-07-15', changeFrequency: 'monthly' as const, priority: 0.7 },
     { path: '/compare', lastModified: '2026-07-15', changeFrequency: 'weekly' as const, priority: 0.7 },
     { path: '/quiz', lastModified: '2026-07-15', changeFrequency: 'monthly' as const, priority: 0.8 },
@@ -35,6 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...articles.map(a => ({ path: `/blog/${a.slug}`, lastModified: a.date, changeFrequency: 'monthly' as const, priority: 0.7 })),
     ...niches.map(n => ({ path: `/niche/${n.slug}`, lastModified: '2026-07-15', changeFrequency: 'monthly' as const, priority: 0.7 })),
     ...gigs.map(g => ({ path: `/gigs/${g.slug}`, lastModified: '2026-08-01', changeFrequency: 'weekly' as const, priority: 0.8 })),
+    ...visibleSecuritySystems().map(s => ({ path: `/security/${s.slug}`, lastModified: s.date, changeFrequency: 'monthly' as const, priority: 0.7 })),
   ];
 
   const langUrl = (lang: string, path: string) =>
@@ -51,5 +54,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...articles.map(a => entry(a.lang ?? 'en', { path: `/blog/${a.slug}`, lastModified: a.date, changeFrequency: 'monthly', priority: 0.7 })),
     ...niches.map(n => entry('en', { path: `/niche/${n.slug}`, lastModified: '2026-07-15', changeFrequency: 'monthly', priority: 0.7 })),
     ...gigs.map(g => entry('en', { path: `/gigs/${g.slug}`, lastModified: '2026-08-01', changeFrequency: 'weekly', priority: 0.8 })),
+    ...visibleSecuritySystems().map(s => entry(s.lang ?? 'en', { path: `/security/${s.slug}`, lastModified: s.date, changeFrequency: 'monthly', priority: 0.7 })),
   ];
 }

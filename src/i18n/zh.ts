@@ -8,6 +8,7 @@ export const zh: Record<string, string> = {
   'nav.creators': '创作者',
   'nav.roiCalc': 'ROI计算器',
   'nav.blog': '博客',
+  'nav.security': '安防',
   'nav.videos': '视频',
   'nav.curate': '灵感',
   'nav.hashtags': '标签',
