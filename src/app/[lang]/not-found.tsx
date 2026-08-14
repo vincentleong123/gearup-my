@@ -13,7 +13,7 @@ export const metadata = {
 };
 
 export default async function NotFound() {
-  const currentLang = await lang();
+  const currentLang = (await lang()) ?? 'en';
   const popularGear = gearList.slice(0, 4);
   const recentGuides = articles.slice(0, 4);
 
