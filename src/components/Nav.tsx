@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useLang, Lang } from '@/i18n/context';
@@ -19,6 +19,8 @@ const links = [
   { href: '/#creators', key: 'nav.creators', label: 'Creators' },
   { href: '/#calculator', key: 'nav.roiCalc', label: 'ROI Calc' },
 ];
+
+const primaryKeys = ['nav.gear', 'nav.gigs', 'nav.compare', 'nav.blog', 'nav.security'];
 
 const defaultLabels: Record<string, string> = {
   'nav.gear': 'Gear',
@@ -90,6 +92,8 @@ function Logo({ id = 'gubar-nav', lang }: { id?: string; lang: Lang }) {
 
 export default function Nav() {
   const [open, setOpen] = useState(false);
+  const [moreOpen, setMoreOpen] = useState(false);
+  const moreRef = useRef<HTMLDivElement>(null);
   const [progress, setProgress] = useState(0);
   const { lang, setLang, t } = useLang();
   const pathname = usePathname();
@@ -103,6 +107,14 @@ export default function Nav() {
     onScroll();
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
+  useEffect(() => {
+    const onDown = (e: MouseEvent) => {
+      if (moreRef.current && !moreRef.current.contains(e.target as Node)) setMoreOpen(false);
+    };
+    document.addEventListener('mousedown', onDown);
+    return () => document.removeEventListener('mousedown', onDown);
   }, []);
 
   const navLinks = links.map(l => ({ ...l, href: withLang(lang, l.href) }));
@@ -139,7 +151,7 @@ export default function Nav() {
             <Logo lang={lang} />
 
             <div className="hidden xl:flex items-center gap-1">
-              {navLinks.map(l => (
+              {navLinks.filter(l => primaryKeys.includes(l.key)).map(l => (
                 <Link
                   key={l.key}
                   href={l.href}
@@ -155,6 +167,38 @@ export default function Nav() {
                   )}
                 </Link>
               ))}
+
+              <div className="relative" ref={moreRef}>
+                <button
+                  onClick={() => setMoreOpen(o => !o)}
+                  aria-expanded={moreOpen}
+                  className={`flex items-center gap-1 px-3 py-2 text-sm font-semibold rounded-lg transition-all ${
+                    moreOpen ? 'text-white bg-zinc-800/60' : 'text-zinc-200 hover:text-white hover:bg-zinc-800/40'
+                  }`}
+                >
+                  {t('nav.more', 'More')}
+                  <svg className={`w-4 h-4 transition-transform ${moreOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+
+                {moreOpen && (
+                  <div className="absolute right-0 top-full mt-2 w-60 rounded-xl border border-zinc-800 bg-zinc-950/95 backdrop-blur-xl shadow-2xl py-2 z-50 animate-fade-in">
+                    {navLinks.filter(l => !primaryKeys.includes(l.key)).map(l => (
+                      <Link
+                        key={l.key}
+                        href={l.href}
+                        onClick={() => setMoreOpen(false)}
+                        className={`block px-4 py-2.5 text-sm font-semibold transition-colors ${
+                          isActive(l.href) ? 'text-white bg-zinc-800/60' : 'text-zinc-200 hover:text-white hover:bg-zinc-800/50'
+                        }`}
+                      >
+                        {t(l.key, defaultLabels[l.key] || l.label)}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
             </div>
 
             <div className="hidden xl:flex items-center gap-2">
