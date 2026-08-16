@@ -84,7 +84,7 @@ export default async function HomePage({ params }: Props) {
       {
         '@type': 'WebSite',
         name: 'Kameralog Malaysia',
-        url: `${BASE_URL}/${lang}`,
+        url: `${BASE_URL}${withLang(lang, '/')}`,
         description: 'Camera and content creation gear reviews for Malaysian creators. Compare prices, earnings, and ROI.',
         inLanguage: htmlLang(lang),
       },

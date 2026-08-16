@@ -36,15 +36,24 @@ export async function proxy(request: NextRequest) {
     return NextResponse.next();
   }
 
-  /* ---- Language prefix redirect for the public site ---- */
-  if (LANGS.some(l => pathname === `/${l}` || pathname.startsWith(`/${l}/`))) {
+  /* ---- Legacy /en prefix: permanent redirect to the English default (no prefix) ---- */
+  if (pathname === `/${DEFAULT_LANG}` || pathname.startsWith(`/${DEFAULT_LANG}/`)) {
+    const url = request.nextUrl.clone();
+    url.pathname = pathname.slice(`/${DEFAULT_LANG}`.length) || '/';
+    url.search = search;
+    return NextResponse.redirect(url, 301);
+  }
+
+  /* ---- Non-English locales keep their prefix ---- */
+  if (LANGS.some(l => l !== DEFAULT_LANG && (pathname === `/${l}` || pathname.startsWith(`/${l}/`)))) {
     return NextResponse.next();
   }
 
+  /* ---- English is the default locale: serve /en… at the unprefixed URL ---- */
   const url = request.nextUrl.clone();
-  url.pathname = `/${DEFAULT_LANG}${pathname}`;
+  url.pathname = pathname === '/' ? `/${DEFAULT_LANG}` : `/${DEFAULT_LANG}${pathname}`;
   url.search = search;
-  return NextResponse.redirect(url);
+  return NextResponse.rewrite(url);
 }
 
 export const config = {

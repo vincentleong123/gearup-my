@@ -6,6 +6,7 @@ import { niches } from '@/data/niches';
 import { gigs } from '@/data/gigs';
 import { visibleSecuritySystems } from '@/data/security';
 import { LANGS } from '@/i18n/langs';
+import { withLang } from '@/lib/lang';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = 'https://kameralog.com';
@@ -40,8 +41,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...visibleSecuritySystems().map(s => ({ path: `/security/${s.slug}`, lastModified: s.date, changeFrequency: 'monthly' as const, priority: 0.7 })),
   ];
 
-  const langUrl = (lang: string, path: string) =>
-    path === '/' ? `${base}/${lang}` : `${base}/${lang}${path}`;
+  const langUrl = (lang: string, path: string) => `${base}${withLang(lang, path)}`;
 
   const entry = (lang: string, p: { path: string; lastModified: string; changeFrequency: MetadataRoute.Sitemap[number]['changeFrequency']; priority: number }) => ({
     url: langUrl(lang, p.path), lastModified: p.lastModified, changeFrequency: p.changeFrequency, priority: p.priority,

@@ -8,6 +8,7 @@ export function htmlLang(lang: string): string {
 }
 
 export function withLang(lang: string, path: string): string {
+  if (lang === 'en') return path;
   if (path === '/') return `/${lang}`;
   return `/${lang}${path}`;
 }

@@ -27,8 +27,8 @@ export function LangProvider({ lang, children }: { lang: Lang; children: ReactNo
   const setLang = useCallback(
     (l: Lang) => {
       if (l === lang) return;
-      const rest = pathname.replace(/^\/(en|ms|zh)(?=\/|$)/, '');
-      router.push(`/${l}${rest}`);
+      const rest = pathname.replace(/^\/(en|ms|zh)(?=\/|$)/, '') || '/';
+      router.push(l === 'en' ? rest : rest === '/' ? `/${l}` : `/${l}${rest}`);
     },
     [router, pathname, lang],
   );

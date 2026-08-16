@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { POST_TYPES } from '@/admin/types';
+import { withLang } from '@/lib/lang';
 
 interface PostRow {
   slug: string;
@@ -150,7 +151,7 @@ export default function PostList({ typeId }: { typeId: string }) {
                       Edit
                     </Link>
                     <a
-                      href={`/${p.lang || 'en'}/${typeId === 'securitySystem' ? 'security' : 'blog'}/${p.slug}`}
+                      href={withLang(p.lang || 'en', `/${typeId === 'securitySystem' ? 'security' : 'blog'}/${p.slug}`)}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-zinc-400 hover:text-zinc-700 mr-3"
