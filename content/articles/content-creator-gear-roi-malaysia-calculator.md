@@ -17,6 +17,40 @@ relatedGear:
   - sony-a6100-review-malaysia-second-hand
   - insta360-x4-review-malaysia
   - dji-mini-4-pro-review-malaysia
+qaPairs:
+  - question: How many gigs do I need to break even on a used Sony A6100 in Malaysia?
+    answer: >-
+      With a second-hand Sony A6100 costing around RM1,600, you would need to
+      complete approximately 4 to 6 paid gigs at standard market rates to break
+      even. If you manage to secure two gigs per week, you can fully pay off the
+      camera in just two to three weeks.
+  - question: Berapa banyak job perlu buat untuk balik modal beli DJI Mini 4 Pro?
+    answer: >-
+      Harga pasaran terpakai bagi DJI Mini 4 Pro adalah sekitar RM2,800, dan
+      anda memerlukan kira-kira 4 hingga 7 tugasan untuk mendapatkan semula
+      modal tersebut. Memandangkan kandungan dron boleh mencecah harga premium
+      antara RM400 hingga RM800 setiap sesi, anda boleh mencapai titik pulang
+      modal dalam masa dua hingga empat minggu sahaja.
+  - question: Is it worth buying an Insta360 X4 for real estate photography in Malaysia?
+    answer: >-
+      Yes, the Insta360 X4 is a great investment for real estate content because
+      agents are currently in high demand for 360-degree virtual tours. With a
+      used unit costing RM2,000 and an average project rate of RM300 to RM400,
+      you can break even in about two weeks if you secure three gigs per week.
+  - question: What is the 'Rule of 20' for content creators in Malaysia?
+    answer: >-
+      The Rule of 20 is a simple financial strategy to determine when your gear
+      becomes profitable by calculating the number of clients needed based on
+      your service rates. For example, if your gear costs RM2,000, you need 20
+      clients paying RM100, 10 clients paying RM200, or 5 clients paying RM400
+      to cover your initial investment.
+  - question: Berapa harga pasaran untuk servis video real estate di Malaysia?
+    answer: >-
+      Bagi servis real estate di Malaysia, kadar bayaran untuk video walkthrough
+      menggunakan telefon adalah sekitar RM200 hingga RM300, manakala rakaman
+      udara menggunakan dron boleh mencecah RM400 hingga RM800. Kadar ini
+      bergantung kepada tempoh penggambaran dan jenis peralatan yang digunakan
+      oleh pencipta kandungan.
 ---
 Before buying any gear, ask yourself one question: **how many paid gigs does it take to break even?**
 

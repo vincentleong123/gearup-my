@@ -19,6 +19,39 @@ relatedGear:
   - nikon-d3100-review-malaysia-second-hand-price
   - sony-a6100-review-malaysia-second-hand
   - canon-70d-review-malaysia
+qaPairs:
+  - question: Is the Canon 60D still good for photography in 2026?
+    answer: >-
+      Yes, the Canon 60D remains a highly capable photography tool in 2026,
+      especially for portraits and events. Its real optical viewfinder, dual
+      control dials, and flip-out screen make it a reliable workhorse for
+      Malaysian photographers who want to earn money without buying expensive
+      new gear.
+  - question: Berapa harga pasaran Canon 60D terpakai di Malaysia sekarang?
+    answer: >-
+      Di pasaran terpakai Malaysia seperti Mudah atau Carousell, badan kamera
+      Canon 60D kini dijual pada harga sekitar RM700 hingga RM1,100. Ini
+      menjadikannya pilihan yang sangat berbaloi untuk mereka yang ingin
+      memulakan kerjaya fotografi dengan bajet yang rendah.
+  - question: Can I use the Canon 60D for professional video work?
+    answer: >-
+      The Canon 60D is not recommended for professional video work in 2026
+      because it is limited to 1080p30, lacks modern autofocus, and has no
+      headphone jack for audio monitoring. It is best to use the 60D for stills
+      and rely on a smartphone or a newer mirrorless camera for your video
+      content needs.
+  - question: What is the best budget lens for Canon 60D portraits?
+    answer: >-
+      The 50mm f/1.8 lens is widely considered the best portrait lens for the
+      Canon 60D, offering a beautiful bokeh effect and flattering skin tones.
+      You can easily find a used 50mm f/1.8 STM lens in Malaysia for
+      approximately RM250 to RM350.
+  - question: How can I earn money with a Canon 60D in Malaysia?
+    answer: >-
+      You can earn money by offering services like portrait mini-sessions,
+      graduation shoots, or small event coverage, which can pay between RM150 to
+      RM600 per gig. By adding a cheap Yongnuo flash for RM180 and a tripod, you
+      can quickly generate enough profit to upgrade to a newer mirrorless body.
 ---
 You bought it years ago. It has a scar on the grip, the shutter sounds like a machine gun from a 2010 action movie, and every influencer tells you to buy a mirrorless. But the Canon 60D — with the 50mm f/1.8 screwed on the front — is still one of the most underrated money-making cameras in Malaysia in 2026.
 

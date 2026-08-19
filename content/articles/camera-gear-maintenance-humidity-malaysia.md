@@ -18,6 +18,38 @@ relatedGear:
   - nikon-d3100-review-malaysia-second-hand-price
   - sony-a6100-review-malaysia-second-hand
   - camera-sd-card-speed-guide-malaysia
+qaPairs:
+  - question: How do I prevent fungus on my camera lens in Malaysia?
+    answer: >-
+      To prevent fungus, you must store your camera gear in a dry cabinet or an
+      airtight dry box maintained at 40-50% humidity. Avoid keeping your gear in
+      bags or drawers, as Malaysia's high humidity levels make these
+      environments perfect for fungus growth.
+  - question: Is a RM50 dry box setup enough to protect my camera?
+    answer: >-
+      Yes, a RM50 setup consisting of an airtight plastic box, silica gel
+      sachets, and a humidity indicator card is highly effective for protecting
+      your gear. You simply need to recharge the silica gel in a microwave every
+      2-4 weeks to keep the environment dry.
+  - question: Kenapa butang kamera saya jadi melekit?
+    answer: >-
+      Butang dan cengkaman getah kamera menjadi melekit disebabkan oleh
+      kelembapan tinggi di Malaysia yang merosakkan salutan getah pada badan
+      kamera lama. Anda boleh mengelakkan masalah ini dengan menyimpan kamera
+      anda di dalam kotak kering atau kabinet elektronik yang mengekalkan
+      kelembapan pada tahap 40-50%.
+  - question: How do I clean camera sensor dust safely?
+    answer: >-
+      Start by using a rocket blower to remove loose dust, then only use a
+      sensor swab kit if specks are still visible in photos taken at f/16.
+      Always ensure you are using proper sensor cleaning tools that cost between
+      RM30-50 and follow a tutorial to avoid damaging the sensor.
+  - question: What should I do if my camera gear gets exposed to rain in Malaysia?
+    answer: >-
+      Wipe down the camera body with a dry cloth immediately after exposure and
+      return it to your dry box as soon as you get home. Avoid transitioning
+      directly from an air-conditioned room to the humid outdoors, as this
+      causes condensation to form on the gear.
 ---
 Tim's first camera - a used D3100 - developed fungus in the lens within six months. Not because it was a bad lens. Because he kept it in a drawer in Kuala Lumpur, where humidity sits at 80-90% for half the year.
 

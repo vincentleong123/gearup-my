@@ -20,6 +20,43 @@ relatedGear:
   - sony-a6100-review-malaysia-second-hand
   - nikon-d3100-review-malaysia-second-hand-price
   - insta360-x4-review-malaysia
+qaPairs:
+  - question: >-
+      How can I afford a camera for photography if I don't have savings in
+      Malaysia?
+    answer: >-
+      Instead of saving up, you should use the Gig-to-Gear system where you
+      perform small gigs like graduation shoots or portrait sessions to earn
+      money for your gear. By doing just one gig every weekend, you can pay off
+      a camera priced under RM2,500 within 30 days.
+  - question: Berapa banyak gig yang saya perlukan untuk beli kamera Sony A6100?
+    answer: >-
+      Untuk membeli kamera Sony A6100 yang berharga sekitar RM1,600, anda hanya
+      memerlukan kira-kira 4 gig sebagai jurugambar kedua di majlis perkahwinan.
+      Dengan melakukan satu gig setiap hujung minggu, anda boleh melunaskan kos
+      kamera tersebut dalam masa sebulan sahaja.
+  - question: Is it better to save money or do gigs to buy my first professional camera?
+    answer: >-
+      Doing gigs is significantly faster because saving RM100 a month would take
+      16 months to afford a RM1,600 camera, whereas earning through gigs can
+      achieve the same goal in just one month. Furthermore, gigs provide you
+      with real-world experience, portfolio shots, and client referrals that
+      saving money cannot offer.
+  - question: How should I price my photography services as a beginner in Malaysia?
+    answer: >-
+      You should charge based on the value of the delivery, such as '10 edited
+      photos,' rather than charging by the hour. Use an anchoring strategy with
+      packages like RM250, RM350, and RM500, and remember to increase your rates
+      after every five gigs as your confidence and portfolio grow.
+  - question: >-
+      What is the fastest way to start earning money for camera gear as a
+      beginner?
+    answer: >-
+      The fastest way is to pick a simple gig like a graduation shoot, portrait
+      session, or food content creation using your existing smartphone. Spend
+      the first week creating three sample shots, pitch to 10 potential local
+      clients, and use the income from your first paid jobs to fund your first
+      used camera purchase.
 ---
 Tim and Ahmad have RM400. The camera they want costs RM1,600. They think they need to "save up."
 

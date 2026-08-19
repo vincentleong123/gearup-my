@@ -19,6 +19,38 @@ relatedGear:
   - fujifilm-x100vi-hype-worth-it-malaysia
   - fujifilm-x-m5-review-malaysia
   - canon-eos-r50-review-malaysia
+qaPairs:
+  - question: Is the Fujifilm X-T5 worth buying in Malaysia for street photography?
+    answer: >-
+      Yes, the Fujifilm X-T5 is considered the most enjoyable camera under
+      RM10,000 for Malaysian street photographers due to its tactile physical
+      dials and high-quality film simulations. Its 40MP X-Trans sensor provides
+      exceptional sharpness, making it a superior choice for those who
+      prioritize the craft of still photography.
+  - question: 'Fujifilm X-T5 price in Malaysia: official vs grey import?'
+    answer: >-
+      The official Fujifilm X-T5 body typically retails between RM7,500 and
+      RM8,500 in Malaysia with a local warranty. Grey imports from Japan can be
+      RM500 to RM1,000 cheaper, but buyers should be cautious regarding warranty
+      coverage and ensure the menu language settings are correct.
+  - question: Should I buy the Fujifilm X-T5 or X-M5 for my first camera?
+    answer: >-
+      If you are focused on still photography and want a professional tactile
+      experience, the X-T5 is the better choice. However, if you are on a
+      tighter budget of RM4,000 to RM4,500 and prioritize video features in a
+      compact body, the X-M5 is the smarter, more affordable alternative.
+  - question: Adakah Fujifilm X-T5 bagus untuk video atau lebih kepada gambar?
+    answer: >-
+      Fujifilm X-T5 lebih diutamakan untuk fotografi kerana reka bentuk skrin
+      dan kawalan dailnya yang lebih sesuai untuk jurugambar. Walaupun ia mampu
+      merakam video 6.2K30 dan 4K60, model seperti X-H2 atau X-M5 adalah pilihan
+      yang lebih baik jika fokus utama anda adalah penghasilan video.
+  - question: Is the 40MP sensor on the X-T5 just a gimmick?
+    answer: >-
+      The 40MP X-Trans sensor is not a gimmick and genuinely out-resolves 26MP
+      cameras when paired with high-quality lenses. It provides significant
+      detail for portraits and street photography, allowing for high-quality
+      JPEGs that often require no further editing.
 ---
 Some cameras are tools. The Fujifilm X-T5 is a personality. In a market of identical black rectangles, it's the camera that makes Malaysian street and portrait shooters fall in love with photography all over again — and with the 40MP X-Trans sensor, it's more capable than its retro face suggests.
 

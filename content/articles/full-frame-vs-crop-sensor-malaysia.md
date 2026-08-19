@@ -17,6 +17,40 @@ tags:
 relatedGear:
   - sony-a7c-ii-review-malaysia
   - sony-a6700-review-malaysia
+qaPairs:
+  - question: Is it worth upgrading to a full-frame camera for a beginner in Malaysia?
+    answer: >-
+      For beginners, it is generally not worth the extra cost, as a full-frame
+      setup can be RM4,000 to RM8,000 more expensive once you account for
+      lenses. You are better off spending that budget on quality lenses,
+      lighting equipment, or gaining experience, as the sensor size alone will
+      not make you a better photographer.
+  - question: 'Full frame vs APS-C: Mana satu lebih bagus untuk low light di Malaysia?'
+    answer: >-
+      Full-frame sensors are significantly better for low-light conditions
+      because they are roughly 2.25 times larger and collect more light. If you
+      frequently shoot in dim Malaysian wedding halls or night markets where you
+      need ISO 3200 or higher, a full-frame camera will provide much cleaner
+      images than an APS-C sensor.
+  - question: Adakah full-frame camera lebih tajam daripada crop sensor?
+    answer: >-
+      Tidak semestinya, kerana ketajaman gambar lebih bergantung kepada kualiti
+      lensa daripada saiz sensor. Lensa yang berkualiti tinggi pada kamera crop
+      sensor akan sentiasa menghasilkan gambar yang lebih tajam berbanding lensa
+      biasa pada kamera full-frame.
+  - question: Why do sports and wildlife photographers in Malaysia prefer crop sensors?
+    answer: >-
+      Sports and wildlife photographers often prefer crop sensors because they
+      provide a 'free zoom' effect, making a 200mm lens act like a 300mm lens.
+      This extra reach is highly beneficial for capturing distant subjects
+      without the need for heavier and more expensive full-frame telephoto
+      lenses.
+  - question: Berapa beza harga kamera full-frame dan APS-C di Malaysia?
+    answer: >-
+      Di Malaysia, badan kamera full-frame biasanya berharga RM3,000 hingga
+      RM6,000 lebih mahal berbanding kamera APS-C yang setara. Apabila anda
+      mengambil kira kos lensa full-frame yang lebih mahal, jumlah perbezaan kos
+      pemilikan boleh mencecah antara RM4,000 hingga RM8,000.
 ---
 "Should I go full frame?" is the upgrade question that empties Malaysian wallets. A full-frame body costs RM3,000-6,000 more than a comparable crop-sensor camera — before you even touch the pricier full-frame lenses.
 

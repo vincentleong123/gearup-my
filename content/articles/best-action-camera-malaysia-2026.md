@@ -18,6 +18,45 @@ relatedGear:
   - insta360-x5-review-malaysia
   - dji-osmo-action-6-pro-review
   - gopro-hero-12-review-malaysia
+qaPairs:
+  - question: Which action camera is best for vlogging in Malaysia?
+    answer: >-
+      The DJI Osmo Action 6 Pro is the best choice for vloggers because of its
+      front-facing screen that allows you to see yourself while recording. It is
+      priced at RM2,099 and features excellent stabilisation and heat
+      management, making it ideal for travel and POV content.
+  - question: >-
+      GoPro Hero 14 vs DJI Osmo Action 6 Pro, which one should I buy for
+      motorcycle content?
+    answer: >-
+      For motorcycle content, the GoPro Hero 14 is the better choice because of
+      its massive accessory ecosystem, including cheap and widely available
+      helmet and chest mounts in Malaysia. It retails for RM2,299 and offers
+      professional-grade HyperSmooth 7.0 stabilisation for high-speed POV shots.
+  - question: 'Is the Insta360 X5 worth the RM2,999 price tag for Malaysian creators?'
+    answer: >-
+      The Insta360 X5 is worth the investment if you want unique, viral-style
+      footage that other cameras cannot capture. Its 360-degree capture allows
+      you to reframe shots after filming, which is highly effective for real
+      estate walkthroughs and creative social media content.
+  - question: >-
+      Mana satu lebih berbaloi, beli kamera action baru atau second hand di
+      Malaysia?
+    answer: >-
+      Membeli model tahun lepas secara terpakai (second hand) adalah pilihan
+      paling berbaloi kerana ia menawarkan 90% prestasi model flagship pada
+      separuh harga. Sebagai contoh, GoPro Hero 12 terpakai boleh didapati
+      sekitar RM950 hingga RM1,200, manakala DJI Osmo Action 4 terpakai berharga
+      RM1,000 hingga RM1,300.
+  - question: >-
+      What is the cheapest way to get started with action camera content in
+      Malaysia?
+    answer: >-
+      The most cost-effective way to start is by purchasing a used action camera
+      like the GoPro Hero 12 or DJI Osmo Action 4, which cost between RM950 and
+      RM1,300. You should then allocate your budget toward essential accessories
+      like extra batteries and high-quality mounts, as these are crucial for
+      creating professional-looking content.
 ---
 Every action cam spec sheet says "the best ever." None of them tell you which one is right for *your* content. In 2026 the Malaysian choice is really three cameras, each with a different superpower.
 

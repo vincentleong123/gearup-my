@@ -5,6 +5,7 @@ import { videos, videoCategories, youtubeThumb, youtubeEmbed } from '@/data/vide
 import type { VideoCategory, VideoItem } from '@/data/videos';
 import { instagramPosts, instagramCategories, instagramEmbedUrl } from '@/data/instagramPosts';
 import type { InstagramCategory, InstagramPost } from '@/data/instagramPosts';
+import { igThumb } from '@/data/instagram';
 
 type Source = 'all' | 'youtube' | 'instagram';
 
@@ -173,20 +174,12 @@ export default function VideoWall({ limit }: { limit?: number }) {
               className="group text-left bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-pink-500/50 hover:-translate-y-1 hover:shadow-xl hover:shadow-pink-600/5 transition-all duration-300"
             >
               <div className="relative aspect-square overflow-hidden bg-zinc-900">
-                {item.thumbnail ? (
-                  <img
-                    src={item.thumbnail}
-                    alt={item.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                    loading="lazy"
-                  />
-                ) : (
-                  <div className="w-full h-full grid place-items-center bg-gradient-to-br from-zinc-800 to-zinc-950">
-                    <svg className="h-10 w-10 text-zinc-600" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M12 2.5A9.5 9.5 0 1021.5 12 9.51 9.51 0 0012 2.5zm5.5 13.9a6.1 6.1 0 01-11 0c.5-2.5 2.7-3.4 5.5-3.4s5 .9 5.5 3.4zM12 8a2.7 2.7 0 112.7 2.7A2.71 2.71 0 0112 8z" />
-                    </svg>
-                  </div>
-                )}
+                <img
+                  src={igThumb(item.shortcode)}
+                  alt={item.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                />
                 <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/80 via-transparent to-zinc-950/20" />
                 <div className="absolute inset-0 grid place-items-center">
                   <span className="grid place-items-center h-14 w-14 rounded-full bg-white/10 backdrop-blur border border-white/25 group-hover:bg-pink-500 group-hover:border-pink-400 group-hover:scale-110 transition-all duration-300">
@@ -258,6 +251,7 @@ export default function VideoWall({ limit }: { limit?: number }) {
                   src={instagramEmbedUrl(playing.shortcode)}
                   title={playing.title}
                   className="block w-full max-w-[540px] min-h-[640px] border-0"
+                  referrerPolicy="no-referrer"
                   loading="lazy"
                 />
               </div>

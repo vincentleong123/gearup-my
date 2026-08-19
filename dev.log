@@ -1,16 +1,300 @@
 
-> gearup-my@0.1.0 dev
-> next dev
+> kameralog@0.1.0 dev
+> tinacms dev -c "next dev"
 
-Γû▓ Next.js 16.2.10 (Turbopack)
+🦙 TinaCMS Dev Server is initializing...
+[2K[1GIndexing local files ⠋[2K[1GIndexing local files ⠙[2K[1GIndexing local files ⠹[2K[1GIndexing local files ⠸[2K[1GIndexing local files ⠼[2K[1GIndexing local files ⠴[2K[1GIndexing local files ⠦[2K[1GIndexing local files ⠧[2K[1GIndexing local files ⠇[2K[1GIndexing local files ⠏[2K[1GIndexing local files ⠋[2K[1GIndexing local files ⠙[2K[1GIndexing local files ⠹[2K[1GIndexing local files ⠸[2K[1GIndexing local files ⠼[2K[1GIndexing local files ⠴[2K[1GIndexing local files ⠦[2K[1GIndexing local files ⠧[2K[1GIndexing local files ⠇[2K[1GIndexing local files ⠏[2K[1GIndexing local files ⠋[2K[1GIndexing local files ⠙
+│
+○  ✅ 🦙 TinaCMS Dev Server is active: ─────────────────────────────────────╮
+│                                                                          │
+│  🦙 TinaCMS URLs                                                         │
+│     CMS:                <your-dev-server-url>/admin/index.html           │
+│     API playground:     <your-dev-server-url>/admin/index.html#/graphql  │
+│     API url:            http://localhost:4001/graphql                    │
+│                                                                          │
+│  🤖 Auto-generated files                                                 │
+│     GraphQL Client:     tina/__generated__/client.ts                     │
+│     Typescript Types:   tina/__generated__/types.ts                      │
+│                                                                          │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────╯
+Running web application with command: next dev
+(node:15792) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+▲ Next.js 16.3.1 (Turbopack)
 - Local:         http://localhost:3000
-- Network:       http://192.168.1.100:3000
-Γ£ô Ready in 1773ms
-ΓÜá Warning: Next.js inferred your workspace root, but it may not be correct.
- We detected multiple lockfiles and selected the directory of C:\Users\User\package-lock.json as the root directory.
- To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
-   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
- Detected additional lockfiles: 
-   * C:\Users\User\Desktop\gearup-my\package-lock.json
-   * C:\Users\User\Desktop\package-lock.json
+- Network:       http://192.168.1.106:3000
+- Environments: .env.local
+✓ Ready in 17.2s
+✓ Running next.config.ts took 1183ms
+⚠ Slow filesystem detected. The benchmark took 898ms. If \\?\C:\Users\User\Desktop\gearup-my\.next\dev is a network drive, consider moving it to a local folder.
+See more: https://nextjs.org/docs/app/guides/local-development
+○ Compiling proxy ...
 
+○ Compiling /[lang]/blog/[slug] ...
+ GET /blog/content-creator-malaysia-no-money-start 200 in 26.5s (proxy.ts: 18ms)
+ GET /blog/content-creator-malaysia-no-money-start 200 in 1300ms (next.js: 266ms, proxy.ts: 17ms, generate-params: 17ms, application-code: 1000ms)
+ GET /wp-admin/install.php?step=1 404 in 715ms (next.js: 427ms, proxy.ts: 53ms, application-code: 235ms)
+ GET /blog/content-creator-malaysia-no-money-start 200 in 1148ms (next.js: 64ms, proxy.ts: 15ms, generate-params: 18ms, application-code: 1052ms)
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+ GET / 200 in 6.9s (next.js: 713ms, proxy.ts: 15ms, generate-params: 4.5s, application-code: 1621ms)
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+ GET / 200 in 769ms (next.js: 24ms, proxy.ts: 24ms, generate-params: 9ms, application-code: 712ms)
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+ GET / 200 in 467ms (next.js: 13ms, proxy.ts: 6ms, generate-params: 7ms, application-code: 441ms)
+ GET /wp-admin/install.php?step=1 404 in 131ms (next.js: 52ms, proxy.ts: 29ms, application-code: 50ms)
+  Reload env: .env.local
+Gemini API error: 404 {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements.",
+    "status": "NOT_FOUND"
+  }
+}
+
+ POST /api/ask 502 in 2.0s (next.js: 1511ms, proxy.ts: 147ms, application-code: 391ms)
+ POST /api/ask 200 in 3.7s (next.js: 19ms, proxy.ts: 12ms, application-code: 3.7s)
+ POST /api/ask 200 in 5.5s (next.js: 8ms, proxy.ts: 8ms, application-code: 5.5s)
+ GET /wp-admin/install.php?step=1 404 in 412ms (next.js: 222ms, proxy.ts: 17ms, application-code: 173ms)
+ GET /wp-admin/install.php?step=1 404 in 78ms (next.js: 22ms, proxy.ts: 6ms, application-code: 49ms)
+ GET /wp-admin/install.php?step=1 404 in 100ms (next.js: 28ms, proxy.ts: 13ms, application-code: 59ms)
+  Reload env: .env.local
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+ GET / 200 in 1074ms (next.js: 282ms, proxy.ts: 6ms, generate-params: 13ms, application-code: 772ms)
+ GET /wp-admin/install.php?step=1 404 in 97ms (next.js: 40ms, proxy.ts: 6ms, application-code: 51ms)
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+ GET / 200 in 527ms (next.js: 14ms, proxy.ts: 6ms, generate-params: 9ms, application-code: 498ms)
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+ GET / 200 in 436ms (next.js: 12ms, proxy.ts: 5ms, generate-params: 7ms, application-code: 412ms)
+ GET /wp-includes/wlwmanifest.xml 404 in 79ms (next.js: 22ms, proxy.ts: 14ms, application-code: 43ms)
+ GET /xmlrpc.php?rsd 404 in 208ms (next.js: 12ms, proxy.ts: 5ms, generate-params: 8ms, application-code: 183ms)
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+ GET / 200 in 456ms (next.js: 12ms, proxy.ts: 6ms, generate-params: 0.0ms, application-code: 438ms)
+ GET /blog/wp-includes/wlwmanifest.xml 404 in 62ms (next.js: 17ms, proxy.ts: 5ms, application-code: 40ms)
+ GET /web/wp-includes/wlwmanifest.xml 404 in 57ms (next.js: 17ms, proxy.ts: 5ms, application-code: 36ms)
+ GET /wordpress/wp-includes/wlwmanifest.xml 404 in 58ms (next.js: 17ms, proxy.ts: 4ms, application-code: 37ms)
+ GET /website/wp-includes/wlwmanifest.xml 404 in 58ms (next.js: 17ms, proxy.ts: 5ms, application-code: 36ms)
+ GET /wp/wp-includes/wlwmanifest.xml 404 in 57ms (next.js: 16ms, proxy.ts: 5ms, application-code: 36ms)
+ GET /news/wp-includes/wlwmanifest.xml 404 in 62ms (next.js: 17ms, proxy.ts: 5ms, application-code: 40ms)
+ GET /2018/wp-includes/wlwmanifest.xml 404 in 60ms (next.js: 17ms, proxy.ts: 5ms, application-code: 39ms)
+ GET /2019/wp-includes/wlwmanifest.xml 404 in 67ms (next.js: 17ms, proxy.ts: 6ms, application-code: 44ms)
+ GET /shop/wp-includes/wlwmanifest.xml 404 in 58ms (next.js: 17ms, proxy.ts: 5ms, application-code: 36ms)
+ GET /wp1/wp-includes/wlwmanifest.xml 404 in 57ms (next.js: 18ms, proxy.ts: 4ms, application-code: 35ms)
+ GET /test/wp-includes/wlwmanifest.xml 404 in 58ms (next.js: 17ms, proxy.ts: 5ms, application-code: 36ms)
+ GET /media/wp-includes/wlwmanifest.xml 404 in 67ms (next.js: 17ms, proxy.ts: 8ms, application-code: 42ms)
+ GET /wp2/wp-includes/wlwmanifest.xml 404 in 61ms (next.js: 17ms, proxy.ts: 5ms, application-code: 39ms)
+ GET /site/wp-includes/wlwmanifest.xml 404 in 73ms (next.js: 19ms, proxy.ts: 5ms, application-code: 50ms)
+ GET /cms/wp-includes/wlwmanifest.xml 404 in 66ms (next.js: 25ms, proxy.ts: 5ms, application-code: 36ms)
+ GET /sito/wp-includes/wlwmanifest.xml 404 in 57ms (next.js: 16ms, proxy.ts: 5ms, application-code: 36ms)
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+ GET / 200 in 479ms (next.js: 14ms, proxy.ts: 7ms, generate-params: 8ms, application-code: 451ms)
+ GET /wp-admin/install.php?step=1 404 in 61ms (next.js: 17ms, proxy.ts: 5ms, application-code: 38ms)
+ GET /wp-admin/install.php?step=1 404 in 74ms (next.js: 26ms, proxy.ts: 9ms, application-code: 38ms)
+  Reload env: .env.local
+ GET /wp-admin/install.php?step=1 404 in 375ms (next.js: 131ms, proxy.ts: 83ms, application-code: 162ms)
+ GET /robots.txt 200 in 799ms (next.js: 762ms, proxy.ts: 6ms, application-code: 31ms)
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+ GET / 200 in 890ms (next.js: 239ms, proxy.ts: 7ms, generate-params: 9ms, application-code: 635ms)
+⚠ Blocked cross-origin request to Next.js dev resource /_next/static/chunks/node_modules_next_dist_00pwe04._.js from "kameralog.com".
+Cross-origin access to Next.js dev resources is blocked by default for safety.
+
+To allow this host in development, add it to "allowedDevOrigins" in next.config.js and restart the dev server:
+
+// next.config.js
+module.exports = {
+  allowedDevOrigins: ['kameralog.com'],
+}
+
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+⚠ Blocked cross-origin request to Next.js dev resource /_next/static/chunks/node_modules_next_dist_20wefz_._.js from "kameralog.com".
+Cross-origin access to Next.js dev resources is blocked by default for safety.
+
+To allow this host in development, add it to "allowedDevOrigins" in next.config.js and restart the dev server:
+
+// next.config.js
+module.exports = {
+  allowedDevOrigins: ['kameralog.com'],
+}
+
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+⚠ Blocked cross-origin request to Next.js dev resource /_next/static/chunks/_0r65kvi._.js from "kameralog.com".
+Cross-origin access to Next.js dev resources is blocked by default for safety.
+
+To allow this host in development, add it to "allowedDevOrigins" in next.config.js and restart the dev server:
+
+// next.config.js
+module.exports = {
+  allowedDevOrigins: ['kameralog.com'],
+}
+
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+⚠ Blocked cross-origin request to Next.js dev resource /_next/static/chunks/src_06dgksj._.js from "kameralog.com".
+Cross-origin access to Next.js dev resources is blocked by default for safety.
+
+To allow this host in development, add it to "allowedDevOrigins" in next.config.js and restart the dev server:
+
+// next.config.js
+module.exports = {
+  allowedDevOrigins: ['kameralog.com'],
+}
+
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+⚠ Blocked cross-origin request to Next.js dev resource /_next/hmr from "kameralog.com".
+Cross-origin access to Next.js dev resources is blocked by default for safety.
+
+To allow this host in development, add it to "allowedDevOrigins" in next.config.js and restart the dev server:
+
+// next.config.js
+module.exports = {
+  allowedDevOrigins: ['kameralog.com'],
+}
+
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET /robots.txt 200 in 34ms (next.js: 18ms, proxy.ts: 6ms, application-code: 11ms)
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+ GET / 200 in 574ms (next.js: 77ms, proxy.ts: 9ms, generate-params: 9ms, application-code: 479ms)
+ GET /wp-admin/install.php?step=1 404 in 92ms (next.js: 48ms, proxy.ts: 5ms, application-code: 38ms)
+ GET /wp-admin/install.php?step=1 404 in 70ms (next.js: 16ms, proxy.ts: 12ms, application-code: 42ms)
+ GET /wp-admin/install.php?step=1 404 in 58ms (next.js: 16ms, proxy.ts: 5ms, application-code: 36ms)
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+ GET / 200 in 544ms (next.js: 12ms, proxy.ts: 6ms, generate-params: 8ms, application-code: 519ms)
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+ GET / 200 in 494ms (next.js: 11ms, proxy.ts: 6ms, generate-params: 0.0ms, application-code: 478ms)
+ GET /wp-includes/wlwmanifest.xml 404 in 62ms (next.js: 17ms, proxy.ts: 5ms, application-code: 41ms)
+ GET /xmlrpc.php?rsd 404 in 181ms (next.js: 10ms, proxy.ts: 7ms, generate-params: 8ms, application-code: 156ms)
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+ GET / 200 in 499ms (next.js: 12ms, proxy.ts: 5ms, generate-params: 0.0ms, application-code: 482ms)
+ GET /blog/wp-includes/wlwmanifest.xml 404 in 67ms (next.js: 18ms, proxy.ts: 5ms, application-code: 45ms)
+ GET /web/wp-includes/wlwmanifest.xml 404 in 65ms (next.js: 17ms, proxy.ts: 5ms, application-code: 43ms)
+ GET /wordpress/wp-includes/wlwmanifest.xml 404 in 65ms (next.js: 17ms, proxy.ts: 5ms, application-code: 43ms)
+ GET /website/wp-includes/wlwmanifest.xml 404 in 66ms (next.js: 16ms, proxy.ts: 5ms, application-code: 45ms)
+ GET /wp/wp-includes/wlwmanifest.xml 404 in 73ms (next.js: 17ms, proxy.ts: 5ms, application-code: 51ms)
+ GET /news/wp-includes/wlwmanifest.xml 404 in 60ms (next.js: 16ms, proxy.ts: 8ms, application-code: 35ms)
+ GET /2020/wp-includes/wlwmanifest.xml 404 in 62ms (next.js: 17ms, proxy.ts: 9ms, application-code: 37ms)
+ GET /2019/wp-includes/wlwmanifest.xml 404 in 67ms (next.js: 18ms, proxy.ts: 11ms, application-code: 38ms)
+ GET /shop/wp-includes/wlwmanifest.xml 404 in 63ms (next.js: 17ms, proxy.ts: 10ms, application-code: 36ms)
+ GET /wp1/wp-includes/wlwmanifest.xml 404 in 65ms (next.js: 18ms, proxy.ts: 11ms, application-code: 35ms)
+ GET /test/wp-includes/wlwmanifest.xml 404 in 70ms (next.js: 16ms, proxy.ts: 16ms, application-code: 38ms)
+ GET /wp2/wp-includes/wlwmanifest.xml 404 in 70ms (next.js: 19ms, proxy.ts: 10ms, application-code: 41ms)
+ GET /site/wp-includes/wlwmanifest.xml 404 in 66ms (next.js: 18ms, proxy.ts: 5ms, application-code: 43ms)
+ GET /cms/wp-includes/wlwmanifest.xml 404 in 65ms (next.js: 18ms, proxy.ts: 10ms, application-code: 36ms)
+ GET /sito/wp-includes/wlwmanifest.xml 404 in 68ms (next.js: 17ms, proxy.ts: 15ms, application-code: 36ms)
+ GET /sitemap.xml 200 in 569ms (next.js: 525ms, proxy.ts: 4ms, application-code: 40ms)
+ GET /robots.txt 200 in 21ms (next.js: 5ms, proxy.ts: 5ms, application-code: 11ms)
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+ GET / 200 in 585ms (next.js: 14ms, proxy.ts: 17ms, generate-params: 9ms, application-code: 545ms)
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+ GET / 200 in 481ms (next.js: 11ms, proxy.ts: 5ms, generate-params: 8ms, application-code: 456ms)
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+ GET / 200 in 535ms (next.js: 12ms, proxy.ts: 4ms, generate-params: 7ms, application-code: 512ms)
+⨯ SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: '/en/gear/sony-a6100-review-malaysia-second-hand'
+}
+ GET /gear/sony-a6100-review-malaysia-second-hand 200 in 2.1s (next.js: 274ms, proxy.ts: 6ms, generate-params: 1083ms, application-code: 759ms)
+ GET /gear/sony-a6100-review-malaysia-second-hand 200 in 266ms (next.js: 28ms, proxy.ts: 19ms, generate-params: 8ms, application-code: 211ms)
+⚠ Blocked cross-origin request to Next.js dev resource /_next/static/chunks/src_1txkqh7._.js from "kameralog.com".
+Cross-origin access to Next.js dev resources is blocked by default for safety.
+
+To allow this host in development, add it to "allowedDevOrigins" in next.config.js and restart the dev server:
+
+// next.config.js
+module.exports = {
+  allowedDevOrigins: ['kameralog.com'],
+}
+
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+⚠ Blocked cross-origin request to Next.js dev resource /_next/static/chunks/src_1fzayqb._.js from "kameralog.com".
+Cross-origin access to Next.js dev resources is blocked by default for safety.
+
+To allow this host in development, add it to "allowedDevOrigins" in next.config.js and restart the dev server:
+
+// next.config.js
+module.exports = {
+  allowedDevOrigins: ['kameralog.com'],
+}
+
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET /gear/sony-a6100-review-malaysia-second-hand 500 in 2.1s (next.js: 1774ms, proxy.ts: 5ms, application-code: 279ms)
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+ GET / 200 in 490ms (next.js: 43ms, proxy.ts: 6ms, generate-params: 8ms, application-code: 433ms)
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+ GET / 200 in 520ms (next.js: 15ms, proxy.ts: 5ms, generate-params: 7ms, application-code: 493ms)
+ GET /wp-admin/install.php?step=1 404 in 69ms (next.js: 28ms, proxy.ts: 5ms, application-code: 37ms)
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+ GET / 200 in 486ms (next.js: 12ms, proxy.ts: 5ms, generate-params: 7ms, application-code: 462ms)
+ GET /wp-admin/install.php?step=1 404 in 67ms (next.js: 18ms, proxy.ts: 4ms, application-code: 44ms)
+ GET /robots.txt 200 in 78ms (next.js: 47ms, proxy.ts: 6ms, application-code: 25ms)
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+ GET / 200 in 595ms (next.js: 16ms, proxy.ts: 8ms, generate-params: 8ms, application-code: 564ms)
+ GET /sitemap.xml 200 in 63ms (next.js: 48ms, proxy.ts: 5ms, application-code: 10ms)
+ GET /wp-admin/install.php?step=1 404 in 61ms (next.js: 17ms, proxy.ts: 5ms, application-code: 39ms)
+ GET /wp-admin/install.php?step=1 404 in 85ms (next.js: 33ms, proxy.ts: 9ms, application-code: 43ms)
+ GET /.env 404 in 186ms (next.js: 15ms, proxy.ts: 4ms, generate-params: 7ms, application-code: 160ms)
+ GET /wp-admin/install.php?step=1 404 in 60ms (next.js: 17ms, proxy.ts: 5ms, application-code: 38ms)
+ GET /wp-admin/install.php?step=1 404 in 67ms (next.js: 24ms, proxy.ts: 5ms, application-code: 38ms)
+ GET /wp-admin/install.php?step=1 404 in 70ms (next.js: 24ms, proxy.ts: 5ms, application-code: 41ms)
+ GET /robots.txt 200 in 28ms (next.js: 7ms, proxy.ts: 11ms, application-code: 10ms)
+ GET /wp-admin/install.php?step=1 404 in 63ms (next.js: 18ms, proxy.ts: 4ms, application-code: 41ms)
+[?25h
+child process exited with code 1

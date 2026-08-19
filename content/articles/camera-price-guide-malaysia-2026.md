@@ -18,6 +18,35 @@ relatedGear:
   - sony-a6100-review-malaysia-second-hand
   - canon-eos-r50-review-malaysia
   - sony-a7c-ii-review-malaysia
+qaPairs:
+  - question: Berapa harga pasaran second-hand Sony ZV-E10 di Malaysia pada 2026?
+    answer: >-
+      Harga pasaran bagi Sony ZV-E10 terpakai di Malaysia pada tahun 2026 adalah
+      sekitar RM2,000 hingga RM2,300 bergantung kepada keadaan kamera. Anda
+      disarankan untuk menyemak platform seperti Mudah atau Carousell untuk
+      mendapatkan tawaran harga terbaik.
+  - question: Is the Fujifilm X100VI really more expensive used than new in Malaysia?
+    answer: >-
+      Ya, Fujifilm X100VI tertakluk kepada 'hype tax' di mana harga terpakai
+      boleh mencecah RM7,500 hingga RM8,000, yang lebih tinggi daripada harga
+      unit baharu iaitu RM6,999. Kameralog menasihatkan anda untuk tidak
+      membayar harga tersebut dan lebih baik menunggu stok baharu atau memilih
+      model generasi sebelumnya.
+  - question: Berapa harga DJI Mini 4 Pro terpakai di Malaysia?
+    answer: >-
+      Harga bagi unit terpakai DJI Mini 4 Pro di pasaran Malaysia pada tahun
+      2026 dianggarkan antara RM2,400 hingga RM2,800. Harga ini adalah lebih
+      rendah berbanding harga unit baharu yang dijual pada RM3,299.
+  - question: What is the current price of a used Canon EOS R6 Mark II in Malaysia?
+    answer: >-
+      Harga pasaran untuk Canon EOS R6 Mark II terpakai di Malaysia adalah dalam
+      lingkungan RM7,800 hingga RM8,500. Sebagai perbandingan, harga unit baharu
+      bagi model ini adalah sekitar RM11,999.
+  - question: Berapa harga GoPro Hero 14 second-hand sekarang?
+    answer: >-
+      Harga bagi unit terpakai GoPro Hero 14 di Malaysia pada tahun 2026 adalah
+      sekitar RM1,700 hingga RM1,900. Harga ini lebih murah berbanding harga
+      unit baharu yang dijual pada harga RM2,299.
 ---
 This is your 2026 price reference for every camera and gear we've reviewed on Kameralog. Prices are estimates from Malaysian dealers, Shopee/Lazada flagship stores, Mudah and Carousell as of August 2026 — always check the individual review for the latest numbers and negotiation tips.
 

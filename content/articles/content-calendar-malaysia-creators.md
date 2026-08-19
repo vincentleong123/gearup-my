@@ -18,6 +18,46 @@ relatedGear:
   - iphone-16-pro-content-creation-malaysia
   - sony-zv-e10-review-malaysia-second-hand
   - gopro-hero-13-review-malaysia
+qaPairs:
+  - question: >-
+      How do I stay consistent with content creation in Malaysia without getting
+      burnt out?
+    answer: >-
+      To stay consistent, follow the 4-3-2-1 weekly formula which consists of 4
+      short videos, 3 static posts, 2 long videos, and 1 community post. By
+      batch-filming all your short videos in one hour on a Sunday, you can
+      maintain a sustainable schedule without needing to post every single day.
+  - question: >-
+      What is the best content strategy for Malaysian creators to grow their
+      channel?
+    answer: >-
+      The most effective strategy is to commit to a 90-day content calendar that
+      cycles through four pillars: Educate, Entertain, Inspire, and Sell. By
+      repurposing one long video into multiple shorts and carousels, you can
+      maximize your reach while keeping your workload manageable.
+  - question: >-
+      How can I start creating professional content in Malaysia with zero
+      budget?
+    answer: >-
+      You can start for RM0 by using your phone's camera, natural light from a
+      window, and the free CapCut app for editing. You do not need expensive
+      software or paid schedulers; simply use a notebook to map out your 4-3-2-1
+      weekly grid and stick to the batch-filming system.
+  - question: >-
+      Berapa lama masa yang diambil untuk nampak hasil kalau saya konsisten post
+      content?
+    answer: >-
+      Jika anda komited dengan jadual 90 hari, anda biasanya akan melihat
+      pertumbuhan 10-20% pada bulan pertama, video viral pada bulan kedua, dan
+      pertanyaan kerjasama jenama atau tawaran kerja pada bulan ketiga. Kunci
+      kejayaan adalah konsistensi jangka panjang dan bukannya kualiti video yang
+      sempurna pada peringkat awal.
+  - question: How do I repurpose my long-form YouTube videos for TikTok and Instagram?
+    answer: >-
+      You can turn a single 5-minute long video into two 30-second vertical
+      shorts, one static carousel using screenshots and tips, and one story
+      teaser. This method allows you to create a full week of content from just
+      one hour of filming, making it much easier to maintain your channel.
 ---
 You don't have a content problem. You have a consistency problem.
 

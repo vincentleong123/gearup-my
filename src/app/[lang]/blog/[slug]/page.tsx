@@ -9,6 +9,8 @@ import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 import MarkdownBody from '@/components/MarkdownBody';
 import CurationWall from '@/components/CurationWall';
+import ArticleQA from '@/components/ArticleQA';
+import AskAnything from '@/components/AskAnything';
 import { articleFigures } from '@/data/curated';
 import { articleTopic } from '@/lib/curation';
 import { type Lang } from '@/i18n/langs';
@@ -49,6 +51,9 @@ async function previewArticle(slug: string): Promise<Article | null> {
       ...(v.author ? { author: String(v.author) } : {}),
       ...(v.reviewedAt ? { reviewedAt: String(v.reviewedAt).slice(0, 10) } : {}),
       ...(Array.isArray(v.imageCuration) ? { imageCuration: v.imageCuration as Article['imageCuration'] } : {}),
+      ...(Array.isArray(v.qaPairs)
+        ? { qaPairs: (v.qaPairs as { question: string; answer: string }[]) }
+        : {}),
       ...(v.seoTitle ? { seoTitle: String(v.seoTitle) } : {}),
       ...(v.seoDescription ? { seoDescription: String(v.seoDescription) } : {}),
     };
@@ -62,10 +67,31 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const article = articles.find(a => a.slug === slug);
   if (!article) return {};
   const rl = realLang(article);
+  const articleUrl = `${BASE_URL}${withLang(rl, `/blog/${article.slug}`)}`;
+  const img = article.image || blogImg(article.slug);
+  const ogImage = img.startsWith('http') ? img : `${BASE_URL}${img}`;
   return {
     title: article.seoTitle || `${article.title} | Kameralog Malaysia`,
     description: article.seoDescription || article.description,
-    openGraph: { title: article.title, description: article.seoDescription || article.description },
+    openGraph: {
+      title: article.title,
+      description: article.seoDescription || article.description,
+      url: articleUrl,
+      siteName: 'Kameralog Malaysia',
+      images: [{ url: ogImage, width: 1200, height: 630, alt: article.title }],
+      locale: rl === 'ms' ? 'ms_MY' : rl === 'zh' ? 'zh_MY' : 'en_MY',
+      type: 'article',
+      publishedTime: article.date,
+      modifiedTime: article.reviewedAt || article.date,
+      authors: article.author ? [article.author] : ['Kameralog Malaysia'],
+      tags: article.tags,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: article.title,
+      description: article.seoDescription || article.description,
+      images: [ogImage],
+    },
     ...langAlternates(rl, `/blog/${article.slug}`, [rl]),
   };
 }
@@ -92,17 +118,47 @@ export default async function ArticlePage({ params, searchParams }: Props) {
     '@type': 'Article',
     headline: article.title,
     description: article.description,
+    image: heroImg.startsWith('http') ? heroImg : `${BASE_URL}${heroImg}`,
     datePublished: article.date,
     dateModified: article.reviewedAt || article.date,
     author: article.author
       ? { '@type': 'Person', name: article.author }
       : { '@type': 'Organization', name: 'Kameralog Malaysia' },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Kameralog Malaysia',
+      logo: { '@type': 'ImageObject', url: `${BASE_URL}/og-image.png` },
+    },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `${BASE_URL}${withLang(lang, `/blog/${article.slug}`)}` },
   };
+
+  const breadcrumbLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${BASE_URL}${withLang(lang, '/')}` },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: `${BASE_URL}${withLang(lang, '/blog')}` },
+      { '@type': 'ListItem', position: 3, name: article.title, item: `${BASE_URL}${withLang(lang, `/blog/${article.slug}`)}` },
+    ],
+  };
+
+  const faqLd = article.qaPairs && article.qaPairs.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: article.qaPairs.map((p: { question: string; answer: string }) => ({
+          '@type': 'Question',
+          name: p.question,
+          acceptedAnswer: { '@type': 'Answer', text: p.answer },
+        })),
+      }
+    : null;
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
+      {faqLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />}
       <Nav />
       <article className="min-h-screen pt-24 pb-16">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -143,6 +199,12 @@ export default async function ArticlePage({ params, searchParams }: Props) {
           </div>
 
           <MarkdownBody content={article.content} figures={figures} imageCuration={article.imageCuration} />
+
+          {/* Q&A Section */}
+          {article.qaPairs && article.qaPairs.length > 0 && (
+            <ArticleQA pairs={article.qaPairs} articleTitle={article.title} />
+          )}
+          <AskAnything articleTitle={article.title} articleContent={article.content} />
 
           {/* Watch it in the wild */}
           <div className="mt-12">

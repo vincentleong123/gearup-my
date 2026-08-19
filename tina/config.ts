@@ -102,6 +102,17 @@ export default defineConfig({
             description: 'Slugs from /gear, e.g. nikon-d3100-review-malaysia-second-hand-price',
           },
           { type: 'rich-text', name: 'body', label: 'Content', isBody: true },
+          {
+            type: 'object',
+            name: 'qaPairs',
+            label: 'Q&A Pairs (SEO)',
+            description: 'Questions people actually search + answers. Shows as accordion at bottom of article.',
+            list: true,
+            fields: [
+              { type: 'string', name: 'question', label: 'Question', required: true },
+              { type: 'string', name: 'answer', label: 'Answer', required: true, ui: { component: 'textarea' } },
+            ],
+          },
         ],
       },
     ],

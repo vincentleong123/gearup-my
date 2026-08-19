@@ -18,6 +18,40 @@ relatedGear:
   - sony-a6100-review-malaysia-second-hand
   - nikon-d3100-review-malaysia-second-hand-price
   - canon-eos-r50-review-malaysia
+qaPairs:
+  - question: >-
+      What is the best mirrorless camera I can buy in Malaysia for under
+      RM2,000?
+    answer: >-
+      The Sony A6100 is widely considered the best mirrorless camera under
+      RM2,000 in the Malaysian market. You can find it used for between RM1,400
+      and RM1,900, offering a 24MP APS-C sensor, excellent autofocus, and access
+      to a vast selection of Sony lenses.
+  - question: Boleh ke saya beli kamera DSLR murah untuk belajar fotografi di Malaysia?
+    answer: >-
+      Ya, Nikon D3100 adalah pilihan terbaik untuk belajar fotografi dengan
+      harga terpakai sekitar RM300 hingga RM500 sahaja. Ia memberikan anda
+      kawalan manual penuh yang sangat bagus untuk memahami asas fotografi
+      sebelum anda beralih ke kamera yang lebih mahal.
+  - question: Is the DJI Osmo Pocket 3 worth it for content creators in Malaysia?
+    answer: >-
+      Yes, the DJI Osmo Pocket 3 is a high-ROI purchase for Malaysian content
+      creators because its built-in gimbal produces smoother footage than any
+      camera body at its price point of RM2,199. It is particularly effective
+      for talking-to-camera content and vlogging where stability is a priority.
+  - question: 'Should I buy a brand new entry-level camera for RM1,500 in Malaysia?'
+    answer: >-
+      No, you should avoid buying new entry-level cameras in the RM1,000 to
+      RM1,500 range as they are often outdated models that perform worse than
+      used mirrorless cameras from 2020. It is much better to invest that budget
+      into a high-quality used camera body that offers better sensor technology
+      and autofocus.
+  - question: How many gigs do I need to do to pay off a used Sony A6100?
+    answer: >-
+      You can pay off a used Sony A6100 by completing approximately 4 to 5
+      graduation shoots in Malaysia. Based on typical local rates, these gigs
+      can generate enough income to cover the cost of the camera, allowing your
+      gear to pay for itself quickly.
 ---
 RM2,000 is a strange budget in Malaysia: it's below the new-mirrorless price point, but way above what you need for a genuinely capable used camera. So the honest answer to "best camera under RM2,000" is: **buy used, and buy Sony.**
 

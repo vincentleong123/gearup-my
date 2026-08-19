@@ -41,13 +41,18 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     },
     description: 'Tim and Ahmad lost their jobs. This site shows them — and you — how to start content creation with zero budget, and how a few part-time gigs (graduation, galas, portraits, weddings) can pay for your camera. Compare cameras, drones, Insta360, and mobile gear with real second-hand prices in Malaysia. See what creators actually earn.',
     openGraph: {
+      title: 'Kameralog Malaysia — Camera & Gear Reviews for Malaysian Content Creators',
+      description: 'Tim and Ahmad lost their jobs. This site shows them — and you — how to start content creation with zero budget, and how a few part-time gigs can pay for your camera.',
       type: 'website',
       locale: ogLocales[current],
       siteName: 'Kameralog Malaysia',
-      images: [{ url: '/og-image.png', width: 1200, height: 630 }],
+      images: [{ url: `${BASE_URL}/og-image.png`, width: 1200, height: 630, alt: 'Kameralog Malaysia — Camera & Gear Reviews' }],
     },
     twitter: {
       card: 'summary_large_image',
+      title: 'Kameralog Malaysia — Camera & Gear Reviews',
+      description: 'How part-time gigs pay for your camera. Compare cameras, drones, and gear with real Malaysian prices.',
+      images: [`${BASE_URL}/og-image.png`],
     },
     robots: { index: true, follow: true },
   };
@@ -68,8 +73,8 @@ export default async function Layout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="theme-color" content="#09090b" />
-        <meta name="google-site-verification" content="" />
-        <script async src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "YOUR_CLOUDFLARE_WEB_ANALYTICS_TOKEN"}'></script>
+        <link rel="apple-touch-icon" href="/og-image.png" />
+        <link rel="manifest" href="/site.webmanifest" />
       </head>
       <body className="min-h-full bg-[#09090b] text-[#fafafa]">
         <LangProvider lang={lang}>{children}<BackToTop /><ScrollGuide /></LangProvider>

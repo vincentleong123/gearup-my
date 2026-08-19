@@ -13,7 +13,7 @@ import { gearFigures } from '@/data/curated';
 import { formatPrice, roiColor, roiBarColor, getLevelLabel, h } from '@/lib/utils';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
-import { langAlternates, withLang } from '@/lib/lang';
+import { langAlternates, withLang, BASE_URL } from '@/lib/lang';
 
 interface Props { params: Promise<{ lang: string; slug: string }> }
 
@@ -25,12 +25,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const gear = getGearBySlug(slug);
   if (!gear) return {};
+  const ogImg = `${BASE_URL}/og-image.png`;
   return {
     title: `${gear.name} Review Malaysia ${gear.priceUsed > 0 ? '— Second Hand Price RM' + gear.priceUsed : ''} | Kameralog MY`,
     description: gear.excerpt,
     openGraph: {
       title: `${gear.name} Review — Kameralog Malaysia`,
       description: gear.excerpt,
+      url: `${BASE_URL}/gear/${gear.slug}`,
+      siteName: 'Kameralog Malaysia',
+      images: [{ url: ogImg, width: 1200, height: 630, alt: `${gear.name} review on Kameralog Malaysia` }],
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${gear.name} Review — Kameralog Malaysia`,
+      description: gear.excerpt,
+      images: [ogImg],
     },
     ...langAlternates('en', `/gear/${gear.slug}`, ['en']),
   };
@@ -64,7 +75,9 @@ export default async function GearPage({ params }: Props) {
     '@type': 'Product',
     name: gear.name,
     description: gear.excerpt,
+    image: `${BASE_URL}/og-image.png`,
     category: gear.category,
+    brand: { '@type': 'Brand', name: gear.name.split(' ')[0] },
     offers: {
       '@type': 'Offer',
       price: gear.priceUsed || gear.priceNew,
@@ -72,10 +85,17 @@ export default async function GearPage({ params }: Props) {
       itemCondition: gear.priceUsed > 0 ? 'https://schema.org/UsedCondition' : 'https://schema.org/NewCondition',
       availability: 'https://schema.org/InStock',
     },
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: gear.rating,
+      bestRating: 5,
+      ratingCount: 1,
+    },
     review: {
       '@type': 'Review',
       reviewRating: { '@type': 'Rating', ratingValue: gear.rating, bestRating: 5 },
       author: { '@type': 'Organization', name: 'Kameralog Malaysia' },
+      reviewBody: gear.excerpt,
     },
   };
 

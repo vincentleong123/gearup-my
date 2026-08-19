@@ -19,6 +19,46 @@ relatedGear:
   - dji-osmo-pocket-3-review-malaysia
   - sony-a7-iv-review-malaysia
   - panasonic-lumix-gh7-review-malaysia
+qaPairs:
+  - question: >-
+      Is the DJI RS 4 Pro worth the RM3,000+ price tag for Malaysian wedding
+      videographers?
+    answer: >-
+      Yes, the DJI RS 4 Pro is worth the investment because its 4.5kg payload,
+      automatic axis locks, and lidar autofocus significantly speed up your
+      workflow during fast-paced wedding shoots. It is a reliable, pro-grade
+      tool that handles full-frame setups with ease, making it a long-term asset
+      for professional client work.
+  - question: >-
+      Apa kelebihan DJI RS 4 Pro berbanding RS 4 biasa untuk videografer di
+      Malaysia?
+    answer: >-
+      DJI RS 4 Pro menawarkan kapasiti payload yang lebih tinggi iaitu 4.5kg
+      berbanding 3kg pada model biasa, serta dilengkapi sistem Lidar autofocus
+      yang sangat berguna untuk lensa manual atau cinema. Harga RS 4 Pro di
+      Malaysia adalah sekitar RM3,200 hingga RM3,800, menjadikannya pilihan
+      lebih baik jika anda menggunakan lensa besar atau memerlukan ketepatan
+      fokus yang lebih tinggi.
+  - question: Should I buy a grey import DJI RS 4 Pro to save money in Malaysia?
+    answer: >-
+      It is not recommended to buy grey imports even if they are RM300-600
+      cheaper because DJI warranty is region-locked for many repairs. Buying
+      from official DJI Malaysia channels ensures you get proper local warranty
+      support, which is more valuable for professional gear that you rely on for
+      client work.
+  - question: How do I maintain my DJI gimbal in Malaysia's humid weather?
+    answer: >-
+      To prevent sticky motors caused by high humidity, you should always store
+      your gimbal with a silica gel pack inside its carrying case. Proper
+      storage in a dry environment is essential to protect the electronic
+      components from the typical Malaysian climate.
+  - question: Does the DJI RS 4 Pro lidar system work with manual focus lenses?
+    answer: >-
+      Yes, the DJI RS 4 Pro lidar system is designed to project focus points and
+      drive autofocus even on legacy manual-focus cinema lenses. This feature is
+      a game-changer for Malaysian crews who use adapted glass, as it provides
+      reliable autofocus performance that native lens systems might not offer on
+      a gimbal.
 ---
 Every serious videographer in Malaysia reaches a point where a gimbal is non-negotiable. The DJI RS 4 Pro is the current flagship of that category — 4.5kg payload, lidar autofocus, and automatic axis locks that turn the most tedious part of gimbal work into a one-touch move. We ran it through a full Malaysian wedding weekend to see if it earns the RM3,000+ price.
 

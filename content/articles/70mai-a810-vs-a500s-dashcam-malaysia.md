@@ -18,6 +18,40 @@ relatedGear:
   - 70mai-a810-review-malaysia
   - 70mai-a500s-review-malaysia
   - 70mai-m300-review-malaysia
+qaPairs:
+  - question: Is the 70mai A810 worth the extra RM250 compared to the A500S?
+    answer: >-
+      The A810 is worth the extra RM250 if you frequently drive at night, as its
+      Sony IMX678 STARVIS 2 sensor captures license plates in darkness where the
+      A500S struggles. If you primarily drive during the day, the A500S remains
+      the best value dashcam in Malaysia for your needs.
+  - question: >-
+      Perlukah saya beli 70mai A810 atau A500S untuk pemanduan waktu malam di
+      Malaysia?
+    answer: >-
+      Untuk pemanduan waktu malam yang kerap, 70mai A810 adalah pilihan yang
+      jauh lebih baik kerana ia mampu merakam nombor plat dengan jelas walaupun
+      dalam keadaan gelap atau hujan. A500S mungkin sukar untuk menangkap
+      butiran plat dalam keadaan cahaya rendah, jadi A810 memberikan
+      perlindungan yang lebih meyakinkan.
+  - question: What are the main differences between 70mai A810 and A500S sensors?
+    answer: >-
+      The A810 features the advanced Sony IMX678 STARVIS 2 sensor, which
+      provides superior low-light performance compared to the older Sony IMX335
+      sensor found in the A500S. This sensor upgrade is the primary reason the
+      A810 is more effective at reading plates in true darkness.
+  - question: Adakah 70mai A500S masih berbaloi untuk dibeli pada tahun ini?
+    answer: >-
+      Ya, 70mai A500S masih sangat berbaloi jika anda mempunyai bajet terhad
+      atau hanya memandu pada waktu siang di kawasan bandar. Dengan harga antara
+      RM179 hingga RM219, ia merupakan dashcam paling popular dan praktikal
+      untuk kegunaan harian di Malaysia.
+  - question: Does the 70mai A810 transfer footage faster than the A500S?
+    answer: >-
+      Yes, the A810 supports 5GHz Wi-Fi, which allows for significantly faster
+      footage transfers to your phone compared to the 2.4GHz Wi-Fi found on the
+      A500S. This feature saves time when you need to quickly download and share
+      video clips after an incident.
 ---
 The 70mai A810 (RM429-499) and A500S (RM179-219) are the two most-installed dashcams in Malaysia, and the question every driver asks is: is the 4K worth RM250 more? The honest answer depends entirely on one thing — how much you drive at night.
 

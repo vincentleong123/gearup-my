@@ -21,6 +21,35 @@ relatedGear:
   - tapo-c210-review-malaysia
   - imou-ranger-2-pro-review-malaysia
   - hikvision-ds-2cd1023-review-malaysia
+qaPairs:
+  - question: >-
+      Do I need a license or certification to start a CCTV installation side
+      hustle in Malaysia?
+    answer: >-
+      No, you do not need any formal license or certification to start
+      installing CCTV cameras for clients in Malaysia. You can learn the entire
+      process in one afternoon and start offering services immediately.
+  - question: How much can I charge for installing a single CCTV camera in Malaysia?
+    answer: >-
+      For a single indoor camera installation, you can typically charge between
+      RM80 and RM120, while outdoor installations involving drilling and eave
+      mounts can fetch between RM150 and RM200 per unit.
+  - question: What is the minimum budget required to start a CCTV installation business?
+    answer: >-
+      You can start your own CCTV installation business for under RM200, which
+      covers the cost of a drill with masonry bits, a demo camera like a Tapo
+      C210, and basic supplies like cable clips and 3M tape.
+  - question: Berapa lama masa yang diambil untuk pasang satu CCTV bagi pelanggan?
+    answer: >-
+      Seorang pemasang yang berpengalaman biasanya mengambil masa antara 30
+      hingga 60 minit untuk memasang kamera dalaman, manakala kamera luaran yang
+      memerlukan kerja tebuk dinding mengambil masa sekitar 60 hingga 90 minit.
+  - question: How do I find my first CCTV installation clients in Malaysia?
+    answer: >-
+      You can find your first clients by walking into local shops to offer your
+      services, posting in neighborhood Facebook or WhatsApp groups, and
+      offering a free setup to one shop owner in exchange for a review and
+      photo.
 ---
 The most profitable skill in the Malaysian gig economy in 2026 is not photography, not editing, and not drone flying. It is the ability to mount a RM79 Tapo camera, connect it to Wi-Fi, and point it at the right angle. This is the CCTV installer gig, and it pays RM80-400 per job for work you can learn in one afternoon.
 

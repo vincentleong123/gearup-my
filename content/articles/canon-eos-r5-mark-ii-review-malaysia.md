@@ -19,6 +19,43 @@ relatedGear:
   - canon-eos-r6-mark-ii-review-malaysia
   - canon-eos-r50-review-malaysia
   - sony-a7c-ii-review-malaysia
+qaPairs:
+  - question: >-
+      Is the Canon EOS R5 Mark II worth the RM18,000 price tag for Malaysian
+      photographers?
+    answer: >-
+      The R5 Mark II is a worthwhile investment for professional hybrid shooters
+      who need a single body for both high-end stills and 8K video work. If you
+      do not require 8K resolution or high-speed 30fps burst shooting for your
+      clients, you may be better off saving money with the R6 Mark II.
+  - question: Adakah berbaloi beli Canon EOS R5 Mark II 'grey import' di Malaysia?
+    answer: >-
+      Walaupun harga 'grey import' lebih murah RM1,000 hingga RM2,000, anda akan
+      kehilangan perlindungan CanonCare yang penting untuk kamera bernilai
+      tinggi ini. Untuk servis tempatan yang pantas dan jaminan yang lebih
+      menyeluruh, unit rasmi Canon Malaysia adalah pilihan yang lebih selamat.
+  - question: Does the Canon R5 Mark II overheat in Malaysia's hot weather?
+    answer: >-
+      In Malaysia's climate, the R5 Mark II can experience thermal throttling
+      during long 8K recording sessions in direct sunlight. To avoid
+      overheating, we recommend using 4K60 for long indoor takes and reserving
+      8K settings for short highlight shots.
+  - question: >-
+      What is the total cost to set up a Canon EOS R5 Mark II system in
+      Malaysia?
+    answer: >-
+      While the body alone costs between RM17,999 and RM19,999, you must budget
+      for additional accessories like a high-speed CFexpress card, extra
+      batteries, and an RF lens. Including these essentials, the total cost for
+      a professional kit can easily reach RM25,000.
+  - question: >-
+      Is Eye Control AF on the Canon R5 Mark II actually useful for wedding
+      photography?
+    answer: >-
+      Yes, Eye Control AF is highly effective in challenging environments like
+      dim Malaysian wedding ballrooms where subjects are moving quickly. It
+      allows the camera to lock onto faces more reliably than previous models,
+      making it a genuine tool for professionals rather than just a gimmick.
 ---
 The Canon EOS R5 Mark II is the camera every serious hybrid shooter in Malaysia has been staring at for a year. It's the mirrorless that promises 8K RAW, 45 megapixels and autofocus that embarrasses every DSLR it competes with. We spent three weeks shooting with one in KL — portraits, food, events and video — to find out if it earns its RM18,000-plus Malaysian price tag.
 

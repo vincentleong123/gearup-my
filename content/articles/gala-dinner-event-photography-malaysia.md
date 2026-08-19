@@ -21,6 +21,40 @@ relatedGear:
   - sony-a6100-review-malaysia-second-hand
   - nikon-d3100-review-malaysia-second-hand-price
   - sony-zv-e10-review-malaysia-second-hand
+qaPairs:
+  - question: How much should I charge for corporate event photography in Malaysia?
+    answer: >-
+      For a half-evening session of 3 hours, you can charge between RM300-400,
+      while a full 5-hour evening session typically ranges from RM450-600. If
+      you include a 60-second highlight video, you can charge between RM600-800
+      per event.
+  - question: >-
+      Berapa harga servis jurugambar untuk majlis makan malam syarikat di
+      Malaysia?
+    answer: >-
+      Harga pasaran untuk jurugambar majlis makan malam korporat bermula dari
+      RM300 untuk pakej 3 jam sehingga RM600 untuk pakej penuh 5 jam. Pakej ini
+      biasanya merangkumi liputan red carpet, gambar di atas pentas, dan gambar
+      candid tetamu.
+  - question: What do corporate event organisers actually look for in a photographer?
+    answer: >-
+      Organisers look for 100-200 clean photos, fast delivery of VIP shots by
+      the next morning, and a professional who can work without causing stress.
+      Delivering high-quality images within a 48-hour window is the key to
+      securing repeat bookings from event planners.
+  - question: How do I get more corporate photography jobs in Malaysia?
+    answer: >-
+      You should pitch directly to event organisers and PR firms rather than
+      individual companies, as they manage multiple events throughout the year.
+      Additionally, always ask for a referral after every job and consider doing
+      one charity gala to build your portfolio and network.
+  - question: Tips jurugambar untuk majlis makan malam korporat yang gelap?
+    answer: >-
+      Gunakan mod shutter priority atau auto dengan flash untuk mengelakkan
+      gambar kabur, dan pastikan anda sampai 30 minit awal untuk menguji tetapan
+      kamera di lokasi. Fokuskan pendedahan cahaya pada wajah tetamu dan gunakan
+      mod burst semasa sesi penyampaian anugerah untuk menangkap detik tepukan
+      yang sempurna.
 ---
 At some point this year, almost every company in Malaysia will host a dinner: award nights, Chinese New Year dinners, Deepavali functions, anniversaries, fundraisers. Someone has to photograph it. Why not you?
 

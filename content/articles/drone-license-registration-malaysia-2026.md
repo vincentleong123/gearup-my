@@ -20,6 +20,38 @@ relatedGear:
   - dji-mini-4-pro-review-malaysia
   - dji-mavic-3-classic-review-malaysia
   - dji-mini-3-pro-review-malaysia
+qaPairs:
+  - question: Do I need a license to fly a DJI Mini 4 Pro in Malaysia?
+    answer: >-
+      While the DJI Mini 4 Pro is under 250g and has the lightest regulations,
+      you still need to register it with CAAM if you are using it for commercial
+      work. Marketing claims of 'no license' do not exempt you from registration
+      and insurance requirements when you are being paid for aerial footage.
+  - question: Perlu ke lesen untuk buat duit dengan drone di Malaysia?
+    answer: >-
+      Ya, sebarang kerja komersial seperti rakaman hartanah atau majlis
+      perkahwinan memerlukan anda mempunyai pendaftaran drone yang sah dengan
+      CAAM serta insurans liabiliti. Tanpa permit yang betul, drone anda
+      berisiko dirampas oleh pihak berkuasa dan anda boleh dikenakan kompaun
+      atau tindakan undang-undang.
+  - question: How much does a commercial drone gig pay in Malaysia?
+    answer: >-
+      Professional drone creators in Malaysia typically earn between RM400 to
+      RM1,200 per job for aerial footage. It is highly recommended to operate
+      legally with proper permits, as one confiscated drone can easily cost more
+      than the income earned from multiple gigs.
+  - question: Can I fly my drone in KL city center or near airports?
+    answer: >-
+      No, you cannot fly in KL city center or within 5km of an airport without
+      specific flight permission from CAAM. These areas are considered
+      controlled airspace, and you must apply for authorization weeks in advance
+      to legally operate your drone there.
+  - question: What happens if I fly a drone in Malaysia without a permit?
+    answer: >-
+      If you fly without the required permits, CAAM and PDRM can confiscate your
+      drone and controller on the spot. You may also face substantial fines,
+      criminal charges for dangerous flights, and you will be personally liable
+      for any damages since insurance will not cover unauthorized flights.
 ---
 Before Tim or Ahmad buys a DJI Mini 4 Pro and starts chasing RM400-1,200 drone gigs, they need to know the law. Flying a drone in Malaysia without the right paperwork is a fine and confiscation waiting to happen.
 

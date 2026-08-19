@@ -21,6 +21,42 @@ relatedGear:
   - nikon-d3100-review-malaysia-second-hand-price
   - canon-eos-r50-review-malaysia
 lang: ms
+qaPairs:
+  - question: Boleh ke Canon 60D masih relevan untuk buat duit pada tahun 2026?
+    answer: >-
+      Ya, Canon 60D masih sangat relevan untuk menjana pendapatan kerana ia
+      mempunyai sensor 18MP yang cukup untuk cetakan A3 dan media sosial. Kunci
+      kejayaannya adalah memilih jenis kerja yang sesuai seperti potret, produk,
+      atau acara kecil di mana subjek tidak bergerak terlalu laju.
+  - question: Kenapa AF lens 50mm f/1.8 rasa lambat pada Canon 60D?
+    answer: >-
+      AF 50mm f/1.8 terasa lambat kerana teknologi motor fokusnya yang lama,
+      namun ia bukan penghalang jika anda menggunakan teknik Single-Point AF dan
+      meletakkan titik fokus tepat pada mata subjek. Untuk subjek statik seperti
+      produk atau potret, anda juga boleh menggunakan manual fokus dengan
+      bantuan tripod untuk hasil yang 100% tajam.
+  - question: Apa jenis gig yang sesuai untuk jurugambar dengan Canon 60D?
+    answer: >-
+      Anda boleh memulakan kerjaya dengan mengambil gig seperti fotografi
+      konvokesyen dengan bayaran RM200-450, mini session potret (RM150-400),
+      fotografi produk Shopee atau Lazada (RM200-500), serta fotografi makanan
+      di kafe atau acara kecil.
+  - question: >-
+      Berapa banyak job yang perlu saya ambil untuk beli kamera baru seperti
+      Sony A6100?
+    answer: >-
+      Untuk membeli body Sony A6100 terpakai yang berharga sekitar RM1,800, anda
+      memerlukan kira-kira 6 hingga 8 job konvokesyen atau potret. Anda
+      disarankan untuk melabur dahulu pada aksesori penting seperti flash luaran
+      berharga RM180 dan tripod sebelum menukar kamera.
+  - question: >-
+      Apa aksesori murah yang wajib ada untuk tingkatkan kualiti gambar Canon
+      60D?
+    answer: >-
+      Aksesori paling penting untuk dibeli dahulu adalah flash luaran seperti
+      Yongnuo 560 (RM180) untuk pencahayaan lebih baik, diikuti oleh tripod
+      (RM80-150) untuk fotografi produk, reflektor lipat (RM30-50), dan kad
+      memori tambahan sebagai backup.
 ---
 Jujur: artikel ini ditulis untuk anda yang ada Canon 60D, kit lens 18-55mm, dan satu lens "murah" 50mm f/1.8 — dan rasa langsung tak boleh buat kerja. AF lambat. Resolusi "tua". Takde duit nak beli kamera baru.
 

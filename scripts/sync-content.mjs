@@ -55,6 +55,9 @@ const collections = [
       ...optional(data, 'seoDescription'),
       ...optional(data, 'roiCreator'),
       ...optional(data, 'imageCuration'),
+      ...(Array.isArray(data.qaPairs)
+        ? { qaPairs: data.qaPairs.map((q) => ({ question: str(q.question), answer: str(q.answer) })) }
+        : {}),
     }),
   },
   {

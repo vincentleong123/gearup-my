@@ -20,6 +20,39 @@ tags:
 relatedGear:
   - canon-eos-r50-review-malaysia
   - sony-a6100-review-malaysia-second-hand
+qaPairs:
+  - question: 'Canon EOS R50 vs Sony A6100: Mana lagi bagus untuk beginner di Malaysia?'
+    answer: >-
+      Canon R50 lebih sesuai untuk beginner yang mahukan sistem menu mudah dan
+      warna kulit yang cantik terus dari kamera tanpa perlu edit. Sony A6100
+      pula lebih baik jika anda mahukan pilihan lensa yang murah dan banyak di
+      pasaran terpakai Malaysia untuk jangka masa panjang.
+  - question: Is the Canon R50 good for vlogging in Malaysia?
+    answer: >-
+      Yes, the Canon R50 is excellent for vlogging because it features a fully
+      articulating flip-out screen that allows you to see yourself while
+      recording. It also offers superb Dual Pixel CMOS AF II for reliable face
+      and eye tracking, making it a great choice for lifestyle content creators.
+  - question: Berapa harga second-hand Canon R50 dan Sony A6100 di Malaysia?
+    answer: >-
+      Harga pasaran terpakai di Malaysia untuk Canon R50 biasanya sekitar
+      RM1,800 hingga RM2,200, manakala Sony A6100 boleh didapati dengan harga
+      lebih rendah antara RM1,400 hingga RM1,800. Perbezaan harga ini sering
+      dipengaruhi oleh keadaan fizikal kamera dan aksesori yang disertakan oleh
+      penjual.
+  - question: Why is the Sony A6100 better for lens selection?
+    answer: >-
+      The Sony A6100 uses the E-mount system, which has a massive selection of
+      lenses ranging from cheap manual glass on Shopee for RM100-200 to high-end
+      options. This makes it much easier and more affordable for Malaysian
+      creators to build a versatile lens collection compared to the smaller and
+      pricier Canon RF-S lineup.
+  - question: Adakah Sony A6100 ada skrin flip untuk selfie?
+    answer: >-
+      Tidak, Sony A6100 hanya mempunyai skrin yang boleh ditolak ke atas
+      (tilt-up) dan bukannya skrin flip sepenuhnya ke sisi. Jika anda memerlukan
+      skrin flip untuk memudahkan rakaman video diri sendiri, Canon R50 adalah
+      pilihan yang lebih praktikal.
 ---
 Canon R50 or Sony A6100? If you have RM1,800-2,200 saved for a used mirrorless in Malaysia, this is the decision that keeps you up at night.
 

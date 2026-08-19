@@ -16,6 +16,40 @@ tags:
 relatedGear:
   - dji-mic-2-review-malaysia
   - sony-zv-e10-ii-review-malaysia
+qaPairs:
+  - question: >-
+      Is a RM150 wireless lapel mic from Shopee good enough for Malaysian TikTok
+      creators?
+    answer: >-
+      Yes, a RM150 wireless lapel is perfect for beginners as it solves common
+      issues like echoey audio and wind noise, making it ideal for TikTok,
+      Reels, and casual vlogs.
+  - question: Bila patut saya upgrade dari mic murah ke DJI Mic 2?
+    answer: >-
+      Anda patut upgrade ke DJI Mic 2 apabila anda mula melakukan kerja berbayar
+      seperti temu bual profesional, memerlukan rakaman dua orang serentak, atau
+      apabila kualiti audio yang nipis mula menjejaskan engagement penonton
+      anda.
+  - question: >-
+      What are the main benefits of buying the RM1,599 DJI Mic 2 over a budget
+      microphone?
+    answer: >-
+      The DJI Mic 2 offers professional features like 32-bit float recording to
+      prevent audio clipping, a 250m wireless range, superior build quality for
+      daily use, and reliable dual-channel recording.
+  - question: Adakah DJI Mic 2 Mini berbaloi untuk content creator di Malaysia?
+    answer: >-
+      Ya, DJI Mic 2 Mini berharga sekitar RM700 dan merupakan pilihan
+      pertengahan yang sangat berbaloi kerana ia memberikan kualiti audio dan
+      kebolehpercayaan yang sama seperti versi penuh tanpa perlu membayar untuk
+      bekas pengecas.
+  - question: >-
+      Is it better to spend RM1,600 on a DJI Mic 2 or buy cheaper gear as a
+      beginner?
+    answer: >-
+      If you are just starting out and your income from content creation is
+      zero, it is better to stick with a RM150 lapel mic and spend the remaining
+      budget on essential gear like lighting or a tripod.
 ---
 "Buy a good mic before you upgrade your camera." Every creator youtuber says it. But here's the fine print nobody gives you: a RM150 wireless lapel from Shopee already fixes 90% of your audio problems.
 

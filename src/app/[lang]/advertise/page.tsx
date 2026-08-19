@@ -79,10 +79,10 @@ export default async function AdvertisePage({ params }: Props) {
               <T k="advertise.hero.desc" en="Kameralog is where Malaysian photographers, vloggers and side-hustle creators decide what to buy. Transparent metrics, honest editorial, and rates that make sense for local brands." />
             </p>
             <a
-              href="mailto:ads@kameralog.com?subject=Advertising%20with%20Kameralog"
+              href="mailto:cameralogue@gmail.com?subject=Advertising%20with%20Kameralog"
               className="mt-8 inline-flex items-center gap-2 px-6 py-3.5 bg-gradient-to-r from-red-500 to-pink-600 text-white font-bold rounded-xl shadow-lg shadow-pink-600/25 hover:shadow-pink-500/40 hover:-translate-y-0.5 transition-all duration-300"
             >
-              <T k="advertise.book" en="Book a slot → ads@kameralog.com" />
+              <T k="advertise.book" en="Book a slot → cameralogue@gmail.com" />
             </a>
           </div>
 

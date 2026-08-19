@@ -17,6 +17,8 @@ import { gigs } from '@/data/gigs';
 import { heroCollageImg, blogImg, gigImg } from '@/data/images';
 import { BASE_URL, langAlternates, withLang, htmlLang } from '@/lib/lang';
 
+const ogLocales: Record<string, string> = { en: 'en_MY', ms: 'ms_MY', zh: 'zh_MY' };
+
 interface Props { params: Promise<{ lang: string }> }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -27,11 +29,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: 'Kameralog Malaysia — Gear That Pays For Itself',
       description: 'Lost your job? Start creating. Compare second-hand camera prices, creator earnings, and ROI in Ringgit Malaysia.',
+      url: `${BASE_URL}${lang === 'en' ? '/' : `/${lang}/`}`,
       type: 'website',
-      locale: 'en_MY',
+      locale: ogLocales[lang] || 'en_MY',
       siteName: 'Kameralog Malaysia',
+      images: [{ url: `${BASE_URL}/og-image.png`, width: 1200, height: 630, alt: 'Kameralog Malaysia — Camera & Gear Reviews' }],
     },
-    keywords: ['content creation malaysia', 'camera review malaysia', 'second hand camera malaysia', 'nikon d3100 malaysia', 'sony a6100 used price', 'insta360 x4 malaysia', 'dji mini 4 pro price malaysia', 'creator gear roi', 'tim and ahmad', 'content creator job malaysia', 'camera paid for gigs malaysia', 'graduation photography malaysia', 'wedding photography malaysia', 'gala dinner photographer', 'portrait photography malaysia', 'part time camera jobs'],
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Kameralog Malaysia — Gear That Pays For Itself',
+      description: 'Lost your job? Start creating. Compare second-hand camera prices, creator earnings, and ROI in Ringgit Malaysia.',
+      images: [`${BASE_URL}/og-image.png`],
+    },
+    keywords: ['camera Malaysia', 'kamera Malaysia', 'kamera', 'camera gear', 'fotografi', 'photography', 'content creator', 'kamera bajet', 'kamera murah', 'kamera second hand', 'kamera terpakai', 'harga kamera', 'kamera vlogging', 'vlogging camera', 'TikTok camera', 'YouTube camera', 'creator gear', 'microphone', 'mic TikTok', 'DJI', 'Insta360', 'Sony', 'Canon', 'Fujifilm', 'Nikon', 'camera comparison', 'camera buying guide', 'Asia camera market', 'content creation malaysia', 'creator gear roi', 'part time camera jobs', 'side income photography'],
     robots: { index: true, follow: true },
     ...langAlternates(lang, '/'),
   };

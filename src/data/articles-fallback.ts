@@ -27,6 +27,7 @@ export interface Article {
     gigsToBreakEven?: number;
   };
   imageCuration?: import('./content').ImageCurationBlock[];
+  qaPairs?: { question: string; answer: string }[];
 }
 
 import { msArticles } from './articles-ms';

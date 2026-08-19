@@ -17,6 +17,42 @@ tags:
 relatedGear:
   - sony-a6100-review-malaysia-second-hand
   - canon-eos-r50-review-malaysia
+qaPairs:
+  - question: >-
+      What is the best first lens to buy for a beginner photographer in
+      Malaysia?
+    answer: >-
+      The best first lens is a 50mm f/1.8 prime lens because it offers a wide
+      aperture for beautiful background blur and superior low-light performance
+      compared to your kit lens. In Malaysia, you can find these for as low as
+      RM300 to RM400 for a used Nikon F version, or between RM700 and RM1,000
+      for Sony and Canon models.
+  - question: Patutkah saya jual kit lens kamera saya untuk beli lens baru?
+    answer: >-
+      Tidak, anda tidak perlu menjual kit lens anda kerana ia masih sangat
+      berguna untuk penggambaran pada waktu siang dan merupakan cara termurah
+      untuk mempelajari focal length. Sebaiknya, simpan kit lens tersebut dan
+      tambah koleksi anda dengan membeli lens 50mm f/1.8 untuk kualiti gambar
+      yang lebih baik.
+  - question: Is it worth buying cheap macro or wide-angle converter kits for my camera?
+    answer: >-
+      No, you should avoid any cheap 3-in-1 or 6-in-1 converter kits priced
+      between RM100 and RM300 as they are essentially a scam of convenience.
+      These lenses use poor-quality glass that results in soft and hazy photos,
+      making them a waste of your hard-earned ringgit.
+  - question: Should I buy a 70-300mm telephoto lens as my first upgrade?
+    answer: >-
+      You should skip the 70-300mm budget telephoto lens as a first purchase
+      because it is heavy, slow, and rarely used by beginners. Telephoto lenses
+      are better suited for later purchases once you specifically need to shoot
+      events or wildlife.
+  - question: What is the difference between a 50mm and 35mm lens for content creation?
+    answer: >-
+      A 50mm f/1.8 is the best choice for portraits and learning composition,
+      while a 35mm f/1.8 provides a wider field of view that is more versatile
+      for vlogging, food photography, and travel content. You should prioritize
+      the 50mm first for the best value in bokeh and low-light capability, then
+      add the 35mm once you start focusing more on everyday content.
 ---
 You bought your camera. Now the internet is shouting "buy this lens, buy that lens!" Before you spend, here's the honest 2026 lens advice for Malaysian budgets — including what to skip.
 

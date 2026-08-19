@@ -17,6 +17,36 @@ tags:
 relatedGear:
   - sony-a6100-review-malaysia-second-hand
   - nikon-d3100-review-malaysia-second-hand-price
+qaPairs:
+  - question: What is the best budget tripod for phone vlogging in Malaysia?
+    answer: >-
+      For beginners, a generic phone tripod with a Bluetooth remote is the best
+      choice, typically costing between RM40 and RM70. It is lightweight and
+      portable, making it ideal for chest-height shots, though it is not
+      recommended for heavy cameras.
+  - question: Tripod bawah RM200 yang sesuai untuk kamera dan telefon?
+    answer: >-
+      Anda boleh mencari tripod hibrid dalam lingkungan harga RM100 hingga RM200
+      yang mempunyai 'ball head' dan mampu menampung beban sekurang-kurangnya
+      2kg. Pastikan tripod tersebut mempunyai kaki getah yang stabil dan kunci
+      kaki yang kukuh untuk kegunaan telefon serta kamera mirrorless.
+  - question: Is it worth buying a RM300 tripod for professional content creation?
+    answer: >-
+      Yes, investing RM250 to RM400 in a professional aluminium tripod from a
+      reputable brand is essential for paid gigs. These tripods offer better
+      durability, secure quick-release plates, and friction control to prevent
+      your camera from slamming down during shoots.
+  - question: Kenapa saya perlukan mini tripod untuk setup meja?
+    answer: >-
+      Mini tripod yang berharga RM20 hingga RM40 sangat berguna untuk rakaman
+      sudut rendah atau unboxing di atas meja. Ia adalah aksesori tambahan yang
+      wajib dimiliki oleh pencipta kandungan kerana saiznya yang kecil
+      memudahkan penyimpanan dan kestabilan rakaman jarak dekat.
+  - question: What should I check before buying a tripod on Shopee or Lazada?
+    answer: >-
+      Before purchasing, always read at least 20 customer reviews and physically
+      test the leg locks if possible. Ensure the tripod's load rating matches
+      your camera gear to avoid wobbling, which can ruin your video quality.
 ---
 A wobbly table is not a tripod. A stack of books is not a tripod. If you film yourself talking to a camera, the tripod is your second-most-important piece of gear after the microphone. And in Malaysia, you can get a perfectly good one for RM40.
 

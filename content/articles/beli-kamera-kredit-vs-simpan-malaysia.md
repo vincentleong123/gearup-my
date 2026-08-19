@@ -1,13 +1,17 @@
 ---
 slug: beli-kamera-kredit-vs-simpan-malaysia
 title: 'Beli Kamera Kredit vs Simpan: 0% EPP RM1,920 vs 6 Gigs RM1,600 — Mana Menang?'
-description: Ada RM0 dan nak kamera sekarang? 0% EPP 12 bulan untuk kamera baru RM1,920 vs simpan dulu dan beli second-hand RM1,600 guna duit gig. Kami tunjuk matematik sebenar, harga tersembunyi EPP, dan bila mana satu cara betul-betul menang untuk content creator Malaysia.
+description: >-
+  Ada RM0 dan nak kamera sekarang? 0% EPP 12 bulan untuk kamera baru RM1,920 vs
+  simpan dulu dan beli second-hand RM1,600 guna duit gig. Kami tunjuk matematik
+  sebenar, harga tersembunyi EPP, dan bila mana satu cara betul-betul menang
+  untuk content creator Malaysia.
 image: /blog/beli-kamera-kredit-vs-simpan-malaysia.jpg
 category: comparison
 verticalCategory: creator-gear
 status: published
-date: 2026-08-16
-updatedAt: 2026-08-16
+date: 2026-08-16T00:00:00.000Z
+updatedAt: 2026-08-16T00:00:00.000Z
 author: Kameralog Editorial
 lang: ms
 readTime: 10
@@ -28,9 +32,14 @@ roiCreator:
   gigRate: 267
   gigsToBreakEven: 6
 seoTitle: Beli Kamera Kredit vs Simpan Malaysia — 0% EPP vs Beli Second-Hand
-seoDescription: Beli kamera guna 0% EPP atau simpan dulu dan beli second-hand? Matematik RM1,920 vs RM1,600, harga tersembunyi EPP, dan bila mana satu menang untuk creator Malaysia.
+seoDescription: >-
+  Beli kamera guna 0% EPP atau simpan dulu dan beli second-hand? Matematik
+  RM1,920 vs RM1,600, harga tersembunyi EPP, dan bila mana satu menang untuk
+  creator Malaysia.
 imageCuration:
-  - caption: Content creator muda Malaysia bandingkan harga kamera di telefon — page checkout kad kredit 0% EPP vs page Carousell kamera second-hand
+  - caption: >-
+      Content creator muda Malaysia bandingkan harga kamera di telefon — page
+      checkout kad kredit 0% EPP vs page Carousell kamera second-hand
     context: Meja belajar / kedai kamera
     purpose: comparison
     position: Selepas intro
@@ -40,7 +49,7 @@ imageCuration:
     aspectRatio: 16/9
     notes: Belum disumber — skrin split EPP vs Carousell
     active: true
-  - caption: Sony A6100 dengan lens kit 16-50mm di atas meja, cahaya tingkap
+  - caption: 'Sony A6100 dengan lens kit 16-50mm di atas meja, cahaya tingkap'
     context: Meja / studio kecil
     purpose: spec-detail
     position: Selepas bahagian EPP
@@ -50,7 +59,9 @@ imageCuration:
     aspectRatio: 16/9
     notes: Belum disumber
     active: true
-  - caption: Kalkulator dan buku nota dengan kiraan gig vs bayaran bulanan, duit syiling di tepi
+  - caption: >-
+      Kalkulator dan buku nota dengan kiraan gig vs bayaran bulanan, duit
+      syiling di tepi
     context: Meja
     purpose: roi-illustration
     position: Selepas bahagian matematik gig
@@ -59,8 +70,26 @@ imageCuration:
     aspectRatio: 16/9
     notes: Belum disumber
     active: true
+qaPairs:
+  - question: Berbaloi ke beli kamera guna 0% EPP kad kredit kat Malaysia?
+    answer: >-
+      Beli kamera guna pelan 0% EPP berbaloi jika anda sudah mempunyai
+      pendapatan gig berulang untuk membayar ansuran bulanan seperti RM160
+      sebulan. Namun, berhati-hati kerana harga EPP boleh jadi lebih mahal dari
+      harga tunai dan anda berisiko dikenakan penalti faedah jika terlepas
+      bayaran.
+  - question: Adakah harga 0% EPP kamera lebih mahal berbanding bayar cash?
+    answer: >-
+      Ya, kedai kamera di Malaysia kerap menaikkan harga sebanyak 3% hingga 8%
+      untuk pelan EPP bagi menampung caj merchant bank. Sebagai contoh, kamera
+      yang berharga RM1,800 secara tunai boleh meningkat menjadi RM1,920 apabila
+      dibeli menggunakan EPP 12 bulan.
+  - question: Berapa harga Sony A6100 second hand di Malaysia?
+    answer: >-
+      Harga pasaran terpakai Sony A6100 di Malaysia adalah sekitar RM1,600,
+      berbanding RM1,920 untuk unit baru secara EPP. Penjimatan RM320 ini boleh
+      digunakan untuk membeli aksesori tambahan seperti kad SD atau tripod.
 ---
-
 "I nak beli kamera sekarang. Nanti esok, dah lari promo."
 
 Kau dah pesan ni. Atau kau dah dengar dari orang yang baru mula nak jadi content creator. Dan betul, **secara emosi, kau nak kamera sekarang** — sebab gear baru rasa macam jalan pintas ke hasil.

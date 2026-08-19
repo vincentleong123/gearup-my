@@ -192,6 +192,7 @@ export default function InstagramWall({ limit }: { limit?: number }) {
                   src={igEmbed(playing.shortcode)}
                   title={playing.title}
                   className="absolute inset-0 w-full h-full"
+                  referrerPolicy="no-referrer"
                   loading="lazy"
                   scrolling="no"
                 />

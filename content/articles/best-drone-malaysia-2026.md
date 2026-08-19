@@ -18,6 +18,39 @@ relatedGear:
   - dji-mini-4-pro-review-malaysia
   - dji-mini-5-review-malaysia
   - dji-mavic-4-review-malaysia
+qaPairs:
+  - question: Do I need a license to fly a drone in Malaysia?
+    answer: >-
+      In Malaysia, you do not need a CAAM Remote Pilot License for drones under
+      250g, such as the DJI Mini series or DJI Neo. However, for drones weighing
+      over 250g, you are legally required to obtain a CAAM Remote Pilot License
+      and register your drone.
+  - question: 'Which drone is best for beginners in Malaysia under RM1,500?'
+    answer: >-
+      The DJI Neo is an excellent entry-level option at RM999, perfect for
+      vlogging and b-roll. For those wanting to start client work, a used DJI
+      Mini 3 Pro priced between RM1,300 and RM1,800 offers the best value for
+      high-quality 4K aerial footage.
+  - question: Berapa harga drone untuk buat duit di Malaysia?
+    answer: >-
+      Untuk memulakan perniagaan dron, anda boleh mendapatkan DJI Mini 4 Pro
+      terpakai sekitar RM2,400 hingga RM2,800 yang sangat popular dalam kalangan
+      pencipta kandungan. Dron ini mampu membayar balik kosnya dalam masa
+      sebulan melalui kerja-kerja penggambaran hartanah yang membayar antara
+      RM400 hingga RM1,200 setiap tugasan.
+  - question: Is the DJI Mini 4 Pro worth it for Malaysian creators in 2026?
+    answer: >-
+      Yes, the DJI Mini 4 Pro is considered the 'smart buy' for 2026 because it
+      features omnidirectional obstacle sensing and 4K 100fps slow-mo while
+      remaining under the 250g weight limit. This allows you to avoid complex
+      licensing hurdles while still providing professional-grade footage for
+      clients.
+  - question: What is the best professional drone for aerial photography in Malaysia?
+    answer: >-
+      For professional aerial media businesses, the DJI Air 3S at RM6,299 or the
+      DJI Mavic 4 at RM10,499 are the top choices. Please note that these drones
+      exceed 250g, so you must obtain a CAAM Remote Pilot License before using
+      them for paid commercial work.
 ---
 Drones are the fastest way to earn with a camera in Malaysia — property aerials and event footage pay RM400-1,200 per job. But before you buy, you need to know one rule that changes everything:
 

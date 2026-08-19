@@ -17,6 +17,41 @@ relatedGear:
   - fujifilm-x-m5-review-malaysia
   - sony-zv-e10-ii-review-malaysia
   - sony-a7c-ii-review-malaysia
+qaPairs:
+  - question: 'What is the best vlogging camera in Malaysia for beginners under RM4,000?'
+    answer: >-
+      The Sony ZV-E10 II at RM3,899 is the best all-rounder for beginners due to
+      its excellent autofocus, flip screen, and large lens ecosystem.
+      Alternatively, the DJI Osmo Pocket 3 at RM2,199 is a fantastic choice for
+      beginners because its built-in gimbal ensures smooth, professional-looking
+      footage.
+  - question: 'Fujifilm X-M5 vs Sony ZV-E10 II: Mana satu sesuai untuk vlogger Malaysia?'
+    answer: >-
+      Pilih Fujifilm X-M5 pada harga RM3,899 jika anda mementingkan estetika dan
+      warna filem yang cantik untuk kandungan gaya hidup atau fesyen. Jika anda
+      lebih mengutamakan sistem fokus automatik yang pantas dan pilihan lensa
+      yang luas, Sony ZV-E10 II adalah pilihan yang lebih selamat.
+  - question: Is the DJI Osmo Pocket 3 worth it for vlogging in Malaysia?
+    answer: >-
+      Yes, the DJI Osmo Pocket 3 is considered the highest ROI purchase for
+      Malaysian vloggers because its built-in gimbal provides professional-level
+      stabilization in a tiny, portable body. It is highly recommended for
+      beginners who want smooth footage without needing to learn complex camera
+      settings.
+  - question: Berapa bajet yang perlu saya sediakan untuk kamera vlogging Sony A7C II?
+    answer: >-
+      Harga badan kamera Sony A7C II adalah RM9,499, namun anda perlu
+      memperuntukkan tambahan sekitar RM2,000 untuk lensa prime yang berkualiti
+      seperti 40mm f/2.5. Kamera ini sangat sesuai untuk vlogger yang sudah
+      menjana pendapatan dan memerlukan kualiti gambar full-frame serta
+      penstabilan yang mantap.
+  - question: What should I prioritize when buying vlogging gear on a budget?
+    answer: >-
+      You should prioritize audio and lighting over the camera body itself, as
+      viewers are more forgiving of soft focus than bad audio. Budget for a
+      reliable microphone like the DJI Mic 2 or a budget lapel mic for RM150,
+      and invest in a RM200 light panel to significantly improve your video
+      quality.
 ---
 Vlogging in Malaysia means heat, humidity, harsh light, and a lot of handholding your camera while talking. The best vlogging camera for you depends on budget and how much you care about colour versus autofocus.
 

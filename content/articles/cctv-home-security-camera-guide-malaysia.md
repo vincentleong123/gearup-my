@@ -20,6 +20,40 @@ relatedGear:
   - tapo-c210-review-malaysia
   - imou-ranger-2-pro-review-malaysia
   - tapo-c120-review-malaysia
+qaPairs:
+  - question: What is the best budget CCTV for a Malaysian home in 2026?
+    answer: >-
+      For most Malaysian homes, a combination of the TP-Link Tapo C210 for
+      indoor use and the Tapo C120 or Imou Ranger 2 Pro for outdoors is the best
+      starting point. These Wi-Fi cameras are affordable, costing under RM300
+      total, and can be installed yourself in a single afternoon without
+      expensive subscriptions.
+  - question: Should I pay for cloud storage for my home CCTV?
+    answer: >-
+      No, you should avoid monthly cloud subscriptions as they can cost RM10-30
+      every month indefinitely. Instead, buy a high-endurance microSD card, such
+      as a Samsung Pro or Sandisk High Endurance, which costs between RM45-70
+      and provides weeks of continuous local recording.
+  - question: Kenapa kena beli CCTV 'official store' di Shopee atau Lazada?
+    answer: >-
+      Membeli daripada kedai rasmi atau penjual sah di Malaysia adalah penting
+      untuk mengelakkan unit 'gray import' yang tidak mempunyai jaminan
+      tempatan. Jika kamera rosak, anda tidak akan mendapat bantuan tuntutan
+      waranti, dan bagi jenama seperti Hikvision, unit import kelabu mungkin
+      disekat mengikut rantau dan tidak boleh disambungkan ke aplikasi tempatan.
+  - question: How do I install an outdoor Wi-Fi camera properly?
+    answer: >-
+      To install an outdoor camera, mount it under a roof eave to protect the
+      lens from direct rain and ensure it is angled toward the approach path,
+      such as your gate or driveway. You will need to run the power cable to a
+      covered 5V USB socket to keep the connection dry and functional.
+  - question: Boleh ke saya buat duit dengan servis pasang CCTV di Malaysia?
+    answer: >-
+      Ya, anda boleh menjana pendapatan sampingan sebagai pemasang CCTV kerana
+      ramai pemilik perniagaan dan warga emas sanggup membayar antara RM80
+      hingga RM200 bagi setiap kamera untuk pemasangan dan tunjuk cara
+      penggunaan. Anda boleh bermula dengan menawarkan servis pemasangan untuk
+      model Wi-Fi yang popular seperti Tapo atau Imou.
 ---
 If you own a shop, a rented house, a landed home or a studio, someone has probably already told you to "install CCTV." In 2026 the good news is that a genuinely good setup costs less than one month of rent. This is the honest, no-nonsense buying guide for Malaysia.
 

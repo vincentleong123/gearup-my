@@ -17,6 +17,42 @@ tags:
 relatedGear:
   - fujifilm-x100vi-review-malaysia
   - fujifilm-x-m5-review-malaysia
+qaPairs:
+  - question: 'Is the Fujifilm X100VI worth the RM7,199 price tag in Malaysia?'
+    answer: >-
+      The X100VI is a luxury lifestyle camera that is excellent for hobbyists,
+      but it is not a professional workhorse for paid gigs. Unless you have the
+      budget to spare for a daily carry camera, it is considered a lifestyle
+      purchase rather than a financial investment.
+  - question: Kenapa harga Fujifilm X100VI di Malaysia mahal sangat sampai kena markup?
+    answer: >-
+      Permintaan yang sangat tinggi dan bekalan yang terhad menyebabkan pengedar
+      sah cepat kehabisan stok, sekali gus mendorong pasaran terpakai menjualnya
+      pada harga RM7,500 hingga RM8,000. Anda dinasihatkan untuk tidak membayar
+      harga markup tersebut dan menunggu stok rasmi atau mencari alternatif
+      lain.
+  - question: >-
+      Is the Fujifilm X-M5 a better alternative to the X100VI for Malaysian
+      creators?
+    answer: >-
+      Yes, the X-M5 is a more practical choice because it features the same 40MP
+      sensor and film simulations as the X100VI for roughly RM4,200 when paired
+      with a pancake lens. It also offers interchangeable lenses and better
+      video capabilities, making it more versatile for professional content
+      creation.
+  - question: Boleh ke guna Fujifilm X-M5 untuk buat duit atau kerja videografi?
+    answer: >-
+      Ya, Fujifilm X-M5 lebih sesuai untuk kerja profesional kerana ia mempunyai
+      keupayaan video 6.2K, input mikrofon yang lebih baik, dan sistem lensa
+      boleh tukar. Ini menjadikannya alat yang lebih berbaloi untuk menjana
+      pendapatan berbanding X100VI yang lebih terhad fungsinya.
+  - question: What are the main differences between the Fujifilm X100VI and the X-M5?
+    answer: >-
+      The X100VI offers a classic rangefinder body with a built-in viewfinder
+      and a leaf shutter, while the X-M5 provides a more affordable, flexible
+      system with interchangeable lenses and superior video features. If you
+      prioritize portability and the rangefinder aesthetic, the X100VI is
+      better, but the X-M5 wins on price and professional utility.
 ---
 Every photography forum in Malaysia has the same thread: "Where can I buy an X100VI?" followed by "RM8,000 for a used one, should I?" 
 

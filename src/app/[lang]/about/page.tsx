@@ -81,10 +81,10 @@ export default async function AboutPage({ params }: Props) {
             <h2 className="text-2xl font-black mb-3"><T k="about.cta.t" en="Got a gear question?" /></h2>
             <p className="text-zinc-200 mb-6"><T k="about.cta.d" en="We answer reader questions in the blog and on new reviews." /></p>
             <a
-              href="mailto:hello@kameralog.com?subject=Question%20for%20Kameralog"
+              href="mailto:cameralogue@gmail.com?subject=Question%20for%20Kameralog"
               className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-red-500 to-pink-600 text-white font-bold rounded-xl shadow-lg shadow-pink-600/25 hover:shadow-pink-500/40 hover:-translate-y-0.5 transition-all duration-300"
             >
-              <T k="about.cta.btn" en="Email us → hello@kameralog.com" />
+              <T k="about.cta.btn" en="Email us → cameralogue@gmail.com" />
             </a>
           </div>
         </div>

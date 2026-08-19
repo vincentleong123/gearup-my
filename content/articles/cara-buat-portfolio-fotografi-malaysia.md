@@ -1,13 +1,17 @@
 ---
 slug: cara-buat-portfolio-fotografi-malaysia
 title: 'Cara Buat Portfolio Fotografi Malaysia: 15 Foto, 1 Niche, Dapat Client Pertama'
-description: Portfolio fotografi yang betul bukan album 200 gambar — ia 15 foto terbaik dalam satu niche yang membuat client kata 'ya' dalam 30 saat. Di mana nak host percuma, macam mana dapat foto tanpa gig berbayar, dan apa yang client sebenar scan.
+description: >-
+  Portfolio fotografi yang betul bukan album 200 gambar — ia 15 foto terbaik
+  dalam satu niche yang membuat client kata 'ya' dalam 30 saat. Di mana nak host
+  percuma, macam mana dapat foto tanpa gig berbayar, dan apa yang client sebenar
+  scan.
 image: /blog/cara-buat-portfolio-fotografi-malaysia.jpg
 category: guide
 verticalCategory: creator-gear
 status: published
-date: 2026-08-16
-updatedAt: 2026-08-16
+date: 2026-08-16T00:00:00.000Z
+updatedAt: 2026-08-16T00:00:00.000Z
 author: Kameralog Editorial
 lang: ms
 readTime: 10
@@ -26,20 +30,28 @@ relatedArticles:
   - part-time-photographer-earnings-malaysia
   - second-hand-camera-scams-malaysia
   - panduan-harga-gig-fotografi-malaysia-2026
-seoTitle: Cara Buat Portfolio Fotografi Malaysia — 15 Foto, 1 Niche, Client Pertama
-seoDescription: Portfolio fotografi yang dapat client bukan album besar. 15 foto terbaik dalam satu niche, host percuma, cara dapat foto tanpa gig berbayar, dan apa yang client sebenar scan dalam 30 saat.
+seoTitle: 'Cara Buat Portfolio Fotografi Malaysia — 15 Foto, 1 Niche, Client Pertama'
+seoDescription: >-
+  Portfolio fotografi yang dapat client bukan album besar. 15 foto terbaik dalam
+  satu niche, host percuma, cara dapat foto tanpa gig berbayar, dan apa yang
+  client sebenar scan dalam 30 saat.
 imageCuration:
-  - caption: Susunan foto portfolio di atas meja — 15 foto terbaik dalam satu gaya dipilih, yang lain diketepikan
+  - caption: >-
+      Susunan foto portfolio di atas meja — 15 foto terbaik dalam satu gaya
+      dipilih, yang lain diketepikan
     context: Meja / skrin
     purpose: hero
     position: Selepas intro
     alt: Pilih foto portfolio
     credit: Unsplash
-    sourceUrl: https://images.unsplash.com/photo-1554080353-a576cf803bda?w=1200&h=630&fit=crop
+    sourceUrl: >-
+      https://images.unsplash.com/photo-1554080353-a576cf803bda?w=1200&h=630&fit=crop
     aspectRatio: 16/9
     notes: Ganti dengan susunan portfolio tempatan bila ada
     active: true
-  - caption: Skrin laptop menunjukkan laman portfolio photography — grid 15 foto, satu niche
+  - caption: >-
+      Skrin laptop menunjukkan laman portfolio photography — grid 15 foto, satu
+      niche
     context: Laptop
     purpose: spec-detail
     position: Selepas bahagian host
@@ -48,7 +60,9 @@ imageCuration:
     aspectRatio: 16/9
     notes: Belum disumber
     active: true
-  - caption: "Mesej WhatsApp dari client: 'Saya nak book portfolio ni untuk majlis anak saya'"
+  - caption: >-
+      Mesej WhatsApp dari client: 'Saya nak book portfolio ni untuk majlis anak
+      saya'
     context: Telefon
     purpose: roi-illustration
     position: Selepas bahagian client pertama
@@ -57,8 +71,48 @@ imageCuration:
     aspectRatio: 9/16
     notes: Belum disumber
     active: true
+qaPairs:
+  - question: >-
+      Berapa banyak gambar perlu ada dalam portfolio fotografi untuk dapat
+      client?
+    answer: >-
+      Anda hanya perlukan 15 foto terbaik dalam satu niche sahaja untuk menarik
+      perhatian client. Jangan letak terlalu banyak gambar kerana client hanya
+      meluangkan masa sekitar 30 saat untuk menilai portfolio anda.
+  - question: >-
+      Macam mana nak buat portfolio fotografi kalau belum ada pengalaman atau
+      gig berbayar?
+    answer: >-
+      Anda boleh mendapatkan 15 foto portfolio melalui tiga cara iaitu melakukan
+      barter dengan peniaga kecil, menawarkan khidmat kepada kawan atau
+      keluarga, atau menjadi sukarelawan di acara komuniti. Pastikan setiap foto
+      mempunyai konteks kerja yang jelas seperti gambar produk, majlis, atau
+      potret.
+  - question: >-
+      Platform apa yang paling sesuai untuk host portfolio fotografi secara
+      percuma di Malaysia?
+    answer: >-
+      Anda boleh bermula dengan menggunakan Instagram untuk capaian audiens,
+      atau menggunakan Google Sites dan Notion untuk susunan yang lebih kemas
+      dan profesional. Apabila gig sudah mula masuk, barulah anda boleh
+      mempertimbangkan platform berbayar seperti Wix atau Carrd yang menelan kos
+      sekitar RM30 hingga RM60 sebulan.
+  - question: Perlukah saya letak harga dalam portfolio fotografi saya?
+    answer: >-
+      Tidak, anda tidak perlu meletakkan harga dalam portfolio kerana kadar
+      bayaran boleh dirunding mengikut pengalaman dan skop kerja. Fokus utama
+      portfolio adalah untuk menunjukkan kualiti kerja dan konsistensi gaya anda
+      supaya client yakin untuk menghubungi anda.
+  - question: >-
+      Kenapa portfolio fotografi saya yang campur-campur niche susah dapat
+      client?
+    answer: >-
+      Client lebih cenderung memilih jurufoto yang pakar dalam satu niche kerana
+      mereka mencari seseorang yang sudah biasa melakukan kerja seperti yang
+      mereka perlukan. Portfolio yang menggabungkan terlalu banyak niche akan
+      membuatkan client keliru, jadi sebaiknya fokuskan 15 foto anda pada satu
+      bidang sahaja seperti fotografi makanan atau majlis.
 ---
-
 "Portfolio kau mana? Boleh aku nampak?"
 
 Soalan ni akan tanya pada kau — dari client, dari photographer utama, dari sesiapa yang akan bayar. Dan kalau kau balas dengan satu folder telefon berisi 800 foto bertabur... majlis tu belum bermula pun dah habis.

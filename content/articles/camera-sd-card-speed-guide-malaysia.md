@@ -17,6 +17,36 @@ tags:
 relatedGear:
   - canon-eos-r6-mark-ii-review-malaysia
   - sony-a7c-ii-review-malaysia
+qaPairs:
+  - question: 'What is the difference between V30, V60, and V90 SD cards for video?'
+    answer: >-
+      The 'V' rating indicates the minimum sustained write speed in MB/s, where
+      V30 supports 4K 30fps, V60 handles 4K 60fps, and V90 is required for 8K or
+      high-bitrate ProRes recording.
+  - question: Adakah kad memori murah di Shopee selamat untuk kamera mahal?
+    answer: >-
+      Tidak, kad memori yang terlalu murah seperti RM40 untuk kapasiti besar
+      selalunya adalah palsu dan berisiko tinggi menyebabkan kehilangan data
+      penting semasa penggambaran. Sentiasa beli daripada kedai rasmi di Shopee
+      atau Lazada untuk memastikan kad tersebut tulen dan mempunyai waranti.
+  - question: Do I need a CFexpress card for my mirrorless camera?
+    answer: >-
+      You only need a CFexpress card if your camera specifically requires one
+      for its slots, if you are shooting 8K RAW, or if you frequently capture
+      burst stills at 20+ fps. For most creators, a reliable V60 or V90 UHS-II
+      SD card is more than sufficient for professional work.
+  - question: How much should I spend on a reliable 128GB V60 SD card in Malaysia?
+    answer: >-
+      A genuine 128GB V60 SD card from reputable brands like SanDisk or Lexar
+      typically costs between RM120 and RM250 in Malaysia. If you find a card
+      priced significantly lower than this, it is likely a fake that could
+      corrupt your footage.
+  - question: Tips elak kad memori rosak semasa kerja penggambaran?
+    answer: >-
+      Sentiasa format kad memori di dalam kamera sebelum setiap sesi
+      penggambaran dan elakkan menggunakan kad yang sudah 70% penuh untuk kerja
+      berbayar. Selain itu, jangan sesekali menggunakan kad yang anda ragui
+      kualitinya bagi melindungi hasil kerja anda yang bernilai tinggi.
 ---
 You spend RM10,000 on a camera and then buy the RM40 SD card at the pasar malam stall. Three months later it corrupts a wedding shoot and you lose RM1,000 of work.
 

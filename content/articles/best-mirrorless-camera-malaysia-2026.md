@@ -19,6 +19,46 @@ relatedGear:
   - canon-eos-r8-review-malaysia
   - sony-a7c-ii-review-malaysia
   - fujifilm-x-m5-review-malaysia
+qaPairs:
+  - question: >-
+      What is the best mirrorless camera for beginners in Malaysia under
+      RM4,000?
+    answer: >-
+      For a budget under RM4,000, the Fujifilm X-M5 at RM3,899 is excellent for
+      travel and aesthetic content, while the Canon EOS R50 at RM3,499 is the
+      most user-friendly option for beginners. Both cameras are reliable entry
+      points for those starting their content creation journey in 2026.
+  - question: 'Sony A6700 vs Canon R8: Which is better for a hybrid shooter in Malaysia?'
+    answer: >-
+      The Sony A6700 at RM5,999 is the ultimate hybrid workhorse with IBIS and
+      4K 120fps, making it perfect for those who want one camera to do
+      everything. Conversely, the Canon EOS R8 at RM6,299 is the best choice if
+      you specifically want a full-frame sensor for superior low-light
+      performance at an APS-C price point.
+  - question: Is it worth buying a used camera in Malaysia for professional work?
+    answer: >-
+      Yes, buying used is highly recommended because you can save between RM700
+      and RM1,200 on models like the Sony A6700 or Canon R8. Platforms like
+      Mudah, Carousell, and Facebook groups in Malaysia are filled with
+      barely-used gear that offers the same performance as new units at a
+      fraction of the cost.
+  - question: >-
+      Which camera should I buy for professional wedding photography in
+      Malaysia?
+    answer: >-
+      The Canon EOS R6 Mark II is considered the premier wedding machine in
+      Malaysia, retailing new at RM11,999 but often found used for around
+      RM7,800. It offers the dual card slots and professional reliability that
+      wedding photographers demand for client work.
+  - question: >-
+      Kamera mirrorless apa yang paling berbaloi untuk buat duit (gigs) di
+      Malaysia?
+    answer: >-
+      Sony A7C II adalah pilihan terbaik untuk mereka yang ingin menjana
+      pendapatan melalui gigs kerana ia mempunyai sensor full-frame, IBIS, dan
+      sistem AF yang sangat pantas. Walaupun harga baru mencecah RM9,499, anda
+      boleh mendapatkan unit terpakai sekitar RM6,900 yang sangat berbaloi untuk
+      pelaburan perniagaan anda.
 ---
 Mirrorless is now the only serious game in town — DSLRs are dead as new purchases and new mirrorless models keep getting cheaper. But in Malaysia, "which mirrorless?" splits into four very different budgets. Here's the 2026 map.
 

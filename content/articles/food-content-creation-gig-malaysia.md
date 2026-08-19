@@ -19,6 +19,41 @@ tags:
 relatedGear:
   - canon-eos-r50-review-malaysia
   - iphone-15-content-creation-malaysia
+qaPairs:
+  - question: How much should I charge a cafe in Malaysia for social media content?
+    answer: >-
+      For beginners, a starter package is typically RM300 for 3 reels and 4
+      static photos, while a standard monthly retainer is RM500 for 4 reels, 8
+      photos, and captions. Premium packages can range from RM800 to RM1,000
+      depending on the volume of content and additional services like menu
+      shoots.
+  - question: Cara nak cari client pertama untuk food content creator di Malaysia?
+    answer: >-
+      Cara paling berkesan adalah dengan memilih lima kafe yang sibuk berdekatan
+      anda, hasilkan dua video contoh yang menarik, dan terus tunjukkan hasil
+      kerja tersebut kepada pemilik kafe. Jangan minta 'exposure', sebaliknya
+      tawarkan nilai spesifik seperti peningkatan jumlah tontonan video mereka.
+  - question: What equipment do I need to start food content creation as a beginner?
+    answer: >-
+      You can start with as little as RM0 to RM100 by using your existing
+      smartphone, natural window light, and a simple mini tripod or phone stand.
+      An optional RM50 lapel mic is useful if you plan to include voiceovers or
+      talking-head segments in your videos.
+  - question: How do I pitch to Malaysian cafe owners without sounding like a spammer?
+    answer: >-
+      Avoid generic messages and instead provide specific feedback, such as
+      pointing out how a new reel style could improve their current view counts.
+      Always attach 2-3 sample videos of similar cafes to prove your skills and
+      consider offering a 'pay after you see the views' arrangement for your
+      first client.
+  - question: >-
+      Is it possible to make a full-time income as a food content creator in
+      Malaysia?
+    answer: >-
+      Yes, by securing monthly retainers rather than one-off shoots, you can
+      build a stable income of RM1,100 or more from just three clients. As your
+      portfolio grows, you can increase your rates to RM600-800 per client and
+      upsell additional services like Google Business photos or event coverage.
 ---
 Every cafe in Malaysia needs content. Owners are posting phones-on-sticks videos that get 200 views, while their competitor down the road pays a creator RM300 for the same videos and gets 20,000.
 

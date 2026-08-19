@@ -37,7 +37,7 @@ export default async function ContactPage({ params }: Props) {
       en: 'Advertising & partnerships',
       d: 'contact.ads.d',
       den: 'Ads, sponsorships, and media kit requests. Tell us your product and timeline.',
-      mail: 'ads@kameralog.com',
+      mail: 'cameralogue@gmail.com',
     },
     {
       emoji: '🤝',
@@ -45,7 +45,7 @@ export default async function ContactPage({ params }: Props) {
       en: 'Brand review requests',
       d: 'contact.brands.d',
       den: 'Send a product for review, or pitch a collaboration. We&rsquo;ll reply with our review policy.',
-      mail: 'hello@kameralog.com',
+      mail: 'cameralogue@gmail.com',
     },
     {
       emoji: '✍️',
@@ -53,7 +53,7 @@ export default async function ContactPage({ params }: Props) {
       en: 'Corrections & feedback',
       d: 'contact.feedback.d',
       den: 'Spotted a wrong price or fact? Tell us and we&rsquo;ll fix it.',
-      mail: 'hello@kameralog.com',
+      mail: 'cameralogue@gmail.com',
     },
     {
       emoji: '🎒',
@@ -61,7 +61,7 @@ export default async function ContactPage({ params }: Props) {
       en: 'Reader gear questions',
       d: 'contact.gig.d',
       den: 'Which gear should I buy? Your questions become articles and updated reviews.',
-      mail: 'hello@kameralog.com',
+      mail: 'cameralogue@gmail.com',
     },
     {
       emoji: '📸',

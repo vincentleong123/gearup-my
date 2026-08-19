@@ -20,6 +20,39 @@ tags:
 relatedGear:
   - sony-a6100-review-malaysia-second-hand
   - sony-zv-e10-review-malaysia-second-hand
+qaPairs:
+  - question: How to get good lighting for videos in Malaysia without spending money?
+    answer: >-
+      You can achieve professional results for RM0 by utilizing natural window
+      light effectively. Position yourself facing the window at an angle, use a
+      sheer curtain to soften harsh sunlight, and use a white wall or A4 paper
+      as a reflector to fill in shadows.
+  - question: Is a ring light better than an LED panel for Malaysian TikTok creators?
+    answer: >-
+      A ring light is ideal for beauty, make-up, and talking-head content
+      because it adds a sparkle to your eyes and is easy to set up. However, an
+      LED panel is a more versatile all-rounder that provides softer, more
+      natural light for product shoots and general content creation.
+  - question: Berapa bajet untuk set lampu studio asas di Malaysia?
+    answer: >-
+      Anda boleh mendapatkan set lampu tiga titik yang asas dengan bajet sekitar
+      RM150. Bajet ini merangkumi satu panel LED dengan diffuser berharga
+      RM80-120, serta panel kecil atau pemantul cahaya (reflector) berharga
+      RM30-50 dan tripod mount pada harga RM20.
+  - question: Why does my video look dark even with a good camera?
+    answer: >-
+      Your video likely looks dark because of poor lighting rather than the
+      camera itself, as light is more important than the camera body. To fix
+      this, ensure you are using proper lighting techniques or adjust your
+      camera settings by using a wider aperture and increasing your ISO only
+      after maximizing your available light.
+  - question: What is the best way to position lights for a professional YouTube setup?
+    answer: >-
+      The classic setup involves a key light placed at a 45-degree angle to your
+      side, a reflector or white wall on the shadow side to act as a fill, and a
+      rim light behind you to separate your subject from the background. This
+      three-point lighting technique creates depth and a more professional look
+      for your videos.
 ---
 "Your video looks dark" is the most common comment new creators get. The fix is rarely a new camera — it is light. And in Malaysia, good lighting can cost you RM0 if you know how to use a window.
 

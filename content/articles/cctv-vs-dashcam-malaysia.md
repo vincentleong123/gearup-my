@@ -20,6 +20,37 @@ relatedGear:
   - 70mai-a500s-review-malaysia
   - 70mai-a810-review-malaysia
   - imou-ranger-2-pro-review-malaysia
+qaPairs:
+  - question: Should I buy a dashcam or CCTV first in Malaysia?
+    answer: >-
+      For the average Malaysian driver, the dashcam is the better first purchase
+      because driving disputes and road accidents occur much more frequently
+      than home break-ins. You can get a reliable dashcam like the 70mai M300
+      for around RM139, providing immediate protection for your daily commute.
+  - question: Is a dashcam really necessary for Malaysian drivers?
+    answer: >-
+      Yes, a dashcam is highly recommended because it provides video evidence
+      that is accepted by police and insurance companies to settle accident
+      disputes quickly. It protects you against common road risks, whereas a
+      CCTV is primarily for rare but catastrophic home security events.
+  - question: Berapa bajet untuk pasang dashcam dan CCTV di rumah?
+    answer: >-
+      Anda boleh mendapatkan perlindungan asas dengan bajet bawah RM300 untuk
+      kedua-duanya. Kos permulaan untuk dashcam seperti 70mai M300 adalah
+      sekitar RM139, manakala CCTV seperti Tapo C210 pula berharga kira-kira
+      RM79, tidak termasuk kos kad memori.
+  - question: Does dashcam footage really help with insurance claims in Malaysia?
+    answer: >-
+      Absolutely, dashcam footage is frequently used to end arguments during
+      insurance claims and police investigations. Having clear video evidence of
+      an incident can resolve disputes in minutes, making it a high-value
+      security purchase for any Malaysian driver.
+  - question: What is the cheapest way to secure my home and car in 2026?
+    answer: >-
+      The most cost-effective approach is to prioritize a dashcam for your daily
+      driving risks, followed by a basic CCTV for your home entrance. You can
+      set up a basic dashcam for RM139 and a Tapo C210 home camera for RM79,
+      totaling less than RM220 for essential security coverage.
 ---
 Two security cameras. One watches your home, one watches your car. Both cost RM150-500. Both pay for themselves the first time something happens. If you only have budget for one in 2026, which do you buy? The honest answer for the average Malaysian driver-homeowner: the dashcam — barely. Here is the math.
 

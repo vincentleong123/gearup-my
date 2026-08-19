@@ -19,6 +19,42 @@ relatedGear:
   - canon-eos-r50-review-malaysia
   - sony-a6100-review-malaysia-second-hand
   - fujifilm-x-m5-review-malaysia
+qaPairs:
+  - question: What is the best budget camera for beginners in Malaysia under RM500?
+    answer: >-
+      The Nikon D3100 is widely considered the best choice for beginners under
+      RM500 in Malaysia. You can find it used on platforms like Mudah and
+      Carousell for between RM300 and RM500, making it an affordable way to
+      learn the fundamentals of photography.
+  - question: 'Sony A6100 vs ZV-E10: Which one should I buy for content creation?'
+    answer: >-
+      If your primary goal is YouTube or TikTok content creation, the Sony
+      ZV-E10 is the better choice because it features a bigger grip for vlogging
+      and a dedicated product-showcase mode. The Sony A6100 is a fantastic
+      all-rounder for photography, but the ZV-E10 is specifically optimized for
+      creators.
+  - question: Is the Fujifilm X-M5 worth the price for a beginner in 2026?
+    answer: >-
+      Yes, the Fujifilm X-M5 is worth the RM3,899 price tag because it packs a
+      high-end 40MP sensor and film simulations similar to the much more
+      expensive X100VI. It also offers 6.2K video capabilities and a mic input,
+      making it a powerful tool for creators who want a professional look.
+  - question: >-
+      Kamera apa paling sesuai untuk beginner di Malaysia dengan bajet bawah
+      RM4,000?
+    answer: >-
+      Untuk bajet bawah RM4,000, anda boleh mendapatkan kamera baru seperti
+      Canon EOS R50 pada harga RM3,499 atau Fujifilm X-M5 pada harga RM3,899.
+      Kedua-dua model ini menawarkan teknologi moden seperti autofocus yang
+      canggih dan kualiti video 4K yang sangat sesuai untuk pemula.
+  - question: >-
+      Why should beginners avoid buying a full-frame camera as their first
+      purchase?
+    answer: >-
+      Beginners should avoid buying a RM6,000+ full-frame camera because they
+      likely won't use 80% of its advanced features. It is much more practical
+      to spend that budget on essential gear like lenses, microphones, and
+      lighting, which will have a bigger impact on the quality of your content.
 ---
 "I want to start photography/content creation. Which camera should I buy?" is the single most asked question in Malaysia — and the most dangerous one to answer with "buy the latest full frame."
 

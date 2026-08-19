@@ -25,6 +25,42 @@ relatedGear:
   - sony-a6100-review-malaysia-second-hand
   - sony-zv-e10-review-malaysia-second-hand
   - canon-eos-r50-review-malaysia
+qaPairs:
+  - question: >-
+      What is the best budget second-hand camera for graduation photography in
+      Malaysia?
+    answer: >-
+      The Canon 100D or Nikon D5500 are excellent choices for graduation
+      mini-sessions, with used prices ranging from RM500 to RM1,300. These
+      cameras are compact and lightweight, allowing you to potentially break
+      even on your investment within just one to four paid gigs.
+  - question: Berapakah harga pasaran terpakai untuk Canon 70D di Malaysia sekarang?
+    answer: >-
+      Harga pasaran bagi Canon 70D terpakai di platform seperti Mudah atau
+      Carousell biasanya berada dalam julat RM1,200 hingga RM1,600. Kamera ini
+      sangat disyorkan untuk fotografi acara kerana ia merupakan model pertama
+      yang menampilkan Dual Pixel AF dan skrin sentuh yang praktikal.
+  - question: >-
+      Which second-hand camera is best for shooting client promo videos on a
+      budget?
+    answer: >-
+      The Sony A6400 is a top-tier choice for client promo videos, priced
+      between RM1,900 and RM2,400 on the used market. It offers 4K recording,
+      reliable real-time Eye AF, and a dedicated microphone jack, making it a
+      professional tool that can pay for itself in 3 to 5 gigs.
+  - question: Is the Sony A7 II still good for portrait photography in 2026?
+    answer: >-
+      Yes, the Sony A7 II remains a fantastic full-frame option for portraits
+      and pre-wedding photography, currently priced between RM2,300 and RM2,900.
+      Its in-body image stabilisation and full-frame sensor make it a versatile
+      'do-both' camera that can handle hybrid event coverage effectively.
+  - question: Kamera terpakai mana yang paling sesuai untuk vlogging dan content TikTok?
+    answer: >-
+      Untuk vlogging dan kandungan video, Canon M50 adalah pilihan terbaik
+      dengan harga terpakai sekitar RM1,000 hingga RM1,400. Ia dilengkapi dengan
+      skrin boleh pusing, autofokus Dual Pixel yang pantas, dan keupayaan
+      merakam 4K, menjadikannya sangat sesuai untuk penghasilan video
+      'talking-head'.
 ---
 The 60D era taught us the DSLR lesson: buy used, shoot photo gigs, and let the camera pay for itself. The cameras that came after — 2013 to 2019 — fixed the old era weaknesses and added real video. This is the sweet spot of the used market in 2026: cheap enough to break even fast, modern enough to shoot 4K and nail autofocus.
 

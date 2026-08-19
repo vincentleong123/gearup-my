@@ -17,6 +17,45 @@ tags:
 relatedGear:
   - dji-mini-3-pro-review-malaysia
   - dji-mini-4-pro-review-malaysia
+qaPairs:
+  - question: 'Is the DJI Mini 4 Pro worth the extra RM1,000 compared to the Mini 3 Pro?'
+    answer: >-
+      The Mini 4 Pro is worth the extra cost if you are flying for professional
+      work in tight spaces, as its omnidirectional obstacle sensing acts as
+      insurance against crashes. However, for hobbyists or beginners, the Mini 3
+      Pro remains the value king at a significantly lower price point.
+  - question: >-
+      Berapa harga pasaran drone DJI Mini 3 Pro dan Mini 4 Pro terpakai di
+      Malaysia?
+    answer: >-
+      Harga pasaran untuk DJI Mini 3 Pro terpakai di Malaysia adalah sekitar
+      RM1,300 hingga RM1,800, manakala DJI Mini 4 Pro terpakai pula berharga
+      antara RM2,400 hingga RM2,800. Perbezaan harga ini boleh mencecah sehingga
+      RM1,300 bergantung kepada keadaan drone tersebut.
+  - question: Does the DJI Mini 4 Pro have better obstacle sensing than the Mini 3 Pro?
+    answer: >-
+      Yes, the Mini 4 Pro features omnidirectional obstacle sensing, which
+      detects objects in all directions including up and down. In contrast, the
+      Mini 3 Pro only offers three-way obstacle sensing, covering the front,
+      back, and bottom.
+  - question: >-
+      Adakah DJI Mini 3 Pro masih berbaloi untuk content creator di Malaysia
+      pada tahun 2026?
+    answer: >-
+      Ya, Mini 3 Pro masih sangat berbaloi kerana ia menyokong rakaman video
+      menegak untuk TikTok atau Reels dan boleh didapati pada harga terpakai
+      yang sangat mampu milik iaitu sekitar RM1,300. Ia adalah pilihan terbaik
+      bagi pemula yang ingin memulakan kerjaya dalam bidang videografi udara
+      dengan modal rendah.
+  - question: >-
+      Which drone is better for professional real estate videography in
+      Malaysia?
+    answer: >-
+      The Mini 4 Pro is the better choice for real estate videography because
+      its omnidirectional sensing allows for safer flights in tight areas like
+      indoor property walkthroughs. Additionally, its 4K 100fps slow-motion
+      capability and improved subject tracking help produce more
+      professional-looking footage for clients.
 ---
 For Malaysian drone buyers, the 2026 "cheap but capable" decision is still Mini 3 Pro vs Mini 4 Pro — both under 250g, both in the lighter CAAM class (no Remote Pilot License, but check the current registration rules), both brilliant. The question is whether the 4 Pro's extras justify the RM1,000+ gap.
 

@@ -64,7 +64,7 @@ export default async function ReviewPolicyPage({ params }: Props) {
           <div className="bg-zinc-900/40 border border-zinc-800 rounded-xl p-6">
             <h2 className="text-lg font-bold mb-2"><T k="policy.corrections.t" en="Corrections" /></h2>
             <p className="text-sm text-zinc-200 leading-relaxed">
-              <T k="policy.corrections.d" en="Prices and specs change fast in Malaysia. If you spot an error, tell us at hello@kameralog.com and we&rsquo;ll fix and date the correction. Old prices are kept in reviews so you can see how the market moved." />
+              <T k="policy.corrections.d" en="Prices and specs change fast in Malaysia. If you spot an error, tell us at cameralogue@gmail.com and we&rsquo;ll fix and date the correction. Old prices are kept in reviews so you can see how the market moved." />
             </p>
           </div>
         </div>
