@@ -1,16 +1,16 @@
----
+﻿---
 slug: cctv-home-security-camera-guide-malaysia
 title: >-
   CCTV Home Security Camera Guide Malaysia 2026: Best Budget Cameras & How to
   Install Them
 description: >-
-  From RM69 indoor cams to RM189 outdoor PTZ — the honest guide to buying CCTV
+  From RM69 indoor cams to RM189 outdoor PTZ â€” the honest guide to buying CCTV
   in Malaysia in 2026. Which camera, which app, which storage, and the gray
   import traps to avoid.
 image: /blog/cctv-home-security-camera-guide-malaysia.jpg
 category: guide
 readTime: 12
-date: '2026-08-11'
+date: '2026-06-01'
 tags:
   - cctv
   - home security
@@ -61,10 +61,10 @@ If you own a shop, a rented house, a landed home or a studio, someone has probab
 
 Almost everything sold as "CCTV" on Shopee and Lazada is one of four things:
 
-- **Indoor Wi-Fi camera** — RM70-150. Plug in, watch on your phone. Best for apartments, shops, studios, monitoring the living room or a back room.
-- **Outdoor Wi-Fi camera** — RM80-200. Weatherproof, needs a power socket under a roof eave. Best for porches, gates, driveways.
-- **Outdoor PTZ** — RM180-350. Pan/tilt so one camera sweeps a whole yard. Best for landed homes.
-- **Full DVR/NVR kit** — RM400-1,200. 4-8 wired cameras recording to a hard drive. Best for shops, clinics, workshops that need reliable 24/7 coverage.
+- **Indoor Wi-Fi camera** â€” RM70-150. Plug in, watch on your phone. Best for apartments, shops, studios, monitoring the living room or a back room.
+- **Outdoor Wi-Fi camera** â€” RM80-200. Weatherproof, needs a power socket under a roof eave. Best for porches, gates, driveways.
+- **Outdoor PTZ** â€” RM180-350. Pan/tilt so one camera sweeps a whole yard. Best for landed homes.
+- **Full DVR/NVR kit** â€” RM400-1,200. 4-8 wired cameras recording to a hard drive. Best for shops, clinics, workshops that need reliable 24/7 coverage.
 
 For 90% of Malaysian homes, Wi-Fi cameras are enough and cost a tenth of a wired kit.
 
@@ -83,21 +83,21 @@ Full reviews of each are on our gear page under **CCTV & Security**.
 
 ## Step 3: The three questions that decide your camera
 
-**1. Indoor or outdoor?** Never buy an indoor camera for outdoor use — the humidity and rain will kill it in months. An outdoor unit has an IP65/IP66 weather rating; an indoor unit does not.
+**1. Indoor or outdoor?** Never buy an indoor camera for outdoor use â€” the humidity and rain will kill it in months. An outdoor unit has an IP65/IP66 weather rating; an indoor unit does not.
 
-**2. Fixed or pan/tilt?** A fixed camera watches one door. A pan/tilt camera sweeps a whole room or yard. For a single room, save the RM30 and go fixed. For a yard, buy the PTZ or buy two fixed units — two angles are better than one moving one.
+**2. Fixed or pan/tilt?** A fixed camera watches one door. A pan/tilt camera sweeps a whole room or yard. For a single room, save the RM30 and go fixed. For a yard, buy the PTZ or buy two fixed units â€” two angles are better than one moving one.
 
-**3. Wi-Fi or DVR?** Wi-Fi cameras record to a microSD card (usually 64-512GB) and alert your phone. DVR kits record to a hard drive and need professional installation. If you already have a Hikvision DVR, buy a matching camera. Otherwise, start with Wi-Fi — it is a tenth of the setup cost and you can install it yourself in 10 minutes.
+**3. Wi-Fi or DVR?** Wi-Fi cameras record to a microSD card (usually 64-512GB) and alert your phone. DVR kits record to a hard drive and need professional installation. If you already have a Hikvision DVR, buy a matching camera. Otherwise, start with Wi-Fi â€” it is a tenth of the setup cost and you can install it yourself in 10 minutes.
 
-## Step 4: Storage — local SD beats the subscription
+## Step 4: Storage â€” local SD beats the subscription
 
 The biggest scam in the budget CCTV market is the monthly cloud subscription upsell. A 256GB high-endurance microSD card costs RM45-70 and records weeks of footage continuously on a Tapo or Imou camera. Cloud plans charge RM10-30 a month forever. Buy the card. Keep the cloud only if you need off-site backup for a business.
 
 **Important:** buy a **high-endurance** microSD card, not a normal one. Dashcams and CCTV write constantly; a normal card dies in months. High-endurance cards (Samsung Pro Endurance, Sandisk High Endurance) are made for it.
 
-## Step 5: Gray import trap — read this before buying
+## Step 5: Gray import trap â€” read this before buying
 
-TP-Link, Imou and EZVIZ are all heavily gray-imported in Malaysia. The gray import unit is RM10-20 cheaper and has **no local warranty** — when it fails, you fight a cross-border RMA that usually ends in a refund you never see. For a RM79 camera, that is a bad trade. Buy from the **official store** on Shopee/Lazada or a listed authorized seller.
+TP-Link, Imou and EZVIZ are all heavily gray-imported in Malaysia. The gray import unit is RM10-20 cheaper and has **no local warranty** â€” when it fails, you fight a cross-border RMA that usually ends in a refund you never see. For a RM79 camera, that is a bad trade. Buy from the **official store** on Shopee/Lazada or a listed authorized seller.
 
 Hikvision is worse: gray import units can be **region-locked** and may refuse to pair with a local Hik-Connect account. Buy Hikvision only from a listed distributor.
 
@@ -109,10 +109,10 @@ Hikvision is worse: gray import units can be **region-locked** and may refuse to
 
 ## Step 7: The money angle
 
-A decent indoor cam is RM79. The average break-in or shoplifting incident in Malaysia costs thousands — in goods, damage and lost business. One prevented incident pays for a whole camera setup many times over. Insurance companies also discount premium for documented security measures, which pays the cameras back over two years.
+A decent indoor cam is RM79. The average break-in or shoplifting incident in Malaysia costs thousands â€” in goods, damage and lost business. One prevented incident pays for a whole camera setup many times over. Insurance companies also discount premium for documented security measures, which pays the cameras back over two years.
 
 For creators, there is a second income angle: CCTV **installer gigs**. Businesses and elderly homeowners will happily pay RM80-200 per camera for someone to mount, connect and demo a Tapo or Imou unit. The full installer-gig breakdown is in our **CCTV installer side hustle** guide.
 
 ## The bottom line
 
-In 2026, every Malaysian home and shop should have a camera. Start with a Tapo C210 indoors and a C120 or Imou Ranger 2 Pro outdoors — under RM300 total, installed in an afternoon, no subscriptions. Upgrade to a DVR kit only when you outgrow Wi-Fi. Buy local for the warranty, use SD cards, and angle for the approach path. That is the whole game.
+In 2026, every Malaysian home and shop should have a camera. Start with a Tapo C210 indoors and a C120 or Imou Ranger 2 Pro outdoors â€” under RM300 total, installed in an afternoon, no subscriptions. Upgrade to a DVR kit only when you outgrow Wi-Fi. Buy local for the warranty, use SD cards, and angle for the approach path. That is the whole game.

@@ -1,4 +1,4 @@
----
+﻿---
 slug: content-creator-gear-roi-malaysia-calculator
 title: 'The Content Creator ROI Calculator: Will Your Gear Pay For Itself in Malaysia?'
 description: >-
@@ -7,7 +7,7 @@ description: >-
 image: /blog/roi-calculator.jpg
 category: guide
 readTime: 6
-date: '2026-07-05'
+date: '2026-01-15'
 tags:
   - roi
   - calculator

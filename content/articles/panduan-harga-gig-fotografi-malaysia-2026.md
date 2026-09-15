@@ -1,6 +1,6 @@
----
+﻿---
 slug: panduan-harga-gig-fotografi-malaysia-2026
-title: Panduan Harga Gig Fotografi Malaysia 2026 — Jangan Jual Murah Lagi
+title: Panduan Harga Gig Fotografi Malaysia 2026 â€” Jangan Jual Murah Lagi
 description: >-
   Harga standard gig fotografi di Malaysia 2026: konvokesyen, kenduri, gala,
   potret, dron dan banyak lagi. Elakkan jual murah dan dapatkan client yang
@@ -8,7 +8,7 @@ description: >-
 image: /blog/malay-gig.jpg
 category: guide
 readTime: 9
-date: '2026-08-08'
+date: '2026-04-25'
 tags:
   - harga
   - pricing
@@ -20,7 +20,7 @@ relatedGear:
   - canon-eos-r8-review-malaysia
 lang: ms
 ---
-Masalah terbesar fotografer sambilan di Malaysia bukan kurang client — tapi jual murah. "Cik, boleh RM80 ke?" Bunyi biasa? Sebab ramai yang tak tahu harga pasaran, jadi client pun lepas tangan.
+Masalah terbesar fotografer sambilan di Malaysia bukan kurang client â€” tapi jual murah. "Cik, boleh RM80 ke?" Bunyi biasa? Sebab ramai yang tak tahu harga pasaran, jadi client pun lepas tangan.
 
 Panduan ini bukan untuk inflasikan harga, tapi untuk beri anda keyakinan menetapkan harga yang adil untuk anda dan client.
 
@@ -51,23 +51,23 @@ Panduan ini bukan untuk inflasikan harga, tapi untuk beri anda keyakinan menetap
 
 ## Cara naik harga tanpa hilang client
 
-- **Naikkan setiap 3 bulan** — client lama faham, client baru tak kisah.
-- **Pakej bukannya harga jam** — "RM450, 1 jam, 15 foto edit + 5 video" lebih mudah diterima dari RM450 sejam.
-- **Jual nilai, bukan masa** — cerita kenapa hasil anda lain dari orang lain (portfolio, pengalaman, deliver cepat).
-- **Simpan 10% untuk LHDN** — harga yang anda set sudah termasuk kos ini.
+- **Naikkan setiap 3 bulan** â€” client lama faham, client baru tak kisah.
+- **Pakej bukannya harga jam** â€” "RM450, 1 jam, 15 foto edit + 5 video" lebih mudah diterima dari RM450 sejam.
+- **Jual nilai, bukan masa** â€” cerita kenapa hasil anda lain dari orang lain (portfolio, pengalaman, deliver cepat).
+- **Simpan 10% untuk LHDN** â€” harga yang anda set sudah termasuk kos ini.
 
 ## Bila masa sesuai untuk harga tinggi
 
 - **Musim konvokesyen (Mac-April & Oktober-November):** permintaan tinggi, harga boleh di atas julat atas.
-- **Hujung minggu** — 80% gig jatuh hari Sabtu/Ahad. Tarikh premium = harga premium.
-- **Client ulangan** — mereka yang dah biasa bayar, jangan bagi diskaun automatik. Bagi nilai tambah (foto bonus) tapi kekalkan harga.
+- **Hujung minggu** â€” 80% gig jatuh hari Sabtu/Ahad. Tarikh premium = harga premium.
+- **Client ulangan** â€” mereka yang dah biasa bayar, jangan bagi diskaun automatik. Bagi nilai tambah (foto bonus) tapi kekalkan harga.
 
 ## Kesilapan harga yang biasa dilakukan
 
 - Quote terlalu awal tanpa tanya skop kerja.
 - Lupa caj edit (2-3 jam edit sepatutnya masuk dalam harga).
 - Terlalu laju beri diskaun sebelum client pun minta.
-- Pukul rata semua gig sama harga — dron dan video sepatutnya lebih mahal dari potret.
+- Pukul rata semua gig sama harga â€” dron dan video sepatutnya lebih mahal dari potret.
 
 ## Nasihat akhir
 

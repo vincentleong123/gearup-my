@@ -24,12 +24,21 @@ function renderInline(text: string): ReactNode[] {
           {m[3]}
         </code>,
       );
-    else
+    else {
+      const href = m[5];
+      const isInternal = href.startsWith('/') || href.startsWith('#');
       nodes.push(
-        <a key={key++} href={m[5]} target="_blank" rel="noopener noreferrer" className="text-amber-300 underline decoration-amber-500/50 underline-offset-2 hover:text-amber-200">
-          {m[4]}
-        </a>,
+        isInternal ? (
+          <a key={key++} href={href} className="text-amber-300 underline decoration-amber-500/50 underline-offset-2 hover:text-amber-200">
+            {m[4]}
+          </a>
+        ) : (
+          <a key={key++} href={href} target="_blank" rel="noopener noreferrer" className="text-amber-300 underline decoration-amber-500/50 underline-offset-2 hover:text-amber-200">
+            {m[4]}
+          </a>
+        ),
       );
+    }
     last = m.index + m[0].length;
   }
   if (last < text.length) nodes.push(text.slice(last));

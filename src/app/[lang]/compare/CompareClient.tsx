@@ -50,35 +50,35 @@ function CompareInner() {
                 </div>
                 <div className="p-5 space-y-4">
                   <div className="grid grid-cols-2 gap-3 text-sm">
-                    <div><span className="text-zinc-500 block text-xs">{t('gear.secondHandPrice', 'Price Used')}</span><span className="text-green-400 font-bold text-lg">{formatPrice(gear.priceUsed)}</span></div>
-                    <div><span className="text-zinc-500 block text-xs">{t('common.new', 'New')}</span><span className="text-zinc-100 font-bold">{formatPrice(gear.priceNew)}</span></div>
-                    <div><span className="text-zinc-500 block text-xs">{t('compare.label.type', 'Type')}</span><span className="text-zinc-100">{gear.type}</span></div>
-                    <div><span className="text-zinc-500 block text-xs">{t('common.rating', 'Rating')}</span><span className="text-zinc-100">{gear.rating}</span></div>
+                    <div><span className="text-zinc-200 block text-xs">{t('gear.secondHandPrice', 'Price Used')}</span><span className="text-green-400 font-bold text-lg">{formatPrice(gear.priceUsed)}</span></div>
+                    <div><span className="text-zinc-200 block text-xs">{t('common.new', 'New')}</span><span className="text-zinc-100 font-bold">{formatPrice(gear.priceNew)}</span></div>
+                    <div><span className="text-zinc-200 block text-xs">{t('compare.label.type', 'Type')}</span><span className="text-zinc-100">{gear.type}</span></div>
+                    <div><span className="text-zinc-200 block text-xs">{t('common.rating', 'Rating')}</span><span className="text-zinc-100">{gear.rating}</span></div>
                   </div>
                   <div>
-                    <div className="flex justify-between text-xs mb-1"><span className="text-zinc-500">{t('gear.roiScore', 'ROI')}</span><span className={`font-bold ${roiColor(gear.roiScore)}`}>{gear.roiScore}/100</span></div>
+                    <div className="flex justify-between text-xs mb-1"><span className="text-zinc-200">{t('gear.roiScore', 'ROI')}</span><span className={`font-bold ${roiColor(gear.roiScore)}`}>{gear.roiScore}/100</span></div>
                     <div className="h-1.5 bg-zinc-800 rounded-full overflow-hidden"><div className={`h-full rounded-full ${roiBarColor(gear.roiScore)}`} style={{ width: gear.roiScore + '%' }} /></div>
                   </div>
                   <div className="grid grid-cols-2 gap-3 text-sm">
-                    <div className="col-span-2"><span className="text-zinc-500 block text-xs mb-1">{t('gear.pros', 'Pros')}</span>
+                    <div className="col-span-2"><span className="text-zinc-200 block text-xs mb-1">{t('gear.pros', 'Pros')}</span>
                       <ul className="space-y-1">
                         {gear.pros.slice(0, 3).map(p => <li key={p} className="text-xs text-green-400">{p}</li>)}
                       </ul>
                     </div>
-                    <div className="col-span-2"><span className="text-zinc-500 block text-xs mb-1">{t('gear.cons', 'Cons')}</span>
+                    <div className="col-span-2"><span className="text-zinc-200 block text-xs mb-1">{t('gear.cons', 'Cons')}</span>
                       <ul className="space-y-1">
                         {gear.cons.slice(0, 3).map(c => <li key={c} className="text-xs text-red-400">{c}</li>)}
                       </ul>
                     </div>
                   </div>
-                  <div className="text-xs text-zinc-500 space-y-0.5">
+                  <div className="text-xs text-zinc-200 space-y-0.5">
                     <p><span className="text-zinc-200">{t('compare.label.sensor', 'Sensor')}:</span> {gear.sensor}</p>
                     <p><span className="text-zinc-200">{t('compare.label.video', 'Video')}:</span> {gear.video}</p>
                     <p><span className="text-zinc-200">{t('compare.label.weight', 'Weight')}:</span> {gear.weight}</p>
                   </div>
-                  <Link href={withLang('en', '/gear/' + gear.slug)} className="block text-center text-sm text-red-400 hover:text-red-300 font-semibold pt-2 border-t border-zinc-800">{t('gear.review', 'Full Review →')}</Link>
+                  <Link href={withLang(lang, '/gear/' + gear.slug)} className="block text-center text-sm text-red-400 hover:text-red-300 font-semibold pt-2 border-t border-zinc-800">{t('gear.review', 'Full Review →')}</Link>
                 </div>
-                <button onClick={() => toggleGear(gear.slug)} className="w-full p-3 text-sm text-zinc-500 hover:text-red-400 hover:bg-red-500/5 transition-colors border-t border-zinc-800 font-medium">{t('compare.remove', 'Remove')}</button>
+                <button onClick={() => toggleGear(gear.slug)} className="w-full p-3 text-sm text-zinc-200 hover:text-red-400 hover:bg-red-500/5 transition-colors border-t border-zinc-800 font-medium">{t('compare.remove', 'Remove')}</button>
               </div>
             ))}
           </div>
@@ -105,7 +105,7 @@ function CompareInner() {
               <img src={gearImg(g.slug)} alt={g.name} className="w-10 h-10 rounded-lg object-cover flex-shrink-0" loading="lazy" />
               <div className="flex-1 min-w-0">
                 <div className="font-bold text-sm truncate">{g.name}</div>
-                <div className="text-xs text-zinc-500">{g.type} &middot; <span className="text-green-400">{formatPrice(g.priceUsed)}</span></div>
+                <div className="text-xs text-zinc-200">{g.type} &middot; <span className="text-green-400">{formatPrice(g.priceUsed)}</span></div>
               </div>
               <span className={'text-xs font-bold px-2 py-1 rounded-full ' + roiColor(g.roiScore)}>{g.roiScore}</span>
             </button>
@@ -119,7 +119,7 @@ function CompareInner() {
 export default function CompareClient() {
   const { t } = useLang();
   return (
-    <Suspense fallback={<div className="text-center py-16 text-zinc-500">{t('common.loading', 'Loading...')}</div>}>
+    <Suspense fallback={<div className="text-center py-16 text-zinc-200">{t('common.loading', 'Loading...')}</div>}>
       <CompareInner />
     </Suspense>
   );

@@ -1,15 +1,15 @@
----
+﻿---
 slug: content-creator-malaysia-no-money-start
 title: >-
   How to Start Content Creation in Malaysia with Zero Ringgit (Tim & Ahmad's
   Guide)
 description: >-
   Lost your job? Strap for cash? Here's exactly how to start a content creator
-  career in Malaysia with RM0 — using only what you already own.
+  career in Malaysia with RM0 â€” using only what you already own.
 image: /blog/start-zero.jpg
 category: guide
 readTime: 12
-date: '2026-07-10'
+date: '2026-01-17'
 tags:
   - beginner
   - zero budget
@@ -53,7 +53,7 @@ So you lost your job. Your savings are running out. Your family is asking when y
 
 Let us tell you something that nobody in the gear review industry wants you to know: **The best camera for starting is the one you already own.**
 
-This guide is written specifically for Tim and Ahmad — and everyone else in Malaysia who wants to start content creation but has almost no money.
+This guide is written specifically for Tim and Ahmad â€” and everyone else in Malaysia who wants to start content creation but has almost no money.
 
 ## Step 1: Audit what you already own (free)
 
@@ -70,17 +70,17 @@ Take out everything you own that can create content:
 The most common mistake new creators make is being too general. "I want to be a lifestyle creator" is not a niche. "I review affordable gadgets under RM100 on Shopee" is a niche.
 
 **Profitable niches in Malaysia for 2026:**
-- Budget gadget reviews (the more specific the better — "power banks under RM50")
-- Local food reviews (cafes, hawker stalls, mamak — every area has its favourites)
+- Budget gadget reviews (the more specific the better â€” "power banks under RM50")
+- Local food reviews (cafes, hawker stalls, mamak â€” every area has its favourites)
 - Dance covers and performance content (K-pop covers are huge on TikTok)
-- Affordable skincare (Watsons and Guardian products — massive market)
+- Affordable skincare (Watsons and Guardian products â€” massive market)
 - DIY and repair tutorials (fixing things saves people money)
-- Motorcycle/delivery content (Penang, KL, JB — relatable to thousands of riders)
+- Motorcycle/delivery content (Penang, KL, JB â€” relatable to thousands of riders)
 - Budget travel (take public transport, show real costs)
 
 ## Step 3: Create 10 pieces of content before worrying about gear
 
-Here's the deal: 95% of people never post their first video. They get stuck buying gear, learning editing, perfecting lighting, choosing thumbnails — and never actually publish anything.
+Here's the deal: 95% of people never post their first video. They get stuck buying gear, learning editing, perfecting lighting, choosing thumbnails â€” and never actually publish anything.
 
 Do not be that person. Shoot 10 videos with your phone. Post them. Learn from what works. Improve with each video.
 
@@ -96,7 +96,7 @@ Do not be that person. Shoot 10 videos with your phone. Post them. Learn from wh
 9. "My setup for RM0 (tour of my filming corner)"
 10. "Q&A: why I'm starting content creation"
 
-## Step 4: The first RM500 — what to buy
+## Step 4: The first RM500 â€” what to buy
 
 After your first month of consistent posting, you might earn your first RM500 from affiliate links or your first brand deal. Here's exactly what to buy in order of priority:
 
@@ -110,7 +110,7 @@ After your first month of consistent posting, you might earn your first RM500 fr
 
 **Total so far: RM500**
 
-## Step 5: The first camera — when to upgrade
+## Step 5: The first camera â€” when to upgrade
 
 Do NOT buy a camera until:
 1. You've posted at least 20 videos
@@ -119,7 +119,7 @@ Do NOT buy a camera until:
 
 When that time comes, here's the progression:
 - **RM0-500 budget:** You already own a phone. Use it.
-- **RM400-500:** Used Nikon D3100 with kit lens (check our review — it's the ultimate "no money" camera)
+- **RM400-500:** Used Nikon D3100 with kit lens (check our review â€” it's the ultimate "no money" camera)
 - **RM1,500-2,000:** Used Sony A6100 or ZV-E10 (the real starter mirrorless)
 - **RM1,800-2,200:** Used Insta360 X4 (for unique 360 content, sells itself to clients)
 - **RM2,500-3,200:** Used DJI Mini 4 Pro (drone content, premium earning potential)

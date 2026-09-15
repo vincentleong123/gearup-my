@@ -1,16 +1,16 @@
----
+﻿---
 slug: gala-dinner-event-photography-malaysia
 title: >-
   Gala Dinner & Corporate Event Photography in Malaysia: RM300-600 Evenings That
   Repeat Every Year
 description: >-
-  Award nights, CNY dinners, fundraisers, product launches — every company books
+  Award nights, CNY dinners, fundraisers, product launches â€” every company books
   at least one event a year. Here is how to win those contracts, deliver fast,
   and build a recurring client list.
 image: /blog/gala-guide.jpg
 category: guide
 readTime: 8
-date: '2026-08-01'
+date: '2026-02-21'
 tags:
   - event
   - gala
@@ -58,15 +58,15 @@ qaPairs:
 ---
 At some point this year, almost every company in Malaysia will host a dinner: award nights, Chinese New Year dinners, Deepavali functions, anniversaries, fundraisers. Someone has to photograph it. Why not you?
 
-Corporate events are the **steadiest** gig on this list — they're booked in seasons, they repeat annually, and the brief is simpler than a wedding.
+Corporate events are the **steadiest** gig on this list â€” they're booked in seasons, they repeat annually, and the brief is simpler than a wedding.
 
 ## What clients actually want
 
 They want three things:
 
-- **100-200 clean photos** — red carpet, table shots, stage moments, candids
-- **Fast delivery** — the VIP shots the next morning, full gallery within 48 hours
-- **Zero stress** — someone who shows up, handles it, and doesn't cause drama
+- **100-200 clean photos** â€” red carpet, table shots, stage moments, candids
+- **Fast delivery** â€” the VIP shots the next morning, full gallery within 48 hours
+- **Zero stress** â€” someone who shows up, handles it, and doesn't cause drama
 
 Do those three things and event organisers will book you forever.
 
@@ -80,23 +80,23 @@ Do those three things and event organisers will book you forever.
 
 ## How to win the contract
 
-- **Pitch the organiser, not the company.** Event planners and PR firms subcontract photographers — they have 20 events a year, a company has one.
+- **Pitch the organiser, not the company.** Event planners and PR firms subcontract photographers â€” they have 20 events a year, a company has one.
 - **Send a one-page menu.** A clean PDF with packages, 6 sample photos, and turnaround times. Make it easy to say yes.
 - **Do one charity gala for cheap or free.** The photos get shared to every sponsor company in the room. That's your sales pitch, happening for you.
-- **Get a referral from every job.** "Do you know another company planning an event soon?" — this one question built Sarah's whole client list.
+- **Get a referral from every job.** "Do you know another company planning an event soon?" â€” this one question built Sarah's whole client list.
 
 ## The dark-hall survival guide
 
 Corporate dinners are shot in low light, often on stage, at speed:
 
-- Shoot in shutter priority or auto with the flash on — don't miss moments fiddling with manual
-- Use burst for applause — the "clapping hands" shot organisers love
+- Shoot in shutter priority or auto with the flash on â€” don't miss moments fiddling with manual
+- Use burst for applause â€” the "clapping hands" shot organisers love
 - Expose for faces, not the fancy lights behind them
 - Arrive 30 minutes early and test your settings at the actual venue
 
 ## The VIP trick
 
-Deliver the **VIP photos first** — the MD, CEO, guest of honour, award winners. That's what the organiser forwards to the board. If those look great the next morning, you are already booked for next year.
+Deliver the **VIP photos first** â€” the MD, CEO, guest of honour, award winners. That's what the organiser forwards to the board. If those look great the next morning, you are already booked for next year.
 
 ## The math
 

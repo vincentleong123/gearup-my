@@ -121,7 +121,7 @@ export default function PostEditor({
       setSaving(false);
       return { ok: false, message: 'Slug is required.' };
     }
-    if (!values.title) {
+    if (!values[type.titleField || 'title']) {
       setNotice({ kind: 'err', text: 'Title is required.' });
       setSaving(false);
       return { ok: false, message: 'Title is required.' };
@@ -253,7 +253,7 @@ export default function PostEditor({
               spellCheck={false}
               className="w-full p-4 font-mono text-[13px] leading-relaxed bg-zinc-950 text-zinc-100 focus:outline-none rounded-b-2xl resize-y"
             />
-            <p className="px-4 py-2 text-[11px] text-zinc-400 border-t border-zinc-100">
+            <p className="px-4 py-2 text-xs text-zinc-400 border-t border-zinc-100">
               Insert <code className="font-mono">🖼️ Curation</code> markers in the body — they render the image-curation blocks at that spot.
             </p>
           </div>
@@ -261,7 +261,7 @@ export default function PostEditor({
           <div className="bg-zinc-950 border border-zinc-800 rounded-2xl overflow-hidden">
             <div className="px-4 py-2.5 bg-zinc-900 border-b border-zinc-800 flex items-center justify-between">
               <h2 className="text-xs font-black uppercase tracking-wider text-zinc-300">Live preview</h2>
-              <span className="text-[10px] text-zinc-500">public render</span>
+              <span className="text-xs text-zinc-500">public render</span>
             </div>
             <div className="p-5 max-h-[70vh] overflow-y-auto">
               <MarkdownBody content={body} imageCuration={imageCuration} />

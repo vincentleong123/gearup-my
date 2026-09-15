@@ -1,4 +1,4 @@
----
+﻿---
 slug: sigma-18-50mm-f28-dc-dn-review-malaysia
 title: 'Sigma 18-50mm f/2.8 Review: The One Lens to Own on APS-C'
 description: >-
@@ -8,7 +8,7 @@ description: >-
 image: /blog/sigma-18-50mm-f28-dc-dn-review-malaysia.jpg
 category: gear
 readTime: 9
-date: '2026-08-03'
+date: '2026-03-07'
 tags:
   - sigma
   - lens
@@ -20,7 +20,7 @@ relatedGear:
   - sony-zv-e10-review-malaysia-second-hand
   - fujifilm-x-t5-review-malaysia
 ---
-If you own a Sony A6100, ZV-E10 or Fujifilm X-T5, there's a good chance your camera is better than your lens. The fix for that is usually a prime — but the Sigma 18-50mm f/2.8 DC DN is the rare zoom that ends the upgrade question entirely. It might be the only lens you'll ever need on APS-C.
+If you own a Sony A6100, ZV-E10 or Fujifilm X-T5, there's a good chance your camera is better than your lens. The fix for that is usually a prime â€” but the Sigma 18-50mm f/2.8 DC DN is the rare zoom that ends the upgrade question entirely. It might be the only lens you'll ever need on APS-C.
 
 ## The specs
 
@@ -35,18 +35,18 @@ If you own a Sony A6100, ZV-E10 or Fujifilm X-T5, there's a good chance your cam
 
 ## Why it's the one-lens answer
 
-- **Constant f/2.8.** Unlike kit lenses that dim to f/5.6 when you zoom, this stays bright at every focal length. More light, more bokeh, less ISO noise — everywhere.
+- **Constant f/2.8.** Unlike kit lenses that dim to f/5.6 when you zoom, this stays bright at every focal length. More light, more bokeh, less ISO noise â€” everywhere.
 - **290g.** The whole point of APS-C is a light kit. This lens is barely bigger than a pancake zoom, perfect for a gimbal, a vlog or a day out in KL.
 - **Native autofocus.** No adapters, no hunting. On the A6100 and ZV-E10 it locks fast and quietly, and it works with face and eye tracking.
-- **Sharp from f/2.8.** The modern Contemporary line is technically excellent wide open — a big step up from older budget zooms.
+- **Sharp from f/2.8.** The modern Contemporary line is technically excellent wide open â€” a big step up from older budget zooms.
 
 ## Real-world on an A6100
 
 We ran the Sigma 18-50mm as a daily lens on a Sony A6100 for content gigs:
 
 - **Food and product:** at 50mm f/2.8 it gives you that expensive shallow look for overhead and flat-lay shots.
-- **Video:** constant aperture means exposure stays stable while zooming — the lens isn't fully parfocal, so you still re-pull focus, but exposure never shifts.
-- **Vlogging:** 18mm on a selfie screen is wide enough with the crop — and at 290g it balances perfectly on the ZV-E10's small grip.
+- **Video:** constant aperture means exposure stays stable while zooming â€” the lens isn't fully parfocal, so you still re-pull focus, but exposure never shifts.
+- **Vlogging:** 18mm on a selfie screen is wide enough with the crop â€” and at 290g it balances perfectly on the ZV-E10's small grip.
 
 ## The comparison that matters
 
@@ -62,7 +62,7 @@ The Tamron gives you more range and image stabilisation; the Sigma gives you a m
 ## Malaysian pricing and buying
 
 - **Sigma Malaysia official:** the 18-50mm f/2.8 runs ~RM2,500-2,900. Sigma's local warranty is handled cleanly.
-- **Bundle note:** with a used A6100 (~RM1,800) and this lens, you have a professional-level kit for under RM5,000 — less than half the price of the full-frame equivalent.
+- **Bundle note:** with a used A6100 (~RM1,800) and this lens, you have a professional-level kit for under RM5,000 â€” less than half the price of the full-frame equivalent.
 - **If you mostly shoot one focal length,** the Sigma 30mm f/1.4 (~RM1,400) is sharper and faster for portraits. The zoom wins on versatility.
 
 ## The bottom line

@@ -1,4 +1,4 @@
----
+﻿---
 slug: free-video-editing-software-malaysia-beginners
 title: >-
   Free Video Editing Software for Malaysian Creators: CapCut, DaVinci Resolve &
@@ -9,7 +9,7 @@ description: >-
 image: /blog/editing-software.jpg
 category: guide
 readTime: 7
-date: '2026-08-02'
+date: '2026-02-26'
 tags:
   - editing
   - software
@@ -47,7 +47,7 @@ qaPairs:
       Resolve for colour grading and CapCut for auto-captions, while focusing on
       the editing pipeline of cutting dead air and adding royalty-free music.
 ---
-You filmed the footage. Now what? Editing is where raw clips become content — and in Malaysia in 2026, the best editing software costs exactly RM0.
+You filmed the footage. Now what? Editing is where raw clips become content â€” and in Malaysia in 2026, the best editing software costs exactly RM0.
 
 Here is your free editing software guide, from phone-only to pro.
 
@@ -66,7 +66,7 @@ CapCut is the default editing app for short-form content in Malaysia, and for go
 
 ## If you have a laptop (even a slow one): DaVinci Resolve (free)
 
-DaVinci Resolve is the pro-level editor that Malaysian pros actually use, and the free version is genuinely free — no watermark, no time limit.
+DaVinci Resolve is the pro-level editor that Malaysian pros actually use, and the free version is genuinely free â€” no watermark, no time limit.
 
 **Why it wins:**
 - Colour grading that rivals paid software costing thousands
@@ -76,20 +76,20 @@ DaVinci Resolve is the pro-level editor that Malaysian pros actually use, and th
 
 **The catch:** it's a real learning curve, and it needs a decent GPU. A RM2,000 laptop from 2019 will run it for short edits; a gaming laptop will fly.
 
-**The beginner route:** watch a "DaVinci Resolve for beginners" video for one evening, then edit your first video the next day. You don't need to know everything — you need to know the six buttons you use most.
+**The beginner route:** watch a "DaVinci Resolve for beginners" video for one evening, then edit your first video the next day. You don't need to know everything â€” you need to know the six buttons you use most.
 
 ## If you're on Windows and just want simple: Clipchamp / Windows Photos
 
-Don't underestimate the free apps built into Windows. Clipchamp is genuinely good for talking-head edits, captions, and simple cuts — and it's free with a Microsoft account.
+Don't underestimate the free apps built into Windows. Clipchamp is genuinely good for talking-head edits, captions, and simple cuts â€” and it's free with a Microsoft account.
 
 ## The editing pipeline that works
 
-1. **Rough cut** — drop all your good clips on the timeline, cut the dead air
-2. **Jump cuts out** — remove pauses, mistakes, and "um"s
-3. **Captions** — auto-captions keep viewers watching (most watch with sound off)
-4. **Colour pass** — one click of auto-grade if you're using DaVinci
-5. **Music** — one royalty-free track at low volume under the voice
-6. **Export** — vertical for TikTok/Reels/Shorts, 16:9 for YouTube
+1. **Rough cut** â€” drop all your good clips on the timeline, cut the dead air
+2. **Jump cuts out** â€” remove pauses, mistakes, and "um"s
+3. **Captions** â€” auto-captions keep viewers watching (most watch with sound off)
+4. **Colour pass** â€” one click of auto-grade if you're using DaVinci
+5. **Music** â€” one royalty-free track at low volume under the voice
+6. **Export** â€” vertical for TikTok/Reels/Shorts, 16:9 for YouTube
 
 ## The verdict
 

@@ -1,4 +1,4 @@
----
+﻿---
 slug: gig-edit-retouch-no-camera-malaysia
 title: 'Gig Edit & Retouch Tanpa Kamera: Jalan Masuk RM0 untuk Bayar Gear'
 description: >-
@@ -8,7 +8,7 @@ description: >-
 image: /blog/gig-edit-retouch-no-camera-malaysia.jpg
 category: guide
 readTime: 9
-date: '2026-08-10'
+date: '2026-05-11'
 tags:
   - edit
   - retouch
@@ -24,7 +24,7 @@ lang: ms
 ---
 Ini gig untuk anda yang ada 60D tetapi belum berani shoot untuk orang, atau yang mahu pendapatan sampingan tanpa keluar rumah: edit dan retouch untuk jurugambar lain.
 
-Ramai jurugambar di Malaysia benci editing. Mereka nak shoot, bukan duduk depan komputer. Mereka akan bayar anda RM50-300 untuk satu pakej wedding atau 50 gambar — dan kerja ini bermula dengan kos sifar.
+Ramai jurugambar di Malaysia benci editing. Mereka nak shoot, bukan duduk depan komputer. Mereka akan bayar anda RM50-300 untuk satu pakej wedding atau 50 gambar â€” dan kerja ini bermula dengan kos sifar.
 
 ## Do what: apa kerja sebenarnya
 
@@ -50,25 +50,25 @@ Ramai jurugambar di Malaysia benci editing. Mereka nak shoot, bukan duduk depan 
 
 ## Kenapa gig ini strategik untuk anda
 
-- **Kos sifar** — guna komputer/laptop lama + perisian percuma.
-- **Belajar tanpa tekanan** — tak perlu takut "momen terlepas" di lokasi.
-- **Kenal industri** — anda faham jenis gig, harga, dan keperluan jurugambar.
-- **Bina hubungan** — jurugambar yang anda tolong akan bagi kerja shoot pertama kepada anda.
-- **Boleh jadi editor tetap** — kontrak bulanan yang paling stabil.
+- **Kos sifar** â€” guna komputer/laptop lama + perisian percuma.
+- **Belajar tanpa tekanan** â€” tak perlu takut "momen terlepas" di lokasi.
+- **Kenal industri** â€” anda faham jenis gig, harga, dan keperluan jurugambar.
+- **Bina hubungan** â€” jurugambar yang anda tolong akan bagi kerja shoot pertama kepada anda.
+- **Boleh jadi editor tetap** â€” kontrak bulanan yang paling stabil.
 
 ## Perisian yang anda perlu tahu
 
-1. **Lightroom** — edit warna dan batch. Percuma di telefon, RM35/bulan untuk desktop.
-2. **RawTherapee** — percuma, kuat, untuk PC.
-3. **GIMP** — percuma, untuk retouch dan objek buang.
-4. **CapCut** — percuma, untuk edit video jika client minta.
+1. **Lightroom** â€” edit warna dan batch. Percuma di telefon, RM35/bulan untuk desktop.
+2. **RawTherapee** â€” percuma, kuat, untuk PC.
+3. **GIMP** â€” percuma, untuk retouch dan objek buang.
+4. **CapCut** â€” percuma, untuk edit video jika client minta.
 
 ## Cara cari client editor
 
-- **Hantar mesej kepada jurugambar event** — "saya boleh edit pakej konvokesyen RM80, hantar sampel".
-- **Edit 10 gambar percuma** sebagai demo — jangan buat percuma untuk kerja penuh.
-- **Sediakan 5 gambar before/after** — bukti lebih meyakinkan dari janji.
-- **Jawab cepat** — jurugambar benci tunggu. Cepat = dapat kerja.
+- **Hantar mesej kepada jurugambar event** â€” "saya boleh edit pakej konvokesyen RM80, hantar sampel".
+- **Edit 10 gambar percuma** sebagai demo â€” jangan buat percuma untuk kerja penuh.
+- **Sediakan 5 gambar before/after** â€” bukti lebih meyakinkan dari janji.
+- **Jawab cepat** â€” jurugambar benci tunggu. Cepat = dapat kerja.
 
 ## Berapa pakej nak bayar gear seterusnya
 
@@ -81,6 +81,6 @@ Ramai jurugambar di Malaysia benci editing. Mereka nak shoot, bukan duduk depan 
 
 ## Kesimpulan
 
-Editing bukan "menunggu kamera baru" — ia langkah pertama ke arah industri ini dengan wang keluar sifar. Setiap pakej yang anda edit mengajar anda tentang gear, gig, dan harga — dan menyimpan wang untuk gear sebenar.
+Editing bukan "menunggu kamera baru" â€” ia langkah pertama ke arah industri ini dengan wang keluar sifar. Setiap pakej yang anda edit mengajar anda tentang gear, gig, dan harga â€” dan menyimpan wang untuk gear sebenar.
 
 Mula petang ini: pasang Lightroom percuma, minta 10 gambar RAW dari mana-mana jurugambar kawan, dan siapkan before/after pertama anda.

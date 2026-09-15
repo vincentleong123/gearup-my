@@ -1,4 +1,4 @@
----
+﻿---
 slug: buat-video-guna-handphone-cabaran-30-hari
 title: >-
   Buat Video Guna Handphone Setiap Hari: Cabaran 30 Hari Content Creator
@@ -12,7 +12,7 @@ image: /blog/buat-video-guna-handphone-cabaran-30-hari.jpg
 category: inspiration
 verticalCategory: phone
 status: published
-date: 2026-08-16T00:00:00.000Z
+date: '2026-06-09'
 updatedAt: 2026-08-16T00:00:00.000Z
 author: Kameralog Editorial
 lang: ms

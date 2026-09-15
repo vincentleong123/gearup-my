@@ -1,4 +1,4 @@
----
+﻿---
 slug: dji-mic-2-vs-budget-lapel-malaysia
 title: 'DJI Mic 2 vs a RM150 Lapel Mic: Do You Really Need the Pro Audio?'
 description: >-
@@ -7,7 +7,7 @@ description: >-
 image: /blog/mic2-vs-lapel.jpg
 category: comparison
 readTime: 6
-date: '2026-07-12'
+date: '2026-01-19'
 tags:
   - comparison
   - audio
@@ -57,7 +57,7 @@ So when is the RM1,599 DJI Mic 2 actually worth it?
 
 ## The RM150 lapel: the realistic baseline
 
-For under RM200 you get a wireless lapel set — transmitter, receiver, phone or camera connection. What it fixes:
+For under RM200 you get a wireless lapel set â€” transmitter, receiver, phone or camera connection. What it fixes:
 
 - **The dead-camera-mic problem:** built-in mics sound distant and echoey; a lapel sounds close and clear
 - **The wind problem:** foam covers fix outdoor hiss on most cheap sets
@@ -71,10 +71,10 @@ For under RM200 you get a wireless lapel set — transmitter, receiver, phone or
 
 The Mic 2 costs 10x more. This is what the money buys:
 
-- **Far better audio quality:** 32-bit float recording means you can never blow out the audio — it records on the transmitter itself as a backup
+- **Far better audio quality:** 32-bit float recording means you can never blow out the audio â€” it records on the transmitter itself as a backup
 - **Serious range and reliability:** 250m wireless range, dual-channel (two people, two mics)
 - **Pro features:** records to the transmitter in case the connection drops, better noise cancellation, build quality that lasts years of daily use
-- **Multi-device:** works with camera, phone, and laptop — one set for every gig
+- **Multi-device:** works with camera, phone, and laptop â€” one set for every gig
 
 ## The honest threshold: when to upgrade
 
@@ -82,7 +82,7 @@ The Mic 2 costs 10x more. This is what the money buys:
 
 **Upgrade to the DJI Mic 2 when:**
 - You're doing paid interviews or client shoots where audio failure is unacceptable
-- You're making money — RM1,600 is about 3-5 paid shoots
+- You're making money â€” RM1,600 is about 3-5 paid shoots
 - You shoot with two people regularly (the second channel)
 - You've hit a point where thin audio is genuinely costing you engagement
 
@@ -90,6 +90,6 @@ The Mic 2 costs 10x more. This is what the money buys:
 
 ## The verdict
 
-Audio matters — but "buy the best mic" is bad advice for beginners. Buy a RM150 lapel, learn to use it, and upgrade the day you can trace a lost job or a silent engagement dip to your audio. That's the day it becomes a business expense, not a purchase.
+Audio matters â€” but "buy the best mic" is bad advice for beginners. Buy a RM150 lapel, learn to use it, and upgrade the day you can trace a lost job or a silent engagement dip to your audio. That's the day it becomes a business expense, not a purchase.
 
-Tim filmed his first 40 videos on a RM140 wireless set. The Mic 2 came later — paid for by the videos the cheap one made possible.
+Tim filmed his first 40 videos on a RM140 wireless set. The Mic 2 came later â€” paid for by the videos the cheap one made possible.

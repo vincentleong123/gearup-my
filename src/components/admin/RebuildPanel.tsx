@@ -72,11 +72,11 @@ export default function RebuildPanel({ onBeforeRebuild }: { onBeforeRebuild?: ()
       {result && (
         <p className={`text-xs font-semibold ${result.ok ? 'text-green-600' : 'text-red-600'} max-w-md text-right`}>
           {result.ok ? 'Site rebuilt.' : `Build failed: ${result.message}`}
-          {!result.ok && <span className="block text-zinc-500 font-normal mt-0.5">Restart `next start` to serve the last good build.</span>}
+          {!result.ok && <span className="block text-zinc-200 font-normal mt-0.5">Restart `next start` to serve the last good build.</span>}
         </p>
       )}
       {log.length > 0 && (
-        <pre className="text-[11px] leading-relaxed bg-zinc-900 text-green-300 rounded-xl p-3 max-h-48 overflow-auto w-full whitespace-pre-wrap">
+        <pre className="text-xs leading-relaxed bg-zinc-900 text-green-300 rounded-xl p-3 max-h-48 overflow-auto w-full whitespace-pre-wrap">
           {log.join('\n')}
         </pre>
       )}

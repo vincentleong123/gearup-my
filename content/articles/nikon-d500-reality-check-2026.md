@@ -1,4 +1,4 @@
----
+﻿---
 slug: nikon-d500-reality-check-2026
 title: 'Nikon D500 in 2026: Should You Really Buy a 10-Year-Old Flagship?'
 description: >-
@@ -8,7 +8,7 @@ description: >-
 image: /blog/nikon-d500.jpg
 category: gear
 readTime: 10
-date: '2026-08-07'
+date: '2026-04-16'
 tags:
   - dslr
   - used

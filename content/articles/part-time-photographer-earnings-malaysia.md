@@ -1,4 +1,4 @@
----
+﻿---
 slug: part-time-photographer-earnings-malaysia
 title: How Much Do Part-Time Photographers Actually Earn in Malaysia? (2026 Rates)
 description: >-
@@ -8,7 +8,7 @@ description: >-
 image: /blog/photographer-earnings.jpg
 category: inspiration
 readTime: 9
-date: '2026-07-23'
+date: '2026-01-26'
 tags:
   - income
   - gigs
@@ -18,7 +18,7 @@ relatedGear:
   - sony-zv-e10-review-malaysia-second-hand
   - sony-a7c-ii-review-malaysia
 ---
-"How much can I actually earn as a part-time photographer in Malaysia?" Everyone asks, nobody gives a straight number. So here it is — straight, with real 2026 rates.
+"How much can I actually earn as a part-time photographer in Malaysia?" Everyone asks, nobody gives a straight number. So here it is â€” straight, with real 2026 rates.
 
 ## The rate reality by gig type
 
@@ -38,15 +38,15 @@ relatedGear:
 
 ## What this means for monthly income
 
-**Realistic part-time month — beginner (RM500-1,200):**
+**Realistic part-time month â€” beginner (RM500-1,200):**
 - 3 graduations (RM200-450 each) = RM600-1,350
 - Takes: weekends only, 2-3 evenings editing
 
-**Realistic part-time month — established (RM1,500-3,000):**
+**Realistic part-time month â€” established (RM1,500-3,000):**
 - 2 graduations + 1 gala + 1 corporate event
 - = RM400-900 + RM300-600 + RM400-1,000
 
-**Realistic part-time month — skilled specialist (RM3,000-6,000):**
+**Realistic part-time month â€” skilled specialist (RM3,000-6,000):**
 - 1-2 weddings (RM800-2,500 each) + 2 real estate jobs + 1 video gig
 - = RM2,000-5,000 + RM500-1,200 + RM500-1,500
 
@@ -54,7 +54,7 @@ These are real numbers from creators on this site, not internet fantasy. The key
 
 ## What separates RM500 from RM5,000 months
 
-1. **Skill stacking, not gear.** The jump from graduation (RM200-450) to wedding (RM800-2,500) is the same camera — it's the portfolio, the reviews, and the confidence that changed.
+1. **Skill stacking, not gear.** The jump from graduation (RM200-450) to wedding (RM800-2,500) is the same camera â€” it's the portfolio, the reviews, and the confidence that changed.
 2. **Delivery quality.** Clients pay for fast, reliable, well-edited delivery. The photographer who delivers in 3 days gets rebooked; the one who delivers in 3 weeks doesn't.
 3. **Referral chains.** One happy wedding client = 5-10 referrals. That's the whole growth engine of Malaysian gig photography.
 4. **Pricing confidence.** Beginners undercharge. At RM200 you attract bad clients; at RM450 you attract the ones who value your work.
@@ -63,9 +63,9 @@ These are real numbers from creators on this site, not internet fantasy. The key
 
 - **Months 1-3:** RM500-1,200/month (learn, portfolio, first reviews)
 - **Months 4-6:** RM1,500-3,000/month (steady graduations, first events)
-- **Months 7-12:** RM3,000-6,000/month (weddings, video, drone — the specialists' tier)
+- **Months 7-12:** RM3,000-6,000/month (weddings, video, drone â€” the specialists' tier)
 
-That trajectory pays for a used A6100 in month 1-2, a full-frame in month 4-6, and a professional kit by the end of year one — all without quitting your day job.
+That trajectory pays for a used A6100 in month 1-2, a full-frame in month 4-6, and a professional kit by the end of year one â€” all without quitting your day job.
 
 ## The honest warning
 

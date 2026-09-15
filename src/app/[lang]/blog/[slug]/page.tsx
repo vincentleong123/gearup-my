@@ -110,6 +110,9 @@ export default async function ArticlePage({ params, searchParams }: Props) {
   if (!isPreview && lang !== realLang(article)) redirect(withLang(realLang(article), `/blog/${article.slug}`));
 
   const relatedGear = gearList.filter(g => article.relatedGear.includes(g.slug));
+  const relatedArticles = articles
+    .filter(a => a.slug !== article.slug && (a.category === article.category || a.tags.some(t => article.tags.includes(t))))
+    .slice(0, 4);
   const figures = articleFigures(article.slug);
   const heroImg = article.image || blogImg(article.slug);
 
@@ -162,7 +165,7 @@ export default async function ArticlePage({ params, searchParams }: Props) {
       <Nav />
       <article className="min-h-screen pt-24 pb-16">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-8">
+          <nav className="flex items-center gap-2 text-sm text-zinc-200 mb-8">
             <Link href={withLang(lang, '/')} className="hover:text-white transition-colors">Home</Link>
             <span>/</span>
             <Link href={withLang(lang, '/blog')} className="hover:text-white transition-colors">Blog</Link>
@@ -179,7 +182,7 @@ export default async function ArticlePage({ params, searchParams }: Props) {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/80 via-transparent to-transparent" />
             </div>
-            <div className="flex items-center gap-3 text-sm text-zinc-500 mb-4 flex-wrap">
+            <div className="flex items-center gap-3 text-sm text-zinc-200 mb-4 flex-wrap">
               <span className="text-xs font-bold px-3 py-1 rounded-full bg-green-500/20 text-green-400 border border-green-500/30 uppercase">{article.category}</span>
               {article.lang === 'ms' && (
                 <span className="text-xs font-bold px-3 py-1 rounded-full bg-red-500/15 text-red-400 border border-red-500/30 uppercase">Bahasa Melayu</span>
@@ -189,7 +192,7 @@ export default async function ArticlePage({ params, searchParams }: Props) {
               <span>{article.readTime} min read</span>
               {article.author && <span>·</span>}
               {article.author && <span className="text-zinc-300">{article.author}</span>}
-              {article.reviewedAt && <span className="text-xs text-zinc-600">· updated {article.reviewedAt}</span>}
+              {article.reviewedAt && <span className="text-xs text-zinc-300">· updated {article.reviewedAt}</span>}
               {isPreview && (
                 <span className="text-xs font-bold px-3 py-1 rounded-full bg-amber-500/20 text-amber-400 border border-amber-500/30 uppercase">Preview</span>
               )}
@@ -199,6 +202,33 @@ export default async function ArticlePage({ params, searchParams }: Props) {
           </div>
 
           <MarkdownBody content={article.content} figures={figures} imageCuration={article.imageCuration} />
+
+          {/* Author Bio Box */}
+          <div className="mt-10 p-6 bg-zinc-900/60 border border-zinc-800 rounded-2xl">
+            <div className="flex items-start gap-4">
+              <div className="w-14 h-14 rounded-full bg-gradient-to-br from-red-500 to-pink-600 flex items-center justify-center text-white font-black text-xl shrink-0">V</div>
+              <div>
+                <p className="font-bold text-white">Vincent — Kameralog Editorial</p>
+                <p className="text-sm text-zinc-200 mt-1">
+                  Photographer, content creator, dan orang yang beli kamera second hand RM500 dan start buat gig.
+                  Vincent buat D3100 &amp; Canon 60D berbaloi sebelum upgrade ke Sony A6100. Tulisan ni based on pengalaman sendiri — bukan sponsored, bukan copy-paste spec sheet.
+                </p>
+                <p className="text-sm text-zinc-200 mt-2">
+                  <Link href={withLang(lang, '/author/vincent')} className="text-red-400 hover:text-red-300 transition-colors">Lihat profil penuh →</Link>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Methodology / Disclosure */}
+          <div className="mt-6 p-4 bg-zinc-900/40 border border-zinc-800/60 rounded-xl text-sm text-zinc-200">
+            <p className="font-semibold text-zinc-300 mb-1">About this article</p>
+            <p>
+              Harga dalam artikel ni berdasarkan pasaran Malaysia (Shopee, Carousell, Facebook Groups, kedai fizikal seperti Camera Wharf &amp; Alan Photo).
+              Kami kemas kini harga setiap bulan. Kalau harga dah berubah, bagitahu kami — kami akan adjust.
+              Artikel ni bukan sponsored oleh mana-mana jenama kamera. Pendapat adalah berdasarkan pengalaman sendiri dan maklumat dari komuniti photographer Malaysia.
+            </p>
+          </div>
 
           {/* Q&A Section */}
           {article.qaPairs && article.qaPairs.length > 0 && (
@@ -224,7 +254,7 @@ export default async function ArticlePage({ params, searchParams }: Props) {
               <h2 className="text-2xl font-bold mb-6">Related Gear</h2>
               <div className="grid md:grid-cols-2 gap-4">
                 {relatedGear.map(g => (
-                  <Link key={g.slug} href={withLang('en', `/gear/${g.slug}`)} className="block bg-zinc-900/60 border border-zinc-800 rounded-xl p-5 hover:border-red-500/30 transition-all group">
+                  <Link key={g.slug} href={withLang(lang, `/gear/${g.slug}`)} className="block bg-zinc-900/60 border border-zinc-800 rounded-xl p-5 hover:border-red-500/30 transition-all group">
                     <div className="flex items-start justify-between gap-3 mb-2">
                       <h3 className="font-bold group-hover:text-red-400 transition-colors">{g.name}</h3>
                       <span className="text-green-400 font-bold text-sm">{formatPrice(g.priceUsed)}</span>
@@ -240,10 +270,27 @@ export default async function ArticlePage({ params, searchParams }: Props) {
           <div className="mt-8 pt-8 border-t border-zinc-800">
             <div className="flex flex-wrap gap-2">
               {article.tags.map(t => (
-                <span key={t} className="text-xs text-zinc-500 bg-zinc-800/50 px-3 py-1.5 rounded-full">#{t}</span>
+                <span key={t} className="text-xs text-zinc-200 bg-zinc-800/50 px-3 py-1.5 rounded-full">#{t}</span>
               ))}
             </div>
           </div>
+
+          {/* Related Articles */}
+          {relatedArticles.length > 0 && (
+            <div className="mt-10 pt-8 border-t border-zinc-800">
+              <h2 className="text-2xl font-bold mb-6">Baca juga</h2>
+              <div className="grid sm:grid-cols-2 gap-4">
+                {relatedArticles.map(a => (
+                  <Link key={a.slug} href={withLang(lang, `/blog/${a.slug}`)} className="block bg-zinc-900/60 border border-zinc-800 rounded-xl p-5 hover:border-red-500/30 transition-all group">
+                    <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-green-500/20 text-green-400 border border-green-500/30 uppercase mb-2 inline-block">{a.category}</span>
+                    <h3 className="font-bold group-hover:text-red-400 transition-colors line-clamp-2">{a.title}</h3>
+                    <p className="text-sm text-zinc-200 line-clamp-2 mt-2">{a.description}</p>
+                    <p className="text-xs text-zinc-200 mt-2">{a.readTime} min read</p>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </article>
       <Footer />

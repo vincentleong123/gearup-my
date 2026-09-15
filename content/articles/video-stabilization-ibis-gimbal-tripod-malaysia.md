@@ -1,4 +1,4 @@
----
+﻿---
 slug: video-stabilization-ibis-gimbal-tripod-malaysia
 title: 'IBIS vs Gimbal vs Tripod in Malaysia: The Honest Stabilization Guide for 2026'
 description: >-
@@ -8,7 +8,7 @@ description: >-
 image: /blog/stabilization.jpg
 category: comparison
 readTime: 11
-date: '2026-08-05'
+date: '2026-03-30'
 tags:
   - stabilization
   - gimbal

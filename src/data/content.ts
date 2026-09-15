@@ -15,6 +15,19 @@ export interface ImageCurationBlock {
   aspectRatio?: string;
   notes?: string;
   active?: boolean;
+  /** Approval status: undefined = pending review, true = approved, false = rejected */
+  approved?: boolean;
+  /** Optional rejection reason */
+  rejectReason?: string;
+}
+
+/** Flattened view of an image block with its parent article info — used by the /admin/images dashboard. */
+export interface ImageCurationItem {
+  articleSlug: string;
+  articleTitle: string;
+  articleCategory: string;
+  blockIndex: number;
+  block: ImageCurationBlock;
 }
 
 export const CURATION_MARKER_RE = /^\[IMAGE CURATION(?:\s+#?(\d+))?\]\s*$/;

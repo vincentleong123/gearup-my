@@ -1,4 +1,4 @@
----
+﻿---
 slug: second-hand-camera-scams-malaysia
 title: >-
   Second-Hand Camera Scams in Malaysia: Fungus, Shutter Fraud & Water Damage -
@@ -10,7 +10,7 @@ description: >-
 image: /blog/camera-scam.jpg
 category: guide
 readTime: 12
-date: '2026-08-06'
+date: '2026-04-06'
 tags:
   - second-hand
   - scam

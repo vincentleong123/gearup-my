@@ -1,13 +1,13 @@
----
+﻿---
 slug: dji-vs-instax360-malaysia
 title: >-
   DJI vs Insta360: Gear Mana Sesuai Untuk Creator Malaysia?
 description: >-
-  Perbandingan DJI dan Insta360 untuk creator Malaysia — drone, action camera, dan 360 camera. Harga, kelebihan, dan mana yang berbaloi.
+  Perbandingan DJI dan Insta360 untuk creator Malaysia â€” drone, action camera, dan 360 camera. Harga, kelebihan, dan mana yang berbaloi.
 image: /blog/dji-vs-instax360.jpg
 category: comparison
 readTime: 10
-date: '2026-08-18'
+date: '2026-07-14'
 tags:
   - dji
   - insta360
@@ -22,17 +22,17 @@ lang: ms
 ---
 DJI dan Insta360 dua jenama yang berbeza tapi sering dibandingkan. DJI lebih terkenal untuk drone, Insta360 untuk 360 camera. Tapi sebenarnya, kedua-duanya ada produk yang beroperasi di ruang yang sama.
 
-## DJI — rajanya drone
+## DJI â€” rajanya drone
 
 ### Produk utama DJI untuk creator Malaysia
 
-**DJI Mini 4 Pro — RM3,500–4,500 (new)**
+**DJI Mini 4 Pro â€” RM3,500â€“4,500 (new)**
 Drone bawah 249g (tak perlu daftar dengan CAD). Video 4K 60fps, obstacle avoidance, dan range jauh. Pilihan terbaik untuk content creator Malaysia.
 
-**DJI Action 4 — RM1,200–1,600 (new)**
+**DJI Action 4 â€” RM1,200â€“1,600 (new)**
 Action camera yang tahan air 10m. Stabilisasi terbaik, screen besar, dan mudah digunakan.
 
-**DJI Pocket 3 — RM1,800–2,200 (new)**
+**DJI Pocket 3 â€” RM1,800â€“2,200 (new)**
 Camera gimbal kecil. Stabilisasi mekanikal, video 4K, dan saiz yang sangat kecil. Sesuai untuk vlogging.
 
 ### Kelebihan DJI
@@ -41,17 +41,17 @@ Camera gimbal kecil. Stabilisasi mekanikal, video 4K, dan saiz yang sangat kecil
 - After-sales service yang baik di Malaysia
 - Harga second hand stabil
 
-## Insta360 — rajanya 360 & creative camera
+## Insta360 â€” rajanya 360 & creative camera
 
 ### Produk utama Insta360 untuk creator Malaysia
 
-**Insta360 X4 — RM2,200–2,800 (new)**
+**Insta360 X4 â€” RM2,200â€“2,800 (new)**
 360 camera terbaik. Video 8K 360, "invisible self-stick" effect, dan editing mudah melalui app.
 
-**Insta360 GO 3S — RM1,200–1,500 (new)**
+**Insta360 GO 3S â€” RM1,200â€“1,500 (new)**
 Camera kecil magnetik. Boleh letak di mana-mana. Video 4K, saiz thumb.
 
-**Insta360 Ace Pro 2 — RM1,500–1,800 (new)**
+**Insta360 Ace Pro 2 â€” RM1,500â€“1,800 (new)**
 Action camera dengan Leica lens. AI editing features, dan kualiti gambar yang sangat baik.
 
 ### Kelebihan Insta360

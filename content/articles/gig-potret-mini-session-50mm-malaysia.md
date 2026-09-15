@@ -1,15 +1,15 @@
----
+﻿---
 slug: gig-potret-mini-session-50mm-malaysia
 title: 'Mini Session Potret RM150-400: Kenapa Lens 50mm f/1.8 Anda Sebenarnya Emas'
 description: >-
   Lens 50mm f/1.8 yang "tak boleh buat kerja" sebenarnya lens potret terbaik
-  untuk Canon 60D. Mini session potret keluarga dan couple di taman — RM150-400
+  untuk Canon 60D. Mini session potret keluarga dan couple di taman â€” RM150-400
   sejam dengan satu lens sahaja. Do what, contoh job & berapa sesi untuk bayar
   gear baru.
 image: /blog/gig-potret-mini-session-50mm-malaysia.jpg
 category: guide
 readTime: 10
-date: '2026-08-10'
+date: '2026-05-16'
 tags:
   - potret
   - 50mm
@@ -22,13 +22,13 @@ relatedGear:
   - sony-a6100-review-malaysia-second-hand
 lang: ms
 ---
-Anda rasa lens 50mm f/1.8 anda "tak boleh buat kerja" sebab AF lambat. Sebenarnya lens ini adalah senjata rahsia anda — ia adalah lens potret klasik, murah, dan dengan subjek statik, AF yang lambat langsung tidak menjadi isu.
+Anda rasa lens 50mm f/1.8 anda "tak boleh buat kerja" sebab AF lambat. Sebenarnya lens ini adalah senjata rahsia anda â€” ia adalah lens potret klasik, murah, dan dengan subjek statik, AF yang lambat langsung tidak menjadi isu.
 
 Ini panduan mini session potret: gig paling menyeronokkan dan paling cepat naik taraf untuk pemilik 60D.
 
 ## Do what: apa itu mini session
 
-Mini session ialah sesi potret pendek — 30-60 minit — untuk keluarga, couple, atau individu. Format tetap dan ringkas:
+Mini session ialah sesi potret pendek â€” 30-60 minit â€” untuk keluarga, couple, atau individu. Format tetap dan ringkas:
 
 - **Lokasi:** taman, tepi pantai, atau dinding seni (KLCC park, Lake Gardens, pantai Port Dickson).
 - **Kandungan:** 15-25 gambar dalam 45-60 minit, 1-2 outfit.
@@ -49,7 +49,7 @@ Purata pasaran Malaysia: **RM150-400** untuk satu sesi 30-60 minit.
 
 ## Contoh job sebenar (localised)
 
-**Mini session keluarga di Taman Tasik Perdana.** Keluarga Fazrul — ayah, mak, dan dua anak kecil — ingin gambar untuk kad raya. 45 minit petang, cahaya emas.
+**Mini session keluarga di Taman Tasik Perdana.** Keluarga Fazrul â€” ayah, mak, dan dua anak kecil â€” ingin gambar untuk kad raya. 45 minit petang, cahaya emas.
 
 - Bayaran: **RM300**
 - Lokasi: Taman Tasik Perdana, KL (percuma, senang parking)
@@ -73,8 +73,8 @@ Satu sesi RM300 = kos aksesori lengkap anda.
 ## Tools yang diperlukan
 
 - Canon 60D + lens 50mm f/1.8 (SATU lens je, itu sahaja)
-- Reflektor lipat 5-in-1 (RM30-50) — hilangkan bayang bawah mata
-- Remote shutter (RM20) — self timer untuk gambar keluarga lengkap
+- Reflektor lipat 5-in-1 (RM30-50) â€” hilangkan bayang bawah mata
+- Remote shutter (RM20) â€” self timer untuk gambar keluarga lengkap
 - Kad memori + bateri ganti
 - (Pilihan) light stand kecil + lampu LED RM150 jika sesi jadi lewat
 
@@ -87,13 +87,13 @@ Satu sesi RM300 = kos aksesori lengkap anda.
 
 ## Cara dapat client
 
-1. **Portfolio 3 sesi percuma** untuk kawan dan keluarga — dengan izin mereka, pos hasil.
-2. **Pos di Facebook** — "Mini session potret keluarga, Taman Tasik Perdana, RM250 termasuk edit."
-3. **Tawarkan pek raya/cuti** — musim raya dan cuti sekolah paling laris.
-4. **Minta testimoni** — screenshot feedback dan jadikan sebahagian portfolio.
+1. **Portfolio 3 sesi percuma** untuk kawan dan keluarga â€” dengan izin mereka, pos hasil.
+2. **Pos di Facebook** â€” "Mini session potret keluarga, Taman Tasik Perdana, RM250 termasuk edit."
+3. **Tawarkan pek raya/cuti** â€” musim raya dan cuti sekolah paling laris.
+4. **Minta testimoni** â€” screenshot feedback dan jadikan sebahagian portfolio.
 
 ## Kesimpulan
 
-Lens 50mm f/1.8 anda bukan "cheat lens yang tak boleh buat kerja" — ia lens potret profesional yang menunggu teknik yang betul. Mini session potret dengan satu lens, satu lokasi, dan subjek statik: RM150-400 sesi, dan 7 sesi sahaja untuk A6100 anda.
+Lens 50mm f/1.8 anda bukan "cheat lens yang tak boleh buat kerja" â€” ia lens potret profesional yang menunggu teknik yang betul. Mini session potret dengan satu lens, satu lokasi, dan subjek statik: RM150-400 sesi, dan 7 sesi sahaja untuk A6100 anda.
 
-Mula hujung minggu ini. Portfolio 3 sesi percuma dahulu — gig berbayar akan datang sendiri.
+Mula hujung minggu ini. Portfolio 3 sesi percuma dahulu â€” gig berbayar akan datang sendiri.

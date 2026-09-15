@@ -53,7 +53,7 @@ export async function listPosts(postType: PostTypeDef): Promise<StoredPost[]> {
       const { data } = matter(raw);
       posts.push({
         slug: String(data.slug || entry.name.replace(/\.md$/, '')),
-        title: String(data.title || entry.name.replace(/\.md$/, '')),
+        title: String(data[postType.titleField || 'title'] || data.title || data.name || entry.name.replace(/\.md$/, '')),
         status: String(data.status || 'published'),
         category: String(data.category || ''),
         date: String(data.date || data.publishDate || '').slice(0, 10),
@@ -137,6 +137,22 @@ export async function deletePost(postType: PostTypeDef, slug: string): Promise<b
   } catch {
     return false;
   }
+}
+
+/**
+ * Targeted SEO patch: update only seoTitle / seoDescription on a post without
+ * touching the rest of the editor UI. Rewrites the markdown file (same path
+ * the editor uses) and reports whether anything changed.
+ */
+export async function patchPostSeo(
+  postType: PostTypeDef,
+  slug: string,
+  patch: { seoTitle?: string; seoDescription?: string },
+): Promise<{ changed: boolean }> {
+  const post = await readPost(postType, slug);
+  const values = { ...post.values, ...patch };
+  const saved = await savePost(postType, slug, values);
+  return { changed: saved.changed };
 }
 
 export async function postExists(postType: PostTypeDef, slug: string): Promise<boolean> {

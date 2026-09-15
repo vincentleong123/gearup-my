@@ -1,13 +1,13 @@
----
+﻿---
 slug: best-vlogging-camera-malaysia
 title: >-
   Best Vlogging Camera Malaysia 2026: Untuk YouTube, TikTok & Live
 description: >-
-  Camera terbaik untuk vlogging di Malaysia — perbandingan Sony ZV-E10, Canon M50, dan lain-lain. Harga second hand, ciri penting, dan mana yang berbaloi.
+  Camera terbaik untuk vlogging di Malaysia â€” perbandingan Sony ZV-E10, Canon M50, dan lain-lain. Harga second hand, ciri penting, dan mana yang berbaloi.
 image: /blog/best-vlogging-camera.jpg
 category: guide
 readTime: 10
-date: '2026-08-18'
+date: '2026-07-07'
 tags:
   - vlogging camera
   - youtube camera
@@ -24,27 +24,27 @@ Vlogging memerlukan kamera yang berbeza dari fotografi. Yang penting: flip scree
 
 ## Apa yang vlogger sebenarnya perlukan
 
-1. **Flip screen** — Anda perlu nampak diri sendiri semasa rekod. Tanpa ini, anda "buta".
-2. **Autofocus yang baik** — Semasa bergerak, kamera mesti kekalkan fokus pada muka anda.
-3. **Mic input 3.5mm** — Audio dari mic terbina kurang baik. Mic luaran adalah wajib.
-4. **Saiz kecil** — Vlogger bawa kamera ke mana-mana. Kalau terlalu berat, anda tak akan bawa.
-5. **Stabilisasi** — IBIS atau EIS penting untuk footage yang lancar.
+1. **Flip screen** â€” Anda perlu nampak diri sendiri semasa rekod. Tanpa ini, anda "buta".
+2. **Autofocus yang baik** â€” Semasa bergerak, kamera mesti kekalkan fokus pada muka anda.
+3. **Mic input 3.5mm** â€” Audio dari mic terbina kurang baik. Mic luaran adalah wajib.
+4. **Saiz kecil** â€” Vlogger bawa kamera ke mana-mana. Kalau terlalu berat, anda tak akan bawa.
+5. **Stabilisasi** â€” IBIS atau EIS penting untuk footage yang lancar.
 
 ## Top 5 vlogging camera untuk Malaysia
 
-### 1. Sony ZV-E10 — RM1,800–2,400 (second hand)
+### 1. Sony ZV-E10 â€” RM1,800â€“2,400 (second hand)
 **The king of vlogging.** Flip screen, mic input, "background defocus" sebutan, dan AF yang hebat. Tiada EVF, tapi untuk vlogging, anda tak perlu EVF.
 
-### 2. Canon EOS M50 Mark II — RM1,200–1,600 (second hand)
+### 2. Canon EOS M50 Mark II â€” RM1,200â€“1,600 (second hand)
 Murah, mudah, dan Canon colours yang terkenal. Flip screen, Dual Pixel AF, video 4K (dengan crop). Lensa EF-M second hand sangat murah.
 
-### 3. Nikon Z30 — RM1,600–2,000 (second hand)
+### 3. Nikon Z30 â€” RM1,600â€“2,000 (second hand)
 Ringan (350g), video 4K, mic input, flip screen. Paling ringan dalam senarai ini.
 
-### 4. Sony A6100 — RM1,400–1,900 (second hand)
+### 4. Sony A6100 â€” RM1,400â€“1,900 (second hand)
 Bukan khusus vlogging, tapi AF-nya terbaik dan flip screen ada. Jika anda nak satu kamera untuk semua (foto + video), ini pilihan terbaik.
 
-### 5. DJI Action 4 — RM800–1,200 (second hand)
+### 5. DJI Action 4 â€” RM800â€“1,200 (second hand)
 Untuk vlogging outdoor/travel. Kecil, tahan air, stabilisasi hebat. Bukan untuk studio, tapi untuk outdoor content, ia sangat praktikal.
 
 ## Perbandingan audio

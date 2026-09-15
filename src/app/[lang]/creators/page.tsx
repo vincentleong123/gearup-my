@@ -29,7 +29,7 @@ export default async function CreatorsPage({ params }: Props) {
           <p className="text-zinc-200 max-w-xl mx-auto text-lg">
             <T k="creators.hero.desc" en="Illustrative Malaysian creator journeys — the gear, the gigs, and how fast each setup can pay for itself." />
           </p>
-          <p className="text-zinc-500 text-sm max-w-xl mx-auto mt-2">
+          <p className="text-zinc-200 text-sm max-w-xl mx-auto mt-2">
             <T k="creators.hero.note" en="These are realistic examples based on typical Malaysian gig rates, not profiles of real individuals." />
           </p>
         </div>
@@ -37,7 +37,7 @@ export default async function CreatorsPage({ params }: Props) {
           {creators.map((c, i) => (
             <Link
               key={c.slug}
-              href={withLang('en', `/creators/${c.slug}`)}
+              href={withLang(lang, `/creators/${c.slug}`)}
               className="group block bg-zinc-900/80 border border-zinc-800 rounded-2xl p-6 hover:border-cyan-500/30 hover:shadow-lg hover:shadow-cyan-500/5 transition-all duration-300"
             >
               <div className="flex items-center gap-4 mb-4">
@@ -46,7 +46,7 @@ export default async function CreatorsPage({ params }: Props) {
                 </div>
                 <div>
                   <div className="font-bold text-lg group-hover:text-cyan-400 transition-colors">{c.name}</div>
-                  <div className="text-sm text-zinc-500">{c.handle}</div>
+                  <div className="text-sm text-zinc-200">{c.handle}</div>
                 </div>
               </div>
               <div className="text-xs text-cyan-400/80 bg-cyan-500/5 px-3 py-1 rounded-full inline-block mb-3 font-semibold">{c.niche}</div>
@@ -59,19 +59,19 @@ export default async function CreatorsPage({ params }: Props) {
               <div className="flex gap-3">
                 <div className="flex-1 bg-zinc-800/50 rounded-xl p-3 text-center">
                   <div className="text-lg font-bold text-green-400">RM {c.monthlyEarningsMin.toLocaleString()}+</div>
-                  <div className="text-xs text-zinc-500"><T k="creators.perMonth" en="/month" /></div>
+                  <div className="text-xs text-zinc-200"><T k="creators.perMonth" en="/month" /></div>
                 </div>
                 <div className="flex-1 bg-zinc-800/50 rounded-xl p-3 text-center">
                   <div className="text-lg font-bold text-cyan-400">{c.roiMonths} mo</div>
-                  <div className="text-xs text-zinc-500"><T k="creators.breakeven" en="breakeven" /></div>
+                  <div className="text-xs text-zinc-200"><T k="creators.breakeven" en="breakeven" /></div>
                 </div>
                 <div className="flex-1 bg-zinc-800/50 rounded-xl p-3 text-center">
                   <div className="text-lg font-bold text-zinc-100">{c.startedWith.length > 15 ? c.startedWith.slice(0, 12) + '…' : c.startedWith}</div>
-                  <div className="text-xs text-zinc-500"><T k="creators.starterKit" en="starter kit" /></div>
+                  <div className="text-xs text-zinc-200"><T k="creators.starterKit" en="starter kit" /></div>
                 </div>
               </div>
               <div className="mt-4 pt-4 border-t border-zinc-800">
-                <div className="text-xs text-zinc-500 italic leading-relaxed line-clamp-2">&ldquo;{h(c.advice.slice(0, 120))}&rdquo;</div>
+                <div className="text-xs text-zinc-200 italic leading-relaxed line-clamp-2">&ldquo;{h(c.advice.slice(0, 120))}&rdquo;</div>
               </div>
             </Link>
           ))}

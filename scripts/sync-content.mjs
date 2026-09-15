@@ -4,8 +4,9 @@
  * are reflected in the static site.
  *
  * Collections:
- *   - content/articles  -> src/data/generated/articles.ts  (Creator articles)
- *   - content/security  -> src/data/generated/security.ts  (Security systems)
+ *   - content/articles  -> src/data/generated/articles.ts   (Creator articles)
+ *   - content/security  -> src/data/generated/security.ts   (Security systems)
+ *   - content/gear      -> src/data/generated/gear.ts       (Gear reviews)
  *
  * Run: node scripts/sync-content.mjs
  */
@@ -100,6 +101,34 @@ const collections = [
       ...optional(data, 'featuredImage'),
       ...optional(data, 'gallery'),
       ...optional(data, 'imageCuration'),
+    }),
+  },
+  {
+    dir: join(cwd, 'content/gear'),
+    outFile: join(generatedDir, 'gear.ts'),
+    typeName: 'GearItem',
+    sourceType: '../gear-fallback',
+    exportName: 'generatedGearItems',
+    map: (data, file) => ({
+      slug: str(pick(data, 'slug', file.replace(/\.md$/, ''))),
+      name: str(data.name),
+      category: str(pick(data, 'category', 'camera')),
+      priceNew: num(data.priceNew),
+      priceUsed: num(data.priceUsed),
+      type: str(data.type),
+      sensor: str(data.sensor),
+      video: str(data.video),
+      weight: str(data.weight),
+      rating: num(data.rating),
+      roiScore: num(data.roiScore),
+      level: str(pick(data, 'level', 'beginner')),
+      excerpt: str(data.excerpt),
+      content: '',
+      pros: arr(data.pros),
+      cons: arr(data.cons),
+      roiDesc: str(data.roiDesc),
+      usedTip: str(data.usedTip),
+      creatorUses: arr(data.creatorUses),
     }),
   },
 ];

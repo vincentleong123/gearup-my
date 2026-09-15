@@ -48,6 +48,8 @@ export interface PostTypeDef {
   folder: string;
   /** Frontmatter field that drives the per-vertical category tree */
   categoryField: string;
+  /** Frontmatter field holding the post's display title (defaults to "title") */
+  titleField?: string;
   /** Per-vertical category tree — NEVER shared between post types */
   categories: string[];
   categoriesHint?: string;
@@ -89,6 +91,10 @@ export const SECURITY_CATEGORIES = [
 export const ENVIRONMENTS = ['factory', 'warehouse', 'retail', 'office', 'home', 'outdoor', 'mixed'] as const;
 
 export const DEPLOYMENTS = ['nvr-poe', 'wifi', 'cloud', 'hybrid'] as const;
+
+export const GEAR_CATEGORIES = ['camera', 'mobile', 'drone', 'action', 'audio', 'security', 'dashcam'] as const;
+
+export const GEAR_LEVELS = ['beginner', 'mid', 'pro'] as const;
 
 export const AI_FEATURES = [
   'facial-recognition',
@@ -261,7 +267,41 @@ const securitySystemFields: FieldDef[] = [
   { name: 'imageCuration', label: 'Image curation blocks', type: 'list', fields: imageCurationFields },
 ];
 
+const gearFields: FieldDef[] = [
+  { name: 'slug', label: 'Slug', type: 'text', required: true, hint: 'URL segment, lowercase with dashes', placeholder: '70mai-a500s-review-malaysia' },
+  { name: 'name', label: 'Gear name', type: 'text', required: true, hint: 'Product name, e.g. "70mai A500S"' },
+  { name: 'category', label: 'Category', type: 'select', options: [...GEAR_CATEGORIES], required: true },
+  { name: 'level', label: 'Skill level', type: 'select', options: [...GEAR_LEVELS], defaultValue: 'beginner' },
+  { name: 'priceNew', label: 'Price new (RM)', type: 'number', hint: '0 if no longer sold new' },
+  { name: 'priceUsed', label: 'Price used (RM)', type: 'number', hint: 'Typical second-hand price in Malaysia' },
+  { name: 'type', label: 'Type', type: 'text', placeholder: '2K Front Dashcam' },
+  { name: 'sensor', label: 'Sensor', type: 'text', placeholder: '5MP Sony IMX335' },
+  { name: 'video', label: 'Video spec', type: 'text', placeholder: '2K @ 30fps' },
+  { name: 'weight', label: 'Weight', type: 'text', placeholder: '90g' },
+  { name: 'rating', label: 'Rating (0–5)', type: 'number', hint: '0.1 steps, e.g. 4.3' },
+  { name: 'roiScore', label: 'ROI score (0–100)', type: 'number', hint: 'How quickly this gear pays for itself' },
+  { name: 'excerpt', label: 'Excerpt', type: 'textarea', required: true, hint: 'Card blurb on the gear page' },
+  { name: 'roiDesc', label: 'ROI description', type: 'textarea', hint: 'Shown in the ROI panel' },
+  { name: 'usedTip', label: 'Second-hand buying tip', type: 'textarea' },
+  { name: 'pros', label: 'Pros', type: 'list', hint: 'One per line, or comma-separated' },
+  { name: 'cons', label: 'Cons', type: 'list', hint: 'One per line, or comma-separated' },
+  { name: 'creatorUses', label: 'Creator use-cases', type: 'list', hint: 'Who uses this gear (slugs / names)' },
+];
+
 export const POST_TYPES: Record<string, PostTypeDef> = {
+  gear: {
+    id: 'gear',
+    label: 'Gear Reviews',
+    singular: 'Gear review',
+    description: 'Camera & gear review cards with Malaysian new/used pricing, ROI score, pros/cons and buying tips. Reader question: "Is this worth the money in Malaysia?"',
+    icon: '🎯',
+    folder: 'gear',
+    categoryField: 'category',
+    titleField: 'name',
+    categories: [...GEAR_CATEGORIES],
+    categoriesHint: 'Gear taxonomy — how the gear page groups reviews.',
+    fields: gearFields,
+  },
   article: {
     id: 'article',
     label: 'Creator Articles',

@@ -1,4 +1,4 @@
----
+﻿---
 slug: youtube-monetization-malaysia-2026
 title: 'YouTube Monetization in Malaysia 2026: RPM, Requirements & Real Earnings'
 description: >-
@@ -8,7 +8,7 @@ description: >-
 image: /blog/youtube-money.jpg
 category: guide
 readTime: 10
-date: '2026-07-30'
+date: '2026-02-10'
 tags:
   - youtube
   - monetization

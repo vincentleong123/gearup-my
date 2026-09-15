@@ -95,7 +95,7 @@ export default function CurationWall({ topics, title = 'Live Inspiration' }: Pro
             <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-red-500" />
           </span>
           <span className="text-sm font-bold uppercase tracking-wider text-red-400">{t('curate.wallTitle', title)}</span>
-          <span className="text-sm text-zinc-500 hidden sm:inline">{t('curate.wallSub', '— curated from the open web & social tags')}</span>
+          <span className="text-sm text-zinc-200 hidden sm:inline">{t('curate.wallSub', '— curated from the open web & social tags')}</span>
         </div>
         <div className="flex items-center gap-2">
           <button
@@ -209,7 +209,7 @@ export default function CurationWall({ topics, title = 'Live Inspiration' }: Pro
       </div>
 
       {/* Footer note */}
-      <div className="px-5 pb-5 text-xs text-zinc-500 leading-relaxed">
+      <div className="px-5 pb-5 text-xs text-zinc-200 leading-relaxed">
         Tap any tile to open a <strong className="text-zinc-100">live {platformMeta.label} search</strong> for this topic. The wall
         auto-rotates fresh angles every few seconds — or hit <strong className="text-zinc-100">🔀 Surprise me</strong> to jump topics.
       </div>

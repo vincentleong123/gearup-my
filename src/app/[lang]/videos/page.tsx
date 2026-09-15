@@ -31,7 +31,7 @@ export default function VideosPage() {
           <h1 className="text-4xl md:text-6xl font-black mb-4">
             <T k="videos.hero.head" en="Learn To" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-pink-400 to-fuchsia-400"><T k="videos.hero.accent" en="Create" /></span>
           </h1>
-          <p className="text-zinc-400 max-w-2xl mx-auto text-lg">
+          <p className="text-zinc-200 max-w-2xl mx-auto text-lg">
             <T k="videos.hero.desc" en="Short, curated tutorials — mobile photography, portraits, drones, gimbals, mirrorless cameras, editing and AI tools. Skills first. Gear second. Every video hand-picked for the Malaysian creator starting from RM0." />
           </p>
         </div>
@@ -53,7 +53,7 @@ export default function VideosPage() {
             <h2 className="text-3xl md:text-5xl font-black mb-4">
               <T k="videos.ig.head" en="Real Gears." /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 via-pink-400 to-red-400"><T k="videos.ig.accent" en="Real Shoots." /></span>
             </h2>
-            <p className="text-zinc-400 max-w-2xl mx-auto text-lg">
+            <p className="text-zinc-200 max-w-2xl mx-auto text-lg">
               <T k="videos.ig.desc" en="Hand-saved camera reels and gear drops we actually rate — unboxings, lens tests, lighting setups and behind-the-scenes. Tap any card for the real Instagram post." />
             </p>
           </div>

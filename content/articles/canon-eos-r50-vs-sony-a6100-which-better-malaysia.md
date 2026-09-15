@@ -1,4 +1,4 @@
----
+﻿---
 slug: canon-eos-r50-vs-sony-a6100-which-better-malaysia
 title: >-
   Canon EOS R50 vs Sony A6100 in 2026: The RM1,800 Showdown for Malaysian
@@ -10,7 +10,7 @@ description: >-
 image: /blog/r50-vs-a6100.jpg
 category: comparison
 readTime: 9
-date: '2026-08-05'
+date: '2026-03-26'
 tags:
   - comparison
   - canon
@@ -58,14 +58,14 @@ Canon R50 or Sony A6100? If you have RM1,800-2,200 saved for a used mirrorless i
 
 Both are 24.2MP APS-C cameras. Both shoot 4K. Both have killer autofocus. Both cost about the same second-hand. And both will happily pay themselves off with gigs. The difference is in the feel, the lenses, and the colours.
 
-## Canon EOS R50 — the beginner-friendly choice
+## Canon EOS R50 â€” the beginner-friendly choice
 
-Canon's entry-level RF-mount camera is designed to be forgiving. The menu system makes sense. The touchscreen is excellent. And the colour science means skin tones look good straight out of camera — no editing needed.
+Canon's entry-level RF-mount camera is designed to be forgiving. The menu system makes sense. The touchscreen is excellent. And the colour science means skin tones look good straight out of camera â€” no editing needed.
 
 **Strengths:**
-- Best-in-class colour science — less time colour grading
+- Best-in-class colour science â€” less time colour grading
 - Fully articulating flip-out screen for self-recording
-- Dual Pixel CMOS AF II — superb face and eye tracking
+- Dual Pixel CMOS AF II â€” superb face and eye tracking
 - Lightweight at 376g
 - Newer design, generally younger used stock
 
@@ -75,7 +75,7 @@ Canon's entry-level RF-mount camera is designed to be forgiving. The menu system
 - No in-body image stabilization
 - 4K has a slight crop
 
-## Sony A6100 — the ecosystem king
+## Sony A6100 â€” the ecosystem king
 
 The A6100 has one overwhelming advantage in Malaysia: the E-mount lens ecosystem. There are hundreds of lenses, from RM150 used primes to high-end glass. Whatever you need, it exists, and it's cheap.
 
@@ -83,12 +83,12 @@ The A6100 has one overwhelming advantage in Malaysia: the E-mount lens ecosystem
 - Huge E-mount lens selection at every price
 - Real-time Eye AF that works for humans and animals
 - 4K 30fps with no crop
-- Larger used body market — more competition, better prices
+- Larger used body market â€” more competition, better prices
 - 11fps burst for action
 
 **Weaknesses:**
 - Menu system is famously messy
-- Screen only tilts up — no selfie flip
+- Screen only tilts up â€” no selfie flip
 - Cheap-feeling plastic build
 - No touchscreen control in menus
 

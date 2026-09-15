@@ -22,7 +22,7 @@ export default async function NotFound() {
       <Nav />
       <main className="min-h-screen pt-24 pb-16 flex flex-col">
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center flex-1 flex flex-col items-center justify-center">
-          <p className="text-[11px] sm:text-xs uppercase tracking-[0.35em] text-red-400 font-medium mb-4"><T k="notfound.code" en="404 — Off the beaten path" /></p>
+          <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-red-400 font-medium mb-4"><T k="notfound.code" en="404 — Off the beaten path" /></p>
           <h1 className="font-display text-6xl sm:text-7xl md:text-8xl leading-none tracking-tight mb-5"><T k="notfound.head" en="Frame lost" /><span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-pink-400 to-fuchsia-400">.</span></h1>
           <p className="text-lg md:text-xl text-zinc-200 max-w-xl mx-auto mb-10 font-light">
             <T k="notfound.desc" en="That shot doesn't exist — the link may be old or mistyped. Let's get you back in the frame." />
@@ -45,7 +45,7 @@ export default async function NotFound() {
               <ul className="space-y-2.5">
                 {popularGear.map(g => (
                   <li key={g.slug}>
-                    <Link href={withLang('en', `/gear/${g.slug}`)} className="text-sm text-zinc-200 hover:text-white transition-colors">
+                    <Link href={withLang(currentLang, `/gear/${g.slug}`)} className="text-sm text-zinc-200 hover:text-white transition-colors">
                       {g.name} →
                     </Link>
                   </li>

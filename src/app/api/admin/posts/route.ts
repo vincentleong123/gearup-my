@@ -38,14 +38,17 @@ export async function POST(request: Request) {
   } catch (err) {
     return NextResponse.json({ error: err instanceof Error ? err.message : 'Invalid slug' }, { status: 400 });
   }
-  if (!body.values?.title) return NextResponse.json({ error: 'Title is required' }, { status: 400 });
+  if (!body.values?.[type.titleField || 'title']) {
+    return NextResponse.json({ error: 'Title is required' }, { status: 400 });
+  }
 
   if (await postExists(type, slug)) {
     return NextResponse.json({ error: `"${slug}" already exists in ${type.folder}/` }, { status: 409 });
   }
 
   const saved = await savePost(type, slug, body.values);
-  const commit = await commitContent(`cms: create ${type.singular.toLowerCase()} "${body.values.title}"`);
+  const title = String(body.values[type.titleField || 'title'] || '');
+  const commit = await commitContent(`cms: create ${type.singular.toLowerCase()} "${title}"`);
 
   return NextResponse.json({ ok: true, slug, fileName: saved.fileName, commit }, { status: 201 });
 }

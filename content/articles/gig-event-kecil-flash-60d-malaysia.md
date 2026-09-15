@@ -1,15 +1,15 @@
----
+﻿---
 slug: gig-event-kecil-flash-60d-malaysia
 title: 'Gig Event Kecil (Rumah Terbuka, Doa Selamat, Majlis Kecil): RM300-600'
 description: >-
-  Event kecil tidak perlukan kamera baru — ia perlukan flash luaran RM180 dan
+  Event kecil tidak perlukan kamera baru â€” ia perlukan flash luaran RM180 dan
   teknik bounce. Rumah terbuka, doa selamat, majlis kecil selalu cari
   jurugambar. Do what, harga, contoh job & berapa event untuk gear semi-pro
   pertama.
 image: /blog/gig-event-kecil-flash-60d-malaysia.jpg
 category: guide
 readTime: 10
-date: '2026-08-10'
+date: '2026-05-04'
 tags:
   - event
   - flash
@@ -22,7 +22,7 @@ relatedGear:
   - budget-lighting-setup-content-creation-malaysia
 lang: ms
 ---
-Ada jurang besar dalam pasaran fotografi Malaysia: antara gig konvokesyen (murah, ramai orang) dan kenduri kahwin (mahal, susah). Jurang itu ialah event kecil — rumah terbuka, doa selamat, majlis kesyukuran, birthday party, dan majlis syarikat kecil. Bayaran RM300-600, dan ia tidak menuntut kamera baru.
+Ada jurang besar dalam pasaran fotografi Malaysia: antara gig konvokesyen (murah, ramai orang) dan kenduri kahwin (mahal, susah). Jurang itu ialah event kecil â€” rumah terbuka, doa selamat, majlis kesyukuran, birthday party, dan majlis syarikat kecil. Bayaran RM300-600, dan ia tidak menuntut kamera baru.
 
 Yang diperlukan: flash luaran RM180 dan teknik bounce. Itu sahaja.
 
@@ -72,24 +72,24 @@ Satu event RM450 = flash + tripod + kad memori dan lebih.
 ## Tools yang diperlukan
 
 - Canon 60D + kit lens
-- **Flash luaran** (Yongnuo 560 ~RM180) — ini yang paling penting, bukan kamera
+- **Flash luaran** (Yongnuo 560 ~RM180) â€” ini yang paling penting, bukan kamera
 - Kad memori 32GB x2 + bateri ganti x2
 - (Pilihan) trigger wireless RM80 untuk flash luar kamera
 - Tali kamera yang selesa
 
 ## Teknik flash bounce
 
-- **Bounce ke siling** — flash halakan ke atas, cahaya jatuh lembut. Jangan flash terus ke muka tetamu.
-- **ISO 400** — biarkan persekitaran turut kelihatan, bukan hanya muka.
-- **f/4** — cukup tajam untuk kumpulan kecil, cukup cahaya.
-- **Senyum dan bergerak** — jurugambar event yang baik sentiasa berada di tempat momen penting berlaku.
+- **Bounce ke siling** â€” flash halakan ke atas, cahaya jatuh lembut. Jangan flash terus ke muka tetamu.
+- **ISO 400** â€” biarkan persekitaran turut kelihatan, bukan hanya muka.
+- **f/4** â€” cukup tajam untuk kumpulan kecil, cukup cahaya.
+- **Senyum dan bergerak** â€” jurugambar event yang baik sentiasa berada di tempat momen penting berlaku.
 
 ## Cara dapat client pertama
 
-1. **Tawarkan rumah terbuka keluarga sendiri secara percuma** — minta izin pos hasil.
-2. **Facebook group kejiranan** — "Jurugambar event kecil, rumah terbuka/doa selamat, RM350."
-3. **Buat pakej rujukan** — "RM50 diskaun jika anda perkenalkan 1 majlis."
-4. **Deliver cepat** — event kecil client nak gambar segera untuk media sosial.
+1. **Tawarkan rumah terbuka keluarga sendiri secara percuma** â€” minta izin pos hasil.
+2. **Facebook group kejiranan** â€” "Jurugambar event kecil, rumah terbuka/doa selamat, RM350."
+3. **Buat pakej rujukan** â€” "RM50 diskaun jika anda perkenalkan 1 majlis."
+4. **Deliver cepat** â€” event kecil client nak gambar segera untuk media sosial.
 
 ## Kesimpulan
 

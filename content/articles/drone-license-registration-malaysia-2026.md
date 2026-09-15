@@ -1,4 +1,4 @@
----
+﻿---
 slug: drone-license-registration-malaysia-2026
 title: >-
   Drone License & Registration in Malaysia 2026: The CAAM Rules Every Creator
@@ -10,7 +10,7 @@ description: >-
 image: /blog/drone-license.jpg
 category: guide
 readTime: 9
-date: '2026-08-03'
+date: '2026-03-14'
 tags:
   - drone
   - license

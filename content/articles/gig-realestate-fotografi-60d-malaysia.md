@@ -1,14 +1,14 @@
----
+﻿---
 slug: gig-realestate-fotografi-60d-malaysia
 title: 'Gig Fotografi Hartanah (Bukan Dron) dengan 60D: RM200-500 Sebuah Unit'
 description: >-
   Fotografi hartanah tidak perlu dron: interior shooting dengan 60D + kit lens
-  membayar RM200-500 sebuah unit dan ejen perlukan banyak. Panduan lengkap —
+  membayar RM200-500 sebuah unit dan ejen perlukan banyak. Panduan lengkap â€”
   teknik, harga, contoh job, dan pelan gear.
 image: /blog/gig-realestate-fotografi-60d-malaysia.jpg
 category: guide
 readTime: 10
-date: '2026-08-10'
+date: '2026-05-18'
 tags:
   - hartanah
   - realestate
@@ -22,7 +22,7 @@ relatedGear:
   - canon-60d-50mm-f18-boleh-buat-kerja-malaysia
 lang: ms
 ---
-Kebanyakan orang fikir fotografi hartanah = dron di atas banglo. Salah. Bahagian paling penting dan paling kerap diminta adalah foto interior — bilik, dapur, ruang tamu — dan ini boleh dibuat dengan Canon 60D + kit lens 18-55mm anda.
+Kebanyakan orang fikir fotografi hartanah = dron di atas banglo. Salah. Bahagian paling penting dan paling kerap diminta adalah foto interior â€” bilik, dapur, ruang tamu â€” dan ini boleh dibuat dengan Canon 60D + kit lens 18-55mm anda.
 
 Ejen hartanah di Malaysia perlukan gambar unit untuk iklan di iProperty, PropertyGuru, dan Mudah. Kebanyakan tidak pandai ambil gambar. Itulah peluang anda.
 
@@ -31,7 +31,7 @@ Ejen hartanah di Malaysia perlukan gambar unit untuk iklan di iProperty, Propert
 1. Setup peralatan di unit kosong atau berperabot.
 2. Ambil 15-30 foto interior: wide shot setiap bilik + detail (dapur, bilik mandi, view).
 3. HDR atau single exposure + edit ringan (luruskan garisan, terangkan).
-4. Hantar dalam 48 jam — masa adalah wang untuk ejen.
+4. Hantar dalam 48 jam â€” masa adalah wang untuk ejen.
 
 ## How much: berapa bayaran di Malaysia
 
@@ -44,24 +44,24 @@ Ejen hartanah di Malaysia perlukan gambar unit untuk iklan di iProperty, Propert
 
 ## Contoh job sebenar
 
-**Contoh A:** Ejen di Bangi minta foto unit kondominium 2 bilik untuk iklan. Anda caj RM350. Sesi 1.5 jam, edit 2 jam, hantar 20 foto dalam 24 jam. Minggu berikutnya ejen itu minta 3 unit lagi — kontrak berulang.
+**Contoh A:** Ejen di Bangi minta foto unit kondominium 2 bilik untuk iklan. Anda caj RM350. Sesi 1.5 jam, edit 2 jam, hantar 20 foto dalam 24 jam. Minggu berikutnya ejen itu minta 3 unit lagi â€” kontrak berulang.
 
-**Contoh B:** Agensi hartanah kecil di Seremban minta pakej bulanan: 2 unit sebulan, RM600. Ini pendapatan tetap yang anda boleh rancang — dan setiap unit adalah portfolio untuk ejen lain.
+**Contoh B:** Agensi hartanah kecil di Seremban minta pakej bulanan: 2 unit sebulan, RM600. Ini pendapatan tetap yang anda boleh rancang â€” dan setiap unit adalah portfolio untuk ejen lain.
 
 ## Teknik asas interior (ini yang membezakan anda)
 
-- **Tripod wajib** — foto interior mestilah tajam dan lurus.
-- **Ketinggian kamera 1.2-1.4m** — anggaran paras mata manusia, jangan terlalu rendah.
-- **Luruskan garisan menegak** — dinding dan pintu mesti tegak (edit dalam Lightroom).
-- **Nyalakan lampu bilik + ambil kira cahaya tingkap** — gabungan supaya tiada tempat terlalu gelap.
-- **Wide lens bantu** — kit lens 18mm sudah boleh, tapi Sigma 18-50mm f/2.8 lebih baik untuk ruang sempit.
-- **Kemas dulu** — caj tambahan untuk "home staging" mudah jika diminta.
+- **Tripod wajib** â€” foto interior mestilah tajam dan lurus.
+- **Ketinggian kamera 1.2-1.4m** â€” anggaran paras mata manusia, jangan terlalu rendah.
+- **Luruskan garisan menegak** â€” dinding dan pintu mesti tegak (edit dalam Lightroom).
+- **Nyalakan lampu bilik + ambil kira cahaya tingkap** â€” gabungan supaya tiada tempat terlalu gelap.
+- **Wide lens bantu** â€” kit lens 18mm sudah boleh, tapi Sigma 18-50mm f/2.8 lebih baik untuk ruang sempit.
+- **Kemas dulu** â€” caj tambahan untuk "home staging" mudah jika diminta.
 
 ## Gear yang diperlukan
 
-1. Canon 60D + kit lens 18-55mm — sudah ada.
+1. Canon 60D + kit lens 18-55mm â€” sudah ada.
 2. Tripod (wajib, RM80-150).
-3. Remote shutter (RM20) — elak gegaran.
+3. Remote shutter (RM20) â€” elak gegaran.
 4. Reflektor atau lampu tambahan untuk bilik gelap.
 
 ## Berapa unit nak bayar gear seterusnya
@@ -75,6 +75,6 @@ Ejen hartanah di Malaysia perlukan gambar unit untuk iklan di iProperty, Propert
 
 ## Kesimpulan
 
-Fotografi hartanah bukan glamor, tetapi ia adalah gig B2B yang stabil — ejen dan agensi perlukan foto setiap kali ada unit baru, dan mereka bayar ikut unit, bukan ikut jam. Sekali kontrak, anda dapat aliran kerja berulang.
+Fotografi hartanah bukan glamor, tetapi ia adalah gig B2B yang stabil â€” ejen dan agensi perlukan foto setiap kali ada unit baru, dan mereka bayar ikut unit, bukan ikut jam. Sekali kontrak, anda dapat aliran kerja berulang.
 
 Mulakan dengan satu ejen di kawasan anda, tunjuk 5 foto contoh unit sendiri (minta kawan bagi akses rumah), dan biar kualiti bercakap.

@@ -1,15 +1,15 @@
----
+﻿---
 slug: used-camera-buying-guide-malaysia-mudah-carousell
 title: >-
   Used Camera Buying Guide Malaysia 2026: How to Check a Second-Hand Camera on
   Mudah.my or Carousell
 description: >-
   Don't get scammed. Here's exactly what to check when buying a used camera in
-  Malaysia — shutter count, mould, lens scratches, and negotiation tips.
+  Malaysia â€” shutter count, mould, lens scratches, and negotiation tips.
 image: /blog/used-camera-guide.jpg
 category: guide
 readTime: 8
-date: '2026-07-01'
+date: '2026-01-12'
 tags:
   - guide
   - second-hand
@@ -27,11 +27,11 @@ Here's your complete checklist for buying a second-hand camera on Mudah.my or Ca
 
 ## Before You Meet
 
-1. **Ask for shutter count** — Most cameras have a free shutter count checker app or website. For Sony, take a photo, upload to a shutter count site. For Canon, use EOSInfo. For Nikon, use NikonShutterCount. Under 50,000 is ideal. Under 100,000 is acceptable. Over 150,000 means the shutter will need replacement soon (RM200-400 cost).
+1. **Ask for shutter count** â€” Most cameras have a free shutter count checker app or website. For Sony, take a photo, upload to a shutter count site. For Canon, use EOSInfo. For Nikon, use NikonShutterCount. Under 50,000 is ideal. Under 100,000 is acceptable. Over 150,000 means the shutter will need replacement soon (RM200-400 cost).
 
-2. **Ask why they're selling** — "Upgrading" is a good sign. "Not using it" is neutral. "Bought for a project and don't need it" is suspicious.
+2. **Ask why they're selling** â€” "Upgrading" is a good sign. "Not using it" is neutral. "Bought for a project and don't need it" is suspicious.
 
-3. **Ask for photos of the sensor** — They should be able to take a photo of a white wall at f/16 and send it to you. If there are dark spots, the sensor has dust (acceptable) or scratches (not acceptable).
+3. **Ask for photos of the sensor** â€” They should be able to take a photo of a white wall at f/16 and send it to you. If there are dark spots, the sensor has dust (acceptable) or scratches (not acceptable).
 
 ## At the Meetup
 
@@ -52,14 +52,14 @@ Here's your complete checklist for buying a second-hand camera on Mudah.my or Ca
 5. **Image stabilization:** If the camera/lens has IS, turn it on. View through the viewfinder and gently shake. The image should remain steady.
 6. **Buttons:** Every button should click properly. Sticky buttons are common on older cameras.
 7. **Card slot:** Insert and remove an SD card. Should eject properly.
-8. **Ports:** HDMI, USB, microphone jack — check they're not bent or blocked.
+8. **Ports:** HDMI, USB, microphone jack â€” check they're not bent or blocked.
 
 ### Lens specific checks
 
 1. **Glass:** Hold the lens up to light. Look for scratches, fungus, or haze. Fungus looks like tiny spiderwebs inside the glass. Haze looks like the lens is foggy.
 2. **Aperture blades:** Set the camera to Aperture Priority, change the f-stop, and look through the front of the lens. The blades should open and close smoothly.
 3. **Zoom ring:** Should turn smoothly without grinding.
-4. **Focus ring:** Same — smooth, not loose or grinding.
+4. **Focus ring:** Same â€” smooth, not loose or grinding.
 5. **Lens contacts:** Clean, not corroded.
 
 ## Negotiation Tips
@@ -73,16 +73,16 @@ In Malaysia, negotiation is expected. Here's how to do it without being rude:
 
 ## Red Flags
 
-- **"No time to meet, I'll courier it"** — Scam. Always meet in person.
-- **"The shutter count is low but I can't check it"** — They don't want you to know it's high.
-- **"The lens has slight fungus but it doesn't affect photos"** — It will get worse over time.
-- **"The battery is dead so I can't test it"** — Walk away. If they can't put a battery in, they're hiding something.
-- **"I'm selling for a friend"** — The friend is usually the seller who doesn't want to deal with returns.
+- **"No time to meet, I'll courier it"** â€” Scam. Always meet in person.
+- **"The shutter count is low but I can't check it"** â€” They don't want you to know it's high.
+- **"The lens has slight fungus but it doesn't affect photos"** â€” It will get worse over time.
+- **"The battery is dead so I can't test it"** â€” Walk away. If they can't put a battery in, they're hiding something.
+- **"I'm selling for a friend"** â€” The friend is usually the seller who doesn't want to deal with returns.
 
 ## Best Places to Buy Used Gear in Malaysia
 
-1. **Mudah.my** — Largest selection, negotiate hard, always meet in person
-2. **Carousell Malaysia** — More trustworthy than Mudah, seller ratings help
-3. **Facebook Groups** — "DSLR Malaysia Users", "Photography Malaysia Market", "DJI Malaysia Buy & Sell"
-4. **Low Yat Plaza** — The basement shops have used gear, but prices are higher. Good for inspection.
-5. **Cash Converters / Cash Mart** — Sometimes have gems, but prices are not negotiable
+1. **Mudah.my** â€” Largest selection, negotiate hard, always meet in person
+2. **Carousell Malaysia** â€” More trustworthy than Mudah, seller ratings help
+3. **Facebook Groups** â€” "DSLR Malaysia Users", "Photography Malaysia Market", "DJI Malaysia Buy & Sell"
+4. **Low Yat Plaza** â€” The basement shops have used gear, but prices are higher. Good for inspection.
+5. **Cash Converters / Cash Mart** â€” Sometimes have gems, but prices are not negotiable

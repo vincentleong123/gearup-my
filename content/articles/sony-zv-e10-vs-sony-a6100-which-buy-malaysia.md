@@ -1,4 +1,4 @@
----
+﻿---
 slug: sony-zv-e10-vs-sony-a6100-which-buy-malaysia
 title: >-
   Sony ZV-E10 vs Sony A6100 in 2026: Which Creator Camera Should You Buy in
@@ -10,7 +10,7 @@ description: >-
 image: /blog/zv-e10-vs-a6100.jpg
 category: comparison
 readTime: 9
-date: '2026-08-05'
+date: '2026-04-02'
 tags:
   - comparison
   - sony
@@ -31,20 +31,20 @@ If you ignore the outside, the ZV-E10 and A6100 produce nearly identical image a
 
 So this comparison is not about image quality. It is about how you shoot.
 
-## Sony ZV-E10 — built for talking to camera
+## Sony ZV-E10 â€” built for talking to camera
 
 The ZV-E10 is designed for one job: sitting on a tripod while you talk to it.
 
 **What it does better:**
-- Product Showcase Mode — hold a product up and the camera instantly racks focus to it. This is magic for reviews and unboxing
-- Background Defocus button — one press to blur the background, zero menu diving
-- Flip-out, fully articulating screen — see yourself from any angle
-- Built-in directional mic with a dead-cat windshield — usable audio before you buy a lapel mic
+- Product Showcase Mode â€” hold a product up and the camera instantly racks focus to it. This is magic for reviews and unboxing
+- Background Defocus button â€” one press to blur the background, zero menu diving
+- Flip-out, fully articulating screen â€” see yourself from any angle
+- Built-in directional mic with a dead-cat windshield â€” usable audio before you buy a lapel mic
 - Tall red recording light so you know you're rolling
 
 **The big sacrifice:** there is no viewfinder. On a bright Malaysian afternoon, outdoors, framing a shot with the screen can be tough.
 
-## Sony A6100 — built for stills and speed
+## Sony A6100 â€” built for stills and speed
 
 The A6100 is a photographer's camera that happens to shoot good video.
 
@@ -52,7 +52,7 @@ The A6100 is a photographer's camera that happens to shoot good video.
 - A real electronic viewfinder (EVF) for bright-sun shooting
 - Slightly faster burst shooting for photos
 - Better build quality and a more solid grip
-- Bigger used market — more bodies listed on Mudah.my and Carousell
+- Bigger used market â€” more bodies listed on Mudah.my and Carousell
 
 **The big sacrifice:** the screen only tilts up. No flip-out, no front-facing selfie view, and no creator-specific features like Product Showcase Mode.
 
@@ -73,6 +73,6 @@ The A6100 is a photographer's camera that happens to shoot good video.
 
 **Buy the A6100 if:** you shoot stills for clients (portraits, products, events) and video is secondary, or you shoot a lot outdoors in sun.
 
-**Buy neither if:** you are on a phone and have not posted 20 videos yet. The iPhone you own beats both — for now.
+**Buy neither if:** you are on a phone and have not posted 20 videos yet. The iPhone you own beats both â€” for now.
 
 Both are excellent. Tim and Ahmad, pick based on the word you see more often in your future: "video" or "photo."

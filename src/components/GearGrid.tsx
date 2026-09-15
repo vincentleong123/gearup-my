@@ -25,7 +25,7 @@ function Stars({ rating }: { rating: number }) {
     <div className="flex items-center gap-1" aria-label={`Rated ${rating} out of 5`}>
       <span className="flex gap-0.5">
         {Array.from({ length: 5 }).map((_, i) => (
-          <svg key={i} viewBox="0 0 20 20" className={`h-3.5 w-3.5 ${i < Math.round(rating) ? 'text-amber-400' : 'text-zinc-700'}`} fill="currentColor">
+          <svg key={i} viewBox="0 0 20 20" className={`h-3.5 w-3.5 ${i < Math.round(rating) ? 'text-amber-400' : 'text-zinc-400'}`} fill="currentColor">
             <path d="M9.05 2.93c.3-.92 1.6-.92 1.9 0l1.28 3.95a1 1 0 00.95.69h4.15c.97 0 1.37 1.24.59 1.81l-3.36 2.44a1 1 0 00-.36 1.12l1.28 3.95c.3.92-.76 1.69-1.54 1.12l-3.36-2.44a1 1 0 00-1.18 0l-3.36 2.44c-.78.57-1.84-.2-1.54-1.12l1.28-3.95a1 1 0 00-.36-1.12L2.08 9.38c-.78-.57-.38-1.81.59-1.81h4.15a1 1 0 00.95-.69l1.28-3.95z" />
           </svg>
         ))}
@@ -36,10 +36,10 @@ function Stars({ rating }: { rating: number }) {
 
 function AwardBadge({ g }: { g: GearItem }) {
   if (g.roiScore >= 93) {
-    return <span className="inline-flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded-full bg-green-500/15 text-green-300 border border-green-500/30 uppercase tracking-wide">🏆 <T k="geargrid.topPick" en="2026 Top Pick" /></span>;
+    return <span className="inline-flex items-center gap-1 text-xs font-bold px-2 py-0.5 rounded-full bg-green-500/15 text-green-300 border border-green-500/30 uppercase tracking-wide">🏆 <T k="geargrid.topPick" en="2026 Top Pick" /></span>;
   }
   if (g.roiScore >= 86 || g.rating >= 4.5) {
-    return <span className="inline-flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-500/30 uppercase tracking-wide">⭐ <T k="geargrid.greatValue" en="Great Value" /></span>;
+    return <span className="inline-flex items-center gap-1 text-xs font-bold px-2 py-0.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-500/30 uppercase tracking-wide">⭐ <T k="geargrid.greatValue" en="Great Value" /></span>;
   }
   return null;
 }
@@ -97,7 +97,7 @@ export default function GearGrid({ withHeader = true }: { withHeader?: boolean }
           {/* Controls */}
           <div className="flex flex-col md:flex-row items-stretch md:items-center justify-center gap-3 mb-8">
             <div className="relative flex-1 max-w-md w-full mx-auto">
-              <svg className="absolute left-4 top-1/2 -translate-y-1/2 h-4 w-4 text-zinc-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="absolute left-4 top-1/2 -translate-y-1/2 h-4 w-4 text-zinc-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-4.35-4.35M17 10a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
               <input
@@ -138,7 +138,7 @@ export default function GearGrid({ withHeader = true }: { withHeader?: boolean }
             ))}
           </div>
 
-          <p className="text-xs text-zinc-600 mt-5">
+          <p className="text-xs text-zinc-300 mt-5">
             {filtered.length} {t('geargrid.count', 'items · prices are typical second-hand in MYR')}
           </p>
         </div>
@@ -146,7 +146,7 @@ export default function GearGrid({ withHeader = true }: { withHeader?: boolean }
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filtered.map((g, i) => (
             <Link
-              href={withLang('en', `/gear/${g.slug}`)}
+              href={withLang(lang, `/gear/${g.slug}`)}
               key={g.slug}
               className="group block bg-zinc-900/80 border border-zinc-800 rounded-2xl overflow-hidden hover:border-red-500/30 hover:shadow-2xl hover:shadow-red-500/5 hover:-translate-y-1 transition-all duration-300"
               style={{ animationDelay: `${i * 50}ms` }}
@@ -175,7 +175,7 @@ export default function GearGrid({ withHeader = true }: { withHeader?: boolean }
               <div className="p-5">
                 <div className="flex items-start justify-between gap-3 mb-2">
                   <h3 className="text-lg font-bold group-hover:text-red-400 transition-colors">{g.name}</h3>
-                  <span className="text-xs text-zinc-500 bg-zinc-800 px-2.5 py-1 rounded-full whitespace-nowrap">{g.type}</span>
+                  <span className="text-xs text-zinc-200 bg-zinc-800 px-2.5 py-1 rounded-full whitespace-nowrap">{g.type}</span>
                 </div>
                 <div className="flex items-center justify-between mb-3">
                   <Stars rating={g.rating} />
@@ -184,19 +184,19 @@ export default function GearGrid({ withHeader = true }: { withHeader?: boolean }
                 <p className="text-zinc-200 text-sm line-clamp-2 mb-4">{g.excerpt}</p>
                 <div className="flex items-center gap-4 mb-4">
                   <div>
-                    <span className="text-xs text-zinc-500">{t('geargrid.usedPrice', 'Used Price')}</span>
+                    <span className="text-xs text-zinc-200">{t('geargrid.usedPrice', 'Used Price')}</span>
                     <div className="text-xl font-bold text-green-400">{formatPrice(g.priceUsed)}</div>
                   </div>
                   {g.priceNew > 0 && (
                     <div>
-                      <span className="text-xs text-zinc-500">{t('common.new', 'New')}</span>
+                      <span className="text-xs text-zinc-200">{t('common.new', 'New')}</span>
                       <div className="text-sm text-zinc-200 line-through">{formatPrice(g.priceNew)}</div>
                     </div>
                   )}
                 </div>
                 <div className="space-y-1 mb-4">
                   <div className="flex justify-between text-xs">
-                    <span className="text-zinc-500">{t('gear.roiScore', 'ROI Score')}</span>
+                    <span className="text-zinc-200">{t('gear.roiScore', 'ROI Score')}</span>
                     <span className={`font-bold ${roiColor(g.roiScore)}`}>{g.roiScore}/100</span>
                   </div>
                   <div className="h-1.5 bg-zinc-800 rounded-full overflow-hidden">

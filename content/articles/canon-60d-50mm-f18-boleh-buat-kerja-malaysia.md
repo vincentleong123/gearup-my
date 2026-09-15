@@ -1,15 +1,15 @@
----
+﻿---
 slug: canon-60d-50mm-f18-boleh-buat-kerja-malaysia
 title: 'Canon 60D + 50mm f/1.8 (2010): Boleh Ke Kamera Tua Buat Duit pada 2026?'
 description: >-
   Anda rasa Canon 60D dengan kit lens dan lens 50mm f/1.8 yang AF-nya lambat tak
   boleh buat kerja? Artikel ini uji gear "paling dipandang hina" dalam industri
-  dan tunjuk 5 gig yang ia boleh menang — plus berapa job untuk bayar kamera
+  dan tunjuk 5 gig yang ia boleh menang â€” plus berapa job untuk bayar kamera
   baru.
 image: /blog/canon-60d-50mm-f18-boleh-buat-kerja-malaysia.jpg
 category: guide
 readTime: 11
-date: '2026-08-10'
+date: '2026-05-09'
 tags:
   - canon 60d
   - bajet
@@ -58,7 +58,7 @@ qaPairs:
       (RM80-150) untuk fotografi produk, reflektor lipat (RM30-50), dan kad
       memori tambahan sebagai backup.
 ---
-Jujur: artikel ini ditulis untuk anda yang ada Canon 60D, kit lens 18-55mm, dan satu lens "murah" 50mm f/1.8 — dan rasa langsung tak boleh buat kerja. AF lambat. Resolusi "tua". Takde duit nak beli kamera baru.
+Jujur: artikel ini ditulis untuk anda yang ada Canon 60D, kit lens 18-55mm, dan satu lens "murah" 50mm f/1.8 â€” dan rasa langsung tak boleh buat kerja. AF lambat. Resolusi "tua". Takde duit nak beli kamera baru.
 
 Berita baik: masalah anda bukan kamera. Masalah anda ialah kerja yang anda pilih. Kamera 60D adalah kamera semi-pro sebenar dari 2010, dan dengan teknik yang betul ia masih boleh menang pada 2026.
 
@@ -72,15 +72,15 @@ Berita baik: masalah anda bukan kamera. Masalah anda ialah kerja yang anda pilih
 | Video | 1080p30 (masih boleh guna) |
 | Binaan | Magnesium body, tahan lasak |
 
-18 megapiksel bukanlah "kecil" — ia lebih dari cukup untuk gig dan media sosial. Kamera ini bukan masalah anda.
+18 megapiksel bukanlah "kecil" â€” ia lebih dari cukup untuk gig dan media sosial. Kamera ini bukan masalah anda.
 
 ## Masalah sebenar: AF 50mm f/1.8 yang "lambat"
 
 Lens 50mm f/1.8 anda sebenarnya emas untuk potret: bokeh cantik, menang dalam cahaya rendah, harga RM300-400 terpakai. AF yang lambat bukan isu jika anda faham tiga perkara:
 
-- **Guna Single-Point AF** — jangan biar kamera pilih titik. Letak titik fokus atas mata subjek.
-- **Subjek statik** — untuk potret keluarga, couple, dan produk, subjek tak bergerak. AF lambat langsung tak kira.
-- **Boleh manual fokus** — guna tripod, fokus dengan teliti, 100% tepat.
+- **Guna Single-Point AF** â€” jangan biar kamera pilih titik. Letak titik fokus atas mata subjek.
+- **Subjek statik** â€” untuk potret keluarga, couple, dan produk, subjek tak bergerak. AF lambat langsung tak kira.
+- **Boleh manual fokus** â€” guna tripod, fokus dengan teliti, 100% tepat.
 
 AF lambat hanya masalah untuk subjek laju (sukan, anak berlari, burung). Pilih gig yang sesuai, dan ia takkan menjadi halangan.
 
@@ -101,15 +101,15 @@ AF lambat hanya masalah untuk subjek laju (sukan, anak berlari, burung). Pilih g
 | Aksesori (flash + tripod) | ~RM300 | 1-2 job konvokesyen |
 | Sony A6100 (body) | ~RM1,800 | 6-8 job konvokesyen/potret |
 | Sigma 18-50mm f/2.8 | ~RM2,500 | 8-10 job |
-| Sony A7 IV (body) | ~RM8,500 | 20-30 job — sasaran 1-2 tahun |
+| Sony A7 IV (body) | ~RM8,500 | 20-30 job â€” sasaran 1-2 tahun |
 
 ## Tools companion (beli dahulu, ikut urutan)
 
-1. **Flash luaran** (Yongnuo 560 ~RM180) — naik taraf terbesar untuk 60D, bukan kamera.
-2. **Tripod** (~RM80-150) — produk dan makanan.
-3. **Reflektor lipat** (~RM30-50) — potret luar.
-4. **Remote shutter** (~RM20) — self potret, produk.
-5. **Kad memori 32GB x2** (~RM60) — backup!
+1. **Flash luaran** (Yongnuo 560 ~RM180) â€” naik taraf terbesar untuk 60D, bukan kamera.
+2. **Tripod** (~RM80-150) â€” produk dan makanan.
+3. **Reflektor lipat** (~RM30-50) â€” potret luar.
+4. **Remote shutter** (~RM20) â€” self potret, produk.
+5. **Kad memori 32GB x2** (~RM60) â€” backup!
 
 ## Setting asas untuk 60D
 
@@ -121,6 +121,6 @@ AF lambat hanya masalah untuk subjek laju (sukan, anak berlari, burung). Pilih g
 
 ## Kesimpulan
 
-Canon 60D anda boleh buat duit. Bukan sebab ia kamera terbaik — sebab anda, teknik, dan gig yang betul. Kamera baru tidak membuat anda semi-pro; tiga job yang siap deliver yang membuat anda begitu.
+Canon 60D anda boleh buat duit. Bukan sebab ia kamera terbaik â€” sebab anda, teknik, dan gig yang betul. Kamera baru tidak membuat anda semi-pro; tiga job yang siap deliver yang membuat anda begitu.
 
 Mula dengan satu gig hujung minggu ini. Artikel gig di bawah tunjuk cara tepat untuk setiap satu.

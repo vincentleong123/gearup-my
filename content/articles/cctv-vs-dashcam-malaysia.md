@@ -1,14 +1,14 @@
----
+﻿---
 slug: cctv-vs-dashcam-malaysia
 title: 'CCTV vs Dashcam Malaysia 2026: Which "Cam" Should You Buy First?'
 description: >-
   Both are RM150-500 security cameras that pay for themselves. The
-  home-protection camera and the driving camera, compared — which one genuinely
+  home-protection camera and the driving camera, compared â€” which one genuinely
   matters more for the average Malaysian?
 image: /blog/cctv-vs-dashcam-malaysia.jpg
 category: comparison
 readTime: 8
-date: '2026-08-13'
+date: '2026-06-06'
 tags:
   - cctv
   - dashcam
@@ -52,7 +52,7 @@ qaPairs:
       set up a basic dashcam for RM139 and a Tapo C210 home camera for RM79,
       totaling less than RM220 for essential security coverage.
 ---
-Two security cameras. One watches your home, one watches your car. Both cost RM150-500. Both pay for themselves the first time something happens. If you only have budget for one in 2026, which do you buy? The honest answer for the average Malaysian driver-homeowner: the dashcam — barely. Here is the math.
+Two security cameras. One watches your home, one watches your car. Both cost RM150-500. Both pay for themselves the first time something happens. If you only have budget for one in 2026, which do you buy? The honest answer for the average Malaysian driver-homeowner: the dashcam â€” barely. Here is the math.
 
 ## The two jobs
 
@@ -65,7 +65,7 @@ Two security cameras. One watches your home, one watches your car. Both cost RM1
 The uncomfortable truth: most Malaysians will be in a **driving dispute** long before they are in a **break-in**.
 
 - You drive daily. Accidents, near-misses and road rage are a weekly reality.
-- Break-ins and thefts are rarer, but catastrophic — RM5,000-20,000 in damage and loss.
+- Break-ins and thefts are rarer, but catastrophic â€” RM5,000-20,000 in damage and loss.
 
 The dashcam protects you against a **common, moderate-cost** risk. The CCTV protects against a **rare, high-cost** risk.
 
@@ -103,4 +103,4 @@ CCTV scales with property size. Dashcam quality scales with night driving.
 
 ## The one-sentence summary
 
-The dashcam is used weekly and settles daily risk; the CCTV is stored mostly unused but covers the catastrophic event. The average Malaysian driver should buy the dashcam first, then add CCTV coverage room by room. And if you want to make money instead of just spending it, skip both and read the CCTV **installer gig guide** — people are paying RM150 to have these cameras mounted.
+The dashcam is used weekly and settles daily risk; the CCTV is stored mostly unused but covers the catastrophic event. The average Malaysian driver should buy the dashcam first, then add CCTV coverage room by room. And if you want to make money instead of just spending it, skip both and read the CCTV **installer gig guide** â€” people are paying RM150 to have these cameras mounted.

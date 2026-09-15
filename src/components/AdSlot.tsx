@@ -25,7 +25,7 @@ export default function AdSlot({ format = 'banner', label = 'Advertisement' }: A
         ? 'relative rounded-2xl border border-dashed border-zinc-700/70 bg-zinc-900/40 p-5 text-center'
         : 'relative rounded-2xl border border-dashed border-zinc-700/70 bg-zinc-900/40 px-6 py-3 text-center'}
     >
-      <span className="text-[10px] uppercase tracking-widest text-zinc-600 block mb-2">
+      <span className="text-xs uppercase tracking-widest text-zinc-300 block mb-2">
         {slotLabel} · {t('ad.placeholder', 'Your brand here')}
       </span>
       <p className="text-sm text-zinc-200">
@@ -37,7 +37,7 @@ export default function AdSlot({ format = 'banner', label = 'Advertisement' }: A
       <button
         onClick={() => setDismissed(true)}
         aria-label={t('ad.dismiss', 'Dismiss ad')}
-        className="absolute top-2 right-3 text-xs text-zinc-600 hover:text-zinc-100 transition-colors"
+        className="absolute top-2 right-3 text-xs text-zinc-300 hover:text-zinc-100 transition-colors"
       >
         ✕
       </button>

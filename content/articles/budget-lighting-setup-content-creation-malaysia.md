@@ -1,16 +1,16 @@
----
+﻿---
 slug: budget-lighting-setup-content-creation-malaysia
 title: >-
   Content Creation Lighting in Malaysia on a Budget: Ring Lights, LED Panels &
   Window Light
 description: >-
-  Your videos are dark. The fix is not a new camera — it is light. From free
+  Your videos are dark. The fix is not a new camera â€” it is light. From free
   window light to a RM150 two-light kit, here is the Malaysian creator lighting
   guide.
 image: /blog/lighting-guide.jpg
 category: guide
 readTime: 7
-date: '2026-08-03'
+date: '2026-03-14'
 tags:
   - lighting
   - setup
@@ -54,7 +54,7 @@ qaPairs:
       three-point lighting technique creates depth and a more professional look
       for your videos.
 ---
-"Your video looks dark" is the most common comment new creators get. The fix is rarely a new camera — it is light. And in Malaysia, good lighting can cost you RM0 if you know how to use a window.
+"Your video looks dark" is the most common comment new creators get. The fix is rarely a new camera â€” it is light. And in Malaysia, good lighting can cost you RM0 if you know how to use a window.
 
 Here is the lighting guide for broke Malaysian creators.
 
@@ -63,7 +63,7 @@ Here is the lighting guide for broke Malaysian creators.
 Natural window light is better than 90% of cheap artificial lights. The key is direction and time of day.
 
 - Shoot facing a window, with the window at an angle to you, not directly behind the camera
-- Avoid direct harsh sun — a sheer curtain turns it into a softbox
+- Avoid direct harsh sun â€” a sheer curtain turns it into a softbox
 - The golden hour (sunrise and early evening) is the easiest, flattest light
 - A white shirt, wall, or A4 paper opposite the window fills in the shadow side
 
@@ -98,7 +98,7 @@ A small LED panel with a diffuser is the better all-rounder. It's bigger, softer
 
 ## Step 4: Read the light meter in your head
 
-The single biggest skill: learn to read what your camera tells you. If the image looks dark, raise the light or raise the ISO — never buy a more expensive camera first.
+The single biggest skill: learn to read what your camera tells you. If the image looks dark, raise the light or raise the ISO â€” never buy a more expensive camera first.
 
 - Shutter speed: keep at double your frame rate (1/50 for 25fps)
 - Aperture: as wide as your lens allows
@@ -111,4 +111,4 @@ The single biggest skill: learn to read what your camera tells you. If the image
 - RM150: one LED panel + reflector for proper three-point lighting
 - RM400+: two softbox panels for paid studio-grade gigs
 
-Tim and Ahmad, remember the order: audio first, light second, camera last. A RM400 camera with great light beats a RM4,000 camera in a dark room — every single time.
+Tim and Ahmad, remember the order: audio first, light second, camera last. A RM400 camera with great light beats a RM4,000 camera in a dark room â€” every single time.

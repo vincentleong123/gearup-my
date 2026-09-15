@@ -43,7 +43,7 @@ export default function AdminLogin() {
             K
           </div>
           <h1 className="text-2xl font-black">Kameralog CMS</h1>
-          <p className="text-zinc-400 text-sm mt-1">Sign in to manage content</p>
+          <p className="text-zinc-200 text-sm mt-1">Sign in to manage content</p>
         </div>
 
         <form onSubmit={submit} className="bg-zinc-900/80 border border-zinc-800 rounded-2xl p-6 space-y-4">
@@ -78,7 +78,7 @@ export default function AdminLogin() {
           onClick={() => {
             setDefaultWarning(w => !w);
           }}
-          className="mt-4 w-full text-center text-xs text-zinc-500 hover:text-zinc-300 transition-colors"
+          className="mt-4 w-full text-center text-xs text-zinc-200 hover:text-zinc-300 transition-colors"
         >
           Need setup help?
         </button>

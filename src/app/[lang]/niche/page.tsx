@@ -55,7 +55,7 @@ export default async function NichesPage({ params }: Props) {
             {niches.map(n => (
               <Link
                 key={n.slug}
-                href={withLang('en', `/niche/${n.slug}`)}
+                href={withLang(lang, `/niche/${n.slug}`)}
                 className="group block bg-zinc-900/80 border border-zinc-800 rounded-2xl overflow-hidden hover:border-red-500/30 hover:shadow-xl hover:shadow-red-500/5 transition-all duration-300"
               >
                 <div className="h-40 relative overflow-hidden bg-zinc-900">
@@ -73,11 +73,11 @@ export default async function NichesPage({ params }: Props) {
                   <p className="text-zinc-200 text-sm line-clamp-2 mb-3">{n.tagline}</p>
                   <div className="flex items-center justify-between text-sm">
                     <div>
-                      <span className="text-zinc-500"><T k="niche.starterCost" en="Start from" /></span>
+                      <span className="text-zinc-200"><T k="niche.starterCost" en="Start from" /></span>
                       <div className="font-bold text-green-400">{n.starterCost === 0 ? 'RM 0 (Your phone)' : formatPrice(n.starterCost)}</div>
                     </div>
                     <div className="text-right">
-                      <span className="text-zinc-500"><T k="niche.earningPotential" en="Earn up to" /></span>
+                      <span className="text-zinc-200"><T k="niche.earningPotential" en="Earn up to" /></span>
                       <div className="font-bold text-cyan-400">{n.earningPotential}</div>
                     </div>
                   </div>

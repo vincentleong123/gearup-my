@@ -109,12 +109,6 @@ export default async function HomePage({ params }: Props) {
             '@type': 'Product',
             name: g.name,
             description: g.excerpt,
-            offers: {
-              '@type': 'Offer',
-              price: g.priceUsed || g.priceNew,
-              priceCurrency: 'MYR',
-              availability: 'https://schema.org/UsedCondition',
-            },
           },
         })),
       },
@@ -202,7 +196,7 @@ export default async function HomePage({ params }: Props) {
                 ].map(s => (
                   <div key={s.label} className="bg-zinc-950/60 backdrop-blur px-4 py-4">
                     <div className={`text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r ${s.grad}`}>{s.value}</div>
-                    <div className="text-[11px] uppercase tracking-wider text-zinc-500 mt-0.5"><T k={s.labelKey} en={s.label} /></div>
+                    <div className="text-xs uppercase tracking-wider text-zinc-200 mt-0.5"><T k={s.labelKey} en={s.label} /></div>
                   </div>
                 ))}
               </div>
@@ -237,8 +231,8 @@ export default async function HomePage({ params }: Props) {
         </div>
 
         <div className="relative z-10 pb-8 flex justify-center pointer-events-none">
-          <div className="flex flex-col items-center gap-2 text-zinc-500">
-            <span className="text-[10px] uppercase tracking-[0.4em]"><T k="home.scroll" en="Scroll" /></span>
+          <div className="flex flex-col items-center gap-2 text-zinc-200">
+            <span className="text-xs uppercase tracking-[0.4em]"><T k="home.scroll" en="Scroll" /></span>
             <span className="w-px h-10 bg-gradient-to-b from-zinc-500/70 to-transparent" />
           </div>
         </div>
@@ -247,6 +241,11 @@ export default async function HomePage({ params }: Props) {
       {/* QUOTE STRIP */}
       <section className="py-14 border-y border-zinc-800/50 bg-zinc-900/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-8">
+            <span className="inline-flex items-center gap-2 bg-amber-500/10 border border-amber-500/20 rounded-full px-4 py-1.5 text-xs font-bold text-amber-400 uppercase tracking-wider">
+              📐 Illustrative Scenarios — Not Real People
+            </span>
+          </div>
           <div className="grid md:grid-cols-3 gap-6">
             {[
               { textEn: 'I started with RM400 and a Nikon D3100 from Mudah.my. Now I earn RM2,000/month reviewing cars.', name: 'Aiman Roslan', role: 'Car Reviews · Shah Alam', roi: '500% ROI in 90 days', textKey: 'home.quote1' },
@@ -255,13 +254,14 @@ export default async function HomePage({ params }: Props) {
             ].map((q, i) => (
               <div key={i} className="relative bg-zinc-900/40 border border-zinc-800/50 rounded-2xl p-6 hover:border-red-500/25 hover:bg-zinc-900/60 transition-all duration-300">
                 <div className="flex items-center justify-between mb-3">
+                  <span className="text-xs font-bold uppercase tracking-wider text-amber-500 bg-amber-500/10 border border-amber-500/20 rounded px-2 py-0.5">Scenario {i + 1}</span>
                   <span className="flex text-amber-400 text-sm">★★★★★</span>
                 </div>
-                <p className="text-zinc-100 text-sm leading-relaxed mb-4">“<T k={q.textKey} en={q.textEn} />”</p>
+                <p className="text-zinc-100 text-sm leading-relaxed mb-4">"<T k={q.textKey} en={q.textEn} />"</p>
                 <div className="flex items-center justify-between">
                   <div>
-                    <div className="font-bold text-sm">{q.name}</div>
-                    <div className="text-xs text-zinc-500">{q.role}</div>
+                    <div className="font-bold text-sm text-zinc-300">{q.name}</div>
+                    <div className="text-xs text-zinc-200">{q.role}</div>
                   </div>
                   <div className="text-right">
                     <div className="text-xs text-green-400 font-bold">{q.roi}</div>
@@ -270,7 +270,11 @@ export default async function HomePage({ params }: Props) {
               </div>
             ))}
           </div>
-          <p className="mt-6 text-center text-xs text-zinc-500"><T k="home.quotes.note" en="Stories are illustrative examples based on typical Malaysian gig rates, not individual real people." /></p>
+          <div className="mt-6 p-4 rounded-xl bg-amber-500/5 border border-amber-500/15 text-center">
+            <p className="text-sm text-amber-300/80 font-medium">
+              <strong className="text-amber-400">Important:</strong> These are illustrative scenarios based on typical Malaysian gig rates and second-hand prices. They are not testimonials from real individuals. Actual results depend on your market, effort, and skills.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -300,7 +304,7 @@ export default async function HomePage({ params }: Props) {
               const g = gigs.find(x => x.slug === slug);
               if (!g) return null;
               return (
-                <Link key={g.slug} href={withLang('en', `/gigs/${g.slug}`)} className="group block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-amber-500/40 hover:shadow-xl hover:shadow-amber-500/5 hover:-translate-y-1 transition-all duration-300">
+                <Link key={g.slug} href={withLang(lang, `/gigs/${g.slug}`)} className="group block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-amber-500/40 hover:shadow-xl hover:shadow-amber-500/5 hover:-translate-y-1 transition-all duration-300">
                   <div className="h-44 relative overflow-hidden bg-zinc-900">
                     <img
                       src={gigImg(g.slug)}
@@ -315,7 +319,7 @@ export default async function HomePage({ params }: Props) {
                     <h3 className="font-bold text-lg group-hover:text-amber-400 transition-colors mb-1">{g.title}</h3>
                     <p className="text-sm text-zinc-200 line-clamp-2 mb-3">{g.tagline}</p>
                     <div className="flex items-center justify-between">
-                      <div className="text-xs text-zinc-500">{g.timeEstimate}</div>
+                      <div className="text-xs text-zinc-200">{g.timeEstimate}</div>
                       <div className="text-amber-400 font-black">RM {g.rateMin.toLocaleString()}–{g.rateMax.toLocaleString()}</div>
                     </div>
                   </div>
@@ -404,7 +408,7 @@ export default async function HomePage({ params }: Props) {
                   </div>
                 </div>
                 <div className="p-5">
-                  <div className="flex items-center gap-2 mb-2 text-xs text-zinc-500">
+                  <div className="flex items-center gap-2 mb-2 text-xs text-zinc-200">
                     <span>{a.date}</span>
                     <span>·</span>
                     <span>{a.readTime} min read</span>
@@ -461,11 +465,11 @@ export default async function HomePage({ params }: Props) {
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 via-pink-400 to-red-400"><T k="home.ig.head" en="Gear We Actually" /></span>{' '}
                 <T k="home.ig.heading2" en="Rate & Save" />
               </h2>
-              <p className="text-zinc-400 max-w-2xl mt-3 text-lg">
+              <p className="text-zinc-200 max-w-2xl mt-3 text-lg">
                 <T k="home.ig.desc" en="Hand-saved camera reels from our private cameralogue — unboxings, lens tests and lighting setups. Tap any card for the real post." />
               </p>
             </div>
-            <Link href={withLang(lang, '/videos#instagram')} className="inline-flex items-center gap-2 text-zinc-400 hover:text-white transition-colors font-semibold whitespace-nowrap">
+            <Link href={withLang(lang, '/videos#instagram')} className="inline-flex items-center gap-2 text-zinc-200 hover:text-white transition-colors font-semibold whitespace-nowrap">
               <T k="home.ig.viewAll" en="See all on the wall" /> →
             </Link>
           </div>
@@ -492,7 +496,7 @@ export default async function HomePage({ params }: Props) {
                 </div>
                 <h3 className="font-bold group-hover:text-red-400 transition-colors mb-1"><T k={tool.titleKey} en={tool.titleEn} /></h3>
                 <p className="text-sm text-zinc-200"><T k={tool.descKey} en={tool.descEn} /></p>
-                <div className="mt-4 text-xs font-bold text-zinc-500 group-hover:text-white transition-colors"><T k="home.tools.open" en="Open tool" /> →</div>
+                <div className="mt-4 text-xs font-bold text-zinc-200 group-hover:text-white transition-colors"><T k="home.tools.open" en="Open tool" /> →</div>
               </Link>
             ))}
           </div>

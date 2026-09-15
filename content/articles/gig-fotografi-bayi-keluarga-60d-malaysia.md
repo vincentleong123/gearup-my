@@ -1,14 +1,14 @@
----
+﻿---
 slug: gig-fotografi-bayi-keluarga-60d-malaysia
 title: 'Gig Fotografi Bayi & Keluarga Guna 60D: RM200-600 & Permintaan Sepanjang Tahun'
 description: >-
-  Fotografi bayi dan keluarga adalah gig paling stabil untuk pemilik 60D —
+  Fotografi bayi dan keluarga adalah gig paling stabil untuk pemilik 60D â€”
   permintaan ada setiap bulan, bukan ikut musim. Panduan lengkap: apa kerja,
   harga, contoh job sebenar, dan berapa sesi untuk bayar lens baharu.
 image: /blog/gig-fotografi-bayi-keluarga-60d-malaysia.jpg
 category: guide
 readTime: 10
-date: '2026-08-10'
+date: '2026-05-14'
 tags:
   - bayi
   - keluarga
@@ -45,21 +45,21 @@ Sesi keluarga biasanya 1-2 jam:
 
 ## Contoh job sebenar
 
-**Contoh A:** Ibu muda di Subang Jaya minta mini session untuk anak 6 bulan, di rumah, 1 jam. Anda caj RM280. Bayi tidur 40 minit — anda ambil gambar sambil ibu baca buku, natural light dari tingkap. Bersih RM270 untuk satu jam.
+**Contoh A:** Ibu muda di Subang Jaya minta mini session untuk anak 6 bulan, di rumah, 1 jam. Anda caj RM280. Bayi tidur 40 minit â€” anda ambil gambar sambil ibu baca buku, natural light dari tingkap. Bersih RM270 untuk satu jam.
 
 **Contoh B:** Keluarga 5 orang minta sesi di taman Tasik Titiwangsa, 2 jam, dua lokasi dalam taman. Caj RM450. Ini gig biasa-biasa yang membayar sewa lens Sigma 18-50mm selama sebulan.
 
 ## Kenapa gig ini sesuai untuk 60D
 
-- **Bayi tak boleh arahan** — anda tak perlu gear laju, anda perlu kesabaran dan cahaya.
-- **Keluarga statik** — AF One-Shot + Single Point cukup.
-- **Cahaya boleh dikawal** — window light atau reflektor, tanpa flash untuk bayi.
-- **Kerja berulang** — ibu bapa yang puas hati akan kembali setiap tahun (ulang tahun, tahun persekolahan).
+- **Bayi tak boleh arahan** â€” anda tak perlu gear laju, anda perlu kesabaran dan cahaya.
+- **Keluarga statik** â€” AF One-Shot + Single Point cukup.
+- **Cahaya boleh dikawal** â€” window light atau reflektor, tanpa flash untuk bayi.
+- **Kerja berulang** â€” ibu bapa yang puas hati akan kembali setiap tahun (ulang tahun, tahun persekolahan).
 
 ## Tip newborn yang penting
 
-- Jangan guna flash terus pada bayi baru lahir — guna cahaya tingkap atau softbox.
-- Panaskan bilik sebelum sesi — bayi selesa lebih mudah bergambar.
+- Jangan guna flash terus pada bayi baru lahir â€” guna cahaya tingkap atau softbox.
+- Panaskan bilik sebelum sesi â€” bayi selesa lebih mudah bergambar.
 - Ambil masa: jangan tergesa-gesa, ibu bapa faham bayi perlukan rehat.
 - Guna 50mm f/1.8 pada f/2.8 untuk sedikit bokeh tanpa kehilangan detail mata.
 

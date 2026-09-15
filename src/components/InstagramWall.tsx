@@ -53,7 +53,7 @@ export default function InstagramWall({ limit }: { limit?: number }) {
           className={`inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold border transition-all duration-200 ${
             active === 'all'
               ? 'bg-gradient-to-r from-pink-600 to-fuchsia-600 text-white border-transparent shadow-lg shadow-pink-600/25'
-              : 'bg-white/5 text-zinc-400 border-white/10 hover:text-white hover:border-pink-500/40 hover:bg-white/10'
+              : 'bg-white/5 text-zinc-200 border-white/10 hover:text-white hover:border-pink-500/40 hover:bg-white/10'
           }`}
         >
           <span>📸</span> All Posts
@@ -67,7 +67,7 @@ export default function InstagramWall({ limit }: { limit?: number }) {
               className={`inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold border transition-all duration-200 ${
                 active === cat
                   ? 'bg-gradient-to-r from-pink-600 to-fuchsia-600 text-white border-transparent shadow-lg shadow-pink-600/25'
-                  : 'bg-white/5 text-zinc-400 border-white/10 hover:text-white hover:border-pink-500/40 hover:bg-white/10'
+                  : 'bg-white/5 text-zinc-200 border-white/10 hover:text-white hover:border-pink-500/40 hover:bg-white/10'
               }`}
             >
               <span>{c?.emoji}</span> {c?.label}
@@ -90,11 +90,11 @@ export default function InstagramWall({ limit }: { limit?: number }) {
               <div className="min-w-0">
                 <div className="flex items-center gap-1 text-sm font-bold text-white">
                   <span className="truncate">{p.username}</span>
-                  <span className="hidden sm:block text-zinc-500 font-normal truncate">· {p.author}</span>
+                  <span className="hidden sm:block text-zinc-200 font-normal truncate">· {p.author}</span>
                 </div>
-                <div className="text-[11px] text-zinc-500">{p.date}</div>
+                <div className="text-xs text-zinc-200">{p.date}</div>
               </div>
-              <svg className="ml-auto h-4 w-4 text-zinc-500 shrink-0" viewBox="0 0 24 24" fill="currentColor">
+              <svg className="ml-auto h-4 w-4 text-zinc-200 shrink-0" viewBox="0 0 24 24" fill="currentColor">
                 <circle cx="5" cy="12" r="1.6" />
                 <circle cx="12" cy="12" r="1.6" />
                 <circle cx="19" cy="12" r="1.6" />
@@ -117,7 +117,7 @@ export default function InstagramWall({ limit }: { limit?: number }) {
                   </svg>
                 </span>
               </div>
-              <span className="absolute top-2.5 right-2.5 inline-flex items-center gap-1 px-2 py-1 rounded-full bg-zinc-950/70 backdrop-blur border border-white/15 text-[10px] font-bold text-white">
+              <span className="absolute top-2.5 right-2.5 inline-flex items-center gap-1 px-2 py-1 rounded-full bg-zinc-950/70 backdrop-blur border border-white/15 text-xs font-bold text-white">
                 <svg className="h-3 w-3 text-pink-500" viewBox="0 0 24 24" fill="currentColor">
                   <path fillRule="evenodd" d="M8.6 3.5A3 3 0 0111.4 2h1.2a3 3 0 012.8 1.5l.5.8a3 3 0 002.6 1.5h.9a3 3 0 013 3v1.5c.1 1.1.6 2.1 1.4 2.8l.6.5a3 3 0 010 4.5l-.6.5a3.9 3.9 0 00-1.4 2.8V23a3 3 0 01-3 3h-.9a3 3 0 00-2.6 1.5l-.5.8a3 3 0 01-2.8 1.5h-1.2a3 3 0 01-2.8-1.5l-.5-.8a3 3 0 00-2.6-1.5h-.9a3 3 0 01-3-3v-1.5c0-1.1-.5-2.1-1.4-2.8l-.6-.5a3 3 0 010-4.5l.6-.5c.9-.7 1.4-1.7 1.4-2.8V8a3 3 0 013-3h.9a3 3 0 002.6-1.5l.5-.8zM12 17.5a4.5 4.5 0 100-9 4.5 4.5 0 000 9zm0-2a2.5 2.5 0 110-5 2.5 2.5 0 010 5z" clipRule="evenodd" />
                 </svg>
@@ -148,14 +148,14 @@ export default function InstagramWall({ limit }: { limit?: number }) {
                 <span className="font-bold text-white">{p.username}</span>{' '}
                 {p.description}
               </p>
-              <div className="text-xs text-zinc-600 mt-1.5 font-semibold tracking-wide uppercase">View on Instagram →</div>
+              <div className="text-xs text-zinc-300 mt-1.5 font-semibold tracking-wide uppercase">View on Instagram →</div>
             </div>
           </button>
         ))}
       </div>
 
       {filtered.length === 0 && (
-        <p className="text-center text-zinc-500 py-16">No posts in this category yet — check back soon.</p>
+        <p className="text-center text-zinc-200 py-16">No posts in this category yet — check back soon.</p>
       )}
 
       {/* Lightbox — real Instagram embed (genuine wrapper = trust) */}
@@ -184,7 +184,7 @@ export default function InstagramWall({ limit }: { limit?: number }) {
                   <div className="flex items-center gap-1 text-sm font-bold text-white">
                     <span className="truncate">{playing.username}</span>
                   </div>
-                  <div className="text-[11px] text-zinc-500">{playing.date}</div>
+                  <div className="text-xs text-zinc-200">{playing.date}</div>
                 </div>
               </div>
               <div className="relative aspect-square bg-zinc-900">

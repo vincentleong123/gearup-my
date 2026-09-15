@@ -1,4 +1,4 @@
----
+﻿---
 slug: turning-50-experience-niche-content-creation
 title: 'Your 30 Years Is Your Niche: What a 50-Year-Old Should Actually Post About'
 description: >-
@@ -8,7 +8,7 @@ description: >-
 image: /blog/experience-niche.jpg
 category: guide
 readTime: 8
-date: '2026-08-04'
+date: '2026-03-21'
 tags:
   - turning-50
   - niche
@@ -23,19 +23,19 @@ relatedGear:
 
 That voice is lying to you, and it has a reason: your life is so normal to you that you can't see the gold in it. But to a 22-year-old with no career, no savings, and no marriage, a 50-year-old who has survived all three is a walking encyclopedia.
 
-Here's how to turn 30 years into a content niche — the honest way.
+Here's how to turn 30 years into a content niche â€” the honest way.
 
 ## The niche test
 
 A niche isn't "lifestyle" or "inspiration." A niche is specific, true, and yours. Test any idea with three questions:
 
-1. Do I have 20 years of experience in this? (You do — you just forgot)
+1. Do I have 20 years of experience in this? (You do â€” you just forgot)
 2. Can a 25-year-old fake it? (If no, it's yours)
 3. Does somebody want this help? (Yes, always)
 
 ## Five niches that fit a 50-year-old
 
-### 1. "I did this job for 25 years" — career & trade wisdom
+### 1. "I did this job for 25 years" â€” career & trade wisdom
 
 The most underrated niche on the internet. A retired (or retiring) accountant, electrician, nurse, chef, or salesperson explaining their world.
 
@@ -44,9 +44,9 @@ The most underrated niche on the internet. A retired (or retiring) accountant, e
 - "What your accountant actually does (and why it costs that much)"
 - "The biggest mistake I saw every junior make for 25 years"
 
-### 2. Money & retirement honesty — "I'm 50 and scared about money"
+### 2. Money & retirement honesty â€” "I'm 50 and scared about money"
 
-This is a goldmine. Thousands of Malaysians are doing the same 2am math you did. Show them they're not alone — and what you're doing about it.
+This is a goldmine. Thousands of Malaysians are doing the same 2am math you did. Show them they're not alone â€” and what you're doing about it.
 
 **Example posts:**
 - "My EPF math at 50, honestly"
@@ -64,7 +64,7 @@ Twenty-plus years of marriage, kids, in-laws, friendship. You have more material
 
 ### 4. Skills your generation has that are dying
 
-Canning, sewing, cooking with local recipes, basic car care, gardening, budgeting. Things that are becoming rare — and suddenly valuable again.
+Canning, sewing, cooking with local recipes, basic car care, gardening, budgeting. Things that are becoming rare â€” and suddenly valuable again.
 
 **Example posts:**
 - "My grandma's kuih recipe, exactly"
@@ -73,7 +73,7 @@ Canning, sewing, cooking with local recipes, basic car care, gardening, budgetin
 
 ### 5. The honest second-act diary
 
-Don't pick a topic — document the transition. "I'm 50, I'm panicking, and I'm starting over." Post the panic, the plans, the wins, the failures.
+Don't pick a topic â€” document the transition. "I'm 50, I'm panicking, and I'm starting over." Post the panic, the plans, the wins, the failures.
 
 **Why this works:** it's the only series on the internet where the person in it is you. Nobody can copy it. It also silently markets every other niche you do.
 
@@ -87,7 +87,7 @@ Don't chase hyper-edited trends. Your format is talking to a phone on a tripod, 
 
 ## The 20-idea backlog
 
-In one evening, write down 20 answers to these questions — that's your first month of content:
+In one evening, write down 20 answers to these questions â€” that's your first month of content:
 
 - What do I know that people under 30 don't?
 - What mistake did I make that others make too?

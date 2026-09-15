@@ -70,11 +70,11 @@ export default function GlossaryClient() {
               <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-2 mb-0.5">
                   <span className="font-bold text-lg">{term.term}</span>
-                  <span className="text-xs text-zinc-500 bg-zinc-800 px-2 py-0.5 rounded">{catLabel(term.category)}</span>
+                  <span className="text-xs text-zinc-200 bg-zinc-800 px-2 py-0.5 rounded">{catLabel(term.category)}</span>
                 </div>
                 <p className="text-sm text-zinc-200">{term.shortDef}</p>
               </div>
-              <span className="text-zinc-500 ml-4">{expanded === term.term ? '▲' : '▼'}</span>
+              <span className="text-zinc-200 ml-4">{expanded === term.term ? '▲' : '▼'}</span>
             </button>
             {expanded === term.term && (
               <div className="px-4 pb-4 border-t border-zinc-800 pt-3 space-y-3">
@@ -93,11 +93,11 @@ export default function GlossaryClient() {
 
       {filtered.length === 0 && (
         <div className="text-center py-16">
-          <p className="text-zinc-500">{t('glossary.noResults', 'No terms found. Try a different search.')}</p>
+          <p className="text-zinc-200">{t('glossary.noResults', 'No terms found. Try a different search.')}</p>
         </div>
       )}
 
-      <div className="text-center text-sm text-zinc-600 mt-8">
+      <div className="text-center text-sm text-zinc-300 mt-8">
         {t('glossary.count', '{count} terms · Tap any term to expand').replace('{count}', String(glossary.length))}
       </div>
     </div>

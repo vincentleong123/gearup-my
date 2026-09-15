@@ -1,14 +1,14 @@
----
+﻿---
 slug: camera-sd-card-speed-guide-malaysia
 title: 'SD Card & CFexpress Guide: Don''t Let a RM40 Card Ruin Your RM10,000 Camera'
 description: >-
-  The single most misunderstood accessory in Malaysia. V60 vs V90 vs CFexpress —
+  The single most misunderstood accessory in Malaysia. V60 vs V90 vs CFexpress â€”
   which card your camera actually needs, and where to buy them in Malaysia
   without getting scammed.
 image: /blog/sd-card-guide.jpg
 category: guide
 readTime: 6
-date: '2026-07-15'
+date: '2026-01-20'
 tags:
   - guide
   - accessories
@@ -50,17 +50,17 @@ qaPairs:
 ---
 You spend RM10,000 on a camera and then buy the RM40 SD card at the pasar malam stall. Three months later it corrupts a wedding shoot and you lose RM1,000 of work.
 
-This is the most common gear mistake in Malaysia — and the easiest to fix.
+This is the most common gear mistake in Malaysia â€” and the easiest to fix.
 
 ## First: what does the "V" number mean?
 
-SD cards are rated V30, V60, V90 — the speed class for video recording. It's the *minimum* sustained write speed in MB/s.
+SD cards are rated V30, V60, V90 â€” the speed class for video recording. It's the *minimum* sustained write speed in MB/s.
 
-- **V30:** 30MB/s min — fine for 4K 30fps, most phone-style shooting
-- **V60:** 60MB/s min — fine for 4K 60fps, most mirrorless video
-- **V90:** 90MB/s min — needed for 4K 120fps, 8K, and high-bitrate ProRes/log
+- **V30:** 30MB/s min â€” fine for 4K 30fps, most phone-style shooting
+- **V60:** 60MB/s min â€” fine for 4K 60fps, most mirrorless video
+- **V90:** 90MB/s min â€” needed for 4K 120fps, 8K, and high-bitrate ProRes/log
 
-**The rule:** read your camera's manual. It lists the card speed required for each mode. If your camera wants V90 for 8K and you put in a V30 — it will either refuse to record or drop frames mid-shot.
+**The rule:** read your camera's manual. It lists the card speed required for each mode. If your camera wants V90 for 8K and you put in a V30 â€” it will either refuse to record or drop frames mid-shot.
 
 ## The trick: what your camera actually needs
 
@@ -83,10 +83,10 @@ CFexpress Type A/B cards are fast (500-1700MB/s) but expensive (RM800-2,000). Yo
 
 ## Where to buy in Malaysia without getting scammed
 
-- **Authorised dealers** (official Shopee/Lazada stores for Sandisk, Lexar, Kingston) — authentic and warrantied
+- **Authorised dealers** (official Shopee/Lazada stores for Sandisk, Lexar, Kingston) â€” authentic and warrantied
 - **Check for fakes:** genuine cards have a serial number verifiable on the manufacturer's site; RM40 "128GB V90" from an unknown seller is always a fake
 - **Price sanity check:** a genuine 128GB V60 costs RM120-180. If it's half that, it's a fake that will corrupt your data
 
 ## The one-card rule
 
-Never shoot a paid gig with a single card that's more than 70% full, and never reuse a card you're unsure about. Format in-camera before every shoot. A RM200 card protects RM10,000 of camera and RM1,000+ of client work — it's the cheapest insurance in photography.
+Never shoot a paid gig with a single card that's more than 70% full, and never reuse a card you're unsure about. Format in-camera before every shoot. A RM200 card protects RM10,000 of camera and RM1,000+ of client work â€” it's the cheapest insurance in photography.

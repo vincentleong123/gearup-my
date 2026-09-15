@@ -1,4 +1,4 @@
----
+﻿---
 slug: canon-eos-r5-mark-ii-review-malaysia
 title: 'Canon EOS R5 Mark II Review: The Malaysian Creator''s Flagship, Tested'
 description: >-
@@ -8,7 +8,7 @@ description: >-
 image: /blog/canon-eos-r5-mark-ii-review-malaysia.jpg
 category: gear
 readTime: 12
-date: '2026-08-10'
+date: '2026-05-07'
 tags:
   - canon
   - full-frame
@@ -57,7 +57,7 @@ qaPairs:
       allows the camera to lock onto faces more reliably than previous models,
       making it a genuine tool for professionals rather than just a gimmick.
 ---
-The Canon EOS R5 Mark II is the camera every serious hybrid shooter in Malaysia has been staring at for a year. It's the mirrorless that promises 8K RAW, 45 megapixels and autofocus that embarrasses every DSLR it competes with. We spent three weeks shooting with one in KL — portraits, food, events and video — to find out if it earns its RM18,000-plus Malaysian price tag.
+The Canon EOS R5 Mark II is the camera every serious hybrid shooter in Malaysia has been staring at for a year. It's the mirrorless that promises 8K RAW, 45 megapixels and autofocus that embarrasses every DSLR it competes with. We spent three weeks shooting with one in KL â€” portraits, food, events and video â€” to find out if it earns its RM18,000-plus Malaysian price tag.
 
 This review is written the way we actually use cameras: real shoots, real Malaysian conditions, real heat.
 
@@ -85,9 +85,9 @@ If you shoot family photos and weekend street, stop reading and buy a Canon R50 
 
 ## Autofocus that changes how you shoot
 
-The headline feature isn't the resolution — it's the autofocus. Canon's Eye Control AF lets you look at a subject's eye in the viewfinder and the focus point jumps there. It sounds like a gimmick. It isn't.
+The headline feature isn't the resolution â€” it's the autofocus. Canon's Eye Control AF lets you look at a subject's eye in the viewfinder and the focus point jumps there. It sounds like a gimmick. It isn't.
 
-In practice at a Malaysian wedding dinner (dim ballroom, fast movement), the R5 Mark II locked onto faces and stayed with them where an A7 IV or R6 II would occasionally hunt. The new Action Priority mode even anticipates sports moves before they happen — genuinely useful for football, futsal and e-sports events.
+In practice at a Malaysian wedding dinner (dim ballroom, fast movement), the R5 Mark II locked onto faces and stayed with them where an A7 IV or R6 II would occasionally hunt. The new Action Priority mode even anticipates sports moves before they happen â€” genuinely useful for football, futsal and e-sports events.
 
 ## 8K you will actually use
 
@@ -100,7 +100,7 @@ The catch is heat. In Malaysia's climate, long 8K takes in direct sunlight will 
 
 ## IBIS and the RF lens reality
 
-The 8.5-stop IBIS is the best in the business. Handheld video in a mamak at dusk is genuinely usable. And because the RF mount finally has third-party support — Tamron and Sigma RF lenses are appearing in Malaysian shops — you're not locked into Canon pricing forever.
+The 8.5-stop IBIS is the best in the business. Handheld video in a mamak at dusk is genuinely usable. And because the RF mount finally has third-party support â€” Tamron and Sigma RF lenses are appearing in Malaysian shops â€” you're not locked into Canon pricing forever.
 
 ## Malaysian pricing and warranty reality
 

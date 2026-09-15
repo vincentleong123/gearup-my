@@ -1,14 +1,14 @@
----
+﻿---
 slug: youtube-thumbnails-that-get-clicks-malaysia
 title: 'YouTube Thumbnails That Get Clicks: A Beginner Guide for Malaysian Creators'
 description: >-
   Your thumbnail is the ad for your video. Here is how to make thumbnails that
-  get clicked — composition, text, faces, and the Malaysian creator mistakes to
+  get clicked â€” composition, text, faces, and the Malaysian creator mistakes to
   avoid.
 image: /blog/thumbnail-guide.jpg
 category: guide
 readTime: 6
-date: '2026-08-02'
+date: '2026-03-03'
 tags:
   - youtube
   - thumbnails
@@ -19,7 +19,7 @@ relatedGear:
   - nikon-d3100-review-malaysia-second-hand-price
   - canon-eos-r50-review-malaysia
 ---
-Your thumbnail is the ad for your video. If nobody clicks, nobody watches — no matter how good the content is. And in the sea of Malaysian tech, food, and lifestyle videos, your thumbnail has about one second to win.
+Your thumbnail is the ad for your video. If nobody clicks, nobody watches â€” no matter how good the content is. And in the sea of Malaysian tech, food, and lifestyle videos, your thumbnail has about one second to win.
 
 Here is how to make thumbnails that get clicked.
 
@@ -27,19 +27,19 @@ Here is how to make thumbnails that get clicked.
 
 The best thumbnails do four things at once:
 
-1. **A face** — humans click faces. Especially faces showing an emotion (surprise, disgust, joy)
-2. **A promise** — what will I learn or feel if I click?
-3. **High contrast** — bright subject, clean background, visible from a small phone screen
-4. **Few words** — 3-5 words max, big and bold
+1. **A face** â€” humans click faces. Especially faces showing an emotion (surprise, disgust, joy)
+2. **A promise** â€” what will I learn or feel if I click?
+3. **High contrast** â€” bright subject, clean background, visible from a small phone screen
+4. **Few words** â€” 3-5 words max, big and bold
 
 ## The 3-5 word rule
 
 Your thumbnail text is not your title. It is the headline. It should add information or emotion the title doesn't have.
 
 **Examples:**
-- Video: "I tested the RM400 D3100" → Thumbnail: "RM400 TEST"
-- Video: "How I got paid gigs in 30 days" → Thumbnail: "30 DAYS"
-- Video: "Wedding photography mistakes" → Thumbnail: "DON'T DO THIS"
+- Video: "I tested the RM400 D3100" â†’ Thumbnail: "RM400 TEST"
+- Video: "How I got paid gigs in 30 days" â†’ Thumbnail: "30 DAYS"
+- Video: "Wedding photography mistakes" â†’ Thumbnail: "DON'T DO THIS"
 
 **The mistake:** long sentences on thumbnails. Nobody reads them at thumbnail size.
 
@@ -54,7 +54,7 @@ Here's a hard truth for camera reviewers: a thumbnail of a camera on a table get
 ## How to build one for free
 
 - Canva free tier: templates, text, and the crop tools you need
-- Your own photos: better than stock — people click on faces they recognise
+- Your own photos: better than stock â€” people click on faces they recognise
 - CapCut/Picsart: for adding text and arrows on the go
 
 **The workflow:**
@@ -63,11 +63,11 @@ Here's a hard truth for camera reviewers: a thumbnail of a camera on a table get
 3. Boost contrast and saturation slightly
 4. Add 3-5 words in a bold font
 5. Add an arrow or circle if there's a specific thing to see
-6. Check it at phone size — if you can't read the text, redo it
+6. Check it at phone size â€” if you can't read the text, redo it
 
 ## The CTR loop
 
-Your click-through rate (CTR) is the report card. YouTube shows your thumbnail to 100 viewers — if 5 click, that's 5% CTR, which is healthy. Under 2% and your thumbnail or title needs work.
+Your click-through rate (CTR) is the report card. YouTube shows your thumbnail to 100 viewers â€” if 5 click, that's 5% CTR, which is healthy. Under 2% and your thumbnail or title needs work.
 
 **The 24-hour test:** if your first video's CTR is low, change the thumbnail and title once. One swap can double your views. It's the cheapest fix in all of YouTube.
 

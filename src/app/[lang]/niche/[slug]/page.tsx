@@ -49,7 +49,7 @@ export default async function NichePage({ params }: Props) {
       <Nav />
       <main className="min-h-screen pt-24 pb-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-8">
+          <nav className="flex items-center gap-2 text-sm text-zinc-200 mb-8">
             <Link href={withLang(lang, '/')} className="hover:text-white transition-colors">Home</Link>
             <span>/</span>
             <span className="text-zinc-100">{niche.title} Creator Guide</span>
@@ -73,17 +73,17 @@ export default async function NichePage({ params }: Props) {
           <div className="bg-zinc-900/80 border border-zinc-800 rounded-2xl p-6 mb-10">
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
-                <span className="text-sm text-zinc-500 font-semibold uppercase tracking-wider">Starter Cost</span>
+                <span className="text-sm text-zinc-200 font-semibold uppercase tracking-wider">Starter Cost</span>
                 <div className="text-2xl font-black text-green-400 mt-1">
                   {niche.starterCost === 0 ? 'RM 0 — Use your phone' : formatPrice(niche.starterCost)}
                 </div>
               </div>
               <div>
-                <span className="text-sm text-zinc-500 font-semibold uppercase tracking-wider">Earning Potential</span>
+                <span className="text-sm text-zinc-200 font-semibold uppercase tracking-wider">Earning Potential</span>
                 <div className="text-2xl font-black text-cyan-400 mt-1">{niche.earningPotential}</div>
               </div>
               <div>
-                <span className="text-sm text-zinc-500 font-semibold uppercase tracking-wider">Content Ideas</span>
+                <span className="text-sm text-zinc-200 font-semibold uppercase tracking-wider">Content Ideas</span>
                 <div className="text-2xl font-black text-purple-400 mt-1">{niche.contentIdeas.length}</div>
               </div>
             </div>

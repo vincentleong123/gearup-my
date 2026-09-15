@@ -315,7 +315,7 @@ export default function Nav() {
       {/* Announcement bar */}
       <div className="relative bg-gradient-to-r from-red-600 via-pink-600 to-fuchsia-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-[11px] sm:text-xs font-semibold text-center py-1.5 tracking-wide truncate">
+          <p className="text-xs sm:text-sm font-semibold text-center py-1.5 tracking-wide truncate">
             <span className="hidden sm:inline">{g('nav.announce')}</span>
             <span className="sm:hidden">{g('nav.announce')}</span>
           </p>
@@ -343,7 +343,7 @@ export default function Nav() {
             <Logo lang={lang} />
 
             {/* Desktop: mega-menu triggers */}
-            <div className="hidden xl:flex items-center gap-1">
+            <div className="hidden lg:flex items-center gap-1">
               {megaGroups.map(group => (
                 <button
                   key={group.id}
@@ -366,7 +366,7 @@ export default function Nav() {
               ))}
             </div>
 
-            <div className="hidden xl:flex items-center gap-2">
+            <div className="hidden lg:flex items-center gap-2">
               <LangSwitch lang={lang} setLang={setLang} t={t} />
               <Link
                 href={withLang(lang, '/all-articles')}
@@ -384,7 +384,7 @@ export default function Nav() {
               </div>
 
             {/* Mobile: lang + hamburger */}
-            <div className="flex items-center gap-2 xl:hidden">
+            <div className="flex items-center gap-2 lg:hidden">
               <LangSwitch lang={lang} setLang={setLang} t={t} />
               <button
                 onClick={() => setOpen(!open)}
@@ -406,7 +406,7 @@ export default function Nav() {
 
         {/* Desktop: super mega panel (whole site at a glance) */}
         {panelOpen && (
-          <div className="hidden xl:block absolute left-0 right-0 top-full border-t border-zinc-800/60 bg-zinc-950/95 backdrop-blur-xl shadow-2xl animate-fade-in">
+          <div className="hidden lg:block absolute left-0 right-0 top-full border-t border-zinc-800/60 bg-zinc-950/95 backdrop-blur-xl shadow-2xl animate-fade-in">
             <div className="max-w-7xl mx-auto px-6 py-5">
               <div className="grid lg:grid-cols-4 gap-2">
                 {megaGroups.map(group => (
@@ -422,7 +422,7 @@ export default function Nav() {
                       <span className="text-lg leading-none">{group.emoji}</span>
                       <span className="font-black text-sm">{g(group.labelKey)}</span>
                     </div>
-                    <p className="text-[11px] text-zinc-500 px-1 mb-2 leading-snug">{g(group.descKey)}</p>
+                    <p className="text-xs text-zinc-200 px-1 mb-2 leading-snug">{g(group.descKey)}</p>
                     <div className="space-y-0.5">
                       {group.items.map(item => (
                         <div
@@ -441,7 +441,7 @@ export default function Nav() {
                               <span className="text-sm font-semibold text-zinc-100 leading-tight">
                                 {g(item.labelKey)}
                               </span>
-                              <span className="text-xs text-zinc-400 leading-snug mt-0.5">{g(item.capKey)}</span>
+                              <span className="text-xs text-zinc-200 leading-snug mt-0.5">{g(item.capKey)}</span>
                             </span>
                           </Link>
                         </div>
@@ -453,13 +453,13 @@ export default function Nav() {
 
               {/* Footer: trending chips + global shortcuts */}
               <div className="mt-4 pt-4 border-t border-zinc-800/50 flex flex-wrap items-center gap-2">
-                <span className="text-[11px] uppercase tracking-wider text-zinc-500 font-bold mr-1">
+                <span className="text-xs uppercase tracking-wider text-zinc-200 font-bold mr-1">
                   {g('nav.mega.trending')}
                 </span>
                 {trending.map(item => (
                   <Link
                     key={item.id}
-                    href={withLang('en', item.href)}
+                    href={withLang(lang, item.href)}
                     onClick={closeAll}
                     className="px-3 py-1.5 rounded-full text-xs font-semibold bg-zinc-800/60 text-zinc-200 border border-zinc-700/50 hover:border-red-500/40 hover:text-white transition-all"
                   >
@@ -482,7 +482,7 @@ export default function Nav() {
         {/* Tooltip for the item currently hovered */}
         {tip && (
           <div
-            className="hidden xl:block fixed z-[70] w-72 pointer-events-none bg-zinc-900/98 border border-zinc-700/60 rounded-xl shadow-2xl px-4 py-3 text-sm text-zinc-200 leading-snug animate-fade-in"
+            className="hidden lg:block fixed z-[70] w-72 pointer-events-none bg-zinc-900/98 border border-zinc-700/60 rounded-xl shadow-2xl px-4 py-3 text-sm text-zinc-200 leading-snug animate-fade-in"
             style={{ top: tip.top, left: tip.left }}
           >
             {tip.text}
@@ -491,7 +491,7 @@ export default function Nav() {
 
         {/* Mobile: elaborated grouped drawer */}
         {open && (
-          <div className="xl:hidden border-t border-zinc-800/50 bg-zinc-950/95 backdrop-blur-xl max-h-[calc(100vh-7.5rem)] overflow-y-auto animate-fade-in">
+          <div className="lg:hidden border-t border-zinc-800/50 bg-zinc-950/95 backdrop-blur-xl max-h-[calc(100vh-7.5rem)] overflow-y-auto animate-fade-in">
             <div className="px-4 py-3 space-y-2">
               {megaGroups.map(group => {
                 const expanded = !!openGroups[group.id];
@@ -505,7 +505,7 @@ export default function Nav() {
                       <span className="text-lg leading-none">{group.emoji}</span>
                       <span className="flex-1">
                         <span className="block text-sm font-black text-zinc-100">{g(group.labelKey)}</span>
-                        <span className="block text-xs text-zinc-500 leading-snug">{g(group.descKey)}</span>
+                        <span className="block text-xs text-zinc-200 leading-snug">{g(group.descKey)}</span>
                       </span>
                       <svg
                         className={`w-5 h-5 text-zinc-300 transition-transform ${expanded ? 'rotate-180' : ''}`}
@@ -531,7 +531,7 @@ export default function Nav() {
                             <span className="mt-0.5 text-base leading-none">{item.emoji}</span>
                             <span className="flex flex-col min-w-0">
                               <span className="text-sm font-semibold text-zinc-100 leading-tight">{g(item.labelKey)}</span>
-                              <span className="text-xs text-zinc-400 leading-snug mt-0.5">{g(item.capKey)}</span>
+                              <span className="text-xs text-zinc-200 leading-snug mt-0.5">{g(item.capKey)}</span>
                             </span>
                           </Link>
                         ))}
@@ -555,7 +555,7 @@ export default function Nav() {
                   {trending.map(item => (
                     <Link
                       key={item.id}
-                      href={withLang('en', item.href)}
+                      href={withLang(lang, item.href)}
                       onClick={() => setOpen(false)}
                       className="px-3 py-1.5 rounded-full text-xs font-semibold bg-zinc-800/60 text-zinc-200 border border-zinc-700/50 hover:border-red-500/40 hover:text-white transition-all"
                     >

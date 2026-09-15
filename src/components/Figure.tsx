@@ -34,8 +34,8 @@ export default function Figure({ figure, className = '' }: { figure: Figure; cla
         )}
       </div>
       {figure.caption && (
-        <figcaption className="text-sm text-zinc-500 mt-3 flex items-start gap-2 leading-relaxed">
-          <span className="text-zinc-700">—</span>
+        <figcaption className="text-sm text-zinc-200 mt-3 flex items-start gap-2 leading-relaxed">
+          <span className="text-zinc-400">—</span>
           <span>{figure.caption}</span>
         </figcaption>
       )}

@@ -43,7 +43,7 @@ export default async function GearPage({ params }: Props) {
           {featured.map(g => (
             <Link
               key={g.slug}
-              href={withLang('en', `/gear/${g.slug}`)}
+              href={withLang(lang, `/gear/${g.slug}`)}
               className="group block bg-zinc-900/40 border border-zinc-800 rounded-2xl p-6 hover:border-red-500/30 hover:-translate-y-1 transition-all duration-300"
             >
               <div className="text-xs font-bold text-red-400 mb-2">🏆 <T k="gear.topRoiPick" en="Top ROI Pick" /></div>
@@ -51,12 +51,12 @@ export default async function GearPage({ params }: Props) {
               <p className="text-zinc-200 text-sm line-clamp-2 mb-3">{g.excerpt}</p>
               <div className="flex items-center gap-4">
                 <div>
-                  <span className="text-xs text-zinc-500"><T k="common.used" en="Used" /></span>
+                  <span className="text-xs text-zinc-200"><T k="common.used" en="Used" /></span>
                   <div className="font-bold text-green-400">{formatPrice(g.priceUsed)}</div>
                 </div>
                 <div className="flex-1">
                   <div className="flex justify-between text-xs mb-1">
-                    <span className="text-zinc-500"><T k="gear.roiScore" en="ROI" /></span>
+                    <span className="text-zinc-200"><T k="gear.roiScore" en="ROI" /></span>
                     <span className={`font-bold ${roiColor(g.roiScore)}`}>{g.roiScore}</span>
                   </div>
                   <div className="h-1.5 bg-zinc-800 rounded-full overflow-hidden">

@@ -1,4 +1,4 @@
----
+﻿---
 slug: nikon-d3100-vs-sony-a6100-which-better-malaysia
 title: >-
   Nikon D3100 vs Sony A6100 in 2026: Which Budget Camera Should Tim & Ahmad Buy
@@ -9,7 +9,7 @@ description: >-
 image: /blog/d3100-vs-a6100.jpg
 category: comparison
 readTime: 8
-date: '2026-07-08'
+date: '2026-01-17'
 tags:
   - comparison
   - dslr
@@ -77,7 +77,7 @@ If you shoot with good lighting (natural window light is free), the D3100 can pr
 ## Lens Strategy for Both
 
 The smartest thing both Tim and Ahmad can do is buy exactly one lens:
-- **D3100:** Nikon 35mm f/1.8G DX (RM180-250 used) — this one lens transforms the camera
-- **A6100:** Sigma 16mm f/1.4 (RM700-800 used) — wide enough for vlogging, fast enough for low light
+- **D3100:** Nikon 35mm f/1.8G DX (RM180-250 used) â€” this one lens transforms the camera
+- **A6100:** Sigma 16mm f/1.4 (RM700-800 used) â€” wide enough for vlogging, fast enough for low light
 
 Buying more lenses before you've earned money is just consuming, not creating.

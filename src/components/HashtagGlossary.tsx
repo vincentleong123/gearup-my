@@ -105,7 +105,7 @@ export default function HashtagGlossary() {
                 className="w-full text-left px-4 py-3 hover:bg-zinc-800/60 transition-colors flex items-center justify-between gap-3"
               >
                 <span className="font-bold text-cyan-300 text-sm">#{t.tag}</span>
-                <span className="text-xs text-zinc-500">{t.gearName}</span>
+                <span className="text-xs text-zinc-200">{t.gearName}</span>
               </button>
             ))}
           </div>
@@ -135,11 +135,11 @@ export default function HashtagGlossary() {
         <div className="max-w-2xl mx-auto mb-8 text-center">
           <div className="inline-flex items-center gap-3 bg-cyan-500/10 border border-cyan-500/30 rounded-full px-5 py-2">
             <span className="text-2xl font-black text-cyan-300">#{activeTag}</span>
-            <button onClick={clearTag} className="text-xs font-bold text-zinc-400 hover:text-white ml-2">
+            <button onClick={clearTag} className="text-xs font-bold text-zinc-200 hover:text-white ml-2">
               ✕ clear
             </button>
           </div>
-          <p className="text-sm text-zinc-500 mt-3">
+          <p className="text-sm text-zinc-200 mt-3">
             Curated on-site posts for this hashtag — settings, gear, and how many gigs to pay it off.
           </p>
         </div>
@@ -170,7 +170,7 @@ export default function HashtagGlossary() {
           const best = paths[0];
           return (
             <article key={post.id} className="group bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-pink-500/40 hover:-translate-y-1 hover:shadow-xl hover:shadow-pink-600/5 transition-all duration-300 flex flex-col">
-              <Link href={withLang('en', `/gear/${post.gearSlug}`)} className="block relative aspect-[16/10] overflow-hidden bg-zinc-900">
+              <Link href={withLang(lang, `/gear/${post.gearSlug}`)} className="block relative aspect-[16/10] overflow-hidden bg-zinc-900">
                 <img
                   src={post.image}
                   alt={post.title}
@@ -179,7 +179,7 @@ export default function HashtagGlossary() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/80 via-zinc-950/10 to-transparent" />
                 <div className="absolute top-2 left-2 flex items-center gap-1.5">
-                  <span className="text-[10px] font-bold px-2 py-0.5 rounded-full border uppercase tracking-wider bg-pink-500/10 text-pink-300 border-pink-500/30">
+                  <span className="text-xs font-bold px-2 py-0.5 rounded-full border uppercase tracking-wider bg-pink-500/10 text-pink-300 border-pink-500/30">
                     {categoryEmoji[post.category]} {post.category}
                   </span>
                 </div>
@@ -194,7 +194,7 @@ export default function HashtagGlossary() {
                 <p className="text-sm text-zinc-200 mb-4">{post.caption}</p>
 
                 <div className="bg-zinc-950/60 border border-zinc-800 rounded-xl p-4 mb-4">
-                  <div className="text-[10px] font-bold uppercase tracking-wider text-cyan-400 mb-2">⚙️ Settings recipe</div>
+                  <div className="text-xs font-bold uppercase tracking-wider text-cyan-400 mb-2">⚙️ Settings recipe</div>
                   <ul className="space-y-1.5">
                     {post.settings.map((s, i) => (
                       <li key={i} className="text-xs text-zinc-200 flex gap-2">
@@ -205,7 +205,7 @@ export default function HashtagGlossary() {
                   </ul>
                 </div>
 
-                <div className="text-xs text-zinc-500 mb-4">
+                <div className="text-xs text-zinc-200 mb-4">
                   <span className="font-bold text-amber-400">💡 {post.tip}</span>
                 </div>
 
@@ -214,13 +214,13 @@ export default function HashtagGlossary() {
                   <div className="mt-auto bg-amber-500/5 border border-amber-500/20 rounded-xl p-3">
                     {best ? (
                       <>
-                        <div className="text-[10px] font-bold uppercase tracking-wider text-amber-400 mb-1">💰 Pay it off</div>
+                        <div className="text-xs font-bold uppercase tracking-wider text-amber-400 mb-1">💰 Pay it off</div>
                         <div className="text-xs text-zinc-200">
-                          <Link href={withLang('en', `/gigs/${best.gig.slug}`)} className="font-bold text-amber-400 hover:text-amber-300">
+                          <Link href={withLang(lang, `/gigs/${best.gig.slug}`)} className="font-bold text-amber-400 hover:text-amber-300">
                             {best.minGigs === best.maxGigs ? best.minGigs : `${best.minGigs}-${best.maxGigs}`}
                           </Link>{' '}
                           <span className="text-zinc-300">{best.gig.title}</span>
-                          <span className="text-zinc-500"> to own the {gear.name}</span>
+                          <span className="text-zinc-200"> to own the {gear.name}</span>
                         </div>
                       </>
                     ) : (
@@ -237,7 +237,7 @@ export default function HashtagGlossary() {
       </div>
 
       {filtered.length === 0 && (
-        <p className="text-center text-zinc-500 py-16">
+        <p className="text-center text-zinc-200 py-16">
           No curated posts yet for "{query || activeTag}". Try another hashtag or category.
         </p>
       )}

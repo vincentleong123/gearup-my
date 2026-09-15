@@ -20,7 +20,7 @@ export default function CreatorShowcase({ lang }: { lang: string }) {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {creators.slice(0, 6).map((c, i) => (
             <Link
-              href={withLang('en', `/creators/${c.slug}`)}
+              href={withLang(lang, `/creators/${c.slug}`)}
               key={c.slug}
               className="group block bg-zinc-900/60 border border-zinc-800 rounded-2xl p-6 hover:border-cyan-500/30 hover:shadow-lg hover:shadow-cyan-500/5 transition-all duration-300"
               style={{ animationDelay: `${i * 80}ms` }}
@@ -34,7 +34,7 @@ export default function CreatorShowcase({ lang }: { lang: string }) {
                 />
                 <div>
                   <div className="font-bold text-lg group-hover:text-cyan-400 transition-colors">{c.name}</div>
-                  <div className="text-sm text-zinc-500">{c.handle}</div>
+                  <div className="text-sm text-zinc-200">{c.handle}</div>
                 </div>
               </div>
               <div className="text-xs text-cyan-400/80 bg-cyan-500/5 px-3 py-1 rounded-full inline-block mb-3 font-semibold">{c.niche}</div>
@@ -47,21 +47,21 @@ export default function CreatorShowcase({ lang }: { lang: string }) {
               <div className="flex gap-3">
                 <div className="flex-1 bg-zinc-800/50 rounded-xl p-3 text-center">
                   <div className="text-lg font-bold text-green-400">RM {c.monthlyEarningsMin.toLocaleString()}+</div>
-                  <div className="text-xs text-zinc-500"><T k="creators.perMonth" en="/month" /></div>
+                  <div className="text-xs text-zinc-200"><T k="creators.perMonth" en="/month" /></div>
                 </div>
                 <div className="flex-1 bg-zinc-800/50 rounded-xl p-3 text-center">
                   <div className="text-lg font-bold text-cyan-400">{c.roiMonths} mo</div>
-                  <div className="text-xs text-zinc-500"><T k="creators.breakeven" en="breakeven" /></div>
+                  <div className="text-xs text-zinc-200"><T k="creators.breakeven" en="breakeven" /></div>
                 </div>
               </div>
               <div className="mt-4 pt-4 border-t border-zinc-800">
-                <div className="text-xs text-zinc-500 italic leading-relaxed line-clamp-2">&ldquo;{h(c.advice.slice(0, 120))}&rdquo;</div>
+                <div className="text-xs text-zinc-200 italic leading-relaxed line-clamp-2">&ldquo;{h(c.advice.slice(0, 120))}&rdquo;</div>
               </div>
             </Link>
           ))}
         </div>
         <div className="text-center mt-8">
-          <Link href={withLang('en', '/creators')} className="inline-flex items-center gap-2 text-zinc-200 hover:text-white transition-colors font-medium">
+          <Link href={withLang(lang, '/creators')} className="inline-flex items-center gap-2 text-zinc-200 hover:text-white transition-colors font-medium">
             <T k="creatorshow.seeAll" en="See all creators" /> →
           </Link>
         </div>

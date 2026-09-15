@@ -1,4 +1,4 @@
----
+﻿---
 slug: photo-booth-business-malaysia
 title: >-
   Photo Booth Business Malaysia: The RM400-800/Event Side Gig You Can Start With
@@ -10,7 +10,7 @@ description: >-
 image: /blog/photo-booth.jpg
 category: inspiration
 readTime: 9
-date: '2026-08-01'
+date: '2026-02-16'
 tags:
   - photo-booth
   - gig

@@ -1,6 +1,6 @@
----
+﻿---
 slug: gig-video-perniagaan-kecil-malaysia
-title: 'Video untuk Perniagaan Kecil — Gig Sambilan RM500-RM1,500 Sebulan'
+title: 'Video untuk Perniagaan Kecil â€” Gig Sambilan RM500-RM1,500 Sebulan'
 description: >-
   Perniagaan kecil di Malaysia makin faham kuasa video untuk TikTok dan
   Facebook. Panduan lengkap jadi videographer sambilan untuk client setempat
@@ -8,7 +8,7 @@ description: >-
 image: /blog/malay-gig.jpg
 category: guide
 readTime: 10
-date: '2026-08-05'
+date: '2026-03-31'
 tags:
   - video
   - perniagaan
@@ -21,16 +21,16 @@ relatedGear:
   - dji-mic-2-review-malaysia
 lang: ms
 ---
-Perniagaan kecil di Malaysia — kedai makan, salun, kedai barang bayi, bengkel kereta — semua mahu buat video untuk TikTok dan Facebook. Tapi tak ada masa, tak ada kemahiran, dan tak ada siapa nak tolong.
+Perniagaan kecil di Malaysia â€” kedai makan, salun, kedai barang bayi, bengkel kereta â€” semua mahu buat video untuk TikTok dan Facebook. Tapi tak ada masa, tak ada kemahiran, dan tak ada siapa nak tolong.
 
 Di situlah anda masuk. Ini gig yang paling cepat jadi pendapatan bulanan tetap, sebab client bayar setiap bulan, bukan sekali-sekala.
 
 ## Kenapa gig video perniagaan istimewa
 
-- **Bayaran berulang** — RM500-1,500 sebulan untuk kontrak 1-3 bulan, bukan satu-off.
-- **Client setempat** — kedai berdekatan rumah anda, tak perlu travel jauh.
-- **Gear sederhana sudah cukup** — ZV-E10 atau Osmo Pocket 3 dengan mic lapel sudah memadai.
-- **Permintaan tak berhenti** — selagi ada perniagaan, selagi itu perlukan content.
+- **Bayaran berulang** â€” RM500-1,500 sebulan untuk kontrak 1-3 bulan, bukan satu-off.
+- **Client setempat** â€” kedai berdekatan rumah anda, tak perlu travel jauh.
+- **Gear sederhana sudah cukup** â€” ZV-E10 atau Osmo Pocket 3 dengan mic lapel sudah memadai.
+- **Permintaan tak berhenti** â€” selagi ada perniagaan, selagi itu perlukan content.
 
 ## Pakej bulanan yang biasa diterima
 
@@ -44,29 +44,29 @@ Di situlah anda masuk. Ini gig yang paling cepat jadi pendapatan bulanan tetap, 
 
 ## Gear yang mencukupi
 
-- **Sony ZV-E10 (terpakai RM1,900-2,300)** — autofokus pantas, skrin flip, yang paling mudah untuk content creator.
-- **DJI Osmo Pocket 3 (RM2,500-3,000)** — senang bawa, stabil, audio dalam kamera memang mantap.
-- **DJI Mic 2 atau mic lapel bajet (RM100-700)** — audio bersih wajib untuk video perniagaan.
-- **Lampu LED kecil** — untuk shoot dalaman kedai yang redup.
+- **Sony ZV-E10 (terpakai RM1,900-2,300)** â€” autofokus pantas, skrin flip, yang paling mudah untuk content creator.
+- **DJI Osmo Pocket 3 (RM2,500-3,000)** â€” senang bawa, stabil, audio dalam kamera memang mantap.
+- **DJI Mic 2 atau mic lapel bajet (RM100-700)** â€” audio bersih wajib untuk video perniagaan.
+- **Lampu LED kecil** â€” untuk shoot dalaman kedai yang redup.
 
 ## Cara dapat client pertama
 
-1. **Senaraikan 10 perniagaan dekat rumah** — kedai kopi, salun, bengkel, kedai runcit.
-2. **Pergi dan borak** — tanya apa masalah content mereka. Dengar lebih dari bercakap.
-3. **Tawarkan percubaan murah** — satu video RM150 sebagai sampel. Kalau mereka suka, tawarkan pakej bulanan.
-4. **Pos hasil kerja dengan tag kedai** — pemilik lain akan nampak hasil anda.
+1. **Senaraikan 10 perniagaan dekat rumah** â€” kedai kopi, salun, bengkel, kedai runcit.
+2. **Pergi dan borak** â€” tanya apa masalah content mereka. Dengar lebih dari bercakap.
+3. **Tawarkan percubaan murah** â€” satu video RM150 sebagai sampel. Kalau mereka suka, tawarkan pakej bulanan.
+4. **Pos hasil kerja dengan tag kedai** â€” pemilik lain akan nampak hasil anda.
 
 ## Apa yang client benar-benar perlukan
 
-- **Video yang "simple je"** — bukan sinematik gila, tapi kemas dan menampakkan produk dengan jelas.
-- **Caption dan hashtag siap** — bagi sekali siap, client akan hargai.
-- **Konsisten** — lebih penting dari sempurna. 4 video seminggu lebih bernilai dari 1 video masterpiece.
-- **Angka ringkas** — beritahu client mana video yang laku dan kenapa.
+- **Video yang "simple je"** â€” bukan sinematik gila, tapi kemas dan menampakkan produk dengan jelas.
+- **Caption dan hashtag siap** â€” bagi sekali siap, client akan hargai.
+- **Konsisten** â€” lebih penting dari sempurna. 4 video seminggu lebih bernilai dari 1 video masterpiece.
+- **Angka ringkas** â€” beritahu client mana video yang laku dan kenapa.
 
 ## Kesilapan videographer baru
 
 - Fokus pada gear mahal, lupakan content plan.
-- Satu video sahaja kemudian hilang — client nak konsisten.
+- Satu video sahaja kemudian hilang â€” client nak konsisten.
 - Tak ajar client cara guna hasil content.
 - Harga ikut jam, bukan ikut nilai (pakej bulanan lebih mudah diterima).
 

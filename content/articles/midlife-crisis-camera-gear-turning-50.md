@@ -1,4 +1,4 @@
----
+﻿---
 slug: midlife-crisis-camera-gear-turning-50
 title: >-
   Midlife Crisis Gear Shopping: What to Buy (and NOT Buy) When You're 50 and
@@ -10,7 +10,7 @@ description: >-
 image: /blog/midlife-gear.jpg
 category: gear
 readTime: 7
-date: '2026-08-06'
+date: '2026-04-09'
 tags:
   - turning-50
   - gear
@@ -59,20 +59,20 @@ If you're about to spend more than RM1,000, answer three questions out loud:
 2. How many paid jobs does it take to break even?
 3. Will it still feel smart if I never post again?
 
-If any answer is "nobody," "I don't know," or "no," put the card away. That's not gear shopping, that's panic shopping — and panic shopping has a worse interest rate than a credit card.
+If any answer is "nobody," "I don't know," or "no," put the card away. That's not gear shopping, that's panic shopping â€” and panic shopping has a worse interest rate than a credit card.
 
 ## What the money actually does
 
 Reframe gear from "something that makes me feel like a creator" to "a tool that makes clients happy." Then every purchase becomes obvious:
 
-- Client wants a video → phone + mic = RM50
-- Client wants nicer photos → used D3100 = RM450
-- Client wants professional work → used mirrorless = RM1,600
+- Client wants a video â†’ phone + mic = RM50
+- Client wants nicer photos â†’ used D3100 = RM450
+- Client wants professional work â†’ used mirrorless = RM1,600
 
 Each step is paid by the last client. That's not a shopping spree, that's a business.
 
 ## The 50th birthday rule
 
-Spend less than RM500 on your first month. Post 10 videos. If you're still posting on day 60, treat yourself to the next level of gear — with the money you earned.
+Spend less than RM500 on your first month. Post 10 videos. If you're still posting on day 60, treat yourself to the next level of gear â€” with the money you earned.
 
 The camera is the easy part. The discipline is the part nobody can sell you. And at 50, you have no excuse not to have both.

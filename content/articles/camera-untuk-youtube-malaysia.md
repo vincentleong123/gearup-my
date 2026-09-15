@@ -1,13 +1,13 @@
----
+﻿---
 slug: camera-untuk-youtube-malaysia
 title: >-
   Camera Untuk YouTube Malaysia: Setup Terbaik Dari RM500
 description: >-
-  Nak mula buat YouTube dari Malaysia? Ini kamera, mic, dan lighting terbaik untuk YouTuber pemula — dengan harga sebenar dalam RM.
+  Nak mula buat YouTube dari Malaysia? Ini kamera, mic, dan lighting terbaik untuk YouTuber pemula â€” dengan harga sebenar dalam RM.
 image: /blog/youtube-camera-setup.jpg
 category: guide
 readTime: 10
-date: '2026-08-18'
+date: '2026-07-11'
 tags:
   - youtube camera
   - youtube malaysia
@@ -24,14 +24,14 @@ YouTube memerlukan lebih dari sekadar kamera. Anda perlu audio yang jelas, penca
 
 ## Apa yang YouTube perlukan dari segi teknikal
 
-1. **Video sekurang-kurangnya 1080p 30fps** — 4K bagus tapi bukan wajib untuk mula.
-2. **Audio yang jelas** — Penonton boleh maafkan video kurang baik, tapi bukan audio teruk.
-3. **Pencahayaan yang cukup** — Muka yang gelap = penonton tutup.
-4. **Stabilisasi** — Untuk talking head, tripod sudah cukup. Untuk vlogging, kamera perlu stabil.
+1. **Video sekurang-kurangnya 1080p 30fps** â€” 4K bagus tapi bukan wajib untuk mula.
+2. **Audio yang jelas** â€” Penonton boleh maafkan video kurang baik, tapi bukan audio teruk.
+3. **Pencahayaan yang cukup** â€” Muka yang gelap = penonton tutup.
+4. **Stabilisasi** â€” Untuk talking head, tripod sudah cukup. Untuk vlogging, kamera perlu stabil.
 
 ## Setup YouTube mengikut bajet
 
-### Bajet RM500 — Phone + aksesori
+### Bajet RM500 â€” Phone + aksesori
 - **Kamera:** Phone anda (iPhone/Android)
 - **Mic:** Boya BY-M1 (RM50)
 - **Ring light:** RM30
@@ -40,8 +40,8 @@ YouTube memerlukan lebih dari sekadar kamera. Anda perlu audio yang jelas, penca
 
 **Cukup untuk:** Talking head, tutorial, review ringan.
 
-### Bajet RM1,500 — Kamera dedicated
-- **Kamera:** Canon EOS M50 Mark II second hand (RM1,200–1,600)
+### Bajet RM1,500 â€” Kamera dedicated
+- **Kamera:** Canon EOS M50 Mark II second hand (RM1,200â€“1,600)
 - **Mic:** Boya BY-M1 (RM50)
 - **Ring light:** RM50
 - **Tripod:** RM40
@@ -49,12 +49,12 @@ YouTube memerlukan lebih dari sekadar kamera. Anda perlu audio yang jelas, penca
 
 **Cukup untuk:** Video berkualiti baik, talking head, product review.
 
-### Bajet RM3,000 — Setup serious
-- **Kamera:** Sony A6100 second hand (RM1,400–1,900)
+### Bajet RM3,000 â€” Setup serious
+- **Kamera:** Sony A6100 second hand (RM1,400â€“1,900)
 - **Mic:** Rode VideoMicro II (RM250)
 - **Lighting:** Elgato Key Light Mini (RM300) atau 2x ring light (RM100)
 - **Tripod:** Manfrotto Compact (RM150)
-- **Jumlah:** ~RM2,100–2,700
+- **Jumlah:** ~RM2,100â€“2,700
 
 **Cukup untuk:** Channel profesional, product review, vlogging.
 
@@ -72,12 +72,12 @@ YouTube memerlukan lebih dari sekadar kamera. Anda perlu audio yang jelas, penca
 
 Anda tak perlu studio rakaman. Yang anda perlukan:
 
-1. **Ring light RM30–50** — Cukup untuk muka yang terang dan sekata.
-2. **Letak di belakang phone/kamera** — Cahaya tepat di belakang lensa = muka tanpa bayang.
-3. **Elak cahaya dari belakang anda** — Jika tingkap di belakang, tutup langsir.
+1. **Ring light RM30â€“50** â€” Cukup untuk muka yang terang dan sekata.
+2. **Letak di belakang phone/kamera** â€” Cahaya tepat di belakang lensa = muka tanpa bayang.
+3. **Elak cahaya dari belakang anda** â€” Jika tingkap di belakang, tutup langsir.
 
 ## Kesimpulan
 
-Mula dengan phone + Boya BY-M1. Bila content mula dapat views, upgrade ke kamera dedicated. Jangan tunggu setup sempurna — mula sekarang, upgrade kemudian.
+Mula dengan phone + Boya BY-M1. Bila content mula dapat views, upgrade ke kamera dedicated. Jangan tunggu setup sempurna â€” mula sekarang, upgrade kemudian.
 
 Baca juga: [Best vlogging camera Malaysia](/blog/best-vlogging-camera-malaysia-2026) untuk perbandingan kamera video, atau [Cara buat duit dengan photography](/blog/cara-buat-duit-dengan-photography) untuk 10 sumber pendapatan photographer.

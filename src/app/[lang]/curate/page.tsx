@@ -92,7 +92,7 @@ export default async function CuratePage({ params }: Props) {
           {/* Hashtag bank */}
           <div className="mt-12">
             <h2 className="text-2xl font-bold mb-3">#️⃣ <T k="curate.bankHead" en="The hashtag bank" /></h2>
-            <p className="text-zinc-500 text-sm mb-5"><T k="curate.bankDesc" en="One-click mining. Open any tag on Instagram or TikTok and study the top posts." /></p>
+            <p className="text-zinc-200 text-sm mb-5"><T k="curate.bankDesc" en="One-click mining. Open any tag on Instagram or TikTok and study the top posts." /></p>
             <div className="flex flex-wrap gap-2">
               {topics.flatMap(t => t.hashtags.slice(0, 2)).map((tag, i) => (
                 <a

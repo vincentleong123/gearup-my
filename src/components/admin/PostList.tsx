@@ -151,7 +151,7 @@ export default function PostList({ typeId }: { typeId: string }) {
                       Edit
                     </Link>
                     <a
-                      href={withLang(p.lang || 'en', `/${typeId === 'securitySystem' ? 'security' : 'blog'}/${p.slug}`)}
+                      href={withLang(p.lang || 'en', `/${typeId === 'securitySystem' ? 'security' : typeId === 'gear' ? 'gear' : 'blog'}/${p.slug}`)}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-zinc-400 hover:text-zinc-700 mr-3"

@@ -41,10 +41,11 @@ export async function PUT(request: Request, { params }: Ctx) {
   }
 
   const body = (await request.json().catch(() => ({}))) as { values?: Record<string, unknown> };
-  if (!body.values?.title) return NextResponse.json({ error: 'Title is required' }, { status: 400 });
+  if (!body.values?.[type.titleField || 'title']) return NextResponse.json({ error: 'Title is required' }, { status: 400 });
 
   const saved = await savePost(type, slug, body.values);
-  const commit = await commitContent(`cms: update ${type.singular.toLowerCase()} "${body.values.title}"`);
+  const title = String(body.values[type.titleField || 'title'] || '');
+  const commit = await commitContent(`cms: update ${type.singular.toLowerCase()} "${title}"`);
 
   return NextResponse.json({ ok: true, slug, fileName: saved.fileName, changed: saved.changed, commit });
 }

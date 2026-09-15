@@ -46,7 +46,7 @@ function Stats({ articles }: { articles: Article[] }) {
       ].map(s => (
         <div key={s.label} className="bg-zinc-900/60 border border-zinc-800 rounded-xl p-4 text-center">
           <div className={`text-2xl font-black ${s.color}`}>{s.value}</div>
-          <div className="text-xs text-zinc-500 mt-1">{s.label}</div>
+          <div className="text-xs text-zinc-200 mt-1">{s.label}</div>
         </div>
       ))}
     </div>
@@ -65,12 +65,12 @@ function ArticleTable({ articles, lang }: { articles: Article[]; lang: string })
           <div key={cat}>
             <div className="flex items-center gap-3 mb-4">
               <h2 className="text-xl font-black capitalize">{cat}</h2>
-              <span className="text-xs font-bold px-2.5 py-1 rounded-full bg-zinc-800 text-zinc-400 border border-zinc-700/50">{catArticles.length}</span>
+              <span className="text-xs font-bold px-2.5 py-1 rounded-full bg-zinc-800 text-zinc-200 border border-zinc-700/50">{catArticles.length}</span>
             </div>
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="border-b border-zinc-800 text-zinc-500 text-left">
+                  <tr className="border-b border-zinc-800 text-zinc-200 text-left">
                     <th className="pb-2 font-semibold">Title</th>
                     <th className="pb-2 font-semibold hidden sm:table-cell">Lang</th>
                     <th className="pb-2 font-semibold hidden md:table-cell">Read</th>
@@ -86,8 +86,8 @@ function ArticleTable({ articles, lang }: { articles: Article[]; lang: string })
                         <Link href={withLang(a.lang ?? lang, `/blog/${a.slug}`)} className="font-semibold text-zinc-100 hover:text-emerald-400 transition-colors line-clamp-1">
                           {a.title}
                         </Link>
-                        <div className="text-xs text-zinc-500 mt-0.5 line-clamp-1">{a.description}</div>
-                        <div className="text-[11px] text-zinc-600 mt-0.5 sm:hidden">{a.lang?.toUpperCase() ?? 'EN'} · {a.readTime}min</div>
+                        <div className="text-xs text-zinc-200 mt-0.5 line-clamp-1">{a.description}</div>
+                        <div className="text-xs text-zinc-300 mt-0.5 sm:hidden">{a.lang?.toUpperCase() ?? 'EN'} · {a.readTime}min</div>
                       </td>
                       <td className="py-3 hidden sm:table-cell">
                         <span className={`text-xs font-bold px-2 py-0.5 rounded ${
@@ -97,21 +97,21 @@ function ArticleTable({ articles, lang }: { articles: Article[]; lang: string })
                           {a.lang?.toUpperCase() ?? 'EN'}
                         </span>
                       </td>
-                      <td className="py-3 text-zinc-400 hidden md:table-cell">{a.readTime} min</td>
+                      <td className="py-3 text-zinc-200 hidden md:table-cell">{a.readTime} min</td>
                       <td className="py-3 hidden md:table-cell">
                         <div className="flex flex-wrap gap-1 max-w-[200px]">
                           {a.tags.slice(0, 3).map(t => (
-                            <span key={t} className="text-[10px] text-zinc-500 bg-zinc-800/60 px-1.5 py-0.5 rounded">#{t}</span>
+                            <span key={t} className="text-xs text-zinc-200 bg-zinc-800/60 px-1.5 py-0.5 rounded">#{t}</span>
                           ))}
-                          {a.tags.length > 3 && <span className="text-[10px] text-zinc-600">+{a.tags.length - 3}</span>}
+                          {a.tags.length > 3 && <span className="text-xs text-zinc-300">+{a.tags.length - 3}</span>}
                         </div>
                       </td>
-                      <td className="py-3 text-zinc-500 text-xs hidden lg:table-cell">{a.relatedGear.length}</td>
+                      <td className="py-3 text-zinc-200 text-xs hidden lg:table-cell">{a.relatedGear.length}</td>
                       <td className="py-3 hidden lg:table-cell">
                         {a.qaPairs && a.qaPairs.length > 0 ? (
                           <span className="text-xs font-bold px-2 py-0.5 rounded bg-green-500/15 text-green-400 border border-green-500/30">{a.qaPairs.length}</span>
                         ) : (
-                          <span className="text-xs text-zinc-600">—</span>
+                          <span className="text-xs text-zinc-300">—</span>
                         )}
                       </td>
                     </tr>
@@ -155,11 +155,11 @@ export default async function AllArticlesPage({ params }: Props) {
 
           {/* Cross-links footer */}
           <div className="mt-16 pt-8 border-t border-zinc-800">
-            <p className="text-sm text-zinc-600 text-center">
+            <p className="text-sm text-zinc-300 text-center">
               More projects by this creator:{' '}
-              <a href="https://xmelayu.site" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-white underline underline-offset-2 transition-colors">xmelayu.site</a>
+              <a href="https://xmelayu.site" target="_blank" rel="noopener noreferrer" className="text-zinc-200 hover:text-white underline underline-offset-2 transition-colors">xmelayu.site</a>
               {' '}&{' '}
-              <a href="https://superxhentai.com" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-white underline underline-offset-2 transition-colors">superxhentai.com</a>
+              <a href="https://superxhentai.com" target="_blank" rel="noopener noreferrer" className="text-zinc-200 hover:text-white underline underline-offset-2 transition-colors">superxhentai.com</a>
             </p>
           </div>
         </div>

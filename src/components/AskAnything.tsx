@@ -61,7 +61,7 @@ export default function AskAnything({
         </svg>
         <h3 className="font-bold text-white">Ask Anything About This Article</h3>
       </div>
-      <p className="text-xs text-zinc-500 mb-4">Powered by Gemini AI. Answers are AI-generated and may not be 100% accurate.</p>
+      <p className="text-xs text-zinc-200 mb-4">Powered by Gemini AI. Answers are AI-generated and may not be 100% accurate.</p>
 
       <div className="flex gap-3">
         <input
@@ -70,7 +70,7 @@ export default function AskAnything({
           onChange={(e) => setQuestion(e.target.value)}
           onKeyDown={(e) => e.key === 'Enter' && handleAsk()}
           placeholder="e.g. Can I use this camera for wedding photography?"
-          className="flex-1 bg-zinc-800/60 border border-zinc-700 rounded-xl px-4 py-3 text-sm text-white placeholder:text-zinc-500 focus:outline-none focus:border-purple-500/50 focus:ring-1 focus:ring-purple-500/25 transition-all"
+          className="flex-1 bg-zinc-800/60 border border-zinc-700 rounded-xl px-4 py-3 text-sm text-white placeholder:text-zinc-200 focus:outline-none focus:border-purple-500/50 focus:ring-1 focus:ring-purple-500/25 transition-all"
           disabled={loading}
         />
         <button
@@ -95,10 +95,10 @@ export default function AskAnything({
       {answer && (
         <div className="mt-4 p-5 bg-zinc-800/40 border border-zinc-700/50 rounded-xl">
           <div className="flex items-center gap-2 mb-2">
-            <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-purple-500/10 text-purple-400 border border-purple-500/30 uppercase tracking-wider">
+            <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-purple-500/10 text-purple-400 border border-purple-500/30 uppercase tracking-wider">
               Gemini AI
             </span>
-            <span className="text-[10px] text-zinc-600">Answer</span>
+            <span className="text-xs text-zinc-300">Answer</span>
           </div>
           <p className="text-sm text-zinc-200 leading-relaxed whitespace-pre-wrap">{answer}</p>
         </div>

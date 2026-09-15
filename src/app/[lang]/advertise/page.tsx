@@ -107,7 +107,7 @@ export default async function AdvertisePage({ params }: Props) {
                   <h3 className="text-lg font-bold">{f.name}</h3>
                   <span className="text-sm font-black text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-pink-500">{f.price}</span>
                 </div>
-                <p className="text-xs text-zinc-500 uppercase tracking-wider mb-2">{f.format}</p>
+                <p className="text-xs text-zinc-200 uppercase tracking-wider mb-2">{f.format}</p>
                 <p className="text-sm text-zinc-200">{f.detail}</p>
               </div>
             ))}
@@ -171,7 +171,7 @@ export default async function AdvertisePage({ params }: Props) {
               </details>
             </div>
             <div className="text-center mt-10">
-              <p className="text-zinc-500 text-sm mb-3"><T k="advertise.talk" en="Prefer to talk first? Email us and we'll reply within 48 hours." /></p>
+              <p className="text-zinc-200 text-sm mb-3"><T k="advertise.talk" en="Prefer to talk first? Email us and we'll reply within 48 hours." /></p>
               <Link href={withLang(lang, '/')} className="text-pink-400 hover:text-pink-300 font-semibold underline underline-offset-2"><T k="advertise.back" en="← Back to Kameralog" /></Link>
             </div>
           </div>

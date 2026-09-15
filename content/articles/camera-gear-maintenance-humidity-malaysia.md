@@ -1,4 +1,4 @@
----
+﻿---
 slug: camera-gear-maintenance-humidity-malaysia
 title: 'Fungus, Haze & Sticky Buttons: Caring for Camera Gear in Malaysian Humidity'
 description: >-
@@ -8,7 +8,7 @@ description: >-
 image: /blog/camera-humidity.jpg
 category: guide
 readTime: 8
-date: '2026-07-31'
+date: '2026-02-12'
 tags:
   - maintenance
   - fungus

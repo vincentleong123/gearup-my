@@ -1,4 +1,4 @@
----
+﻿---
 slug: cctv-installer-gig-side-hustle-malaysia
 title: >-
   CCTV Installer Gig Side Hustle Malaysia 2026: RM150-400 Per Camera, No License
@@ -10,7 +10,7 @@ description: >-
 image: /blog/cctv-installer-gig-side-hustle-malaysia.jpg
 category: inspiration
 readTime: 10
-date: '2026-08-12'
+date: '2026-06-04'
 tags:
   - cctv
   - side hustle
@@ -55,7 +55,7 @@ The most profitable skill in the Malaysian gig economy in 2026 is not photograph
 
 ## The market nobody is serving
 
-Right now, hundreds of thousands of cheap CCTV cameras are being sold in Malaysia — and most of them are being installed wrong, or not at all. The buyers are:
+Right now, hundreds of thousands of cheap CCTV cameras are being sold in Malaysia â€” and most of them are being installed wrong, or not at all. The buyers are:
 
 - **Shop owners** who bought a camera on Shopee and never managed to set it up
 - **Elderly homeowners** whose kids bought them a camera and then left the country
@@ -69,11 +69,11 @@ The irony: the camera costs RM80, the installation they cannot do is worth RM150
 A CCTV installer gig is deceptively simple:
 
 1. Unbox the camera, read the mount
-2. Fix it to a wall, ceiling or roof eave (drill, anchor, screw — or use the 3M mount indoors)
+2. Fix it to a wall, ceiling or roof eave (drill, anchor, screw â€” or use the 3M mount indoors)
 3. Run the cable to a power socket (or install a 5V junction box outdoors)
 4. Connect it to the customer's Wi-Fi via the app
 5. Set up the microSD card, motion alerts and the phone app for them
-6. Demo it: "watch this — when someone walks in, your phone beeps"
+6. Demo it: "watch this â€” when someone walks in, your phone beeps"
 
 Total time for an experienced installer: 30-60 minutes per indoor camera, 60-90 minutes for outdoor.
 
@@ -90,11 +90,11 @@ A weekend doing two outdoor installs at RM180 each covers your tools, your trans
 
 ## What you need to start (under RM200)
 
-- **A drill and masonry bits** — RM80-150. You need to drill brick for outdoor mounts
-- **A demo camera** — your own Tapo C210 or C120, RM79-89. It proves the concept and shows the customer the end result
-- **A step ladder** — most people have one
-- **Cable clips, cable ties, a small ladder, double-sided 3M tape for indoor** — under RM30
-- **A WhatsApp business profile** — free
+- **A drill and masonry bits** â€” RM80-150. You need to drill brick for outdoor mounts
+- **A demo camera** â€” your own Tapo C210 or C120, RM79-89. It proves the concept and shows the customer the end result
+- **A step ladder** â€” most people have one
+- **Cable clips, cable ties, a small ladder, double-sided 3M tape for indoor** â€” under RM30
+- **A WhatsApp business profile** â€” free
 
 That is it. No certification, no license, no insurance beyond your own basic third-party cover (worth getting once you are doing outdoor work on ladders).
 
@@ -102,13 +102,13 @@ That is it. No certification, no license, no insurance beyond your own basic thi
 
 1. **Walk into shops.** 20% of shops in your area have a camera mounted wrong or not installed. Offer: "I set up CCTV for RM120, done in an hour."
 2. **Post in your neighbourhood group.** Facebook groups and the condo/landed community WhatsApp are gold. "CCTV setup, RM100-180, done today, KL area."
-3. **Offer a free setup to one shop owner** in exchange for a photo and a review — that review closes the next 10 jobs.
-4. **Door-hang flyers** in shop lots — targeting the back-room camera owners.
-5. **Ask every client for a referral** — landlords and shop owners know each other.
+3. **Offer a free setup to one shop owner** in exchange for a photo and a review â€” that review closes the next 10 jobs.
+4. **Door-hang flyers** in shop lots â€” targeting the back-room camera owners.
+5. **Ask every client for a referral** â€” landlords and shop owners know each other.
 
 ## The upsell that doubles your money
 
-Once you are trusted, the same customer needs: storage upgrades (sell them a 256GB high-endurance card you supply, +RM50), a second camera (they will say "can you do the back room too?" — always say yes, same day), and cleaning/re-alignment visits (+RM50-80). Your average invoice goes from RM120 to RM250 in one relationship.
+Once you are trusted, the same customer needs: storage upgrades (sell them a 256GB high-endurance card you supply, +RM50), a second camera (they will say "can you do the back room too?" â€” always say yes, same day), and cleaning/re-alignment visits (+RM50-80). Your average invoice goes from RM120 to RM250 in one relationship.
 
 ## Why this beats photography gigs for beginners
 
@@ -119,11 +119,11 @@ Once you are trusted, the same customer needs: storage upgrades (sell them a 256
 
 ## Gray import and quality tips (protect your reputation)
 
-- Only install cameras with **local warranty** — buy from official stores. If the camera dies in 6 months, your name is attached to it
+- Only install cameras with **local warranty** â€” buy from official stores. If the camera dies in 6 months, your name is attached to it
 - Tell the customer upfront: budget Wi-Fi cameras are good, but a 5MP outdoor unit sees more than a 2MP one. Let them choose
-- Never promise 24/7 cloud recording — set them up with SD storage instead, and explain the difference honestly
-- Test the angle from the **approach path** — the customer will thank you later
+- Never promise 24/7 cloud recording â€” set them up with SD storage instead, and explain the difference honestly
+- Test the angle from the **approach path** â€” the customer will thank you later
 
 ## The bottom line
 
-CCTV installation is the fastest-paying entry-level gig in Malaysia right now. Learn it in one afternoon, kit up for under RM200, and charge RM80-200 per camera to a market that is growing every month. Start with one camera on your own wall — install it, admire it, then go pitch the shop next door. That shop is your first client, and they are closer than you think.
+CCTV installation is the fastest-paying entry-level gig in Malaysia right now. Learn it in one afternoon, kit up for under RM200, and charge RM80-200 per camera to a market that is growing every month. Start with one camera on your own wall â€” install it, admire it, then go pitch the shop next door. That shop is your first client, and they are closer than you think.

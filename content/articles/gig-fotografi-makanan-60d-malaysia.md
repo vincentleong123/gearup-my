@@ -1,14 +1,14 @@
----
+﻿---
 slug: gig-fotografi-makanan-60d-malaysia
 title: 'Gig Fotografi Makanan: Guna Kit Lens 18-55 & Cahaya Tingkap Sahaja'
 description: >-
-  Kit lens anda bukan "sampah" — untuk makanan ia sebenarnya cukup. Kopitiam dan
+  Kit lens anda bukan "sampah" â€” untuk makanan ia sebenarnya cukup. Kopitiam dan
   cafe kecil bayar RM150-400 untuk gambar dan content. Do what, contoh job, dan
   berapa gig untuk naik taraf gear.
 image: /blog/gig-fotografi-makanan-60d-malaysia.jpg
 category: guide
 readTime: 9
-date: '2026-08-10'
+date: '2026-05-02'
 tags:
   - makanan
   - gig
@@ -21,13 +21,13 @@ relatedGear:
   - budget-lighting-setup-content-creation-malaysia
 lang: ms
 ---
-Setiap orang perlu makan. Dan setiap cafe, kopitiam, dan restoran kecil di Malaysia perlukan gambar yang membuat orang lapar. Gig makanan adalah pintu masuk paling lembut untuk pemula — dan untuk kerja ini, kit lens 18-55mm anda adalah lebih dari cukup.
+Setiap orang perlu makan. Dan setiap cafe, kopitiam, dan restoran kecil di Malaysia perlukan gambar yang membuat orang lapar. Gig makanan adalah pintu masuk paling lembut untuk pemula â€” dan untuk kerja ini, kit lens 18-55mm anda adalah lebih dari cukup.
 
 ## Do what: apa kerja sebenarnya
 
 Gig makanan untuk cafe/restoran kecil:
 
-1. Ambil gambar hidangan ikut menu — biasanya 8-15 hidangan.
+1. Ambil gambar hidangan ikut menu â€” biasanya 8-15 hidangan.
 2. Tambah beberapa content video (reels 15-30 saat) jika diminta.
 3. Edit ringan dan hantar dalam 3-5 hari.
 
@@ -70,25 +70,25 @@ Satu sesi RM300 hampir menampung flash + tripod anda.
 - Reflektor mini RM30 (penting untuk makanan)
 - Tripod kecil RM80 (untuk flat lay dan video)
 - (Pilihan) lampu LED RM150 untuk sesi malam
-- Tisu dan minyak — bersihkan hidangan supaya nampak segar
+- Tisu dan minyak â€” bersihkan hidangan supaya nampak segar
 
 ## Teknik makanan yang buat client jatuh cinta
 
-- **Cari cahaya tingkap** — cahaya semula jadi paling sedap untuk makanan.
-- **Sudut 45 darjah** — sudut paling menarik untuk hidangan.
-- **Tangkap wap** — wap panas buat makanan hidup.
-- **Komposisi ringkas** — jangan penuhkan bingkai.
-- **Jangan edit berlebihan** — makanan kelihatan "plastik" jika over-saturate.
+- **Cari cahaya tingkap** â€” cahaya semula jadi paling sedap untuk makanan.
+- **Sudut 45 darjah** â€” sudut paling menarik untuk hidangan.
+- **Tangkap wap** â€” wap panas buat makanan hidup.
+- **Komposisi ringkas** â€” jangan penuhkan bingkai.
+- **Jangan edit berlebihan** â€” makanan kelihatan "plastik" jika over-saturate.
 
 ## Cara dapat client pertama
 
 1. **Pilih 5 cafe berdekatan** yang Instagramnya kurang kemas.
-2. **Kunjungi dan borak dengan pemilik** — tawarkan satu hidangan percuma sebagai sample.
-3. **Hasilkan content sebenar** — gambar + caption + hashtag siap.
-4. **Pos dan tag cafe** — pemilik lain akan nampak hasil anda.
+2. **Kunjungi dan borak dengan pemilik** â€” tawarkan satu hidangan percuma sebagai sample.
+3. **Hasilkan content sebenar** â€” gambar + caption + hashtag siap.
+4. **Pos dan tag cafe** â€” pemilik lain akan nampak hasil anda.
 
 ## Kesimpulan
 
-Gig makanan menggunakan gear paling sederhana yang anda ada: kit lens 18-55 dan cahaya semula jadi. RM150-400 sesi, keseronokan sebenar, dan satu bonus — anda sentiasa kenyang.
+Gig makanan menggunakan gear paling sederhana yang anda ada: kit lens 18-55 dan cahaya semula jadi. RM150-400 sesi, keseronokan sebenar, dan satu bonus â€” anda sentiasa kenyang.
 
 7-8 gig makanan dan A6100 terpakai adalah milik anda, tanpa hutang.

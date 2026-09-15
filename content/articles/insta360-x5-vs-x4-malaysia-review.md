@@ -1,4 +1,4 @@
----
+﻿---
 slug: insta360-x5-vs-x4-malaysia-review
 title: 'Insta360 X5 vs X4: Is the Upgrade Worth RM1,000?'
 description: >-
@@ -8,7 +8,7 @@ description: >-
 image: /blog/x5-vs-x4.jpg
 category: comparison
 readTime: 7
-date: '2026-07-28'
+date: '2026-02-05'
 tags:
   - comparison
   - insta360
@@ -18,48 +18,58 @@ relatedGear:
   - insta360-x5-review-malaysia
   - insta360-x4-review-malaysia
 ---
-The Insta360 X5 landed in 2026 and it's the biggest X-series upgrade since the X3 became X4. But is it worth upgrading if you already own an X4? For new buyers, is the extra RM1,000 justified?
+Kau tahu tak 360 camera ni macam apa? Macam kau shoot satu video tapi boleh pilih sudut mana kau nak tengok lepas tu. Masa depan content semua nak 360, dan Insta360 baru je launch X5 yang memang powerful gila. Tapi persoalannya, kalau kau dah ada X4, patut kau upgrade? Dan kalau kau belum ada 360 camera, patut kau terus ambil X5?
 
-Here's the honest split.
+Aku sendiri pakai X4 untuk beberapa bulan, dan lepas try X5, memang nampak beza. Tapi beza tu worth it ke tak? Aku cerita semua ni dalam rencana ni.
 
-## What the X5 fixes
+## Yang X5 betul-betul bezakan
 
-The X5's headline upgrade is a **1-inch sensor** — the first in an X-series camera. In plain terms: noticeably better low light, cleaner 8K footage, and less noise than the X4's 1/2-inch sensor.
+X5 punya headline upgrade ialah **1-inch sensor** — first time dalam X-series camera. Dalam bahasa mudah: low light lebih baik, footage 8K lebih clean, dan noise kurang dari sensor 1/2-inch X4.
 
-**Other real upgrades:**
-- **8K 30fps 360 footage** (up from 5.7K on the X4)
-- **Battery-free internal storage option** — buy the 1TB model and you never swap cards
-- **Better mic array** with directional audio for vloggers
-- **Faster stitching and reframing** in the Insta360 app
-- Longer battery life per charge
+**Lain-lain upgrade yang real:**
+- **8K 30fps 360 footage** (naik dari 5.7K pada X4)
+- **Battery-free internal storage** — beli model 1TB dan kau tak perlu tukar card
+- **Mic array lebih baik** dengan audio directional untuk vlogger
+- **Stitching dan reframing lebih laju** dalam Insta360 app
+- Bateri tahan lebih lama setiap cas
 
-**What hasn't changed much:** the invisible selfie stick trick (same concept), the general workflow, and the accessory mount compatibility with the X4.
+**Yang tak banyak berubah:** selfie stick invisible trick (konsep sama), workflow umum, dan accessory mount compatible dengan X4.
 
-## The price gap
+## Harga gap
 
-- **X4:** RM2,199 new, RM1,500-1,800 used
-- **X5:** RM2,999 new, RM2,400-2,600 used
-- **Difference:** RM800-1,000
+- **X4:** RM2,199 baru, RM1,500-1,800 used
+- **X5:** RM2,999 baru, RM2,400-2,600 used
+- **Beza:** RM800-1,000
 
-That RM1,000 buys the 1-inch sensor (better night shots, less noise in indoor content) and cleaner 8K. If you shoot real estate, weddings, or night market content — the X5 is worth it. If you shoot outdoors in daylight — the X4 still delivers.
+RM1,000 tu beli sensor 1-inch (gambar malam lebih baik, noise kurang dalam content indoor) dan 8K yang lebih clean. Kalau kau shoot real estate, wedding, atau content Pasar Malam — X5 berbaloi. Kalau kau shoot outdoor siang hari — X4 masih deliver.
 
-## Should you upgrade?
+**Real talk:** Masa aku try X5 masa shooting event indoor, beza dia memang nampak. Sensor 1-inch tu gelap-gelap pun still boleh dapat footage yang clear. X4 kalau shoot dalam dewan yang redup, agak noise sikit. Tapi kalau kau hanya shoot outdoor, memang tak nampak beza pun.
 
-**Upgrade to X5 if you:**
-- Shoot indoor content (food reviews, showrooms, night markets) where low light matters
-- Deliver 8K to clients who care about resolution
-- Vlog with the 360 cam and want better audio
-- Are annoyed by X4's battery life
+## Patut upgrade?
 
-**Keep your X4 if you:**
-- Shoot mostly daylight content (travel, cars, outdoor events)
-- Deliver in 4K anyway (most social media)
-- Want to spend the money on an X5-style invisible-stick third-party accessory instead
+**Upgrade ke X5 kalau kau:**
+- Shoot content indoor (review makanan, showroom, Pasar Malam) yang low light penting
+- Hantar 8K kepada klien yang peduli tentang resolution
+- Vlog pakai 360 cam dan nak audio lebih baik
+- Bateri X4 buat kau sakit hati
 
-## The new-buyer verdict
+**Kekalkan X4 kalau kau:**
+- Shoot mostly content outdoor (travel, kereta, event outdoor)
+- Hantar dalam 4K je (kebanyakan social media)
+- Nak guna duit tu untuk beli third-party invisible stick accessory sebagai ganti
 
-If you have no 360 camera: **buy the X5.** The 1-inch sensor is a genuine step up and you'll keep it for years.
+## Apa Vincent sebenarnya guna?
 
-If you already have an X4: the X5 is a real upgrade, not a cash grab — but it's only worth it if you shoot the kind of content the bigger sensor helps. Light-dependent creators: upgrade. Daylight shooters: hold on.
+Ok aku cerita jujur. Untuk outdoor shoots, aku pakai X4 je sebab aku tak rasa beza yang justify RM1,000 lebih. Tapi untuk indoor shoots — review restoran, event dalam dewan — aku memang ambil X5. Sensor 1-inch tu buat footage aku nampak lebih professional, dan klien pun boleh nampak beza.
 
-The X4 is still one of the best value 360 cameras on the used market.
+Satu lagi pasal X5 ni, internal storage dia memang kureng memanjakan kau. Tak perlu fikir pasal card, simpan je semua dalam camera. Aku pernah lupa bawa card masa shoot event — nasib baik X5 punya storage ada. Kalau X4, memang mati.
+
+## Verdict untuk pembeli baru
+
+Kalau kau belum ada 360 camera: **beli X5.** Sensor 1-inch tu genuine step up dan kau akan guna bertahun-tahun.
+
+Kalau kau dah ada X4: X5 tu real upgrade, bukan cash grab — tapi hanya worth it kalau kau shoot content yang sensor besar bantu. Yang selalu shoot siang, stay dengan X4 dulu.
+
+X4 masih antara best value 360 camera di pasaran used. Jadi kalau bajet ketat, X4 second hand RM1,500-1,800 tu memang power habis untuk content creator yang baru nak start. Tapi kalau kau memang nak the best dan kau boleh afford, X5 ni macam investasi untuk masa depan content kau.
+
+Satu lagi benda yang orang tak cakap: X5 tu future-proof. Dalam setahun dua, content 8K akan jadi standard. Jadi kalau kau nak kamera yang tahan lama, X5 ni pilihan yang bijak berbanding X4 yang mungkin kena upgrade lagi nanti.

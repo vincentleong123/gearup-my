@@ -1,4 +1,4 @@
----
+﻿---
 slug: wedding-videography-side-hustle-malaysia
 title: >-
   Wedding Videography in Malaysia: The RM1,500-3,000/Event Side Hustle Nobody
@@ -10,7 +10,7 @@ description: >-
 image: /blog/wedding-video.jpg
 category: inspiration
 readTime: 11
-date: '2026-08-02'
+date: '2026-03-02'
 tags:
   - wedding
   - video

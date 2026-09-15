@@ -1,14 +1,14 @@
----
+﻿---
 slug: gig-konvokesyen-canon-60d-malaysia
 title: 'Gig Konvokesyen Guna Canon 60D: Do What, Harga & Contoh Job Sebenar'
 description: >-
   Konvokesyen adalah pintu masuk gig terbaik untuk pemilik 60D: RM200-450 untuk
-  1-2 jam kerja, permintaan berulang setiap musim. Ini panduan lengkap — apa
+  1-2 jam kerja, permintaan berulang setiap musim. Ini panduan lengkap â€” apa
   kerja, berapa bayaran, contoh job, dan berapa konvo untuk bayar Sony A6100.
 image: /blog/gig-konvokesyen-canon-60d-malaysia.jpg
 category: guide
 readTime: 10
-date: '2026-08-10'
+date: '2026-05-12'
 tags:
   - konvokesyen
   - gig
@@ -21,13 +21,13 @@ relatedGear:
   - camera-paid-for-part-time-gigs-malaysia
 lang: ms
 ---
-Setiap musim konvokesyen di Malaysia — UITM, UM, UKM, UPM, dan berpuluh kolej swasta — beratus-ratus graduan perlukan jurugambar. Tempoh pendek, subjek statik, bayaran segera. Ini gig pertama yang paling sesuai untuk anda yang ada Canon 60D.
+Setiap musim konvokesyen di Malaysia â€” UITM, UM, UKM, UPM, dan berpuluh kolej swasta â€” beratus-ratus graduan perlukan jurugambar. Tempoh pendek, subjek statik, bayaran segera. Ini gig pertama yang paling sesuai untuk anda yang ada Canon 60D.
 
 ## Do what: apa kerja sebenarnya
 
 Kerja jurugambar konvokesyen ringkas:
 
-1. Ambil gambar graduan dalam jubah — solo, dengan keluarga, dengan kawan.
+1. Ambil gambar graduan dalam jubah â€” solo, dengan keluarga, dengan kawan.
 2. Kedudukan khas: bergambar di depan bangku, pentas, atau tanda universiti.
 3. Ambil 30-50 gambar dalam 1-2 jam.
 4. Edit ringan (crop, warna) dan hantar 15-25 gambar terbaik dalam masa 3 hari.
@@ -76,18 +76,18 @@ Musim konvokesyen berlangsung 2-4 minggu. 2 sesi seminggu = 4-8 sesi = **RM1,200
 
 ## Cara dapat client pertama
 
-1. **Sasarkan 3 universiti berdekatan** — check tarikh konvokesyen di laman universiti.
-2. **Pos di Facebook group kampus** — "Jurugambar konvokesyen, sesi 1 jam, RM250, edit dalam 3 hari."
+1. **Sasarkan 3 universiti berdekatan** â€” check tarikh konvokesyen di laman universiti.
+2. **Pos di Facebook group kampus** â€” "Jurugambar konvokesyen, sesi 1 jam, RM250, edit dalam 3 hari."
 3. **Tawarkan harga intro** untuk 3 client pertama (RM200) demi portfolio dan testimoni.
-4. **Minta rujukan** — setiap graduan yang puas hati bawakan 1-2 kawan.
+4. **Minta rujukan** â€” setiap graduan yang puas hati bawakan 1-2 kawan.
 
 ## Kesilapan yang perlu dielakkan
 
-- **Janji terlalu banyak** — 30 gambar dalam 45 minit tak realistik. Terus terang tentang masa.
-- **Lupa backup** — shoot ke 2 kad memori atau salin segera selepas sesi.
-- **Harga murah sangat** — RM80 tarik client yang susah dan merendahkan pasaran.
-- **Deliver lambat** — graduan nak gambar sebelum hantar resume. 3 hari maksimum.
+- **Janji terlalu banyak** â€” 30 gambar dalam 45 minit tak realistik. Terus terang tentang masa.
+- **Lupa backup** â€” shoot ke 2 kad memori atau salin segera selepas sesi.
+- **Harga murah sangat** â€” RM80 tarik client yang susah dan merendahkan pasaran.
+- **Deliver lambat** â€” graduan nak gambar sebelum hantar resume. 3 hari maksimum.
 
 ## Kesimpulan
 
-Konvokesyen adalah gig paling mudah untuk masuk industri dengan 60D. RM200-450 untuk 1-2 jam, permintaan berulang, dan tidak memerlukan teknik tinggi. Enam sesi — dan A6100 terpakai adalah milik anda.
+Konvokesyen adalah gig paling mudah untuk masuk industri dengan 60D. RM200-450 untuk 1-2 jam, permintaan berulang, dan tidak memerlukan teknik tinggi. Enam sesi â€” dan A6100 terpakai adalah milik anda.

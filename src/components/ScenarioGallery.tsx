@@ -61,7 +61,7 @@ export default function ScenarioGallery({ gearSlug }: Props) {
     <div className="mb-10">
       <div className="flex items-center justify-between mb-4">
         <h2 className="text-2xl font-bold">Real Creator Setups</h2>
-        <span className="text-xs text-zinc-500">Tap to switch scene</span>
+        <span className="text-xs text-zinc-200">Tap to switch scene</span>
       </div>
       <p className="text-sm text-zinc-200 mb-4">
         Curated references for this setup — plus one-tap live searches on the platforms Malaysian creators actually post on.
@@ -109,7 +109,7 @@ export default function ScenarioGallery({ gearSlug }: Props) {
       <div className="mt-4 bg-zinc-900/50 border border-zinc-800 rounded-xl p-4">
         <div className="flex items-center justify-between flex-wrap gap-2 mb-3">
           <span className="text-sm font-bold">🔴 See real creators doing this — live</span>
-          <span className="text-[11px] text-zinc-500">curated hashtags + searches</span>
+          <span className="text-xs text-zinc-200">curated hashtags + searches</span>
         </div>
         <div className="flex flex-wrap gap-2">
           {platforms.map(p => {

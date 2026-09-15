@@ -47,7 +47,7 @@ function Slider({
         onChange={e => onChange(Number(e.target.value))}
         aria-label={label}
       />
-      <div className="flex justify-between text-[10px] text-zinc-600 mt-1">
+      <div className="flex justify-between text-xs text-zinc-300 mt-1">
         <span>{min.toLocaleString()}{suffix}</span>
         <span>{max.toLocaleString()}{suffix}</span>
       </div>
@@ -107,7 +107,7 @@ export default function RoiCalculator() {
 
           {/* Presets */}
           <div className="flex flex-wrap justify-center gap-2 mb-8">
-            <span className="text-xs text-zinc-500 self-center font-semibold uppercase tracking-wider mr-1">{t('calc.quickPick', 'Quick pick:')}</span>
+            <span className="text-xs text-zinc-200 self-center font-semibold uppercase tracking-wider mr-1">{t('calc.quickPick', 'Quick pick:')}</span>
             {presets.map(p => (
               <button
                 key={p.label}
@@ -175,7 +175,7 @@ export default function RoiCalculator() {
                   <div className="h-2 bg-zinc-800 rounded-full overflow-hidden mb-1.5">
                     <div className={`h-full rounded-full ${toneStyles.bar} transition-all duration-500`} style={{ width: `${Math.max(3, barWidth)}%` }} />
                   </div>
-                  <div className="flex justify-between text-[10px] text-zinc-600">
+                  <div className="flex justify-between text-xs text-zinc-300">
                     <span>0 mo</span>
                     <span>12 mo</span>
                   </div>
@@ -186,8 +186,8 @@ export default function RoiCalculator() {
                 </div>
 
                 <Link
-                  href={withLang('en', '/blog/content-creator-gear-roi-malaysia-calculator')}
-                  className="mt-4 text-xs text-zinc-500 hover:text-amber-300 transition-colors font-semibold"
+                  href={withLang(lang, '/blog/content-creator-gear-roi-malaysia-calculator')}
+                  className="mt-4 text-xs text-zinc-200 hover:text-amber-300 transition-colors font-semibold"
                 >
                   {t('calc.readGuide', 'How we calculate this → read the ROI guide')}
                 </Link>

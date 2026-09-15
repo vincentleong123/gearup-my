@@ -61,7 +61,7 @@ export default async function GigPage({ params }: Props) {
       <article className="min-h-screen pt-24 pb-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Breadcrumb */}
-          <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-8">
+          <nav className="flex items-center gap-2 text-sm text-zinc-200 mb-8">
             <Link href={withLang(lang, '/')} className="hover:text-white transition-colors">Home</Link>
             <span>/</span>
             <Link href={withLang(lang, '/gigs')} className="hover:text-white transition-colors">Gigs</Link>
@@ -90,23 +90,23 @@ export default async function GigPage({ params }: Props) {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
             <div className="bg-zinc-900/80 border border-zinc-800 rounded-xl p-5">
-              <span className="text-xs text-zinc-500 font-semibold uppercase tracking-wider">Per gig rate</span>
+              <span className="text-xs text-zinc-200 font-semibold uppercase tracking-wider">Per gig rate</span>
               <div className="text-2xl font-black text-amber-400 mt-1">
                 {gig.rateMin === gig.rateMax ? `RM ${gig.rateMin.toLocaleString()}` : `RM ${gig.rateMin.toLocaleString()}–${gig.rateMax.toLocaleString()}`}
               </div>
-              <div className="text-xs text-zinc-500 mt-1">{gig.rateUnit}</div>
+              <div className="text-xs text-zinc-200 mt-1">{gig.rateUnit}</div>
             </div>
             <div className="bg-zinc-900/80 border border-zinc-800 rounded-xl p-5">
-              <span className="text-xs text-zinc-500 font-semibold uppercase tracking-wider">Time per gig</span>
+              <span className="text-xs text-zinc-200 font-semibold uppercase tracking-wider">Time per gig</span>
               <div className="text-2xl font-black mt-1">{gig.timeEstimate}</div>
-              <div className="text-xs text-zinc-500 mt-1">shoot + edit</div>
+              <div className="text-xs text-zinc-200 mt-1">shoot + edit</div>
             </div>
             <div className="bg-zinc-900/80 border border-zinc-800 rounded-xl p-5">
-              <span className="text-xs text-zinc-500 font-semibold uppercase tracking-wider">Peak season</span>
+              <span className="text-xs text-zinc-200 font-semibold uppercase tracking-wider">Peak season</span>
               <div className="text-sm font-bold mt-2 leading-snug">{gig.peakSeason}</div>
             </div>
             <div className="bg-zinc-900/80 border border-zinc-800 rounded-xl p-5">
-              <span className="text-xs text-zinc-500 font-semibold uppercase tracking-wider">Demand</span>
+              <span className="text-xs text-zinc-200 font-semibold uppercase tracking-wider">Demand</span>
               <div className="text-sm font-bold mt-2 leading-snug text-green-400">{gig.demand}</div>
             </div>
           </div>
@@ -115,14 +115,14 @@ export default async function GigPage({ params }: Props) {
           <div className="grid md:grid-cols-5 gap-6 mb-10">
             <div className="md:col-span-3 bg-zinc-900/60 border border-zinc-800 rounded-2xl p-6">
               <h2 className="text-xl font-bold mb-1">🛠️ Minimal kit to start</h2>
-              <p className="text-zinc-500 text-sm mb-4">The cheapest honest way to start this gig. Upgrade only when income arrives.</p>
+              <p className="text-zinc-200 text-sm mb-4">The cheapest honest way to start this gig. Upgrade only when income arrives.</p>
               <div className="space-y-3">
                 {starterGear.map(g => (
                   <Link key={g.slug} href={withLang(lang, `/gear/${g.slug}`)} className="flex items-center gap-3 bg-zinc-900/70 border border-zinc-800 rounded-xl p-3 hover:border-amber-500/40 transition-all group">
                     <img src={gearImg(g.slug)} alt={g.name} className="w-14 h-14 rounded-lg object-cover flex-shrink-0" loading="lazy" />
                     <div className="flex-1 min-w-0">
                       <div className="font-bold group-hover:text-amber-400 transition-colors">{g.name}</div>
-                      <div className="text-xs text-zinc-500">{g.type} · ROI {g.roiScore}/100</div>
+                      <div className="text-xs text-zinc-200">{g.type} · ROI {g.roiScore}/100</div>
                     </div>
                     <div className="text-green-400 font-black flex-shrink-0">{formatPrice(g.priceUsed)}</div>
                   </Link>
@@ -130,7 +130,7 @@ export default async function GigPage({ params }: Props) {
               </div>
               {upgradeGear.length > 0 && (
                 <div className="mt-4">
-                  <div className="text-xs text-zinc-500 font-semibold uppercase tracking-wider mb-2">Level-up later</div>
+                  <div className="text-xs text-zinc-200 font-semibold uppercase tracking-wider mb-2">Level-up later</div>
                   <div className="flex flex-wrap gap-2">
                     {upgradeGear.map(g => (
                       <Link key={g.slug} href={withLang(lang, `/gear/${g.slug}`)} className="text-xs text-amber-400/90 bg-amber-500/5 border border-amber-500/20 px-2.5 py-1.5 rounded-lg hover:bg-amber-500/10 transition-colors">
@@ -154,9 +154,9 @@ export default async function GigPage({ params }: Props) {
                   <div className="text-center py-4 mb-3">
                     <div className="text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-yellow-500">{gigsNeeded}</div>
                     <div className="text-zinc-200 mt-1 font-semibold">{gig.title.toLowerCase()} gig{gigsNeeded > 1 ? 's' : ''}</div>
-                    <div className="text-xs text-zinc-500 mt-1">to own it free &amp; clear</div>
+                    <div className="text-xs text-zinc-200 mt-1">to own it free &amp; clear</div>
                   </div>
-                  <p className="text-xs text-zinc-500 leading-relaxed mt-auto">
+                  <p className="text-xs text-zinc-200 leading-relaxed mt-auto">
                     Do one a weekend and it&apos;s paid off in under a month — then every gig after is profit.
                   </p>
                 </>
@@ -223,7 +223,7 @@ export default async function GigPage({ params }: Props) {
           {/* Curation wall */}
           <div className="mb-10">
             <h2 className="text-2xl font-bold mb-2">🎛️ Live inspiration for this gig</h2>
-            <p className="text-zinc-500 text-sm mb-4">
+            <p className="text-zinc-200 text-sm mb-4">
               Auto-curated imagery plus live links to Google, Instagram, TikTok and YouTube searches for this niche. Hit Surprise me.
             </p>
             <CurationWall topics={[topic]} title={`${gig.emoji} ${gig.title}`} />
@@ -232,7 +232,7 @@ export default async function GigPage({ params }: Props) {
           {/* Hashtag quick links */}
           <div className="mb-10">
             <h2 className="text-2xl font-bold mb-4">#️⃣ Hashtags to mine</h2>
-            <p className="text-zinc-500 text-sm mb-4">Steal ideas from these live social tags — follow the top posts, note what pays, replicate it locally.</p>
+            <p className="text-zinc-200 text-sm mb-4">Steal ideas from these live social tags — follow the top posts, note what pays, replicate it locally.</p>
             <div className="flex flex-wrap gap-2">
               {gig.hashtags.map(t => (
                 <a
@@ -257,7 +257,7 @@ export default async function GigPage({ params }: Props) {
                   <Link key={a.slug} href={withLang(a.lang ?? 'en', `/blog/${a.slug}`)} className="block bg-zinc-900/60 border border-zinc-800 rounded-xl p-5 hover:border-amber-500/40 transition-all group">
                     <div className="text-xs text-amber-400 font-bold uppercase tracking-wider mb-2">{a.category}</div>
                     <div className="font-bold text-sm group-hover:text-amber-400 transition-colors mb-2">{a.title}</div>
-                    <div className="text-xs text-zinc-500">{a.readTime} min read</div>
+                    <div className="text-xs text-zinc-200">{a.readTime} min read</div>
                   </Link>
                 ))}
               </div>

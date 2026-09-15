@@ -1,16 +1,16 @@
----
+﻿---
 slug: wedding-photography-side-hustle-malaysia
 title: >-
   Wedding Photography as a Side Hustle in Malaysia: The Second-Shooter Path to
   RM1,000+ Days
 description: >-
   Weddings are the highest-paying gig in Malaysian photography. The smart,
-  low-risk entry is second shooting — earn RM300-500 while learning, then lead
+  low-risk entry is second shooting â€” earn RM300-500 while learning, then lead
   at RM1,000-2,500. Here is the exact path.
 image: /blog/wedding-guide.jpg
 category: guide
 readTime: 9
-date: '2026-08-01'
+date: '2026-02-14'
 tags:
   - wedding
   - side-hustle
@@ -37,7 +37,7 @@ A second shooter is the extra pair of hands: groom prep, guest candids, the shot
 
 **What you must deliver as a second shooter:**
 - 150-300 clean, in-focus photos on a shared drive by the next morning
-- Respect the lead's shot list and angles — never block their shot
+- Respect the lead's shot list and angles â€” never block their shot
 - Backup at the venue (two cards) without being asked
 
 ## Step 2: Build the wedding kit
@@ -66,16 +66,16 @@ If yes, price yourself at RM800-1,200 and raise from there. Every 5 weddings, ra
 
 - The ring shot
 - The couple portraits (find the good light BEFORE the ceremony)
-- The parents — every single time
+- The parents â€” every single time
 - The cake cut and the first dance
 - The throwing of the bouquet / gubahan bunga
 
 ## Etiquette that wins referrals
 
-- Send 10 teaser photos within 24 hours — this is your #1 marketing tool
-- Be invisible during the ceremony — guests shouldn't notice you
+- Send 10 teaser photos within 24 hours â€” this is your #1 marketing tool
+- Be invisible during the ceremony â€” guests shouldn't notice you
 - Ask the couple for a Google review and one venue referral
-- Collect the full vendor list (MUA, emcee, venue) — they book photographers for their next 20 events
+- Collect the full vendor list (MUA, emcee, venue) â€” they book photographers for their next 20 events
 
 ## The math
 

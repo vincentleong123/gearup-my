@@ -1,4 +1,4 @@
----
+﻿---
 slug: sony-a7-iv-review-malaysia
 title: 'Sony A7 IV Review in 2026: Still the Best First Full-Frame Camera in Malaysia?'
 description: >-
@@ -8,7 +8,7 @@ description: >-
 image: /blog/sony-a7-iv-review-malaysia.jpg
 category: gear
 readTime: 11
-date: '2026-08-09'
+date: '2026-04-27'
 tags:
   - sony
   - full-frame
@@ -23,7 +23,7 @@ relatedGear:
 ---
 Every Malaysian photographer who wanted to go full-frame in the last three years has heard the same advice: "Just buy the Sony A7 IV." It's the default recommendation in every Facebook group, every forum, every shop in Low Yat Plaza. In 2026, with newer cameras everywhere, is it still the right answer?
 
-We've been shooting the A7 IV on and off for over a year — gigs, travel, portraits and video. Here's the long-term review we wish we had before buying.
+We've been shooting the A7 IV on and off for over a year â€” gigs, travel, portraits and video. Here's the long-term review we wish we had before buying.
 
 ## The specs that made it famous
 
@@ -41,10 +41,10 @@ We've been shooting the A7 IV on and off for over a year — gigs, travel, portr
 
 The A7 IV's superpower has never been one headline spec. It's that it does everything competently at a price the market has spent three years flooding with cheap lenses.
 
-- **33MP** is the sweet spot — enough resolution for print and heavy crop, small enough files that a mid-range laptop edits them fine.
-- **4K60 10-bit** with S-Cinetone gives you a cinematic look straight out of camera — no LUT needed for most client work.
+- **33MP** is the sweet spot â€” enough resolution for print and heavy crop, small enough files that a mid-range laptop edits them fine.
+- **4K60 10-bit** with S-Cinetone gives you a cinematic look straight out of camera â€” no LUT needed for most client work.
 - **Real-time tracking** with Eye AF for humans, animals and birds is still class-leading for the price.
-- **The lens ecosystem** — this is the real moat. Tamron, Sigma and Rokinon make outstanding affordable E-mount glass. A RM3,000 Tamron 28-75mm f/2.8 on an A7 IV outperforms a RM15,000 system on any other brand.
+- **The lens ecosystem** â€” this is the real moat. Tamron, Sigma and Rokinon make outstanding affordable E-mount glass. A RM3,000 Tamron 28-75mm f/2.8 on an A7 IV outperforms a RM15,000 system on any other brand.
 
 ## The 2026 problems nobody mentions
 
@@ -52,14 +52,14 @@ Honesty section. Three years on, the A7 IV has warts:
 
 - **4K60 is cropped** to Super 35mm. Fine for interviews, annoying for wide shots.
 - **The 3.69M-dot EVF** feels dated next to the 5.76M-dot finders on newer Sony bodies.
-- **Processing speed** — the menus are improved but the camera still feels slower to boot and buffer than the A7C II or A6700.
+- **Processing speed** â€” the menus are improved but the camera still feels slower to boot and buffer than the A7C II or A6700.
 - **No 8K, no 4K120.** If your clients ask for high frame rates, look at the A6700 or the R6 II.
 
 ## Malaysian pricing and where to buy
 
 - **Sony Store Malaysia** official units: around RM8,000-9,000 body-only. Sony Malaysia's warranty support is reliable and reasonably fast.
 - **Grey imports** from Singapore: RM500-1,500 cheaper, but check the firmware region and local warranty before buying.
-- **Second-hand:** clean used A7 IV bodies appear at RM6,000-7,000 on Mudah and Carousell. The A7 IV is built like a tank — a used one is a genuinely smart buy.
+- **Second-hand:** clean used A7 IV bodies appear at RM6,000-7,000 on Mudah and Carousell. The A7 IV is built like a tank â€” a used one is a genuinely smart buy.
 
 ## The comparison that matters in 2026
 
@@ -72,6 +72,6 @@ Honesty section. Three years on, the A7 IV has warts:
 
 ## The bottom line
 
-The Sony A7 IV is still the best first full-frame camera in Malaysia — the question is whether you're buying it for the right reasons. If you want a workhorse that shoots everything well, has the best lens ecosystem on the planet, and costs less than its rivals, it's the answer.
+The Sony A7 IV is still the best first full-frame camera in Malaysia â€” the question is whether you're buying it for the right reasons. If you want a workhorse that shoots everything well, has the best lens ecosystem on the planet, and costs less than its rivals, it's the answer.
 
-If you mostly shoot video, want uncropped 4K60, or want the newest autofocus, the A7C II is the smarter 2026 upgrade. Either way, you can't go wrong with the A7 IV — that's why it's still the default.
+If you mostly shoot video, want uncropped 4K60, or want the newest autofocus, the A7C II is the smarter 2026 upgrade. Either way, you can't go wrong with the A7 IV â€” that's why it's still the default.

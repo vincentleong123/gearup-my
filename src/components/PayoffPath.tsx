@@ -32,13 +32,13 @@ export default function PayoffPath({ gear, lang }: { gear: GearItem; lang: strin
         {paths.map(p => (
           <Link
             key={p.gig.slug}
-            href={withLang('en', `/gigs/${p.gig.slug}`)}
+            href={withLang(lang, `/gigs/${p.gig.slug}`)}
             className="group flex items-center gap-3 bg-zinc-900/60 border border-zinc-800 rounded-xl p-4 hover:border-amber-500/40 hover:bg-zinc-900 transition-all"
           >
             <span className="text-3xl">{p.gig.emoji}</span>
             <div className="flex-1 min-w-0">
               <div className="font-bold text-sm group-hover:text-amber-400 transition-colors truncate">{p.gig.title}</div>
-              <div className="text-xs text-zinc-500">
+              <div className="text-xs text-zinc-200">
                 {p.gig.rateMin === p.gig.rateMax
                   ? `RM ${p.gig.rateMin.toLocaleString()} ${p.gig.rateUnit}`
                   : `RM ${p.gig.rateMin.toLocaleString()}-${p.gig.rateMax.toLocaleString()} ${p.gig.rateUnit}`}
@@ -46,12 +46,12 @@ export default function PayoffPath({ gear, lang }: { gear: GearItem; lang: strin
             </div>
             <div className="text-right flex-shrink-0">
               <div className="text-lg font-black text-amber-400">{p.note}</div>
-              <div className="text-[10px] text-zinc-500 uppercase tracking-wider">to own it</div>
+              <div className="text-xs text-zinc-200 uppercase tracking-wider">to own it</div>
             </div>
           </Link>
         ))}
       </div>
-      <p className="text-xs text-zinc-500 mt-4">
+      <p className="text-xs text-zinc-200 mt-4">
         Math: price ÷ rate. If you do 4 gigs a month, the best gig on this list pays off your gear in{' '}
         <strong className="text-amber-400">{paths[0].gig.title}</strong> units — most creators clear it in under a month of weekends.
       </p>

@@ -58,7 +58,7 @@ export default async function GigsPage({ params }: Props) {
             {gigs.map(g => (
               <Link
                 key={g.slug}
-                href={withLang('en', `/gigs/${g.slug}`)}
+                href={withLang(lang, `/gigs/${g.slug}`)}
                 className="group block bg-zinc-900/80 border border-zinc-800 rounded-2xl overflow-hidden hover:border-amber-500/40 hover:shadow-xl hover:shadow-amber-500/5 transition-all duration-300"
               >
                 <div className="h-40 relative overflow-hidden bg-zinc-900">
@@ -81,14 +81,14 @@ export default async function GigsPage({ params }: Props) {
                   <p className="text-zinc-200 text-sm line-clamp-2 mb-4">{g.tagline}</p>
                   <div className="flex items-center justify-between text-sm">
                     <div>
-                      <span className="text-xs text-zinc-500"><T k="gigs.perGig" en="Per gig" /></span>
+                      <span className="text-xs text-zinc-200"><T k="gigs.perGig" en="Per gig" /></span>
                       <div className="font-black text-amber-400">
                         {g.rateMin === g.rateMax
                           ? `RM ${g.rateMin.toLocaleString()}`
                           : `RM ${g.rateMin.toLocaleString()}–${g.rateMax.toLocaleString()}`}
                       </div>
                     </div>
-                    <div className="text-right text-xs text-zinc-500">
+                    <div className="text-right text-xs text-zinc-200">
                       <div>{g.timeEstimate}</div>
                       <div className="text-zinc-200">{g.peakSeason.split(',')[0]}</div>
                     </div>
@@ -109,21 +109,21 @@ export default async function GigsPage({ params }: Props) {
                 <div className="text-2xl font-black mb-1">Nikon D3100</div>
                 <div className="text-zinc-200 text-sm mb-3"><T k="gigs.math1price" en="RM 450 second-hand" /></div>
                 <div className="text-amber-400 font-black text-xl"><T k="gigs.math1gear" en="2 graduation shoots" /></div>
-                <div className="text-zinc-500 text-xs mt-2"><T k="gigs.math1note" en="@ RM200-250 each — paid off in one Saturday" /></div>
+                <div className="text-zinc-200 text-xs mt-2"><T k="gigs.math1note" en="@ RM200-250 each — paid off in one Saturday" /></div>
               </div>
               <div className="bg-zinc-900/60 border border-amber-500/30 rounded-xl p-6">
                 <div className="text-4xl mb-3">🎥</div>
                 <div className="text-2xl font-black mb-1">Sony A6100</div>
                 <div className="text-zinc-200 text-sm mb-3"><T k="gigs.math2price" en="RM 1,600 second-hand" /></div>
                 <div className="text-amber-400 font-black text-xl"><T k="gigs.math2gear" en="2-3 wedding gigs" /></div>
-                <div className="text-zinc-500 text-xs mt-2"><T k="gigs.math2note" en="@ RM500-800 each — or 3 client retainers in a month" /></div>
+                <div className="text-zinc-200 text-xs mt-2"><T k="gigs.math2note" en="@ RM500-800 each — or 3 client retainers in a month" /></div>
               </div>
               <div className="bg-zinc-900/60 border border-zinc-800 rounded-xl p-6">
                 <div className="text-4xl mb-3">🚁</div>
                 <div className="text-2xl font-black mb-1">DJI Mini 4 Pro</div>
                 <div className="text-zinc-200 text-sm mb-3"><T k="gigs.math3price" en="RM 2,900 second-hand" /></div>
                 <div className="text-amber-400 font-black text-xl"><T k="gigs.math3gear" en="5 property gigs" /></div>
-                <div className="text-zinc-500 text-xs mt-2"><T k="gigs.math3note" en="@ RM400-600 aerial package each — under a month" /></div>
+                <div className="text-zinc-200 text-xs mt-2"><T k="gigs.math3note" en="@ RM400-600 aerial package each — under a month" /></div>
               </div>
             </div>
             <p className="text-center text-zinc-200 text-sm mt-8">
@@ -163,7 +163,7 @@ export default async function GigsPage({ params }: Props) {
                         <td className="px-4 py-3.5 font-bold text-amber-400">{r.typical}</td>
                         <td className="px-4 py-3.5 text-zinc-100">{r.premium}</td>
                         <td className="px-4 py-3.5 text-zinc-200">{r.time}</td>
-                        <td className="px-5 py-3.5 text-right text-zinc-500">{r.demand}</td>
+                        <td className="px-5 py-3.5 text-right text-zinc-200">{r.demand}</td>
                       </tr>
                     ))}
                   </tbody>

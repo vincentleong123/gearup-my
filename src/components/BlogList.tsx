@@ -164,7 +164,7 @@ export default function BlogList() {
               </div>
             </div>
             <div className="p-5">
-              <div className="flex items-center gap-2 mb-2 text-xs text-zinc-500">
+              <div className="flex items-center gap-2 mb-2 text-xs text-zinc-200">
                 <span>{a.date}</span>
                 <span>·</span>
                 <span>{a.readTime} {t('common.minRead', 'min read')}</span>
@@ -173,7 +173,7 @@ export default function BlogList() {
               <p className="text-zinc-200 text-sm line-clamp-2 mb-3">{a.description}</p>
               <div className="flex flex-wrap gap-1.5">
                 {a.tags.slice(0, 3).map(t => (
-                  <span key={t} className="text-[11px] text-zinc-500 bg-zinc-800/60 px-2 py-0.5 rounded-full">#{t}</span>
+                  <span key={t} className="text-xs text-zinc-200 bg-zinc-800/60 px-2 py-0.5 rounded-full">#{t}</span>
                 ))}
               </div>
             </div>

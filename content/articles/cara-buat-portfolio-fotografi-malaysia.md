@@ -1,4 +1,4 @@
----
+﻿---
 slug: cara-buat-portfolio-fotografi-malaysia
 title: 'Cara Buat Portfolio Fotografi Malaysia: 15 Foto, 1 Niche, Dapat Client Pertama'
 description: >-
@@ -10,7 +10,7 @@ image: /blog/cara-buat-portfolio-fotografi-malaysia.jpg
 category: guide
 verticalCategory: creator-gear
 status: published
-date: 2026-08-16T00:00:00.000Z
+date: '2026-06-11'
 updatedAt: 2026-08-16T00:00:00.000Z
 author: Kameralog Editorial
 lang: ms

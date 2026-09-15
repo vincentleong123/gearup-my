@@ -30,7 +30,7 @@ export default function CalculatorPage() {
             <li>Enter how many gigs you can realistically do per month</li>
             <li>The calculator shows how many months to break even</li>
           </ol>
-          <p className="mt-4 text-zinc-500 italic">Tip: Most gear under RM2,000 breaks even in 1-3 months with consistent weekend work.</p>
+          <p className="mt-4 text-zinc-200 italic">Tip: Most gear under RM2,000 breaks even in 1-3 months with consistent weekend work.</p>
         </div>
       </div>
       <Footer />

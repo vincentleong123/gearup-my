@@ -1,16 +1,16 @@
----
+﻿---
 slug: gig-fotografi-produk-60d-malaysia
 title: >-
   Fotografi Produk untuk Seller Shopee/Lazada: Gig yang Tak Perlukan Autofokus
   Langsung
 description: >-
-  Product photography guna tripod + manual focus — jadi AF 50mm yang lambat
+  Product photography guna tripod + manual focus â€” jadi AF 50mm yang lambat
   langsung bukan isu. RM200-500 setiap pakej, dan beribu seller Malaysia
   perlukan gambar produk yang cantik. Gig paling mudah untuk masuk pasaran.
 image: /blog/gig-fotografi-produk-60d-malaysia.jpg
 category: guide
 readTime: 9
-date: '2026-08-10'
+date: '2026-05-02'
 tags:
   - produk
   - shopee
@@ -23,7 +23,7 @@ relatedGear:
   - canon-60d-50mm-f18-boleh-buat-kerja-malaysia
 lang: ms
 ---
-Ada satu gig yang paling tidak mengira kamera anda: fotografi produk. Kenapa? Sebab kerja ini guna tripod dan manual focus — AF lambat 50mm anda langsung tidak relevan. Yang penting: kemas, konsisten, dan hantar cepat.
+Ada satu gig yang paling tidak mengira kamera anda: fotografi produk. Kenapa? Sebab kerja ini guna tripod dan manual focus â€” AF lambat 50mm anda langsung tidak relevan. Yang penting: kemas, konsisten, dan hantar cepat.
 
 Setiap hari, ribuan seller Shopee dan Lazada Malaysia guna gambar produk yang malap dan comot. Seller yang bijak sanggup bayar untuk gambar yang bersih. Anda isi ruang itu.
 
@@ -34,9 +34,9 @@ Fotografi produk untuk e-commerce:
 1. Ambil 10-30 gambar satu produk: depan, belakang, sisi, detail, flat lay, lifestyle.
 2. Latar putih atau bersih (kertas/kain), pencahayaan konsisten.
 3. Edit ringan: buang latar (jika perlu), betulkan warna, crop ke 1:1.
-4. Hantar fail siap guna — seller tak nak edit sendiri.
+4. Hantar fail siap guna â€” seller tak nak edit sendiri.
 
-Selepas beberapa pakej, anda boleh tambah video ringkas 15 saat untuk listing — upcharge RM50-100.
+Selepas beberapa pakej, anda boleh tambah video ringkas 15 saat untuk listing â€” upcharge RM50-100.
 
 ## How much: berapa bayaran
 
@@ -73,7 +73,7 @@ RM400 pakej pertama anda = flash + tripod + lampu dan lebih.
 ## Tools yang diperlukan
 
 - Canon 60D + mana-mana lens (manual focus ok)
-- Tripod RM80-150 — WAJIB
+- Tripod RM80-150 â€” WAJIB
 - Lampu LED RM150 (atau cahaya tingkap + kain putih)
 - Kertas putih atau kain besar RM20
 - Remote shutter RM20 (elak gegaran)
@@ -81,21 +81,21 @@ RM400 pakej pertama anda = flash + tripod + lampu dan lebih.
 
 ## Teknik asas yang client suka
 
-- **Latar putih bersih** — ini paling penting. Kertas putih bertekstur atau kain.
-- **Konsisten** — semua gambar satu produk mesti sama terang dan sama sudut.
-- **Flat lay dan sudut 45 darjah** — dua sudut paling laris di Shopee.
-- **Detail dekat** — tunjuk tekstur, cap, dan jahitan.
-- **Refleksi** — boleh guna acrylic untuk kesan premium (pilihan).
+- **Latar putih bersih** â€” ini paling penting. Kertas putih bertekstur atau kain.
+- **Konsisten** â€” semua gambar satu produk mesti sama terang dan sama sudut.
+- **Flat lay dan sudut 45 darjah** â€” dua sudut paling laris di Shopee.
+- **Detail dekat** â€” tunjuk tekstur, cap, dan jahitan.
+- **Refleksi** â€” boleh guna acrylic untuk kesan premium (pilihan).
 
 ## Cara dapat client pertama
 
 1. **Shoot 3 produk rumah sendiri** (kotak, botol, kasut) sebagai portfolio.
 2. **Hantar mesej ke 10 seller** di Shopee/Lazada dengan portfolio: "Hi, saya jurugambar produk. Nak saya tunjuk macam mana gambar produk anda boleh naik kelas? Pakej 5 produk RM200."
-3. **Tawarkan 1 produk percuma** sebagai sample — jika seller suka, pakej penuh.
-4. **Jaga hubungan** — seller yang puas hati booking bulanan.
+3. **Tawarkan 1 produk percuma** sebagai sample â€” jika seller suka, pakej penuh.
+4. **Jaga hubungan** â€” seller yang puas hati booking bulanan.
 
 ## Kesimpulan
 
-Fotografi produk adalah gig paling sesuai untuk gear "lemah" — sebab ia langsung tidak perlukan AF laju. Pakej RM200-500, setup kos rendah, dan permintaan berterusan dari seller online. 5-6 pakej dan A6100 terpakai milik anda.
+Fotografi produk adalah gig paling sesuai untuk gear "lemah" â€” sebab ia langsung tidak perlukan AF laju. Pakej RM200-500, setup kos rendah, dan permintaan berterusan dari seller online. 5-6 pakej dan A6100 terpakai milik anda.
 
 Dan bonusnya: skill ini juga menjadikan portfolio anda lebih kukuh untuk gig jenama yang lebih besar.

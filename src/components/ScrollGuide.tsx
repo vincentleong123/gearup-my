@@ -103,7 +103,7 @@ export default function ScrollGuide() {
               className={`grid place-items-center h-7 w-7 rounded-full text-xs transition-all duration-300 ${
                 active === s.id
                   ? 'bg-gradient-to-br from-purple-500 to-fuchsia-500 text-white scale-110 shadow-[0_0_12px_rgba(217,70,239,0.6)]'
-                  : 'bg-white/5 text-zinc-500 hover:text-white hover:bg-white/15 border border-white/10'
+                  : 'bg-white/5 text-zinc-200 hover:text-white hover:bg-white/15 border border-white/10'
               }`}
             >
               <span>{s.icon}</span>

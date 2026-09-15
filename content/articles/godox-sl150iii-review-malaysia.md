@@ -1,14 +1,14 @@
----
+﻿---
 slug: godox-sl150iii-review-malaysia
 title: 'Godox SL150III Review: The RM700 Light That Transforms Malaysian Home Studios'
 description: >-
   A 150W COB LED with app control for less than the price of a mid-range lens.
-  We review the SL150III for food, product and content-creation shoots — the
+  We review the SL150III for food, product and content-creation shoots â€” the
   budget light Malaysian creators actually need.
 image: /blog/godox-sl150iii-review-malaysia.jpg
 category: gear
 readTime: 9
-date: '2026-08-04'
+date: '2026-03-21'
 tags:
   - godox
   - lighting
@@ -20,18 +20,18 @@ relatedGear:
   - product-photography-ecommerce-gig-malaysia
   - food-content-creation-gig-malaysia
 ---
-Every Malaysian content creator reaches the same crossroads: "Do I buy a better camera, or better light?" For nine out of ten people, the answer is light — and the Godox SL150III is the best RM700 you'll ever spend in photography.
+Every Malaysian content creator reaches the same crossroads: "Do I buy a better camera, or better light?" For nine out of ten people, the answer is light â€” and the Godox SL150III is the best RM700 you'll ever spend in photography.
 
 ## Why lighting beats cameras
 
-Your phone or entry mirrorless is already capable. The reason your product photos look flat and your food shots look dull isn't the sensor — it's that you're shooting with whatever light happens to be in the room. A 150W LED is the single biggest image-quality upgrade available to you, full stop.
+Your phone or entry mirrorless is already capable. The reason your product photos look flat and your food shots look dull isn't the sensor â€” it's that you're shooting with whatever light happens to be in the room. A 150W LED is the single biggest image-quality upgrade available to you, full stop.
 
 ## The specs
 
 | Spec | Godox SL150III |
 | --- | --- |
 | Power | 150W COB LED |
-| Colour temp | 5600K daylight (±200K) |
+| Colour temp | 5600K daylight (Â±200K) |
 | Output | ~42,500 lux at 1m (with reflector) |
 | Mount | Bowens S-mount (universal softboxes) |
 | Dimming | 0-100% continuous |
@@ -58,10 +58,10 @@ Your phone or entry mirrorless is already capable. The reason your product photo
 
 - **Godox Malaysia official** SL150III sells around RM750-900 including a softbox bundle. Godox has proper local distribution, so warranty claims are painless.
 - **The SL60II** at ~RM350-450 is the budget entry point, but 150W is worth the extra for product and video work.
-- **The SL300** doubles the power for ~RM1,600 — only needed if you shoot large sets or want to overpower the sun.
+- **The SL300** doubles the power for ~RM1,600 â€” only needed if you shoot large sets or want to overpower the sun.
 
 ## The bottom line
 
 The Godox SL150III is the best lighting value in Malaysia, period. It turns a boring corner of your bedroom into a studio, and it will improve your photos more than any camera upgrade at the same price.
 
-Buy one with a 90cm softbox. Learn to position it. Your content — and your gig income — will thank you.
+Buy one with a 90cm softbox. Learn to position it. Your content â€” and your gig income â€” will thank you.

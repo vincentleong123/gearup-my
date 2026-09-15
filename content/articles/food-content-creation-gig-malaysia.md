@@ -1,15 +1,15 @@
----
+﻿---
 slug: food-content-creation-gig-malaysia
 title: >-
   Food Content Creation in Malaysia: How to Get Cafes & Restaurants to Pay You
   RM300-1,000/month
 description: >-
   Every cafe in Malaysia needs content. Here is exactly how to pitch, price, and
-  deliver food content gigs — the fastest first client for a new creator.
+  deliver food content gigs â€” the fastest first client for a new creator.
 image: /blog/food-gig-guide.jpg
 category: guide
 readTime: 8
-date: '2026-08-05'
+date: '2026-04-04'
 tags:
   - food
   - gigs
@@ -57,14 +57,14 @@ qaPairs:
 ---
 Every cafe in Malaysia needs content. Owners are posting phones-on-sticks videos that get 200 views, while their competitor down the road pays a creator RM300 for the same videos and gets 20,000.
 
-Food content is the easiest first client for a new Malaysian creator — because the clients are everywhere, the barrier to entry is low, and the demand never stops.
+Food content is the easiest first client for a new Malaysian creator â€” because the clients are everywhere, the barrier to entry is low, and the demand never stops.
 
 ## Why cafes are the perfect first client
 
-- **No experience needed** — a phone with good light shoots food beautifully
-- **Recurring demand** — a cafe needs content every week, not once
-- **Low risk** — RM300-500 is a small bet for an owner, easy to say yes to
-- **Referral machine** — one happy cafe owner knows ten more
+- **No experience needed** â€” a phone with good light shoots food beautifully
+- **Recurring demand** â€” a cafe needs content every week, not once
+- **Low risk** â€” RM300-500 is a small bet for an owner, easy to say yes to
+- **Referral machine** â€” one happy cafe owner knows ten more
 
 ## The starter kit (RM0-100)
 
@@ -91,14 +91,14 @@ Don't DM "I'd love to shoot your food for exposure." Owners hear that ten times 
 | Standard | RM500 | 4 reels + 8 photos + captions |
 | Premium | RM800-1,000 | 6 reels + 12 photos + monthly menu shoot |
 
-**Pro tip:** anchor with a package list, not a single price. Owners pick the middle option — that's your RM500 standard.
+**Pro tip:** anchor with a package list, not a single price. Owners pick the middle option â€” that's your RM500 standard.
 
 ## What the content looks like
 
-- **The money shot** — the dish, plated, close up, good light (this is the reel everyone shares)
-- **The process** — behind-the-counter clips if they allow it
-- **The location** — the vibe, the decor, the people
-- **The hook** — "Hidden gem in PJ serving RM15 laksa you can't miss"
+- **The money shot** â€” the dish, plated, close up, good light (this is the reel everyone shares)
+- **The process** â€” behind-the-counter clips if they allow it
+- **The location** â€” the vibe, the decor, the people
+- **The hook** â€” "Hidden gem in PJ serving RM15 laksa you can't miss"
 
 **The delivery rule:** first edit within 24 hours, full package within a week. Owners judge you on speed more than on perfection.
 
@@ -108,10 +108,10 @@ The real money is the retainer. A one-off RM300 shoot is pocket money. A RM500/m
 
 - Offer a 6-month package at a small discount
 - Add services: menu photos, Google Business photos, event coverage
-- Ask every client: "Do you know another cafe that needs this?" — this question alone built Nurul's whole client list
+- Ask every client: "Do you know another cafe that needs this?" â€” this question alone built Nurul's whole client list
 
 ## The math
 
-One cafe at RM500/month. Two more at RM300/month. That's RM1,100/month recurring — more than a part-time job, with your hours, your phone, and zero commute. Within a year, raise rates for new clients to RM600-800 as your portfolio grows.
+One cafe at RM500/month. Two more at RM300/month. That's RM1,100/month recurring â€” more than a part-time job, with your hours, your phone, and zero commute. Within a year, raise rates for new clients to RM600-800 as your portfolio grows.
 
 Tim and Ahmad: pick the five busiest cafes near you, shoot two sample reels of the most photogenic, and go hand the phone to the owner. That's the entire business plan.

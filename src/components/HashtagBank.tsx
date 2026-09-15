@@ -40,7 +40,7 @@ export default function HashtagBank({ gearSlug, gearName, lang }: Props) {
               >
                 #{tag}
               </Link>
-              <span className="text-[10px] font-bold px-1 rounded border border-emerald-500/30 text-emerald-400">on-site</span>
+              <span className="text-xs font-bold px-1 rounded border border-emerald-500/30 text-emerald-400">on-site</span>
             </div>
             <div className="flex gap-1">
               {(['instagram', 'tiktok', 'youtube', 'google'] as const).map(p => (
@@ -49,7 +49,7 @@ export default function HashtagBank({ gearSlug, gearName, lang }: Props) {
                   href={buildUrl(tag, gearName, p)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`text-[10px] font-bold px-1.5 py-0.5 rounded border transition-colors ${
+                  className={`text-xs font-bold px-1.5 py-0.5 rounded border transition-colors ${
                     p === 'instagram' ? 'border-pink-500/30 text-pink-400 hover:bg-pink-500/10' :
                     p === 'tiktok' ? 'border-cyan-500/30 text-cyan-400 hover:bg-cyan-500/10' :
                     p === 'youtube' ? 'border-red-500/30 text-red-400 hover:bg-red-500/10' :

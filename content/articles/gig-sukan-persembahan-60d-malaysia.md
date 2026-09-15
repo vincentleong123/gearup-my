@@ -1,14 +1,14 @@
----
+﻿---
 slug: gig-sukan-persembahan-60d-malaysia
 title: 'Gig Sukan & Persembahan Sekolah dengan 60D: Latihan AF untuk Pemilik 60D'
 description: >-
   Gig sukan dan persembahan sekolah membayar RM300-700 sehari dan melatih
-  kemahiran AF yang paling sukar untuk pemilik 60D. Panduan lengkap — teknik,
+  kemahiran AF yang paling sukar untuk pemilik 60D. Panduan lengkap â€” teknik,
   harga, contoh job, dan gear bantu.
 image: /blog/gig-sukan-persembahan-60d-malaysia.jpg
 category: guide
 readTime: 10
-date: '2026-08-10'
+date: '2026-05-21'
 tags:
   - sukan
   - persembahan
@@ -23,7 +23,7 @@ relatedGear:
   - nikon-d500-reality-check-2026
 lang: ms
 ---
-Gig sukan dan persembahan sekolah adalah tempat pemilik 60D belajar perkara paling susah dalam fotografi: mengesan subjek bergerak. AF 60D memang bukan yang terpantas, tetapi dengan teknik yang betul ia boleh menang — dan kemahiran ini akan kekal bersama anda selamanya.
+Gig sukan dan persembahan sekolah adalah tempat pemilik 60D belajar perkara paling susah dalam fotografi: mengesan subjek bergerak. AF 60D memang bukan yang terpantas, tetapi dengan teknik yang betul ia boleh menang â€” dan kemahiran ini akan kekal bersama anda selamanya.
 
 Sekolah dan kolej perlukan jurugambar untuk sukan tahunan, pertandingan, konvokesyen, dan persembahan budaya. Bajet mereka ada, dan mereka sukakan kontrak berulang.
 
@@ -45,25 +45,25 @@ Sekolah dan kolej perlukan jurugambar untuk sukan tahunan, pertandingan, konvoke
 
 ## Contoh job sebenar
 
-**Contoh A:** Sekolah menengah di Kajang minta jurugambar sukan tahunan, 3 jam. Anda caj RM400. Pagi: larian 100m, lompat jauh. Petang: majlis anugerah. 60D anda pada AI Servo + burst — anda hantar 60 gambar terbaik.
+**Contoh A:** Sekolah menengah di Kajang minta jurugambar sukan tahunan, 3 jam. Anda caj RM400. Pagi: larian 100m, lompat jauh. Petang: majlis anugerah. 60D anda pada AI Servo + burst â€” anda hantar 60 gambar terbaik.
 
 **Contoh B:** Sekolah minta pakej tahunan: sukan + hari anugerah + majlis konvokesyen, RM1,800 setahun. Ini bermakna pendapatan stabil dan anda akan dikenali sebagai "jurugambar sekolah itu".
 
 ## Teknik AF untuk 60D (ini yang paling penting)
 
-- **Guna AI Servo (AF-C)** — bukan One-Shot — untuk subjek bergerak.
+- **Guna AI Servo (AF-C)** â€” bukan One-Shot â€” untuk subjek bergerak.
 - **Pilih Single Point dan letak atas atlet**, bukan biar kamera pilih.
-- **Pan dengan subjek** — gerakkan kamera ikut larian atlet.
-- **Burst 5.3fps** — ambil 3-5 gambar setiap momen, pilih yang terbaik.
-- **Shutter 1/500s atau lebih pantas** — beku aksi, elak blur.
-- **ISO hingga 1600-3200** — biar shutter laju, guna cahaya.
-- **Bersedia awal** — fokus dahulu di garisan sebelum atlet tiba.
+- **Pan dengan subjek** â€” gerakkan kamera ikut larian atlet.
+- **Burst 5.3fps** â€” ambil 3-5 gambar setiap momen, pilih yang terbaik.
+- **Shutter 1/500s atau lebih pantas** â€” beku aksi, elak blur.
+- **ISO hingga 1600-3200** â€” biar shutter laju, guna cahaya.
+- **Bersedia awal** â€” fokus dahulu di garisan sebelum atlet tiba.
 
 ## Gear bantu yang membantu
 
-1. 50mm f/1.8 — kaburkan latar, tangkap ekspresi.
-2. Flash luaran — wajib untuk pentas dan dewan gelap.
-3. Kad memori pantas (UHS-I) — burst berterusan.
+1. 50mm f/1.8 â€” kaburkan latar, tangkap ekspresi.
+2. Flash luaran â€” wajib untuk pentas dan dewan gelap.
+3. Kad memori pantas (UHS-I) â€” burst berterusan.
 4. Jika sering buat sukan: sewa atau beli lens telephoto (contoh 55-250mm terpakai ~RM400-600).
 
 ## Berapa gig nak bayar gear seterusnya
@@ -79,4 +79,4 @@ Sekolah dan kolej perlukan jurugambar untuk sukan tahunan, pertandingan, konvoke
 
 Gig sukan melatih anda kemahiran yang tiada gig lain dapat ajar: membaca pergerakan, timing, dan mengurus tekanan. Kemahiran ini membuatkan semua gig lain lebih mudah.
 
-Jangan takut gagal pada gig pertama — setiap jurugambar sukan pernah hantar 50 gambar blur. Yang penting, anda belajar dan naikkan kadar kejayaan setiap minggu.
+Jangan takut gagal pada gig pertama â€” setiap jurugambar sukan pernah hantar 50 gambar blur. Yang penting, anda belajar dan naikkan kadar kejayaan setiap minggu.

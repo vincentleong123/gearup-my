@@ -1,14 +1,14 @@
----
+﻿---
 slug: product-photography-ecommerce-gig-malaysia
 title: 'Product Photography for E-commerce in Malaysia: The RM150-500 Per Session Gig'
 description: >-
   Shopee and Lazada sellers need hundreds of product photos and never have
-  enough. Here is how to shoot products that sell — from a RM0 phone setup to a
+  enough. Here is how to shoot products that sell â€” from a RM0 phone setup to a
   RM300 mini studio.
 image: /blog/product-gig-guide.jpg
 category: guide
 readTime: 8
-date: '2026-08-03'
+date: '2026-03-07'
 tags:
   - product
   - ecommerce
@@ -19,16 +19,16 @@ relatedGear:
   - sony-a6100-review-malaysia-second-hand
   - nikon-d3100-review-malaysia-second-hand-price
 ---
-Shopee, Lazada, and TikTok Shop have turned millions of Malaysians into online sellers overnight. Every one of them needs product photos — and almost all of them are shooting with a phone on the kitchen table, getting photos that don't sell.
+Shopee, Lazada, and TikTok Shop have turned millions of Malaysians into online sellers overnight. Every one of them needs product photos â€” and almost all of them are shooting with a phone on the kitchen table, getting photos that don't sell.
 
 That's the gap you fill. Product photography is the gig with the most clients and the simplest skill to learn.
 
 ## Why sellers pay
 
-- A product photo is the entire sales pitch — no photo, no sale
+- A product photo is the entire sales pitch â€” no photo, no sale
 - Sellers who upgrade their photos see higher click-through and conversion
 - Most sellers have 50-500 products that all need shots
-- One session covers a whole catalog — they pay per session, not per photo
+- One session covers a whole catalog â€” they pay per session, not per photo
 
 ## The RM0 starter setup
 
@@ -44,7 +44,7 @@ You can do real product photography with just a phone and a window.
 - Straight-on hero shot (the one that goes on the listing cover)
 - Three-quarter angle (shows depth and shape)
 - Detail close-up (texture, logo, key feature)
-- Lifestyle shot (product in use — sells 10x better)
+- Lifestyle shot (product in use â€” sells 10x better)
 
 ## The RM300 mini studio
 
@@ -68,17 +68,17 @@ With this you can shoot at any hour, in any weather, in a corner of your bedroom
 
 ## How to find clients
 
-1. **Shopee/Lazada sellers near you** — search a product, message small sellers with few reviews and bad photos: "I can upgrade your listing photos, here are samples"
-2. **Home-based food sellers** — kuih, cookies, sauces — they need appetizing shots every season
-3. **Fashion resellers** — those selling on Instagram and Facebook need model/flat-lay shots
-4. **Directories** — offer "5 free photos" to two sellers in exchange for a testimonial, then show it everywhere
+1. **Shopee/Lazada sellers near you** â€” search a product, message small sellers with few reviews and bad photos: "I can upgrade your listing photos, here are samples"
+2. **Home-based food sellers** â€” kuih, cookies, sauces â€” they need appetizing shots every season
+3. **Fashion resellers** â€” those selling on Instagram and Facebook need model/flat-lay shots
+4. **Directories** â€” offer "5 free photos" to two sellers in exchange for a testimonial, then show it everywhere
 
 ## The photos that sell
 
-- **Light and bright** — white or soft backgrounds; dark, moody shots underperform on Shopee
-- **Consistent** — the same background and angle across a catalog looks professional
-- **Honest** — don't over-edit the colour or the product looks different in real life, and returns kill repeat business
-- **Fast delivery** — 48 hours is the standard that wins referrals
+- **Light and bright** â€” white or soft backgrounds; dark, moody shots underperform on Shopee
+- **Consistent** â€” the same background and angle across a catalog looks professional
+- **Honest** â€” don't over-edit the colour or the product looks different in real life, and returns kill repeat business
+- **Fast delivery** â€” 48 hours is the standard that wins referrals
 
 ## The math
 

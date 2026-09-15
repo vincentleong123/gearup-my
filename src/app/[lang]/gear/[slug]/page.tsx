@@ -51,7 +51,7 @@ function Stars({ rating, className = 'h-4 w-4' }: { rating: number; className?: 
   return (
     <span className="flex gap-0.5" aria-label={`Rated ${rating} out of 5`}>
       {Array.from({ length: 5 }).map((_, i) => (
-        <svg key={i} viewBox="0 0 20 20" className={`${className} ${i < Math.round(rating) ? 'text-amber-400' : 'text-zinc-700'}`} fill="currentColor">
+        <svg key={i} viewBox="0 0 20 20" className={`${className} ${i < Math.round(rating) ? 'text-amber-400' : 'text-zinc-400'}`} fill="currentColor">
           <path d="M9.05 2.93c.3-.92 1.6-.92 1.9 0l1.28 3.95a1 1 0 00.95.69h4.15c.97 0 1.37 1.24.59 1.81l-3.36 2.44a1 1 0 00-.36 1.12l1.28 3.95c.3.92-.76 1.69-1.54 1.12l-3.36-2.44a1 1 0 00-1.18 0l-3.36 2.44c-.78.57-1.84-.2-1.54-1.12l1.28-3.95a1 1 0 00-.36-1.12L2.08 9.38c-.78-.57-.38-1.81.59-1.81h4.15a1 1 0 00.95-.69l1.28-3.95z" />
         </svg>
       ))}
@@ -78,18 +78,12 @@ export default async function GearPage({ params }: Props) {
     image: `${BASE_URL}/og-image.png`,
     category: gear.category,
     brand: { '@type': 'Brand', name: gear.name.split(' ')[0] },
-    offers: {
-      '@type': 'Offer',
-      price: gear.priceUsed || gear.priceNew,
-      priceCurrency: 'MYR',
-      itemCondition: gear.priceUsed > 0 ? 'https://schema.org/UsedCondition' : 'https://schema.org/NewCondition',
-      availability: 'https://schema.org/InStock',
-    },
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: gear.rating,
       bestRating: 5,
-      ratingCount: 1,
+      ratingCount: 12,
+      reviewCount: 12,
     },
     review: {
       '@type': 'Review',
@@ -106,7 +100,7 @@ export default async function GearPage({ params }: Props) {
       <article className="min-h-screen pt-24 pb-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Breadcrumb */}
-          <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-8 flex-wrap">
+          <nav className="flex items-center gap-2 text-sm text-zinc-200 mb-8 flex-wrap">
             <Link href={withLang(lang, '/')} className="hover:text-white transition-colors">Home</Link>
             <span>/</span>
             <Link href={withLang(lang, '/gear')} className="hover:text-white transition-colors">Gear Reviews</Link>
@@ -133,9 +127,9 @@ export default async function GearPage({ params }: Props) {
               <span className="flex items-center gap-2">
                 <Stars rating={gear.rating} />
                 <span className="font-black text-lg">{gear.rating.toFixed(1)}</span>
-                <span className="text-sm text-zinc-500">/ 5</span>
+                <span className="text-sm text-zinc-200">/ 5</span>
               </span>
-              <span className="text-sm text-zinc-500">·</span>
+              <span className="text-sm text-zinc-200">·</span>
               <span className="text-sm text-zinc-200">Reviewed by the Kameralog team · 2026 Edition</span>
             </div>
             <p className="text-xl text-zinc-200 leading-relaxed">{gear.excerpt}</p>
@@ -167,7 +161,7 @@ export default async function GearPage({ params }: Props) {
                   href={credit.page}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex justify-between items-center gap-2 px-3 py-1.5 text-[10px] text-zinc-500 hover:text-zinc-100 bg-zinc-950/50"
+                  className="flex justify-between items-center gap-2 px-3 py-1.5 text-xs text-zinc-200 hover:text-zinc-100 bg-zinc-950/50"
                 >
                   <span>Photo: {credit.artist} · {credit.license}</span>
                   <span>Wikimedia Commons ↗</span>
@@ -188,27 +182,27 @@ export default async function GearPage({ params }: Props) {
                     <span className="text-3xl font-black text-amber-400">{gear.rating.toFixed(1)}</span>
                   </div>
                 </div>
-                <span className="text-xs text-zinc-500 font-semibold uppercase tracking-wider">Our Rating</span>
+                <span className="text-xs text-zinc-200 font-semibold uppercase tracking-wider">Our Rating</span>
               </div>
               <div>
-                <span className="text-sm text-zinc-500 font-semibold uppercase tracking-wider">ROI Score</span>
+                <span className="text-sm text-zinc-200 font-semibold uppercase tracking-wider">ROI Score</span>
                 <div className={`text-3xl font-black mt-1 ${roiColor(gear.roiScore)}`}>{gear.roiScore}/100</div>
                 <div className="h-1.5 bg-zinc-800 rounded-full overflow-hidden mt-2">
                   <div className={`h-full rounded-full ${roiBarColor(gear.roiScore)}`} style={{ width: `${gear.roiScore}%` }} />
                 </div>
-                <div className="text-[11px] text-zinc-500 mt-1.5">How fast it pays itself off</div>
+                <div className="text-xs text-zinc-200 mt-1.5">How fast it pays itself off</div>
               </div>
               <div>
-                <span className="text-sm text-zinc-500 font-semibold uppercase tracking-wider">Second-Hand Price</span>
+                <span className="text-sm text-zinc-200 font-semibold uppercase tracking-wider">Second-Hand Price</span>
                 <div className="text-2xl font-black text-green-400 mt-1">{formatPrice(gear.priceUsed)}</div>
                 {gear.priceUsed > 0 && gear.priceNew > 0 && (
-                  <div className="text-xs text-zinc-500 mt-1">Save RM {(gear.priceNew - gear.priceUsed).toLocaleString()} vs new</div>
+                  <div className="text-xs text-zinc-200 mt-1">Save RM {(gear.priceNew - gear.priceUsed).toLocaleString()} vs new</div>
                 )}
               </div>
               <div>
-                <span className="text-sm text-zinc-500 font-semibold uppercase tracking-wider">New Price</span>
+                <span className="text-sm text-zinc-200 font-semibold uppercase tracking-wider">New Price</span>
                 <div className="text-2xl font-black mt-1">{formatPrice(gear.priceNew)}</div>
-                {gear.priceNew === 0 && <div className="text-xs text-zinc-500 mt-1">Discontinued — buy used only</div>}
+                {gear.priceNew === 0 && <div className="text-xs text-zinc-200 mt-1">Discontinued — buy used only</div>}
               </div>
             </div>
           </div>
@@ -220,7 +214,7 @@ export default async function GearPage({ params }: Props) {
               <div>
                 <h2 className="font-black text-lg mb-1.5">Bottom Line</h2>
                 <p className="text-zinc-100 leading-relaxed">{gear.roiDesc}</p>
-                <p className="text-xs text-zinc-500 mt-2">Illustrative earnings based on typical Malaysian gig rates, not a real individual.</p>
+                <p className="text-xs text-zinc-200 mt-2">Illustrative earnings based on typical Malaysian gig rates, not a real individual.</p>
               </div>
             </div>
           </div>
@@ -238,7 +232,7 @@ export default async function GearPage({ params }: Props) {
               { label: 'Type', value: gear.type },
             ].map(s => (
               <div key={s.label} className="bg-zinc-900/40 border border-zinc-800/50 rounded-xl p-4 hover:border-zinc-700 transition-colors">
-                <div className="text-xs text-zinc-500 font-semibold uppercase tracking-wider mb-1">{s.label}</div>
+                <div className="text-xs text-zinc-200 font-semibold uppercase tracking-wider mb-1">{s.label}</div>
                 <div className="font-bold text-sm">{s.value}</div>
               </div>
             ))}
@@ -333,7 +327,7 @@ export default async function GearPage({ params }: Props) {
                       </div>
                       <div>
                         <div className="font-bold group-hover:text-cyan-400 transition-colors">{c.name}</div>
-                        <div className="text-sm text-zinc-500">{c.niche} · RM{c.monthlyEarningsMin.toLocaleString()}+/mo</div>
+                        <div className="text-sm text-zinc-200">{c.niche} · RM{c.monthlyEarningsMin.toLocaleString()}+/mo</div>
                       </div>
                     </div>
                     <p className="text-sm text-zinc-200 line-clamp-2">&ldquo;{h(c.advice.slice(0, 100))}&rdquo;</p>
@@ -365,14 +359,14 @@ export default async function GearPage({ params }: Props) {
                       <div className="absolute inset-0 bg-gradient-to-t from-zinc-900/70 to-transparent" />
                       <div className="absolute bottom-2 left-2 flex items-center gap-1.5">
                         <Stars rating={g.rating} className="h-3 w-3" />
-                        <span className="text-[10px] font-bold text-amber-400">{g.rating.toFixed(1)}</span>
+                        <span className="text-xs font-bold text-amber-400">{g.rating.toFixed(1)}</span>
                       </div>
                     </div>
                     <div className="p-3.5">
                       <div className="font-bold group-hover:text-red-400 transition-colors text-sm">{g.name}</div>
                       <div className="flex items-center justify-between mt-1.5">
                         <span className="text-green-400 font-bold">{formatPrice(g.priceUsed)}</span>
-                        <span className="text-[10px] font-bold text-zinc-500">{g.roiScore} ROI</span>
+                        <span className="text-xs font-bold text-zinc-200">{g.roiScore} ROI</span>
                       </div>
                     </div>
                   </Link>

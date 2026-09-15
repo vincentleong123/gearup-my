@@ -1,4 +1,4 @@
----
+﻿---
 slug: fujifilm-x-t5-review-malaysia
 title: 'Fujifilm X-T5 Review: 40MP Retro Charm Without the Pro Price Tag'
 description: >-
@@ -8,7 +8,7 @@ description: >-
 image: /blog/fujifilm-x-t5-review-malaysia.jpg
 category: gear
 readTime: 10
-date: '2026-08-07'
+date: '2026-04-20'
 tags:
   - fujifilm
   - aps-c
@@ -52,7 +52,7 @@ qaPairs:
       detail for portraits and street photography, allowing for high-quality
       JPEGs that often require no further editing.
 ---
-Some cameras are tools. The Fujifilm X-T5 is a personality. In a market of identical black rectangles, it's the camera that makes Malaysian street and portrait shooters fall in love with photography all over again — and with the 40MP X-Trans sensor, it's more capable than its retro face suggests.
+Some cameras are tools. The Fujifilm X-T5 is a personality. In a market of identical black rectangles, it's the camera that makes Malaysian street and portrait shooters fall in love with photography all over again â€” and with the 40MP X-Trans sensor, it's more capable than its retro face suggests.
 
 Here's our hands-on, and the honest advice on whether to buy it over the X-M5 or the hyped X100VI.
 
@@ -70,17 +70,17 @@ Here's our hands-on, and the honest advice on whether to buy it over the X-M5 or
 
 ## Why it's fun to shoot
 
-- **The dials.** ISO, shutter speed and exposure compensation are physical dials on top. You set the aperture on the lens. No menus, no chasing settings — just dials, exactly like the film cameras it celebrates.
+- **The dials.** ISO, shutter speed and exposure compensation are physical dials on top. You set the aperture on the lens. No menus, no chasing settings â€” just dials, exactly like the film cameras it celebrates.
 - **Film simulations.** JPEGs straight out of camera look like a finished edit. Classic Chrome, Velvia and the newer Nostalgic Neg make your food shots and street photos instantly shareable. This is the number one reason Fuji users don't shoot RAW.
 - **40MP with real sharpness.** The pixel count gets dismissed as a gimmick, but the 40MP X-Trans sensor genuinely out-resolves the 26MP competition when paired with good glass.
 
 ## Video: good, but it's not the point
 
-The X-T5 does 6.2K30 and 4K60 10-bit with F-Log2. It's very competent — but it's also not a video-first camera. The 3-way tilt screen and the burst rates scream stills. If you're buying a Fuji mainly for video, the X-H2 or X-M5 serve you better.
+The X-T5 does 6.2K30 and 4K60 10-bit with F-Log2. It's very competent â€” but it's also not a video-first camera. The 3-way tilt screen and the burst rates scream stills. If you're buying a Fuji mainly for video, the X-H2 or X-M5 serve you better.
 
 ## Autofocus: finally trustworthy
 
-Fuji's autofocus used to be the asterisk on every review. Not anymore. The X-T5's subject detection — face, eye, animal, bird — locks on and holds. It's not Canon or Sony level, but it's close enough that portrait and street work is genuinely effortless.
+Fuji's autofocus used to be the asterisk on every review. Not anymore. The X-T5's subject detection â€” face, eye, animal, bird â€” locks on and holds. It's not Canon or Sony level, but it's close enough that portrait and street work is genuinely effortless.
 
 ## Malaysian pricing and buying advice
 

@@ -1,14 +1,14 @@
----
+﻿---
 slug: gig-photobooth-60d-malaysia
 title: 'Gig Photobooth dengan 60D: Harga RM300-800 & Pelan Naik Taraf'
 description: >-
   Photobooth adalah gig paling mudah dimasuki dengan 60D: kamera pada tripod,
-  prop, satu orang operator, RM300-800 semalam. Ini panduan lengkap — gear,
+  prop, satu orang operator, RM300-800 semalam. Ini panduan lengkap â€” gear,
   harga, contoh job, dan pelan naik taraf.
 image: /blog/gig-photobooth-60d-malaysia.jpg
 category: guide
 readTime: 9
-date: '2026-08-10'
+date: '2026-05-28'
 tags:
   - photobooth
   - event
@@ -22,9 +22,9 @@ relatedGear:
   - gig-event-kecil-flash-60d-malaysia
 lang: ms
 ---
-Photobooth adalah gig yang paling senang difahami dan paling senang dijual: satu meja, satu prop, satu kamera pada tripod, dan tetamu datang bergambar. Anda hanya perlu satu operator — anda. Tiada arahan susah, tiada edit berjam-jam.
+Photobooth adalah gig yang paling senang difahami dan paling senang dijual: satu meja, satu prop, satu kamera pada tripod, dan tetamu datang bergambar. Anda hanya perlu satu operator â€” anda. Tiada arahan susah, tiada edit berjam-jam.
 
-Di Malaysia, photobooth diperlukan untuk majlis kahwin, hari jadi, majlis korporat, rumah terbuka, dan convocation. Bayaran RM300-800 untuk 3-5 jam — dan gear yang diperlukan hampir semuanya ada dalam senarai setup RM500 anda.
+Di Malaysia, photobooth diperlukan untuk majlis kahwin, hari jadi, majlis korporat, rumah terbuka, dan convocation. Bayaran RM300-800 untuk 3-5 jam â€” dan gear yang diperlukan hampir semuanya ada dalam senarai setup RM500 anda.
 
 ## Do what: apa kerja sebenarnya
 
@@ -45,23 +45,23 @@ Di Malaysia, photobooth diperlukan untuk majlis kahwin, hari jadi, majlis korpor
 
 **Contoh A:** Rumah terbuka Raya syarikat di PJ minta photobooth 4 jam dengan backdrop sahaja. Anda caj RM400. Setup 30 minit, operasi 4 jam, gambar dihantar hari sama. Bersih RM380.
 
-**Contoh B:** Majlis kahwin adik di Ipoh minta photobooth dengan prop dan printer. Anda caj RM650. Ini memerlukan printer (sewa RM80-120 sehari) dan sedikit extra — tapi hasil bersih masih RM500+ untuk satu malam.
+**Contoh B:** Majlis kahwin adik di Ipoh minta photobooth dengan prop dan printer. Anda caj RM650. Ini memerlukan printer (sewa RM80-120 sehari) dan sedikit extra â€” tapi hasil bersih masih RM500+ untuk satu malam.
 
 ## Gear yang diperlukan
 
-1. Canon 60D + kit lens 18-55mm — sudah ada.
+1. Canon 60D + kit lens 18-55mm â€” sudah ada.
 2. Tripod kukuh (RM80-150).
-3. Flash luaran (RM180) — wajib, dewan selalu redup.
-4. Remote shutter (RM20) — tetamu boleh ambil gambar sendiri.
+3. Flash luaran (RM180) â€” wajib, dewan selalu redup.
+4. Remote shutter (RM20) â€” tetamu boleh ambil gambar sendiri.
 5. Backdrop (kain ~RM30-50 atau banner print RM80) + stand.
 
 ## Tips photobooth yang membuatkan anda dipanggil semula
 
-- **Fokus otomatik tetap pada tetamu** — setting AF-S + face detect jika ada.
-- **Susun prop ikut tema majlis** — tetamu lebih seronok bergambar.
-- **Ambil 3-4 gambar setiap tetamu** — beri pilihan, bukan satu.
-- **Hantar gambar dalam 24 jam** — ini yang membezakan anda dengan yang lambat.
-- **Print-on-site adalah nilai jual** — tetamu suka bawa pulang gambar fizikal.
+- **Fokus otomatik tetap pada tetamu** â€” setting AF-S + face detect jika ada.
+- **Susun prop ikut tema majlis** â€” tetamu lebih seronok bergambar.
+- **Ambil 3-4 gambar setiap tetamu** â€” beri pilihan, bukan satu.
+- **Hantar gambar dalam 24 jam** â€” ini yang membezakan anda dengan yang lambat.
+- **Print-on-site adalah nilai jual** â€” tetamu suka bawa pulang gambar fizikal.
 
 ## Berapa gig nak bayar gear seterusnya
 
@@ -74,6 +74,6 @@ Di Malaysia, photobooth diperlukan untuk majlis kahwin, hari jadi, majlis korpor
 
 ## Kesimpulan
 
-Photobooth mungkin kedengaran "kecil", tetapi ia adalah salah satu gig paling cepat berulang — majlis kahwin punya adik-beradik yang akan berkahwin, syarikat punya event tahunan. Satu client puas hati = kontrak tahun depan.
+Photobooth mungkin kedengaran "kecil", tetapi ia adalah salah satu gig paling cepat berulang â€” majlis kahwin punya adik-beradik yang akan berkahwin, syarikat punya event tahunan. Satu client puas hati = kontrak tahun depan.
 
 Mulakan dengan backdrop RM50 dan remote shutter RM20. Dua gig pertama akan membayar keseluruhannya.

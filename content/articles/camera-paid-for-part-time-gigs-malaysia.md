@@ -1,14 +1,14 @@
----
+﻿---
 slug: camera-paid-for-part-time-gigs-malaysia
 title: 'How to Get a Camera Fully Paid For: The Gig-to-Gear System (Malaysia 2026)'
 description: >-
-  A camera is not an expense — it is a business asset. Here is the complete
+  A camera is not an expense â€” it is a business asset. Here is the complete
   system for paying off any camera with real Malaysian gigs: graduation, galas,
   portraits, weddings, video and more.
 image: /blog/gig-to-gear.jpg
 category: guide
 readTime: 10
-date: '2026-08-01'
+date: '2026-02-24'
 tags:
   - gigs
   - money
@@ -60,7 +60,7 @@ qaPairs:
 ---
 Tim and Ahmad have RM400. The camera they want costs RM1,600. They think they need to "save up."
 
-Wrong. They need to **earn** it. And in Malaysia in 2026, there is a queue of people willing to pay for photos and video — they just need to be asked.
+Wrong. They need to **earn** it. And in Malaysia in 2026, there is a queue of people willing to pay for photos and video â€” they just need to be asked.
 
 This is the Gig-to-Gear System: you don't save for a camera, you let a camera earn for you.
 
@@ -70,7 +70,7 @@ A camera is a tool that makes money. Every RM100 of camera is one small gig. Eve
 
 - **Step 1:** Pick a gig you can do this weekend (graduation is the easiest)
 - **Step 2:** Get the cheapest gear that can do it (often the phone you own)
-- **Step 3:** Take the gig money, upgrade, repeat — until the camera is 100% paid off
+- **Step 3:** Take the gig money, upgrade, repeat â€” until the camera is 100% paid off
 
 Once the camera is paid off, every gig is profit. That is the whole game.
 
@@ -90,7 +90,7 @@ Do 4 gigs a month and almost every camera under RM2,500 is paid off within 30 da
 
 ## Why gigs beat "saving up"
 
-**Saving is slow.** At RM100 a month, a RM1,600 camera takes 16 months — and by then it's outdated.
+**Saving is slow.** At RM100 a month, a RM1,600 camera takes 16 months â€” and by then it's outdated.
 
 **Earning is fast.** A RM1,600 camera paid with 4 weekend gigs takes 1 month. Same camera, 15x faster.
 
@@ -100,13 +100,13 @@ Do 4 gigs a month and almost every camera under RM2,500 is paid off within 30 da
 
 ## The order of operations
 
-**Month 0 — Week 1 (RM0):** Pick your first gig from our gig hub. Graduation, portrait or food content are the fastest to land. Get 3 sample shots with your phone.
+**Month 0 â€” Week 1 (RM0):** Pick your first gig from our gig hub. Graduation, portrait or food content are the fastest to land. Get 3 sample shots with your phone.
 
-**Month 0 — Week 2 (RM0-100):** Pitch 10 people. Freebie for friends who own cafes, RM100 headshots for professionals. Bank the first RM200-400.
+**Month 0 â€” Week 2 (RM0-100):** Pitch 10 people. Freebie for friends who own cafes, RM100 headshots for professionals. Bank the first RM200-400.
 
-**Month 0 — Week 3 (RM150):** Buy a used Nikon D3100 or keep your phone and buy a lapel mic + tripod instead. Shoot your first paid gig.
+**Month 0 â€” Week 3 (RM150):** Buy a used Nikon D3100 or keep your phone and buy a lapel mic + tripod instead. Shoot your first paid gig.
 
-**Month 1 (RM450-800):** You now have real income. Repeat the cycle: gig → gear → better gig.
+**Month 1 (RM450-800):** You now have real income. Repeat the cycle: gig â†’ gear â†’ better gig.
 
 **Month 2-3 (RM1,500-2,500):** Buy the mirrorless (A6100 or ZV-E10) with gig money. It is now a business asset, not a purchase.
 
@@ -128,7 +128,7 @@ One gig is pocket money. **Stacked** gigs is a salary:
 - 1 corporate event (Sat evening): RM600
 - Total: RM1,350 in ONE weekend
 
-Now imagine doing that two weekends a month. That's RM2,700 — before you touch YouTube or TikTok monetization.
+Now imagine doing that two weekends a month. That's RM2,700 â€” before you touch YouTube or TikTok monetization.
 
 ## The first 30-day plan
 

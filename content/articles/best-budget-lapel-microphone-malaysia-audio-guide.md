@@ -1,4 +1,4 @@
----
+﻿---
 slug: best-budget-lapel-microphone-malaysia-audio-guide
 title: 'The Budget Lapel Mic Guide for Malaysia 2026: Fix Your Audio for RM30-200'
 description: >-
@@ -7,7 +7,7 @@ description: >-
 image: /blog/lapel-mic-guide.jpg
 category: gear
 readTime: 6
-date: '2026-08-04'
+date: '2026-03-16'
 tags:
   - audio
   - microphone
@@ -76,17 +76,17 @@ For a pure phone user, the cheap wired lapel mic is the biggest bang-for-buck in
 **Pros:**
 - Costs the price of a nice meal out
 - Audio quality leaps from "phone speaker" to "podcast"
-- Zero pairing, zero batteries — just plug in
+- Zero pairing, zero batteries â€” just plug in
 - Works with iPhones (USB-C adapter needed) and Androids
 
 **Cons:**
 - The cable can pick up rustle noise if it rubs your clothes
 - Your phone is physically tethered to you
-- Cheap ones die after months of daily use — buy two
+- Cheap ones die after months of daily use â€” buy two
 
 ## The RM60-100 wireless set
 
-If you move around while filming — cooking, walking, presenting — wireless is worth it.
+If you move around while filming â€” cooking, walking, presenting â€” wireless is worth it.
 
 **Pros:**
 - No cable noise
@@ -114,7 +114,7 @@ If you're doing paid gigs, buy the wireless set from a real brand. The differenc
 
 ## The verdict
 
-For Tim and Ahmad starting at RM0: buy the **RM30-50 wired lapel mic** before anything else. It is the first RM50 you should spend on your entire setup — before the tripod, before the light, before the camera.
+For Tim and Ahmad starting at RM0: buy the **RM30-50 wired lapel mic** before anything else. It is the first RM50 you should spend on your entire setup â€” before the tripod, before the light, before the camera.
 
 For anyone already earning: the **RM60-100 wireless set** is the smartest upgrade you will ever make. No cable rustle, no tethered phone, and interviews become effortless.
 

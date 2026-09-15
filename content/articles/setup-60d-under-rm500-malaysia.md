@@ -1,14 +1,14 @@
----
+﻿---
 slug: setup-60d-under-rm500-malaysia
 title: 'Upgrade Canon 60D Dengan RM500 Sahaja: Flash, Tripod, Mic & Reflektor'
 description: >-
   Belum ada duit untuk kamera baru? RM500 sudah cukup untuk mengubah 60D menjadi
   kit semi-pro: flash luaran, tripod, mic, reflektor dan teknik. Senarai belanja
-  paling bijak ikut keutamaan — dan gig mana yang setiap item tolong.
+  paling bijak ikut keutamaan â€” dan gig mana yang setiap item tolong.
 image: /blog/setup-60d-under-rm500-malaysia.jpg
 category: guide
 readTime: 9
-date: '2026-08-10'
+date: '2026-05-25'
 tags:
   - setup
   - bajet
@@ -23,7 +23,7 @@ lang: ms
 ---
 Kesilapan paling besar pemilik 60D: menyimpan RM500 selama setahun untuk "kamera baru", sedangkan RM500 itu, jika dibelanjakan dengan bijak, boleh menjadikan 60D mereka mesin semi-pro sekarang juga.
 
-Ini senarai belanja RM500 paling bijak ikut keutamaan — setiap item dipilih untuk membuka gig tertentu.
+Ini senarai belanja RM500 paling bijak ikut keutamaan â€” setiap item dipilih untuk membuka gig tertentu.
 
 ## Senarai belanja RM500 (ikut urutan)
 
@@ -36,7 +36,7 @@ Ini senarai belanja RM500 paling bijak ikut keutamaan — setiap item dipilih un
 | 5 | Remote shutter | RM20 | Produk, self potret |
 | 6 | Kad memori 32GB ganti | RM30 | Semua gig |
 
-Jumlah: **RM390-580** — kira-kira RM500.
+Jumlah: **RM390-580** â€” kira-kira RM500.
 
 ## Mengapa flash dahulu (bukan kamera)
 
@@ -50,15 +50,15 @@ Beli flash dahulu. Ia membuka gig yang paling banyak bayaran per jam.
 
 ## Item 2-6: kenapa masing-masing
 
-- **Tripod** — membuka gig produk dan makanan (yang tidak perlukan AF langsung).
-- **Reflektor** — potret luar jadi bersih, hilang bayang bawah mata. Kos paling rendah, hasil paling ketara.
-- **Mic lapel RM50** — untuk video perniagaan, audio lebih penting daripada video. Client bayar RM500-1,500 untuk video yang bunyinya bersih.
-- **Remote shutter** — elak gegaran untuk produk dan long exposure.
-- **Kad memori** — backup. Satu kad rosak tanpa ganti = reputasi.
+- **Tripod** â€” membuka gig produk dan makanan (yang tidak perlukan AF langsung).
+- **Reflektor** â€” potret luar jadi bersih, hilang bayang bawah mata. Kos paling rendah, hasil paling ketara.
+- **Mic lapel RM50** â€” untuk video perniagaan, audio lebih penting daripada video. Client bayar RM500-1,500 untuk video yang bunyinya bersih.
+- **Remote shutter** â€” elak gegaran untuk produk dan long exposure.
+- **Kad memori** â€” backup. Satu kad rosak tanpa ganti = reputasi.
 
 ## Contoh job yang menampung RM500 ini
 
-Satu gig konvokesyen RM350 + satu gig makanan RM200 = RM550. Dua hujung minggu sahaja — dan semua aksesori ini milik anda, dibayar oleh gig.
+Satu gig konvokesyen RM350 + satu gig makanan RM200 = RM550. Dua hujung minggu sahaja â€” dan semua aksesori ini milik anda, dibayar oleh gig.
 
 | Job | Bayaran | Aksesori yang digunakan |
 | --- | --- | --- |
@@ -69,20 +69,20 @@ Satu gig konvokesyen RM350 + satu gig makanan RM200 = RM550. Dua hujung minggu s
 
 ## Apa yang JANGAN dibeli dahulu
 
-- **Lens mahal baru** — lens 50mm f/1.8 anda sudah cukup untuk permulaan.
-- **Kamera baru** — sebelum flash, tripod, dan mic.
-- **Banyak prime lens** — satu lens cukup sehingga gig menuntut lebih.
-- **Gear "pro" atas nasihat orang** — beli ikut gig yang anda ambil, bukan ikut hype.
+- **Lens mahal baru** â€” lens 50mm f/1.8 anda sudah cukup untuk permulaan.
+- **Kamera baru** â€” sebelum flash, tripod, dan mic.
+- **Banyak prime lens** â€” satu lens cukup sehingga gig menuntut lebih.
+- **Gear "pro" atas nasihat orang** â€” beli ikut gig yang anda ambil, bukan ikut hype.
 
 ## Tips beli aksesori terpakai di Malaysia
 
 - **Flash:** check bahagian depan (bang) dan test trigger sebelum bayar. Yongnuo selalu ada di Mudah/Carousell.
 - **Tripod:** check kaki tidak longgar dan kepala tidak berkarat.
-- **Kad memori:** beli baru sahaja — RM30 bukan nilai untuk disimpan.
+- **Kad memori:** beli baru sahaja â€” RM30 bukan nilai untuk disimpan.
 - **Minta resit** walaupun terpakai, untuk semakan waranti.
 
 ## Kesimpulan
 
-RM500 bukan "kecil" — ia adalah kos kemasukan kepada gear yang membuka 4-5 jenis gig baharu. Flash, tripod, reflektor, mic, dan remote menjadikan 60D anda kit semi-pro sebenar.
+RM500 bukan "kecil" â€” ia adalah kos kemasukan kepada gear yang membuka 4-5 jenis gig baharu. Flash, tripod, reflektor, mic, dan remote menjadikan 60D anda kit semi-pro sebenar.
 
 Belanja ikut urutan, biar gig yang bayar, dan satu kamera baharu tidak akan menjadi impian yang jauh.

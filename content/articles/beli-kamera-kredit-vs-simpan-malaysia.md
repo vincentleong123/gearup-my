@@ -1,4 +1,4 @@
----
+﻿---
 slug: beli-kamera-kredit-vs-simpan-malaysia
 title: 'Beli Kamera Kredit vs Simpan: 0% EPP RM1,920 vs 6 Gigs RM1,600 — Mana Menang?'
 description: >-
@@ -10,7 +10,7 @@ image: /blog/beli-kamera-kredit-vs-simpan-malaysia.jpg
 category: comparison
 verticalCategory: creator-gear
 status: published
-date: 2026-08-16T00:00:00.000Z
+date: '2026-06-20'
 updatedAt: 2026-08-16T00:00:00.000Z
 author: Kameralog Editorial
 lang: ms

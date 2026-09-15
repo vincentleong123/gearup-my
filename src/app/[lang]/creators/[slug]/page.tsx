@@ -50,7 +50,7 @@ export default async function CreatorPage({ params }: Props) {
       <Nav />
       <article className="min-h-screen pt-24 pb-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-8">
+          <nav className="flex items-center gap-2 text-sm text-zinc-200 mb-8">
             <Link href={withLang(lang, '/')} className="hover:text-white transition-colors">Home</Link>
             <span>/</span>
             <Link href={withLang(lang, '/creators')} className="hover:text-white transition-colors">Creators</Link>
@@ -66,7 +66,7 @@ export default async function CreatorPage({ params }: Props) {
             />
             <div>
               <h1 className="text-3xl md:text-5xl font-black">{creator.name}</h1>
-              <div className="text-lg text-zinc-500">{creator.handle}</div>
+              <div className="text-lg text-zinc-200">{creator.handle}</div>
               <div className="text-sm text-cyan-400 bg-cyan-500/10 px-3 py-1 rounded-full inline-block mt-2 font-semibold">{creator.niche}</div>
             </div>
           </div>
@@ -75,19 +75,19 @@ export default async function CreatorPage({ params }: Props) {
           <div className="grid grid-cols-3 gap-4 mb-4">
             <div className="bg-zinc-900/80 border border-zinc-800 rounded-xl p-5 text-center">
               <div className="text-2xl font-black text-green-400">RM {creator.monthlyEarningsMin.toLocaleString()}+</div>
-              <div className="text-sm text-zinc-500">Illustrative Monthly Earnings</div>
+              <div className="text-sm text-zinc-200">Illustrative Monthly Earnings</div>
             </div>
             <div className="bg-zinc-900/80 border border-zinc-800 rounded-xl p-5 text-center">
               <div className="text-2xl font-black text-cyan-400">{creator.roiMonths} mo</div>
-              <div className="text-sm text-zinc-500">Time to Breakeven</div>
+              <div className="text-sm text-zinc-200">Time to Breakeven</div>
             </div>
             <div className="bg-zinc-900/80 border border-zinc-800 rounded-xl p-5 text-center">
               <div className="text-2xl font-black text-zinc-100">{creator.startedWith.length > 20 ? creator.startedWith.slice(0, 18) + '…' : creator.startedWith}</div>
-              <div className="text-sm text-zinc-500">Started With</div>
+              <div className="text-sm text-zinc-200">Started With</div>
             </div>
           </div>
 
-          <div className="bg-zinc-900/40 border border-zinc-800 rounded-xl px-5 py-3 mb-10 text-xs text-zinc-500">
+          <div className="bg-zinc-900/40 border border-zinc-800 rounded-xl px-5 py-3 mb-10 text-xs text-zinc-200">
             This story is illustrative — a realistic example built from typical Malaysian gig rates and gear prices, not a profile of a real person.
           </div>
 
@@ -134,7 +134,7 @@ export default async function CreatorPage({ params }: Props) {
                         g.level === 'mid' ? 'bg-yellow-500/20 text-yellow-400' :
                         'bg-red-500/20 text-red-400'
                       }`}>{g.level}</span>
-                      <span className="text-xs text-zinc-500 bg-zinc-800 px-2 py-0.5 rounded">{g.roiScore} ROI</span>
+                      <span className="text-xs text-zinc-200 bg-zinc-800 px-2 py-0.5 rounded">{g.roiScore} ROI</span>
                     </div>
                   </Link>
                 ))}

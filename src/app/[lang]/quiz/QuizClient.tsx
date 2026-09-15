@@ -150,7 +150,7 @@ export default function QuizClient() {
           {results.map((gear, i) => (
             <Link
               key={gear.slug}
-              href={withLang('en', `/gear/${gear.slug}`)}
+              href={withLang(lang, `/gear/${gear.slug}`)}
               className={`block bg-zinc-900/80 border rounded-2xl overflow-hidden hover:border-red-500/30 transition-all group ${
                 i === 0 ? 'border-red-500/40 ring-1 ring-red-500/20' : 'border-zinc-800'
               }`}
@@ -199,7 +199,7 @@ export default function QuizClient() {
     <div>
       {/* Progress */}
       <div className="mb-8">
-        <div className="flex justify-between text-sm text-zinc-500 mb-2">
+        <div className="flex justify-between text-sm text-zinc-200 mb-2">
           <span>{t('quiz.stepOf', 'Step {step} of {total}').replace('{step}', String(step + 1)).replace('{total}', String(questions.length))}</span>
           <span>{Math.round(progress)}%</span>
         </div>

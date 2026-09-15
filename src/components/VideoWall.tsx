@@ -115,7 +115,7 @@ export default function VideoWall({ limit }: { limit?: number }) {
         {source === 'youtube' && <CategoryPills cats={videoCategories} active={youtubeCat} onSelect={id => setYoutubeCat(id as VideoCategory | 'all')} />}
         {source === 'instagram' && <CategoryPills cats={instagramCategories} active={igCat} onSelect={id => setIgCat(id as InstagramCategory | 'all')} />}
         {source === 'all' && (
-          <p className="text-center text-xs text-zinc-500 uppercase tracking-[0.3em]">
+          <p className="text-center text-xs text-zinc-200 uppercase tracking-[0.3em]">
             Mixing {videos.length} tutorials + {instagramPosts.length} saved gear posts
           </p>
         )}
@@ -146,19 +146,19 @@ export default function VideoWall({ limit }: { limit?: number }) {
                   </span>
                 </div>
                 {item.duration && (
-                  <span className="absolute bottom-2 right-2 text-[11px] font-bold px-1.5 py-0.5 rounded bg-zinc-950/80 border border-white/15 text-white">
+                  <span className="absolute bottom-2 right-2 text-xs font-bold px-1.5 py-0.5 rounded bg-zinc-950/80 border border-white/15 text-white">
                     {item.duration}
                   </span>
                 )}
                 <div className="absolute top-2 left-2 flex items-center gap-1.5">
-                  <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full border uppercase tracking-wider ${levelBadge[item.level].cls}`}>
+                  <span className={`text-xs font-bold px-2 py-0.5 rounded-full border uppercase tracking-wider ${levelBadge[item.level].cls}`}>
                     {levelBadge[item.level].label}
                   </span>
                 </div>
               </div>
               <div className="p-4">
                 <h3 className="font-bold text-sm leading-snug group-hover:text-red-400 transition-colors mb-1.5 line-clamp-2">{item.title}</h3>
-                <div className="flex items-center justify-between text-xs text-zinc-500">
+                <div className="flex items-center justify-between text-xs text-zinc-200">
                   <span className="flex items-center gap-1.5 truncate pr-2">
                     <span className="shrink-0 grid place-items-center h-5 w-5 rounded-full bg-zinc-800 text-[9px] font-bold text-zinc-100">{item.channel[0]}</span>
                     <span className="truncate">{item.channel}</span>
@@ -189,15 +189,15 @@ export default function VideoWall({ limit }: { limit?: number }) {
                   </span>
                 </div>
                 <div className="absolute top-2 left-2">
-                  <span className="text-[10px] font-bold px-2 py-0.5 rounded-full border uppercase tracking-wider bg-pink-500/10 text-pink-300 border-pink-500/30">
+                  <span className="text-xs font-bold px-2 py-0.5 rounded-full border uppercase tracking-wider bg-pink-500/10 text-pink-300 border-pink-500/30">
                     {item.isVideo ? 'Reel' : 'Post'}
                   </span>
                 </div>
               </div>
               <div className="p-4">
                 <h3 className="font-bold text-sm leading-snug group-hover:text-pink-400 transition-colors mb-1.5 line-clamp-2">{item.title}</h3>
-                <p className="text-xs text-zinc-500 line-clamp-2 mb-2">{item.caption}</p>
-                <div className="flex items-center justify-between text-xs text-zinc-500">
+                <p className="text-xs text-zinc-200 line-clamp-2 mb-2">{item.caption}</p>
+                <div className="flex items-center justify-between text-xs text-zinc-200">
                   <span className="flex items-center gap-1.5 truncate">
                     <span className="shrink-0 grid place-items-center h-5 w-5 rounded-full bg-gradient-to-tr from-amber-400 to-pink-500 text-[9px] font-bold text-white">{item.author[0]}</span>
                     <span className="truncate">{item.author}</span>
@@ -211,7 +211,7 @@ export default function VideoWall({ limit }: { limit?: number }) {
       </div>
 
       {filtered.length === 0 && (
-        <p className="text-center text-zinc-500 py-16">Nothing here yet — check back soon.</p>
+        <p className="text-center text-zinc-200 py-16">Nothing here yet — check back soon.</p>
       )}
 
       {/* Lightbox player */}
@@ -263,7 +263,7 @@ export default function VideoWall({ limit }: { limit?: number }) {
                   {playing.kind === 'youtube' ? playing.channel : `${playing.author} · saved post`}
                 </p>
                 {playing.kind === 'instagram' && playing.caption && (
-                  <p className="text-sm text-zinc-500 mt-2 max-w-2xl">{playing.caption}</p>
+                  <p className="text-sm text-zinc-200 mt-2 max-w-2xl">{playing.caption}</p>
                 )}
               </div>
               <span className="shrink-0 inline-flex items-center gap-1.5 text-xs font-bold px-3 py-1.5 rounded-full bg-white/5 border border-white/15 text-zinc-100">

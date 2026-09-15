@@ -1,4 +1,4 @@
----
+﻿---
 slug: content-calendar-malaysia-creators
 title: 'The Malaysian Creator Content Calendar: 30 Days of Posts That Grow Any Channel'
 description: >-
@@ -8,7 +8,7 @@ description: >-
 image: /blog/content-calendar.jpg
 category: guide
 readTime: 10
-date: '2026-08-04'
+date: '2026-03-24'
 tags:
   - content-planning
   - strategy

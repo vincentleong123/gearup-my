@@ -1,6 +1,8 @@
 import { MetadataRoute } from 'next';
+import { readSettings } from '@/lib/cms/settings';
 
-export default function robots(): MetadataRoute.Robots {
+export default async function robots(): Promise<MetadataRoute.Robots> {
+  const { siteUrl } = await readSettings();
   return {
     rules: [
       {
@@ -13,6 +15,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: '/',
       },
     ],
-    sitemap: 'https://kameralog.com/sitemap.xml',
+    sitemap: `${siteUrl.replace(/\/$/, '')}/sitemap.xml`,
   };
 }

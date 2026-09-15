@@ -19,12 +19,12 @@ function Stars({ rating }: { rating: number }) {
     <div className="flex items-center gap-1 text-sm" aria-label={`Rated ${rating} out of 5`}>
       <span className="flex gap-0.5">
         {Array.from({ length: 5 }).map((_, i) => (
-          <svg key={i} viewBox="0 0 20 20" className={`h-3.5 w-3.5 ${i < Math.round(rating) ? 'text-amber-400' : 'text-zinc-700'}`} fill="currentColor">
+          <svg key={i} viewBox="0 0 20 20" className={`h-3.5 w-3.5 ${i < Math.round(rating) ? 'text-amber-400' : 'text-zinc-400'}`} fill="currentColor">
             <path d="M9.05 2.93c.3-.92 1.6-.92 1.9 0l1.28 3.95a1 1 0 00.95.69h4.15c.97 0 1.37 1.24.59 1.81l-3.36 2.44a1 1 0 00-.36 1.12l1.28 3.95c.3.92-.76 1.69-1.54 1.12l-3.36-2.44a1 1 0 00-1.18 0l-3.36 2.44c-.78.57-1.84-.2-1.54-1.12l1.28-3.95a1 1 0 00-.36-1.12L2.08 9.38c-.78-.57-.38-1.81.59-1.81h4.15a1 1 0 00.95-.69l1.28-3.95z" />
           </svg>
         ))}
       </span>
-      <span className="text-zinc-500 font-semibold">{rating.toFixed(1)}</span>
+      <span className="text-zinc-200 font-semibold">{rating.toFixed(1)}</span>
     </div>
   );
 }
@@ -56,7 +56,7 @@ export default function EditorsPicks({ lang }: { lang: string }) {
             return (
               <Link
                 key={a.slug}
-                href={withLang('en', `/gear/${g.slug}`)}
+                href={withLang(lang, `/gear/${g.slug}`)}
                 className="group relative block bg-zinc-900/70 border border-zinc-800 rounded-2xl overflow-hidden hover:border-purple-500/40 hover:shadow-2xl hover:shadow-purple-600/10 hover:-translate-y-1 transition-all duration-300"
               >
                 <div className="relative h-44 overflow-hidden bg-zinc-900">
@@ -88,11 +88,11 @@ export default function EditorsPicks({ lang }: { lang: string }) {
                   </div>
                   <div className="flex items-center justify-between mb-3">
                     <Stars rating={g.rating} />
-                    <span className="text-xs text-zinc-500 bg-zinc-800/70 px-2 py-0.5 rounded-full">{getLevelLabel(g.level)}</span>
+                    <span className="text-xs text-zinc-200 bg-zinc-800/70 px-2 py-0.5 rounded-full">{getLevelLabel(g.level)}</span>
                   </div>
                   <p className="text-sm text-zinc-200 line-clamp-2 mb-4">{g.excerpt}</p>
                   <div className="flex items-center justify-between">
-                    <div className="text-xs text-zinc-500">ROI Score</div>
+                    <div className="text-xs text-zinc-200">ROI Score</div>
                     <div className="text-sm font-black text-green-400">{g.roiScore}/100</div>
                   </div>
                 </div>

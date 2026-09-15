@@ -425,7 +425,7 @@ export default function LazyContentCreator() {
             <h2 className="text-xl font-bold mb-4">Generated Output</h2>
 
             {!generated ? (
-              <div className="text-zinc-500 text-sm p-4 bg-zinc-800 rounded">
+              <div className="text-zinc-200 text-sm p-4 bg-zinc-800 rounded">
                 <p>Fill the form on the left and click generate.</p>
                 <p className="mt-2">Output will appear here as JSON ready to paste into your articles.ts file.</p>
               </div>

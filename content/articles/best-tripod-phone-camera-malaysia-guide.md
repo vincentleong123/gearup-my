@@ -1,13 +1,13 @@
----
+﻿---
 slug: best-tripod-phone-camera-malaysia-guide
 title: 'Tripods for Malaysian Creators: The RM40-400 Buying Guide (Phone & Camera)'
 description: >-
-  A wobbly table is not a tripod. Here is what to buy at every budget — from the
-  RM40 phone starter to the RM400 gig workhorse — and the mistakes to avoid.
+  A wobbly table is not a tripod. Here is what to buy at every budget â€” from the
+  RM40 phone starter to the RM400 gig workhorse â€” and the mistakes to avoid.
 image: /blog/tripod-guide.jpg
 category: gear
 readTime: 6
-date: '2026-08-04'
+date: '2026-03-17'
 tags:
   - tripod
   - gear
@@ -56,7 +56,7 @@ Here is the honest tripod guide for RM40-400.
 
 Before you look at any product, answer these questions:
 1. Phone or camera? A phone needs a lightweight mount; a DSLR/mirrorless needs something that can hold 1-2kg without sagging
-2. Tabletop or full height? Most talking-head content is filmed sitting at a desk — a short tabletop tripod covers 90% of it
+2. Tabletop or full height? Most talking-head content is filmed sitting at a desk â€” a short tabletop tripod covers 90% of it
 3. Do you travel? Weight and packed size matter if you vlog outside
 
 ## RM40-70: the phone starter tripod

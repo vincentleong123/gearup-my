@@ -1,4 +1,4 @@
----
+﻿---
 slug: cara-jadi-content-creator-tanpa-modal-malaysia
 title: >-
   Cara Jadi Content Creator Tanpa Modal Malaysia 2026: Barter, Pinjam & 4 Sumber
@@ -12,7 +12,7 @@ image: /blog/cara-jadi-content-creator-tanpa-modal-malaysia.jpg
 category: guide
 verticalCategory: creator-gear
 status: published
-date: 2026-08-16T00:00:00.000Z
+date: '2026-06-13'
 updatedAt: 2026-08-16T00:00:00.000Z
 author: Kameralog Editorial
 lang: ms

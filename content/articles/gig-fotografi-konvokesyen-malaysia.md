@@ -1,4 +1,4 @@
----
+﻿---
 slug: gig-fotografi-konvokesyen-malaysia
 title: 'Fotografi Konvokesyen: Gig Sambilan Paling Laju untuk Bayar Kamera Anda'
 description: >-
@@ -8,7 +8,7 @@ description: >-
 image: /blog/malay-gig.jpg
 category: guide
 readTime: 9
-date: '2026-08-01'
+date: '2026-02-21'
 tags:
   - konvokesyen
   - gig
@@ -26,10 +26,10 @@ Konvokesyen adalah gig terbaik untuk pemula: tempoh singkat, bayaran RM200-450, 
 
 ## Kenapa konvokesyen sesuai untuk pemula
 
-- **Tempoh singkat** — 1-2 jam satu sesi, tak mengganggu kerja harian.
-- **Permintaan berulang** — musim konvokesyen bermakna puluhan sesi dalam 2-4 minggu.
-- **Gear asas cukup** — kamera dan satu lensa 35mm/50mm sudah memadai.
-- **Client yang gembira** — keluarga graduan, momen bahagia, review datang mudah.
+- **Tempoh singkat** â€” 1-2 jam satu sesi, tak mengganggu kerja harian.
+- **Permintaan berulang** â€” musim konvokesyen bermakna puluhan sesi dalam 2-4 minggu.
+- **Gear asas cukup** â€” kamera dan satu lensa 35mm/50mm sudah memadai.
+- **Client yang gembira** â€” keluarga graduan, momen bahagia, review datang mudah.
 
 ## Bagaimana harganya berfungsi
 
@@ -39,34 +39,34 @@ Konvokesyen adalah gig terbaik untuk pemula: tempoh singkat, bayaran RM200-450, 
 | Keluarga | Graduan + 4-6 ahli keluarga | RM300-400 |
 | Premium | Lokasi berbeza + video | RM400-450 |
 
-**Tips:** tawarkan "sesi pagi selepas tamat majlis" — kebanyakan keluarga masih bersemangat untuk bergambar.
+**Tips:** tawarkan "sesi pagi selepas tamat majlis" â€” kebanyakan keluarga masih bersemangat untuk bergambar.
 
 ## Gear untuk musim konvokesyen
 
-- **Nikon D3100 terpakai (RM400-500)** — sudah memadai untuk foto luar yang terang.
-- **Sony A6100 terpakai (RM1,900-2,400)** — autofokus mata, mudah untuk sesi cepat.
-- **Lensa 50mm f/1.8** — bokeh latar belakang dewan, sangat disukai.
-- **Reflektor lipat (RM30-50)** — tolong hilangkan bayang bawah muka dalam cahaya terang.
+- **Nikon D3100 terpakai (RM400-500)** â€” sudah memadai untuk foto luar yang terang.
+- **Sony A6100 terpakai (RM1,900-2,400)** â€” autofokus mata, mudah untuk sesi cepat.
+- **Lensa 50mm f/1.8** â€” bokeh latar belakang dewan, sangat disukai.
+- **Reflektor lipat (RM30-50)** â€” tolong hilangkan bayang bawah muka dalam cahaya terang.
 
 ## Cara dapat sesi konvokesyen
 
-1. **Notis awal** — 4-6 minggu sebelum konvokesyen, mula promosi di media sosial.
-2. **Tawarkan kepada kenalan yang sedang menamatkan pengajian** — harga kawan untuk rujukan.
-3. **Rangkaian dengan kelab universiti** — mereka yang menganjurkan sesi graduasi.
-4. **Pos contoh sebenar** — foto sebenar graduan lebih menarik dari gambar stok.
+1. **Notis awal** â€” 4-6 minggu sebelum konvokesyen, mula promosi di media sosial.
+2. **Tawarkan kepada kenalan yang sedang menamatkan pengajian** â€” harga kawan untuk rujukan.
+3. **Rangkaian dengan kelab universiti** â€” mereka yang menganjurkan sesi graduasi.
+4. **Pos contoh sebenar** â€” foto sebenar graduan lebih menarik dari gambar stok.
 
 ## Susunan sesi yang bagus
 
-- **10 minit sebelum majlis** — foto bersama dalam dewan.
-- **Selepas tamat** — sesi utama di tangga dewan atau kawasan hijau.
-- **Lokasi ikonik** — bangunan universiti, gerbang, atau taman.
-- **Foto keluarga wajib** — ibu bapa biasanya paling hargai foto bersama anak.
+- **10 minit sebelum majlis** â€” foto bersama dalam dewan.
+- **Selepas tamat** â€” sesi utama di tangga dewan atau kawasan hijau.
+- **Lokasi ikonik** â€” bangunan universiti, gerbang, atau taman.
+- **Foto keluarga wajib** â€” ibu bapa biasanya paling hargai foto bersama anak.
 
 ## Kesilapan yang perlu dielakkan
 
-- Datang tanpa senarai momen — graduan tak sabar, cepat penat.
-- Fokus satu orang sahaja — seimbangkan foto individu dan keluarga.
-- Editing tertangguh — deliver dalam 3-5 hari, bukan 3 minggu.
+- Datang tanpa senarai momen â€” graduan tak sabar, cepat penat.
+- Fokus satu orang sahaja â€” seimbangkan foto individu dan keluarga.
+- Editing tertangguh â€” deliver dalam 3-5 hari, bukan 3 minggu.
 - Lupa caj tambahan untuk lokasi berbeza dalam satu sesi.
 
 ## Kenapa ini gig "bayar kamera"

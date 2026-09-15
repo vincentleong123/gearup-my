@@ -46,7 +46,7 @@ function AiChips({ s }: { s: SecuritySystem }) {
   return (
     <div className="flex flex-wrap gap-1.5">
       {shown.map(a => (
-        <span key={a} className="text-[11px] font-bold px-2 py-0.5 rounded-full bg-sky-500/10 text-sky-400 border border-sky-500/25">
+        <span key={a} className="text-xs font-bold px-2 py-0.5 rounded-full bg-sky-500/10 text-sky-400 border border-sky-500/25">
           {a}
         </span>
       ))}
@@ -80,7 +80,7 @@ export default async function SecurityPage({ params }: Props) {
         </div>
 
         {systems.length === 0 && (
-          <p className="text-center text-zinc-500 py-20">No security systems published yet — check back soon.</p>
+          <p className="text-center text-zinc-200 py-20">No security systems published yet — check back soon.</p>
         )}
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -103,11 +103,11 @@ export default async function SecurityPage({ params }: Props) {
                     <div className="w-full h-full grid place-items-center text-4xl">🛡️</div>
                   )}
                   <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/90 via-transparent to-transparent" />
-                  <span className="absolute top-3 left-3 text-[11px] font-bold px-2.5 py-1 rounded-full bg-cyan-500/15 text-cyan-300 border border-cyan-500/30 uppercase tracking-wide">
+                  <span className="absolute top-3 left-3 text-xs font-bold px-2.5 py-1 rounded-full bg-cyan-500/15 text-cyan-300 border border-cyan-500/30 uppercase tracking-wide">
                     {s.category}
                   </span>
                   <div className="absolute bottom-3 left-4 right-4">
-                    <div className="flex gap-2 text-[10px] font-bold uppercase tracking-wider">
+                    <div className="flex gap-2 text-xs font-bold uppercase tracking-wider">
                       {s.environment && <span className="px-2 py-0.5 rounded bg-zinc-950/70 text-zinc-300">{s.environment}</span>}
                       {s.deployment && <span className="px-2 py-0.5 rounded bg-zinc-950/70 text-zinc-300">{s.deployment.replace('-', ' · ')}</span>}
                     </div>
@@ -121,13 +121,13 @@ export default async function SecurityPage({ params }: Props) {
 
                   <div className="mt-auto pt-3 border-t border-zinc-800/60 grid grid-cols-2 gap-3 text-sm">
                     <div>
-                      <div className="text-[10px] uppercase tracking-wider text-zinc-500 font-bold">Hardware + install</div>
+                      <div className="text-xs uppercase tracking-wider text-zinc-200 font-bold">Hardware + install</div>
                       <div className="font-black text-zinc-100">
                         {s.systemCost || s.installationCost ? formatRoiMoney((s.systemCost || 0) + (s.installationCost || 0)) : '—'}
                       </div>
                     </div>
                     <div>
-                      <div className="text-[10px] uppercase tracking-wider text-zinc-500 font-bold">Est. avoided loss / mo</div>
+                      <div className="text-xs uppercase tracking-wider text-zinc-200 font-bold">Est. avoided loss / mo</div>
                       <div className="font-black text-cyan-400">
                         {roi?.monthlyEstimatedSavings ? formatRoiMoney(roi.monthlyEstimatedSavings) : '—'}
                       </div>
@@ -139,7 +139,7 @@ export default async function SecurityPage({ params }: Props) {
           })}
         </div>
 
-        <div className="mt-14 max-w-3xl mx-auto bg-zinc-900/60 border border-zinc-800 rounded-2xl p-6 text-sm text-zinc-400 leading-relaxed">
+        <div className="mt-14 max-w-3xl mx-auto bg-zinc-900/60 border border-zinc-800 rounded-2xl p-6 text-sm text-zinc-200 leading-relaxed">
           <span className="font-bold text-zinc-200">Honest security ROI:</span> these systems are priced against loss exposure, not guaranteed savings. A camera system de-risks incidents — it does not guarantee any specific theft will be prevented. Figures are planning estimates; always quote with your installer and check with your insurer.
         </div>
       </div>
