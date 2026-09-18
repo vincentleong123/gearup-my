@@ -16,6 +16,7 @@ const FIELDS: { key: keyof SiteSettings; label: string; type: 'text' | 'textarea
   { key: 'contactEmail', label: 'Contact email', type: 'text' },
   { key: 'gscVerification', label: 'Google Search Console verification', type: 'text' },
   { key: 'ga4Id', label: 'Google Analytics 4 ID', type: 'text', hint: 'e.g. G-XXXXXXXXXX' },
+  { key: 'gtmId', label: 'Google Tag ID', type: 'text', hint: 'e.g. GT-XXXXXXXXX' },
 ];
 
 export default function SettingsClient({ initial }: { initial: SiteSettings }) {

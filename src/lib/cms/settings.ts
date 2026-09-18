@@ -16,6 +16,7 @@ export interface SiteSettings {
   contactEmail: string;
   gscVerification: string;
   ga4Id: string;
+  gtmId: string;
   ogTitle: string;
   ogDescription: string;
 }
@@ -30,7 +31,8 @@ export const DEFAULT_SETTINGS: SiteSettings = {
   ogImage: '/og-image.png',
   contactEmail: 'hello@kameralog.com',
   gscVerification: 'YOUR_GSC_VERIFICATION_CODE',
-  ga4Id: 'G-CSCW4ZTJ53',
+  ga4Id: 'G-M6W0X3TEQG',
+  gtmId: 'GT-MB8JMV6F',
   ogTitle: 'Kameralog Malaysia — Camera & Gear Reviews for Malaysian Content Creators',
   ogDescription:
     'How part-time gigs pay for your camera. Compare cameras, drones, and gear with real Malaysian prices.',

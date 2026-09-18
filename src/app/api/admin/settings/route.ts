@@ -15,6 +15,7 @@ const SETTING_KEYS = [
   'contactEmail',
   'gscVerification',
   'ga4Id',
+  'gtmId',
   'ogTitle',
   'ogDescription',
 ] as const;
