@@ -90,23 +90,23 @@ imageCuration:
     aspectRatio: 16/9
     notes: Ganti dengan foto rumah teres tempatan bila ada
     active: true
-  - caption: Tangan anak memegang telefon menunjukkan live view kamera ruang tamu rumah ibu bapa
+  - caption: Telefon pintar membantu ahli keluarga kekal berhubung dari jauh
     context: Telefon
     purpose: spec-detail
     position: Selepas bahagian live view
-    alt: Live view kamera dari telefon
-    sourceUrl: ''
+    alt: Telefon pintar untuk berhubung dengan keluarga
+    sourceUrl: https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 9/16
-    notes: Belum disumber
+    notes: Foto ilustrasi penggunaan telefon; bukan paparan live view kamera
     active: true
-  - caption: Ayah dan mak berbual di ruang tamu, kamera di sudut bilik
+  - caption: Ibu bapa dan anak meluangkan masa bersama — gambaran perbualan tentang persetujuan dan privasi kamera
     context: Ruang tamu
     purpose: section-intro
     position: Selepas bahagian privasi
-    alt: Ibu bapa di ruang tamu
-    sourceUrl: ''
+    alt: Anak bersama ibu bapa
+    sourceUrl: https://images.unsplash.com/photo-1511895426328-dc8714191300?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 16/9
-    notes: Belum disumber
+    notes: Foto keluarga editorial; bukan foto rumah pengguna
     active: true
 ---
 

@@ -1,10 +1,10 @@
-﻿---
+---
 slug: best-camera-content-creator-malaysia
 title: >-
   Best Camera Untuk Content Creator Malaysia 2026: ROI Dulu, Baru Brand
 description: >-
   Camera terbaik untuk content creator Malaysia bukan yang paling mahal — ia yang paling cepat balik modal. Ini panduan beli berdasarkan ROI, bukan hype.
-image: /blog/best-camera-content-creator.jpg
+image: /blog/best-camera-content-creator-malaysia.jpg
 category: guide
 readTime: 11
 date: '2026-07-04'

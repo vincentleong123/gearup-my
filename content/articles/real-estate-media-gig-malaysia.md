@@ -1,4 +1,4 @@
-﻿---
+---
 slug: real-estate-media-gig-malaysia
 title: >-
   Real Estate Content Gigs in Malaysia: How to Charge RM300-800 for Photos,
@@ -7,7 +7,7 @@ description: >-
   Property agents pay premium for content that makes listings look good. Here is
   how to break in â€” phone first, then drone, then 360 â€” and build a recurring
   agency client list.
-image: /blog/real-estate-gig-guide.jpg
+image: /blog/real-estate-media-gig-malaysia.jpg
 category: guide
 readTime: 8
 date: '2026-03-23'

@@ -1,4 +1,4 @@
-﻿---
+---
 slug: drone-license-registration-malaysia-2026
 title: >-
   Drone License & Registration in Malaysia 2026: The CAAM Rules Every Creator
@@ -7,7 +7,7 @@ description: >-
   Do you need a drone license in Malaysia? The CAAM rules for drones under 250g,
   250g-25kg, permits, flying zones, and what happens if you fly without one. The
   full 2026 guide.
-image: /blog/drone-license.jpg
+image: /blog/drone-license-registration-malaysia-2026.jpg
 category: guide
 readTime: 9
 date: '2026-03-14'

@@ -1,11 +1,11 @@
-﻿---
+---
 slug: canon-60d-50mm-f18-photography-video-malaysia
 title: 'Canon 60D + 50mm f/1.8 in 2026: The Old Camera You Still Own Can Still Earn'
 description: >-
   Still holding a Canon 60D with a 50mm f/1.8? Good news â€” it is a 2010 semi-pro
   body that still wins paid work in 2026. Where it crushes as a photo tool,
   where it dies as a video camera, and the gigs that repay your next body.
-image: /blog/canon-60d-50mm-f18-boleh-buat-kerja-malaysia.jpg
+image: /blog/canon-60d-50mm-f18-photography-video-malaysia.jpg
 category: gear
 readTime: 10
 date: '2026-04-30'

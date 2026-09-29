@@ -10,7 +10,7 @@ interface Props { params: Promise<{ lang: string }> }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
   return {
-    title: 'Compare Gear Side-by-Side | Kameralog Malaysia',
+    title: 'Compare Camera Gear Side-by-Side in Malaysia',
     description: 'Compare cameras, drones, action cams, and phones side-by-side. See second-hand prices, specs, ROI scores, and pros/cons for Malaysian content creators.',
     openGraph: { title: 'Gear Comparison — Kameralog Malaysia', description: 'Compare gear side-by-side with real MYR prices and ROI data.' },
     ...langAlternates(lang, '/compare'),

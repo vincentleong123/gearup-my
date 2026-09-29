@@ -1,10 +1,10 @@
-﻿---
+---
 slug: dji-mic-2-vs-budget-lapel-malaysia
 title: 'DJI Mic 2 vs a RM150 Lapel Mic: Do You Really Need the Pro Audio?'
 description: >-
   Everyone tells you audio matters most. But does a RM1,600 DJI Mic 2 beat a
   RM150 wireless lapel for Malaysian creators? We give you the honest threshold.
-image: /blog/mic2-vs-lapel.jpg
+image: /blog/dji-mic-2-vs-budget-lapel-malaysia.jpg
 category: comparison
 readTime: 6
 date: '2026-01-19'

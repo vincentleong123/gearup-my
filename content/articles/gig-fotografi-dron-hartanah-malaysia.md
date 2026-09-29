@@ -1,11 +1,11 @@
-﻿---
+---
 slug: gig-fotografi-dron-hartanah-malaysia
 title: 'Fotografi Dron & Hartanah â€” Gig Premium RM400-RM1,200 untuk Pemilik Drone'
 description: >-
   Video dron untuk hartanah adalah salah satu gig paling mahal per jam di
   Malaysia. Panduan mula dengan DJI Mini, bina portfolio, dan cara dapat client
   ejen hartanah.
-image: /blog/malay-gig.jpg
+image: /blog/gig-fotografi-dron-hartanah-malaysia.jpg
 category: guide
 readTime: 9
 date: '2026-04-18'

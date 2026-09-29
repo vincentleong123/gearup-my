@@ -10,7 +10,7 @@ interface Props { params: Promise<{ lang: string }> }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
   return {
-    title: 'Gear Match Quiz — Find Your Perfect Starter Camera | Kameralog Malaysia',
+    title: 'Gear Match Quiz — Find Your Perfect Starter Camera',
     description: 'Answer 5 questions and get a personalised gear recommendation for Malaysian content creators. Budget, niche, and experience matched.',
     openGraph: { title: 'Gear Match Quiz — Kameralog Malaysia', description: 'Find the perfect gear for your budget and niche in 5 questions.' },
     ...langAlternates(lang, '/quiz'),

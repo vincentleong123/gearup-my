@@ -1,4 +1,4 @@
-﻿---
+---
 slug: insta360-vs-gopro-which-buy-malaysia-2026
 title: >-
   Insta360 X4 vs GoPro Hero 13 vs DJI Osmo Action 5 Pro: Which Action Cam for
@@ -6,7 +6,7 @@ title: >-
 description: >-
   Three action cams, three different uses. We break down which one Tim, Ahmad, and
   Farid should buy based on what they want to film.
-image: /blog/action-cam-comparison.jpg
+image: /blog/insta360-vs-gopro-which-buy-malaysia-2026.jpg
 category: comparison
 readTime: 10
 date: '2026-01-13'

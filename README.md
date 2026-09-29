@@ -23,7 +23,7 @@ Camera & gear reviews for Malaysian content creators — with ROI in Ringgit. Re
 ```bash
 npm install
 npm run dev
-# Site:    http://localhost:3000
+# Site:    http://localhost:3002
 # CMS:     http://localhost:4000/admin/index.html
 ```
 
@@ -45,7 +45,6 @@ npm run dev
 ```bash
 npm run build   # syncs markdown → typed data, then builds all static pages
 npm start
-```
 
 - `npm run sync` — regenerate `src/data/generated/articles.ts` from the markdown files (also runs automatically before `next build`).
 - `npm run seed` — one-time only: re-imports the original hardcoded articles back into `content/articles/` (don't run after you start editing in the CMS — it overwrites).
@@ -62,11 +61,11 @@ npm start            # serves the build
 ## Self-host launch checklist (home server)
 
 1. **Build:** `npm run build` — must end green (all pages SSG).
-2. **Server:** run the Next standalone server (Node). It serves the static export on port 3000.
+2. **Server:** run the Next standalone server (Node). It serves the static export on port 3002.
 3. **Caddy (reverse proxy + TLS):** put the Node server behind Caddy for `https://kameralog.com` with automatic HTTPS:
    ```
    kameralog.com {
-     reverse_proxy localhost:3000
+     reverse_proxy localhost:3002
      encode gzip
    }
    ```

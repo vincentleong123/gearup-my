@@ -1,11 +1,11 @@
-﻿---
+---
 slug: content-calendar-malaysia-creators
 title: 'The Malaysian Creator Content Calendar: 30 Days of Posts That Grow Any Channel'
 description: >-
   Stop posting randomly. This is the copy-paste content calendar system for
   Malaysian creators - a monthly grid of posts, reels, and videos that builds
   consistency and actually gets views.
-image: /blog/content-calendar.jpg
+image: /blog/content-calendar-malaysia-creators.jpg
 category: guide
 readTime: 10
 date: '2026-03-24'

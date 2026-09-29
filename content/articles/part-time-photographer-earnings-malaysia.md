@@ -1,11 +1,11 @@
-﻿---
+---
 slug: part-time-photographer-earnings-malaysia
 title: How Much Do Part-Time Photographers Actually Earn in Malaysia? (2026 Rates)
 description: >-
   Real Malaysian part-time photography income in 2026: rates per gig, realistic
   monthly totals, and what separates a RM500 hobbyist month from a RM5,000 side
   hustle.
-image: /blog/photographer-earnings.jpg
+image: /blog/part-time-photographer-earnings-malaysia.jpg
 category: inspiration
 readTime: 9
 date: '2026-01-26'

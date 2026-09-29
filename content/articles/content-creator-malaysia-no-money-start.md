@@ -1,4 +1,4 @@
-﻿---
+---
 slug: content-creator-malaysia-no-money-start
 title: >-
   How to Start Content Creation in Malaysia with Zero Ringgit (Tim & Ahmad's
@@ -6,7 +6,7 @@ title: >-
 description: >-
   Lost your job? Strap for cash? Here's exactly how to start a content creator
   career in Malaysia with RM0 â€” using only what you already own.
-image: /blog/start-zero.jpg
+image: /blog/content-creator-malaysia-no-money-start.jpg
 category: guide
 readTime: 12
 date: '2026-01-17'

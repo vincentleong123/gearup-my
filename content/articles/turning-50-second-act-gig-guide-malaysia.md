@@ -1,4 +1,4 @@
-﻿---
+---
 slug: turning-50-second-act-gig-guide-malaysia
 title: >-
   Turning 50 and Can't Retire Yet? The Second-Act Gig Economy for Malaysian
@@ -7,7 +7,7 @@ description: >-
   Retirement is creeping closer and the EPF isn't enough. Graduation shoots,
   gala dinners, portraits, product sessions â€” the gigs where being 50 is an
   advantage, not a liability.
-image: /blog/second-act-gigs.jpg
+image: /blog/turning-50-second-act-gig-guide-malaysia.jpg
 category: guide
 readTime: 9
 date: '2026-04-04'

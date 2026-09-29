@@ -1,10 +1,10 @@
-﻿---
+---
 slug: gig-fotografi-potret-sambilan-malaysia
 title: 'Fotografi Potret Sambilan: Seni, Duit, dan Portfolio dalam Satu Sesi'
 description: >-
   Gig potret paling mudah masuk, paling menyeronokkan, dan bina portfolio
   terbaik. Tips harga, lokasi, dan gear untuk fotografer sambilan di Malaysia.
-image: /blog/malay-gig.jpg
+image: /blog/gig-fotografi-potret-sambilan-malaysia.jpg
 category: inspiration
 readTime: 7
 date: '2026-02-02'

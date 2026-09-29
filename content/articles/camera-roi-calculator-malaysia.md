@@ -1,10 +1,10 @@
-﻿---
+---
 slug: camera-roi-calculator-malaysia
 title: >-
   Camera ROI Calculator Malaysia: Berapa Cepat Kamera Anda Bayar Diri?
 description: >-
   Kalkulator ROI kamera untuk Malaysia — masukkan harga kamera dan harga gig anda, dan kami kira berapa lama untuk balik modal.
-image: /blog/camera-roi-calculator.jpg
+image: /blog/camera-roi-calculator-malaysia.jpg
 category: guide
 readTime: 8
 date: '2026-07-09'

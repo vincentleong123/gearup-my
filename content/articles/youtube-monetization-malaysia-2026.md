@@ -1,11 +1,11 @@
-﻿---
+---
 slug: youtube-monetization-malaysia-2026
 title: 'YouTube Monetization in Malaysia 2026: RPM, Requirements & Real Earnings'
 description: >-
   How much do Malaysian YouTubers actually earn? The 2026 monetization
   requirements, what RPM looks like in Malaysia, and the realistic path from 0
   to your first YouTube payout.
-image: /blog/youtube-money.jpg
+image: /blog/youtube-monetization-malaysia-2026.jpg
 category: guide
 readTime: 10
 date: '2026-02-10'

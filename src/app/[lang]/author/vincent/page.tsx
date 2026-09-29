@@ -10,8 +10,8 @@ interface Props { params: Promise<{ lang: string }> }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
   return {
-    title: 'Vincent — Camera Gear Reviewer & Content Creator | Kameralog Malaysia',
-    description: 'Vincent is a Malaysian content creator and camera gear reviewer. 10+ years for马来西亚 experience in photography, videography, and the creator economy.',
+    title: 'Vincent — Camera Gear Reviewer & Content Creator',
+    description: 'Vincent is a Malaysian content creator and camera gear reviewer with 10+ years of experience in photography, videography, and the creator economy.',
     ...langAlternates(lang, '/author/vincent'),
   };
 }

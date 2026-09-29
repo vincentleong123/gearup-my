@@ -26,6 +26,14 @@ const nextConfig: NextConfig = {
       headers: [{ key: 'Cache-Control', value: 'public, max-age=604800, immutable' }],
     },
     {
+      source: '/og-image-1200x630.jpg',
+      headers: [{ key: 'Cache-Control', value: 'public, max-age=604800, immutable' }],
+    },
+    {
+      source: '/kameralog-hero-(.*)',
+      headers: [{ key: 'Cache-Control', value: 'public, max-age=604800, immutable' }],
+    },
+    {
       source: '/blog/(.*)',
       headers: [{ key: 'Cache-Control', value: 'public, max-age=3600, stale-while-revalidate=86400' }],
     },

@@ -1,4 +1,4 @@
-﻿---
+---
 slug: insurans-kamera-malaysia-guide
 title: 'Insurans Kamera Malaysia: Kenapa 90% Photographer Tak Insure Gear Mereka'
 description: Insurans kamera di Malaysia â€” rider insurans rumah vs polisi khas peralatan fotografi. Kos, apa yang covered, perangkap "business exclusion", tuntutan lepas banjir dan kecurian dalam kereta, dan checklist sebelum beli. Jangan belajar bila kamera dah hilang.
@@ -34,33 +34,33 @@ roiCreator:
 seoTitle: Insurans Kamera Malaysia â€” Kos, Coverage & Perangkap 'Business Exclusion'
 seoDescription: Perlindungan kamera di Malaysia â€” rider insurans rumah vs polisi khas gear fotografi. Kos sekitar 1â€“1.5% nilai setahun, perangkap business exclusion, dan cara tuntut selepas kecurian atau banjir.
 imageCuration:
-  - caption: Kamera dan lens pro disusun di atas meja, dokumen insurans dan resit belian di sebelah
+  - caption: Kamera dan lensa sebagai aset kerja yang wajar direkod dan dilindungi
     context: Meja / studio
     purpose: hero
     position: Selepas intro
     alt: Insurans gear kamera
     credit: Unsplash
-    sourceUrl: ''
+    sourceUrl: https://images.unsplash.com/photo-1452780212940-6f5c0d14d848?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 16/9
-    notes: Belum disumber â€” susunan kamera + polisi
+    notes: Foto kamera editorial; dokumen insurans dalam kapsyen ialah konteks ilustratif
     active: true
-  - caption: Resit belian dan senarai nombor siri kamera di telefon, untuk simpanan rekod tuntutan
+  - caption: Telefon pintar untuk menyimpan rekod digital peralatan fotografi
     context: Telefon / dokumen
     purpose: spec-detail
     position: Selepas bahagian rekod
     alt: Rekod nombor siri kamera
-    sourceUrl: ''
+    sourceUrl: https://images.unsplash.com/photo-1598387993441-a364f854c3e1?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 16/9
-    notes: Belum disumber
+    notes: Foto ilustrasi telefon untuk rekod digital; bukan paparan polisi sebenar
     active: true
-  - caption: Kamera di dalam kereta, dalam beg di tempat duduk â€” situasi yang polisi mungkin tak cover
+  - caption: Interior kereta sebagai ilustrasi risiko meninggalkan peralatan di dalam kenderaan
     context: Dalam kereta
     purpose: roi-illustration
     position: Selepas bahagian exclusions
-    alt: Kamera dalam kereta
-    sourceUrl: ''
+    alt: Interior kereta dan risiko penyimpanan peralatan
+    sourceUrl: https://images.unsplash.com/photo-1553440569-bcc63803a83d?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 16/9
-    notes: Belum disumber
+    notes: Foto interior kereta sebagai ilustrasi risiko penyimpanan gear
     active: true
 ---
 

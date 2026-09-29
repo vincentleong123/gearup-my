@@ -22,7 +22,9 @@ const pick = (data, key, fallback) => (data[key] === undefined || data[key] === 
 const str = (v, fb = '') => String(v ?? fb);
 const num = (v, fb = 0) => Number(v) || fb;
 const arr = (v) => (Array.isArray(v) ? v.map(String) : []);
-const slice10 = (v) => String(v || '').slice(0, 10);
+// gray-matter parses unquoted YAML dates (date: 2026-08-16) into Date objects;
+// String(Date) yields "Sun Aug 16 ..." which breaks <lastmod> in the sitemap.
+const slice10 = (v) => (v instanceof Date ? v.toISOString().slice(0, 10) : String(v || '').slice(0, 10));
 
 const optional = (data, key) => (data[key] === undefined ? {} : { [key]: data[key] });
 

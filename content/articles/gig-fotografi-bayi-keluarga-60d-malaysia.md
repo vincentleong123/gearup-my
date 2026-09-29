@@ -1,4 +1,4 @@
-﻿---
+---
 slug: gig-fotografi-bayi-keluarga-60d-malaysia
 title: 'Gig Fotografi Bayi & Keluarga Guna 60D: RM200-600 & Permintaan Sepanjang Tahun'
 description: >-

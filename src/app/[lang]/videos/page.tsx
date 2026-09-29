@@ -12,7 +12,7 @@ interface Props { params: Promise<{ lang: string }> }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
   return {
-    title: 'Video Tutorials for Malaysian Content Creators | Kameralog TV',
+    title: 'Video Tutorials for Malaysian Content Creators',
     description: 'Curated short videos on mobile photography, portraits, drones, gimbal work, mirrorless cameras, editing and AI tools — plus a live Instagram cameralogue wall. Hand-picked for Malaysian creators starting from zero.',
     openGraph: { title: 'Kameralog TV — Learn To Create', description: 'Curated camera & content creation video tutorials for Malaysian creators.' },
     ...langAlternates(lang, '/videos'),

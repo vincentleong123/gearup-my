@@ -11,10 +11,10 @@ export default function CreatorShowcase({ lang }: { lang: string }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-5xl font-black mb-4">
-            <T k="creatorshow.head" en="They Had" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500"><T k="creatorshow.headAccent" en="No Money" /></span> Too
+            <T k="creatorshow.head" en="Earnings" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500"><T k="creatorshow.headAccent" en="Models" /></span> <T k="creatorshow.headTail" en="I Track" />
           </h2>
           <p className="text-zinc-200 max-w-2xl mx-auto text-lg">
-            <T k="creatorshow.desc" en="Real Malaysian creators who started with nothing. Their gear, their earnings, their advice for Tim & Ahmad." />
+            <T k="creatorshow.desc" en="Illustrative Malaysian creator scenarios used as the earning side of the camera decision — gear, modelled income, and months to breakeven. Examples, not real profiles." />
           </p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

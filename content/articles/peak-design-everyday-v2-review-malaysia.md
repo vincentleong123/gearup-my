@@ -1,4 +1,4 @@
-﻿---
+---
 slug: peak-design-everyday-v2-review-malaysia
 title: >-
   Peak Design Everyday Backpack V2 Review: The RM1,300 Bag Malaysian

@@ -1,4 +1,4 @@
-﻿---
+---
 slug: side-hustle-fotografi-bayar-kamera-malaysia
 title: >-
   Kerja Sambilan Fotografi yang Bayar Kamera Anda â€” Satu Job, Dua Job, Habis
@@ -7,7 +7,7 @@ description: >-
   Nak kamera baru tapi bajet tak cukup? Ini panduan gig-to-gear untuk Malaysia:
   jenis kerja sambilan yang boleh bayar perkakas anda sendiri, dari RM400 sampai
   RM5,000 sebulan.
-image: /blog/malay-gig.jpg
+image: /blog/side-hustle-fotografi-bayar-kamera-malaysia.jpg
 category: guide
 readTime: 11
 date: '2026-04-28'

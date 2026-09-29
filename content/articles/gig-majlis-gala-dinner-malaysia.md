@@ -1,10 +1,10 @@
-﻿---
+---
 slug: gig-majlis-gala-dinner-malaysia
 title: 'Majlis Gala & Event: Gig Sambilan RM300-RM600 yang Selalu Boleh Ulang'
 description: >-
   Event korporat, gala dinner, pelancaran produk â€” client corporate bayar cepat
   dan suka repeat. Panduan lengkap untuk fotografer sambilan di Malaysia.
-image: /blog/malay-gig.jpg
+image: /blog/gig-majlis-gala-dinner-malaysia.jpg
 category: guide
 readTime: 8
 date: '2026-02-07'

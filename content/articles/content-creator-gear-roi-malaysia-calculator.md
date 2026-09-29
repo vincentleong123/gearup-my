@@ -1,10 +1,10 @@
-﻿---
+---
 slug: content-creator-gear-roi-malaysia-calculator
 title: 'The Content Creator ROI Calculator: Will Your Gear Pay For Itself in Malaysia?'
 description: >-
   How many gigs does it take to break even on a Sony A6100, Insta360 X4, or DJI
   Mini 4 Pro? We did the math for Malaysian rates.
-image: /blog/roi-calculator.jpg
+image: /blog/content-creator-gear-roi-malaysia-calculator.jpg
 category: guide
 readTime: 6
 date: '2026-01-15'

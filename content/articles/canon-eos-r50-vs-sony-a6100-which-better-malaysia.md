@@ -1,4 +1,4 @@
-﻿---
+---
 slug: canon-eos-r50-vs-sony-a6100-which-better-malaysia
 title: >-
   Canon EOS R50 vs Sony A6100 in 2026: The RM1,800 Showdown for Malaysian
@@ -7,7 +7,7 @@ description: >-
   Two 24.2MP mirrorless cameras, both around RM1,800-2,200 second-hand. Canon
   has the colours and the easy menus; Sony has the lens ecosystem. Here is how
   to decide.
-image: /blog/r50-vs-a6100.jpg
+image: /blog/canon-eos-r50-vs-sony-a6100-which-better-malaysia.jpg
 category: comparison
 readTime: 9
 date: '2026-03-26'

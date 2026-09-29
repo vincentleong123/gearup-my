@@ -1,11 +1,11 @@
-﻿---
+---
 slug: camera-gear-maintenance-humidity-malaysia
 title: 'Fungus, Haze & Sticky Buttons: Caring for Camera Gear in Malaysian Humidity'
 description: >-
   Malaysia's humidity is the real enemy of your camera. How fungus grows, how to
   store gear to survive the rainy season, and the cleaning routine that keeps
   second-hand cameras working for a decade.
-image: /blog/camera-humidity.jpg
+image: /blog/camera-gear-maintenance-humidity-malaysia.jpg
 category: guide
 readTime: 8
 date: '2026-02-12'

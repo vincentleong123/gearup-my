@@ -1,11 +1,11 @@
-﻿---
+---
 slug: gig-fotografi-konvokesyen-malaysia
 title: 'Fotografi Konvokesyen: Gig Sambilan Paling Laju untuk Bayar Kamera Anda'
 description: >-
   Musim konvokesyen = musim emas gig fotografi di Malaysia. Panduan lengkap
   bermula dari RM200 hingga RM450 satu sesi, tips booking, dan gear yang anda
   perlukan.
-image: /blog/malay-gig.jpg
+image: /blog/gig-fotografi-konvokesyen-malaysia.jpg
 category: guide
 readTime: 9
 date: '2026-02-21'

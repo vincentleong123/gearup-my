@@ -1,11 +1,11 @@
-﻿---
+---
 slug: best-action-camera-malaysia-2026
 title: 'Best Action Camera in Malaysia 2026: DJI, GoPro or Insta360?'
 description: >-
   Action cams by use case: DJI Osmo Action 6 Pro for vloggers, GoPro Hero 14 for
   mount systems, Insta360 X5 for unique 360 content. The honest 2026 Malaysian
   buying guide.
-image: /blog/best-action-camera.jpg
+image: /blog/best-action-camera-malaysia-2026.jpg
 category: guide
 readTime: 8
 date: '2026-01-29'

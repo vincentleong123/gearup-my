@@ -42,10 +42,10 @@ export default function Footer() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <h3 className="text-2xl md:text-3xl font-black mb-2">
-                {t('footer.dreamHead', 'A 10-year dream,')} <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-pink-500 to-fuchsia-500">{t('footer.dreamHeadAccent', 'finally launched')}</span>
+                {t('footer.dreamHead', 'A 10-year research log,')} <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-pink-500 to-fuchsia-500">{t('footer.dreamHeadAccent', 'still open')}</span>
               </h3>
               <p className="text-zinc-200 text-sm md:text-base">
-                {t('footer.dreamSub', "Kameralog started life as cameralogue.com in 2016 — a personal log of cameras I wished I could buy. Ten years later, it's a real review site for Malaysian creators: honest ROI scores, real second-hand prices, and gear that pays for itself. No paywalled content, no fake guru talk — just useful logging.")}
+                {t('footer.dreamSub', "Kameralog started life as cameralogue.com in 2016 — a personal log of cameras I was weighing up. Ten years later it's the dashboard I use to answer one question: which camera should I buy to earn ringgit? Used prices, gig rates and ROI math, in one place. Nothing is sold here — it's just the working notes.")}
               </p>
             </div>
             <div className="space-y-3">
@@ -74,7 +74,7 @@ export default function Footer() {
           <div className="md:col-span-1">
             <Logo lang={lang} />
             <p className="text-zinc-200 text-sm leading-relaxed mt-4">
-              {t('footer.tagline', 'Helping Malaysian creators find gear that pays for itself. Real reviews, real prices, real earnings.')}
+              {t('footer.tagline', 'A personal research desk for the camera-buying decision: used prices in MYR, real gig rates, and ROI math. Nothing for sale — just the numbers.')}
             </p>
           </div>
 

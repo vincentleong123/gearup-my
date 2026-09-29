@@ -1,4 +1,4 @@
-﻿---
+---
 slug: projek-dokumentari-keluarga-52-minggu
 title: 'Projek Dokumentari Keluarga 52 Minggu: Rakam Ayah & Mak Sebelum Terlambat'
 description: Satu foto atau klip seminggu selama setahun â€” dokumentari keluarga paling mudah dan paling berharga yang kau boleh buat dengan handphone. 5 soalan untuk interview ibu bapa, teknik rakam suara, dan cara jadi buku album di hujung tahun.
@@ -38,23 +38,23 @@ imageCuration:
     aspectRatio: 16/9
     notes: Ganti dengan foto keluarga tempatan bila ada
     active: true
-  - caption: Tangan memegang telefon menghadap kepada mak yang tersenyum, mesej suara sedang dirakam
+  - caption: Telefon pintar digunakan untuk merakam kenangan dan cerita keluarga
     context: Ruang tamu
     purpose: behind-the-scenes
     position: Selepas bahagian interview
-    alt: Interview mak dengan telefon
-    sourceUrl: ''
+    alt: Merakam cerita keluarga dengan telefon
+    sourceUrl: https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 16/9
-    notes: Belum disumber
+    notes: Foto ilustrasi penggunaan telefon untuk dokumentasi keluarga
     active: true
-  - caption: Buku album foto di atas meja, halaman menunjukkan foto keluarga dan tulisan tangan
+  - caption: Keluarga bersama sebagai subjek dokumentasi kenangan sepanjang tahun
     context: Meja
     purpose: gallery
     position: Selepas bahagian album
-    alt: Buku album keluarga
-    sourceUrl: ''
+    alt: Keluarga dalam dokumentasi kenangan
+    sourceUrl: https://images.unsplash.com/photo-1511895426328-dc8714191300?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 4/3
-    notes: Belum disumber
+    notes: Foto keluarga editorial untuk menggambarkan dokumentasi kenangan
     active: true
 ---
 

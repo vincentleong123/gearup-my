@@ -1,10 +1,10 @@
-﻿---
+---
 slug: osmo-action-6-pro-vs-gopro-hero-14-malaysia
 title: 'DJI Osmo Action 6 Pro vs GoPro Hero 14: 2026 Action Cam Showdown'
 description: >-
   The two kings of action cams, head to head for Malaysian creators. Front
   screens, stabilisation, battery life, and which one earns its keep at gigs.
-image: /blog/action6-vs-hero14.jpg
+image: /blog/osmo-action-6-pro-vs-gopro-hero-14-malaysia.jpg
 category: comparison
 readTime: 7
 date: '2026-01-31'

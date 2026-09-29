@@ -1,10 +1,10 @@
-﻿---
+---
 slug: best-vlogging-camera-malaysia-2026
 title: 'The Best Vlogging Camera in Malaysia for 2026 (RM2,000 to RM9,000)'
 description: >-
   From the Fujifilm X-M5 to the Sony ZV-E10 II and A7C II â€” the honest, tested
   guide to which vlogging camera to buy in Malaysia this year.
-image: /blog/best-vlogging-camera-2026.jpg
+image: /blog/best-vlogging-camera-malaysia-2026.jpg
 category: guide
 readTime: 9
 date: '2026-01-22'

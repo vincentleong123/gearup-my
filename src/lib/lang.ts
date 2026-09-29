@@ -24,7 +24,11 @@ export function langAlternates(lang: string, path: string, available: Lang[] = L
   for (const l of available) {
     languages[htmlLangs[l]] = `${BASE_URL}${withLang(l, path)}`;
   }
-  languages['x-default'] = `${BASE_URL}${withLang('en', path)}`;
+  // x-default must be a real, non-redirecting URL. Content published in a
+  // single non-English language has no /en twin, so default to that content's
+  // own URL instead of an /en URL that only 307s back.
+  const fallback: Lang = available.includes('en') ? 'en' : available[0] ?? 'en';
+  languages['x-default'] = `${BASE_URL}${withLang(fallback, path)}`;
   return {
     alternates: {
       canonical: `${BASE_URL}${withLang(lang, path)}`,

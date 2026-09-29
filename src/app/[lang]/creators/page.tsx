@@ -10,7 +10,7 @@ interface Props { params: Promise<{ lang: string }> }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
   return {
-    title: 'Malaysian Content Creator Stories — Who Earns What | Kameralog MY',
+    title: 'Malaysian Content Creator Stories — Who Earns What',
     description: 'Illustrative Malaysian creator stories — the gear, the gigs, and how long each setup takes to pay for itself. Advice for Tim, Ahmad, and anyone starting from zero.',
     openGraph: { title: 'Creator Stories — Kameralog Malaysia', description: 'See what Malaysian content creators actually earn and the gear they use.' },
     ...langAlternates(lang, '/creators'),

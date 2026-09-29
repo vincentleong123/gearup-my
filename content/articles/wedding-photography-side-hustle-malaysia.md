@@ -1,4 +1,4 @@
-﻿---
+---
 slug: wedding-photography-side-hustle-malaysia
 title: >-
   Wedding Photography as a Side Hustle in Malaysia: The Second-Shooter Path to
@@ -7,7 +7,7 @@ description: >-
   Weddings are the highest-paying gig in Malaysian photography. The smart,
   low-risk entry is second shooting â€” earn RM300-500 while learning, then lead
   at RM1,000-2,500. Here is the exact path.
-image: /blog/wedding-guide.jpg
+image: /blog/wedding-photography-side-hustle-malaysia.jpg
 category: guide
 readTime: 9
 date: '2026-02-14'

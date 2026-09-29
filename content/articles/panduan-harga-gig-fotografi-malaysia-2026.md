@@ -1,11 +1,11 @@
-﻿---
+---
 slug: panduan-harga-gig-fotografi-malaysia-2026
 title: Panduan Harga Gig Fotografi Malaysia 2026 â€” Jangan Jual Murah Lagi
 description: >-
   Harga standard gig fotografi di Malaysia 2026: konvokesyen, kenduri, gala,
   potret, dron dan banyak lagi. Elakkan jual murah dan dapatkan client yang
   hargai kerja anda.
-image: /blog/malay-gig.jpg
+image: /blog/panduan-harga-gig-fotografi-malaysia-2026.jpg
 category: guide
 readTime: 9
 date: '2026-04-25'

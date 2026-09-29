@@ -1,4 +1,4 @@
-﻿---
+---
 slug: tapo-c210-vs-c220-malaysia
 title: 'TP-Link Tapo C210 vs C220 Malaysia: Which Indoor Camera Should You Buy?'
 description: >-

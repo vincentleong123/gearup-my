@@ -1,4 +1,4 @@
-﻿---
+---
 slug: gig-realestate-fotografi-60d-malaysia
 title: 'Gig Fotografi Hartanah (Bukan Dron) dengan 60D: RM200-500 Sebuah Unit'
 description: >-

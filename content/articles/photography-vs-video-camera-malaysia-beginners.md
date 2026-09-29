@@ -1,4 +1,4 @@
-﻿---
+---
 slug: photography-vs-video-camera-malaysia-beginners
 title: 'Photography vs Video: Which Should a Total Beginner Learn First in Malaysia?'
 description: >-

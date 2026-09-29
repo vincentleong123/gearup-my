@@ -49,27 +49,23 @@ imageCuration:
     aspectRatio: 16/9
     notes: Ganti dengan susunan portfolio tempatan bila ada
     active: true
-  - caption: >-
-      Skrin laptop menunjukkan laman portfolio photography — grid 15 foto, satu
-      niche
+  - caption: Ruang kerja digital untuk menyusun portfolio fotografi dalam satu niche
     context: Laptop
     purpose: spec-detail
     position: Selepas bahagian host
-    alt: Laman portfolio online
-    sourceUrl: ''
+    alt: Ruang kerja digital untuk portfolio fotografi
+    sourceUrl: https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 16/9
-    notes: Belum disumber
+    notes: Foto ilustrasi kerja digital; bukan paparan portfolio sebenar
     active: true
-  - caption: >-
-      Mesej WhatsApp dari client: 'Saya nak book portfolio ni untuk majlis anak
-      saya'
+  - caption: Menggunakan telefon untuk berhubung dengan bakal pelanggan fotografi
     context: Telefon
     purpose: roi-illustration
     position: Selepas bahagian client pertama
-    alt: Mesej client pertama
-    sourceUrl: ''
+    alt: Komunikasi telefon dengan bakal pelanggan
+    sourceUrl: https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 9/16
-    notes: Belum disumber
+    notes: Foto ilustrasi komunikasi pelanggan; bukan tangkapan skrin WhatsApp
     active: true
 qaPairs:
   - question: >-

@@ -1,4 +1,4 @@
-﻿---
+---
 slug: gig-konvokesyen-canon-60d-malaysia
 title: 'Gig Konvokesyen Guna Canon 60D: Do What, Harga & Contoh Job Sebenar'
 description: >-

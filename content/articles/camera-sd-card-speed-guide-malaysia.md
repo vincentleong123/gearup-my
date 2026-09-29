@@ -1,11 +1,11 @@
-﻿---
+---
 slug: camera-sd-card-speed-guide-malaysia
 title: 'SD Card & CFexpress Guide: Don''t Let a RM40 Card Ruin Your RM10,000 Camera'
 description: >-
   The single most misunderstood accessory in Malaysia. V60 vs V90 vs CFexpress â€”
   which card your camera actually needs, and where to buy them in Malaysia
   without getting scammed.
-image: /blog/sd-card-guide.jpg
+image: /blog/camera-sd-card-speed-guide-malaysia.jpg
 category: guide
 readTime: 6
 date: '2026-01-20'

@@ -1,4 +1,4 @@
-﻿---
+---
 slug: second-shooter-wedding-malaysia-guide
 title: 'Second Shooter Wedding Malaysia: Gig RM250â€“RM400 & Cara Masuk Bisnes Kahwin'
 description: Cara masuk industri wedding Malaysia sebagai second shooter â€” di mana cari photographer utama, apa gear perlu, etika, deliverables, dan kenapa gig RM250â€“RM400 ni adalah sekolah paling murah untuk jadi photographer wedding.
@@ -49,18 +49,18 @@ imageCuration:
     purpose: spec-detail
     position: Selepas bahagian gear
     alt: Gear second shooter
-    sourceUrl: ''
+    sourceUrl: https://images.unsplash.com/photo-1452780212940-6f5c0d14d848?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 16/9
-    notes: Belum disumber
+    notes: Foto kamera editorial; bukan foto gear milik shooter tertentu
     active: true
   - caption: Photographer utama dan second shooter berbincang dengan senarai shot sebelum majlis bermula
     context: Venue majlis
     purpose: behind-the-scenes
     position: Selepas bahagian etika
     alt: Brief sebelum majlis
-    sourceUrl: ''
+    sourceUrl: https://images.unsplash.com/photo-1531796311868-83672cd144f3?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 16/9
-    notes: Belum disumber
+    notes: Foto di sebalik tabir sesi fotografi
     active: true
 ---
 

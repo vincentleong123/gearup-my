@@ -1,10 +1,10 @@
-﻿---
+---
 slug: kamera-untuk-side-income-malaysia
 title: >-
   Kamera Untuk Side Income: Cara Jana RM500â€“5,000 Sebulan Dengan Fotografi
 description: >-
   Kamera bukan sahaja untuk hobi â€” ia boleh jana side income. Ini jenis gig yang boleh anda dapat dengan kamera, dan berapa banyak yang boleh verdienen.
-image: /blog/camera-side-income.jpg
+image: /blog/kamera-untuk-side-income-malaysia.jpg
 category: guide
 readTime: 11
 date: '2026-06-30'

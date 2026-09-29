@@ -1,4 +1,4 @@
-﻿---
+---
 slug: old-dslr-era-60d-d3100-gig-payoff-malaysia
 title: >-
   Old DSLRs That Pay for Themselves: The D3100 & Canon 60D Era (2009â€“2013) in

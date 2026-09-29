@@ -1,10 +1,10 @@
-﻿---
+---
 slug: kamera-second-hand-malaysia
 title: >-
   Kamera Second Hand Malaysia: Tempat Beli, Harga Patut & Tips Elak Tipu
 description: >-
   Panduan lengkap beli kamera second hand di Malaysia â€” dari mana nak cari, berapa harga yang masuk akal, dan macam mana nak elak kena tipu.
-image: /blog/second-hand-camera-market.jpg
+image: /blog/kamera-second-hand-malaysia.jpg
 category: guide
 readTime: 10
 date: '2026-07-06'

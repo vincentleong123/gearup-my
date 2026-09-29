@@ -1,4 +1,4 @@
-﻿---
+---
 slug: tiktok-reels-shorts-strategy-malaysia-2026
 title: >-
   TikTok, Reels & Shorts in Malaysia 2026: The Short-Form Strategy for New
@@ -7,7 +7,7 @@ description: >-
   Short-form is how Malaysian creators get discovered. Here is the honest
   strategy: formats that win, the first 3 seconds, when to post, and how to go
   from views to money.
-image: /blog/short-form-strategy.jpg
+image: /blog/tiktok-reels-shorts-strategy-malaysia-2026.jpg
 category: guide
 readTime: 8
 date: '2026-03-05'

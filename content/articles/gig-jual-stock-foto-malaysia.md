@@ -1,4 +1,4 @@
-﻿---
+---
 slug: gig-jual-stock-foto-malaysia
 title: 'Jual Foto Stock di Malaysia: Pendapatan Pasif dari Kamera yang Anda Sudah Ada'
 description: >-

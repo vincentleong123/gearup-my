@@ -1,11 +1,11 @@
-﻿---
+---
 slug: mirrorless-vs-dslr-malaysia
 title: 'Mirrorless vs DSLR: Which Should Malaysians Actually Buy in 2026?'
 description: >-
   The DSLR vs mirrorless debate explained simply for Malaysians: what the
   difference actually is, what it means for your money, and when a used DSLR is
   still the right buy.
-image: /blog/mirrorless-vs-dslr.jpg
+image: /blog/mirrorless-vs-dslr-malaysia.jpg
 category: guide
 readTime: 8
 date: '2026-03-09'

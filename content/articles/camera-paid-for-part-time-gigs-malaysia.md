@@ -1,11 +1,11 @@
-﻿---
+---
 slug: camera-paid-for-part-time-gigs-malaysia
 title: 'How to Get a Camera Fully Paid For: The Gig-to-Gear System (Malaysia 2026)'
 description: >-
   A camera is not an expense â€” it is a business asset. Here is the complete
   system for paying off any camera with real Malaysian gigs: graduation, galas,
   portraits, weddings, video and more.
-image: /blog/gig-to-gear.jpg
+image: /blog/camera-paid-for-part-time-gigs-malaysia.jpg
 category: guide
 readTime: 10
 date: '2026-02-24'

@@ -108,23 +108,23 @@ imageCuration:
     aspectRatio: 16/9
     notes: Ganti dengan foto kilang tempatan bila ada
     active: true
-  - caption: Paparan bilik kawalan menunjukkan orang counting di pintu pekerja dan amaran zon PPE
-    context: Bilik kawalan keselamatan
+  - caption: Infrastruktur rangkaian yang menyokong sistem pemantauan keselamatan
+    context: Infrastruktur pemantauan
     purpose: spec-detail
     position: Selepas bahagian people counting
-    alt: Bilik kawalan keselamatan pekerja
-    sourceUrl: ''
+    alt: Infrastruktur rangkaian untuk pemantauan keselamatan
+    sourceUrl: https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 16/9
-    notes: Belum disumber
+    notes: Foto ilustrasi infrastruktur pemantauan; bukan paparan panel AI sebenar
     active: true
-  - caption: Papan notis keselamatan kilang dengan prosedur kecemasan dan tanda amaran kawasan berisiko
+  - caption: Persekitaran industri yang memerlukan prosedur keselamatan dan pemantauan
     context: Kilang
     purpose: section-intro
     position: Selepas bahagian pematuhan
-    alt: Notis keselamatan kilang
-    sourceUrl: ''
+    alt: Persekitaran industri untuk panduan keselamatan
+    sourceUrl: https://images.unsplash.com/photo-1565043666747-69f6646db940?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 16/9
-    notes: Belum disumber
+    notes: Foto persekitaran industri sebagai ilustrasi keselamatan tempat kerja
     active: true
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 slug: turning-50-panic-plan-content-side-hustle-malaysia
 title: >-
   Turning 50 With No Savings? The 90-Day Panic-to-Plan Side Hustle for Malaysian
@@ -7,7 +7,7 @@ description: >-
   The EPF is not enough, the oh-shit-o-meter is pegged, and your birthday is
   coming. This is the exact 90-day plan to turn the phone in your pocket into
   RM500-1,500/month of content income.
-image: /blog/turning-50-plan.jpg
+image: /blog/turning-50-panic-plan-content-side-hustle-malaysia.jpg
 category: guide
 readTime: 10
 date: '2026-04-13'

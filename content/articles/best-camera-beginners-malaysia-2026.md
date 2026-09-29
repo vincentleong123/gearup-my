@@ -1,11 +1,11 @@
-﻿---
+---
 slug: best-camera-beginners-malaysia-2026
 title: 'The Best Camera for Beginners in Malaysia in 2026 (RM500 to RM4,000)'
 description: >-
   New to photography or content creation? The 2026 beginner shortlist for
   Malaysian budgets â€” from a RM500 second-hand Nikon to a RM3,900 X-M5 â€” with
   honest advice on what to buy and what to skip.
-image: /blog/best-camera-beginners.jpg
+image: /blog/best-camera-beginners-malaysia-2026.jpg
 category: guide
 readTime: 10
 date: '2026-04-11'

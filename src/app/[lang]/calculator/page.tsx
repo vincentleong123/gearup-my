@@ -9,7 +9,7 @@ interface Props { params: Promise<{ lang: string }> }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
   return {
-    title: 'ROI Calculator for Content Creation Gear — Breakeven in Ringgit Malaysia | Kameralog MY',
+    title: 'ROI Calculator for Content Creation Gear — Breakeven in Ringgit Malaysia',
     description: 'Calculate how many paid gigs it takes to break even on any camera, drone, or content creation gear. Prices in MYR.',
     openGraph: { title: 'ROI Calculator — Kameralog Malaysia', description: 'See how fast your gear pays for itself. Free ROI calculator for Malaysian creators.' },
     ...langAlternates(lang, '/calculator'),

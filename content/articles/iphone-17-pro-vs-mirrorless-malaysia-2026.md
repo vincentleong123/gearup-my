@@ -1,10 +1,10 @@
-﻿---
+---
 slug: iphone-17-pro-vs-mirrorless-malaysia-2026
 title: 'iPhone 17 Pro vs a RM9,000 Mirrorless: Does the Phone Win in 2026?'
 description: >-
   The iPhone 17 Pro shoots 8K and 4K 120fps ProRes. Is a Sony A7C II still worth
   RM9,500? We compare both honestly for Malaysian content creators.
-image: /blog/iphone17-vs-mirrorless.jpg
+image: /blog/iphone-17-pro-vs-mirrorless-malaysia-2026.jpg
 category: comparison
 readTime: 8
 date: '2026-01-24'

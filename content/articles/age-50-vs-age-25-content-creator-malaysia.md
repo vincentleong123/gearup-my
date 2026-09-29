@@ -1,10 +1,10 @@
-﻿---
+---
 slug: age-50-vs-age-25-content-creator-malaysia
 title: 'Age 50 vs Age 25 Content Creator in Malaysia: Who Actually Wins?'
 description: >-
   You're 50, they're 25, and you're both starting at zero. Here's the brutal,
   honest head-to-head â€” and why your grey hair is your unfair advantage.
-image: /blog/age-50-vs-25.jpg
+image: /blog/age-50-vs-age-25-content-creator-malaysia.jpg
 category: comparison
 readTime: 8
 date: '2026-04-11'

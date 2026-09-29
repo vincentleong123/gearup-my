@@ -1,4 +1,4 @@
-﻿---
+---
 slug: gala-dinner-event-photography-malaysia
 title: >-
   Gala Dinner & Corporate Event Photography in Malaysia: RM300-600 Evenings That
@@ -7,7 +7,7 @@ description: >-
   Award nights, CNY dinners, fundraisers, product launches â€” every company books
   at least one event a year. Here is how to win those contracts, deliver fast,
   and build a recurring client list.
-image: /blog/gala-guide.jpg
+image: /blog/gala-dinner-event-photography-malaysia.jpg
 category: guide
 readTime: 8
 date: '2026-02-21'

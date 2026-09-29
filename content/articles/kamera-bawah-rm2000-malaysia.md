@@ -1,10 +1,10 @@
-﻿---
+---
 slug: kamera-bawah-rm2000-malaysia
 title: >-
   Kamera Bawah RM2,000: Pilihan Terbaik Untuk Content Creator Malaysia
 description: >-
   Bajet RM2,000 adalah sweet spot untuk content creator Malaysia. Ini kamera second hand terbaik yang anda boleh dapat pada harga ini.
-image: /blog/camera-under-2000-malaysia.jpg
+image: /blog/kamera-bawah-rm2000-malaysia.jpg
 category: guide
 readTime: 10
 date: '2026-07-21'

@@ -1,11 +1,11 @@
-﻿---
+---
 slug: gig-video-perniagaan-kecil-malaysia
 title: 'Video untuk Perniagaan Kecil â€” Gig Sambilan RM500-RM1,500 Sebulan'
 description: >-
   Perniagaan kecil di Malaysia makin faham kuasa video untuk TikTok dan
   Facebook. Panduan lengkap jadi videographer sambilan untuk client setempat
   yang bayar bulanan.
-image: /blog/malay-gig.jpg
+image: /blog/gig-video-perniagaan-kecil-malaysia.jpg
 category: guide
 readTime: 10
 date: '2026-03-31'

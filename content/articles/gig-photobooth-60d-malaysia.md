@@ -1,4 +1,4 @@
-﻿---
+---
 slug: gig-photobooth-60d-malaysia
 title: 'Gig Photobooth dengan 60D: Harga RM300-800 & Pelan Naik Taraf'
 description: >-

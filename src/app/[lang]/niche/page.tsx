@@ -13,7 +13,7 @@ interface Props { params: Promise<{ lang: string }> }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
   return {
-    title: 'Content Creation Niches in Malaysia — Find Your Path | Kameralog MY',
+    title: 'Content Creation Niches in Malaysia — Find Your Path',
     description: 'Explore content creation niches popular in Malaysia. Food review, tech review, beauty, travel, and daily vlog — with gear recommendations and earning potential.',
     openGraph: { title: 'Content Niches — Kameralog Malaysia' },
     ...langAlternates(lang, '/niche'),

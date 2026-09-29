@@ -1,11 +1,11 @@
-﻿---
+---
 slug: dji-mini-3-pro-vs-mini-4-pro-malaysia
 title: 'DJI Mini 3 Pro vs Mini 4 Pro Malaysia: Is the 4 Pro Worth RM1,000 More?'
 description: >-
   Two under-250g drones, one decision. We compare the DJI Mini 3 Pro and Mini 4
   Pro for Malaysian buyers in 2026 â€” including the used-price gap and the gig
   math.
-image: /blog/mini3-vs-mini4.jpg
+image: /blog/dji-mini-3-pro-vs-mini-4-pro-malaysia.jpg
 category: comparison
 readTime: 7
 date: '2026-02-03'

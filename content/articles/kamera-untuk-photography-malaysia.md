@@ -1,10 +1,10 @@
-﻿---
+---
 slug: kamera-untuk-photography-malaysia
 title: >-
   Kamera Untuk Photography: Yang Mana Sesuai Dengan Gaya Anda?
 description: >-
   Panduan pilih kamera untuk photography di Malaysia â€” portrait, landscape, street, product. Setiap gaya ada kamera yang sesuai.
-image: /blog/camera-for-photography.jpg
+image: /blog/kamera-untuk-photography-malaysia.jpg
 category: guide
 readTime: 10
 date: '2026-07-02'

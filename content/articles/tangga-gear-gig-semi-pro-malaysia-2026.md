@@ -1,4 +1,4 @@
-﻿---
+---
 slug: tangga-gear-gig-semi-pro-malaysia-2026
 title: 'Tangga Gear Semi-Pro 2026: Dari Canon 60D ke Sony A6100/ZV-E10 Tanpa Hutang'
 description: >-

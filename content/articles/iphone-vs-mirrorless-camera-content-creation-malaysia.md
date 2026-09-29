@@ -1,4 +1,4 @@
-﻿---
+---
 slug: iphone-vs-mirrorless-camera-content-creation-malaysia
 title: >-
   iPhone vs Mirrorless Camera for Content Creation: When Should You Upgrade?
@@ -7,7 +7,7 @@ description: >-
   Tim has an iPhone and RM0. Ahmad has RM1,800 saved. Who should upgrade? The
   honest rule of thumb, the real differences, and the RM100 half-step in
   between.
-image: /blog/iphone-vs-mirrorless.jpg
+image: /blog/iphone-vs-mirrorless-camera-content-creation-malaysia.jpg
 category: comparison
 readTime: 8
 date: '2026-03-10'

@@ -1,4 +1,4 @@
-﻿---
+---
 slug: photo-booth-business-malaysia
 title: >-
   Photo Booth Business Malaysia: The RM400-800/Event Side Gig You Can Start With
@@ -7,7 +7,7 @@ description: >-
   Photo booths are a RM400-800 per event business in Malaysia with almost no
   skill barrier. What you need, what to charge, and how to get booked for
   weddings, parties and corporate events.
-image: /blog/photo-booth.jpg
+image: /blog/photo-booth-business-malaysia.jpg
 category: inspiration
 readTime: 9
 date: '2026-02-16'

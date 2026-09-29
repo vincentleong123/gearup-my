@@ -1,4 +1,4 @@
-﻿---
+---
 slug: panasonic-lumix-gh7-review-malaysia
 title: 'Panasonic Lumix GH7 Review: The Video Camera Malaysian Filmmakers Sleep On'
 description: >-

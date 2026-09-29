@@ -1,11 +1,11 @@
-﻿---
+---
 slug: gig-fotografi-makanan-malaysia
 title: 'Fotografi Makanan: Gig Paling Sedap untuk Content Creator di Malaysia'
 description: >-
   Cafe, restoran, dan brand makanan perlukan content fresh setiap minggu.
   Panduan gig fotografi makanan dari RM150 sampai RM400 — dan cara biar kerja
   rasa main-main.
-image: /blog/malay-gig.jpg
+image: /blog/gig-fotografi-makanan-malaysia.jpg
 category: inspiration
 readTime: 7
 date: '2026-01-24'

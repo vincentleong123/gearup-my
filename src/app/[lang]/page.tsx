@@ -12,9 +12,8 @@ import AdSlot from '@/components/AdSlot';
 import Link from 'next/link';
 import { gearList } from '@/data/gear';
 import { articles } from '@/data/articles';
-import { creators } from '@/data/creators';
 import { gigs } from '@/data/gigs';
-import { heroCollageImg, blogImg, gigImg } from '@/data/images';
+import { blogImg, gigImg } from '@/data/images';
 import { BASE_URL, langAlternates, withLang, htmlLang } from '@/lib/lang';
 
 const ogLocales: Record<string, string> = { en: 'en_MY', ms: 'ms_MY', zh: 'zh_MY' };
@@ -24,22 +23,22 @@ interface Props { params: Promise<{ lang: string }> }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
   return {
-    title: 'Kameralog Malaysia — Camera & Gear Reviews for Malaysian Content Creators | ROI in Ringgit',
-    description: 'Tim and Ahmad lost their jobs. This site shows them — and you — how to start content creation with zero budget. Compare cameras, drones, Insta360, and mobile gear with real second-hand prices in Malaysia. See what creators actually earn.',
+    title: 'Kameralog Malaysia — Camera Research Dashboard: What to Buy & What It Earns',
+    description: 'A personal research dashboard for choosing camera gear in Malaysia: real second-hand prices in MYR, actual gig rates, side-by-side comparisons, and ROI math. Nothing is sold here — this is where the buying decision gets made.',
     openGraph: {
-      title: 'Kameralog Malaysia — Gear That Pays For Itself',
-      description: 'Lost your job? Start creating. Compare second-hand camera prices, creator earnings, and ROI in Ringgit Malaysia.',
+      title: 'Kameralog Malaysia — Camera Research Dashboard',
+      description: 'Research camera gear in Malaysia with MYR second-hand prices, real gig rates, comparisons and ROI math. A decision desk, not a shop.',
       url: `${BASE_URL}${lang === 'en' ? '/' : `/${lang}/`}`,
       type: 'website',
       locale: ogLocales[lang] || 'en_MY',
       siteName: 'Kameralog Malaysia',
-      images: [{ url: `${BASE_URL}/og-image.png`, width: 1200, height: 630, alt: 'Kameralog Malaysia — Camera & Gear Reviews' }],
+      images: [{ url: `${BASE_URL}/og-image-1200x630.jpg`, width: 1200, height: 630, alt: 'Kameralog camera reviews — Sony, Canon and Nikon gear laid out on a mountain at sunrise beside a Kameralog.com signpost' }],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Kameralog Malaysia — Gear That Pays For Itself',
-      description: 'Lost your job? Start creating. Compare second-hand camera prices, creator earnings, and ROI in Ringgit Malaysia.',
-      images: [`${BASE_URL}/og-image.png`],
+      title: 'Kameralog Malaysia — Camera Research Dashboard',
+      description: 'Research camera gear in Malaysia with MYR second-hand prices, real gig rates, comparisons and ROI math. A decision desk, not a shop.',
+      images: [`${BASE_URL}/og-image-1200x630.jpg`],
     },
     keywords: ['camera Malaysia', 'kamera Malaysia', 'kamera', 'camera gear', 'fotografi', 'photography', 'content creator', 'kamera bajet', 'kamera murah', 'kamera second hand', 'kamera terpakai', 'harga kamera', 'kamera vlogging', 'vlogging camera', 'TikTok camera', 'YouTube camera', 'creator gear', 'microphone', 'mic TikTok', 'DJI', 'Insta360', 'Sony', 'Canon', 'Fujifilm', 'Nikon', 'camera comparison', 'camera buying guide', 'Asia camera market', 'content creation malaysia', 'creator gear roi', 'part time camera jobs', 'side income photography'],
     robots: { index: true, follow: true },
@@ -95,13 +94,13 @@ export default async function HomePage({ params }: Props) {
         '@type': 'WebSite',
         name: 'Kameralog Malaysia',
         url: `${BASE_URL}${withLang(lang, '/')}`,
-        description: 'Camera and content creation gear reviews for Malaysian creators. Compare prices, earnings, and ROI.',
+        description: 'A personal camera research desk for Malaysia: gear comparisons, MYR second-hand prices, gig rates and ROI math to decide which camera to buy.',
         inLanguage: htmlLang(lang),
       },
       {
         '@type': 'ItemList',
-        name: 'Malaysian Content Creation Gear Reviews',
-        description: 'Second-hand gear prices and reviews for Malaysian creators',
+        name: 'Malaysia Camera Research Shortlist',
+        description: 'Cameras and gear tracked for comparison: used prices in MYR and ROI scores',
         itemListElement: gearList.map((g, i) => ({
           '@type': 'ListItem',
           position: i + 1,
@@ -144,10 +143,21 @@ export default async function HomePage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Nav />
 
-      {/* HERO */}
+      {/* HERO — research desk */}
       <section className="min-h-screen flex flex-col relative overflow-hidden pt-24">
         <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-gradient-to-b from-zinc-950/50 via-zinc-950/20 to-zinc-950" />
+          <picture>
+            <source srcSet="/kameralog-hero-main-homepage-camera-gear-reviews.webp" type="image/webp" />
+            <img
+              src="/kameralog-hero-main-homepage-camera-gear-reviews.jpg"
+              alt="Kameralog camera reviews — Sony, Canon and Nikon cameras, lenses, a DJI drone and creator gear laid out on a mountain at sunrise, next to a Kameralog.com signpost"
+              className="absolute inset-0 w-full h-full object-cover object-[45%_20%]"
+              fetchPriority="high"
+              decoding="async"
+            />
+          </picture>
+          <div className="absolute inset-0 bg-gradient-to-b from-zinc-950/60 via-zinc-950/45 to-zinc-950" />
+          <div className="absolute inset-0 bg-gradient-to-r from-zinc-950/80 via-zinc-950/35 to-zinc-950/40" />
           <div className="absolute -top-32 -left-32 w-[520px] h-[520px] bg-gradient-to-br from-purple-600/25 via-fuchsia-600/14 to-transparent blur-3xl rounded-full pointer-events-none" />
           <div className="absolute bottom-0 right-0 w-[420px] h-[420px] bg-gradient-to-tl from-fuchsia-600/10 to-transparent blur-3xl rounded-full pointer-events-none" />
           <div className="film-grain" />
@@ -159,40 +169,40 @@ export default async function HomePage({ params }: Props) {
               <div className="flex items-center gap-4 mb-8">
                 <span className="hero-kicker-line h-px w-12 sm:w-16" />
                 <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-zinc-100 font-medium">
-                  <T k="home.hero.badge" en="Malaysia's Camera Review Journal — 2026" />
+                  <T k="home.hero.badge" en="Personal Camera Research Desk — Malaysia" />
                 </p>
               </div>
 
               <h1 className="font-display text-4xl sm:text-6xl lg:text-7xl xl:text-[5.5rem] leading-[1.06] tracking-tight mb-7">
-                <T k="home.hero.title" en="Your Kit to" />{' '}
+                <T k="home.hero.title" en="Which Camera Should I Buy" />{' '}
                 <em className="italic text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-pink-400 to-fuchsia-400">
-                  <T k="home.hero.titleAccent" en="Start Creating" />
+                  <T k="home.hero.titleAccent" en="in Malaysia?" />
                 </em>
               </h1>
 
               <p className="text-base md:text-xl text-zinc-200 max-w-2xl mb-10 leading-relaxed font-light">
-                <T k="home.hero.subtitle" en="Like Tim & Ahmad — two jobless grads who started from zero. Old phone, window light, RM400 Nikon D3100. Six months later they bought a used Sony A6100 with content money." />
+                <T k="home.hero.subtitle" en="This is the dashboard I use to answer that — one research workspace that tracks second-hand prices in Ringgit, real Malaysian gig rates, and how fast each camera pays itself back. Nothing is sold here. It just helps me decide." />
               </p>
 
               <div className="flex flex-wrap gap-4 mb-12">
-                <Link href="#top-picks" className="group inline-flex items-center gap-2.5 px-7 py-3.5 bg-white text-zinc-950 font-semibold rounded-full text-base hover:bg-red-500 hover:text-white hover:shadow-xl hover:shadow-red-500/25 hover:-translate-y-0.5 transition-all duration-300">
-                  <T k="home.hero.cta" en="2026 Top Picks" />
+                <Link href={withLang(lang, '/compare')} className="group inline-flex items-center gap-2.5 px-7 py-3.5 bg-white text-zinc-950 font-semibold rounded-full text-base hover:bg-red-500 hover:text-white hover:shadow-xl hover:shadow-red-500/25 hover:-translate-y-0.5 transition-all duration-300">
+                  <T k="home.hero.cta" en="Open the Compare Desk" />
                   <span className="transition-transform duration-300 group-hover:translate-x-0.5">→</span>
                 </Link>
                 <Link href="#gear" className="inline-flex items-center gap-2 px-7 py-3.5 bg-white/5 text-white font-semibold rounded-full text-base border border-white/15 backdrop-blur hover:bg-white/10 hover:border-red-500/40 transition-all duration-300">
-                  <T k="home.hero.readGuide" en="Browse All Gear" />
+                  <T k="home.hero.readGuide" en="Browse the Gear Database" />
                 </Link>
-                <Link href={withLang(lang, '/compare')} className="inline-flex items-center gap-2 px-6 py-3.5 text-zinc-100 font-medium rounded-full text-base hover:text-white transition-all duration-300">
-                  ⚖️ <T k="home.hero.compareCta" en="Compare Side-by-Side" />
+                <Link href="#calculator" className="inline-flex items-center gap-2 px-6 py-3.5 text-zinc-100 font-medium rounded-full text-base hover:text-white transition-all duration-300">
+                  🧮 <T k="home.hero.compareCta" en="Run the ROI Numbers" />
                 </Link>
               </div>
 
               <div className="grid grid-cols-2 md:grid-cols-4 gap-px overflow-hidden rounded-2xl border border-white/10 bg-white/10">
                 {[
-                  { value: 'RM 0', label: 'Minimum to start', labelKey: 'home.hero.stats.minToStart', grad: 'from-cyan-400 to-blue-500' },
-                  { value: `${gearList.length}+`, label: 'Gear reviewed', labelKey: 'home.hero.stats.gearReviewed', grad: 'from-green-400 to-emerald-500' },
-                  { value: `${creators.length}`, label: 'Creator stories', labelKey: 'home.hero.stats.creatorStories', grad: 'from-yellow-400 to-orange-500' },
-                  { value: '2026', label: 'Edition — updated', labelKey: 'home.hero.stats.edition', grad: 'from-red-400 to-pink-500' },
+                  { value: `${gearList.length}`, label: 'Items tracked', labelKey: 'home.hero.stats.gearReviewed', grad: 'from-green-400 to-emerald-500' },
+                  { value: `${gigs.length}`, label: 'Gig rate cards', labelKey: 'home.hero.stats.gigs', grad: 'from-cyan-400 to-blue-500' },
+                  { value: `${articles.length}`, label: 'Research notes', labelKey: 'home.hero.stats.notes', grad: 'from-yellow-400 to-orange-500' },
+                  { value: 'MYR', label: 'Prices in Ringgit', labelKey: 'home.hero.stats.myr', grad: 'from-red-400 to-pink-500' },
                 ].map(s => (
                   <div key={s.label} className="bg-zinc-950/60 backdrop-blur px-4 py-4">
                     <div className={`text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r ${s.grad}`}>{s.value}</div>
@@ -202,30 +212,47 @@ export default async function HomePage({ params }: Props) {
               </div>
             </div>
 
-            {/* Photo collage — real photos, square tiles, object-cover (no stretch) */}
-            <div className="grid grid-cols-2 gap-3 lg:gap-4">
-              {[
-                { i: 0, pos: 'object-[70%_20%]', span: 'lg:row-span-2', label: 'Portrait', labelKey: 'home.hero.collage.portrait', emoji: '📷' },
-                { i: 1, pos: 'object-center', span: '', label: 'The Eye', labelKey: 'home.hero.collage.eye', emoji: '👁️' },
-                { i: 2, pos: 'object-center', span: '', label: 'The Lens', labelKey: 'home.hero.collage.lens', emoji: '🔭' },
-                { i: 3, pos: 'object-[50%_30%]', span: 'lg:col-span-2', label: 'The Gear', labelKey: 'home.hero.collage.gear', emoji: '🛠️' },
-              ].map(t => (
-                <figure
-                  key={t.label}
-                  className={`group relative overflow-hidden rounded-2xl border border-white/10 shadow-xl shadow-black/40 hover:shadow-2xl hover:shadow-pink-600/10 transition-all duration-500 ${t.span}`}
-                >
-                  <img
-                    src={heroCollageImg(t.i, 800, t.span.includes('row-span') ? 1080 : 760)}
-                    alt={t.label}
-                    className={`w-full h-full object-cover ${t.pos} group-hover:scale-[1.04] transition-transform duration-700`}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/70 via-zinc-950/10 to-transparent" />
-                  <figcaption className="absolute bottom-3 left-3 flex items-center gap-2 text-xs font-bold tracking-wide text-white/90">
-                    <span className="grid place-items-center h-7 w-7 rounded-full bg-zinc-950/60 backdrop-blur border border-white/15">{t.emoji}</span>
-                    <T k={t.labelKey} en={t.label} />
-                  </figcaption>
-                </figure>
-              ))}
+            {/* Research console — live shortlist, no stock photos */}
+            <div className="rounded-2xl border border-white/10 bg-zinc-950/70 backdrop-blur-xl shadow-2xl shadow-black/50 overflow-hidden">
+              <div className="flex items-center justify-between px-5 py-3 border-b border-white/10 bg-white/[0.03]">
+                <div className="flex items-center gap-2">
+                  <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
+                  <span className="text-xs font-bold uppercase tracking-wider text-zinc-100">
+                    <T k="home.hero.consoleTitle" en="Shortlist — tracked this week" />
+                  </span>
+                </div>
+                <span className="text-[11px] font-mono text-zinc-400">roi · used (MYR)</span>
+              </div>
+              <div className="divide-y divide-white/5">
+                {[...gearList]
+                  .sort((a, b) => b.roiScore - a.roiScore)
+                  .slice(0, 5)
+                  .map((g, i) => (
+                    <Link
+                      key={g.slug}
+                      href={withLang(lang, `/gear/${g.slug}`)}
+                      className="group flex items-center gap-4 px-5 py-3.5 hover:bg-white/[0.04] transition-colors"
+                    >
+                      <span className="font-mono text-xs text-zinc-500 w-5">{String(i + 1).padStart(2, '0')}</span>
+                      <span className="flex-1 min-w-0">
+                        <span className="block text-sm font-semibold text-zinc-100 truncate group-hover:text-red-400 transition-colors">{g.name}</span>
+                        <span className="block text-xs text-zinc-400 truncate">{g.type}</span>
+                      </span>
+                      <span className="text-right">
+                        <span className="block text-sm font-bold text-white">RM{g.priceUsed.toLocaleString()}</span>
+                        <span className="block text-[11px] font-mono text-emerald-400">ROI {g.roiScore}</span>
+                      </span>
+                    </Link>
+                  ))}
+              </div>
+              <div className="px-5 py-3 border-t border-white/10 flex items-center justify-between bg-white/[0.02]">
+                <span className="text-[11px] text-zinc-400">
+                  <T k="home.hero.consoleNote" en="No affiliate links · no items sold · research only" />
+                </span>
+                <Link href={withLang(lang, '/gear')} className="text-[11px] font-bold text-red-400 hover:text-red-300 transition-colors">
+                  <T k="home.hero.consoleAll" en="all →" />
+                </Link>
+              </div>
             </div>
           </div>
         </div>
@@ -234,46 +261,6 @@ export default async function HomePage({ params }: Props) {
           <div className="flex flex-col items-center gap-2 text-zinc-200">
             <span className="text-xs uppercase tracking-[0.4em]"><T k="home.scroll" en="Scroll" /></span>
             <span className="w-px h-10 bg-gradient-to-b from-zinc-500/70 to-transparent" />
-          </div>
-        </div>
-      </section>
-
-      {/* QUOTE STRIP */}
-      <section className="py-14 border-y border-zinc-800/50 bg-zinc-900/20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-8">
-            <span className="inline-flex items-center gap-2 bg-amber-500/10 border border-amber-500/20 rounded-full px-4 py-1.5 text-xs font-bold text-amber-400 uppercase tracking-wider">
-              📐 Illustrative Scenarios — Not Real People
-            </span>
-          </div>
-          <div className="grid md:grid-cols-3 gap-6">
-            {[
-              { textEn: 'I started with RM400 and a Nikon D3100 from Mudah.my. Now I earn RM2,000/month reviewing cars.', name: 'Aiman Roslan', role: 'Car Reviews · Shah Alam', roi: '500% ROI in 90 days', textKey: 'home.quote1' },
-              { textEn: 'My iPhone paid for itself in brand deals. I never bought a camera. Zero ringgit spent on gear.', name: 'Aina Syazwani', role: 'Beauty Reviews · KL', roi: 'Unlimited ROI (used what she had)', textKey: 'home.quote2' },
-              { textEn: 'RM1,900 used Insta360 X4. First month I earned RM2,400 from real estate videos. Paid off + profit.', name: 'Zamri Nasir', role: 'Real Estate Media · JB', roi: '126% ROI in Month 1', textKey: 'home.quote3' },
-            ].map((q, i) => (
-              <div key={i} className="relative bg-zinc-900/40 border border-zinc-800/50 rounded-2xl p-6 hover:border-red-500/25 hover:bg-zinc-900/60 transition-all duration-300">
-                <div className="flex items-center justify-between mb-3">
-                  <span className="text-xs font-bold uppercase tracking-wider text-amber-500 bg-amber-500/10 border border-amber-500/20 rounded px-2 py-0.5">Scenario {i + 1}</span>
-                  <span className="flex text-amber-400 text-sm">★★★★★</span>
-                </div>
-                <p className="text-zinc-100 text-sm leading-relaxed mb-4">"<T k={q.textKey} en={q.textEn} />"</p>
-                <div className="flex items-center justify-between">
-                  <div>
-                    <div className="font-bold text-sm text-zinc-300">{q.name}</div>
-                    <div className="text-xs text-zinc-200">{q.role}</div>
-                  </div>
-                  <div className="text-right">
-                    <div className="text-xs text-green-400 font-bold">{q.roi}</div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-          <div className="mt-6 p-4 rounded-xl bg-amber-500/5 border border-amber-500/15 text-center">
-            <p className="text-sm text-amber-300/80 font-medium">
-              <strong className="text-amber-400">Important:</strong> These are illustrative scenarios based on typical Malaysian gig rates and second-hand prices. They are not testimonials from real individuals. Actual results depend on your market, effort, and skills.
-            </p>
           </div>
         </div>
       </section>
@@ -290,13 +277,13 @@ export default async function HomePage({ params }: Props) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <div className="inline-flex items-center gap-2 bg-amber-500/10 border border-amber-500/20 rounded-full px-4 py-1.5 text-sm text-amber-400 font-semibold mb-5">
-              💰 <T k="home.gigs.badge" en="The Gig-to-Gear Engine" />
+              💰 <T k="home.gigs.badge" en="Earnings Research — Gig Rates" />
             </div>
             <h2 className="text-3xl md:text-5xl font-black mb-4">
-              <T k="home.gigs.head" en="Your Camera Is" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-yellow-500"><T k="home.gigs.headAccent" en="A Few Gigs Away" /></span>
+              <T k="home.gigs.head" en="What Gigs Pay" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-yellow-500"><T k="home.gigs.headAccent" en="Back a Camera" /></span>
             </h2>
             <p className="text-zinc-200 max-w-2xl mx-auto text-lg">
-              <T k="home.gigs.desc" en="Graduation shoots, gala dinners, portraits, weddings, video content — real Malaysian part-time jobs with real rates. Do a few, and the camera is yours. We did the math for you." />
+              <T k="home.gigs.desc" en="Graduation shoots, gala dinners, portraits, weddings, video content — logged Malaysian part-time rates I use as the earning side of the buy decision. Compare each rate against a camera's used price and see how many gigs close the gap." />
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
@@ -512,17 +499,17 @@ export default async function HomePage({ params }: Props) {
             <div className="absolute -top-24 left-1/2 -translate-x-1/2 w-[480px] h-[240px] bg-gradient-to-r from-red-600/15 via-pink-600/15 to-purple-600/15 blur-3xl rounded-full pointer-events-none" />
             <div className="relative z-10">
               <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-4 py-1.5 text-sm text-zinc-100 font-semibold mb-5">
-                <T k="home.cta.badge" en="🇲🇾 Built for Malaysian creators, by Malaysian creators" />
+                <T k="home.cta.badge" en="🇲🇾 A research desk, not a shop — nothing is sold here" />
               </div>
               <h2 className="text-3xl md:text-5xl font-black mb-4">
-                <T k="home.cta.heading1" en="Your Gear Should" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-purple-500 to-pink-500"><T k="home.cta.heading2" en="Pay For Itself" /></span>
+                <T k="home.cta.heading1" en="Decide With" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-purple-500 to-pink-500"><T k="home.cta.heading2" en="The Numbers" /></span>
               </h2>
               <p className="text-zinc-200 max-w-xl mx-auto mb-8 text-lg">
-                <T k="home.cta.desc" en="Start with nothing. Compare gear, read creator stories, calculate your ROI." />
+                <T k="home.cta.desc" en="Shortlist a camera, check its used price, run the gig math, and pick the one that makes money first." />
               </p>
               <div className="flex flex-wrap justify-center gap-4">
-                <Link href="#gear" className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-red-500 to-pink-600 text-white font-bold rounded-xl text-lg hover:shadow-xl hover:shadow-red-500/25 hover:-translate-y-0.5 transition-all duration-300">
-                  <T k="home.cta.button" en="Start Your Journey" /> →
+                <Link href={withLang(lang, '/compare')} className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-red-500 to-pink-600 text-white font-bold rounded-xl text-lg hover:shadow-xl hover:shadow-red-500/25 hover:-translate-y-0.5 transition-all duration-300">
+                  <T k="home.cta.button" en="Open the Compare Desk" /> →
                 </Link>
                 <Link href={withLang(lang, '/quiz')} className="inline-flex items-center gap-2 px-8 py-4 bg-zinc-800/60 text-white font-bold rounded-xl text-lg border border-zinc-700/50 hover:bg-zinc-800 transition-all duration-300">
                   <T k="home.cta.quiz" en="⚡ Take the 5-Minute Quiz" />

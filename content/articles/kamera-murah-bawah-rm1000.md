@@ -1,10 +1,10 @@
-﻿---
+---
 slug: kamera-murah-bawah-rm1000
 title: >-
   Kamera Murah Bawah RM1,000: 7 Pilihan Terbaik Untuk Beginner Malaysia
 description: >-
   Bajet RM1,000 tak cukup? Salah. Ini 7 kamera second hand bawah RM1,000 yang sesuai untuk content creator pemula di Malaysia.
-image: /blog/budget-camera-under-1000.jpg
+image: /blog/kamera-murah-bawah-rm1000.jpg
 category: guide
 readTime: 9
 date: '2026-06-20'

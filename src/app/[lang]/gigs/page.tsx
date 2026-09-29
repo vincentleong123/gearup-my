@@ -12,7 +12,7 @@ interface Props { params: Promise<{ lang: string }> }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
   return {
-    title: 'Part-Time Camera Gigs in Malaysia — Gigs That Pay For Your Gear | Kameralog MY',
+    title: 'Part-Time Camera Gigs in Malaysia — Gigs That Pay For Your Gear',
     description:
       'Graduation photography, gala dinners, weddings, portraits, and more. Real 2026 Malaysian gig rates that can pay off a camera in weeks. Includes a full creative services rate card.',
     openGraph: {

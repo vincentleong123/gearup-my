@@ -1,4 +1,4 @@
-﻿---
+---
 slug: wedding-videography-side-hustle-malaysia
 title: >-
   Wedding Videography in Malaysia: The RM1,500-3,000/Event Side Hustle Nobody
@@ -7,7 +7,7 @@ description: >-
   Wedding photographers get all the attention, but wedding videographers earn
   more per day. How to start as a second videographer in Malaysia, what gear you
   need, and how to get booked.
-image: /blog/wedding-video.jpg
+image: /blog/wedding-videography-side-hustle-malaysia.jpg
 category: inspiration
 readTime: 11
 date: '2026-03-02'

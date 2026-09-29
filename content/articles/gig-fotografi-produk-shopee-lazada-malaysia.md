@@ -1,10 +1,10 @@
-﻿---
+---
 slug: gig-fotografi-produk-shopee-lazada-malaysia
 title: Fotografi Produk untuk Shopee & Lazada — Gig RM200-RM500 yang Selalu Ada
 description: >-
   Ribuan penjual online di Malaysia perlukan foto produk yang kemas setiap hari.
   Panduan setup rumah, tips pencahayaan, dan cara dapat client pertama anda.
-image: /blog/malay-gig.jpg
+image: /blog/gig-fotografi-produk-shopee-lazada-malaysia.jpg
 category: guide
 readTime: 10
 date: '2026-01-27'

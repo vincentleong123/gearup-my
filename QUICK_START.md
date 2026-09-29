@@ -36,7 +36,7 @@ cd Desktop/gearup-my
 npm run dev
 ```
 
-Then open: **http://localhost:3000/creator**
+Then open: **http://localhost:3002/creator**
 
 ### Step 2: Pick Your Mode
 - **Quick Article**: You have a YouTube video to summarize
@@ -134,7 +134,7 @@ You still add manually:
 ## Next Steps (Week 1)
 
 ### Step 1: Test the Tool
-- Go to http://localhost:3000/creator
+- Go to http://localhost:3002/creator
 - Fill out a Quick Article test
 - Paste it into articles.ts
 - Build & verify it works

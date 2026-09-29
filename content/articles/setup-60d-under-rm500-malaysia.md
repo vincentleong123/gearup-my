@@ -1,4 +1,4 @@
-﻿---
+---
 slug: setup-60d-under-rm500-malaysia
 title: 'Upgrade Canon 60D Dengan RM500 Sahaja: Flash, Tripod, Mic & Reflektor'
 description: >-

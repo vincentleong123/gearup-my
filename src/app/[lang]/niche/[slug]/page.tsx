@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const niche = niches.find(n => n.slug === slug);
   if (!niche) return {};
   return {
-    title: `${niche.title} Content Creation — Best Gear & Tips Malaysia | Kameralog MY`,
+    title: `${niche.title} Content Creation — Best Gear & Tips Malaysia`,
     description: niche.description.slice(0, 160),
     openGraph: { title: `${niche.title} Creator Guide — Kameralog Malaysia` },
     ...langAlternates('en', `/niche/${niche.slug}`, ['en']),

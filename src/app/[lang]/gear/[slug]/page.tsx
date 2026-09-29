@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!gear) return {};
   const ogImg = `${BASE_URL}/og-image.png`;
   return {
-    title: `${gear.name} Review Malaysia ${gear.priceUsed > 0 ? '— Second Hand Price RM' + gear.priceUsed : ''} | Kameralog MY`,
+    title: `${gear.name} Review Malaysia ${gear.priceUsed > 0 ? '— Second Hand Price RM' + gear.priceUsed : ''}`,
     description: gear.excerpt,
     openGraph: {
       title: `${gear.name} Review — Kameralog Malaysia`,

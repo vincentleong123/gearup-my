@@ -1,10 +1,10 @@
-﻿---
+---
 slug: cara-mula-photography-dengan-rm500
 title: >-
   Cara Mula Photography Dengan RM500: Panduan Lengkap Untuk Pemula Malaysia
 description: >-
   Bajet RM500 sudah cukup untuk mula photography. Ini gear, skill, dan strategi yang anda perlukan untuk bermula dari zero.
-image: /blog/start-photography-rm500.jpg
+image: /blog/cara-mula-photography-dengan-rm500.jpg
 category: guide
 readTime: 10
 date: '2026-07-13'

@@ -2,7 +2,7 @@
 slug: cctv-ai-facial-recognition-sistem-keselamatan-kilang-malaysia
 title: 'CCTV AI Malaysia: Facial Recognition & Sistem Keselamatan Kilang (Fleet Review)'
 description: Review sistem penuh CCTV AI untuk kilang Malaysia — 16 kamera Hikvision, facial recognition, ANPR/LPR, line-crossing dan people counting. Berapa kos sebenar, apa yang AI boleh dan TAK boleh buat, realiti false positives, dan keperluan PDPA untuk data biometrik.
-image: /blog/cctv-ai-facial-recognition-sistem-keselamatan-kilang-malaysia.jpg
+image: /blog/cctv-ai-facial-recognition-sistem-keselamatan-kilang-malaysia.png
 category: factory-security
 status: published
 date: 2026-08-16
@@ -119,18 +119,18 @@ imageCuration:
     purpose: spec-detail
     position: Selepas bahagian ANPR
     alt: Kamera ANPR di pintu masuk kilang
-    sourceUrl: ''
+    sourceUrl: https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 16/9
-    notes: Belum disumber
+    notes: Foto ilustrasi kamera keselamatan; bukan pemasangan di kilang yang dinyatakan
     active: true
-  - caption: Zon kawasan larangan dengan garis lantai, kamera AI overhead, signage keselamatan
-    context: Kawasan larangan dalam kilang
+  - caption: Pengawasan perimeter sebagai sebahagian daripada perancangan keselamatan kawasan industri
+    context: Perimeter kawasan industri
     purpose: section-intro
     position: Selepas bahagian kawasan larangan
-    alt: Kawasan larangan kilang dengan CCTV
-    sourceUrl: ''
+    alt: Pengawasan perimeter kawasan industri
+    sourceUrl: https://images.unsplash.com/photo-1521618755572-156ae0cdd74d?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 16/9
-    notes: Belum disumber
+    notes: Foto ilustrasi pengawasan kawasan; bukan rakaman atau sistem kilang sebenar
     active: true
 ---
 

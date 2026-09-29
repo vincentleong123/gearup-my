@@ -1,4 +1,4 @@
-﻿---
+---
 slug: gig-tiktok-sme-60d-malaysia
 title: >-
   Gig Content TikTok untuk Perniagaan Kecil: RM300-800 Sebulan Sebagai

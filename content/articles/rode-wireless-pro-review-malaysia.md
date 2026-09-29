@@ -1,4 +1,4 @@
-﻿---
+---
 slug: rode-wireless-pro-review-malaysia
 title: 'Rode Wireless PRO Review: Why This Microphone System Is Worth RM1,900'
 description: >-

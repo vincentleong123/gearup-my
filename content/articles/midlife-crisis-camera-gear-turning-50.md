@@ -1,4 +1,4 @@
-﻿---
+---
 slug: midlife-crisis-camera-gear-turning-50
 title: >-
   Midlife Crisis Gear Shopping: What to Buy (and NOT Buy) When You're 50 and
@@ -7,7 +7,7 @@ description: >-
   You're one scroll away from spending RM5,000 on a camera you don't need. This
   is the turning-50 gear guide: the buys that earn, the buys that trap, and how
   to tell the difference.
-image: /blog/midlife-gear.jpg
+image: /blog/midlife-crisis-camera-gear-turning-50.jpg
 category: gear
 readTime: 7
 date: '2026-04-09'

@@ -45,9 +45,9 @@ imageCuration:
     position: Selepas intro
     alt: Perbandingan beli kamera kredit vs second-hand
     credit: Unsplash
-    sourceUrl: ''
+    sourceUrl: https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 16/9
-    notes: Belum disumber — skrin split EPP vs Carousell
+    notes: Foto ilustrasi kewangan; bukan tangkapan skrin EPP atau Carousell
     active: true
   - caption: 'Sony A6100 dengan lens kit 16-50mm di atas meja, cahaya tingkap'
     context: Meja / studio kecil
@@ -55,9 +55,9 @@ imageCuration:
     position: Selepas bahagian EPP
     alt: Sony A6100
     credit: Unsplash
-    sourceUrl: ''
+    sourceUrl: https://images.unsplash.com/photo-1495707902641-75cac588d2e9?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 16/9
-    notes: Belum disumber
+    notes: Foto kamera editorial dari Unsplash; bukan foto unit Sony A6100 tertentu
     active: true
   - caption: >-
       Kalkulator dan buku nota dengan kiraan gig vs bayaran bulanan, duit
@@ -66,9 +66,9 @@ imageCuration:
     purpose: roi-illustration
     position: Selepas bahagian matematik gig
     alt: Kiraan kredit vs simpan
-    sourceUrl: ''
+    sourceUrl: https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 16/9
-    notes: Belum disumber
+    notes: Foto ilustrasi perancangan kewangan dari Unsplash
     active: true
 qaPairs:
   - question: Berbaloi ke beli kamera guna 0% EPP kad kredit kat Malaysia?

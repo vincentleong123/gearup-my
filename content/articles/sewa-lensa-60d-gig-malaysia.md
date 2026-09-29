@@ -1,4 +1,4 @@
-﻿---
+---
 slug: sewa-lensa-60d-gig-malaysia
 title: 'Sewa Lensa untuk Gig: Naik Taraf Sementara RM50-80 Sehari Tanpa Beli'
 description: >-

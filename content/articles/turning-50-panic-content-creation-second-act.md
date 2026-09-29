@@ -1,4 +1,4 @@
-﻿---
+---
 slug: turning-50-panic-content-creation-second-act
 title: >-
   Turning 50 Is the Scariest Thing That's Ever Happened to Me â€” So I Started a
@@ -7,7 +7,7 @@ description: >-
   Oh shit. Oh my gawd. The big 5-0 is coming and the panic is real. Here's why
   content creation is the best panic move a 50-year-old Malaysian can make â€” and
   how to turn dread into a second act.
-image: /blog/turning-50-panic.jpg
+image: /blog/turning-50-panic-content-creation-second-act.jpg
 category: inspiration
 readTime: 7
 date: '2026-04-14'

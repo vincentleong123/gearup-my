@@ -1,4 +1,4 @@
-﻿---
+---
 slug: sony-zv-e10-vs-sony-a6100-which-buy-malaysia
 title: >-
   Sony ZV-E10 vs Sony A6100 in 2026: Which Creator Camera Should You Buy in
@@ -7,7 +7,7 @@ description: >-
   Same sensor, same autofocus, same price range. The ZV-E10 has Product Showcase
   Mode and a flip screen; the A6100 has a viewfinder. Here is how Tim and Ahmad
   should choose.
-image: /blog/zv-e10-vs-a6100.jpg
+image: /blog/sony-zv-e10-vs-sony-a6100-which-buy-malaysia.jpg
 category: comparison
 readTime: 9
 date: '2026-04-02'

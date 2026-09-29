@@ -1,11 +1,11 @@
-﻿---
+---
 slug: youtube-thumbnails-that-get-clicks-malaysia
 title: 'YouTube Thumbnails That Get Clicks: A Beginner Guide for Malaysian Creators'
 description: >-
   Your thumbnail is the ad for your video. Here is how to make thumbnails that
   get clicked â€” composition, text, faces, and the Malaysian creator mistakes to
   avoid.
-image: /blog/thumbnail-guide.jpg
+image: /blog/youtube-thumbnails-that-get-clicks-malaysia.jpg
 category: guide
 readTime: 6
 date: '2026-03-03'

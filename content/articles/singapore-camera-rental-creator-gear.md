@@ -1,10 +1,10 @@
-﻿---
+---
 slug: singapore-camera-rental-creator-gear
 title: >-
   Singapore Camera Rental & Creator Gear: A Malaysian's Guide
 description: >-
   Singapore has the best camera rental scene in Southeast Asia. Here's what Malaysian creators can learn from Singapore's rental market, pricing, and creator gear trends.
-image: /blog/singapore-camera-gear.jpg
+image: /blog/singapore-camera-rental-creator-gear.jpg
 category: guide
 readTime: 9
 date: '2026-06-25'

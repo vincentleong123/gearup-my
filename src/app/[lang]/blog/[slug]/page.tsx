@@ -71,7 +71,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const img = article.image || blogImg(article.slug);
   const ogImage = img.startsWith('http') ? img : `${BASE_URL}${img}`;
   return {
-    title: article.seoTitle || `${article.title} | Kameralog Malaysia`,
+    title: article.seoTitle || article.title,
     description: article.seoDescription || article.description,
     openGraph: {
       title: article.title,

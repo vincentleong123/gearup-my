@@ -100,9 +100,9 @@ imageCuration:
     position: After ROI table
     alt: Network video recorder rack
     filename: ''
-    sourceUrl: ''
+    sourceUrl: https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 16/9
-    notes: Not yet sourced — keep placeholder until a real photo is uploaded
+    notes: Editorial server-room image; illustrative and not a photo of this system
     active: true
 ---
 

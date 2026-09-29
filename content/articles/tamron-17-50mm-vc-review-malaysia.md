@@ -1,11 +1,11 @@
-﻿---
+---
 slug: tamron-17-50mm-vc-review-malaysia
 title: 'Tamron 17-50mm f/2.8 VC Review: The RM500 Budget Lens That Beats Your Kit Lens'
 description: >-
   The Tamron 17-50mm f/2.8 VC is the classic budget gem of Malaysian used-camera
   shops. Here's why it beats every kit lens, what to check before buying, and
   whether it still makes sense in 2026.
-image: /blog/tamron-17-50.jpg
+image: /blog/tamron-17-50mm-vc-review-malaysia.jpg
 category: gear
 readTime: 11
 date: '2026-04-21'

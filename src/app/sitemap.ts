@@ -14,12 +14,22 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = siteUrl.replace(/\/$/, '');
   const now = new Date().toISOString();
 
+  // Only emit W3C-valid YYYY-MM-DD lastmod values; anything unparseable
+  // (legacy "Sun Aug 16" strings) falls back to "now" instead of shipping
+  // an invalid <lastmod> that Google rejects.
+  const isoDate = (value: string | undefined): string => {
+    if (!value) return now;
+    const d = new Date(value);
+    return Number.isNaN(d.getTime()) ? now : d.toISOString().slice(0, 10);
+  };
+
   const staticPages = [
     { path: '/', lastModified: now, changeFrequency: 'daily' as const, priority: 1 },
     { path: '/gear', lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
     { path: '/creators', lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
     { path: '/blog', lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
     { path: '/security', lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
+    { path: '/all-articles', lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
     { path: '/calculator', lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 },
     { path: '/compare', lastModified: now, changeFrequency: 'weekly' as const, priority: 0.7 },
     { path: '/quiz', lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
@@ -36,19 +46,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { path: '/author/vincent', lastModified: now, changeFrequency: 'monthly' as const, priority: 0.6 },
   ];
 
-  const dynamicPages = [
-    ...gearList.map(g => ({ path: `/gear/${g.slug}`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 })),
-    ...creators.map(c => ({ path: `/creators/${c.slug}`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 })),
-    ...articles.map(a => ({ path: `/blog/${a.slug}`, lastModified: a.reviewedAt || a.date, changeFrequency: 'monthly' as const, priority: 0.7 })),
-    ...niches.map(n => ({ path: `/niche/${n.slug}`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 })),
-    ...gigs.map(g => ({ path: `/gigs/${g.slug}`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 })),
-    ...visibleSecuritySystems().map(s => ({ path: `/security/${s.slug}`, lastModified: s.date, changeFrequency: 'monthly' as const, priority: 0.7 })),
-  ];
-
   const langUrl = (lang: string, path: string) => `${base}${withLang(lang, path)}`;
 
   const entry = (lang: string, p: { path: string; lastModified: string; changeFrequency: MetadataRoute.Sitemap[number]['changeFrequency']; priority: number }) => ({
-    url: langUrl(lang, p.path), lastModified: p.lastModified, changeFrequency: p.changeFrequency, priority: p.priority,
+    url: langUrl(lang, p.path), lastModified: isoDate(p.lastModified), changeFrequency: p.changeFrequency, priority: p.priority,
   });
 
   return [

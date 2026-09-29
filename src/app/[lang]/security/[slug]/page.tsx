@@ -78,7 +78,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!system) return {};
   const rl = realLang(system);
   return {
-    title: system.seoTitle || `${system.title} | Kameralog Malaysia`,
+    title: system.seoTitle || system.title,
     description: system.seoDescription || system.description,
     openGraph: { title: system.title, description: system.seoDescription || system.description },
     ...langAlternates(rl, `/security/${system.slug}`, [rl]),

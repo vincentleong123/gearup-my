@@ -8,7 +8,7 @@ import { T } from '@/components/T';
 import { withLang } from '@/lib/lang';
 
 export const metadata = {
-  title: 'Page Not Found | Kameralog Malaysia',
+  title: 'Page Not Found',
   robots: { index: false, follow: true },
 };
 

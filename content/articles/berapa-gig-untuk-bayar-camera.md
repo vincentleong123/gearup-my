@@ -1,10 +1,10 @@
-﻿---
+---
 slug: berapa-gig-untuk-bayar-camera
 title: >-
   Berapa Gig Untuk Bayar Camera? Kalkulator ROI Sebenar
 description: >-
   Berapa banyak gig yang anda perlukan untuk bayar kamera anda? Kalkulator ROI sebenar untuk photographer Malaysia, dengan contoh sebenar.
-image: /blog/gig-to-gear-calculator.jpg
+image: /blog/berapa-gig-untuk-bayar-camera.jpg
 category: guide
 readTime: 9
 date: '2026-07-04'

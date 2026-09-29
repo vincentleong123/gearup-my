@@ -1,11 +1,11 @@
-﻿---
+---
 slug: best-drone-malaysia-2026
 title: 'Best Drone in Malaysia 2026: License-Free to Pro, Every Budget'
 description: >-
   From the RM900 DJI Neo to the RM10,000 Mavic 4 â€” the 2026 drone buying guide
   for Malaysia, including CAAM rules, which drones need a license, and which pay
   for themselves.
-image: /blog/best-drone.jpg
+image: /blog/best-drone-malaysia-2026.jpg
 category: guide
 readTime: 9
 date: '2026-01-31'

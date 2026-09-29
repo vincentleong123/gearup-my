@@ -1,10 +1,10 @@
-﻿---
+---
 slug: camera-untuk-youtube-malaysia
 title: >-
   Camera Untuk YouTube Malaysia: Setup Terbaik Dari RM500
 description: >-
   Nak mula buat YouTube dari Malaysia? Ini kamera, mic, dan lighting terbaik untuk YouTuber pemula â€” dengan harga sebenar dalam RM.
-image: /blog/youtube-camera-setup.jpg
+image: /blog/camera-untuk-youtube-malaysia.jpg
 category: guide
 readTime: 10
 date: '2026-07-11'

@@ -1,4 +1,4 @@
-﻿---
+---
 slug: budget-lighting-setup-content-creation-malaysia
 title: >-
   Content Creation Lighting in Malaysia on a Budget: Ring Lights, LED Panels &
@@ -7,7 +7,7 @@ description: >-
   Your videos are dark. The fix is not a new camera â€” it is light. From free
   window light to a RM150 two-light kit, here is the Malaysian creator lighting
   guide.
-image: /blog/lighting-guide.jpg
+image: /blog/budget-lighting-setup-content-creation-malaysia.jpg
 category: guide
 readTime: 7
 date: '2026-03-14'

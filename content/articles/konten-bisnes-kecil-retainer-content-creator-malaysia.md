@@ -1,4 +1,4 @@
-﻿---
+---
 slug: konten-bisnes-kecil-retainer-content-creator-malaysia
 title: 'Konten Bisnes Kecil Malaysia: RM200 Sebulan Guna Handphone â€” Income Recurring'
 description: Tim dan Ahmad tukar gig satu-off kepada retainer RM200/bulan untuk kedai kopitiam keluarga â€” 2 Reels, 4 foto, 1 promo sebulan, semua guna handphone. Cara pitch, cara shoot makanan dengan phone, dan macam mana 8 bulan retainer bayar kamera Sony A6100.
@@ -38,24 +38,24 @@ imageCuration:
     aspectRatio: 16/9
     notes: Ganti dengan kopitiam tempatan bila ada
     active: true
-  - caption: Content creator muda Malaysia shoot makanan dengan phone atas tripod, cahaya tingkap, kawasan dapur kopitiam
-    context: Dapur / kaunter kopitiam
+  - caption: Hidangan makanan yang sesuai dijadikan kandungan visual untuk perniagaan kecil
+    context: Kandungan makanan untuk perniagaan
     purpose: behind-the-scenes
     position: Selepas bahagian teknik phone
-    alt: Shoot makanan dengan handphone
+    alt: Hidangan makanan untuk kandungan perniagaan
     credit: Unsplash
-    sourceUrl: ''
+    sourceUrl: https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 16/9
-    notes: Belum disumber
+    notes: Foto makanan editorial untuk menggambarkan kerja kandungan kopitiam
     active: true
-  - caption: Skrin telefon menunjukkan grid Reels 9:16, beberapa klip makanan disusun
+  - caption: Telefon pintar digunakan untuk merancang kandungan video pendek
     context: Editing di telefon
     purpose: spec-detail
     position: Selepas bahagian format Reels
-    alt: Editing Reels di telefon
-    sourceUrl: ''
+    alt: Telefon pintar untuk kandungan video pendek
+    sourceUrl: https://images.unsplash.com/photo-1598387993441-a364f854c3e1?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 9/16
-    notes: Belum disumber
+    notes: Foto ilustrasi telefon; bukan paparan grid Reels sebenar
     active: true
 ---
 

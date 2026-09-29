@@ -1,11 +1,11 @@
-﻿---
+---
 slug: best-first-lens-malaysia
 title: The Best First Lens for Malaysian Creators (And the Lenses You Should Skip)
 description: >-
   The kit lens is fine, but your second lens changes everything. The best first
   lens to add in Malaysia by camera brand â€” and which popular lenses are a waste
   of ringgit.
-image: /blog/best-first-lens.jpg
+image: /blog/best-first-lens-malaysia.jpg
 category: guide
 readTime: 8
 date: '2026-02-14'

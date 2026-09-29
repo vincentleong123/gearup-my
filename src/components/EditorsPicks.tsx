@@ -39,13 +39,13 @@ export default function EditorsPicks({ lang }: { lang: string }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 bg-purple-500/10 border border-purple-500/20 rounded-full px-4 py-1.5 text-sm text-purple-300 font-semibold mb-5">
-            🏆 <T k="editors.badge" en="Kameralog 2026 Editor's Choice Awards" />
+            🏆 <T k="editors.badge" en="Shortlist — Top of the Research Notes" />
           </div>
           <h2 className="text-3xl md:text-5xl font-black mb-4">
-            <T k="editors.head" en="The" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500"><T k="editors.accent" en="Best of 2026" /></span>, <T k="editors.pickedBy" en="Picked By Us" />
+            <T k="editors.head" en="Where the" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500"><T k="editors.accent" en="Research Points" /></span>, <T k="editors.pickedBy" en="So Far" />
           </h2>
           <p className="text-zinc-200 max-w-2xl mx-auto text-lg">
-            <T k="editors.desc" en="We test, we shoot, we break even. These are the six cameras and gadgets we'd actually spend our own ringgit on this year — all second-hand prices, all Malaysian context." />
+            <T k="editors.desc" en="Six cameras and gadgets that keep winning the used-price-versus-earnings maths — ranked by ROI score, with second-hand prices in Ringgit and Malaysian gig context." />
           </p>
         </div>
 

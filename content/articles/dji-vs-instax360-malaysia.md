@@ -1,10 +1,10 @@
-﻿---
+---
 slug: dji-vs-instax360-malaysia
 title: >-
   DJI vs Insta360: Gear Mana Sesuai Untuk Creator Malaysia?
 description: >-
   Perbandingan DJI dan Insta360 untuk creator Malaysia â€” drone, action camera, dan 360 camera. Harga, kelebihan, dan mana yang berbaloi.
-image: /blog/dji-vs-instax360.jpg
+image: /blog/dji-vs-instax360-malaysia.jpg
 category: comparison
 readTime: 10
 date: '2026-07-14'

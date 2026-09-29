@@ -1,11 +1,11 @@
-﻿---
+---
 slug: fujifilm-x100vi-hype-worth-it-malaysia
 title: 'Fujifilm X100VI: Is the RM7,199 Hype Worth It in Malaysia?'
 description: >-
   The X100VI is the camera everyone is queueing for â€” and reselling at markup.
   We do the maths on whether the hype price is worth it, or whether the X-M5
   gets you 80% of the look for half the money.
-image: /blog/x100vi-hype.jpg
+image: /blog/fujifilm-x100vi-hype-worth-it-malaysia.jpg
 category: gear
 readTime: 8
 date: '2026-02-23'

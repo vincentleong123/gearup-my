@@ -1,11 +1,11 @@
-﻿---
+---
 slug: nikon-d500-reality-check-2026
 title: 'Nikon D500 in 2026: Should You Really Buy a 10-Year-Old Flagship?'
 description: >-
   The Nikon D500 is still the most hyped used DSLR in Malaysian photography
   forums. A 2026 reality check: what it still does great, what it can't do, and
   who should actually buy one at RM2,500-3,500.
-image: /blog/nikon-d500.jpg
+image: /blog/nikon-d500-reality-check-2026.jpg
 category: gear
 readTime: 10
 date: '2026-04-16'

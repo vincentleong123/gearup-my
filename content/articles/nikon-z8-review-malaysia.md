@@ -1,4 +1,4 @@
-﻿---
+---
 slug: nikon-z8-review-malaysia
 title: 'Nikon Z8 Review: The Z9 Mini for Malaysian Pros â€” But There''s a Catch'
 description: >-

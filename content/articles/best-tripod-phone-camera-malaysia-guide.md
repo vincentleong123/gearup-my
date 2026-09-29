@@ -1,10 +1,10 @@
-﻿---
+---
 slug: best-tripod-phone-camera-malaysia-guide
 title: 'Tripods for Malaysian Creators: The RM40-400 Buying Guide (Phone & Camera)'
 description: >-
   A wobbly table is not a tripod. Here is what to buy at every budget â€” from the
   RM40 phone starter to the RM400 gig workhorse â€” and the mistakes to avoid.
-image: /blog/tripod-guide.jpg
+image: /blog/best-tripod-phone-camera-malaysia-guide.jpg
 category: gear
 readTime: 6
 date: '2026-03-17'

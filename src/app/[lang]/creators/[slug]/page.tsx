@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const creator = getCreatorBySlug(slug);
   if (!creator) return {};
   return {
-    title: `${creator.name} — Malaysian ${creator.niche} Creator Story (Illustrative) | Kameralog MY`,
+    title: `${creator.name} — Malaysian ${creator.niche} Creator Story (Illustrative)`,
     description: `An illustrative story based on typical Malaysian gig rates: a ${creator.niche} creator starting with ${creator.startedWith} and reaching about RM${creator.monthlyEarningsMin.toLocaleString()}+/month. See the gear and the math.`,
     openGraph: { title: `${creator.name} — Creator Story (Illustrative) | Kameralog Malaysia`, description: `From ${creator.startedWith} to an estimated RM${creator.monthlyEarningsMin.toLocaleString()}+/month — see the math behind it.` },
     ...langAlternates('en', `/creators/${creator.slug}`, ['en']),

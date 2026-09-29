@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "tinacms dev -c \"next dev\"",
+    "dev": "tinacms dev -c \"next dev -p 3002\"",
     "build": "node scripts/sync-content.mjs && next build",
-    "start": "next start",
+    "start": "next start -p 3002",
     "lint": "eslint",
     "sync": "node scripts/sync-content.mjs",
     "seed": "tsx scripts/seed-tina.ts",

@@ -1,4 +1,4 @@
-﻿---
+---
 slug: nikon-d3100-vs-sony-a6100-which-better-malaysia
 title: >-
   Nikon D3100 vs Sony A6100 in 2026: Which Budget Camera Should Tim & Ahmad Buy
@@ -6,7 +6,7 @@ title: >-
 description: >-
   Head-to-head comparison of the RM400 Nikon D3100 vs the RM1,600 Sony A6100.
   Which is better for broke Malaysian creators starting from zero?
-image: /blog/d3100-vs-a6100.jpg
+image: /blog/nikon-d3100-vs-sony-a6100-which-better-malaysia.jpg
 category: comparison
 readTime: 8
 date: '2026-01-17'

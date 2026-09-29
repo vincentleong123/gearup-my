@@ -1,11 +1,11 @@
-﻿---
+---
 slug: camera-price-guide-malaysia-2026
 title: 'The 2026 Malaysia Camera Price Guide: 40+ Cameras, New and Second-Hand Prices'
 description: >-
   One page, every camera we review, with real 2026 Malaysian prices â€” new and
   second-hand. Your single reference before buying any camera, drone or action
   cam in Malaysia.
-image: /blog/camera-price-guide.jpg
+image: /blog/camera-price-guide-malaysia-2026.jpg
 category: guide
 readTime: 12
 date: '2026-02-09'

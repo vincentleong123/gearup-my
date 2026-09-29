@@ -80,7 +80,7 @@ export default async function Layout({
     '@type': 'Organization',
     name: brand,
     url: base,
-    logo: `${base}${s.ogImage}`,
+    logo: `${base}/og-image.png`,
     description: s.metaDescription,
     foundingDate: '2026',
     sameAs: [],
@@ -94,8 +94,11 @@ export default async function Layout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="theme-color" content="#09090b" />
-        <meta name="google-site-verification" content={s.gscVerification} />
-        <link rel="apple-touch-icon" href={s.ogImage} />
+        {s.gscVerification && !s.gscVerification.includes('YOUR_') ? (
+          <meta name="google-site-verification" content={s.gscVerification} />
+        ) : null}
+        <link rel="alternate" type="application/rss+xml" title={`${brand} — RSS`} href="/rss.xml" />
+        <link rel="apple-touch-icon" href="/og-image.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <script async src={`https://www.googletagmanager.com/gtag/js?id=${s.ga4Id}`} />
         <script

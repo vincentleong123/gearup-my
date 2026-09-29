@@ -1,4 +1,4 @@
-﻿---
+---
 slug: food-content-creation-gig-malaysia
 title: >-
   Food Content Creation in Malaysia: How to Get Cafes & Restaurants to Pay You
@@ -6,7 +6,7 @@ title: >-
 description: >-
   Every cafe in Malaysia needs content. Here is exactly how to pitch, price, and
   deliver food content gigs â€” the fastest first client for a new creator.
-image: /blog/food-gig-guide.jpg
+image: /blog/food-content-creation-gig-malaysia.jpg
 category: guide
 readTime: 8
 date: '2026-04-04'

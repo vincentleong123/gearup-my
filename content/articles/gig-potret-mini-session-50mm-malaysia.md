@@ -1,4 +1,4 @@
-﻿---
+---
 slug: gig-potret-mini-session-50mm-malaysia
 title: 'Mini Session Potret RM150-400: Kenapa Lens 50mm f/1.8 Anda Sebenarnya Emas'
 description: >-

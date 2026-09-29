@@ -1,11 +1,11 @@
-﻿---
+---
 slug: camera-under-2000-malaysia-2026
 title: 'Best Cameras Under RM2,000 in Malaysia 2026 (New and Second-Hand)'
 description: >-
   Great photography does not need a RM10,000 camera. The best new and used
   cameras under RM2,000 in Malaysia for 2026 â€” and the gigs that can pay them
   off in weeks.
-image: /blog/camera-under-2000.jpg
+image: /blog/camera-under-2000-malaysia-2026.jpg
 category: guide
 readTime: 9
 date: '2026-03-19'

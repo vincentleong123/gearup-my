@@ -1,10 +1,10 @@
-﻿---
+---
 slug: best-vlogging-camera-malaysia
 title: >-
   Best Vlogging Camera Malaysia 2026: Untuk YouTube, TikTok & Live
 description: >-
   Camera terbaik untuk vlogging di Malaysia â€” perbandingan Sony ZV-E10, Canon M50, dan lain-lain. Harga second hand, ciri penting, dan mana yang berbaloi.
-image: /blog/best-vlogging-camera.jpg
+image: /blog/best-vlogging-camera-malaysia.jpg
 category: guide
 readTime: 10
 date: '2026-07-07'

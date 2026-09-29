@@ -10,7 +10,7 @@ interface Props { params: Promise<{ lang: string }> }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
   return {
-    title: 'Camera Gear Glossary — Terms Explained in Simple English & Manglish | Kameralog MY',
+    title: 'Camera Gear Glossary — Terms Explained in Simple English & Manglish',
     description: 'Confused by aperture, ISO, bokeh, and LUTs? Our gear glossary explains camera and content creation terms in simple English — with Manglish translations for Malaysian creators.',
     openGraph: { title: 'Gear Glossary — Kameralog Malaysia', description: 'Camera terms explained in simple English and Manglish for Malaysian creators.' },
     ...langAlternates(lang, '/glossary'),

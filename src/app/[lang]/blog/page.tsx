@@ -8,7 +8,7 @@ interface Props { params: Promise<{ lang: string }> }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
   return {
-    title: 'Camera Reviews & Content Creation Guides Malaysia | Kameralog Blog',
+    title: 'Camera Reviews & Content Creation Guides for Malaysia',
     description: 'In-depth guides on starting content creation in Malaysia, gear comparisons, ROI analysis, and second-hand buying tips. Written for Malaysian creators.',
     openGraph: { title: 'Reviews & Guides — Kameralog Malaysia', description: 'Guides, gear comparisons, and inspiration for Malaysian content creators.' },
     ...langAlternates(lang, '/blog'),

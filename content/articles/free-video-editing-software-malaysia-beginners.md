@@ -1,4 +1,4 @@
-﻿---
+---
 slug: free-video-editing-software-malaysia-beginners
 title: >-
   Free Video Editing Software for Malaysian Creators: CapCut, DaVinci Resolve &
@@ -6,7 +6,7 @@ title: >-
 description: >-
   You filmed the footage. Now what? The best editing software for Malaysian
   creators costs RM0. Here is the free-software guide, from phone-only to pro.
-image: /blog/editing-software.jpg
+image: /blog/free-video-editing-software-malaysia-beginners.jpg
 category: guide
 readTime: 7
 date: '2026-02-26'

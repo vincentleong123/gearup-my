@@ -51,23 +51,23 @@ imageCuration:
     aspectRatio: 16/9
     notes: Ganti dengan foto set tempatan bila ada
     active: true
-  - caption: 'Skrin telefon dengan kalendar 30 hari, setiap hari bertanda check'
+  - caption: Kreator merancang kandungan video menggunakan telefon pintar
     context: Telefon / planner
     purpose: roi-illustration
     position: Selepas bahagian jadual
-    alt: Kalendar cabaran 30 hari
-    sourceUrl: ''
+    alt: Perancangan kandungan video pada telefon
+    sourceUrl: https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 9/16
-    notes: Belum disumber
+    notes: Foto ilustrasi workflow telefon; bukan tangkapan skrin kalendar aplikasi
     active: true
-  - caption: Grafik analitik TikTok menunjukkan retention curve dan jumlah tontonan
+  - caption: Ruang kerja digital untuk menyemak dan merancang kandungan video
     context: Skrin / analitik
     purpose: spec-detail
     position: Selepas bahagian metrik
-    alt: Analitik video
-    sourceUrl: ''
+    alt: Ruang kerja digital untuk kandungan video
+    sourceUrl: https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 16/9
-    notes: Belum disumber
+    notes: Foto ilustrasi semakan data kandungan; bukan tangkapan skrin analitik TikTok
     active: true
 qaPairs:
   - question: >-

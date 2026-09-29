@@ -24,18 +24,18 @@ export interface SiteSettings {
 export const DEFAULT_SETTINGS: SiteSettings = {
   siteName: 'Kameralog',
   siteUrl: 'https://kameralog.com',
-  tagline: 'Camera & Gear Reviews for Malaysian Content Creators',
-  metaTitle: 'Kameralog Malaysia — Camera & Gear Reviews for Malaysian Content Creators | ROI in Ringgit',
+  tagline: 'Camera Research Dashboard',
+  metaTitle: 'Kameralog Malaysia — Camera Research Dashboard: What to Buy & What It Earns',
   metaDescription:
-    'Compare cameras, drones, Insta360 and mobile gear with real second-hand prices in Malaysia. See what creators actually earn and how gigs pay for your camera.',
-  ogImage: '/og-image.png',
+    'A personal research dashboard for choosing camera gear in Malaysia: real second-hand prices in MYR, actual gig rates, side-by-side comparisons, and ROI math. Nothing is sold here — this is where the buying decision gets made.',
+  ogImage: '/og-image-1200x630.jpg',
   contactEmail: 'hello@kameralog.com',
-  gscVerification: 'YOUR_GSC_VERIFICATION_CODE',
+  gscVerification: '',
   ga4Id: 'G-M6W0X3TEQG',
   gtmId: 'GT-MB8JMV6F',
-  ogTitle: 'Kameralog Malaysia — Camera & Gear Reviews for Malaysian Content Creators',
+  ogTitle: 'Kameralog Malaysia — Camera Research Dashboard',
   ogDescription:
-    'How part-time gigs pay for your camera. Compare cameras, drones, and gear with real Malaysian prices.',
+    'Research camera gear in Malaysia with MYR second-hand prices, real gig rates, comparisons and ROI math. A decision desk, not a shop.',
 };
 
 export function settingsFile(): string {

@@ -9,7 +9,7 @@ interface Props { params: Promise<{ lang: string }> }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
   return {
-    title: 'About Kameralog — Honest Gear Reviews for Malaysian Creators | Kameralog MY',
+    title: 'About Kameralog — Honest Gear Reviews for Malaysian Creators',
     description:
       'Kameralog is a Malaysian camera and gear review journal built on a simple idea: gear should pay for itself. Real second-hand prices, honest ROI scores, and gig rates you can actually earn.',
     ...langAlternates(lang, '/about'),

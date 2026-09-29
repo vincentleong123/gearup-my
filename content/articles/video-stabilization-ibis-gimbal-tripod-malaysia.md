@@ -1,11 +1,11 @@
-﻿---
+---
 slug: video-stabilization-ibis-gimbal-tripod-malaysia
 title: 'IBIS vs Gimbal vs Tripod in Malaysia: The Honest Stabilization Guide for 2026'
 description: >-
   Should you buy a RM900 gimbal, rely on in-body stabilisation, or just use a
   tripod? What stabilization actually fixes, what it can't, and where a
   Malaysian creator should spend RM100-1,000.
-image: /blog/stabilization.jpg
+image: /blog/video-stabilization-ibis-gimbal-tripod-malaysia.jpg
 category: comparison
 readTime: 11
 date: '2026-03-30'

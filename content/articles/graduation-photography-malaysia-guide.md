@@ -1,4 +1,4 @@
-﻿---
+---
 slug: graduation-photography-malaysia-guide
 title: >-
   Graduation Photography in Malaysia: The Fastest Way to Pay Off Your First
@@ -7,7 +7,7 @@ description: >-
   Convocation season is a cash machine. Here is exactly how to start shooting
   graduations for money in Malaysia â€” pricing, packages, where to find clients,
   and the shot list that makes families happy.
-image: /blog/graduation-guide.jpg
+image: /blog/graduation-photography-malaysia-guide.jpg
 category: guide
 readTime: 7
 date: '2026-02-19'

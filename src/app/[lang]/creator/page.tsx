@@ -6,8 +6,9 @@ interface Props { params: Promise<{ lang: string }> }
 export async function generateMetadata({ params }: Props) {
   const { lang } = await params;
   return {
-    title: 'Content Creator - Gearup.my',
+    title: 'Creator Toolkit — Draft Gear Content Faster',
     description: 'Generate SEO articles for camera reviews, price comparisons, and ROI guides in seconds.',
+    robots: { index: false, follow: false },
     ...langAlternates(lang, '/creator'),
   };
 }

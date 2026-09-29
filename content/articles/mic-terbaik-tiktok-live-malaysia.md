@@ -1,10 +1,10 @@
-﻿---
+---
 slug: mic-terbaik-tiktok-live-malaysia
 title: >-
   Mic Terbaik Untuk TikTok Live Malaysia: Harga RM30–RM500
 description: >-
   Audio yang baik adalah kunci TikTok live yang berjaya. Ini mic terbaik untuk live streaming di Malaysia, dari RM30 hingga RM500.
-image: /blog/best-mic-tiktok-live.jpg
+image: /blog/mic-terbaik-tiktok-live-malaysia.jpg
 category: guide
 readTime: 8
 date: '2026-06-29'

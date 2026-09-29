@@ -1,4 +1,4 @@
-﻿---
+---
 slug: gig-wedding-coverage-60d-malaysia
 title: 'Gig Wedding Coverage dengan 60D: Jalan Masuk Sebagai Second Shooter'
 description: >-

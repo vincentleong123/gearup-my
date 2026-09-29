@@ -1,11 +1,11 @@
-﻿---
+---
 slug: full-frame-vs-crop-sensor-malaysia
 title: 'Full Frame vs Crop Sensor: Is the Extra RM3,000 Worth It in Malaysia?'
 description: >-
   Full-frame sensors cost RM3,000+ more in Malaysia. We break down what you
   actually get for the money â€” low light, bokeh, dynamic range â€” and who should
   skip the upgrade entirely.
-image: /blog/full-frame-vs-crop.jpg
+image: /blog/full-frame-vs-crop-sensor-malaysia.jpg
 category: guide
 readTime: 9
 date: '2026-02-28'

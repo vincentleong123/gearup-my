@@ -62,20 +62,18 @@ imageCuration:
     purpose: behind-the-scenes
     position: Selepas bahagian barter
     alt: Barter gig untuk portfolio
-    sourceUrl: ''
+    sourceUrl: https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 16/9
-    notes: Belum disumber
+    notes: Foto ilustrasi perbincangan kerjasama
     active: true
-  - caption: >-
-      Skrin handphone dengan galeri klip video dan apps editing percuma seperti
-      CapCut
+  - caption: Kreator menggunakan telefon pintar untuk menghasilkan kandungan video
     context: Editing di telefon
     purpose: spec-detail
     position: Selepas bahagian CapCut
-    alt: Editing video tanpa modal di telefon
-    sourceUrl: ''
+    alt: Telefon pintar untuk penghasilan kandungan video
+    sourceUrl: https://images.unsplash.com/photo-1598387993441-a364f854c3e1?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 9/16
-    notes: Belum disumber
+    notes: Foto ilustrasi penggunaan telefon; bukan paparan CapCut
     active: true
 qaPairs:
   - question: Macam mana nak jadi content creator kalau tak ada modal langsung?

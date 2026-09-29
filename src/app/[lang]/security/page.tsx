@@ -13,7 +13,7 @@ interface Props {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
   return {
-    title: 'Business Security Camera Systems Malaysia — Cost & ROI | Kameralog',
+    title: 'Business Security Camera Systems Malaysia — Cost & ROI',
     description: 'Commercial CCTV systems for factories, warehouses, retail and offices in Malaysia. Real hardware lineups, prices in RM, and honest incident-exposure ROI thinking.',
     openGraph: { title: 'Security Camera Systems Malaysia — Kameralog', description: 'Factory, warehouse, retail & office CCTV systems with RM pricing and honest ROI.' },
     ...langAlternates(lang, '/security'),

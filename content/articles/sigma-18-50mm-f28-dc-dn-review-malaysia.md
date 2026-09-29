@@ -1,4 +1,4 @@
-﻿---
+---
 slug: sigma-18-50mm-f28-dc-dn-review-malaysia
 title: 'Sigma 18-50mm f/2.8 Review: The One Lens to Own on APS-C'
 description: >-

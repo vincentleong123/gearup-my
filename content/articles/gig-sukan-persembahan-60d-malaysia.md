@@ -1,4 +1,4 @@
-﻿---
+---
 slug: gig-sukan-persembahan-60d-malaysia
 title: 'Gig Sukan & Persembahan Sekolah dengan 60D: Latihan AF untuk Pemilik 60D'
 description: >-

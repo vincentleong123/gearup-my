@@ -13,7 +13,7 @@ interface Props { params: Promise<{ lang: string }> }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
   return {
-    title: 'Inspiration Wall — Live Camera Gigs Content Curated from Google & Social | Kameralog MY',
+    title: 'Inspiration Wall — Live Camera Gigs Content Curated from Google & Social',
     description:
       'An auto-curating inspiration wall for Malaysian camera gigs. Live search links to Google Images, Instagram hashtags, TikTok and YouTube — plus shuffled imagery for every gig niche.',
     openGraph: {

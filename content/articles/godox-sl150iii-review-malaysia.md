@@ -1,4 +1,4 @@
-﻿---
+---
 slug: godox-sl150iii-review-malaysia
 title: 'Godox SL150III Review: The RM700 Light That Transforms Malaysian Home Studios'
 description: >-

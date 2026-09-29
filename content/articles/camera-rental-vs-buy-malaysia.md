@@ -1,10 +1,10 @@
-﻿---
+---
 slug: camera-rental-vs-buy-malaysia
 title: >-
   Camera Rental vs Buy: Yang Mana Lebih Berhemah Di Malaysia?
 description: >-
   Sewa kamera atau beli? Perbandingan harga sebenar untuk photographer Malaysia — bila patut sewa, bila patut beli.
-image: /blog/rental-vs-buy.jpg
+image: /blog/camera-rental-vs-buy-malaysia.jpg
 category: comparison
 readTime: 9
 date: '2026-07-23'

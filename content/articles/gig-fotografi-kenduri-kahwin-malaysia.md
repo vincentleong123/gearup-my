@@ -1,11 +1,11 @@
-﻿---
+---
 slug: gig-fotografi-kenduri-kahwin-malaysia
 title: 'Fotografi Kenduri Kahwin Sambilan â€” Dari RM800 ke RM2,500 Sekali Majlis'
 description: >-
   Kenduri kahwin adalah gig paling lumayan untuk fotografer sambilan di
   Malaysia. Panduan penuh: pakej, gear wajib, dan cara dapatkan booking pertama
   anda.
-image: /blog/malay-gig.jpg
+image: /blog/gig-fotografi-kenduri-kahwin-malaysia.jpg
 category: guide
 readTime: 12
 date: '2026-03-12'

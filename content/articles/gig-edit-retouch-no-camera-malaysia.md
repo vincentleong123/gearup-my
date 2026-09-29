@@ -1,4 +1,4 @@
-﻿---
+---
 slug: gig-edit-retouch-no-camera-malaysia
 title: 'Gig Edit & Retouch Tanpa Kamera: Jalan Masuk RM0 untuk Bayar Gear'
 description: >-

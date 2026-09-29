@@ -1,11 +1,11 @@
-﻿---
+---
 slug: insta360-x5-vs-x4-malaysia-review
 title: 'Insta360 X5 vs X4: Is the Upgrade Worth RM1,000?'
 description: >-
   The X5 is Insta360's biggest X-series jump in years — 1-inch sensor, better
   low light, new storage. We compare both for Malaysian creators and say who
   should upgrade.
-image: /blog/x5-vs-x4.jpg
+image: /blog/insta360-x5-vs-x4-malaysia-review.jpg
 category: comparison
 readTime: 7
 date: '2026-02-05'

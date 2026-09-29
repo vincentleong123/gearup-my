@@ -1,11 +1,11 @@
-﻿---
+---
 slug: turning-50-experience-niche-content-creation
 title: 'Your 30 Years Is Your Niche: What a 50-Year-Old Should Actually Post About'
 description: >-
   You think you have nothing to say. Wrong. You have 30 years of stories that no
   22-year-old can fake. Here's how to turn your life experience into content
   Malaysia actually wants to watch.
-image: /blog/experience-niche.jpg
+image: /blog/turning-50-experience-niche-content-creation.jpg
 category: guide
 readTime: 8
 date: '2026-03-21'

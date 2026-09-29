@@ -1,10 +1,10 @@
-﻿---
+---
 slug: cara-buat-duit-dengan-photography
 title: >-
   Cara Buat Duit Dengan Photography: 10 Sumber Pendapatan Untuk Photographer Malaysia
 description: >-
   Photography bukan sahaja hobi — ia boleh jana pendapatan. Ini 10 cara untuk photographer Malaysia buat duit, dari gig sampingan hingga full-time.
-image: /blog/photography-income.jpg
+image: /blog/cara-buat-duit-dengan-photography.jpg
 category: guide
 readTime: 11
 date: '2026-07-11'

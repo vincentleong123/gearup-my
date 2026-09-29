@@ -101,8 +101,8 @@ const LANGS: { id: Lang; label: string }[] = [
 // English defaults — `t()` returns these for EN, and the per-key strings
 // from src/i18n/{ms,zh}.ts for the other languages.
 const enDefault: Record<string, string> = {
-  'nav.mega.buy': 'Buy',
-  'nav.mega.buyDesc': 'Not sure which camera? Browse this.',
+  'nav.mega.buy': 'Research',
+  'nav.mega.buyDesc': 'Used prices, specs and ROI — decide what to buy.',
   'nav.mega.earn': 'Earn',
   'nav.mega.earnDesc': 'Turn your camera into income.',
   'nav.mega.learn': 'Learn',
@@ -166,7 +166,7 @@ const enDefault: Record<string, string> = {
   'nav.mega.trend.gigprice': '2026 Gig Price Guide',
   'nav.mega.trend.minipro4': 'DJI Mini 4 Pro',
   'nav.mega.trend.usedbuy': 'Used Buying Guide',
-  'nav.announce': "🇲🇾 Malaysia's Camera & Gear Review Journal for 2026 · Jobless? Your gear can pay for itself — niches, events & gigs that repay fast",
+  'nav.announce': "🇲🇾 Personal camera research desk · used prices in Ringgit, gig rates & ROI math — deciding what to buy, not selling anything",
   'nav.startHere': 'Start Here',
   'nav.startHereMobile': 'Start Here — Gear Match Quiz',
   'nav.allArticles': 'All Articles',

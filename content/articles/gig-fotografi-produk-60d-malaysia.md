@@ -1,4 +1,4 @@
-﻿---
+---
 slug: gig-fotografi-produk-60d-malaysia
 title: >-
   Fotografi Produk untuk Seller Shopee/Lazada: Gig yang Tak Perlukan Autofokus

@@ -1,10 +1,10 @@
-﻿---
+---
 slug: second-hand-camera-buying-guide
 title: >-
   Second-Hand Camera Buying Guide: 10 Perkara Wajib Check Sebelum Bayar
 description: >-
   Panduan lengkap beli kamera second hand â€” 10 perkara wajib check, harga patut, dan tips elak kena tipu.
-image: /blog/second-hand-buying-guide.jpg
+image: /blog/second-hand-camera-buying-guide.jpg
 category: guide
 readTime: 10
 date: '2026-06-27'

@@ -104,18 +104,18 @@ imageCuration:
     position: Selepas bahagian stor
     alt: CCTV IR di pintu belakang kedai
     credit: Unsplash
-    sourceUrl: ''
+    sourceUrl: https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 16/9
-    notes: Belum disumber — letak placeholder sehingga foto sebenar dimuat naik
+    notes: Foto ilustrasi kamera CCTV; bukan pemasangan kedai sebenar
     active: true
-  - caption: NVR dan rakaman berpusat di bilik stor, HDD surveillance di dalam
+  - caption: Peralatan rangkaian dan pelayan untuk rakaman keselamatan berpusat
     context: Bilik stor / mini server
     purpose: spec-detail
     position: Selepas bahagian storage
     alt: NVR CCTV
-    sourceUrl: ''
+    sourceUrl: https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 16/9
-    notes: Belum disumber
+    notes: Foto ilustrasi peralatan rangkaian; bukan model NVR khusus
     active: true
 ---
 

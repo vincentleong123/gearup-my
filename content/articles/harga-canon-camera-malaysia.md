@@ -1,10 +1,10 @@
-﻿---
+---
 slug: harga-canon-camera-malaysia
 title: >-
   Harga Canon Camera Malaysia 2026: Dari RM300 Hingga RM5,000
 description: >-
   Harga Canon camera di Malaysia — DSLR dan mirrorless, baru dan second hand. Panduan lengkap untuk pilihan bajet.
-image: /blog/harga-canon-camera.jpg
+image: /blog/harga-canon-camera-malaysia.jpg
 category: guide
 readTime: 9
 date: '2026-07-16'

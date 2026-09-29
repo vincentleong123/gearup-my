@@ -1,11 +1,11 @@
-﻿---
+---
 slug: how-many-gigs-pay-off-camera-malaysia
 title: How Many Part-Time Gigs Pay Off Your Camera in Malaysia? (The Full Math)
 description: >-
   The exact gig-to-gear math for Malaysian creators: how many graduation shoots,
   weddings, galas or drone jobs cover a used A6100, A7C II, or X-M5 â€” with real
   2026 rates.
-image: /blog/how-many-gigs.jpg
+image: /blog/how-many-gigs-pay-off-camera-malaysia.jpg
 category: guide
 readTime: 9
 date: '2026-02-07'

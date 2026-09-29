@@ -1,11 +1,11 @@
-﻿---
+---
 slug: product-photography-ecommerce-gig-malaysia
 title: 'Product Photography for E-commerce in Malaysia: The RM150-500 Per Session Gig'
 description: >-
   Shopee and Lazada sellers need hundreds of product photos and never have
   enough. Here is how to shoot products that sell â€” from a RM0 phone setup to a
   RM300 mini studio.
-image: /blog/product-gig-guide.jpg
+image: /blog/product-photography-ecommerce-gig-malaysia.jpg
 category: guide
 readTime: 8
 date: '2026-03-07'

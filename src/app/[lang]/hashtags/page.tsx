@@ -11,7 +11,7 @@ interface Props { params: Promise<{ lang: string }> }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
   return {
-    title: 'Gear Hashtag Glossary — Curated Settings & Pay-off Library | Kameralog MY',
+    title: 'Gear Hashtag Glossary — Curated Settings & Pay-off Library',
     description:
       'Search and curate Malaysian gear hashtags like #DJIOSMO, #IPHONE17PRO and #NIKOND3100. Every hashtag has an on-site settings recipe, gear review, and "how many gigs to pay it off" math — no out-clicks to Instagram.',
     openGraph: {

@@ -1,11 +1,11 @@
-﻿---
+---
 slug: best-mirrorless-camera-malaysia-2026
 title: 'Best Mirrorless Camera in Malaysia 2026: Every Budget From RM3,000 to RM12,000'
 description: >-
   The definitive mirrorless buying guide for Malaysia in 2026: APS-C value
   picks, full-frame options, and the hybrids that earn their keep at gigs — with
   real 2026 prices.
-image: /blog/best-mirrorless.jpg
+image: /blog/best-mirrorless-camera-malaysia-2026.jpg
 category: guide
 readTime: 10
 date: '2026-03-28'

@@ -1,10 +1,10 @@
-﻿---
+---
 slug: best-budget-lapel-microphone-malaysia-audio-guide
 title: 'The Budget Lapel Mic Guide for Malaysia 2026: Fix Your Audio for RM30-200'
 description: >-
   Viewers forgive grainy video but not bad audio. The lapel mic is the best
   RM30-200 a Malaysian creator can spend. Here is exactly what to buy, in order.
-image: /blog/lapel-mic-guide.jpg
+image: /blog/best-budget-lapel-microphone-malaysia-audio-guide.jpg
 category: gear
 readTime: 6
 date: '2026-03-16'

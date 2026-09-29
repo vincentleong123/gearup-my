@@ -1,4 +1,4 @@
-﻿---
+---
 slug: side-income-umur-40-plus-fotografi-malaysia
 title: 'Side Income Umur 40+: Hobi Fotografi Jadi RM1,000 Sebulan Tanpa Berhenti Kerja'
 description: Umur 40+ bukan halangan â€” ia kelebihan. Satu hobi fotografi yang dah ada, dijadikan RM500â€“1,000 sebulan pada hujung minggu, tanpa berhenti kerja dan tanpa beli gear mahal. Niche yang sesuai, cara jual pengalaman, dan kiraan masa vs hasil yang jujur.
@@ -34,33 +34,33 @@ roiCreator:
 seoTitle: Side Income Umur 40+ Malaysia â€” Hobi Fotografi Jadi RM1,000 Sebulan
 seoDescription: Hobi fotografi jadi side income RM500â€“1,000 sebulan pada hujung minggu tanpa berhenti kerja. Niche sesuai umur 40+, jual pengalaman hidup, dan kiraan masa vs hasil yang jujur.
 imageCuration:
-  - caption: Lelaki pertengahan umur dengan kamera DSLR tersenyum merakam majlis keluarga di taman perumahan
-    context: Taman perumahan / majlis keluarga
+  - caption: Potret lelaki dewasa — fotografi potret ialah salah satu niche gig sambilan
+    context: Fotografi potret
     purpose: hero
     position: Selepas intro
-    alt: Fotografi sambilan umur 40+
+    alt: Potret lelaki dewasa untuk fotografi sambilan
     credit: Unsplash
-    sourceUrl: ''
+    sourceUrl: https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 16/9
-    notes: Belum disumber
+    notes: Foto potret editorial; bukan testimoni atau pelanggan sebenar
     active: true
-  - caption: Juru gambar sambilan berbincang dengan pemilik kedai makanan tentang foto menu
+  - caption: Perbincangan kerja kreatif antara pencipta kandungan dan bakal pelanggan
     context: Kedai makanan
     purpose: behind-the-scenes
     position: Selepas bahagian niche
-    alt: Gig foto menu untuk kedai
-    sourceUrl: ''
+    alt: Perbincangan kerja kreatif dengan pelanggan
+    sourceUrl: https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 16/9
-    notes: Belum disumber
+    notes: Foto ilustrasi perbincangan kerja kreatif dengan pelanggan
     active: true
-  - caption: Jadual hujung minggu di atas meja â€” slot gig ditanda, waktu kerja ditetapkan
+  - caption: Perancangan kos peralatan dan pendapatan daripada gig sambilan
     context: Meja
     purpose: roi-illustration
     position: Selepas bahagian masa
-    alt: Jadual gig hujung minggu
-    sourceUrl: ''
+    alt: Perancangan kewangan untuk gig sambilan
+    sourceUrl: https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1200&h=630&fit=crop&auto=format
     aspectRatio: 4/3
-    notes: Belum disumber
+    notes: Foto ilustrasi perancangan kewangan dan jadual kerja
     active: true
 ---
 

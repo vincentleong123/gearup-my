@@ -1,4 +1,4 @@
-﻿---
+---
 slug: gig-prewedding-60d-malaysia
 title: 'Gig Prewedding Guna Canon 60D: Harga, Contoh Job & Cara Masuk'
 description: >-

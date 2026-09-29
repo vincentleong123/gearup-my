@@ -1,4 +1,4 @@
-﻿---
+---
 slug: second-hand-camera-scams-malaysia
 title: >-
   Second-Hand Camera Scams in Malaysia: Fungus, Shutter Fraud & Water Damage -
@@ -7,7 +7,7 @@ description: >-
   Mudah and Carousell are full of great camera deals and a few nasty traps. How
   to spot fungus, shutter count fraud, water damage and the "borrowed photo"
   scam before you hand over RM1,500.
-image: /blog/camera-scam.jpg
+image: /blog/second-hand-camera-scams-malaysia.jpg
 category: guide
 readTime: 12
 date: '2026-04-06'

@@ -1,10 +1,10 @@
-﻿---
+---
 slug: harga-sony-camera-malaysia
 title: >-
   Harga Sony Camera Malaysia 2026: Second Hand & Baru
 description: >-
   Senarai lengkap harga Sony camera di Malaysia — dari A6100 hingga A7IV, termasuk harga second hand dan tips beli berhemah.
-image: /blog/harga-sony-camera.jpg
+image: /blog/harga-sony-camera-malaysia.jpg
 category: guide
 readTime: 9
 date: '2026-07-18'

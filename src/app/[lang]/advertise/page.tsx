@@ -10,7 +10,7 @@ interface Props { params: Promise<{ lang: string }> }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
   return {
-    title: 'Advertise with Kameralog — Media Kit & Ad Rates for Malaysian Brands | Kameralog MY',
+    title: 'Advertise with Kameralog — Media Kit & Ad Rates for Malaysian Brands',
     description:
       '42 in-depth gear reviews, 99 guides and comparisons, and real Malaysian gig rates — read by creators deciding what to buy. Transparent ad formats, honest audience metrics, and self-serve booking. Media kit for 2026.',
     ...langAlternates(lang, '/advertise'),

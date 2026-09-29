@@ -1,4 +1,4 @@
-﻿---
+---
 slug: sony-a7-iv-review-malaysia
 title: 'Sony A7 IV Review in 2026: Still the Best First Full-Frame Camera in Malaysia?'
 description: >-

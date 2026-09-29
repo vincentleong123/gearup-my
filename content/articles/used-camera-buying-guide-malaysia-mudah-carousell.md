@@ -1,4 +1,4 @@
-﻿---
+---
 slug: used-camera-buying-guide-malaysia-mudah-carousell
 title: >-
   Used Camera Buying Guide Malaysia 2026: How to Check a Second-Hand Camera on
@@ -6,7 +6,7 @@ title: >-
 description: >-
   Don't get scammed. Here's exactly what to check when buying a used camera in
   Malaysia â€” shutter count, mould, lens scratches, and negotiation tips.
-image: /blog/used-camera-guide.jpg
+image: /blog/used-camera-buying-guide-malaysia-mudah-carousell.jpg
 category: guide
 readTime: 8
 date: '2026-01-12'

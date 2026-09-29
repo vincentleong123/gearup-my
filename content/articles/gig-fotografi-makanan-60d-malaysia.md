@@ -1,4 +1,4 @@
-﻿---
+---
 slug: gig-fotografi-makanan-60d-malaysia
 title: 'Gig Fotografi Makanan: Guna Kit Lens 18-55 & Cahaya Tingkap Sahaja'
 description: >-

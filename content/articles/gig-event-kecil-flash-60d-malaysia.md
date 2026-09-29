@@ -1,4 +1,4 @@
-﻿---
+---
 slug: gig-event-kecil-flash-60d-malaysia
 title: 'Gig Event Kecil (Rumah Terbuka, Doa Selamat, Majlis Kecil): RM300-600'
 description: >-

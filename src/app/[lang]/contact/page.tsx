@@ -9,7 +9,7 @@ interface Props { params: Promise<{ lang: string }> }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
   return {
-    title: 'Contact Kameralog — Reviews, Brands & Partnerships | Kameralog MY',
+    title: 'Contact Kameralog — Reviews, Brands & Partnerships',
     description:
       'Get in touch with Kameralog: review requests, brand partnerships, advertising, corrections, or just a gear question. We reply to everything.',
     ...langAlternates(lang, '/contact'),

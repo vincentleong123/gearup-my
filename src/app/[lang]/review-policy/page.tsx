@@ -9,7 +9,7 @@ interface Props { params: Promise<{ lang: string }> }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
   return {
-    title: 'Review Policy — How We Test, Score & Disclose | Kameralog MY',
+    title: 'Review Policy — How We Test, Score & Disclose',
     description:
       'How Kameralog reviews gear: what we test, how ROI scores work, how we handle review units and sponsored posts, and the rules that keep our opinions independent.',
     ...langAlternates(lang, '/review-policy'),
