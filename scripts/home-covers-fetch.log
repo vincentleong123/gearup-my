@@ -1,0 +1,18 @@
+[2026-10-06T11:25:11.510Z] skip (exists): nikon-z5iic-canon-r8-mark-ii-buy-window-malaysia-2026.jpg
+[2026-10-06T11:25:28.244Z] saved: dji-mic-2-review-malaysia.jpg (26041B)
+[2026-10-06T11:25:33.735Z] quota 402: sony-zv-e10-ii-review-malaysia.jpg (attempt 1) - backing off 75s
+[2026-10-06T11:26:50.784Z] http 500: sony-zv-e10-ii-review-malaysia.jpg (attempt 2)
+[2026-10-06T11:27:06.260Z] quota 402: sony-zv-e10-ii-review-malaysia.jpg (attempt 3) - backing off 75s
+[2026-10-06T11:28:22.651Z] http 500: sony-zv-e10-ii-review-malaysia.jpg (attempt 4)
+[2026-10-06T11:28:38.147Z] quota 402: sony-zv-e10-ii-review-malaysia.jpg (attempt 5) - backing off 75s
+[2026-10-06T11:29:54.113Z] http 500: sony-zv-e10-ii-review-malaysia.jpg (attempt 6)
+[2026-10-06T11:30:09.120Z] FAILED: sony-zv-e10-ii-review-malaysia.jpg
+[2026-10-06T11:30:09.669Z] quota 402: dji-osmo-pocket-3-review-malaysia.jpg (attempt 1) - backing off 75s
+[2026-10-06T11:31:28.004Z] saved: dji-osmo-pocket-3-review-malaysia.jpg (34500B)
+[2026-10-06T11:31:33.010Z] done: saved=2 skipped=1 failed=1
+[2026-10-06T11:31:53.072Z] quota 402: nikon-z5iic-canon-r8-mark-ii-buy-window-malaysia-2026.jpg (attempt 1) - backing off 75s
+[2026-10-06T11:33:12.497Z] saved: nikon-z5iic-canon-r8-mark-ii-buy-window-malaysia-2026.jpg (35798B)
+[2026-10-06T11:33:17.511Z] done: saved=1 skipped=0 failed=0
+[2026-10-06T11:33:23.354Z] quota 402: sony-zv-e10-ii-review-malaysia.jpg (attempt 1) - backing off 75s
+[2026-10-06T11:34:42.599Z] saved: sony-zv-e10-ii-review-malaysia.jpg (32754B)
+[2026-10-06T11:34:47.605Z] done: saved=1 skipped=0 failed=0

@@ -6,6 +6,7 @@ import { gearList } from '@/data/gear';
 import { articles } from '@/data/articles';
 import { gigs } from '@/data/gigs';
 import { blogImg, gigImg } from '@/data/images';
+import { IMAGE_DIMS } from '@/data/generated/image-dims';
 import { BASE_URL, htmlLang, langAlternates, withLang } from '@/lib/lang';
 
 const ogLocales: Record<string, string> = { en: 'en_MY', ms: 'ms_MY', zh: 'zh_MY' };
@@ -87,6 +88,10 @@ const footerCols = [
   },
 ];
 
+function localCover(slug: string): string {
+  return IMAGE_DIMS[`/blog/${slug}.jpg`] ? `/blog/${slug}.jpg` : '';
+}
+
 function Kicker({ children, accent = 'text-red-600' }: { children: React.ReactNode; accent?: string }) {
   return (
     <p className={`text-[11px] font-bold uppercase tracking-[0.25em] ${accent}`}>
@@ -109,9 +114,22 @@ function SectionHead({ kicker, title, sub }: { kicker: string; title: string; su
   );
 }
 
+function Stars({ rating }: { rating: number }) {
+  const full = Math.max(0, Math.min(5, Math.round(rating)));
+  return (
+    <span className="text-amber-500 text-xs tracking-tight" aria-label={`Rated ${rating} out of 5`}>
+      {'★'.repeat(full)}<span className="text-zinc-300">{'★'.repeat(5 - full)}</span>
+    </span>
+  );
+}
+
 export default async function HomePage({ params }: Props) {
   const { lang } = await params;
   const topGear = [...gearList].sort((a, b) => b.roiScore - a.roiScore);
+  const shortlist = topGear.slice(0, 6);
+  const compareRows = ['sony-a6000-review-malaysia-second-hand', 'nikon-d3100-review-malaysia-second-hand-price', 'sony-zv-e10-review-malaysia-second-hand']
+    .map((s) => topGear.find((g) => g.slug === s))
+    .filter((g): g is (typeof topGear)[number] => !!g);
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
@@ -161,7 +179,9 @@ export default async function HomePage({ params }: Props) {
 
   const sorted = [...articles].sort((a, b) => (a.date < b.date ? 1 : -1));
   const featured = sorted[0];
-  const rest = sorted.slice(1, 7);
+  const secondaries = sorted.slice(1, 3);
+  const railStories = sorted.slice(3, 5);
+  const rest = sorted.slice(5, 11);
   const topGigs = gigs.slice(0, 6);
 
   return (
@@ -225,13 +245,16 @@ export default async function HomePage({ params }: Props) {
                     <span className="text-[11px] font-bold uppercase tracking-[0.25em] bg-red-600 text-white px-2.5 py-1 rounded-sm">Lead Story</span>
                     <span className="text-[11px] font-bold uppercase tracking-widest text-zinc-500">{featured.category}</span>
                   </div>
-                  <div className="rounded-2xl overflow-hidden border border-zinc-200 bg-white mb-6">
+                  <div className="relative rounded-2xl overflow-hidden border border-zinc-200 bg-white mb-6">
                     <img
                       src={featured.image || blogImg(featured.slug)}
                       alt={featured.title}
                       className="w-full aspect-[16/9] object-cover group-hover:scale-[1.02] transition-transform duration-500"
                       fetchPriority="high"
                     />
+                    <span className="absolute bottom-3 left-3 inline-flex items-center gap-1.5 bg-black/70 backdrop-blur text-white text-xs font-bold px-3 py-1.5 rounded-full">
+                      ✅ <T k="home2.hero.verified" en="Tested · price re-checked this week" />
+                    </span>
                   </div>
                   <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl leading-[1.08] tracking-tight group-hover:text-red-700 transition-colors">
                     {featured.title}
@@ -255,7 +278,13 @@ export default async function HomePage({ params }: Props) {
                   {topGear.slice(0, 4).map((g, i) => (
                     <li key={g.slug}>
                       <Link href={withLang(lang, `/gear/${g.slug}`)} className="group flex items-center gap-3 py-3">
-                        <span className="font-mono text-xs text-zinc-400 w-6">{String(i + 1).padStart(2, '0')}</span>
+                        {localCover(g.slug) ? (
+                          <span className="w-16 aspect-video rounded-md overflow-hidden bg-zinc-100 shrink-0">
+                            <img src={localCover(g.slug)} alt={g.name} className="w-full h-full object-cover" loading="lazy" />
+                          </span>
+                        ) : (
+                          <span className="grid place-items-center w-16 aspect-video rounded-md bg-zinc-100 shrink-0 font-mono text-xs font-black text-zinc-400">{String(i + 1).padStart(2, '0')}</span>
+                        )}
                         <span className="flex-1 min-w-0">
                           <span className="block text-sm font-semibold truncate group-hover:text-red-600 transition-colors">{g.name}</span>
                           <span className="block text-xs text-zinc-400">{g.type}</span>
@@ -272,7 +301,7 @@ export default async function HomePage({ params }: Props) {
                   All {gearList.length} items →
                 </Link>
               </div>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-2 gap-4 mb-6">
                 {[
                   { v: `${gearList.length}`, l: 'Items tracked' },
                   { v: `${gigs.length}`, l: 'Gig rate cards' },
@@ -285,19 +314,212 @@ export default async function HomePage({ params }: Props) {
                   </div>
                 ))}
               </div>
+              {railStories.length > 0 && (
+                <div className="border border-zinc-200 rounded-2xl bg-white p-4">
+                  <Kicker accent="text-zinc-500">Also On The Desk</Kicker>
+                  <div className="mt-3 space-y-3">
+                    {railStories.map(a => (
+                      <Link key={a.slug} href={withLang(a.lang ?? 'en', `/blog/${a.slug}`)} className="group flex gap-3">
+                        <span className="w-24 aspect-video rounded-md overflow-hidden bg-zinc-100 shrink-0">
+                          <img src={a.image || blogImg(a.slug)} alt={a.title} className="w-full h-full object-cover" loading="lazy" />
+                        </span>
+                        <span className="min-w-0">
+                          <span className="block text-sm font-semibold leading-snug line-clamp-2 group-hover:text-red-600 transition-colors">{a.title}</span>
+                          <span className="block text-[11px] text-zinc-400 mt-1">{a.date} · {a.readTime} min</span>
+                        </span>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
             </aside>
           </div>
+
+          {/* Secondary stories */}
+          {secondaries.length > 0 && (
+            <div className="grid sm:grid-cols-2 gap-6 mt-10">
+              {secondaries.map(a => (
+                <Link
+                  key={a.slug}
+                  href={withLang(a.lang ?? 'en', `/blog/${a.slug}`)}
+                  className="group flex gap-4 rounded-2xl border border-zinc-200 bg-white p-4 hover:border-red-300 hover:shadow-lg hover:shadow-red-500/5 transition-all duration-300"
+                >
+                  <span className="w-44 aspect-video rounded-xl overflow-hidden bg-zinc-100 shrink-0">
+                    <img src={a.image || blogImg(a.slug)} alt={a.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                  </span>
+                  <span className="min-w-0 flex flex-col">
+                    <span className="text-[11px] font-bold uppercase tracking-widest text-red-600 mb-1">{a.category}</span>
+                    <span className="font-display text-lg leading-snug tracking-tight line-clamp-2 group-hover:text-red-700 transition-colors">{a.title}</span>
+                    <span className="mt-auto pt-2 text-xs text-zinc-500">{a.date} · {a.readTime} min read</span>
+                  </span>
+                </Link>
+              ))}
+            </div>
+          )}
         </section>
 
         <div className="pt-10">
           <AdSlot tone="light" />
         </div>
 
-        {/* Latest reviews */}
+        {/* Verdict desk — shortlist cards */}
         <section className="py-12">
           <SectionHead
+            kicker="The Verdict Desk"
+            title="Highest ROI Gear This Week"
+            sub="Scored on real Malaysian second-hand prices and logged gig rates. 90+ means it usually pays for itself inside a few part-time jobs."
+          />
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {shortlist.map((g, i) => (
+              <Link
+                key={g.slug}
+                href={withLang(lang, `/gear/${g.slug}`)}
+                className="group flex flex-col rounded-2xl border border-zinc-200 bg-white overflow-hidden hover:border-red-300 hover:shadow-lg hover:shadow-red-500/5 transition-all duration-300"
+              >
+                <div className="relative aspect-[16/9] overflow-hidden bg-zinc-100">
+                  {localCover(g.slug) ? (
+                    <img src={localCover(g.slug)} alt={g.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                  ) : (
+                    <span className="grid place-items-center w-full h-full"><span className="text-4xl">📷</span></span>
+                  )}
+                  <span className="absolute top-3 left-3 grid place-items-center h-14 w-14 rounded-full bg-zinc-900/90 backdrop-blur text-white shadow-lg shadow-red-600/20">
+                    <span className="font-mono text-xl font-black leading-none">{g.roiScore}</span>
+                  </span>
+                  {i === 0 && (
+                    <span className="absolute bottom-3 left-3 bg-amber-400 text-zinc-950 text-[10px] font-black uppercase tracking-widest px-2.5 py-1 rounded-sm">
+                      ⭐ Editor&apos;s Choice
+                    </span>
+                  )}
+                </div>
+                <div className="p-5 flex flex-col flex-1">
+                  <div className="flex items-center justify-between gap-2 mb-1">
+                    <h3 className="font-display text-lg font-bold tracking-tight group-hover:text-red-700 transition-colors truncate">{g.name}</h3>
+                    <GoldStars rating={g.rating} />
+                  </div>
+                  <p className="text-[11px] uppercase tracking-widest text-zinc-400">{g.type}</p>
+                  <p className="mt-2 text-sm text-zinc-600 line-clamp-2 flex-1">{g.excerpt}</p>
+                  <div className="flex flex-wrap gap-1.5 mt-3">
+                    {g.pros.slice(0, 2).map(p => (
+                      <span key={p} className="text-[11px] font-medium px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200">+ {p}</span>
+                    ))}
+                    {g.cons[0] && (
+                      <span className="text-[11px] font-medium px-2 py-0.5 rounded-full bg-red-50 text-red-700 border border-red-200">− {g.cons[0]}</span>
+                    )}
+                  </div>
+                  <div className="mt-4 pt-3 border-t border-zinc-100 flex items-center justify-between gap-2">
+                    <span className="font-mono font-black text-lg">RM{g.priceUsed.toLocaleString()}</span>
+                    <span className="text-[11px] text-zinc-500 flex-1 text-right line-clamp-1">{g.roiDesc}</span>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+          <div className="mt-8 text-center">
+            <Link href={withLang(lang, '/gear')} className="inline-flex items-center gap-1.5 px-7 py-3 rounded-full border-2 border-zinc-900 font-bold text-sm hover:bg-zinc-900 hover:text-white transition-colors">
+              All {gearList.length} tested items →
+            </Link>
+          </div>
+        </section>
+
+        {/* Compare strip */}
+        {compareRows.length === 3 && (
+          <section className="pb-12">
+            <SectionHead
+              kicker="Side By Side"
+              title="The RM500–RM800 Face-Off"
+              sub="Three bodies every KL used-list is full of — one row per spec."
+            />
+            <div className="rounded-2xl border border-zinc-200 bg-white overflow-x-auto">
+              <table className="w-full text-sm min-w-[640px]">
+                <thead>
+                  <tr className="border-b border-zinc-200 bg-zinc-50 text-left text-xs uppercase tracking-wider text-zinc-500">
+                    <th className="px-5 py-3 font-bold"><T k="home2.compare.spec" en="Spec" /></th>
+                    {compareRows.map(g => (
+                      <th key={g.slug} className="px-5 py-3 font-bold">
+                        <Link href={withLang(lang, `/gear/${g.slug}`)} className="hover:text-red-600 transition-colors">{g.name}</Link>
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-zinc-100">
+                  {[
+                    { label: 'Used price (MYR)', get: (g: (typeof compareRows)[0]) => `RM${g.priceUsed.toLocaleString()}` },
+                    { label: 'Sensor', get: (g: (typeof compareRows)[0]) => g.sensor },
+                    { label: 'Video', get: (g: (typeof compareRows)[0]) => g.video },
+                    { label: 'Weight', get: (g: (typeof compareRows)[0]) => g.weight },
+                  ].map(row => (
+                    <tr key={row.label}>
+                      <td className="px-5 py-3 text-zinc-500 font-medium">{row.label}</td>
+                      {compareRows.map(g => (
+                        <td key={g.slug} className="px-5 py-3 font-semibold">{row.get(g)}</td>
+                      ))}
+                    </tr>
+                  ))}
+                  <tr className="bg-zinc-50/50">
+                    <td className="px-5 py-3 text-zinc-500 font-medium">ROI score / 5★</td>
+                    {compareRows.map(g => (
+                      <td key={g.slug} className="px-5 py-3">
+                        <div className="flex items-center gap-2">
+                          <span className="font-mono font-black text-red-600">{g.roiScore}</span>
+                          <Stars rating={g.rating} />
+                        </div>
+                      </td>
+                    ))}
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div className="mt-4 text-center">
+              <Link href={withLang(lang, '/compare')} className="text-sm font-bold text-red-600 hover:text-zinc-900">
+                Build your own comparison →
+              </Link>
+            </div>
+          </section>
+        )}
+
+        {/* Gig rates — rate card */}
+        <section className="py-12 border-t border-zinc-200">
+          <SectionHead
+            kicker="Money Side"
+            title="What Gigs Pay Right Now"
+            sub="Logged Malaysian part-time rates matched against used gear prices — the earning half of every buy decision."
+          />
+          <div className="grid md:grid-cols-2 gap-4">
+            {topGigs.map(g => (
+              <Link
+                key={g.slug}
+                href={withLang(lang, `/gigs/${g.slug}`)}
+                className="group flex gap-4 rounded-2xl border border-zinc-200 bg-white p-4 hover:border-red-300 hover:shadow-lg hover:shadow-red-500/5 transition-all duration-300"
+              >
+                <div className="w-44 aspect-video rounded-xl overflow-hidden bg-zinc-100 shrink-0">
+                  <img src={gigImg(g.slug)} alt={g.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                </div>
+                <div className="min-w-0 flex-1">
+                  <div className="flex items-center justify-between gap-2">
+                    <h3 className="font-bold group-hover:text-red-700 transition-colors truncate">{g.emoji} {g.title}</h3>
+                    <span className="shrink-0 font-mono font-black text-red-600 text-sm">RM{g.rateMin.toLocaleString()}–{g.rateMax.toLocaleString()}</span>
+                  </div>
+                  <p className="mt-1 text-sm text-zinc-500 line-clamp-2">{g.tagline}</p>
+                  <p className="mt-2 text-[11px] uppercase tracking-widest text-zinc-400">{g.timeEstimate}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <Link href={withLang(lang, '/gigs')} className="px-7 py-3 rounded-full bg-red-600 text-white font-bold text-sm hover:bg-zinc-900 transition-colors">
+              All {gigs.length} gig rate cards →
+            </Link>
+            <Link href={withLang(lang, '/calculator')} className="px-7 py-3 rounded-full border-2 border-zinc-900 font-bold text-sm hover:bg-zinc-900 hover:text-white transition-colors">
+              🧮 Run the ROI math
+            </Link>
+          </div>
+        </section>
+
+        {/* Latest reviews */}
+        <section className="py-12 border-t border-zinc-200">
+          <SectionHead
             kicker="Latest From The Desk"
-            title="Fresh Reviews & Guides"
+            title="Research Notes & Guides"
             sub="Long-form testing notes, buying guides and ROI breakdowns — written in Malaysia, for Malaysia."
           />
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -307,7 +529,7 @@ export default async function HomePage({ params }: Props) {
                 href={withLang(a.lang ?? 'en', `/blog/${a.slug}`)}
                 className="group flex flex-col rounded-2xl border border-zinc-200 bg-white overflow-hidden hover:border-red-300 hover:shadow-lg hover:shadow-red-500/5 transition-all duration-300"
               >
-                <div className="aspect-[16/10] overflow-hidden bg-zinc-100">
+                <div className="aspect-[16/9] overflow-hidden bg-zinc-100">
                   <img
                     src={a.image || blogImg(a.slug)}
                     alt={a.title}
@@ -327,44 +549,6 @@ export default async function HomePage({ params }: Props) {
           <div className="mt-8 text-center">
             <Link href={withLang(lang, '/blog')} className="inline-flex items-center gap-1.5 px-7 py-3 rounded-full border-2 border-zinc-900 font-bold text-sm hover:bg-zinc-900 hover:text-white transition-colors">
               Read all {articles.length} articles →
-            </Link>
-          </div>
-        </section>
-
-        {/* Gig rates — rate card */}
-        <section className="py-12 border-t border-zinc-200">
-          <SectionHead
-            kicker="Money Side"
-            title="What Gigs Pay Right Now"
-            sub="Logged Malaysian part-time rates matched against used gear prices — the earning half of every buy decision."
-          />
-          <div className="grid md:grid-cols-2 gap-4">
-            {topGigs.map(g => (
-              <Link
-                key={g.slug}
-                href={withLang(lang, `/gigs/${g.slug}`)}
-                className="group flex gap-4 rounded-2xl border border-zinc-200 bg-white p-4 hover:border-red-300 hover:shadow-lg hover:shadow-red-500/5 transition-all duration-300"
-              >
-                <div className="w-28 h-24 rounded-xl overflow-hidden bg-zinc-100 shrink-0">
-                  <img src={gigImg(g.slug, 400, 300)} alt={g.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
-                </div>
-                <div className="min-w-0 flex-1">
-                  <div className="flex items-center justify-between gap-2">
-                    <h3 className="font-bold group-hover:text-red-700 transition-colors truncate">{g.emoji} {g.title}</h3>
-                    <span className="shrink-0 font-mono font-black text-red-600 text-sm">RM{g.rateMin.toLocaleString()}–{g.rateMax.toLocaleString()}</span>
-                  </div>
-                  <p className="mt-1 text-sm text-zinc-500 line-clamp-2">{g.tagline}</p>
-                  <p className="mt-2 text-[11px] uppercase tracking-widest text-zinc-400">{g.timeEstimate}</p>
-                </div>
-              </Link>
-            ))}
-          </div>
-          <div className="mt-8 flex flex-wrap gap-3">
-            <Link href={withLang(lang, '/gigs')} className="px-7 py-3 rounded-full bg-red-600 text-white font-bold text-sm hover:bg-zinc-900 transition-colors">
-              All {gigs.length} gig rate cards →
-            </Link>
-            <Link href={withLang(lang, '/calculator')} className="px-7 py-3 rounded-full border-2 border-zinc-900 font-bold text-sm hover:bg-zinc-900 hover:text-white transition-colors">
-              🧮 Run the ROI math
             </Link>
           </div>
         </section>
@@ -413,5 +597,14 @@ export default async function HomePage({ params }: Props) {
         </div>
       </footer>
     </div>
+  );
+}
+
+function GoldStars({ rating }: { rating: number }) {
+  return (
+    <span className="flex items-center gap-1 shrink-0">
+      <Stars rating={rating} />
+      <span className="text-xs font-mono text-zinc-500">{rating.toFixed(1)}</span>
+    </span>
   );
 }
