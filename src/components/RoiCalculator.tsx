@@ -34,7 +34,7 @@ function Slider({
   return (
     <div>
       <div className="flex items-center justify-between mb-2">
-        <label className="text-sm text-zinc-200 font-semibold uppercase tracking-wider">{label}</label>
+        <label className="text-sm text-zinc-600 font-semibold uppercase tracking-wider">{label}</label>
         <span className={`text-lg font-black ${tint}`}>{value.toLocaleString()}{suffix}</span>
       </div>
       <input
@@ -47,7 +47,7 @@ function Slider({
         onChange={e => onChange(Number(e.target.value))}
         aria-label={label}
       />
-      <div className="flex justify-between text-xs text-zinc-300 mt-1">
+      <div className="flex justify-between text-xs text-zinc-600 mt-1">
         <span>{min.toLocaleString()}{suffix}</span>
         <span>{max.toLocaleString()}{suffix}</span>
       </div>
@@ -102,12 +102,12 @@ export default function RoiCalculator() {
             <h2 className="text-3xl md:text-5xl font-black mb-4">
               {t('calc.head', 'Will Your Gear')} <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">{t('calc.headAccent', 'Pay For Itself?')}</span>
             </h2>
-            <p className="text-zinc-200 text-lg">{t('calc.desc', 'How many gigs will it take to break even on your gear? Calculate in Ringgit Malaysia.')}</p>
+            <p className="text-zinc-600 text-lg">{t('calc.desc', 'How many gigs will it take to break even on your gear? Calculate in Ringgit Malaysia.')}</p>
           </div>
 
           {/* Presets */}
           <div className="flex flex-wrap justify-center gap-2 mb-8">
-            <span className="text-xs text-zinc-200 self-center font-semibold uppercase tracking-wider mr-1">{t('calc.quickPick', 'Quick pick:')}</span>
+            <span className="text-xs text-zinc-600 self-center font-semibold uppercase tracking-wider mr-1">{t('calc.quickPick', 'Quick pick:')}</span>
             {presets.map(p => (
               <button
                 key={p.label}
@@ -115,7 +115,7 @@ export default function RoiCalculator() {
                 className={`px-4 py-2 rounded-full text-sm font-bold border transition-all ${
                   price === p.price
                     ? 'bg-gradient-to-r from-amber-400 to-yellow-500 text-zinc-950 border-transparent shadow-lg shadow-amber-500/25'
-                    : 'bg-zinc-800/60 text-zinc-100 border-zinc-700/60 hover:text-white hover:border-amber-500/40'
+                    : 'bg-zinc-100 text-zinc-900 border-zinc-300/60 hover:border-amber-500/40'
                 }`}
               >
                 {p.label} · RM {p.price.toLocaleString()}
@@ -123,7 +123,7 @@ export default function RoiCalculator() {
             ))}
           </div>
 
-          <div className="gradient-border rounded-2xl bg-zinc-900/70 p-6 md:p-10">
+          <div className="gradient-border rounded-2xl bg-white/70 p-6 md:p-10">
             <div className="grid md:grid-cols-2 gap-10">
               <div className="space-y-7">
                 <Slider
@@ -158,24 +158,24 @@ export default function RoiCalculator() {
                 />
               </div>
 
-              <div className="flex flex-col justify-center text-center md:border-l border-zinc-800 md:pl-10">
+              <div className="flex flex-col justify-center text-center md:border-l border-zinc-200 md:pl-10">
                 <div className={`mb-2 text-sm font-bold uppercase tracking-wider ${toneStyles.text}`}>{t('calc.timeToBreakeven', 'Time to breakeven')}</div>
                 <div className={`text-7xl md:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-r ${toneStyles.ring} leading-none`}>
                   {months.toFixed(1)}
                 </div>
-                <div className="text-zinc-200 mt-2 text-lg font-semibold">{t('calc.monthsLabel', 'months')}</div>
+                <div className="text-zinc-600 mt-2 text-lg font-semibold">{t('calc.monthsLabel', 'months')}</div>
 
-                <div className="mt-6 space-y-2.5 text-sm text-zinc-200">
-                  <div className="flex justify-between"><span>{t('calc.revenueMonth', 'Revenue per month')}</span><strong className="text-white">RM {monthly.toLocaleString()}</strong></div>
-                  <div className="flex justify-between"><span>{t('calc.gigsToBreakeven', 'Gigs to breakeven')}</span><strong className="text-white">{Math.ceil(gigsToBreakeven)} {t('calc.gigsUnit', 'gigs')}</strong></div>
+                <div className="mt-6 space-y-2.5 text-sm text-zinc-600">
+                  <div className="flex justify-between"><span>{t('calc.revenueMonth', 'Revenue per month')}</span><strong className="text-zinc-950">RM {monthly.toLocaleString()}</strong></div>
+                  <div className="flex justify-between"><span>{t('calc.gigsToBreakeven', 'Gigs to breakeven')}</span><strong className="text-zinc-950">{Math.ceil(gigsToBreakeven)} {t('calc.gigsUnit', 'gigs')}</strong></div>
                   <div className="flex justify-between"><span>{t('calc.annualPotential', 'Annual potential')}</span><strong className="text-green-400">RM {annual.toLocaleString()}</strong></div>
                 </div>
 
                 <div className="mt-5">
-                  <div className="h-2 bg-zinc-800 rounded-full overflow-hidden mb-1.5">
+                  <div className="h-2 bg-zinc-100 rounded-full overflow-hidden mb-1.5">
                     <div className={`h-full rounded-full ${toneStyles.bar} transition-all duration-500`} style={{ width: `${Math.max(3, barWidth)}%` }} />
                   </div>
-                  <div className="flex justify-between text-xs text-zinc-300">
+                  <div className="flex justify-between text-xs text-zinc-600">
                     <span>0 mo</span>
                     <span>12 mo</span>
                   </div>
@@ -187,7 +187,7 @@ export default function RoiCalculator() {
 
                 <Link
                   href={withLang(lang, '/blog/content-creator-gear-roi-malaysia-calculator')}
-                  className="mt-4 text-xs text-zinc-200 hover:text-amber-300 transition-colors font-semibold"
+                  className="mt-4 text-xs text-zinc-600 hover:text-amber-300 transition-colors font-semibold"
                 >
                   {t('calc.readGuide', 'How we calculate this → read the ROI guide')}
                 </Link>

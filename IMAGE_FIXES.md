@@ -153,3 +153,100 @@ facial-recognition and insta360-x5 files.
 Tooling from this session (reusable): `C:\Users\User\Downloads\opencode\make_sheets.py`
 (labelled contact sheets for visual audits), `fetch_imgs.py`/`poll_batch2.py` (staged
 replacements + backups), `refcheck.js` (missing /blog/ refs).
+
+## SHIPPED 2026-10-05 — broken-image sweep, all galleries fixed (0 bad on 278 URLs)
+- Audit tool: `scripts/crawl-check-images.mjs` (crawls sitemap, GET+UA every
+  rendered <img src> — HEAD/empty-UA gives false 400s on Wikimedia and IG).
+- Fixed:
+  1. `ScenarioGallery.tsx` appended bare `&auto=format` to LOCAL paths ->
+     `/blog/x.jpg&auto=format` broken srcs on every gear page with scenarios.
+     Now only appends when URL contains `?`.
+  2. Wikimedia hotlinks localized: all 43 URLs from `src/data/images.ts`
+     downloaded into `public/wikimedia/<slug>.jpg` (browser UA, size fallback
+     1200->960->800->640->480; entries titled 1200px were 400 = thumb bigger
+     than original, now 960). `images.ts` rewritten to `/wikimedia/...`.
+     Attribution untouched in `gearPhotoCredits`. Script:
+     `scripts/localize-wikimedia.mjs` (idempotent, --force re-dl).
+  3. 2 dead Instagram posts removed (media 404):
+     `instagramPosts.ts` ig-55mm-sweet-spot (DZrafm-M4hh),
+     ig-viltrox-85-pro (DaP7cNwsGZ9); `instagram.ts` DZrafm-M4hh + DaP7cNwsGZ9.
+  4. Finished the interrupted 45-image gig generation batch: 23 new
+     Pollinations files -> ALL 45 gig/curate images present (13 new on-our-own
+     shots incl. iphone-window-light, desk-setup-ring-light, drone-aerial,
+     beauty-review-setup). verify script threshold raised (60->2500 bright px)
+     after 5/5 visual checks proved false-positive ring-light/hand content.
+- Rebuilt + restarted :3002. Final crawl: 278 pages, 462 unique srcs, 0 bad.
+- Known noise: `desk-setup-ring-light-2.jpg` still flags (3411px) - it is the
+  ring light, visually confirmed clean, not a watermark.
+
+## 2026-10-06 SHIPPED - featured article: images replaced + SEO headings
+
+- User: "replace all images in that article with new, more relevant ones;
+  reword headings/subheadings for SEO."
+- ROOT CAUSE of the bad images seen: `articleFigures(slug)` in
+  `src/data/curated.ts` falls back to RANDOM Unsplash stock for slugs not in
+  `articleTheme`, and `MarkdownBody` injects one before every H2 >1 - the
+  article page was showing 4 irrelevant stock photos, not article content.
+  Fix: `'nikon-z5iic-canon-r8-mark-ii-buy-window-malaysia-2026': []` in
+  `articleTheme` (empty array = skip auto-figures; article uses inline
+  `![alt](/blog/...)` lines instead).
+- 4 new topic images generated (scripts/gen-hero-image.mjs, now a 5-slot
+  multi-image generator, STYLE suffix copied from gig-images-plan.mjs):
+  hero (woman+camera cafe window), specs-compare (camera held up, close),
+  1111-sale (woman comparing prices on laptop at night), convocation-gig
+  (graduation gown + camera). A 5th slot `used-buy` CUT after 8 failed
+  re-rolls (Pollinations degraded ~17:26-17:43 UTC: prompts ignored,
+  apple-prompt returned lamp scene, instant cache-like responses) - user
+  authorized cutting weaknesses.
+- PROMPT RULE CONFIRMED: person-holding-gear + plain environment + proven
+  gig STYLE suffix = works; still-life/flat-lay/prop-heavy prompts = no
+  camera / fake text / CG blobs (3x each). Service degradation > prompt
+  quality when generations come back in <5s with odd content - wait it out.
+- SEO rework: title -> "Nikon Z5IIC vs Canon R8 Mark II Malaysia: Price,
+  Release Date and Whether to Wait for 11.11"; all 4 H2s + 3 H3s now carry
+  keyword phrases (Nikon Z5IIC Malaysia price, Canon R8 Mark II release
+  date, 11.11 Camera Sale Malaysia, buy used/wait verdicts).
+- Empty-src bug FIXED (new gate finding): with `articleFigures=[]`,
+  `CurationWall` rendered `<img>` with no src (alt "buying-guide - live
+  inspiration"). Fixes: `articleTopic` now includes `a.image` first
+  (`src/lib/curation.ts`), `CurationWall` returns null on empty images.
+- Rebuilt + restarted :3002. Gates: empty-src 0/282, crawl 282 pages / 434
+  srcs / 0 bad, tsc 0, eslint 0 errors, all 4 jpgs 200, home lead = new
+  title, article H2/H3s verified in HTML, Unsplash injection gone.
+
+## SHIPPED 2026-10-06 - Aspect-ratio management (user: "featured image stretched for some")
+
+- AUDIT RESULT: on-page stretch was IMPOSSIBLE - all 37 production `<img>` tags
+  already carry object-cover/object-contain (only dev-only preview-hero page
+  lacked it; exempted from gate). Real problems were (a) wildly mixed aspect
+  ratios in `public/blog` (248 files: 1600x900, 1024x530, portraits up to
+  1920x3413, squares) feeding letterbox/distort into share cards, and (b) blog
+  og:image declaring `width:1200 height:630` for every one of 137 articles.
+- POLICY + TOOL: `scripts/normalize-image-aspects.mjs` = canonical manager.
+  Every jpg in public/blog cropped to EXACT 16:9 (fit=cover, attention
+  gravity, largest 16:9 box inside source, cap 1600x900, never upscale,
+  q88 mozjpeg), idempotent, copies changed files into .next/standalone,
+  generates `src/data/generated/image-dims.ts` (248 entries), exits 1 if any
+  file can't be processed (wired into `npm run build` before sync-content).
+  Total: 88 + 86 re-encoded, 162 already conformed, 248/248 OK.
+- ROOT CAUSE OF THE 86 "locked" FILES (Windows + sharp lesson, verified by
+  stack trace): sharp keeps its input file handle on the pipeline object until
+  GC, so in the SAME process our `writeFileSync(src)` of that path fails with
+  `UNKNOWN: unknown error, open` for the rest of the run - deterministic per
+  file, passes instantly in a fresh process, unaffected by retries/rounds
+  (5s x 6 rounds all failed). FIX: `readFileSync(src)` -> `sharp(buffer)` so
+  sharp never opens the file itself. Residual write-retry kept as AV guard.
+- TRUTHFUL OG DIMS: new `src/lib/og.ts` `ogImageMeta()` reads IMAGE_DIMS for
+  local files (remote Unsplash parsed from ?w=&h=, else omits) - blog [slug]
+  og now emits real dims (verified 942x530, 1280x720 on live pages).
+- NEW GATES: `scripts/check-image-aspects.mjs` (exact-16:9 <=1600w for all
+  /blog jpgs + every `<img>` must declare object-fit; preview-hero exempt)
+  and `npm run check:images` = aspect + empty-src + crawl.
+- VERIFIED: check:images all green (aspect OK, empty-src 0/282, crawl 282
+  pages / 434 srcs / 0 bad), tsc 0, eslint 0 errors, quiet rerun exit 0,
+  :3002 rebuilt + restarted, home/article/gear pages 200.
+- OPS NOTES: build needs ALL :3002 listeners dead (a second server pid held
+  .next\standalone after the first kill -> EBUSY rmdir; re-check
+  Get-NetTCPConnection -LocalPort 3002 until free). `xiaomi-14-ultra-review-
+  malaysia` and `nikon-z50-ii-review-malaysia` are image/gear slugs - blog
+  URLs for them 404 by design (gear pages 200).

@@ -33,6 +33,7 @@ King of budget mirrorless. Sensor APS-C 24MP, autofocus 425 mata dengan real-tim
 Aku sendiri pakai A6100 untuk shoot content kat TikTok klien. AF dia memang tiada tandingan — bila kau bergerak, mata kau masih tetap sharp. Untuk RM1,400 second hand, value dia macam beli Ferrari dengan harga Myvi. Serious.
 
 ## 2. Sony ZV-E10 — RM1,800–2,400
+![Beberapa badan kamera mirrorless bawah RM2,000 disusun untuk perbandingan](/blog/kamera-bawah-rm2000-senarai-mirrorless.jpg "Semua badan ni boleh dapat di bawah RM2,000 kalau sabar cari second hand.")
 
 Kamera vlogging pertama Sony. Sensor yang sama dengan A6100, tapi direka untuk video: flip screen, mic input 3.5mm, mode "background defocus" sebutan, dan tiada EVF (lebih ringan).
 
@@ -75,6 +76,7 @@ Nikon Z30 ni aku rasa undervalued sikit. Badan dia ringan gila — 350g je. So k
 | Nikon Z30 | RM1,600–2,000 | Video ringan | 4K |
 
 ## Apa yang aku pilih dengan RM2,000 hari ini?
+![Kamera mirrorless bawah RM2,000 dengan skrin terbuka di atas meja](/blog/kamera-bawah-rm2000-skrin-terbuka.jpg "Flip screen dan berat badan beza antara kau bawak keluar atau simpan dalam beg.")
 
 Kalau kau tanya aku, aku pilih Sony A6100 second hand. Serius. RM1,400-1,900 untuk kamera dengan AF terbaik dalam kelas harganya, video 4K, dan badan kecil. Duit lebih tu aku guna untuk beli lens 50mm f/1.8 (RM200) untuk portrait dan mic luar (RM100) untuk audio lebih baik. Total? RM1,700-2,200 sahaja dan kau dah ada setup yang power habis.
 

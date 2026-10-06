@@ -19,7 +19,7 @@ const SECURITY_CATEGORIES = [
   'perimeter', 'home-security', 'business-security',
 ];
 
-const GEAR_CATEGORIES = ['camera', 'mobile', 'drone', 'action', 'audio', 'security', 'dashcam'];
+const GEAR_CATEGORIES = ['camera', 'mobile', 'drone', 'action', 'audio', 'security'];
 
 const ENVIRONMENTS = ['factory', 'warehouse', 'retail', 'office', 'home', 'outdoor', 'mixed'];
 

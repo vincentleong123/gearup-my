@@ -25,15 +25,15 @@ export default function ImageCurationBlock({
   if (!active || !item) {
     return (
       <figure className="my-10">
-        <div className={`w-full ${ratioClass} rounded-2xl border-2 border-dashed border-zinc-700 bg-zinc-900/40 flex items-center justify-center`}>
+        <div className={`w-full ${ratioClass} rounded-2xl border-2 border-dashed border-zinc-300 bg-zinc-100 flex items-center justify-center`}>
           <div className="text-center px-6 py-10">
             <div className="text-2xl mb-2">🖼️</div>
-            <p className="text-xs font-bold uppercase tracking-widest text-zinc-200">{fallbackLabel}</p>
-            {item?.caption && <p className="text-sm text-zinc-300 font-semibold mt-1">{item.caption}</p>}
+            <p className="text-xs font-bold uppercase tracking-widest text-zinc-600">{fallbackLabel}</p>
+            {item?.caption && <p className="text-sm text-zinc-600 font-semibold mt-1">{item.caption}</p>}
           </div>
         </div>
         {(item?.caption || item?.credit) && (
-          <figcaption className="text-sm text-zinc-200 mt-3 leading-relaxed">
+          <figcaption className="text-sm text-zinc-600 mt-3 leading-relaxed">
             <span className="text-zinc-400">—</span> {item?.caption}
             {item?.credit ? ` (${item.credit})` : ''}
           </figcaption>
@@ -44,7 +44,7 @@ export default function ImageCurationBlock({
 
   return (
     <figure className="my-10">
-      <div className={`w-full ${ratioClass} rounded-2xl overflow-hidden bg-zinc-900 ring-1 ring-zinc-800`}>
+      <div className={`w-full ${ratioClass} rounded-2xl overflow-hidden bg-zinc-100 ring-1 ring-zinc-200`}>
         <img
           src={src}
           alt={item.alt || item.caption || 'Editorial image'}
@@ -53,7 +53,7 @@ export default function ImageCurationBlock({
         />
       </div>
       {(item.caption || item.credit) && (
-        <figcaption className="text-sm text-zinc-200 mt-3 leading-relaxed">
+        <figcaption className="text-sm text-zinc-600 mt-3 leading-relaxed">
           <span className="text-zinc-400">—</span> {item.caption}
           {item.credit ? ` (${item.credit})` : ''}
         </figcaption>

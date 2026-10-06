@@ -93,7 +93,7 @@ export default async function Layout({
     <html lang={htmlLangs[lang]} className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} h-full antialiased`}>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="theme-color" content="#09090b" />
+        <meta name="theme-color" content="#faf9f7" />
         {s.gscVerification && !s.gscVerification.includes('YOUR_') ? (
           <meta name="google-site-verification" content={s.gscVerification} />
         ) : null}
@@ -108,7 +108,7 @@ export default async function Layout({
         />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgLd) }} />
       </head>
-      <body className="min-h-full bg-[#09090b] text-[#fafafa]">
+      <body className="min-h-full bg-[#faf9f7] text-zinc-900">
         <LangProvider lang={lang}>{children}<BackToTop /><ScrollGuide /></LangProvider>
       </body>
     </html>

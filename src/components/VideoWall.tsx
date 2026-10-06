@@ -43,7 +43,7 @@ function CategoryPills({
           className={`inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold border transition-all duration-200 ${
             active === cat.id
               ? 'bg-gradient-to-r from-red-500 to-pink-600 text-white border-transparent shadow-lg shadow-pink-600/25'
-              : 'bg-white/5 text-zinc-200 border-white/10 hover:text-white hover:border-red-500/40 hover:bg-white/10'
+              : 'bg-zinc-100 text-zinc-600 border-zinc-200 hover:text-zinc-900 hover:border-red-500/40 hover:bg-white'
           }`}
         >
           <span>{cat.emoji}</span>
@@ -101,7 +101,7 @@ export default function VideoWall({ limit }: { limit?: number }) {
             className={`inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold border transition-all duration-200 ${
               source === s.id
                 ? 'bg-white text-zinc-950 border-transparent shadow-lg shadow-zinc-500/10'
-                : 'bg-white/5 text-zinc-200 border-white/10 hover:text-white hover:border-white/30 hover:bg-white/10'
+                : 'bg-zinc-100 text-zinc-600 border-zinc-200 hover:text-zinc-900 hover:border-zinc-300 hover:bg-white'
             }`}
           >
             <span>{s.emoji}</span>
@@ -115,7 +115,7 @@ export default function VideoWall({ limit }: { limit?: number }) {
         {source === 'youtube' && <CategoryPills cats={videoCategories} active={youtubeCat} onSelect={id => setYoutubeCat(id as VideoCategory | 'all')} />}
         {source === 'instagram' && <CategoryPills cats={instagramCategories} active={igCat} onSelect={id => setIgCat(id as InstagramCategory | 'all')} />}
         {source === 'all' && (
-          <p className="text-center text-xs text-zinc-200 uppercase tracking-[0.3em]">
+          <p className="text-center text-xs text-zinc-600 uppercase tracking-[0.3em]">
             Mixing {videos.length} tutorials + {instagramPosts.length} saved gear posts
           </p>
         )}
@@ -128,9 +128,9 @@ export default function VideoWall({ limit }: { limit?: number }) {
             <button
               key={item.id}
               onClick={() => setPlaying(item)}
-              className="group text-left bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-red-500/40 hover:-translate-y-1 hover:shadow-xl hover:shadow-pink-600/5 transition-all duration-300"
+              className="group text-left bg-white/60 border border-zinc-200 rounded-2xl overflow-hidden hover:border-red-500/40 hover:-translate-y-1 hover:shadow-xl hover:shadow-pink-600/5 transition-all duration-300"
             >
-              <div className="relative aspect-video overflow-hidden bg-zinc-900">
+              <div className="relative aspect-video overflow-hidden bg-white">
                 <img
                   src={youtubeThumb(item.youtubeId)}
                   alt={item.title}
@@ -158,9 +158,9 @@ export default function VideoWall({ limit }: { limit?: number }) {
               </div>
               <div className="p-4">
                 <h3 className="font-bold text-sm leading-snug group-hover:text-red-400 transition-colors mb-1.5 line-clamp-2">{item.title}</h3>
-                <div className="flex items-center justify-between text-xs text-zinc-200">
+                <div className="flex items-center justify-between text-xs text-zinc-600">
                   <span className="flex items-center gap-1.5 truncate pr-2">
-                    <span className="shrink-0 grid place-items-center h-5 w-5 rounded-full bg-zinc-800 text-[9px] font-bold text-zinc-100">{item.channel[0]}</span>
+                    <span className="shrink-0 grid place-items-center h-5 w-5 rounded-full bg-zinc-100 text-[9px] font-bold text-zinc-900">{item.channel[0]}</span>
                     <span className="truncate">{item.channel}</span>
                   </span>
                   {item.views && <span className="shrink-0">{item.views} views</span>}
@@ -171,9 +171,9 @@ export default function VideoWall({ limit }: { limit?: number }) {
             <button
               key={item.id}
               onClick={() => setPlaying(item)}
-              className="group text-left bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-pink-500/50 hover:-translate-y-1 hover:shadow-xl hover:shadow-pink-600/5 transition-all duration-300"
+              className="group text-left bg-white/60 border border-zinc-200 rounded-2xl overflow-hidden hover:border-pink-500/50 hover:-translate-y-1 hover:shadow-xl hover:shadow-pink-600/5 transition-all duration-300"
             >
-              <div className="relative aspect-square overflow-hidden bg-zinc-900">
+              <div className="relative aspect-square overflow-hidden bg-white">
                 <img
                   src={igThumb(item.shortcode)}
                   alt={item.title}
@@ -196,8 +196,8 @@ export default function VideoWall({ limit }: { limit?: number }) {
               </div>
               <div className="p-4">
                 <h3 className="font-bold text-sm leading-snug group-hover:text-pink-400 transition-colors mb-1.5 line-clamp-2">{item.title}</h3>
-                <p className="text-xs text-zinc-200 line-clamp-2 mb-2">{item.caption}</p>
-                <div className="flex items-center justify-between text-xs text-zinc-200">
+                <p className="text-xs text-zinc-600 line-clamp-2 mb-2">{item.caption}</p>
+                <div className="flex items-center justify-between text-xs text-zinc-600">
                   <span className="flex items-center gap-1.5 truncate">
                     <span className="shrink-0 grid place-items-center h-5 w-5 rounded-full bg-gradient-to-tr from-amber-400 to-pink-500 text-[9px] font-bold text-white">{item.author[0]}</span>
                     <span className="truncate">{item.author}</span>
@@ -211,13 +211,13 @@ export default function VideoWall({ limit }: { limit?: number }) {
       </div>
 
       {filtered.length === 0 && (
-        <p className="text-center text-zinc-200 py-16">Nothing here yet — check back soon.</p>
+        <p className="text-center text-zinc-600 py-16">Nothing here yet — check back soon.</p>
       )}
 
       {/* Lightbox player */}
       {playing && (
         <div
-          className="fixed inset-0 z-[90] flex items-start justify-center p-4 sm:p-8 pt-16 sm:pt-20 bg-zinc-950/90 backdrop-blur-sm animate-fade-in overflow-y-auto"
+          className="fixed inset-0 z-[90] flex items-start justify-center p-4 sm:p-8 pt-16 sm:pt-20 bg-zinc-100/90 backdrop-blur-sm animate-fade-in overflow-y-auto"
           onClick={close}
           role="dialog"
           aria-modal="true"
@@ -235,7 +235,7 @@ export default function VideoWall({ limit }: { limit?: number }) {
 
           <div className="w-full max-w-4xl mx-auto" onClick={e => e.stopPropagation()}>
             {playing.kind === 'youtube' ? (
-              <div className="relative aspect-video overflow-hidden rounded-2xl border border-white/15 shadow-2xl shadow-pink-600/10 bg-black">
+              <div className="relative aspect-video overflow-hidden rounded-2xl border border-zinc-200 shadow-2xl shadow-pink-600/10 bg-black">
                 <iframe
                   src={youtubeEmbed(playing.youtubeId)}
                   title={playing.title}
@@ -246,7 +246,7 @@ export default function VideoWall({ limit }: { limit?: number }) {
                 />
               </div>
             ) : (
-              <div className="overflow-hidden rounded-2xl border border-white/15 shadow-2xl shadow-pink-600/10 bg-white flex justify-center">
+              <div className="overflow-hidden rounded-2xl border border-zinc-200 shadow-2xl shadow-pink-600/10 bg-white flex justify-center">
                 <iframe
                   src={instagramEmbedUrl(playing.shortcode)}
                   title={playing.title}
@@ -258,15 +258,15 @@ export default function VideoWall({ limit }: { limit?: number }) {
             )}
             <div className="mt-4 flex items-start justify-between gap-4">
               <div>
-                <h3 className="text-lg md:text-xl font-bold text-white">{playing.title}</h3>
-                <p className="text-sm text-zinc-200 mt-1">
+                <h3 className="text-lg md:text-xl font-bold text-zinc-900">{playing.title}</h3>
+                <p className="text-sm text-zinc-600 mt-1">
                   {playing.kind === 'youtube' ? playing.channel : `${playing.author} · saved post`}
                 </p>
                 {playing.kind === 'instagram' && playing.caption && (
-                  <p className="text-sm text-zinc-200 mt-2 max-w-2xl">{playing.caption}</p>
+                  <p className="text-sm text-zinc-600 mt-2 max-w-2xl">{playing.caption}</p>
                 )}
               </div>
-              <span className="shrink-0 inline-flex items-center gap-1.5 text-xs font-bold px-3 py-1.5 rounded-full bg-white/5 border border-white/15 text-zinc-100">
+              <span className="shrink-0 inline-flex items-center gap-1.5 text-xs font-bold px-3 py-1.5 rounded-full bg-zinc-100 border border-zinc-200 text-zinc-900">
                 {playing.kind === 'youtube' ? '▶ YouTube' : '📌 Instagram'}
               </span>
             </div>

@@ -38,6 +38,7 @@ Senang kan? Tapi jangan terus rasa "oh 6 gig je" dan terus beli. Sebab kau kena 
 Aku dulu masuk error yang sama. Aku fikir "lah 5 gig je, senang." Rupanya bulan pertama aku dapat satu gig je. Sebab apa? Aku takde portfolio. Client tak kenal aku. Aku takde network. Satu gig tu pun sebab kawan tolong promote. Baru bulan kedua aku start nampak flow sikit — dua gig, then tiga gig. Tapi bulan pertama? Kosong jugak.
 
 ## Kalkulator ROI mengikut kamera
+![Kamera mirrorless, kalkulator dan wang tunai mengira ROI kamera](/blog/camera-roi-calculator-malaysia-kalkulator.jpg "Masukkan harga beli, kos aksesori dan bilangan gig - keluaran dia bulan untuk balik modal.")
 
 | Kamera | Kos Total | Gig RM300 | Gig RM500 | Gig RM800 |
 | --- | --- | --- | --- | --- |
@@ -80,6 +81,7 @@ Ini benda yang takde siapa cakap dekat kau bila kau baru nak mula:
 Aku pernah tak kira semua ni, then terkejut bila tengok actual profit aku jauh lebih sikit dari yang aku jangka. RM1,400 sebulan sounds best kan? Tapi tolak transport, tolak data storage, tolak software — tinggal RM900 je. Still bagus, tapi tak sehebat yang aku fikir awal-awal.
 
 ## Tips untuk ROI lebih cepat
+![Aksesori kamera seperti bateri tambahan, kad memori dan beg di samping badan kamera](/blog/camera-roi-calculator-malaysia-kos-tersembunyi.jpg "Bateri, kad memori dan beg biasanya tambah 20% lagi dekat kos pertama.")
 
 1. **Mula dengan gig termurah yang paling banyak** — konvokesyen musim panas. Volume tinggi, exposure tinggi, dan portfolio cepat berkembang.
 2. **Naik harga selepas 5 gig pertama** — portfolio sudah cukup kuat. Kau surprise berapa ramai client yang still bayar bila kau naik harga sikit.

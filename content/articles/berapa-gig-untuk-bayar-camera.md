@@ -33,6 +33,7 @@ Tapi itu terlalu mudah. Kau ingat nak beli kamera, shoot sekali, terus balik mod
 - Cukai (simpan 10% untuk LHDN) — trust me, jangan Main-Main dengan LHDN
 
 ## Contoh sebenar: 3 senario
+![Kamera DSLR dan lens di atas meja bersama kalkulator untuk kiraan ROI](/blog/berapa-gig-untuk-bayar-camera-senario.jpg "Tiga senario, satu jawapan: makin mahal badan, makin banyak gig kena ambil.")
 
 ### Senario A: Nikon D3100 (RM400)
 - Kos kamera: RM400
@@ -84,6 +85,7 @@ Satu lagi benda yang orang tak cakap — lepas lunas, kau akan rasa confident. C
 Real talk — aku pernah masa bulan kelima lepas lunas, aku shoot satu wedding sambilan. RM500 satu hari. Lepas tu client cerita dekat kawan dia, kawan dia contact aku. Dua minggu lepas tu, satu lagi wedding. RM500 lagi. Dalam masa sebulan, RM1,000 masuk — semua untung bersih. Dari situlah aku nampak power repeat client dan word of mouth. Kau tak perlu iklan berbayar. Kau perlu result yang bagus, dan biarkan client kau yang jadi marketing team kau.
 
 ## Common mistakes yang buat ROI lambat
+![Beg kamera terbuka dengan lens dan aksesori menunjukkan kos tambahan tersembunyi](/blog/berapa-gig-untuk-bayar-camera-beg-aksesori.jpg "Beli lens sebelum bayar balik badan - sebab paling biasa ROI melewat.")
 
 Ini benda yang aku nampak ramai pemula buat, dan ianya membunuh ROI kau:
 

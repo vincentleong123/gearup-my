@@ -40,30 +40,30 @@ export default async function ReviewPolicyPage({ params }: Props) {
             <h1 className="text-4xl md:text-6xl font-black mb-4">
               <T k="policy.head" en="Our promise on" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-pink-500 to-fuchsia-500"><T k="policy.headAccent" en="every review" /></span>
             </h1>
-            <p className="text-zinc-200 text-lg leading-relaxed max-w-2xl mx-auto">
+            <p className="text-zinc-600 text-lg leading-relaxed max-w-2xl mx-auto">
               <T k="policy.desc" en="Kameralog reviews gear the way a working Malaysian creator uses it. These are the rules we hold ourselves to — published so you can hold us to them too." />
             </p>
           </div>
 
           <div className="space-y-6 mb-16">
             {rules.map(r => (
-              <div key={r.key} className="bg-zinc-900/80 border border-zinc-800 rounded-2xl p-6">
+              <div key={r.key} className="bg-white/80 border border-zinc-200 rounded-2xl p-6">
                 <h2 className="text-lg font-bold mb-2"><T k={r.key} en={r.en} /></h2>
-                <p className="text-sm text-zinc-200 leading-relaxed"><T k={r.d} en={r.den} /></p>
+                <p className="text-sm text-zinc-600 leading-relaxed"><T k={r.d} en={r.den} /></p>
               </div>
             ))}
           </div>
 
-          <div className="gradient-border rounded-3xl bg-zinc-900/70 p-8 md:p-10 mb-16">
+          <div className="gradient-border rounded-3xl bg-white/70 p-8 md:p-10 mb-16">
             <h2 className="text-2xl font-black mb-3"><T k="policy.disclosure.t" en="Review units & sponsored content" /></h2>
-            <p className="text-zinc-200 leading-relaxed">
+            <p className="text-zinc-600 leading-relaxed">
               <T k="policy.disclosure.d" en="If a brand lends us a review unit, or pays for a clearly-labelled sponsored post, we say so in the article. No payment ever changes a score or verdict. Gear lent for review is returned, and a loan never means a good review — bad products are reviewed honestly regardless of who sent them." />
             </p>
           </div>
 
-          <div className="bg-zinc-900/40 border border-zinc-800 rounded-xl p-6">
+          <div className="bg-white/40 border border-zinc-200 rounded-xl p-6">
             <h2 className="text-lg font-bold mb-2"><T k="policy.corrections.t" en="Corrections" /></h2>
-            <p className="text-sm text-zinc-200 leading-relaxed">
+            <p className="text-sm text-zinc-600 leading-relaxed">
               <T k="policy.corrections.d" en="Prices and specs change fast in Malaysia. If you spot an error, tell us at cameralogue@gmail.com and we&rsquo;ll fix and date the correction. Old prices are kept in reviews so you can see how the market moved." />
             </p>
           </div>

@@ -57,7 +57,7 @@ export default async function CuratePage({ params }: Props) {
             <h1 className="text-4xl md:text-6xl font-black mb-4">
               <T k="curate.hero.head" en="Inspiration" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-purple-500 to-pink-500"><T k="curate.hero.accent" en="Wall" /></span>
             </h1>
-            <p className="text-zinc-200 text-lg leading-relaxed">
+            <p className="text-zinc-600 text-lg leading-relaxed">
               <T k="curate.hero.desc" en="Never run out of ideas. Pick a gig niche and the wall curates fresh visual inspiration while live-linking you to Google Images, Instagram hashtags, TikTok and YouTube — so you can study what real clients pay for and replicate it locally." />
             </p>
           </div>
@@ -66,24 +66,24 @@ export default async function CuratePage({ params }: Props) {
 
           {/* How to use */}
           <div className="grid md:grid-cols-3 gap-6 mt-12">
-            <div className="bg-zinc-900/40 border border-zinc-800 rounded-2xl p-6">
+            <div className="bg-white/40 border border-zinc-200 rounded-2xl p-6">
               <div className="text-3xl mb-3">1️⃣</div>
               <h3 className="font-bold mb-2"><T k="curate.step1head" en="Pick a niche" /></h3>
-              <p className="text-zinc-200 text-sm leading-relaxed">
+              <p className="text-zinc-600 text-sm leading-relaxed">
                 <T k="curate.step1desc" en="Tap a topic chip — graduation, wedding, gala, portrait, video, food, property… Each has its own curated visuals." />
               </p>
             </div>
-            <div className="bg-zinc-900/40 border border-zinc-800 rounded-2xl p-6">
+            <div className="bg-white/40 border border-zinc-200 rounded-2xl p-6">
               <div className="text-3xl mb-3">2️⃣</div>
               <h3 className="font-bold mb-2"><T k="curate.step2head" en="Follow the live search" /></h3>
-              <p className="text-zinc-200 text-sm leading-relaxed">
+              <p className="text-zinc-600 text-sm leading-relaxed">
                 <T k="curate.step2desc" en="Switch platform — Google, Instagram, TikTok, YouTube — and tap any tile. It opens the live search with real posts and real prices." />
               </p>
             </div>
-            <div className="bg-zinc-900/40 border border-zinc-800 rounded-2xl p-6">
+            <div className="bg-white/40 border border-zinc-200 rounded-2xl p-6">
               <div className="text-3xl mb-3">3️⃣</div>
               <h3 className="font-bold mb-2"><T k="curate.step3head" en="Replicate locally" /></h3>
-              <p className="text-zinc-200 text-sm leading-relaxed">
+              <p className="text-zinc-600 text-sm leading-relaxed">
                 <T k="curate.step3desc" en="Copy the shot list, the angle, the hook. Shoot it in your town, tag it, and pitch it to local clients. That's the whole system." />
               </p>
             </div>
@@ -92,7 +92,7 @@ export default async function CuratePage({ params }: Props) {
           {/* Hashtag bank */}
           <div className="mt-12">
             <h2 className="text-2xl font-bold mb-3">#️⃣ <T k="curate.bankHead" en="The hashtag bank" /></h2>
-            <p className="text-zinc-200 text-sm mb-5"><T k="curate.bankDesc" en="One-click mining. Open any tag on Instagram or TikTok and study the top posts." /></p>
+            <p className="text-zinc-600 text-sm mb-5"><T k="curate.bankDesc" en="One-click mining. Open any tag on Instagram or TikTok and study the top posts." /></p>
             <div className="flex flex-wrap gap-2">
               {topics.flatMap(t => t.hashtags.slice(0, 2)).map((tag, i) => (
                 <a
@@ -111,14 +111,14 @@ export default async function CuratePage({ params }: Props) {
           {/* CTA */}
           <div className="mt-12 bg-gradient-to-br from-red-500/10 to-pink-500/5 border border-red-500/20 rounded-3xl p-8 md:p-12 text-center">
             <h2 className="text-2xl md:text-3xl font-black mb-3"><T k="curate.ctaHead" en="Inspiration is only half the equation" /></h2>
-            <p className="text-zinc-200 max-w-xl mx-auto mb-6">
+            <p className="text-zinc-600 max-w-xl mx-auto mb-6">
               <T k="curate.ctaDesc" en="See the gear each gig needs and how fast it pays for itself. Start with the Gear Match quiz or browse the gig hub." />
             </p>
             <div className="flex flex-wrap justify-center gap-3">
               <Link href={withLang(lang, '/gigs')} className="inline-flex items-center gap-2 px-7 py-3.5 bg-gradient-to-r from-red-500 to-pink-600 text-white font-bold rounded-xl hover:shadow-xl hover:shadow-red-500/25 transition-all">
                 💰 <T k="curate.exploreGigs" en="Explore the Gigs Hub" />
               </Link>
-              <Link href={withLang(lang, '/quiz')} className="inline-flex items-center gap-2 px-7 py-3.5 bg-zinc-800/50 text-white font-bold rounded-xl border border-zinc-700/50 hover:bg-zinc-800 transition-all">
+              <Link href={withLang(lang, '/quiz')} className="inline-flex items-center gap-2 px-7 py-3.5 bg-zinc-900 text-white font-bold rounded-xl border border-zinc-300/50 hover:bg-zinc-100 transition-all">
                 🎯 <T k="curate.quiz" en="Gear Match Quiz" />
               </Link>
             </div>

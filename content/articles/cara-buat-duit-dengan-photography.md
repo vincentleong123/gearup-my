@@ -95,6 +95,7 @@ Ajar fotografi kepada pemula. Boleh buat **online atau face-to-face.** Kalau kau
 Kelas photography di Malaysia boleh capai RM100–200 per peserta. Kalau 10 orang join? Dah RM1,000–2,000 dalam beberapa jam sahaja.
 
 ## Pendapatan bulanan tipikal
+![Kamera DSLR di samping kalkulator dan kertas penyata pendapatan](/blog/cara-buat-duit-dengan-photography-pendapatan.jpg "Photographer sambilan di KL biasanya kumpul RM1,500-3,000 sebulan.")
 
 | Tahap | Sumber | Pendapatan/Bulan |
 | --- | --- | --- |
@@ -116,6 +117,7 @@ Ok ni part yang orang selalu tipu. Yang betul punya income breakdown:
 Jangan percaya orang cakap "Belajar photography 1 bulan, terus RM5,000 sebulan." Itu tipu la. Tapi dengan usaha yang betul, **6 bulan dah boleh ada side income yang stabil.**
 
 ## Cara mula dari zero
+![Beg galas kamera mengandungi badan DSLR, lens dan flash kecil untuk kerja pertama](/blog/cara-buat-duit-dengan-photography-beg-gear.jpg "Mula dengan satu pakej mudah: badan, satu lens, satu flash kecil.")
 
 1. **Pilih satu niche** — jangan cuba buat semua sekali. Pick konvokesyen atau potret untuk start.
 2. **Bina portfolio percuma** — ambil gambar kawan/keluarga. Siapa suruh bayar kalau baru nak mula?

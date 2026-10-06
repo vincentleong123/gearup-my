@@ -60,6 +60,7 @@ Tripod phone RM25 — untuk video stabil, untuk photo malam guna timer. Serious,
 Lensa clip-on — optional, tapi kalau kau shoot makanan atau landscape, wide angle tolong banget. RM30 je.
 
 ## Skill wajib untuk photographer pemula
+![Kamera DSLR entry level, lens kit dan kad memori mengikut bajet RM500](/blog/cara-mula-photography-rm500-gear.jpg "RM500 cukup untuk badan terpakai dan kit lens - skill datang kemudian.")
 
 ### 1. Komposisi
 - **Rule of thirds** — letak subjek di sepertiga frame. Jangan letak tengah-tengah — bosan.
@@ -123,6 +124,7 @@ Ni plan yang aku buat kalau aku nak mula dari zero dengan RM500:
 Dalam satu bulan, kalau kau follow plan ni, kau bukan sahaja akan ada gear yang berfungsi, tapi kau akan ada portfolio, network, dan mungkin satu gig pertama. Dan gig pertama tu? Itulah yang akan bagi kau momentum untuk teruskan.
 
 ## Mula buat duit
+![Kamera DSLR terpakai di samping sampul bayaran kerja fotografi](/blog/cara-mula-photography-rm500-portfolio.jpg "Client pertama biasanya datang dari satu gambar yang kau tunjuk dekat phone.")
 
 Selepas portfolio 10–20 gambar:
 1. Iklan di Facebook Group photography di kawasan anda.

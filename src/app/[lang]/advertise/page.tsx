@@ -75,7 +75,7 @@ export default async function AdvertisePage({ params }: Props) {
             <h1 className="text-4xl md:text-6xl font-black mb-4">
               <T k="advertise.hero.head" en="Reach the creators who" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-pink-500 to-fuchsia-500"><T k="advertise.hero.accent" en="buy and recommend" /></span> <T k="advertise.hero.head2" en="your gear" />
             </h1>
-            <p className="text-zinc-200 text-lg leading-relaxed">
+            <p className="text-zinc-600 text-lg leading-relaxed">
               <T k="advertise.hero.desc" en="Kameralog is where Malaysian photographers, vloggers and side-hustle creators decide what to buy. Transparent metrics, honest editorial, and rates that make sense for local brands." />
             </p>
             <a
@@ -89,11 +89,11 @@ export default async function AdvertisePage({ params }: Props) {
           {/* Audience stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
             {stats.map(s => (
-              <div key={s.key} className="gradient-border rounded-2xl bg-zinc-900/70 p-6 text-center">
+              <div key={s.key} className="gradient-border rounded-2xl bg-white/70 p-6 text-center">
                 <div className="text-3xl md:text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-pink-500">
                   {s.value}
                 </div>
-                <div className="text-sm text-zinc-200 mt-1"><T k={s.key} en={s.key} /></div>
+                <div className="text-sm text-zinc-600 mt-1"><T k={s.key} en={s.key} /></div>
               </div>
             ))}
           </div>
@@ -102,36 +102,36 @@ export default async function AdvertisePage({ params }: Props) {
           <h2 className="text-2xl md:text-3xl font-black mb-8"><T k="advertise.formatsHead" en="Ad formats & honest rates" /></h2>
           <div className="grid md:grid-cols-2 gap-6 mb-16">
             {formats.map(f => (
-              <div key={f.name} className="bg-zinc-900/80 border border-zinc-800 rounded-2xl p-6 hover:border-pink-500/30 transition-all duration-300">
+              <div key={f.name} className="bg-white/80 border border-zinc-200 rounded-2xl p-6 hover:border-pink-500/30 transition-all duration-300">
                 <div className="flex items-center justify-between mb-3">
                   <h3 className="text-lg font-bold">{f.name}</h3>
                   <span className="text-sm font-black text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-pink-500">{f.price}</span>
                 </div>
-                <p className="text-xs text-zinc-200 uppercase tracking-wider mb-2">{f.format}</p>
-                <p className="text-sm text-zinc-200">{f.detail}</p>
+                <p className="text-xs text-zinc-600 uppercase tracking-wider mb-2">{f.format}</p>
+                <p className="text-sm text-zinc-600">{f.detail}</p>
               </div>
             ))}
           </div>
 
           {/* Honesty section */}
-          <div className="gradient-border rounded-3xl bg-zinc-900/70 p-8 md:p-10 mb-16">
+          <div className="gradient-border rounded-3xl bg-white/70 p-8 md:p-10 mb-16">
             <h2 className="text-2xl md:text-3xl font-black mb-4"><T k="advertise.trustHead" en="Why advertisers trust us" /></h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div>
                 <h3 className="font-bold mb-2"><T k="advertise.trust1t" en="🔒 No inflated numbers" /></h3>
-                <p className="text-sm text-zinc-200">
+                <p className="text-sm text-zinc-600">
                   <T k="advertise.trust1d" en="We won&rsquo;t pad the numbers. When you book, we share our real, current analytics (sessions, pageviews, geography) so you know exactly what you&rsquo;re buying — before and after." />
                 </p>
               </div>
               <div>
                 <h3 className="font-bold mb-2"><T k="advertise.trust2t" en="🖊️ Editorial stays independent" /></h3>
-                <p className="text-sm text-zinc-200">
+                <p className="text-sm text-zinc-600">
                   <T k="advertise.trust2d" en="Sponsored reviews are always labelled. If a product is bad, we say so — that's why our readers trust our recommendations." />
                 </p>
               </div>
               <div>
                 <h3 className="font-bold mb-2"><T k="advertise.trust3t" en="🇲🇾 Malaysian first" /></h3>
-                <p className="text-sm text-zinc-200">
+                <p className="text-sm text-zinc-600">
                   <T k="advertise.trust3d" en="Prices in ringgit, stores that ship to Malaysia, and creators like your actual customers." />
                 </p>
               </div>
@@ -142,36 +142,36 @@ export default async function AdvertisePage({ params }: Props) {
           <div className="max-w-3xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-black mb-6 text-center"><T k="advertise.faqHead" en="Common questions" /></h2>
             <div className="space-y-4">
-              <details className="bg-zinc-900/80 border border-zinc-800 rounded-xl p-5 group">
+              <details className="bg-white/80 border border-zinc-200 rounded-xl p-5 group">
                 <summary className="font-semibold cursor-pointer list-none flex justify-between items-center">
                   <T k="advertise.faq1q" en="Can I see real traffic numbers before booking?" />
                   <span className="text-pink-400 group-open:rotate-45 transition-transform">+</span>
                 </summary>
-                <p className="text-sm text-zinc-200 mt-3">
+                <p className="text-sm text-zinc-600 mt-3">
                   <T k="advertise.faq1a" en="Yes — email us and we'll share current analytics (sessions, pageviews, geography) so you know exactly what you're buying." />
                 </p>
               </details>
-              <details className="bg-zinc-900/80 border border-zinc-800 rounded-xl p-5 group">
+              <details className="bg-white/80 border border-zinc-200 rounded-xl p-5 group">
                 <summary className="font-semibold cursor-pointer list-none flex justify-between items-center">
                   <T k="advertise.faq2q" en="How does sponsored content stay honest?" />
                   <span className="text-pink-400 group-open:rotate-45 transition-transform">+</span>
                 </summary>
-                <p className="text-sm text-zinc-200 mt-3">
+                <p className="text-sm text-zinc-600 mt-3">
                   <T k="advertise.faq2a" en="Every sponsored post carries a visible disclosure. We keep our scoring (ROI score, pros/cons) genuine — readers stay because we don't flatter products." />
                 </p>
               </details>
-              <details className="bg-zinc-900/80 border border-zinc-800 rounded-xl p-5 group">
+              <details className="bg-white/80 border border-zinc-200 rounded-xl p-5 group">
                 <summary className="font-semibold cursor-pointer list-none flex justify-between items-center">
                   <T k="advertise.faq3q" en="Do you accept affiliate links or exchanges?" />
                   <span className="text-pink-400 group-open:rotate-45 transition-transform">+</span>
                 </summary>
-                <p className="text-sm text-zinc-200 mt-3">
+                <p className="text-sm text-zinc-600 mt-3">
                   <T k="advertise.faq3a" en="Cash first, always. Products for review are fine, but ads and sponsored posts are paid placements. Contact us to discuss." />
                 </p>
               </details>
             </div>
             <div className="text-center mt-10">
-              <p className="text-zinc-200 text-sm mb-3"><T k="advertise.talk" en="Prefer to talk first? Email us and we'll reply within 48 hours." /></p>
+              <p className="text-zinc-600 text-sm mb-3"><T k="advertise.talk" en="Prefer to talk first? Email us and we'll reply within 48 hours." /></p>
               <Link href={withLang(lang, '/')} className="text-pink-400 hover:text-pink-300 font-semibold underline underline-offset-2"><T k="advertise.back" en="← Back to Kameralog" /></Link>
             </div>
           </div>

@@ -42,6 +42,7 @@ Camera gimbal kecil. Stabilisasi mekanikal, video 4K, dan saiz yang sangat kecil
 - Harga second hand stabil
 
 ## Insta360 â€” rajanya 360 & creative camera
+![Kamera 360 dengan lens fisheye besar untuk konten creator Malaysia](/blog/dji-vs-instax360-kamera-360.jpg "Kamera 360 bagi kesan reframing yang drone tak boleh buat dalam rumah.")
 
 ### Produk utama Insta360 untuk creator Malaysia
 
@@ -71,6 +72,7 @@ Action camera dengan Leica lens. AI editing features, dan kualiti gambar yang sa
 | Harga | Lebih mahal | Lebih murah |
 
 ## Untuk creator Malaysia, mana satu?
+![Drone lipat dan kamera 360 di atas meja kerja content creator](/blog/dji-vs-instax360-meja-creator.jpg "Drone untuk luar dan skala; 360 untuk konten dekat dan editing laju.")
 
 - **Nak drone?** DJI tiada tandingan.
 - **Nak action camera untuk outdoor?** Kedua-duanya bagus. DJI untuk ketahanan, Insta360 untuk features.

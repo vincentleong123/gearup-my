@@ -21,7 +21,6 @@ export const categories = [
   { id: 'action', label: 'Action / 360°' },
   { id: 'audio', label: 'Audio' },
   { id: 'security', label: 'CCTV & Security' },
-  { id: 'dashcam', label: 'Dashcams' },
 ] as const;
 
 export function getGearBySlug(slug: string) {

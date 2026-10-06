@@ -23,6 +23,7 @@ lang: ms
 Photography bukan satu sahaja â€” ada portrait, landscape, street, product, dan banyak lagi. Setiap gaya memerlukan kamera dan lensa yang berbeza. Ini panduan untuk pilih kamera berdasarkan apa yang anda suka tangkap.
 
 ## Gaya photography dan kamera yang sesuai
+![Kamera mirrorless dengan dua lens berbeza untuk potret dan landskap](/blog/kamera-untuk-photography-malaysia-dua-lens.jpg "Satu badan, dua lens - dah tutup keperluan potret dan landskap.")
 
 ### 1. Portrait â€” Nikmati bokeh
 
@@ -71,6 +72,7 @@ Photography bukan satu sahaja â€” ada portrait, landscape, street, product,
 - Canon 70D + 55-250mm (RM1,100â€“1,700 total)
 
 ## Ringkasan: kamera untuk setiap gaya
+![Susunan tiga kamera bersaiz berbeza mengikut gaya photography di atas meja putih](/blog/kamera-untuk-photography-malaysia-senarai-gaya.jpg "Potret, landskap, street - setiap gaya ada badan yang lebih sesuai.")
 
 | Gaya | Combo Terbaik | Harga |
 | --- | --- | --- |

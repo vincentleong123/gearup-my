@@ -45,7 +45,7 @@ export default async function AboutPage({ params }: Props) {
             <h1 className="text-4xl md:text-6xl font-black mb-4">
               <T k="about.head" en="Gear that" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-pink-500 to-fuchsia-500"><T k="about.headAccent" en="pays for itself" /></span>
             </h1>
-            <p className="text-zinc-200 text-lg leading-relaxed">
+            <p className="text-zinc-600 text-lg leading-relaxed">
               <T k="about.desc" en="Kameralog is a Malaysian camera and gear review journal. We review gear the way a working Malaysian creator actually uses it — for gigs, side hustles, and content that brings in money." />
             </p>
           </div>
@@ -53,33 +53,33 @@ export default async function AboutPage({ params }: Props) {
           <div className="prose prose-invert prose-zinc max-w-none space-y-8 mb-16">
             <section>
               <h2 className="text-2xl font-bold"><T k="about.what.t" en="What we do" /></h2>
-              <p className="text-zinc-200 leading-relaxed"><T k="about.what.d" en="Every review answers one question: how fast does this gear pay for itself? We score ROI, compare second-hand prices in Malaysia (from Mudah.my, Carousell, and shops), and tie each recommendation to a real gig you can take — graduation shoots, event coverage, real estate video, and more." /></p>
+              <p className="text-zinc-600 leading-relaxed"><T k="about.what.d" en="Every review answers one question: how fast does this gear pay for itself? We score ROI, compare second-hand prices in Malaysia (from Mudah.my, Carousell, and shops), and tie each recommendation to a real gig you can take — graduation shoots, event coverage, real estate video, and more." /></p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold"><T k="about.who.t" en="Who this is for" /></h2>
-              <p className="text-zinc-200 leading-relaxed"><T k="about.who.d" en="Students, fresh grads, and anyone building a side income with a camera. If you&rsquo;re deciding whether to spend RM2,000 on your first serious camera, or which lens to buy next, we do the math for you first." /></p>
+              <p className="text-zinc-600 leading-relaxed"><T k="about.who.d" en="Students, fresh grads, and anyone building a side income with a camera. If you&rsquo;re deciding whether to spend RM2,000 on your first serious camera, or which lens to buy next, we do the math for you first." /></p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold"><T k="about.story.t" en="The story" /></h2>
-              <p className="text-zinc-200 leading-relaxed"><T k="about.story.d" en="Kameralog started life as a personal log of cameras we wished we could buy. Over time it became something more useful: a record of what Malaysian creators actually use, what gigs actually pay, and which gear actually earns its keep. Today it&rsquo;s a full review journal in English, Bahasa Melayu, and 中文." /></p>
+              <p className="text-zinc-600 leading-relaxed"><T k="about.story.d" en="Kameralog started life as a personal log of cameras we wished we could buy. Over time it became something more useful: a record of what Malaysian creators actually use, what gigs actually pay, and which gear actually earns its keep. Today it&rsquo;s a full review journal in English, Bahasa Melayu, and 中文." /></p>
             </section>
           </div>
 
           <h2 className="text-2xl md:text-3xl font-black mb-8"><T k="about.valuesHead" en="What we stand for" /></h2>
           <div className="grid md:grid-cols-3 gap-6 mb-16">
             {values.map(v => (
-              <div key={v.key} className="bg-zinc-900/80 border border-zinc-800 rounded-2xl p-6">
+              <div key={v.key} className="bg-white/80 border border-zinc-200 rounded-2xl p-6">
                 <h3 className="font-bold mb-2"><T k={v.key} en={v.en} /></h3>
-                <p className="text-sm text-zinc-200"><T k={v.d} en={v.den} /></p>
+                <p className="text-sm text-zinc-600"><T k={v.d} en={v.den} /></p>
               </div>
             ))}
           </div>
 
-          <div className="gradient-border rounded-3xl bg-zinc-900/70 p-8 md:p-10 text-center">
+          <div className="gradient-border rounded-3xl bg-white/70 p-8 md:p-10 text-center">
             <h2 className="text-2xl font-black mb-3"><T k="about.cta.t" en="Got a gear question?" /></h2>
-            <p className="text-zinc-200 mb-6"><T k="about.cta.d" en="We answer reader questions in the blog and on new reviews." /></p>
+            <p className="text-zinc-600 mb-6"><T k="about.cta.d" en="We answer reader questions in the blog and on new reviews." /></p>
             <a
               href="mailto:cameralogue@gmail.com?subject=Question%20for%20Kameralog"
               className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-red-500 to-pink-600 text-white font-bold rounded-xl shadow-lg shadow-pink-600/25 hover:shadow-pink-500/40 hover:-translate-y-0.5 transition-all duration-300"

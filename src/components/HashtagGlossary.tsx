@@ -82,13 +82,13 @@ export default function HashtagGlossary() {
     <div>
       {/* Search */}
       <div className="relative max-w-2xl mx-auto mb-8">
-        <div className="flex items-center gap-2 bg-zinc-900/70 border border-zinc-700/60 rounded-2xl px-4 py-3 focus-within:border-pink-500/50 transition-colors">
+        <div className="flex items-center gap-2 bg-white/70 border border-zinc-300/60 rounded-2xl px-4 py-3 focus-within:border-pink-500/50 transition-colors">
           <span className="text-lg">🔍</span>
           <input
             value={query}
             onChange={e => { setQuery(e.target.value); if (activeTag) clearTag(); }}
             placeholder='Search hashtags like "DJIOSMO" or "IPHONE17PRO"…'
-            className="w-full bg-transparent text-zinc-100 placeholder-zinc-500 outline-none text-sm"
+            className="w-full bg-transparent text-zinc-900 placeholder-zinc-500 outline-none text-sm"
           />
           {activeTag && (
             <button onClick={clearTag} className="text-xs font-bold text-pink-400 hover:text-pink-300">
@@ -97,15 +97,15 @@ export default function HashtagGlossary() {
           )}
         </div>
         {matchedTags.length > 0 && (
-          <div className="absolute z-20 mt-2 w-full bg-zinc-900 border border-zinc-700/60 rounded-2xl overflow-hidden shadow-2xl shadow-black/50">
+          <div className="absolute z-20 mt-2 w-full bg-white border border-zinc-300/60 rounded-2xl overflow-hidden shadow-2xl shadow-black/50">
             {matchedTags.map(t => (
               <button
                 key={t.tag}
                 onClick={() => selectTag(t.tag)}
-                className="w-full text-left px-4 py-3 hover:bg-zinc-800/60 transition-colors flex items-center justify-between gap-3"
+                className="w-full text-left px-4 py-3 hover:bg-zinc-100/60 transition-colors flex items-center justify-between gap-3"
               >
                 <span className="font-bold text-cyan-300 text-sm">#{t.tag}</span>
-                <span className="text-xs text-zinc-200">{t.gearName}</span>
+                <span className="text-xs text-zinc-600">{t.gearName}</span>
               </button>
             ))}
           </div>
@@ -121,7 +121,7 @@ export default function HashtagGlossary() {
             className={`inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold border transition-all duration-200 ${
               cat === c.id
                 ? 'bg-gradient-to-r from-red-500 to-pink-600 text-white border-transparent shadow-lg shadow-pink-600/25'
-                : 'bg-white/5 text-zinc-200 border-white/10 hover:text-white hover:border-pink-500/40 hover:bg-white/10'
+                : 'bg-zinc-100 text-zinc-600 border-zinc-200 hover:text-zinc-900 hover:border-pink-500/40 hover:bg-white'
             }`}
           >
             <span>{c.emoji}</span>
@@ -135,11 +135,11 @@ export default function HashtagGlossary() {
         <div className="max-w-2xl mx-auto mb-8 text-center">
           <div className="inline-flex items-center gap-3 bg-cyan-500/10 border border-cyan-500/30 rounded-full px-5 py-2">
             <span className="text-2xl font-black text-cyan-300">#{activeTag}</span>
-            <button onClick={clearTag} className="text-xs font-bold text-zinc-200 hover:text-white ml-2">
+            <button onClick={clearTag} className="text-xs font-bold text-zinc-600 hover:text-red-600 ml-2">
               ✕ clear
             </button>
           </div>
-          <p className="text-sm text-zinc-200 mt-3">
+          <p className="text-sm text-zinc-600 mt-3">
             Curated on-site posts for this hashtag — settings, gear, and how many gigs to pay it off.
           </p>
         </div>
@@ -154,7 +154,7 @@ export default function HashtagGlossary() {
             className={`text-xs font-bold px-3 py-1.5 rounded-full border transition-all ${
               activeTag === t.tag.toUpperCase()
                 ? 'bg-cyan-500/15 text-cyan-300 border-cyan-500/40'
-                : 'bg-zinc-800/50 text-zinc-200 hover:text-white border-zinc-700/50 hover:border-pink-500/40'
+                : 'bg-zinc-100 text-zinc-600 hover:text-zinc-900 border-zinc-300/50 hover:border-pink-500/40'
             }`}
           >
             #{t.tag}
@@ -169,8 +169,8 @@ export default function HashtagGlossary() {
           const paths = gear ? getPayoffPath(gear) : [];
           const best = paths[0];
           return (
-            <article key={post.id} className="group bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-pink-500/40 hover:-translate-y-1 hover:shadow-xl hover:shadow-pink-600/5 transition-all duration-300 flex flex-col">
-              <Link href={withLang(lang, `/gear/${post.gearSlug}`)} className="block relative aspect-[16/10] overflow-hidden bg-zinc-900">
+            <article key={post.id} className="group bg-white/60 border border-zinc-200 rounded-2xl overflow-hidden hover:border-pink-500/40 hover:-translate-y-1 hover:shadow-xl hover:shadow-pink-600/5 transition-all duration-300 flex flex-col">
+              <Link href={withLang(lang, `/gear/${post.gearSlug}`)} className="block relative aspect-[16/10] overflow-hidden bg-white">
                 <img
                   src={post.image}
                   alt={post.title}
@@ -191,13 +191,13 @@ export default function HashtagGlossary() {
 
               <div className="p-5 flex flex-col flex-1">
                 <h3 className="font-bold text-base leading-snug group-hover:text-pink-400 transition-colors mb-2">{post.title}</h3>
-                <p className="text-sm text-zinc-200 mb-4">{post.caption}</p>
+                <p className="text-sm text-zinc-600 mb-4">{post.caption}</p>
 
-                <div className="bg-zinc-950/60 border border-zinc-800 rounded-xl p-4 mb-4">
+                <div className="bg-zinc-100/60 border border-zinc-200 rounded-xl p-4 mb-4">
                   <div className="text-xs font-bold uppercase tracking-wider text-cyan-400 mb-2">⚙️ Settings recipe</div>
                   <ul className="space-y-1.5">
                     {post.settings.map((s, i) => (
-                      <li key={i} className="text-xs text-zinc-200 flex gap-2">
+                      <li key={i} className="text-xs text-zinc-600 flex gap-2">
                         <span className="text-pink-400 shrink-0">›</span>
                         <span>{s}</span>
                       </li>
@@ -205,7 +205,7 @@ export default function HashtagGlossary() {
                   </ul>
                 </div>
 
-                <div className="text-xs text-zinc-200 mb-4">
+                <div className="text-xs text-zinc-600 mb-4">
                   <span className="font-bold text-amber-400">💡 {post.tip}</span>
                 </div>
 
@@ -215,16 +215,16 @@ export default function HashtagGlossary() {
                     {best ? (
                       <>
                         <div className="text-xs font-bold uppercase tracking-wider text-amber-400 mb-1">💰 Pay it off</div>
-                        <div className="text-xs text-zinc-200">
+                        <div className="text-xs text-zinc-600">
                           <Link href={withLang(lang, `/gigs/${best.gig.slug}`)} className="font-bold text-amber-400 hover:text-amber-300">
                             {best.minGigs === best.maxGigs ? best.minGigs : `${best.minGigs}-${best.maxGigs}`}
                           </Link>{' '}
-                          <span className="text-zinc-300">{best.gig.title}</span>
-                          <span className="text-zinc-200"> to own the {gear.name}</span>
+                          <span className="text-zinc-600">{best.gig.title}</span>
+                          <span className="text-zinc-600"> to own the {gear.name}</span>
                         </div>
                       </>
                     ) : (
-                      <div className="text-xs text-zinc-300">
+                      <div className="text-xs text-zinc-600">
                         <span className="font-bold text-amber-400">💰</span> Already in your pocket — pure profit.
                       </div>
                     )}
@@ -237,15 +237,15 @@ export default function HashtagGlossary() {
       </div>
 
       {filtered.length === 0 && (
-        <p className="text-center text-zinc-200 py-16">
+        <p className="text-center text-zinc-600 py-16">
           No curated posts yet for "{query || activeTag}". Try another hashtag or category.
         </p>
       )}
 
       {/* All hashtags glossary strip */}
-      <div className="mt-14 bg-zinc-900/40 border border-zinc-800 rounded-2xl p-6">
+      <div className="mt-14 bg-white/40 border border-zinc-200 rounded-2xl p-6">
         <h2 className="text-xl font-black mb-1">🏷️ Full Hashtag Glossary</h2>
-        <p className="text-sm text-zinc-200 mb-4">
+        <p className="text-sm text-zinc-600 mb-4">
           Every gear hashtag this site curates — tap any to see its on-site posts and pay-off math.
         </p>
         <div className="flex flex-wrap gap-2">
@@ -253,7 +253,7 @@ export default function HashtagGlossary() {
             <button
               key={`${t.tag}-${t.gearSlug}`}
               onClick={() => selectTag(t.tag)}
-              className="text-xs font-bold px-3 py-1.5 rounded-lg bg-zinc-800/60 border border-zinc-700/50 text-cyan-300 hover:border-pink-500/40 hover:text-white transition-all"
+              className="text-xs font-bold px-3 py-1.5 rounded-lg bg-zinc-100 border border-zinc-300/50 text-cyan-700 hover:border-pink-500/40 hover:text-white transition-all"
               title={t.gearName}
             >
               #{t.tag}

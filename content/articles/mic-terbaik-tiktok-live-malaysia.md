@@ -35,6 +35,7 @@ Untuk TikTok live specifically, kau tengah compete dengan beribu-ribu live strea
 Satu lagi benda — **TikTok algorithm favor live streams yang retain viewers.** Semakin lama orang stay, semakin banyak reach kau dapat. Audio buruk = viewers keluar cepat = algorithm tak push kau. Vicious circle.
 
 ## Pilihan mic mengikut bajet
+![Tiga jenis mikrofon - shotgun, wireless dan lapel disusun di atas meja](/blog/mic-terbaik-tiktok-live-malaysia-senarai.jpg "Wireless clip-on paling mudah untuk live seorang diri.")
 
 ### Bawah RM100 — Untuk mula
 
@@ -75,6 +76,7 @@ Kenapa? Sebab wireless mic bagi freedom untuk kau bergerak. Kau boleh berdiri, d
 Tapi kalau aku baru nak start? **Aku still akan recommend Boya BY-M1.** RM50 je, quality dah cukup baik untuk live. Jangan invest heavy sebelum kau tahu live tu memang untuk kau.
 
 ## Setup TikTok live terbaik mengikut bajet
+![Phone pada tripod dengan mikrofon wireless dan lampu untuk live TikTok](/blog/mic-terbaik-tiktok-live-malaysia-setup.jpg "Mic dulu, cahaya kemudian - audio buruk buat orang scroll cepat.")
 
 | Bajet | Mic | Kamera | Jumlah |
 | --- | --- | --- | --- |

@@ -29,6 +29,7 @@ Indonesia is massive â€” 270 million people, a booming creator economy, and
 4. **Creator economy boom** â€” Indonesian TikTokers and YouTubers are driving massive demand.
 
 ## Where to buy camera gear in Indonesia
+![Camera retail counter in Jakarta with bodies and lenses under glass](/blog/indonesia-camera-gear-jakarta-store.jpg "Jakarta's camera malls price close to KL once you skip the tourist rows.")
 
 ### Jakarta
 
@@ -56,6 +57,7 @@ Indonesia is massive â€” 270 million people, a booming creator economy, and
 | Others | ~15% | Olympus, Panasonic, etc. |
 
 ## Price comparison: Indonesia vs Malaysia
+![Camera body with Indonesian rupiah notes and a notebook for price checking](/blog/indonesia-camera-gear-price-comparison.jpg "Compare in ringgit before you fly - some bodies are cheaper at home.")
 
 | Camera | Indonesia (IDRâ†’RM) | Malaysia (RM) | Notes |
 | --- | --- | --- |--- |

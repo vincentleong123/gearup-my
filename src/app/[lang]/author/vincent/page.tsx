@@ -56,12 +56,12 @@ export default async function AuthorPage({ params }: Props) {
             </div>
             <div>
               <h1 className="text-4xl md:text-5xl font-black mb-3">Vincent Leong</h1>
-              <p className="text-lg text-zinc-200 mb-4">Camera Gear Reviewer & Content Creator</p>
-              <p className="text-zinc-200 leading-relaxed">
+              <p className="text-lg text-zinc-600 mb-4">Camera Gear Reviewer & Content Creator</p>
+              <p className="text-zinc-600 leading-relaxed">
                 10+ years in photography and videography. Built Kameralog to answer one question:
                 <strong className="text-amber-300"> how fast does this gear pay for itself?</strong>
               </p>
-              <p className="text-zinc-200 leading-relaxed mt-3">
+              <p className="text-zinc-600 leading-relaxed mt-3">
                 Based in Malaysia. Reviews gear the way a working creator actually uses it — for graduation shoots,
                 wedding coverage, real estate video, TikTok content, and side hustles that actually bring in money.
                 Real second-hand prices from Mudah, Carousell, and local shops.
@@ -74,7 +74,7 @@ export default async function AuthorPage({ params }: Props) {
             <h2 className="text-2xl font-bold mb-6">Expertise</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
               {['Camera Reviews', 'Drone Photography', 'Second-Hand Market', 'Content Creation', 'Video Production', 'Gear ROI', 'Malaysian Creator Economy', 'Side Hustle Strategy'].map(t => (
-                <div key={t} className="bg-zinc-900/60 border border-zinc-800 rounded-xl px-4 py-3 text-sm text-zinc-200 text-center">{t}</div>
+                <div key={t} className="bg-white/60 border border-zinc-200 rounded-xl px-4 py-3 text-sm text-zinc-600 text-center">{t}</div>
               ))}
             </div>
           </div>
@@ -85,10 +85,10 @@ export default async function AuthorPage({ params }: Props) {
               <h2 className="text-2xl font-bold mb-6">Articles by Vincent</h2>
               <div className="grid md:grid-cols-2 gap-4">
                 {authorArticles.map(a => (
-                  <Link key={a.slug} href={withLang(lang, `/blog/${a.slug}`)} className="block bg-zinc-900/60 border border-zinc-800 rounded-xl p-5 hover:border-red-500/30 transition-all group">
+                  <Link key={a.slug} href={withLang(lang, `/blog/${a.slug}`)} className="block bg-white/60 border border-zinc-200 rounded-xl p-5 hover:border-red-500/30 transition-all group">
                     <h3 className="font-bold group-hover:text-red-400 transition-colors mb-2">{a.title}</h3>
-                    <p className="text-sm text-zinc-200 line-clamp-2">{a.description}</p>
-                    <span className="text-xs text-zinc-200 mt-2 block">{a.date} · {a.readTime} min read</span>
+                    <p className="text-sm text-zinc-600 line-clamp-2">{a.description}</p>
+                    <span className="text-xs text-zinc-600 mt-2 block">{a.date} · {a.readTime} min read</span>
                   </Link>
                 ))}
               </div>

@@ -35,6 +35,7 @@ Masa aku mula-mula jadi photographer, aku sewa dulu. RM80 sehari untuk Sony A610
 | Rode Wireless Go II | RM30–50 | RM150–250 |
 
 ## Bila patut SEWA
+![Kamera mirrorless dan lens disiapkan untuk disewa di kaunter sewa kamera Malaysia](/blog/camera-rental-vs-buy-kaunter-sewa.jpg "Sewa bulanan biasanya 15-20% daripada harga beli - sesuai bila projek dah confirm.")
 
 1. **Anda belum pasti nak kekal dalam photography** — sewa dulu sebelum commit.
 2. **Anda perlukan kamera untuk 1-2 gig sahaja** — wedding kawan, event khas.
@@ -55,6 +56,7 @@ Tapi kalau kau cuma nak shoot wedding kawan sekali dalam setahun, jangan beli. S
 Satu lagi yang penting — kalau kau dah tahu niche kau, kau perlu konsisten dengan gear. Kau tak boleh shoot wedding pakai Canon 60D, lepas tu shoot product pakai Sony A6100. Client kau akan nampak beza warna dan kualiti. Better kau stick dengan satu kamera dan hafal semua setting dia. Shoot, shoot, shoot, sampai kau boleh adjust semua tanpa tengok menu.
 
 ## Kira sendiri: sewa vs beli
+![Kamera, kalkulator dan wang tunai mengira kos sewa berbanding beli](/blog/camera-rental-vs-buy-kira-kos.jpg "Kira kos setiap projek, bukan kos sebulan - itu yang tentukan sewa atau beli.")
 
 **Formula:** Bila (Jumlah Sewa) > (Harga Beli)?
 

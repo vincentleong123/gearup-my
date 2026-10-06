@@ -92,7 +92,7 @@ export const ENVIRONMENTS = ['factory', 'warehouse', 'retail', 'office', 'home',
 
 export const DEPLOYMENTS = ['nvr-poe', 'wifi', 'cloud', 'hybrid'] as const;
 
-export const GEAR_CATEGORIES = ['camera', 'mobile', 'drone', 'action', 'audio', 'security', 'dashcam'] as const;
+export const GEAR_CATEGORIES = ['camera', 'mobile', 'drone', 'action', 'audio', 'security'] as const;
 
 export const GEAR_LEVELS = ['beginner', 'mid', 'pro'] as const;
 
@@ -268,13 +268,13 @@ const securitySystemFields: FieldDef[] = [
 ];
 
 const gearFields: FieldDef[] = [
-  { name: 'slug', label: 'Slug', type: 'text', required: true, hint: 'URL segment, lowercase with dashes', placeholder: '70mai-a500s-review-malaysia' },
-  { name: 'name', label: 'Gear name', type: 'text', required: true, hint: 'Product name, e.g. "70mai A500S"' },
+  { name: 'slug', label: 'Slug', type: 'text', required: true, hint: 'URL segment, lowercase with dashes', placeholder: 'sony-a6100-review-malaysia' },
+  { name: 'name', label: 'Gear name', type: 'text', required: true, hint: 'Product name, e.g. "Sony A6100"' },
   { name: 'category', label: 'Category', type: 'select', options: [...GEAR_CATEGORIES], required: true },
   { name: 'level', label: 'Skill level', type: 'select', options: [...GEAR_LEVELS], defaultValue: 'beginner' },
   { name: 'priceNew', label: 'Price new (RM)', type: 'number', hint: '0 if no longer sold new' },
   { name: 'priceUsed', label: 'Price used (RM)', type: 'number', hint: 'Typical second-hand price in Malaysia' },
-  { name: 'type', label: 'Type', type: 'text', placeholder: '2K Front Dashcam' },
+  { name: 'type', label: 'Type', type: 'text', placeholder: 'APS-C Mirrorless' },
   { name: 'sensor', label: 'Sensor', type: 'text', placeholder: '5MP Sony IMX335' },
   { name: 'video', label: 'Video spec', type: 'text', placeholder: '2K @ 30fps' },
   { name: 'weight', label: 'Weight', type: 'text', placeholder: '90g' },

@@ -33,6 +33,7 @@ Malaysia ada beberapa sumber utama untuk kamera bekas:
 - **eBay / KEH Camera** â€” Untuk model jarang. Kena kira cukai import dan kos penghantaran.
 
 ## Berapa harga yang masuk akal?
+![Beberapa kamera terpakai disusun di atas kain gelap di kaunter kedai kamera](/blog/kamera-second-hand-malaysia-kaunter.jpg "Harga masuk akal = 60-75% harga asal, ikut tahun dan berapa banyak shutter.")
 
 | Kamera | Harga Second Hand (Malaysia) |
 | --- | --- |
@@ -54,6 +55,7 @@ Malaysia ada beberapa sumber utama untuk kamera bekas:
 5. **Bateri & charger disertakan** â€” Tanpa ini, anda kena beli RM50â€“150 lagi.
 
 ## Tips beli kamera second hand
+![Badan kamera terpakai tanpa lens memaparkan mount untuk pemeriksaan sebelum beli](/blog/kamera-second-hand-malaysia-semak-mount.jpg "Semak jamur lens, mount longgar dan fungsi sebelum bayar tunai.")
 
 - **Jangan bayar sebelum jumpa** â€” Untuk transaksi face-to-face, jumpa di tempat awam.
 - **Tanya sebab jual** â€” Penjual yang jujur akan bagitahu sebab. "Nak upgrade" lebih baik dari "tak pernah pakai sangat."

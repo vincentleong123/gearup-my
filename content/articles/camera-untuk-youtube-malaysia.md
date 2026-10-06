@@ -30,6 +30,7 @@ YouTube memerlukan lebih dari sekadar kamera. Anda perlu audio yang jelas, penca
 4. **Stabilisasi** â€” Untuk talking head, tripod sudah cukup. Untuk vlogging, kamera perlu stabil.
 
 ## Setup YouTube mengikut bajet
+![Setup rakaman YouTube dengan kamera pada tripod, ring light dan mikrofon](/blog/camera-untuk-youtube-malaysia-setup.jpg "Ring light dan mic RM80 dah naikkan kualiti lebih daripada upgrade kamera.")
 
 ### Bajet RM500 â€” Phone + aksesori
 - **Kamera:** Phone anda (iPhone/Android)
@@ -69,6 +70,7 @@ YouTube memerlukan lebih dari sekadar kamera. Anda perlu audio yang jelas, penca
 | Travel | DJI Action 4 | Kecil, tahan air |
 
 ## Lighting: rahsia YouTube yang baik
+![Lampu panel LED menerangi meja rakaman untuk video YouTube](/blog/camera-untuk-youtube-malaysia-lighting.jpg "Dua lampu murah mengalahkan satu lampu mahal - bayang bawah dagu hilang.")
 
 Anda tak perlu studio rakaman. Yang anda perlukan:
 

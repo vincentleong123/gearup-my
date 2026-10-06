@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "tinacms dev -c \"next dev -p 3002\"",
-    "build": "node scripts/sync-content.mjs && next build",
+    "build": "node scripts/normalize-image-aspects.mjs --quiet && node scripts/sync-content.mjs && next build",
+    "check:images": "node scripts/check-image-aspects.mjs && node scripts/check-empty-src.mjs && node scripts/crawl-check-images.mjs",
     "start": "next start -p 3002",
     "lint": "eslint",
     "sync": "node scripts/sync-content.mjs",

@@ -38,7 +38,7 @@ export default function GlossaryClient() {
           placeholder={t('glossary.search', 'Search terms... (e.g. ISO, bokeh, aperture)')}
           value={search}
           onChange={e => setSearch(e.target.value)}
-          className="flex-1 px-4 py-3 bg-zinc-900/80 border border-zinc-800 rounded-xl text-white placeholder-zinc-500 focus:outline-none focus:border-red-500/50"
+          className="flex-1 px-4 py-3 bg-white border border-zinc-300 rounded-xl text-zinc-900 placeholder-zinc-400 focus:outline-none focus:border-red-500/50"
         />
         <div className="flex gap-2 flex-wrap">
           {categories.map(c => (
@@ -48,7 +48,7 @@ export default function GlossaryClient() {
               className={`px-3 py-2 rounded-lg text-sm font-bold transition-all ${
                 active === c.id
                   ? 'bg-gradient-to-r from-red-500 to-pink-600 text-white'
-                  : 'bg-zinc-800/50 text-zinc-200 hover:text-white border border-zinc-700/50'
+                  : 'bg-zinc-100 text-zinc-600 hover:text-zinc-900 border border-zinc-300/50'
               }`}
             >
               {c.label}
@@ -61,28 +61,28 @@ export default function GlossaryClient() {
         {filtered.map(term => (
           <div
             key={term.term}
-            className="bg-zinc-900/60 border border-zinc-800 rounded-xl overflow-hidden"
+            className="bg-white/60 border border-zinc-200 rounded-xl overflow-hidden"
           >
             <button
               onClick={() => setExpanded(expanded === term.term ? null : term.term)}
-              className="w-full flex items-center justify-between p-4 text-left hover:bg-zinc-800/30 transition-colors"
+              className="w-full flex items-center justify-between p-4 text-left hover:bg-zinc-100/30 transition-colors"
             >
               <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-2 mb-0.5">
                   <span className="font-bold text-lg">{term.term}</span>
-                  <span className="text-xs text-zinc-200 bg-zinc-800 px-2 py-0.5 rounded">{catLabel(term.category)}</span>
+                  <span className="text-xs text-zinc-600 bg-zinc-100 px-2 py-0.5 rounded">{catLabel(term.category)}</span>
                 </div>
-                <p className="text-sm text-zinc-200">{term.shortDef}</p>
+                <p className="text-sm text-zinc-600">{term.shortDef}</p>
               </div>
-              <span className="text-zinc-200 ml-4">{expanded === term.term ? '▲' : '▼'}</span>
+              <span className="text-zinc-600 ml-4">{expanded === term.term ? '▲' : '▼'}</span>
             </button>
             {expanded === term.term && (
-              <div className="px-4 pb-4 border-t border-zinc-800 pt-3 space-y-3">
-                <p className="text-zinc-100 leading-relaxed">{term.longDef}</p>
+              <div className="px-4 pb-4 border-t border-zinc-200 pt-3 space-y-3">
+                <p className="text-zinc-900 leading-relaxed">{term.longDef}</p>
                 {term.manglish && (
                   <div className="bg-cyan-500/5 border border-cyan-500/20 rounded-lg p-3">
                     <span className="text-xs text-cyan-400 font-bold uppercase tracking-wider">{t('glossary.manglishVersion', 'Manglish version')}</span>
-                    <p className="text-zinc-100 mt-1">&quot;{term.manglish}&quot;</p>
+                    <p className="text-zinc-900 mt-1">&quot;{term.manglish}&quot;</p>
                   </div>
                 )}
               </div>
@@ -93,11 +93,11 @@ export default function GlossaryClient() {
 
       {filtered.length === 0 && (
         <div className="text-center py-16">
-          <p className="text-zinc-200">{t('glossary.noResults', 'No terms found. Try a different search.')}</p>
+          <p className="text-zinc-600">{t('glossary.noResults', 'No terms found. Try a different search.')}</p>
         </div>
       )}
 
-      <div className="text-center text-sm text-zinc-300 mt-8">
+      <div className="text-center text-sm text-zinc-600 mt-8">
         {t('glossary.count', '{count} terms · Tap any term to expand').replace('{count}', String(glossary.length))}
       </div>
     </div>

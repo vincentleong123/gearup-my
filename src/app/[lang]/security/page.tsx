@@ -71,7 +71,7 @@ export default async function SecurityPage({ params }: Props) {
               <T k="security.hero.accent" en="don't buy it?" />
             </span>
           </h1>
-          <p className="text-zinc-200 max-w-2xl mx-auto text-lg">
+          <p className="text-zinc-600 max-w-2xl mx-auto text-lg">
             <T
               k="security.hero.desc"
               en="Security camera systems for Malaysian factories, warehouses, retail and offices. Real hardware lineups, Ringgit pricing, and honest incident-exposure ROI — not marketing maths."
@@ -80,7 +80,7 @@ export default async function SecurityPage({ params }: Props) {
         </div>
 
         {systems.length === 0 && (
-          <p className="text-center text-zinc-200 py-20">No security systems published yet — check back soon.</p>
+          <p className="text-center text-zinc-600 py-20">No security systems published yet — check back soon.</p>
         )}
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -94,9 +94,9 @@ export default async function SecurityPage({ params }: Props) {
               <Link
                 key={s.slug}
                 href={withLang(lang, `/security/${s.slug}`)}
-                className="group bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-cyan-500/30 hover:-translate-y-1 transition-all duration-300 flex flex-col"
+                className="group bg-white/60 border border-zinc-200 rounded-2xl overflow-hidden hover:border-cyan-500/30 hover:-translate-y-1 transition-all duration-300 flex flex-col"
               >
-                <div className="h-44 relative bg-zinc-900 overflow-hidden">
+                <div className="h-44 relative bg-white overflow-hidden">
                   {heroSrc(s) ? (
                     <img src={heroSrc(s)} alt={s.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                   ) : (
@@ -108,26 +108,26 @@ export default async function SecurityPage({ params }: Props) {
                   </span>
                   <div className="absolute bottom-3 left-4 right-4">
                     <div className="flex gap-2 text-xs font-bold uppercase tracking-wider">
-                      {s.environment && <span className="px-2 py-0.5 rounded bg-zinc-950/70 text-zinc-300">{s.environment}</span>}
-                      {s.deployment && <span className="px-2 py-0.5 rounded bg-zinc-950/70 text-zinc-300">{s.deployment.replace('-', ' · ')}</span>}
+                      {s.environment && <span className="px-2 py-0.5 rounded bg-zinc-100/70 text-zinc-600">{s.environment}</span>}
+                      {s.deployment && <span className="px-2 py-0.5 rounded bg-zinc-100/70 text-zinc-600">{s.deployment.replace('-', ' · ')}</span>}
                     </div>
                   </div>
                 </div>
 
                 <div className="p-5 flex flex-col gap-3 flex-1">
                   <h2 className="font-black leading-snug group-hover:text-cyan-300 transition-colors">{s.title}</h2>
-                  <p className="text-sm text-zinc-300 line-clamp-2">{s.description}</p>
+                  <p className="text-sm text-zinc-600 line-clamp-2">{s.description}</p>
                   <AiChips s={s} />
 
-                  <div className="mt-auto pt-3 border-t border-zinc-800/60 grid grid-cols-2 gap-3 text-sm">
+                  <div className="mt-auto pt-3 border-t border-zinc-200/60 grid grid-cols-2 gap-3 text-sm">
                     <div>
-                      <div className="text-xs uppercase tracking-wider text-zinc-200 font-bold">Hardware + install</div>
-                      <div className="font-black text-zinc-100">
+                      <div className="text-xs uppercase tracking-wider text-zinc-600 font-bold">Hardware + install</div>
+                      <div className="font-black text-zinc-900">
                         {s.systemCost || s.installationCost ? formatRoiMoney((s.systemCost || 0) + (s.installationCost || 0)) : '—'}
                       </div>
                     </div>
                     <div>
-                      <div className="text-xs uppercase tracking-wider text-zinc-200 font-bold">Est. avoided loss / mo</div>
+                      <div className="text-xs uppercase tracking-wider text-zinc-600 font-bold">Est. avoided loss / mo</div>
                       <div className="font-black text-cyan-400">
                         {roi?.monthlyEstimatedSavings ? formatRoiMoney(roi.monthlyEstimatedSavings) : '—'}
                       </div>
@@ -139,8 +139,8 @@ export default async function SecurityPage({ params }: Props) {
           })}
         </div>
 
-        <div className="mt-14 max-w-3xl mx-auto bg-zinc-900/60 border border-zinc-800 rounded-2xl p-6 text-sm text-zinc-200 leading-relaxed">
-          <span className="font-bold text-zinc-200">Honest security ROI:</span> these systems are priced against loss exposure, not guaranteed savings. A camera system de-risks incidents — it does not guarantee any specific theft will be prevented. Figures are planning estimates; always quote with your installer and check with your insurer.
+        <div className="mt-14 max-w-3xl mx-auto bg-white/60 border border-zinc-200 rounded-2xl p-6 text-sm text-zinc-600 leading-relaxed">
+          <span className="font-bold text-zinc-600">Honest security ROI:</span> these systems are priced against loss exposure, not guaranteed savings. A camera system de-risks incidents — it does not guarantee any specific theft will be prevented. Figures are planning estimates; always quote with your installer and check with your insurer.
         </div>
       </div>
     </main>

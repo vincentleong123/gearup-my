@@ -94,17 +94,17 @@ export default async function ContactPage({ params }: Props) {
             <h1 className="text-4xl md:text-6xl font-black mb-4">
               <T k="contact.head" en="Talk to" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-pink-500 to-fuchsia-500"><T k="contact.headAccent" en="Kameralog" /></span>
             </h1>
-            <p className="text-zinc-200 text-lg leading-relaxed max-w-xl mx-auto">
+            <p className="text-zinc-600 text-lg leading-relaxed max-w-xl mx-auto">
               <T k="contact.desc" en="Brands, readers, and future partners — pick the right inbox below. We reply to everything, usually within two working days." />
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 mb-12">
             {channels.map(c => (
-              <div key={c.key} className="bg-zinc-900/80 border border-zinc-800 rounded-2xl p-6 hover:border-pink-500/30 transition-all duration-300">
+              <div key={c.key} className="bg-white/80 border border-zinc-200 rounded-2xl p-6 hover:border-pink-500/30 transition-all duration-300">
                 <div className="text-3xl mb-3">{c.emoji}</div>
                 <h2 className="text-lg font-bold mb-1"><T k={c.key} en={c.en} /></h2>
-                <p className="text-sm text-zinc-200 mb-4"><T k={c.d} en={c.den} /></p>
+                <p className="text-sm text-zinc-600 mb-4"><T k={c.d} en={c.den} /></p>
                 <a
                   href={c.href ?? `mailto:${c.mail}`}
                   target={c.href ? '_blank' : undefined}
@@ -117,9 +117,9 @@ export default async function ContactPage({ params }: Props) {
             ))}
           </div>
 
-          <div className="gradient-border rounded-3xl bg-zinc-900/70 p-8 md:p-10">
+          <div className="gradient-border rounded-3xl bg-white/70 p-8 md:p-10">
             <h2 className="text-2xl font-black mb-3"><T k="contact.response.t" en="What happens next?" /></h2>
-            <p className="text-zinc-200 leading-relaxed">
+            <p className="text-zinc-600 leading-relaxed">
               <T k="contact.response.d" en="For brand pitches and review requests, tell us the product, your timeline, and whether a review unit is available. We&rsquo;ll reply with our honest review policy and what we can commit to. Reader questions get answered in articles and updated reviews." />
             </p>
           </div>

@@ -31,6 +31,7 @@ Vlogging memerlukan kamera yang berbeza dari fotografi. Yang penting: flip scree
 5. **Stabilisasi** â€” IBIS atau EIS penting untuk footage yang lancar.
 
 ## Top 5 vlogging camera untuk Malaysia
+![Lima kamera vlogging kompak disusun bersebelahan untuk perbandingan](/blog/best-vlogging-camera-malaysia-senarai.jpg "Flip screen, mic input dan berat badan - tiga benda yang tentukan pilihan.")
 
 ### 1. Sony ZV-E10 â€” RM1,800â€“2,400 (second hand)
 **The king of vlogging.** Flip screen, mic input, "background defocus" sebutan, dan AF yang hebat. Tiada EVF, tapi untuk vlogging, anda tak perlu EVF.
@@ -58,6 +59,7 @@ Untuk vlogging outdoor/travel. Kecil, tahan air, stabilisasi hebat. Bukan untuk 
 | Action 4 | Tiada | Terbaik | Cukup untuk outdoor |
 
 ## Setup vlogging permulaan (bawah RM2,500)
+![Kamera vlogging pada tripod kecil dengan mikrofon lavalier dan skrin terbuka](/blog/best-vlogging-camera-malaysia-setup.jpg "Bawah RM2,500 dah boleh dapat kamera dan mic - itu yang penting untuk mula.")
 
 - Kamera: Sony ZV-E10 second hand (RM1,800)
 - Mic: Boya BY-M1 (RM50)

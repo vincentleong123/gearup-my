@@ -69,8 +69,6 @@ incidentRoi:
 relatedGear:
   - tapo-c210-review-malaysia
   - tapo-c220-review-malaysia
-relatedArticles:
-  - cctv-vs-dashcam-malaysia
 seoTitle: Tapo WiFi CCTV for Malaysian Retail Shops — Cost & Honest ROI (2026)
 imageCuration:
   - caption: Wireless security camera above a shop counter

@@ -46,6 +46,7 @@ Aku sendiri mula dengan Canon 60D dulu. Habis RM600 untuk body second hand, tamb
 | Canon EOS R | 8,000–9,000 | 5,000–6,000 |
 
 ## Canon 60D — the RM500 legend
+![Badan kamera Canon 60D dengan lens 50mm di atas meja kayu](/blog/harga-canon-camera-malaysia-60d.jpg "60D masih balik modal RM500 dalam satu sesi graduation mini.")
 
 Kau mesti dengar pasal Canon 60D ni. Kalau tak, kau memang ketinggalan. Kamera ni macam kereta Toyota Corolla — lama, tapi still jalan smooth gila.
 
@@ -78,6 +79,7 @@ Aku punya 60D dulu, aku guna untuk ambil gambar product kat Shopee. Klien bayar 
 Apa yang orang tak cakap pasal Canon ni, **ekosistem lensa** dia memang best gila. Korang boleh collect lens Canon EF second hand dengan harga yang sangat berbaloi. Aku ada 3 lens Canon EF yang aku beli untuk kurang dari RM800 total. Cuba kau buat benda sama dengan brand lain, mana boleh bro.
 
 ## Lensa Canon murah di Malaysia
+![Tiga lensa prime dipaparkan di atas permukaan gelap](/blog/harga-canon-camera-malaysia-lensa-murah.jpg "Kit lens murah okay untuk mula - upgrade lepas kau dah ada gig tetap.")
 
 | Lensa | Harga Second Hand (RM) | Untuk |
 | --- | --- | --- |

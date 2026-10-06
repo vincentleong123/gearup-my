@@ -61,9 +61,9 @@ export default function ScenarioGallery({ gearSlug }: Props) {
     <div className="mb-10">
       <div className="flex items-center justify-between mb-4">
         <h2 className="text-2xl font-bold">Real Creator Setups</h2>
-        <span className="text-xs text-zinc-200">Tap to switch scene</span>
+        <span className="text-xs text-zinc-600">Tap to switch scene</span>
       </div>
-      <p className="text-sm text-zinc-200 mb-4">
+      <p className="text-sm text-zinc-600 mb-4">
         Curated references for this setup — plus one-tap live searches on the platforms Malaysian creators actually post on.
       </p>
       <div className="flex gap-2 mb-3 flex-wrap">
@@ -74,7 +74,7 @@ export default function ScenarioGallery({ gearSlug }: Props) {
             className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
               i === activeIdx
                 ? 'bg-gradient-to-r from-red-500 to-pink-600 text-white'
-                : 'bg-zinc-800/50 text-zinc-200 hover:text-white border border-zinc-700/50'
+                : 'bg-zinc-100 text-zinc-600 hover:text-zinc-900 border border-zinc-300/50'
             }`}
           >
             {s.label}
@@ -88,10 +88,10 @@ export default function ScenarioGallery({ gearSlug }: Props) {
             href={url.split('?')[0]}
             target="_blank"
             rel="noopener noreferrer"
-            className="group block relative aspect-[4/3] rounded-xl overflow-hidden bg-zinc-800 hover:ring-2 hover:ring-red-500/50 transition-all"
+            className="group block relative aspect-[4/3] rounded-xl overflow-hidden bg-zinc-100 hover:ring-2 hover:ring-red-500/50 transition-all"
           >
             <img
-              src={url + '&auto=format'}
+            src={url.includes('?') ? `${url}&auto=format` : url}
               alt={`${active.label} reference ${i + 1}`}
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               loading="lazy"
@@ -106,10 +106,10 @@ export default function ScenarioGallery({ gearSlug }: Props) {
       </div>
 
       {/* Curated live searches — one tap per platform */}
-      <div className="mt-4 bg-zinc-900/50 border border-zinc-800 rounded-xl p-4">
+      <div className="mt-4 bg-white/50 border border-zinc-200 rounded-xl p-4">
         <div className="flex items-center justify-between flex-wrap gap-2 mb-3">
           <span className="text-sm font-bold">🔴 See real creators doing this — live</span>
-          <span className="text-xs text-zinc-200">curated hashtags + searches</span>
+          <span className="text-xs text-zinc-600">curated hashtags + searches</span>
         </div>
         <div className="flex flex-wrap gap-2">
           {platforms.map(p => {
@@ -122,9 +122,9 @@ export default function ScenarioGallery({ gearSlug }: Props) {
                 href={buildUrl(activeKey, p.id)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 text-xs font-bold px-3 py-2 rounded-lg bg-cyan-500/5 border border-cyan-500/20 text-cyan-300 hover:bg-cyan-500/15 transition-all"
+                className="inline-flex items-center gap-1.5 text-xs font-bold px-3 py-2 rounded-lg bg-cyan-500/5 border border-cyan-500/20 text-cyan-700 hover:bg-cyan-500/15 transition-all"
               >
-                {p.icon} {p.label}: <span className="text-white truncate max-w-[160px]">{label}</span> ↗
+                {p.icon} {p.label}: <span className="text-cyan-900 truncate max-w-[160px]">{label}</span> ↗
               </a>
             );
           })}

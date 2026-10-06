@@ -29,6 +29,7 @@ Thailand has one of the most active camera markets in Southeast Asia. Bangkok's 
 4. **Second-hand scene** â€” Thai second-hand gear is well-maintained (Thais take pride in their possessions).
 
 ## Where to buy camera gear in Thailand
+![Camera store display case in Bangkok packed with mirrorless bodies and lenses](/blog/thailand-camera-gear-bangkok-camera-store.jpg "Bangkok's camera floors run 10-20% below Malaysian retail before the tax refund.")
 
 ### Physical stores
 
@@ -57,6 +58,7 @@ Thailand has one of the most active camera markets in Southeast Asia. Bangkok's 
 | GoPro | Very High | Tourism + beach culture |
 
 ## Price comparison: Thailand vs Malaysia
+![Two different-sized mirrorless camera bodies side by side on a wooden table](/blog/thailand-camera-gear-price-comparison.jpg "The gap only works if you were flying there anyway - add the flight and it disappears.")
 
 | Camera | Thailand (THBâ†’RM) | Malaysia (RM) | Verdict |
 | --- | --- | --- | --- |

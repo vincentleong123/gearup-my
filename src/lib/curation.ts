@@ -16,7 +16,7 @@ export function articleTopic(a: Article): CurationTopic {
     id: a.slug,
     label: a.tags[0] || 'creators',
     emoji: categoryEmoji[a.category],
-    images: articleFigures(a.slug).map(f => f.src),
+    images: [a.image, ...articleFigures(a.slug).map(f => f.src)].filter((s): s is string => Boolean(s)),
     hashtags: a.tags.slice(0, 6),
     searchTerms: [a.title, ...a.tags.slice(0, 3).map(t => `${t} Malaysia content creator`), `${a.title} Malaysia`].slice(0, 3),
   };

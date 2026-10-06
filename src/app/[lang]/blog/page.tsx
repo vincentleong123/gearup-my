@@ -26,7 +26,7 @@ export default function BlogPage() {
           <h1 className="text-4xl md:text-6xl font-black mb-4">
             <T k="blog.hero.head" en="Reviews &" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-emerald-500"><T k="blog.hero.accent" en="Guides" /></span>
           </h1>
-          <p className="text-zinc-200 max-w-xl mx-auto text-lg">
+          <p className="text-zinc-600 max-w-xl mx-auto text-lg">
             <T k="blog.hero.desc" en="Everything Tim & Ahmad need to know about starting content creation in Malaysia — from zero budget to consistent income." />
           </p>
         </div>

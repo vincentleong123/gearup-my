@@ -13,14 +13,14 @@ export default function ArticleQA({ pairs, articleTitle }: { pairs: QAPair[]; ar
   if (!pairs.length) return null;
 
   return (
-    <section className="mt-12 pt-8 border-t border-zinc-800">
+    <section className="mt-12 pt-8 border-t border-zinc-200">
       <div className="flex items-center gap-3 mb-2">
         <h2 className="text-2xl font-bold">Frequently Asked Questions</h2>
         <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30 uppercase tracking-wider">
           AI-powered
         </span>
       </div>
-      <p className="text-sm text-zinc-200 mb-6">
+      <p className="text-sm text-zinc-600 mb-6">
         Answers sourced from this article about {articleTitle.toLowerCase()}
       </p>
 
@@ -28,18 +28,18 @@ export default function ArticleQA({ pairs, articleTitle }: { pairs: QAPair[]; ar
         {pairs.map((p, i) => (
           <div
             key={i}
-            className="bg-zinc-900/60 border border-zinc-800 rounded-xl overflow-hidden hover:border-zinc-700 transition-colors"
+            className="bg-white/60 border border-zinc-200 rounded-xl overflow-hidden hover:border-zinc-300 transition-colors"
           >
             <button
               onClick={() => setOpenIdx(openIdx === i ? null : i)}
               className="w-full flex items-center justify-between gap-4 px-5 py-4 text-left group"
               aria-expanded={openIdx === i}
             >
-              <span className="font-semibold text-zinc-100 group-hover:text-white transition-colors text-sm md:text-base">
+              <span className="font-semibold text-zinc-900 group-hover:text-red-600 transition-colors text-sm md:text-base">
                 {p.question}
               </span>
               <svg
-                className={`h-5 w-5 text-zinc-200 shrink-0 transition-transform duration-200 ${openIdx === i ? 'rotate-180' : ''}`}
+                className={`h-5 w-5 text-zinc-500 shrink-0 transition-transform duration-200 ${openIdx === i ? 'rotate-180' : ''}`}
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={2}
@@ -50,7 +50,7 @@ export default function ArticleQA({ pairs, articleTitle }: { pairs: QAPair[]; ar
             </button>
 
             {openIdx === i && (
-              <div className="px-5 pb-5 text-sm text-zinc-300 leading-relaxed border-t border-zinc-800/50 pt-4">
+              <div className="px-5 pb-5 text-sm text-zinc-600 leading-relaxed border-t border-zinc-200/50 pt-4">
                 {p.answer}
               </div>
             )}

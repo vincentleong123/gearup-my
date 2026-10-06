@@ -15,7 +15,6 @@ const fallbackImgs: Record<string, string> = {
   drone: 'https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?w=800&h=600&fit=crop',
   action: 'https://images.unsplash.com/photo-1544348817-5f2cf14b88c8?w=800&h=600&fit=crop',
   security: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&h=600&fit=crop',
-  dashcam: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800&h=600&fit=crop',
 };
 
 type SortKey = 'featured' | 'roi' | 'rating' | 'price-low' | 'price-high';
@@ -88,7 +87,7 @@ export default function GearGrid({ withHeader = true }: { withHeader?: boolean }
               <h2 className="text-3xl md:text-5xl font-black mb-4">
                 <T k="geargrid.head" en="Gear That" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-purple-500 to-pink-500"><T k="geargrid.headAccent" en="Pays You Back" /></span>
               </h2>
-              <p className="text-zinc-200 max-w-2xl mx-auto mb-8 text-lg">
+              <p className="text-zinc-600 max-w-2xl mx-auto mb-8 text-lg">
                 <T k="geargrid.desc" en="Second-hand prices, honest reviews, and real ROI data for Malaysian creators. Filter, search, and sort by what matters to you." />
               </p>
             </>
@@ -97,7 +96,7 @@ export default function GearGrid({ withHeader = true }: { withHeader?: boolean }
           {/* Controls */}
           <div className="flex flex-col md:flex-row items-stretch md:items-center justify-center gap-3 mb-8">
             <div className="relative flex-1 max-w-md w-full mx-auto">
-              <svg className="absolute left-4 top-1/2 -translate-y-1/2 h-4 w-4 text-zinc-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="absolute left-4 top-1/2 -translate-y-1/2 h-4 w-4 text-zinc-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-4.35-4.35M17 10a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
               <input
@@ -105,13 +104,13 @@ export default function GearGrid({ withHeader = true }: { withHeader?: boolean }
                 value={query}
                 onChange={e => setQuery(e.target.value)}
                 placeholder={t('geargrid.search', "Search gear, e.g. 'drone' or 'mirrorless'...")}
-                className="w-full bg-zinc-800/60 border border-zinc-700 rounded-full pl-11 pr-4 py-2.5 text-sm placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-red-500/40 focus:border-red-500/40 transition-all"
+                className="w-full bg-zinc-100/60 border border-zinc-300 rounded-full pl-11 pr-4 py-2.5 text-sm placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-red-500/40 focus:border-red-500/40 transition-all"
               />
             </div>
             <select
               value={sort}
               onChange={e => setSort(e.target.value as SortKey)}
-              className="bg-zinc-800/60 border border-zinc-700 rounded-full px-4 py-2.5 text-sm font-semibold text-zinc-100 focus:outline-none focus:ring-2 focus:ring-red-500/40 focus:border-red-500/40 transition-all"
+              className="bg-zinc-100/60 border border-zinc-300 rounded-full px-4 py-2.5 text-sm font-semibold text-zinc-900 focus:outline-none focus:ring-2 focus:ring-red-500/40 focus:border-red-500/40 transition-all"
               aria-label={t('geargrid.sortAria', 'Sort gear')}
             >
               <option value="featured">{t('geargrid.sortFeatured', 'Sort: Featured')}</option>
@@ -130,7 +129,7 @@ export default function GearGrid({ withHeader = true }: { withHeader?: boolean }
                 className={`px-5 py-2.5 rounded-full text-sm font-bold transition-all ${
                   active === c.id
                     ? 'bg-gradient-to-r from-red-500 to-pink-600 text-white shadow-lg shadow-red-500/25'
-                    : 'bg-zinc-800/50 text-zinc-200 hover:text-white border border-zinc-700/50'
+                    : 'bg-zinc-100 text-zinc-600 hover:text-zinc-900 border border-zinc-300/50'
                 }`}
               >
                 {c.label}
@@ -138,7 +137,7 @@ export default function GearGrid({ withHeader = true }: { withHeader?: boolean }
             ))}
           </div>
 
-          <p className="text-xs text-zinc-300 mt-5">
+          <p className="text-xs text-zinc-600 mt-5">
             {filtered.length} {t('geargrid.count', 'items · prices are typical second-hand in MYR')}
           </p>
         </div>
@@ -148,10 +147,10 @@ export default function GearGrid({ withHeader = true }: { withHeader?: boolean }
             <Link
               href={withLang(lang, `/gear/${g.slug}`)}
               key={g.slug}
-              className="group block bg-zinc-900/80 border border-zinc-800 rounded-2xl overflow-hidden hover:border-red-500/30 hover:shadow-2xl hover:shadow-red-500/5 hover:-translate-y-1 transition-all duration-300"
+              className="group block bg-white/80 border border-zinc-200 rounded-2xl overflow-hidden hover:border-red-500/30 hover:shadow-2xl hover:shadow-red-500/5 hover:-translate-y-1 transition-all duration-300"
               style={{ animationDelay: `${i * 50}ms` }}
             >
-              <div className="h-48 relative overflow-hidden bg-zinc-900">
+              <div className="h-48 relative overflow-hidden bg-white">
                 <img
                   src={gearImg(g.slug) || fallbackImgs[g.category] || fallbackImgs.camera}
                   alt={g.name}
@@ -175,31 +174,31 @@ export default function GearGrid({ withHeader = true }: { withHeader?: boolean }
               <div className="p-5">
                 <div className="flex items-start justify-between gap-3 mb-2">
                   <h3 className="text-lg font-bold group-hover:text-red-400 transition-colors">{g.name}</h3>
-                  <span className="text-xs text-zinc-200 bg-zinc-800 px-2.5 py-1 rounded-full whitespace-nowrap">{g.type}</span>
+                  <span className="text-xs text-zinc-600 bg-zinc-100 px-2.5 py-1 rounded-full whitespace-nowrap">{g.type}</span>
                 </div>
                 <div className="flex items-center justify-between mb-3">
                   <Stars rating={g.rating} />
                   <AwardBadge g={g} />
                 </div>
-                <p className="text-zinc-200 text-sm line-clamp-2 mb-4">{g.excerpt}</p>
+                <p className="text-zinc-600 text-sm line-clamp-2 mb-4">{g.excerpt}</p>
                 <div className="flex items-center gap-4 mb-4">
                   <div>
-                    <span className="text-xs text-zinc-200">{t('geargrid.usedPrice', 'Used Price')}</span>
+                    <span className="text-xs text-zinc-600">{t('geargrid.usedPrice', 'Used Price')}</span>
                     <div className="text-xl font-bold text-green-400">{formatPrice(g.priceUsed)}</div>
                   </div>
                   {g.priceNew > 0 && (
                     <div>
-                      <span className="text-xs text-zinc-200">{t('common.new', 'New')}</span>
-                      <div className="text-sm text-zinc-200 line-through">{formatPrice(g.priceNew)}</div>
+                      <span className="text-xs text-zinc-600">{t('common.new', 'New')}</span>
+                      <div className="text-sm text-zinc-600 line-through">{formatPrice(g.priceNew)}</div>
                     </div>
                   )}
                 </div>
                 <div className="space-y-1 mb-4">
                   <div className="flex justify-between text-xs">
-                    <span className="text-zinc-200">{t('gear.roiScore', 'ROI Score')}</span>
+                    <span className="text-zinc-600">{t('gear.roiScore', 'ROI Score')}</span>
                     <span className={`font-bold ${roiColor(g.roiScore)}`}>{g.roiScore}/100</span>
                   </div>
-                  <div className="h-1.5 bg-zinc-800 rounded-full overflow-hidden">
+                  <div className="h-1.5 bg-zinc-100 rounded-full overflow-hidden">
                     <div className={`h-full rounded-full transition-all duration-1000 ${roiBarColor(g.roiScore)}`} style={{ width: `${g.roiScore}%` }} />
                   </div>
                 </div>
@@ -219,7 +218,7 @@ export default function GearGrid({ withHeader = true }: { withHeader?: boolean }
         {filtered.length === 0 && (
           <div className="text-center py-16">
             <div className="text-4xl mb-3">🔍</div>
-            <p className="text-zinc-200 font-semibold">{t('geargrid.noResults', 'No gear matches "{query}". Try another search or clear the filter.').replace('{query}', query)}</p>
+            <p className="text-zinc-600 font-semibold">{t('geargrid.noResults', 'No gear matches "{query}". Try another search or clear the filter.').replace('{query}', query)}</p>
           </div>
         )}
       </div>

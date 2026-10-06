@@ -144,7 +144,7 @@ export default function LazyContentCreator() {
           <h1 className="text-4xl font-black mb-2 text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-pink-500">
             Lazy Content Creator 🚀
           </h1>
-          <p className="text-zinc-200">Stop procrastinating. Generate articles in 30 seconds.</p>
+          <p className="text-zinc-600">Stop procrastinating. Generate articles in 30 seconds.</p>
         </div>
 
         {/* Mode Selector */}
@@ -156,7 +156,7 @@ export default function LazyContentCreator() {
               className={`px-4 py-2 rounded-lg font-medium transition-all ${
                 mode === m
                   ? 'bg-red-600 text-white'
-                  : 'bg-zinc-800 text-zinc-100 hover:bg-zinc-700'
+                  : 'bg-zinc-100 text-zinc-900 hover:bg-zinc-700'
               }`}
             >
               {m === 'quick' && 'Quick Article'}
@@ -169,7 +169,7 @@ export default function LazyContentCreator() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* FORM PANEL */}
-          <div className="bg-zinc-900 border border-zinc-800 rounded-xl p-6">
+          <div className="bg-white border border-zinc-200 rounded-xl p-6">
             {/* QUICK MODE */}
             {mode === 'quick' && (
               <form onSubmit={handleQuickSubmit}>
@@ -177,29 +177,29 @@ export default function LazyContentCreator() {
 
                 <div className="space-y-3">
                   <div>
-                    <label className="block text-sm text-zinc-200 mb-1">Title</label>
+                    <label className="block text-sm text-zinc-600 mb-1">Title</label>
                     <input
                       type="text"
                       placeholder="e.g., DJI Osmo Action 5 Pro Review for Malaysian Vloggers"
                       value={quickForm.title}
                       onChange={e => setQuickForm({ ...quickForm, title: e.target.value })}
-                      className="w-full bg-zinc-800 border border-zinc-700 rounded px-3 py-2 text-white placeholder-zinc-500 focus:border-red-500 outline-none"
+                      className="w-full bg-white border border-zinc-300 rounded px-3 py-2 text-zinc-900 placeholder-zinc-500 focus:border-red-500 outline-none"
                     />
                   </div>
 
                   <div>
-                    <label className="block text-sm text-zinc-200 mb-1">YouTube URL (optional)</label>
+                    <label className="block text-sm text-zinc-600 mb-1">YouTube URL (optional)</label>
                     <input
                       type="url"
                       placeholder="https://youtube.com/watch?v=..."
                       value={quickForm.videoUrl}
                       onChange={e => setQuickForm({ ...quickForm, videoUrl: e.target.value })}
-                      className="w-full bg-zinc-800 border border-zinc-700 rounded px-3 py-2 text-white placeholder-zinc-500 focus:border-red-500 outline-none"
+                      className="w-full bg-white border border-zinc-300 rounded px-3 py-2 text-zinc-900 placeholder-zinc-500 focus:border-red-500 outline-none"
                     />
                   </div>
 
                   <div>
-                    <label className="block text-sm text-zinc-200 mb-1">Main Points (3-5)</label>
+                    <label className="block text-sm text-zinc-600 mb-1">Main Points (3-5)</label>
                     {quickForm.mainPoints.map((point, idx) => (
                       <input
                         key={idx}
@@ -211,17 +211,17 @@ export default function LazyContentCreator() {
                           pts[idx] = e.target.value;
                           setQuickForm({ ...quickForm, mainPoints: pts });
                         }}
-                        className="w-full mb-2 bg-zinc-800 border border-zinc-700 rounded px-3 py-2 text-white placeholder-zinc-500 focus:border-red-500 outline-none"
+                        className="w-full mb-2 bg-white border border-zinc-300 rounded px-3 py-2 text-zinc-900 placeholder-zinc-500 focus:border-red-500 outline-none"
                       />
                     ))}
                   </div>
 
                   <div>
-                    <label className="block text-sm text-zinc-200 mb-1">Category</label>
+                    <label className="block text-sm text-zinc-600 mb-1">Category</label>
                     <select
                       value={quickForm.category}
                       onChange={e => setQuickForm({ ...quickForm, category: e.target.value as any })}
-                      className="w-full bg-zinc-800 border border-zinc-700 rounded px-3 py-2 text-white focus:border-red-500 outline-none"
+                      className="w-full bg-white border border-zinc-300 rounded px-3 py-2 text-zinc-900 focus:border-red-500 outline-none"
                     >
                       <option value="guide">Guide</option>
                       <option value="inspiration">Inspiration</option>
@@ -248,39 +248,39 @@ export default function LazyContentCreator() {
 
                 <div className="space-y-3">
                   <div>
-                    <label className="block text-sm text-zinc-200 mb-1">Creator Name</label>
+                    <label className="block text-sm text-zinc-600 mb-1">Creator Name</label>
                     <input
                       type="text"
                       placeholder="e.g., Fikri Haron"
                       value={creatorForm.creatorName}
                       onChange={e => setCreatorForm({ ...creatorForm, creatorName: e.target.value })}
-                      className="w-full bg-zinc-800 border border-zinc-700 rounded px-3 py-2 text-white placeholder-zinc-500 focus:border-red-500 outline-none"
+                      className="w-full bg-white border border-zinc-300 rounded px-3 py-2 text-zinc-900 placeholder-zinc-500 focus:border-red-500 outline-none"
                     />
                   </div>
 
                   <div className="grid grid-cols-2 gap-2">
                     <div>
-                      <label className="block text-sm text-zinc-200 mb-1">Monthly Earnings (RM)</label>
+                      <label className="block text-sm text-zinc-600 mb-1">Monthly Earnings (RM)</label>
                       <input
                         type="number"
                         value={creatorForm.earnings}
                         onChange={e => setCreatorForm({ ...creatorForm, earnings: parseInt(e.target.value) })}
-                        className="w-full bg-zinc-800 border border-zinc-700 rounded px-3 py-2 text-white focus:border-red-500 outline-none"
+                        className="w-full bg-white border border-zinc-300 rounded px-3 py-2 text-zinc-900 focus:border-red-500 outline-none"
                       />
                     </div>
                     <div>
-                      <label className="block text-sm text-zinc-200 mb-1">Months to Profit</label>
+                      <label className="block text-sm text-zinc-600 mb-1">Months to Profit</label>
                       <input
                         type="number"
                         value={creatorForm.monthsToProfit}
                         onChange={e => setCreatorForm({ ...creatorForm, monthsToProfit: parseInt(e.target.value) })}
-                        className="w-full bg-zinc-800 border border-zinc-700 rounded px-3 py-2 text-white focus:border-red-500 outline-none"
+                        className="w-full bg-white border border-zinc-300 rounded px-3 py-2 text-zinc-900 focus:border-red-500 outline-none"
                       />
                     </div>
                   </div>
 
                   <div>
-                    <label className="block text-sm text-zinc-200 mb-1">Main Points (strategy)</label>
+                    <label className="block text-sm text-zinc-600 mb-1">Main Points (strategy)</label>
                     {creatorForm.mainPoints.map((point, idx) => (
                       <input
                         key={idx}
@@ -292,7 +292,7 @@ export default function LazyContentCreator() {
                           pts[idx] = e.target.value;
                           setCreatorForm({ ...creatorForm, mainPoints: pts });
                         }}
-                        className="w-full mb-2 bg-zinc-800 border border-zinc-700 rounded px-3 py-2 text-white placeholder-zinc-500 focus:border-red-500 outline-none"
+                        className="w-full mb-2 bg-white border border-zinc-300 rounded px-3 py-2 text-zinc-900 placeholder-zinc-500 focus:border-red-500 outline-none"
                       />
                     ))}
                   </div>
@@ -315,18 +315,18 @@ export default function LazyContentCreator() {
 
                 <div className="space-y-3">
                   <div>
-                    <label className="block text-sm text-zinc-200 mb-1">Product Name</label>
+                    <label className="block text-sm text-zinc-600 mb-1">Product Name</label>
                     <input
                       type="text"
                       placeholder="e.g., Sony A6100"
                       value={priceForm.productName}
                       onChange={e => setPriceForm({ ...priceForm, productName: e.target.value })}
-                      className="w-full bg-zinc-800 border border-zinc-700 rounded px-3 py-2 text-white placeholder-zinc-500 focus:border-red-500 outline-none"
+                      className="w-full bg-white border border-zinc-300 rounded px-3 py-2 text-zinc-900 placeholder-zinc-500 focus:border-red-500 outline-none"
                     />
                   </div>
 
                   <div>
-                    <label className="block text-sm text-zinc-200 mb-1">Prices by Retailer</label>
+                    <label className="block text-sm text-zinc-600 mb-1">Prices by Retailer</label>
                     {priceForm.prices.map((p, idx) => (
                       <div key={idx} className="flex gap-2 mb-2">
                         <input
@@ -338,7 +338,7 @@ export default function LazyContentCreator() {
                             setPriceForm({ ...priceForm, prices });
                           }}
                           placeholder="Retailer"
-                          className="flex-1 bg-zinc-800 border border-zinc-700 rounded px-3 py-2 text-white placeholder-zinc-500 focus:border-red-500 outline-none"
+                          className="flex-1 bg-white border border-zinc-300 rounded px-3 py-2 text-zinc-900 placeholder-zinc-500 focus:border-red-500 outline-none"
                         />
                         <input
                           type="number"
@@ -349,24 +349,24 @@ export default function LazyContentCreator() {
                             setPriceForm({ ...priceForm, prices });
                           }}
                           placeholder="Price (RM)"
-                          className="w-24 bg-zinc-800 border border-zinc-700 rounded px-3 py-2 text-white placeholder-zinc-500 focus:border-red-500 outline-none"
+                          className="w-24 bg-white border border-zinc-300 rounded px-3 py-2 text-zinc-900 placeholder-zinc-500 focus:border-red-500 outline-none"
                         />
                       </div>
                     ))}
                   </div>
 
                   <div>
-                    <label className="block text-sm text-zinc-200 mb-1">Expected Monthly Income (RM)</label>
+                    <label className="block text-sm text-zinc-600 mb-1">Expected Monthly Income (RM)</label>
                     <input
                       type="number"
                       value={priceForm.earningPotential}
                       onChange={e => setPriceForm({ ...priceForm, earningPotential: parseInt(e.target.value) })}
-                      className="w-full bg-zinc-800 border border-zinc-700 rounded px-3 py-2 text-white focus:border-red-500 outline-none"
+                      className="w-full bg-white border border-zinc-300 rounded px-3 py-2 text-zinc-900 focus:border-red-500 outline-none"
                     />
                   </div>
 
                   <div>
-                    <label className="block text-sm text-zinc-200 mb-1">Key Points</label>
+                    <label className="block text-sm text-zinc-600 mb-1">Key Points</label>
                     {priceForm.mainPoints.map((point, idx) => (
                       <input
                         key={idx}
@@ -378,7 +378,7 @@ export default function LazyContentCreator() {
                           pts[idx] = e.target.value;
                           setPriceForm({ ...priceForm, mainPoints: pts });
                         }}
-                        className="w-full mb-2 bg-zinc-800 border border-zinc-700 rounded px-3 py-2 text-white placeholder-zinc-500 focus:border-red-500 outline-none"
+                        className="w-full mb-2 bg-white border border-zinc-300 rounded px-3 py-2 text-zinc-900 placeholder-zinc-500 focus:border-red-500 outline-none"
                       />
                     ))}
                   </div>
@@ -398,15 +398,15 @@ export default function LazyContentCreator() {
             {mode === 'bulk-import' && (
               <form onSubmit={handleBulkImport}>
                 <h2 className="text-xl font-bold mb-4">Bulk Import</h2>
-                <p className="text-sm text-zinc-200 mb-3">
-                  Format: <code className="bg-zinc-800 px-2 py-1 rounded">Title | URL | Point1 | Point2 | Point3 | Category</code>
+                <p className="text-sm text-zinc-600 mb-3">
+                  Format: <code className="bg-zinc-100 px-2 py-1 rounded">Title | URL | Point1 | Point2 | Point3 | Category</code>
                 </p>
 
                 <textarea
                   value={bulkCSV}
                   onChange={e => setBulkCSV(e.target.value)}
                   placeholder={`DJI Osmo Action 5 Pro Review | https://youtube.com/watch?v=xxx | Front screen for vlogging | RockSteady stabilization | Best battery life | gear\nSony A6100 vs Canon R50 | | Better autofocus | 4K capable | Affordable used price | comparison`}
-                  className="w-full h-48 bg-zinc-800 border border-zinc-700 rounded px-3 py-2 text-white placeholder-zinc-500 focus:border-red-500 outline-none font-mono text-sm"
+                  className="w-full h-48 bg-white border border-zinc-300 rounded px-3 py-2 text-zinc-900 placeholder-zinc-500 focus:border-red-500 outline-none font-mono text-sm"
                 />
 
                 <button
@@ -421,17 +421,17 @@ export default function LazyContentCreator() {
           </div>
 
           {/* OUTPUT PANEL */}
-          <div className="bg-zinc-900 border border-zinc-800 rounded-xl p-6">
+          <div className="bg-white border border-zinc-200 rounded-xl p-6">
             <h2 className="text-xl font-bold mb-4">Generated Output</h2>
 
             {!generated ? (
-              <div className="text-zinc-200 text-sm p-4 bg-zinc-800 rounded">
+              <div className="text-zinc-600 text-sm p-4 bg-zinc-100 rounded">
                 <p>Fill the form on the left and click generate.</p>
                 <p className="mt-2">Output will appear here as JSON ready to paste into your articles.ts file.</p>
               </div>
             ) : (
               <>
-                <pre className="bg-zinc-800 border border-zinc-700 rounded p-3 text-xs overflow-auto max-h-96 text-zinc-200">
+                <pre className="bg-zinc-100 border border-zinc-300 rounded p-3 text-xs overflow-auto max-h-96 text-zinc-600">
                   {generated}
                 </pre>
                 <button
@@ -448,7 +448,7 @@ export default function LazyContentCreator() {
                   <div className="mt-4 space-y-2 max-h-64 overflow-auto">
                     <h3 className="font-bold text-sm">Results:</h3>
                     {bulkResults.map((r, i) => (
-                      <div key={i} className="text-xs bg-zinc-800 p-2 rounded">
+                      <div key={i} className="text-xs bg-zinc-100 p-2 rounded">
                         <span className={r.error ? 'text-red-400' : 'text-green-400'}>
                           #{r.idx}: {r.title || r.error || 'Processing'}
                         </span>
@@ -462,9 +462,9 @@ export default function LazyContentCreator() {
         </div>
 
         {/* INFO SECTION */}
-        <div className="mt-12 bg-zinc-900 border border-zinc-800 rounded-xl p-6">
+        <div className="mt-12 bg-white border border-zinc-200 rounded-xl p-6">
           <h2 className="text-lg font-bold mb-3">How to Use This</h2>
-          <ol className="space-y-2 text-sm text-zinc-100">
+          <ol className="space-y-2 text-sm text-zinc-900">
             <li><strong>1. Quick Mode:</strong> Paste a YouTube link + 3 key points → instant article</li>
             <li><strong>2. Creator Story:</strong> Creator name + earnings + strategy → inspiration article</li>
             <li><strong>3. Price Compare:</strong> Product name + prices from 3 retailers → ROI guide</li>

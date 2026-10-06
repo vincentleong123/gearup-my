@@ -4,17 +4,17 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-display: var(--font-playfair);
-  --color-background: #09090b;
-  --color-foreground: #fafafa;
-  --color-surface: #101013;
-  --color-surface-2: #16161a;
-  --color-edge: #24242b;
+  --color-background: #faf9f7;
+  --color-foreground: #18181b;
+  --color-surface: #ffffff;
+  --color-surface-2: #f4f4f5;
+  --color-edge: #e4e4e7;
 }
 
 /* ===== Base ===== */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #3f3f46 transparent;
+  scrollbar-color: #a1a1aa transparent;
 }
 
 ::-webkit-scrollbar {
@@ -22,15 +22,15 @@
   height: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #09090b;
+  background: #faf9f7;
 }
 ::-webkit-scrollbar-thumb {
-  background: #3f3f46;
+  background: #d4d4d8;
   border-radius: 9999px;
-  border: 2px solid #09090b;
+  border: 2px solid #faf9f7;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #52525b;
+  background: #a1a1aa;
 }
 
 html {
@@ -38,18 +38,18 @@ html {
 }
 
 body {
-  background: #09090b;
-  color: #fafafa;
+  background: #faf9f7;
+  color: #18181b;
   font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
 }
 
 ::selection {
-  background: rgba(236, 72, 153, 0.35);
-  color: #fff;
+  background: rgba(236, 72, 153, 0.25);
+  color: #18181b;
 }
 
 :focus-visible {
-  outline: 2px solid #f472b6;
+  outline: 2px solid #e11d48;
   outline-offset: 2px;
   border-radius: 4px;
 }
@@ -93,10 +93,10 @@ body {
 
 /* ===== Surfaces ===== */
 .glass {
-  background: rgba(24, 24, 27, 0.55);
+  background: rgba(255, 255, 255, 0.75);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(9, 9, 11, 0.08);
 }
 
 .gradient-border {
@@ -110,7 +110,7 @@ body {
   inset: 0;
   border-radius: inherit;
   padding: 1px;
-  background: linear-gradient(135deg, rgba(244, 63, 94, 0.5), rgba(168, 85, 247, 0.35), rgba(255, 255, 255, 0.08));
+  background: linear-gradient(135deg, rgba(244, 63, 94, 0.5), rgba(168, 85, 247, 0.35), rgba(9, 9, 11, 0.15));
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
@@ -119,8 +119,8 @@ body {
 
 .grid-bg {
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    linear-gradient(rgba(9, 9, 11, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(9, 9, 11, 0.04) 1px, transparent 1px);
   background-size: 48px 48px;
 }
 
@@ -177,7 +177,7 @@ input[type="range"].gu-range::-webkit-slider-thumb {
   width: 22px;
   height: 22px;
   border-radius: 50%;
-  background: #fafafa;
+  background: #ffffff;
   border: 3px solid #f43f5e;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.55);
   cursor: grab;
@@ -192,7 +192,7 @@ input[type="range"].gu-range::-moz-range-thumb {
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: #fafafa;
+  background: #ffffff;
   border: 3px solid #f43f5e;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.55);
   cursor: grab;

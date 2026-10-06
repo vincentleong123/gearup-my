@@ -1,0 +1,77 @@
+[2026-10-05T12:18:57.457Z] start: 45 gig images planned (shard 0/1)
+[2026-10-05T12:18:57.463Z] skip (exists): gig-graduation-1.jpg
+[2026-10-05T12:18:57.465Z] skip (exists): gig-graduation-2.jpg
+[2026-10-05T12:18:57.467Z] skip (exists): gig-graduation-3.jpg
+[2026-10-05T12:18:57.469Z] skip (exists): gig-gala-1.jpg
+[2026-10-05T12:18:57.480Z] skip (exists): gig-gala-2.jpg
+[2026-10-05T12:18:57.482Z] skip (exists): gig-gala-3.jpg
+[2026-10-05T12:18:57.483Z] skip (exists): gig-portrait-1.jpg
+[2026-10-05T12:18:57.485Z] skip (exists): gig-portrait-2.jpg
+[2026-10-05T12:18:57.493Z] skip (exists): gig-portrait-3.jpg
+[2026-10-05T12:18:57.496Z] skip (exists): gig-wedding-1.jpg
+[2026-10-05T12:18:57.497Z] skip (exists): gig-wedding-2.jpg
+[2026-10-05T12:18:57.498Z] skip (exists): gig-wedding-3.jpg
+[2026-10-05T12:18:57.499Z] skip (exists): gig-video-1.jpg
+[2026-10-05T12:18:57.500Z] skip (exists): gig-video-2.jpg
+[2026-10-05T12:18:57.501Z] skip (exists): gig-video-3.jpg
+[2026-10-05T12:18:57.501Z] skip (exists): gig-product-1.jpg
+[2026-10-05T12:18:57.502Z] skip (exists): gig-product-2.jpg
+[2026-10-05T12:18:57.508Z] skip (exists): gig-product-3.jpg
+[2026-10-05T12:18:57.509Z] skip (exists): gig-realestate-1.jpg
+[2026-10-05T12:18:57.510Z] skip (exists): gig-realestate-2.jpg
+[2026-10-05T12:18:57.511Z] skip (exists): gig-realestate-3.jpg
+[2026-10-05T12:18:57.512Z] skip (exists): gig-food-1.jpg
+[2026-10-05T12:18:57.512Z] skip (exists): gig-food-2.jpg
+[2026-10-05T12:19:01.583Z] saved: gig-food-3.jpg (1024x576 -> 1024x530, 32971B)
+[2026-10-05T12:19:06.061Z] quota 402: gig-corporate-1.jpg (attempt 1) - backing off 75s
+1024x530, 32971B)
+[2026-10-05T12:19:07.809Z] quota 402: gig-corporate-1.jpg (attempt 1) - backing off 75s
+[2026-10-05T12:20:24.994Z] saved: gig-corporate-1.jpg (1024x576 -> 1024x530, 43253B)
+[2026-10-05T12:20:29.482Z] quota 402: gig-corporate-2.jpg (attempt 1) - backing off 75s
+[2026-10-05T12:21:47.782Z] saved: gig-corporate-2.jpg (1024x576 -> 1024x530, 34560B)
+[2026-10-05T12:21:52.398Z] quota 402: gig-corporate-3.jpg (attempt 1) - backing off 75s
+[2026-10-05T12:23:11.713Z] saved: gig-corporate-3.jpg (1024x576 -> 1024x530, 38767B)
+[2026-10-05T12:23:16.210Z] quota 402: gig-photobooth-1.jpg (attempt 1) - backing off 75s
+[2026-10-05T12:24:34.952Z] saved: gig-photobooth-1.jpg (1024x576 -> 1024x530, 38351B)
+[2026-10-05T12:24:39.478Z] quota 402: gig-photobooth-2.jpg (attempt 1) - backing off 75s
+[2026-10-05T12:25:57.686Z] saved: gig-photobooth-2.jpg (1024x576 -> 1024x530, 29822B)
+[2026-10-05T12:26:02.201Z] quota 402: gig-photobooth-3.jpg (attempt 1) - backing off 75s
+[2026-10-05T12:27:20.830Z] saved: gig-photobooth-3.jpg (1024x576 -> 1024x530, 38508B)
+[2026-10-05T12:27:25.338Z] quota 402: gig-drone-1.jpg (attempt 1) - backing off 75s
+[2026-10-05T12:28:44.660Z] saved: gig-drone-1.jpg (1024x576 -> 1024x530, 33771B)
+[2026-10-05T12:28:49.110Z] quota 402: gig-drone-2.jpg (attempt 1) - backing off 75s
+[2026-10-05T12:30:07.501Z] saved: gig-drone-2.jpg (1024x576 -> 1024x530, 43482B)
+[2026-10-05T12:30:11.985Z] quota 402: gig-drone-3.jpg (attempt 1) - backing off 75s
+[2026-10-05T12:31:30.786Z] saved: gig-drone-3.jpg (1024x576 -> 1024x530, 35912B)
+[2026-10-05T12:31:35.268Z] quota 402: iphone-window-light-1.jpg (attempt 1) - backing off 75s
+[2026-10-05T12:32:54.015Z] WARN watermark may exceed crop on iphone-window-light-1.jpg: needs 70px, cropped 46px
+[2026-10-05T12:32:54.017Z] saved: iphone-window-light-1.jpg (1024x576 -> 1024x530, 30713B)
+[2026-10-05T12:32:58.496Z] quota 402: iphone-window-light-2.jpg (attempt 1) - backing off 75s
+[2026-10-05T12:34:17.494Z] WARN watermark may exceed crop on iphone-window-light-2.jpg: needs 70px, cropped 46px
+[2026-10-05T12:34:17.501Z] saved: iphone-window-light-2.jpg (1024x576 -> 1024x530, 39682B)
+[2026-10-05T12:34:21.987Z] quota 402: iphone-window-light-3.jpg (attempt 1) - backing off 75s
+[2026-10-05T12:35:43.613Z] WARN watermark may exceed crop on iphone-window-light-3.jpg: needs 70px, cropped 46px
+[2026-10-05T12:35:43.621Z] saved: iphone-window-light-3.jpg (1024x576 -> 1024x530, 30696B)
+[2026-10-05T12:35:48.177Z] quota 402: desk-setup-ring-light-1.jpg (attempt 1) - backing off 75s
+[2026-10-05T12:37:08.471Z] saved: desk-setup-ring-light-1.jpg (1024x576 -> 1024x530, 41879B)
+[2026-10-05T12:37:12.954Z] quota 402: desk-setup-ring-light-2.jpg (attempt 1) - backing off 75s
+[2026-10-05T12:38:32.322Z] WARN watermark may exceed crop on desk-setup-ring-light-2.jpg: needs 70px, cropped 46px
+[2026-10-05T12:38:32.324Z] saved: desk-setup-ring-light-2.jpg (1024x576 -> 1024x530, 36798B)
+[2026-10-05T12:38:36.805Z] quota 402: desk-setup-ring-light-3.jpg (attempt 1) - backing off 75s
+[2026-10-05T12:39:56.914Z] saved: desk-setup-ring-light-3.jpg (1024x576 -> 1024x530, 29974B)
+[2026-10-05T12:40:01.414Z] quota 402: drone-aerial-malaysia-1.jpg (attempt 1) - backing off 75s
+[2026-10-05T12:41:20.223Z] saved: drone-aerial-malaysia-1.jpg (1024x576 -> 1024x530, 40034B)
+[2026-10-05T12:41:24.700Z] quota 402: drone-aerial-malaysia-2.jpg (attempt 1) - backing off 75s
+[2026-10-05T12:42:44.234Z] WARN watermark may exceed crop on drone-aerial-malaysia-2.jpg: needs 70px, cropped 46px
+[2026-10-05T12:42:44.236Z] saved: drone-aerial-malaysia-2.jpg (1024x576 -> 1024x530, 41222B)
+[2026-10-05T12:42:48.892Z] quota 402: drone-aerial-malaysia-3.jpg (attempt 1) - backing off 75s
+[2026-10-05T12:44:08.037Z] saved: drone-aerial-malaysia-3.jpg (1024x576 -> 1024x530, 54449B)
+[2026-10-05T12:44:12.508Z] quota 402: beauty-review-setup-1.jpg (attempt 1) - backing off 75s
+[2026-10-05T12:45:31.651Z] WARN watermark may exceed crop on beauty-review-setup-1.jpg: needs 70px, cropped 46px
+[2026-10-05T12:45:31.654Z] saved: beauty-review-setup-1.jpg (1024x576 -> 1024x530, 33969B)
+[2026-10-05T12:45:36.134Z] quota 402: beauty-review-setup-2.jpg (attempt 1) - backing off 75s
+[2026-10-05T12:46:56.007Z] saved: beauty-review-setup-2.jpg (1024x576 -> 1024x530, 32976B)
+[2026-10-05T12:47:00.466Z] quota 402: beauty-review-setup-3.jpg (attempt 1) - backing off 75s
+[2026-10-05T12:48:20.208Z] WARN watermark may exceed crop on beauty-review-setup-3.jpg: needs 70px, cropped 46px
+[2026-10-05T12:48:20.211Z] saved: beauty-review-setup-3.jpg (1024x576 -> 1024x530, 34989B)
+[2026-10-05T12:48:24.218Z] done: saved=23 skipped=22 failed=0

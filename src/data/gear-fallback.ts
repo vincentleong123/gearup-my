@@ -7,7 +7,7 @@
 export interface GearItem {
   slug: string;
   name: string;
-  category: 'camera' | 'mobile' | 'drone' | 'action' | 'audio' | 'security' | 'dashcam';
+  category: 'camera' | 'mobile' | 'drone' | 'action' | 'audio' | 'security';
   priceNew: number;
   priceUsed: number;
   type: string;

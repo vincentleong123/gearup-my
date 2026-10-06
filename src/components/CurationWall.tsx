@@ -17,8 +17,9 @@ interface Props {
   title?: string;
 }
 
-const FALLBACK_IMG =
-  'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800&h=600&fit=crop';
+// Local gear-in-action shot, not an Unsplash portrait: if a wall tile fails to
+// load, what shows should still be gear rather than a generic stock face.
+const FALLBACK_IMG = '/blog/best-camera-content-creator-malaysia.jpg';
 
 const platforms = [
   { id: 'google', label: 'Google', icon: '🔍', hint: 'Search' },
@@ -75,7 +76,7 @@ export default function CurationWall({ topics, title = 'Live Inspiration' }: Pro
     return () => clearInterval(id);
   }, [rotate, topic]);
 
-  if (!topic) return null;
+  if (!topic || topic.images.length === 0) return null;
 
   const rotated = [...topic.images.slice(offset), ...topic.images.slice(0, offset)];
   const shown = [rotated[0], ...rotated.slice(1, 5)];
@@ -86,16 +87,16 @@ export default function CurationWall({ topics, title = 'Live Inspiration' }: Pro
   const display = buildDisplay(topic, platform);
 
   return (
-    <div className="bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden">
+    <div className="bg-white/60 border border-zinc-200 rounded-2xl overflow-hidden">
       {/* Header */}
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-3 px-5 py-4 border-b border-zinc-800">
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-3 px-5 py-4 border-b border-zinc-200">
         <div className="flex items-center gap-3">
           <span className="relative flex h-2.5 w-2.5">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75" />
             <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-red-500" />
           </span>
           <span className="text-sm font-bold uppercase tracking-wider text-red-400">{t('curate.wallTitle', title)}</span>
-          <span className="text-sm text-zinc-200 hidden sm:inline">{t('curate.wallSub', '— curated from the open web & social tags')}</span>
+          <span className="text-sm text-zinc-600 hidden sm:inline">{t('curate.wallSub', '— curated from the open web & social tags')}</span>
         </div>
         <div className="flex items-center gap-2">
           <button
@@ -103,7 +104,7 @@ export default function CurationWall({ topics, title = 'Live Inspiration' }: Pro
             className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
               rotate
                 ? 'bg-red-500/15 text-red-400 border border-red-500/30'
-                : 'bg-zinc-800/50 text-zinc-200 border border-zinc-700/50'
+                : 'bg-zinc-100/50 text-zinc-600 border border-zinc-300/50'
             }`}
           >
             {rotate ? t('curate.autoPause', '⏸ Auto-pause') : t('curate.autoPlay', '▶ Auto-play')}
@@ -126,7 +127,7 @@ export default function CurationWall({ topics, title = 'Live Inspiration' }: Pro
             className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
               i === topicIdx
                 ? 'bg-zinc-700 text-white'
-                : 'bg-zinc-800/50 text-zinc-200 hover:text-white border border-zinc-700/50'
+                : 'bg-zinc-100 text-zinc-600 hover:text-zinc-900 border border-zinc-300/50'
             }`}
           >
             {t.emoji} {t.label}
@@ -144,7 +145,7 @@ export default function CurationWall({ topics, title = 'Live Inspiration' }: Pro
               className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
                 platform === p.id
                   ? 'bg-gradient-to-r from-red-500 to-pink-600 text-white'
-                  : 'bg-zinc-800/50 text-zinc-200 hover:text-white border border-zinc-700/50'
+                  : 'bg-zinc-100 text-zinc-600 hover:text-zinc-900 border border-zinc-300/50'
               }`}
             >
               {p.icon} {p.label}
@@ -155,9 +156,9 @@ export default function CurationWall({ topics, title = 'Live Inspiration' }: Pro
           href={searchUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 text-sm font-semibold text-cyan-400 bg-cyan-500/5 border border-cyan-500/20 px-4 py-2 rounded-xl hover:bg-cyan-500/10 transition-all self-start sm:self-auto"
+                      className="inline-flex items-center gap-2 text-sm font-semibold text-cyan-700 bg-cyan-500/5 border border-cyan-500/20 px-4 py-2 rounded-xl hover:bg-cyan-500/10 transition-all self-start sm:self-auto"
         >
-          {platformMeta.hint === 'Search' ? t('curate.search', 'Search') : t('curate.hashtag', 'Hashtag')}: <span className="text-white">{display}</span> ↗
+          {platformMeta.hint === 'Search' ? t('curate.search', 'Search') : t('curate.hashtag', 'Hashtag')}: <span className="text-cyan-900">{display}</span> ↗
         </a>
       </div>
 
@@ -167,7 +168,7 @@ export default function CurationWall({ topics, title = 'Live Inspiration' }: Pro
           href={searchUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="group relative aspect-[16/10] col-span-2 row-span-2 rounded-xl overflow-hidden bg-zinc-800"
+          className="group relative aspect-[16/10] col-span-2 row-span-2 rounded-xl overflow-hidden bg-zinc-100"
         >
           <img
             src={featured}
@@ -190,7 +191,7 @@ export default function CurationWall({ topics, title = 'Live Inspiration' }: Pro
             href={searchUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="group relative aspect-[4/3] rounded-xl overflow-hidden bg-zinc-800 hover:ring-2 hover:ring-red-500/40 transition-all"
+            className="group relative aspect-[4/3] rounded-xl overflow-hidden bg-zinc-100 hover:ring-2 hover:ring-red-500/40 transition-all"
           >
             <img
               src={img}
@@ -209,9 +210,9 @@ export default function CurationWall({ topics, title = 'Live Inspiration' }: Pro
       </div>
 
       {/* Footer note */}
-      <div className="px-5 pb-5 text-xs text-zinc-200 leading-relaxed">
-        Tap any tile to open a <strong className="text-zinc-100">live {platformMeta.label} search</strong> for this topic. The wall
-        auto-rotates fresh angles every few seconds — or hit <strong className="text-zinc-100">🔀 Surprise me</strong> to jump topics.
+      <div className="px-5 pb-5 text-xs text-zinc-600 leading-relaxed">
+        Tap any tile to open a <strong className="text-zinc-900">live {platformMeta.label} search</strong> for this topic. The wall
+        auto-rotates fresh angles every few seconds — or hit <strong className="text-zinc-900">🔀 Surprise me</strong> to jump topics.
       </div>
     </div>
   );

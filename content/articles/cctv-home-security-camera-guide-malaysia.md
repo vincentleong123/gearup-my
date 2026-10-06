@@ -93,7 +93,7 @@ Full reviews of each are on our gear page under **CCTV & Security**.
 
 The biggest scam in the budget CCTV market is the monthly cloud subscription upsell. A 256GB high-endurance microSD card costs RM45-70 and records weeks of footage continuously on a Tapo or Imou camera. Cloud plans charge RM10-30 a month forever. Buy the card. Keep the cloud only if you need off-site backup for a business.
 
-**Important:** buy a **high-endurance** microSD card, not a normal one. Dashcams and CCTV write constantly; a normal card dies in months. High-endurance cards (Samsung Pro Endurance, Sandisk High Endurance) are made for it.
+**Important:** buy a **high-endurance** microSD card, not a normal one. A CCTV recorder writes to the card constantly, 24/7; a normal card dies in months. High-endurance cards (Samsung Pro Endurance, Sandisk High Endurance) are made for it.
 
 ## Step 5: Gray import trap â€” read this before buying
 

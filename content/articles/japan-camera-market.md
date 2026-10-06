@@ -29,6 +29,7 @@ Japan is the promised land for second-hand camera gear. The Japanese treat their
 4. **Rare models** â€” Discontinued cameras, special editions, and Japan-only models are available.
 
 ## Where to buy from Japan
+![Tokyo camera shop aisle lined with used camera cabinets and lens shelves](/blog/japan-camera-market-tokyo-used-store.jpg "Japan's used gear is graded honestly - mint really does mean mint.")
 
 ### Online platforms
 
@@ -57,6 +58,7 @@ Japan is the promised land for second-hand camera gear. The Japanese treat their
 **Important:** Japanese "B grade" is better than most countries' "good condition."
 
 ## Price comparison: Japan vs Malaysia
+![Used camera body with inspection loupe and blank grading card on a shop counter](/blog/japan-camera-market-used-grading.jpg "Add import duty and shipping and Japan still wins on high-end bodies.")
 
 | Camera | Japan (JPYâ†’RM) | Malaysia (RM) | Savings |
 | --- | --- | --- | ---|

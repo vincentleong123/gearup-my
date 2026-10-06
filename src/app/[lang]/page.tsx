@@ -1,20 +1,12 @@
 import { Metadata } from 'next';
-import Nav from '@/components/Nav';
-import { T } from '@/components/T';
-import GearGrid from '@/components/GearGrid';
-import CreatorShowcase from '@/components/CreatorShowcase';
-import EditorsPicks from '@/components/EditorsPicks';
-import RoiCalculator from '@/components/RoiCalculator';
-import VideoWall from '@/components/VideoWall';
-import InstagramWall from '@/components/InstagramWall';
-import Footer from '@/components/Footer';
-import AdSlot from '@/components/AdSlot';
 import Link from 'next/link';
+import { T } from '@/components/T';
+import AdSlot from '@/components/AdSlot';
 import { gearList } from '@/data/gear';
 import { articles } from '@/data/articles';
 import { gigs } from '@/data/gigs';
 import { blogImg, gigImg } from '@/data/images';
-import { BASE_URL, langAlternates, withLang, htmlLang } from '@/lib/lang';
+import { BASE_URL, htmlLang, langAlternates, withLang } from '@/lib/lang';
 
 const ogLocales: Record<string, string> = { en: 'en_MY', ms: 'ms_MY', zh: 'zh_MY' };
 
@@ -46,47 +38,80 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-const tools = [
+const categories = ['Camera Reviews', 'Gig Rates', 'Beginner Guides', 'Drones', 'Security', 'Creator Income'];
+
+const mastLinks = [
+  { href: '/gear', en: 'Reviews' },
+  { href: '/gigs', en: 'Gig Rates' },
+  { href: '/blog', en: 'Guides' },
+  { href: '/compare', en: 'Compare' },
+  { href: '/calculator', en: 'ROI' },
+];
+
+const footerCols = [
   {
-    href: '/quiz',
-    icon: (
-      <path d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 18a8 8 0 110-16 8 8 0 010 16zm-1-13h2v7h-2V7zm0 8h2v2h-2v-2z" />
-    ),
-    titleKey: 'home.tools.quiz', titleEn: 'Gear Match Quiz',
-    descKey: 'home.tools.quizDesc', descEn: '5 questions. Find your perfect beginner gear.',
-    tint: 'from-red-500/15 to-pink-500/5 text-red-400 border-red-500/20',
+    title: 'Research',
+    links: [
+      { href: '/gear', en: 'Gear Reviews' },
+      { href: '/compare', en: 'Compare Desk' },
+      { href: '/security', en: 'Security Cameras' },
+      { href: '/about', en: 'About' },
+    ],
   },
   {
-    href: '/compare',
-    icon: (
-      <path d="M3 6h18v2H3V6zm0 5h12v2H3v-2zm0 5h8v2H3v-2zm16-5l4 4-4 4v-3h-5v-2h5v-3z" />
-    ),
-    titleKey: 'home.tools.compare', titleEn: 'Compare Gear',
-    descKey: 'home.tools.compareDesc', descEn: 'Up to 3 items side-by-side with specs & ROI.',
-    tint: 'from-purple-500/15 to-pink-500/5 text-purple-400 border-purple-500/20',
+    title: 'Earn',
+    links: [
+      { href: '/gigs', en: 'Gig Rate Cards' },
+      { href: '/niche', en: 'Pick a Niche' },
+      { href: '/creators', en: 'Creator Stories' },
+      { href: '/calculator', en: 'ROI Calculator' },
+    ],
   },
   {
-    href: '/niche',
-    icon: (
-      <path d="M13.5 1a1 1 0 01.9.55L16.5 5l3.45.5a1 1 0 01.55 1.7l-2.5 2.4.6 3.45a1 1 0 01-1.45 1.05L13.5 12l-3.1 1.65a1 1 0 01-1.45-1.05l.6-3.45-2.5-2.4a1 1 0 01.55-1.7L11.5 5l2.1-3.45A1 1 0 0113.5 1zm0 3.8L12.6 6.5l-2 .3 1.45 1.4-.35 2 1.8-.95 1.8.95-.35-2 1.45-1.4-2-.3-.9-1.7zM4 11a1 1 0 011 1v9a1 1 0 01-2 0v-9a1 1 0 011-1zm5 2a1 1 0 011 1v7a1 1 0 01-2 0v-7a1 1 0 011-1zm5 2a1 1 0 011 1v5a1 1 0 01-2 0v-5a1 1 0 011-1z" />
-    ),
-    titleKey: 'home.tools.niches', titleEn: 'Content Niches',
-    descKey: 'home.tools.nichesDesc', descEn: 'Find your niche with gear + earning potential.',
-    tint: 'from-cyan-500/15 to-blue-500/5 text-cyan-400 border-cyan-500/20',
+    title: 'Learn',
+    links: [
+      { href: '/blog', en: 'Blog & Guides' },
+      { href: '/glossary', en: 'Glossary' },
+      { href: '/hashtags', en: 'Hashtag Bank' },
+      { href: '/videos', en: 'Video Tips' },
+    ],
   },
   {
-    href: '/glossary',
-    icon: (
-      <path d="M4 3h9a4 4 0 014 4v11a3 3 0 003-3V6a5 5 0 00-5-5H4v2zm0 0v2h11v13a1 1 0 01-1 1H5a1 1 0 01-1-1V3zm9 15a3 3 0 00-3-3H6v-2h8v5h-1zm-2-9V8h-2v1H8V8H6v1h2v1H6v1h2v1h2v-1h2v-1h-1z" />
-    ),
-    titleKey: 'home.tools.glossary', titleEn: 'Gear Glossary',
-    descKey: 'home.tools.glossaryDesc', descEn: 'Camera terms in simple English & Manglish.',
-    tint: 'from-amber-500/15 to-yellow-500/5 text-amber-400 border-amber-500/20',
+    title: 'Site',
+    links: [
+      { href: '/curate', en: 'Inspiration Wall' },
+      { href: '/contact', en: 'Contact' },
+      { href: '/advertise', en: 'Advertise' },
+      { href: '/review-policy', en: 'Review Policy' },
+    ],
   },
 ];
 
+function Kicker({ children, accent = 'text-red-600' }: { children: React.ReactNode; accent?: string }) {
+  return (
+    <p className={`text-[11px] font-bold uppercase tracking-[0.25em] ${accent}`}>
+      {children}
+    </p>
+  );
+}
+
+function SectionHead({ kicker, title, sub }: { kicker: string; title: string; sub?: string }) {
+  return (
+    <div className="mb-8 border-t-2 border-zinc-900 pt-4">
+      <div className="flex flex-wrap items-baseline justify-between gap-2">
+        <div>
+          <Kicker>{kicker}</Kicker>
+          <h2 className="font-display text-2xl sm:text-4xl mt-1 tracking-tight">{title}</h2>
+        </div>
+        {sub ? <p className="text-sm text-zinc-500 max-w-md">{sub}</p> : null}
+      </div>
+    </div>
+  );
+}
+
 export default async function HomePage({ params }: Props) {
   const { lang } = await params;
+  const topGear = [...gearList].sort((a, b) => b.roiScore - a.roiScore);
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
@@ -101,7 +126,7 @@ export default async function HomePage({ params }: Props) {
         '@type': 'ItemList',
         name: 'Malaysia Camera Research Shortlist',
         description: 'Cameras and gear tracked for comparison: used prices in MYR and ROI scores',
-        itemListElement: gearList.map((g, i) => ({
+        itemListElement: topGear.slice(0, 6).map((g, i) => ({
           '@type': 'ListItem',
           position: i + 1,
           item: {
@@ -134,393 +159,259 @@ export default async function HomePage({ params }: Props) {
     ],
   };
 
-  const latest = [...articles].sort((a, b) => (a.date < b.date ? 1 : -1));
-  const featured = latest[0];
-  const rest = latest.slice(1, 4);
+  const sorted = [...articles].sort((a, b) => (a.date < b.date ? 1 : -1));
+  const featured = sorted[0];
+  const rest = sorted.slice(1, 7);
+  const topGigs = gigs.slice(0, 6);
 
   return (
-    <>
+    <div className="min-h-screen bg-[#faf9f7] text-zinc-900 selection:bg-red-100">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <Nav />
 
-      {/* HERO — research desk */}
-      <section className="min-h-screen flex flex-col relative overflow-hidden pt-24">
-        <div className="absolute inset-0">
-          <picture>
-            <source srcSet="/kameralog-hero-main-homepage-camera-gear-reviews.webp" type="image/webp" />
-            <img
-              src="/kameralog-hero-main-homepage-camera-gear-reviews.jpg"
-              alt="Kameralog camera reviews — Sony, Canon and Nikon cameras, lenses, a DJI drone and creator gear laid out on a mountain at sunrise, next to a Kameralog.com signpost"
-              className="absolute inset-0 w-full h-full object-cover object-[45%_20%]"
-              fetchPriority="high"
-              decoding="async"
-            />
-          </picture>
-          <div className="absolute inset-0 bg-gradient-to-b from-zinc-950/60 via-zinc-950/45 to-zinc-950" />
-          <div className="absolute inset-0 bg-gradient-to-r from-zinc-950/80 via-zinc-950/35 to-zinc-950/40" />
-          <div className="absolute -top-32 -left-32 w-[520px] h-[520px] bg-gradient-to-br from-purple-600/25 via-fuchsia-600/14 to-transparent blur-3xl rounded-full pointer-events-none" />
-          <div className="absolute bottom-0 right-0 w-[420px] h-[420px] bg-gradient-to-tl from-fuchsia-600/10 to-transparent blur-3xl rounded-full pointer-events-none" />
-          <div className="film-grain" />
+      {/* Ticker */}
+      <div className="border-b border-zinc-200 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center gap-3 text-[11px] font-medium text-zinc-500 overflow-hidden whitespace-nowrap">
+          <span className="shrink-0 uppercase tracking-widest text-red-600 font-bold">Live</span>
+          <span className="shrink-0">🇲🇾 Malaysia</span>
+          <span aria-hidden>·</span>
+          <span className="truncate"><T k="home2.ticker" en={`Used prices in MYR · ${gigs.length} gig rate cards · ${gearList.length} items tracked · ${articles.length} research notes — nothing sold, research only`} /></span>
         </div>
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full flex-1 flex flex-col justify-center">
-          <div className="grid lg:grid-cols-2 gap-14 lg:gap-10 items-center">
-            {/* Copy */}
-            <div className="max-w-3xl">
-              <div className="flex items-center gap-4 mb-8">
-                <span className="hero-kicker-line h-px w-12 sm:w-16" />
-                <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-zinc-100 font-medium">
-                  <T k="home.hero.badge" en="Personal Camera Research Desk — Malaysia" />
-                </p>
+      </div>
+
+      {/* Masthead */}
+      <header className="sticky top-0 z-40 border-b border-zinc-200 bg-[#faf9f7]/95 backdrop-blur">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <div className="flex items-center justify-between h-16">
+            <Link href={withLang(lang, '/')} className="flex items-center gap-2.5">
+              <span className="grid place-items-center h-9 w-9 rounded-lg bg-zinc-900">
+                <svg viewBox="0 0 24 24" fill="none" className="h-5 w-5 text-white">
+                  <rect x="2.5" y="6.5" width="19" height="12.5" rx="3" stroke="currentColor" strokeWidth="1.7" />
+                  <circle cx="12" cy="12.5" r="3.6" stroke="currentColor" strokeWidth="1.7" />
+                  <circle cx="17.2" cy="10.2" r="1.05" fill="#34d399" />
+                </svg>
+              </span>
+              <span className="font-display font-black text-2xl tracking-tight">Kameralog</span>
+              <span className="text-[10px] font-bold uppercase tracking-widest bg-zinc-900 text-white px-1.5 py-0.5 rounded">Trials</span>
+            </Link>
+            <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-zinc-600">
+              {mastLinks.map(l => (
+                <Link key={l.href} href={withLang(lang, l.href)} className="hover:text-red-600 transition-colors">
+                  <T k={`home2.nav.${l.href.replace(/\//g, '')}`} en={l.en} />
+                </Link>
+              ))}
+            </nav>
+            <Link href={withLang(lang, '/quiz')} className="inline-flex items-center gap-1.5 text-sm font-bold px-4 py-2 rounded-full bg-red-600 text-white hover:bg-zinc-900 transition-colors">
+              ⚡ <T k="home2.nav.start" en="Start Here" />
+            </Link>
+          </div>
+          <div className="flex gap-1 pb-2 overflow-x-auto">
+            {categories.map(c => (
+              <span key={c} className="shrink-0 text-xs font-semibold px-3 py-1 rounded-full border border-zinc-200 bg-white text-zinc-600">
+                {c}
+              </span>
+            ))}
+          </div>
+        </div>
+      </header>
+
+      <main className="max-w-6xl mx-auto px-4 sm:px-6">
+        {/* Hero */}
+        <section className="pt-10 pb-12 border-b border-zinc-200">
+          <div className="grid lg:grid-cols-12 gap-10">
+            <div className="lg:col-span-7">
+              {featured && (
+                <Link href={withLang(featured.lang ?? 'en', `/blog/${featured.slug}`)} className="group block">
+                  <div className="flex items-center gap-2 mb-4">
+                    <span className="text-[11px] font-bold uppercase tracking-[0.25em] bg-red-600 text-white px-2.5 py-1 rounded-sm">Lead Story</span>
+                    <span className="text-[11px] font-bold uppercase tracking-widest text-zinc-500">{featured.category}</span>
+                  </div>
+                  <div className="rounded-2xl overflow-hidden border border-zinc-200 bg-white mb-6">
+                    <img
+                      src={featured.image || blogImg(featured.slug)}
+                      alt={featured.title}
+                      className="w-full aspect-[16/9] object-cover group-hover:scale-[1.02] transition-transform duration-500"
+                      fetchPriority="high"
+                    />
+                  </div>
+                  <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl leading-[1.08] tracking-tight group-hover:text-red-700 transition-colors">
+                    {featured.title}
+                  </h1>
+                  <p className="mt-4 text-zinc-600 text-lg leading-relaxed max-w-2xl">{featured.description}</p>
+                  <p className="mt-4 text-xs text-zinc-500">
+                    {featured.date} · {featured.readTime} min read · <span className="font-semibold text-zinc-700">Kameralog Research</span>
+                  </p>
+                </Link>
+              )}
+            </div>
+
+            {/* Right rail — market data */}
+            <aside className="lg:col-span-5">
+              <div className="border border-zinc-200 rounded-2xl bg-white p-6 mb-6">
+                <div className="flex items-baseline justify-between mb-4">
+                  <Kicker>Used Market Watch</Kicker>
+                  <span className="text-[11px] font-mono text-zinc-400">MYR</span>
+                </div>
+                <ul className="divide-y divide-zinc-100">
+                  {topGear.slice(0, 4).map((g, i) => (
+                    <li key={g.slug}>
+                      <Link href={withLang(lang, `/gear/${g.slug}`)} className="group flex items-center gap-3 py-3">
+                        <span className="font-mono text-xs text-zinc-400 w-6">{String(i + 1).padStart(2, '0')}</span>
+                        <span className="flex-1 min-w-0">
+                          <span className="block text-sm font-semibold truncate group-hover:text-red-600 transition-colors">{g.name}</span>
+                          <span className="block text-xs text-zinc-400">{g.type}</span>
+                        </span>
+                        <span className="text-right">
+                          <span className="block text-sm font-bold font-mono">RM{g.priceUsed.toLocaleString()}</span>
+                          <span className="block text-[11px] font-bold text-emerald-600">ROI {g.roiScore}</span>
+                        </span>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+                <Link href={withLang(lang, '/gear')} className="mt-3 inline-flex items-center gap-1 text-sm font-bold text-red-600 hover:text-zinc-900">
+                  All {gearList.length} items →
+                </Link>
               </div>
-
-              <h1 className="font-display text-4xl sm:text-6xl lg:text-7xl xl:text-[5.5rem] leading-[1.06] tracking-tight mb-7">
-                <T k="home.hero.title" en="Which Camera Should I Buy" />{' '}
-                <em className="italic text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-pink-400 to-fuchsia-400">
-                  <T k="home.hero.titleAccent" en="in Malaysia?" />
-                </em>
-              </h1>
-
-              <p className="text-base md:text-xl text-zinc-200 max-w-2xl mb-10 leading-relaxed font-light">
-                <T k="home.hero.subtitle" en="This is the dashboard I use to answer that — one research workspace that tracks second-hand prices in Ringgit, real Malaysian gig rates, and how fast each camera pays itself back. Nothing is sold here. It just helps me decide." />
-              </p>
-
-              <div className="flex flex-wrap gap-4 mb-12">
-                <Link href={withLang(lang, '/compare')} className="group inline-flex items-center gap-2.5 px-7 py-3.5 bg-white text-zinc-950 font-semibold rounded-full text-base hover:bg-red-500 hover:text-white hover:shadow-xl hover:shadow-red-500/25 hover:-translate-y-0.5 transition-all duration-300">
-                  <T k="home.hero.cta" en="Open the Compare Desk" />
-                  <span className="transition-transform duration-300 group-hover:translate-x-0.5">→</span>
-                </Link>
-                <Link href="#gear" className="inline-flex items-center gap-2 px-7 py-3.5 bg-white/5 text-white font-semibold rounded-full text-base border border-white/15 backdrop-blur hover:bg-white/10 hover:border-red-500/40 transition-all duration-300">
-                  <T k="home.hero.readGuide" en="Browse the Gear Database" />
-                </Link>
-                <Link href="#calculator" className="inline-flex items-center gap-2 px-6 py-3.5 text-zinc-100 font-medium rounded-full text-base hover:text-white transition-all duration-300">
-                  🧮 <T k="home.hero.compareCta" en="Run the ROI Numbers" />
-                </Link>
-              </div>
-
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-px overflow-hidden rounded-2xl border border-white/10 bg-white/10">
+              <div className="grid grid-cols-2 gap-4">
                 {[
-                  { value: `${gearList.length}`, label: 'Items tracked', labelKey: 'home.hero.stats.gearReviewed', grad: 'from-green-400 to-emerald-500' },
-                  { value: `${gigs.length}`, label: 'Gig rate cards', labelKey: 'home.hero.stats.gigs', grad: 'from-cyan-400 to-blue-500' },
-                  { value: `${articles.length}`, label: 'Research notes', labelKey: 'home.hero.stats.notes', grad: 'from-yellow-400 to-orange-500' },
-                  { value: 'MYR', label: 'Prices in Ringgit', labelKey: 'home.hero.stats.myr', grad: 'from-red-400 to-pink-500' },
+                  { v: `${gearList.length}`, l: 'Items tracked' },
+                  { v: `${gigs.length}`, l: 'Gig rate cards' },
+                  { v: `${articles.length}`, l: 'Research notes' },
+                  { v: 'MYR', l: 'Prices in Ringgit' },
                 ].map(s => (
-                  <div key={s.label} className="bg-zinc-950/60 backdrop-blur px-4 py-4">
-                    <div className={`text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r ${s.grad}`}>{s.value}</div>
-                    <div className="text-xs uppercase tracking-wider text-zinc-200 mt-0.5"><T k={s.labelKey} en={s.label} /></div>
+                  <div key={s.l} className="border border-zinc-200 rounded-xl bg-white p-4">
+                    <div className="font-display text-3xl font-black">{s.v}</div>
+                    <div className="text-[11px] uppercase tracking-widest text-zinc-500 mt-1"><T k="home2.stats" en={s.l} /></div>
                   </div>
                 ))}
               </div>
-            </div>
-
-            {/* Research console — live shortlist, no stock photos */}
-            <div className="rounded-2xl border border-white/10 bg-zinc-950/70 backdrop-blur-xl shadow-2xl shadow-black/50 overflow-hidden">
-              <div className="flex items-center justify-between px-5 py-3 border-b border-white/10 bg-white/[0.03]">
-                <div className="flex items-center gap-2">
-                  <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
-                  <span className="text-xs font-bold uppercase tracking-wider text-zinc-100">
-                    <T k="home.hero.consoleTitle" en="Shortlist — tracked this week" />
-                  </span>
-                </div>
-                <span className="text-[11px] font-mono text-zinc-400">roi · used (MYR)</span>
-              </div>
-              <div className="divide-y divide-white/5">
-                {[...gearList]
-                  .sort((a, b) => b.roiScore - a.roiScore)
-                  .slice(0, 5)
-                  .map((g, i) => (
-                    <Link
-                      key={g.slug}
-                      href={withLang(lang, `/gear/${g.slug}`)}
-                      className="group flex items-center gap-4 px-5 py-3.5 hover:bg-white/[0.04] transition-colors"
-                    >
-                      <span className="font-mono text-xs text-zinc-500 w-5">{String(i + 1).padStart(2, '0')}</span>
-                      <span className="flex-1 min-w-0">
-                        <span className="block text-sm font-semibold text-zinc-100 truncate group-hover:text-red-400 transition-colors">{g.name}</span>
-                        <span className="block text-xs text-zinc-400 truncate">{g.type}</span>
-                      </span>
-                      <span className="text-right">
-                        <span className="block text-sm font-bold text-white">RM{g.priceUsed.toLocaleString()}</span>
-                        <span className="block text-[11px] font-mono text-emerald-400">ROI {g.roiScore}</span>
-                      </span>
-                    </Link>
-                  ))}
-              </div>
-              <div className="px-5 py-3 border-t border-white/10 flex items-center justify-between bg-white/[0.02]">
-                <span className="text-[11px] text-zinc-400">
-                  <T k="home.hero.consoleNote" en="No affiliate links · no items sold · research only" />
-                </span>
-                <Link href={withLang(lang, '/gear')} className="text-[11px] font-bold text-red-400 hover:text-red-300 transition-colors">
-                  <T k="home.hero.consoleAll" en="all →" />
-                </Link>
-              </div>
-            </div>
+            </aside>
           </div>
+        </section>
+
+        <div className="pt-10">
+          <AdSlot tone="light" />
         </div>
 
-        <div className="relative z-10 pb-8 flex justify-center pointer-events-none">
-          <div className="flex flex-col items-center gap-2 text-zinc-200">
-            <span className="text-xs uppercase tracking-[0.4em]"><T k="home.scroll" en="Scroll" /></span>
-            <span className="w-px h-10 bg-gradient-to-b from-zinc-500/70 to-transparent" />
-          </div>
-        </div>
-      </section>
-
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10">
-        <AdSlot />
-      </div>
-
-      {/* 2026 EDITOR'S CHOICE AWARDS */}
-      <EditorsPicks lang={lang} />
-
-      {/* GIG-TO-GEAR */}
-      <section id="gigs" className="py-16 md:py-24 bg-gradient-to-b from-amber-500/[0.04] to-transparent">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <div className="inline-flex items-center gap-2 bg-amber-500/10 border border-amber-500/20 rounded-full px-4 py-1.5 text-sm text-amber-400 font-semibold mb-5">
-              💰 <T k="home.gigs.badge" en="Earnings Research — Gig Rates" />
-            </div>
-            <h2 className="text-3xl md:text-5xl font-black mb-4">
-              <T k="home.gigs.head" en="What Gigs Pay" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-yellow-500"><T k="home.gigs.headAccent" en="Back a Camera" /></span>
-            </h2>
-            <p className="text-zinc-200 max-w-2xl mx-auto text-lg">
-              <T k="home.gigs.desc" en="Graduation shoots, gala dinners, portraits, weddings, video content — logged Malaysian part-time rates I use as the earning side of the buy decision. Compare each rate against a camera's used price and see how many gigs close the gap." />
-            </p>
-          </div>
-          <div className="grid md:grid-cols-3 gap-6">
-            {['graduation-photography', 'wedding-coverage', 'gala-dinner-event'].map(slug => {
-              const g = gigs.find(x => x.slug === slug);
-              if (!g) return null;
-              return (
-                <Link key={g.slug} href={withLang(lang, `/gigs/${g.slug}`)} className="group block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-amber-500/40 hover:shadow-xl hover:shadow-amber-500/5 hover:-translate-y-1 transition-all duration-300">
-                  <div className="h-44 relative overflow-hidden bg-zinc-900">
-                    <img
-                      src={gigImg(g.slug)}
-                      alt={g.title}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                      loading="lazy"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-zinc-900 via-zinc-900/20 to-transparent" />
-                    <div className="absolute bottom-3 left-3 text-4xl drop-shadow">{g.emoji}</div>
-                  </div>
-                  <div className="p-5">
-                    <h3 className="font-bold text-lg group-hover:text-amber-400 transition-colors mb-1">{g.title}</h3>
-                    <p className="text-sm text-zinc-200 line-clamp-2 mb-3">{g.tagline}</p>
-                    <div className="flex items-center justify-between">
-                      <div className="text-xs text-zinc-200">{g.timeEstimate}</div>
-                      <div className="text-amber-400 font-black">RM {g.rateMin.toLocaleString()}–{g.rateMax.toLocaleString()}</div>
-                    </div>
-                  </div>
-                </Link>
-              );
-            })}
-          </div>
-          <div className="mt-10 flex flex-wrap justify-center gap-4">
-            <Link href={withLang(lang, '/gigs')} className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-amber-400 to-yellow-500 text-zinc-950 font-bold rounded-xl text-lg hover:shadow-xl hover:shadow-amber-500/25 hover:-translate-y-0.5 transition-all duration-300">
-              <T k="home.gigs.explore" en="Explore All" /> {gigs.length} <T k="home.gigs.count" en="Gigs" /> →
-            </Link>
-            <Link href={withLang(lang, '/curate')} className="inline-flex items-center gap-2 px-8 py-4 bg-zinc-800/50 text-white font-bold rounded-xl text-lg border border-zinc-700/50 hover:bg-zinc-800 transition-all duration-300">
-              🔀 <T k="home.gigs.surprise" en="Surprise Me — Live Inspiration Wall" />
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      <GearGrid />
-      <CreatorShowcase lang={lang} />
-      <RoiCalculator />
-
-      {/* BLOG PREVIEW */}
-      <section id="blog" className="py-16 md:py-24 bg-zinc-900/30">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-12 gap-4">
-            <div>
-              <div className="inline-flex items-center gap-2 bg-green-500/10 border border-green-500/20 rounded-full px-4 py-1.5 text-sm text-green-400 font-semibold mb-4">
-                ✍️ <T k="home.blog.badge" en="Fresh From The Lab" />
-              </div>
-              <h2 className="text-3xl md:text-5xl font-black">
-                <T k="home.blog.heading1" en="Latest" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-emerald-500"><T k="home.blog.heading2" en="Reviews & Guides" /></span>
-              </h2>
-            </div>
-            <Link href={withLang(lang, '/blog')} className="inline-flex items-center gap-2 text-zinc-200 hover:text-white transition-colors font-semibold whitespace-nowrap">
-              <T k="home.blog.readAll" en="Read all articles" /> →
-            </Link>
-          </div>
-
-          {featured && (
-            <Link
-              href={withLang(featured.lang ?? 'en', `/blog/${featured.slug}`)}
-              className="group relative block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden mb-6 hover:border-green-500/30 hover:shadow-2xl hover:shadow-green-600/10 transition-all duration-300"
-            >
-              <div className="h-64 md:h-80 relative overflow-hidden bg-zinc-900">
-                <img
-                  src={blogImg(featured.slug)}
-                  alt={featured.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-900/40 to-transparent" />
-                <div className="absolute top-4 left-4 flex items-center gap-2">
-                  <span className="text-xs font-bold px-3 py-1 rounded-full bg-green-500 text-zinc-950 uppercase"><T k="home.blog.newest" en="Newest" /></span>
-                  <span className="text-xs font-bold px-3 py-1 rounded-full bg-green-500/20 text-green-300 border border-green-500/30 uppercase backdrop-blur-sm">{featured.category}</span>
-                </div>
-              </div>
-              <div className="p-6 md:p-8 -mt-24 relative z-10">
-                <div className="flex items-center gap-3 text-sm text-zinc-200 mb-3">
-                  <span>{featured.date}</span>
-                  <span>·</span>
-                  <span>{featured.readTime} min read</span>
-                </div>
-                <h3 className="text-2xl md:text-3xl font-black group-hover:text-green-400 transition-colors mb-3 max-w-2xl">{featured.title}</h3>
-                <p className="text-zinc-100 max-w-2xl leading-relaxed">{featured.description}</p>
-              </div>
-            </Link>
-          )}
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {/* Latest reviews */}
+        <section className="py-12">
+          <SectionHead
+            kicker="Latest From The Desk"
+            title="Fresh Reviews & Guides"
+            sub="Long-form testing notes, buying guides and ROI breakdowns — written in Malaysia, for Malaysia."
+          />
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {rest.map(a => (
               <Link
                 key={a.slug}
                 href={withLang(a.lang ?? 'en', `/blog/${a.slug}`)}
-                className="group block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-green-500/30 hover:-translate-y-1 hover:shadow-xl hover:shadow-green-600/5 transition-all duration-300"
+                className="group flex flex-col rounded-2xl border border-zinc-200 bg-white overflow-hidden hover:border-red-300 hover:shadow-lg hover:shadow-red-500/5 transition-all duration-300"
               >
-                <div className="h-44 relative overflow-hidden bg-zinc-900">
+                <div className="aspect-[16/10] overflow-hidden bg-zinc-100">
                   <img
-                    src={blogImg(a.slug)}
+                    src={a.image || blogImg(a.slug)}
                     alt={a.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-zinc-900/70 to-transparent" />
-                  <div className="absolute top-4 left-4">
-                    <span className="text-xs font-bold px-3 py-1 rounded-full bg-green-500/20 text-green-400 border border-green-500/30 uppercase backdrop-blur-sm">{a.category}</span>
-                  </div>
                 </div>
-                <div className="p-5">
-                  <div className="flex items-center gap-2 mb-2 text-xs text-zinc-200">
-                    <span>{a.date}</span>
-                    <span>·</span>
-                    <span>{a.readTime} min read</span>
-                  </div>
-                  <h3 className="font-bold group-hover:text-green-400 transition-colors mb-2 line-clamp-2">{a.title}</h3>
-                  <p className="text-sm text-zinc-200 line-clamp-2">{a.description}</p>
+                <div className="p-5 flex flex-col flex-1">
+                  <span className="self-start text-[11px] font-bold uppercase tracking-widest text-red-600 mb-2">{a.category}</span>
+                  <h3 className="font-display text-xl leading-snug tracking-tight group-hover:text-red-700 transition-colors line-clamp-2">{a.title}</h3>
+                  <p className="mt-2 text-sm text-zinc-500 line-clamp-2 flex-1">{a.description}</p>
+                  <p className="mt-3 text-xs text-zinc-400">{a.date} · {a.readTime} min read</p>
                 </div>
               </Link>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* VIDEOS PREVIEW */}
-      <section id="videos" className="py-16 md:py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-10 gap-4">
-            <div>
-              <div className="inline-flex items-center gap-2 bg-pink-500/10 border border-pink-500/20 rounded-full px-4 py-1.5 text-sm text-pink-400 font-semibold mb-4">
-                🎬 <T k="home.videos.badge" en="Learn To Create — Short & Curated" />
-              </div>
-              <h2 className="text-3xl md:text-5xl font-black">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-pink-400 to-fuchsia-400"><T k="home.videos.head" en="Watch & Learn" /></span>{' '}
-                <T k="home.videos.heading2" en="Before You Buy" />
-              </h2>
-              <p className="text-zinc-200 max-w-2xl mt-3 text-lg">
-                <T k="home.videos.desc" en="Mobile, portrait, drones, gimbals, mirrorless, editing and AI — short tutorials picked for the Malaysian creator starting from RM0." />
-              </p>
-            </div>
-            <Link href={withLang(lang, '/videos')} className="inline-flex items-center gap-2 text-zinc-200 hover:text-white transition-colors font-semibold whitespace-nowrap">
-              <T k="home.videos.viewAll" en="Open the full video wall" /> →
+          <div className="mt-8 text-center">
+            <Link href={withLang(lang, '/blog')} className="inline-flex items-center gap-1.5 px-7 py-3 rounded-full border-2 border-zinc-900 font-bold text-sm hover:bg-zinc-900 hover:text-white transition-colors">
+              Read all {articles.length} articles →
             </Link>
           </div>
+        </section>
 
-          <VideoWall limit={6} />
-
-          <div className="mt-10 text-center">
-            <Link href={withLang(lang, '/videos')} className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-pink-600 to-fuchsia-600 text-white font-bold rounded-xl text-lg hover:shadow-xl hover:shadow-pink-600/25 hover:-translate-y-0.5 transition-all duration-300">
-              ▶ <T k="home.videos.viewAll" en="Open the full video wall" />
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* INSTAGRAM CAMERALOGUE STRIP */}
-      <section id="instagram" className="py-16 md:py-24 bg-zinc-900/20 border-y border-zinc-800/50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-10 gap-4">
-            <div>
-              <div className="inline-flex items-center gap-2 bg-gradient-to-r from-fuchsia-600/20 to-pink-600/20 border border-fuchsia-500/30 rounded-full px-4 py-1.5 text-sm text-pink-300 font-semibold mb-4">
-                📸 <T k="home.ig.badge" en="Live From Instagram" />
-              </div>
-              <h2 className="text-3xl md:text-5xl font-black">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 via-pink-400 to-red-400"><T k="home.ig.head" en="Gear We Actually" /></span>{' '}
-                <T k="home.ig.heading2" en="Rate & Save" />
-              </h2>
-              <p className="text-zinc-200 max-w-2xl mt-3 text-lg">
-                <T k="home.ig.desc" en="Hand-saved camera reels from our private cameralogue — unboxings, lens tests and lighting setups. Tap any card for the real post." />
-              </p>
-            </div>
-            <Link href={withLang(lang, '/videos#instagram')} className="inline-flex items-center gap-2 text-zinc-200 hover:text-white transition-colors font-semibold whitespace-nowrap">
-              <T k="home.ig.viewAll" en="See all on the wall" /> →
-            </Link>
-          </div>
-
-          <InstagramWall limit={6} />
-        </div>
-      </section>
-
-      {/* TOOLS STRIP */}
-      <section id="tools" className="py-16 border-y border-zinc-800/50 bg-zinc-900/20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-10">
-            <h2 className="text-3xl md:text-5xl font-black mb-4">
-              <T k="home.tools.heading1" en="More" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-purple-500 to-pink-500"><T k="home.tools.heading2" en="Tools" /></span>
-            </h2>
-            <p className="text-zinc-200 max-w-2xl mx-auto text-lg"><T k="home.tools.desc" en="Everything you need to find the right gear, compare options, and understand the lingo." /></p>
-          </div>
-          <div className="grid md:grid-cols-4 gap-4">
-            {tools.map(tool => (
-              <Link key={tool.href} href={withLang(lang, tool.href)} className="group relative block bg-zinc-900/60 border border-zinc-800 rounded-2xl p-6 hover:border-red-500/30 hover:-translate-y-1 hover:shadow-xl hover:shadow-red-500/5 transition-all duration-300 overflow-hidden">
-                <div className={`absolute inset-x-0 top-0 h-px bg-gradient-to-r ${tool.tint.split(' ')[0]} opacity-0 group-hover:opacity-100 transition-opacity`} />
-                <div className={`grid place-items-center h-12 w-12 rounded-xl bg-gradient-to-br ${tool.tint} border mb-4`}>
-                  <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">{tool.icon}</svg>
+        {/* Gig rates — rate card */}
+        <section className="py-12 border-t border-zinc-200">
+          <SectionHead
+            kicker="Money Side"
+            title="What Gigs Pay Right Now"
+            sub="Logged Malaysian part-time rates matched against used gear prices — the earning half of every buy decision."
+          />
+          <div className="grid md:grid-cols-2 gap-4">
+            {topGigs.map(g => (
+              <Link
+                key={g.slug}
+                href={withLang(lang, `/gigs/${g.slug}`)}
+                className="group flex gap-4 rounded-2xl border border-zinc-200 bg-white p-4 hover:border-red-300 hover:shadow-lg hover:shadow-red-500/5 transition-all duration-300"
+              >
+                <div className="w-28 h-24 rounded-xl overflow-hidden bg-zinc-100 shrink-0">
+                  <img src={gigImg(g.slug, 400, 300)} alt={g.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                 </div>
-                <h3 className="font-bold group-hover:text-red-400 transition-colors mb-1"><T k={tool.titleKey} en={tool.titleEn} /></h3>
-                <p className="text-sm text-zinc-200"><T k={tool.descKey} en={tool.descEn} /></p>
-                <div className="mt-4 text-xs font-bold text-zinc-200 group-hover:text-white transition-colors"><T k="home.tools.open" en="Open tool" /> →</div>
+                <div className="min-w-0 flex-1">
+                  <div className="flex items-center justify-between gap-2">
+                    <h3 className="font-bold group-hover:text-red-700 transition-colors truncate">{g.emoji} {g.title}</h3>
+                    <span className="shrink-0 font-mono font-black text-red-600 text-sm">RM{g.rateMin.toLocaleString()}–{g.rateMax.toLocaleString()}</span>
+                  </div>
+                  <p className="mt-1 text-sm text-zinc-500 line-clamp-2">{g.tagline}</p>
+                  <p className="mt-2 text-[11px] uppercase tracking-widest text-zinc-400">{g.timeEstimate}</p>
+                </div>
               </Link>
             ))}
           </div>
-        </div>
-      </section>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <Link href={withLang(lang, '/gigs')} className="px-7 py-3 rounded-full bg-red-600 text-white font-bold text-sm hover:bg-zinc-900 transition-colors">
+              All {gigs.length} gig rate cards →
+            </Link>
+            <Link href={withLang(lang, '/calculator')} className="px-7 py-3 rounded-full border-2 border-zinc-900 font-bold text-sm hover:bg-zinc-900 hover:text-white transition-colors">
+              🧮 Run the ROI math
+            </Link>
+          </div>
+        </section>
 
-      {/* CTA */}
-      <section className="py-16 md:py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="relative bg-gradient-to-br from-zinc-900 to-zinc-950 border border-zinc-800 rounded-3xl p-10 md:p-16 text-center overflow-hidden">
-            <div className="absolute inset-0 grid-bg pointer-events-none" />
-            <div className="absolute inset-0 bg-gradient-to-br from-red-500/8 via-transparent to-purple-500/8 pointer-events-none" />
-            <div className="absolute -top-24 left-1/2 -translate-x-1/2 w-[480px] h-[240px] bg-gradient-to-r from-red-600/15 via-pink-600/15 to-purple-600/15 blur-3xl rounded-full pointer-events-none" />
-            <div className="relative z-10">
-              <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-4 py-1.5 text-sm text-zinc-100 font-semibold mb-5">
-                <T k="home.cta.badge" en="🇲🇾 A research desk, not a shop — nothing is sold here" />
-              </div>
-              <h2 className="text-3xl md:text-5xl font-black mb-4">
-                <T k="home.cta.heading1" en="Decide With" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-purple-500 to-pink-500"><T k="home.cta.heading2" en="The Numbers" /></span>
-              </h2>
-              <p className="text-zinc-200 max-w-xl mx-auto mb-8 text-lg">
-                <T k="home.cta.desc" en="Shortlist a camera, check its used price, run the gig math, and pick the one that makes money first." />
-              </p>
-              <div className="flex flex-wrap justify-center gap-4">
-                <Link href={withLang(lang, '/compare')} className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-red-500 to-pink-600 text-white font-bold rounded-xl text-lg hover:shadow-xl hover:shadow-red-500/25 hover:-translate-y-0.5 transition-all duration-300">
-                  <T k="home.cta.button" en="Open the Compare Desk" /> →
-                </Link>
-                <Link href={withLang(lang, '/quiz')} className="inline-flex items-center gap-2 px-8 py-4 bg-zinc-800/60 text-white font-bold rounded-xl text-lg border border-zinc-700/50 hover:bg-zinc-800 transition-all duration-300">
-                  <T k="home.cta.quiz" en="⚡ Take the 5-Minute Quiz" />
-                </Link>
-              </div>
+        {/* About strip */}
+        <section className="py-14 border-t border-zinc-200 text-center">
+          <p className="text-[11px] font-bold uppercase tracking-[0.25em] text-red-600 mb-3"><T k="home2.promise.kicker" en="Our Promise" /></p>
+          <h2 className="font-display text-3xl sm:text-4xl tracking-tight max-w-2xl mx-auto">
+            <T k="home2.promise" en="A research desk, not a shop. Every review answers one question:" />{' '}
+            <em className="text-red-600"><T k="home2.promiseAccent" en="does it pay for itself?" /></em>
+          </h2>
+          <div className="mt-6 flex flex-wrap justify-center gap-3">
+            <Link href={withLang(lang, '/review-policy')} className="text-sm font-bold underline decoration-red-300 underline-offset-4 hover:text-red-700"><T k="home2.policy" en="Read the review policy" /></Link>
+            <Link href={withLang(lang, '/about')} className="text-sm font-bold underline decoration-zinc-300 underline-offset-4 hover:text-zinc-900"><T k="home2.about" en="About Kameralog" /></Link>
+          </div>
+        </section>
+      </main>
+
+      {/* Footer */}
+      <footer className="border-t border-zinc-200 bg-white mt-4">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
+            <div className="col-span-2 md:col-span-2">
+              <p className="font-display font-black text-2xl">Kameralog</p>
+              <p className="mt-2 text-sm text-zinc-500 max-w-xs">Malaysia&apos;s camera research desk — used prices in Ringgit, gig rates and ROI math. {BASE_URL.replace('https://', '')}</p>
             </div>
+            {footerCols.map(col => (
+              <div key={col.title}>
+                <Kicker>{col.title}</Kicker>
+                <ul className="mt-3 space-y-2">
+                  {col.links.map(l => (
+                    <li key={l.href}>
+                      <Link href={withLang(lang, l.href)} className="text-sm text-zinc-600 hover:text-red-600 transition-colors">
+                        <T k={`home2.footer.${col.title}.${l.href.replace(/\//g, '')}`} en={l.en} />
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+          <div className="mt-10 pt-6 border-t border-zinc-100 flex flex-wrap items-center justify-between gap-3 text-xs text-zinc-400">
+            <p>© 2026 Kameralog Malaysia · <T k="home2.footNote" en="Research only, nothing sold" /></p>
+            <p className="font-mono">kameralog.com · <T k="home2.theme" en="light magazine theme" /></p>
           </div>
         </div>
-      </section>
-
-      <Footer />
-    </>
+      </footer>
+    </div>
   );
 }

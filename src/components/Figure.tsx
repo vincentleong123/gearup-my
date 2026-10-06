@@ -9,12 +9,15 @@ export interface Figure {
 export default function Figure({ figure, className = '' }: { figure: Figure; className?: string }) {
   return (
     <figure className={`my-10 ${className}`}>
-      <div className="group relative rounded-2xl overflow-hidden bg-zinc-900 ring-1 ring-zinc-800">
+      <div className="group relative rounded-2xl overflow-hidden bg-white ring-1 ring-zinc-200">
         <img
           src={figure.src}
           alt={figure.alt}
-          className="w-full aspect-[16/9] object-cover group-hover:scale-105 transition-transform duration-700"
+          width={1600}
+          height={900}
+          decoding="async"
           loading="lazy"
+          className="w-full aspect-[16/9] object-cover group-hover:scale-105 transition-transform duration-700"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/70 via-transparent to-transparent pointer-events-none" />
         {figure.tags && figure.tags.length > 0 && (
@@ -25,7 +28,7 @@ export default function Figure({ figure, className = '' }: { figure: Figure; cla
                 href={`https://www.instagram.com/explore/tags/${encodeURIComponent(t.replace('#', '').trim())}/`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-xs font-bold px-3 py-1.5 rounded-full bg-zinc-950/70 backdrop-blur-sm text-cyan-300 hover:bg-cyan-500/20 border border-cyan-400/20 transition-all"
+                className="text-xs font-bold px-3 py-1.5 rounded-full bg-zinc-100/70 backdrop-blur-sm text-cyan-300 hover:bg-cyan-500/20 border border-cyan-400/20 transition-all"
               >
                 {t.startsWith('#') ? t : `#${t}`}
               </a>
@@ -34,7 +37,7 @@ export default function Figure({ figure, className = '' }: { figure: Figure; cla
         )}
       </div>
       {figure.caption && (
-        <figcaption className="text-sm text-zinc-200 mt-3 flex items-start gap-2 leading-relaxed">
+        <figcaption className="text-sm text-zinc-600 mt-3 flex items-start gap-2 leading-relaxed">
           <span className="text-zinc-400">—</span>
           <span>{figure.caption}</span>
         </figcaption>

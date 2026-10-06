@@ -38,6 +38,7 @@ const megaGroups: MegaGroup[] = [
     descKey: 'nav.mega.buyDesc',
     items: [
       { id: 'gear', href: '/gear', emoji: '📷', labelKey: 'nav.mega.i.gear.label', capKey: 'nav.mega.i.gear.cap', tipKey: 'nav.mega.i.gear.tip' },
+      { id: 'gearLibrary', href: '/gear-library', emoji: '🗂️', labelKey: 'nav.mega.i.gearLibrary.label', capKey: 'nav.mega.i.gearLibrary.cap', tipKey: 'nav.mega.i.gearLibrary.tip' },
       { id: 'compare', href: '/compare', emoji: '⚖️', labelKey: 'nav.mega.i.compare.label', capKey: 'nav.mega.i.compare.cap', tipKey: 'nav.mega.i.compare.tip' },
       { id: 'security', href: '/security', emoji: '🛡️', labelKey: 'nav.mega.i.security.label', capKey: 'nav.mega.i.security.cap', tipKey: 'nav.mega.i.security.tip' },
       { id: 'topPicks', href: '/#top-picks', emoji: '🏆', labelKey: 'nav.mega.i.topPicks.label', capKey: 'nav.mega.i.topPicks.cap', tipKey: 'nav.mega.i.topPicks.tip' },
@@ -112,6 +113,9 @@ const enDefault: Record<string, string> = {
   'nav.mega.i.gear.label': 'Gear Reviews',
   'nav.mega.i.gear.cap': 'Cameras, drones, mics & tripods — real MYR prices, ROI scores',
   'nav.mega.i.gear.tip': 'Second-hand prices from Mudah & Carousell, honest pros/cons, and how fast each one pays for itself with Malaysian gig rates.',
+  'nav.mega.i.gearLibrary.label': 'Gear Library 2010–2026',
+  'nav.mega.i.gearLibrary.cap': 'Every landmark camera, lens, flash & drone since 2010 — with used MYR prices',
+  'nav.mega.i.gearLibrary.tip': 'A searchable 16-year archive: DSLR-era classics, mirrorless milestones, third-party lenses (Sigma, Tamron, Viltrox…), Godox lighting, DJI gimbals and drones — each with its realistic Malaysian second-hand price band.',
   'nav.mega.i.compare.label': 'Compare Side-by-Side',
   'nav.mega.i.compare.cap': 'Up to 3 items: specs, price & ROI in one view',
   'nav.mega.i.compare.tip': 'Pick 2–3 cameras and see every difference at once — no digging through 10 pages.',
@@ -167,6 +171,7 @@ const enDefault: Record<string, string> = {
   'nav.mega.trend.minipro4': 'DJI Mini 4 Pro',
   'nav.mega.trend.usedbuy': 'Used Buying Guide',
   'nav.announce': "🇲🇾 Personal camera research desk · used prices in Ringgit, gig rates & ROI math — deciding what to buy, not selling anything",
+  'nav.home2': 'Home 2',
   'nav.startHere': 'Start Here',
   'nav.startHereMobile': 'Start Here — Gear Match Quiz',
   'nav.allArticles': 'All Articles',
@@ -178,7 +183,7 @@ function LangSwitch({ lang, setLang, t }: { lang: Lang; setLang: (l: Lang) => vo
     <div
       role="group"
       aria-label={t('nav.langSwitch', 'Switch language')}
-      className="flex items-center gap-0.5 rounded-lg border border-zinc-700 p-0.5"
+      className="flex items-center gap-0.5 rounded-lg border border-zinc-200 p-0.5"
     >
       {LANGS.map(l => (
         <button
@@ -188,7 +193,7 @@ function LangSwitch({ lang, setLang, t }: { lang: Lang; setLang: (l: Lang) => vo
           className={`px-2.5 py-1.5 text-xs font-bold rounded-md transition-all ${
             lang === l.id
               ? 'bg-gradient-to-r from-red-500 to-pink-600 text-white'
-              : 'text-zinc-300 hover:text-white'
+              : 'text-zinc-500 hover:text-zinc-900'
           }`}
         >
           {l.label}
@@ -216,7 +221,7 @@ function Logo({ id = 'gubar-nav', lang }: { id?: string; lang: Lang }) {
         </svg>
       </span>
       <span className="flex items-baseline gap-1.5">
-        <span className="bg-gradient-to-r from-white via-zinc-200 to-zinc-400 bg-clip-text text-transparent">Kameralog</span>
+        <span className="text-zinc-950">Kameralog</span>
         <span className="text-xs bg-gradient-to-r from-red-500 to-pink-600 text-white px-1.5 py-0.5 rounded-md font-bold">MY</span>
       </span>
     </Link>
@@ -323,7 +328,7 @@ export default function Nav() {
       </div>
 
       {/* Progress bar */}
-      <div className="h-0.5 bg-zinc-900">
+      <div className="h-0.5 bg-zinc-200">
         <div
           className="h-full bg-gradient-to-r from-red-500 via-pink-500 to-fuchsia-500 transition-[width] duration-100"
           style={{ width: `${progress}%` }}
@@ -332,7 +337,7 @@ export default function Nav() {
 
       {/* Main bar */}
       <nav
-        className="border-b border-zinc-800/50 bg-zinc-950/80 backdrop-blur-xl"
+        className="border-b border-zinc-200 bg-[#faf9f7]/95 backdrop-blur-xl"
         onMouseEnter={() => {
           if (closeTimer.current) clearTimeout(closeTimer.current);
         }}
@@ -353,8 +358,8 @@ export default function Nav() {
                   aria-expanded={panelOpen && activeGroup === group.id}
                   className={`flex items-center gap-1.5 px-3 py-2 text-sm font-semibold rounded-lg transition-all ${
                     panelOpen && activeGroup === group.id
-                      ? 'text-white bg-zinc-800/60'
-                      : 'text-zinc-200 hover:text-white hover:bg-zinc-800/40'
+                      ? 'text-zinc-950 bg-zinc-100'
+                      : 'text-zinc-600 hover:text-zinc-950 hover:bg-zinc-100'
                   }`}
                 >
                   <span className="text-base leading-none">{group.emoji}</span>
@@ -370,7 +375,7 @@ export default function Nav() {
               <LangSwitch lang={lang} setLang={setLang} t={t} />
               <Link
                 href={withLang(lang, '/all-articles')}
-                className="inline-flex items-center gap-2 px-3 py-2 text-sm font-semibold rounded-lg border border-zinc-700/60 text-zinc-200 hover:text-white hover:border-emerald-500/50 hover:bg-emerald-500/10 transition-all"
+                className="inline-flex items-center gap-2 px-3 py-2 text-sm font-semibold rounded-lg border border-zinc-300 text-zinc-700 hover:text-zinc-950 hover:border-emerald-500/60 hover:bg-emerald-50 transition-all"
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 10h16M4 14h16M4 18h16" /></svg>
                 {g('nav.allArticles')}
@@ -388,7 +393,7 @@ export default function Nav() {
               <LangSwitch lang={lang} setLang={setLang} t={t} />
               <button
                 onClick={() => setOpen(!open)}
-                className="p-2.5 text-white rounded-lg bg-zinc-800/60 hover:bg-zinc-700/80 active:bg-zinc-600/80 transition-all min-w-[44px] min-h-[44px] flex items-center justify-center"
+                className="p-2.5 text-zinc-800 rounded-lg bg-zinc-100 hover:bg-zinc-200 active:bg-zinc-300 transition-all min-w-[44px] min-h-[44px] flex items-center justify-center"
                 aria-label="Toggle menu"
                 aria-expanded={open}
               >
@@ -406,7 +411,7 @@ export default function Nav() {
 
         {/* Desktop: super mega panel (whole site at a glance) */}
         {panelOpen && (
-          <div className="hidden lg:block absolute left-0 right-0 top-full border-t border-zinc-800/60 bg-zinc-950/95 backdrop-blur-xl shadow-2xl animate-fade-in">
+          <div className="hidden lg:block absolute left-0 right-0 top-full border-t border-zinc-200 bg-white/98 backdrop-blur-xl shadow-2xl animate-fade-in">
             <div className="max-w-7xl mx-auto px-6 py-5">
               <div className="grid lg:grid-cols-4 gap-2">
                 {megaGroups.map(group => (
@@ -414,22 +419,22 @@ export default function Nav() {
                     key={group.id}
                     className={`rounded-2xl p-3 border transition-all duration-200 ${
                       activeGroup === group.id
-                        ? 'bg-zinc-900/70 border-zinc-700/50'
-                        : 'bg-zinc-900/30 border-zinc-800/40 opacity-80 hover:opacity-100'
+                        ? 'bg-white border-zinc-300 shadow-sm'
+                        : 'bg-zinc-50 border-zinc-200 opacity-90 hover:opacity-100'
                     }`}
                   >
                     <div className="flex items-center gap-2 px-1 mb-1">
                       <span className="text-lg leading-none">{group.emoji}</span>
                       <span className="font-black text-sm">{g(group.labelKey)}</span>
                     </div>
-                    <p className="text-xs text-zinc-200 px-1 mb-2 leading-snug">{g(group.descKey)}</p>
+                    <p className="text-xs text-zinc-500 px-1 mb-2 leading-snug">{g(group.descKey)}</p>
                     <div className="space-y-0.5">
                       {group.items.map(item => (
                         <div
                           key={item.id}
                           onMouseEnter={e => showTip(e, g(item.tipKey))}
                           onMouseLeave={() => setTip(null)}
-                          className={`rounded-xl ${isActive(item.href) ? 'bg-zinc-800/60' : ''} hover:bg-zinc-800/50 transition-colors`}
+                          className={`rounded-xl ${isActive(item.href) ? 'bg-zinc-100' : ''} hover:bg-zinc-100 transition-colors`}
                         >
                           <Link
                             href={withLang(lang, item.href)}
@@ -438,10 +443,10 @@ export default function Nav() {
                           >
                             <span className="mt-0.5 text-base leading-none">{item.emoji}</span>
                             <span className="flex flex-col min-w-0">
-                              <span className="text-sm font-semibold text-zinc-100 leading-tight">
+                              <span className="text-sm font-semibold text-zinc-900 leading-tight">
                                 {g(item.labelKey)}
                               </span>
-                              <span className="text-xs text-zinc-200 leading-snug mt-0.5">{g(item.capKey)}</span>
+                              <span className="text-xs text-zinc-500 leading-snug mt-0.5">{g(item.capKey)}</span>
                             </span>
                           </Link>
                         </div>
@@ -452,8 +457,8 @@ export default function Nav() {
               </div>
 
               {/* Footer: trending chips + global shortcuts */}
-              <div className="mt-4 pt-4 border-t border-zinc-800/50 flex flex-wrap items-center gap-2">
-                <span className="text-xs uppercase tracking-wider text-zinc-200 font-bold mr-1">
+              <div className="mt-4 pt-4 border-t border-zinc-200 flex flex-wrap items-center gap-2">
+                <span className="text-xs uppercase tracking-wider text-zinc-500 font-bold mr-1">
                   {g('nav.mega.trending')}
                 </span>
                 {trending.map(item => (
@@ -461,7 +466,7 @@ export default function Nav() {
                     key={item.id}
                     href={withLang(lang, item.href)}
                     onClick={closeAll}
-                    className="px-3 py-1.5 rounded-full text-xs font-semibold bg-zinc-800/60 text-zinc-200 border border-zinc-700/50 hover:border-red-500/40 hover:text-white transition-all"
+                    className="px-3 py-1.5 rounded-full text-xs font-semibold bg-zinc-100 text-zinc-700 border border-zinc-200 hover:border-red-400 hover:text-red-600 transition-all"
                   >
                     {g(item.key)}
                   </Link>
@@ -482,7 +487,7 @@ export default function Nav() {
         {/* Tooltip for the item currently hovered */}
         {tip && (
           <div
-            className="hidden lg:block fixed z-[70] w-72 pointer-events-none bg-zinc-900/98 border border-zinc-700/60 rounded-xl shadow-2xl px-4 py-3 text-sm text-zinc-200 leading-snug animate-fade-in"
+            className="hidden lg:block fixed z-[70] w-72 pointer-events-none bg-white border border-zinc-200 rounded-xl shadow-xl px-4 py-3 text-sm text-zinc-600 leading-snug animate-fade-in"
             style={{ top: tip.top, left: tip.left }}
           >
             {tip.text}
@@ -491,12 +496,12 @@ export default function Nav() {
 
         {/* Mobile: elaborated grouped drawer */}
         {open && (
-          <div className="lg:hidden border-t border-zinc-800/50 bg-zinc-950/95 backdrop-blur-xl max-h-[calc(100vh-7.5rem)] overflow-y-auto animate-fade-in">
+          <div className="lg:hidden border-t border-zinc-200 bg-white/98 backdrop-blur-xl max-h-[calc(100vh-7.5rem)] overflow-y-auto animate-fade-in">
             <div className="px-4 py-3 space-y-2">
               {megaGroups.map(group => {
                 const expanded = !!openGroups[group.id];
                 return (
-                  <div key={group.id} className="rounded-2xl border border-zinc-800/50 bg-zinc-900/40 overflow-hidden">
+                  <div key={group.id} className="rounded-2xl border border-zinc-200 bg-zinc-50 overflow-hidden">
                     <button
                       onClick={() => setOpenGroups(o => ({ ...o, [group.id]: !o[group.id] }))}
                       aria-expanded={expanded}
@@ -504,11 +509,11 @@ export default function Nav() {
                     >
                       <span className="text-lg leading-none">{group.emoji}</span>
                       <span className="flex-1">
-                        <span className="block text-sm font-black text-zinc-100">{g(group.labelKey)}</span>
-                        <span className="block text-xs text-zinc-200 leading-snug">{g(group.descKey)}</span>
+                        <span className="block text-sm font-black text-zinc-900">{g(group.labelKey)}</span>
+                        <span className="block text-xs text-zinc-500 leading-snug">{g(group.descKey)}</span>
                       </span>
                       <svg
-                        className={`w-5 h-5 text-zinc-300 transition-transform ${expanded ? 'rotate-180' : ''}`}
+                        className={`w-5 h-5 text-zinc-400 transition-transform ${expanded ? 'rotate-180' : ''}`}
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -525,13 +530,13 @@ export default function Nav() {
                             href={withLang(lang, item.href)}
                             onClick={() => setOpen(false)}
                             className={`flex items-start gap-3 px-3 py-2.5 rounded-xl transition-colors ${
-                              isActive(item.href) ? 'bg-zinc-800/60' : 'hover:bg-zinc-800/50'
+                              isActive(item.href) ? 'bg-zinc-100' : 'hover:bg-zinc-100'
                             }`}
                           >
                             <span className="mt-0.5 text-base leading-none">{item.emoji}</span>
                             <span className="flex flex-col min-w-0">
-                              <span className="text-sm font-semibold text-zinc-100 leading-tight">{g(item.labelKey)}</span>
-                              <span className="text-xs text-zinc-200 leading-snug mt-0.5">{g(item.capKey)}</span>
+                              <span className="text-sm font-semibold text-zinc-900 leading-tight">{g(item.labelKey)}</span>
+                              <span className="text-xs text-zinc-500 leading-snug mt-0.5">{g(item.capKey)}</span>
                             </span>
                           </Link>
                         ))}
@@ -546,7 +551,7 @@ export default function Nav() {
                 <Link
                   href={withLang(lang, '/all-articles')}
                   onClick={() => setOpen(false)}
-                  className="flex items-center justify-center gap-2 px-4 py-2.5 mb-2 text-sm font-semibold rounded-lg border border-zinc-700/60 text-zinc-200 hover:text-white hover:border-emerald-500/50 hover:bg-emerald-500/10 transition-all"
+                  className="flex items-center justify-center gap-2 px-4 py-2.5 mb-2 text-sm font-semibold rounded-lg border border-zinc-300 text-zinc-700 hover:text-zinc-950 hover:border-emerald-500/60 hover:bg-emerald-50 transition-all"
                 >
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 10h16M4 14h16M4 18h16" /></svg>
                   {g('nav.allArticles')}
@@ -557,7 +562,7 @@ export default function Nav() {
                       key={item.id}
                       href={withLang(lang, item.href)}
                       onClick={() => setOpen(false)}
-                      className="px-3 py-1.5 rounded-full text-xs font-semibold bg-zinc-800/60 text-zinc-200 border border-zinc-700/50 hover:border-red-500/40 hover:text-white transition-all"
+                      className="px-3 py-1.5 rounded-full text-xs font-semibold bg-zinc-100 text-zinc-700 border border-zinc-200 hover:border-red-400 hover:text-red-600 transition-all"
                     >
                       {g(item.key)}
                     </Link>

@@ -36,6 +36,7 @@ Aku sendiri beli Sony A6100 second hand. Masa tu RM1,400 je. Sekarang kalau kau 
 | Sony A7IV | 9,500–10,500 | 6,500–7,500 | 30% |
 
 ## Model Sony paling popular di Malaysia
+![Badan kamera mirrorless Sony dan lens E-mount tersusun di atas meja studio](/blog/harga-sony-camera-malaysia-model-popular.jpg "A6100 dan ZV-E10 kekal dua pilihan paling laris untuk creator Malaysia.")
 
 ### Sony A6100 — Pilihan #1 creator
 
@@ -80,6 +81,7 @@ Tips dari aku: aku beli Sony aku dekat Facebook Group. Masa tu ada orang jual se
 Satu lagi yang penting — bila kau nak test Sony second hand, bawa lens yang kau tahu sharp. Kadang-kadang bukan kamera yang masalah, tapi lens yang dah deformed. Kau pakai lens dari kedai kau sendiri untuk test, baru boleh tahu kamera tu betul-betul berfungsi.
 
 ## Sony vs Canon: yang mana untuk kau?
+![Perbandingan dua badan kamera Sony dan Canon di samping lens masing-masing](/blog/harga-sony-vs-canon-malaysia.jpg "Sensor sama kuat - beza sebenar ada pada lens dan ergonomik tangan kau.")
 
 Okay ni topik yang aku selalu kena jawab. Sony vs Canon, macam mana nak pilih?
 

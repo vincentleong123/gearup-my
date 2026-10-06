@@ -47,7 +47,7 @@ export default async function NichesPage({ params }: Props) {
             <h1 className="text-4xl md:text-6xl font-black mb-4">
               <T k="niche.hero.head" en="Find Your" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-purple-500 to-pink-500"><T k="niche.hero.accent" en="Content Niche" /></span>
             </h1>
-            <p className="text-zinc-200 max-w-xl mx-auto text-lg">
+            <p className="text-zinc-600 max-w-xl mx-auto text-lg">
               <T k="niche.hero.desc" en="Not sure what content to make? Pick a niche below. We show you the gear, the tips, and how much you can earn in Malaysia." />
             </p>
           </div>
@@ -56,9 +56,9 @@ export default async function NichesPage({ params }: Props) {
               <Link
                 key={n.slug}
                 href={withLang(lang, `/niche/${n.slug}`)}
-                className="group block bg-zinc-900/80 border border-zinc-800 rounded-2xl overflow-hidden hover:border-red-500/30 hover:shadow-xl hover:shadow-red-500/5 transition-all duration-300"
+                className="group block bg-white/80 border border-zinc-200 rounded-2xl overflow-hidden hover:border-red-500/30 hover:shadow-xl hover:shadow-red-500/5 transition-all duration-300"
               >
-                <div className="h-40 relative overflow-hidden bg-zinc-900">
+                <div className="h-40 relative overflow-hidden bg-white">
                   <img
                     src={nicheImg(n.slug)}
                     alt={n.title}
@@ -70,14 +70,14 @@ export default async function NichesPage({ params }: Props) {
                 </div>
                 <div className="p-5">
                   <h2 className="text-xl font-bold group-hover:text-red-400 transition-colors mb-2">{n.title}</h2>
-                  <p className="text-zinc-200 text-sm line-clamp-2 mb-3">{n.tagline}</p>
+                  <p className="text-zinc-600 text-sm line-clamp-2 mb-3">{n.tagline}</p>
                   <div className="flex items-center justify-between text-sm">
                     <div>
-                      <span className="text-zinc-200"><T k="niche.starterCost" en="Start from" /></span>
+                      <span className="text-zinc-600"><T k="niche.starterCost" en="Start from" /></span>
                       <div className="font-bold text-green-400">{n.starterCost === 0 ? 'RM 0 (Your phone)' : formatPrice(n.starterCost)}</div>
                     </div>
                     <div className="text-right">
-                      <span className="text-zinc-200"><T k="niche.earningPotential" en="Earn up to" /></span>
+                      <span className="text-zinc-600"><T k="niche.earningPotential" en="Earn up to" /></span>
                       <div className="font-bold text-cyan-400">{n.earningPotential}</div>
                     </div>
                   </div>

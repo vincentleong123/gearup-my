@@ -13,6 +13,7 @@ import ArticleQA from '@/components/ArticleQA';
 import AskAnything from '@/components/AskAnything';
 import { articleFigures } from '@/data/curated';
 import { articleTopic } from '@/lib/curation';
+import { ogImageMeta } from '@/lib/og';
 import { type Lang } from '@/i18n/langs';
 import { BASE_URL, langAlternates, withLang } from '@/lib/lang';
 import { getPostType } from '@/admin/types';
@@ -78,7 +79,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: article.seoDescription || article.description,
       url: articleUrl,
       siteName: 'Kameralog Malaysia',
-      images: [{ url: ogImage, width: 1200, height: 630, alt: article.title }],
+      images: [{ url: ogImage, alt: article.title, ...ogImageMeta(img) }],
       locale: rl === 'ms' ? 'ms_MY' : rl === 'zh' ? 'zh_MY' : 'en_MY',
       type: 'article',
       publishedTime: article.date,
@@ -116,12 +117,22 @@ export default async function ArticlePage({ params, searchParams }: Props) {
   const figures = articleFigures(article.slug);
   const heroImg = article.image || blogImg(article.slug);
 
+  // Every inline markdown image (![alt](/blog/x.jpg "caption")) becomes part of
+  // the Article schema image array - Google reads it as a gallery signal.
+  const heroAbs = heroImg.startsWith('http') ? heroImg : `${BASE_URL}${heroImg}`;
+  const inlineImages = [
+    ...new Set(
+      Array.from(article.content.matchAll(/^!\[[^\]]*\]\((\/[^)\s]+)(?:\s+"[^"]*")?\)/gm), (m) => m[1]),
+    ),
+  ].filter((src) => src !== heroImg);
+  const articleImages = [heroAbs, ...inlineImages.map((src) => `${BASE_URL}${src}`)];
+
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: article.title,
     description: article.description,
-    image: heroImg.startsWith('http') ? heroImg : `${BASE_URL}${heroImg}`,
+    image: articleImages,
     datePublished: article.date,
     dateModified: article.reviewedAt || article.date,
     author: article.author
@@ -165,24 +176,28 @@ export default async function ArticlePage({ params, searchParams }: Props) {
       <Nav />
       <article className="min-h-screen pt-24 pb-16">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <nav className="flex items-center gap-2 text-sm text-zinc-200 mb-8">
-            <Link href={withLang(lang, '/')} className="hover:text-white transition-colors">Home</Link>
+          <nav className="flex items-center gap-2 text-sm text-zinc-600 mb-8">
+            <Link href={withLang(lang, '/')} className="hover:text-red-600 transition-colors">Home</Link>
             <span>/</span>
-            <Link href={withLang(lang, '/blog')} className="hover:text-white transition-colors">Blog</Link>
+            <Link href={withLang(lang, '/blog')} className="hover:text-red-600 transition-colors">Blog</Link>
             <span>/</span>
-            <span className="text-zinc-100 line-clamp-1">{article.title}</span>
+            <span className="text-zinc-900 line-clamp-1">{article.title}</span>
           </nav>
 
           <div className="mb-10">
-            <div className="h-48 md:h-64 rounded-2xl overflow-hidden relative mb-6 bg-zinc-900">
+            <div className="h-48 md:h-64 rounded-2xl overflow-hidden relative mb-6 bg-white">
               <img
                 src={heroImg}
                 alt={article.title}
+                width={1600}
+                height={900}
+                fetchPriority="high"
+                decoding="async"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/80 via-transparent to-transparent" />
             </div>
-            <div className="flex items-center gap-3 text-sm text-zinc-200 mb-4 flex-wrap">
+            <div className="flex items-center gap-3 text-sm text-zinc-600 mb-4 flex-wrap">
               <span className="text-xs font-bold px-3 py-1 rounded-full bg-green-500/20 text-green-400 border border-green-500/30 uppercase">{article.category}</span>
               {article.lang === 'ms' && (
                 <span className="text-xs font-bold px-3 py-1 rounded-full bg-red-500/15 text-red-400 border border-red-500/30 uppercase">Bahasa Melayu</span>
@@ -191,29 +206,29 @@ export default async function ArticlePage({ params, searchParams }: Props) {
               <span>·</span>
               <span>{article.readTime} min read</span>
               {article.author && <span>·</span>}
-              {article.author && <span className="text-zinc-300">{article.author}</span>}
-              {article.reviewedAt && <span className="text-xs text-zinc-300">· updated {article.reviewedAt}</span>}
+              {article.author && <span className="text-zinc-600">{article.author}</span>}
+              {article.reviewedAt && <span className="text-xs text-zinc-600">· updated {article.reviewedAt}</span>}
               {isPreview && (
                 <span className="text-xs font-bold px-3 py-1 rounded-full bg-amber-500/20 text-amber-400 border border-amber-500/30 uppercase">Preview</span>
               )}
             </div>
             <h1 className="text-3xl md:text-5xl font-black leading-tight mb-4">{article.title}</h1>
-            <p className="text-xl text-zinc-200">{article.description}</p>
+            <p className="text-xl text-zinc-600">{article.description}</p>
           </div>
 
           <MarkdownBody content={article.content} figures={figures} imageCuration={article.imageCuration} />
 
           {/* Author Bio Box */}
-          <div className="mt-10 p-6 bg-zinc-900/60 border border-zinc-800 rounded-2xl">
+          <div className="mt-10 p-6 bg-white/60 border border-zinc-200 rounded-2xl">
             <div className="flex items-start gap-4">
               <div className="w-14 h-14 rounded-full bg-gradient-to-br from-red-500 to-pink-600 flex items-center justify-center text-white font-black text-xl shrink-0">V</div>
               <div>
-                <p className="font-bold text-white">Vincent — Kameralog Editorial</p>
-                <p className="text-sm text-zinc-200 mt-1">
+                <p className="font-bold text-zinc-900">Vincent — Kameralog Editorial</p>
+                <p className="text-sm text-zinc-600 mt-1">
                   Photographer, content creator, dan orang yang beli kamera second hand RM500 dan start buat gig.
                   Vincent buat D3100 &amp; Canon 60D berbaloi sebelum upgrade ke Sony A6100. Tulisan ni based on pengalaman sendiri — bukan sponsored, bukan copy-paste spec sheet.
                 </p>
-                <p className="text-sm text-zinc-200 mt-2">
+                <p className="text-sm text-zinc-600 mt-2">
                   <Link href={withLang(lang, '/author/vincent')} className="text-red-400 hover:text-red-300 transition-colors">Lihat profil penuh →</Link>
                 </p>
               </div>
@@ -221,8 +236,8 @@ export default async function ArticlePage({ params, searchParams }: Props) {
           </div>
 
           {/* Methodology / Disclosure */}
-          <div className="mt-6 p-4 bg-zinc-900/40 border border-zinc-800/60 rounded-xl text-sm text-zinc-200">
-            <p className="font-semibold text-zinc-300 mb-1">About this article</p>
+          <div className="mt-6 p-4 bg-white/40 border border-zinc-200/60 rounded-xl text-sm text-zinc-600">
+            <p className="font-semibold text-zinc-600 mb-1">About this article</p>
             <p>
               Harga dalam artikel ni berdasarkan pasaran Malaysia (Shopee, Carousell, Facebook Groups, kedai fizikal seperti Camera Wharf &amp; Alan Photo).
               Kami kemas kini harga setiap bulan. Kalau harga dah berubah, bagitahu kami — kami akan adjust.
@@ -242,7 +257,7 @@ export default async function ArticlePage({ params, searchParams }: Props) {
               <h2 className="text-2xl font-bold">Watch real creators doing this</h2>
               <span className="text-xs font-bold px-3 py-1 rounded-full bg-red-500/15 text-red-400 border border-red-500/30 uppercase">Live</span>
             </div>
-            <p className="text-zinc-200 mb-4">
+            <p className="text-zinc-600 mb-4">
               Skip the theory — see who&apos;s already making money with this on Instagram, TikTok and YouTube. Tap any tile to open the live search and study real posts.
             </p>
             <CurationWall topics={[articleTopic(article)]} title={`#${article.tags[0] || article.slug} in the wild`} />
@@ -250,16 +265,16 @@ export default async function ArticlePage({ params, searchParams }: Props) {
 
           {/* Related Gear */}
           {relatedGear.length > 0 && (
-            <div className="mt-12 pt-8 border-t border-zinc-800">
+            <div className="mt-12 pt-8 border-t border-zinc-200">
               <h2 className="text-2xl font-bold mb-6">Related Gear</h2>
               <div className="grid md:grid-cols-2 gap-4">
                 {relatedGear.map(g => (
-                  <Link key={g.slug} href={withLang(lang, `/gear/${g.slug}`)} className="block bg-zinc-900/60 border border-zinc-800 rounded-xl p-5 hover:border-red-500/30 transition-all group">
+                  <Link key={g.slug} href={withLang(lang, `/gear/${g.slug}`)} className="block bg-white/60 border border-zinc-200 rounded-xl p-5 hover:border-red-500/30 transition-all group">
                     <div className="flex items-start justify-between gap-3 mb-2">
                       <h3 className="font-bold group-hover:text-red-400 transition-colors">{g.name}</h3>
                       <span className="text-green-400 font-bold text-sm">{formatPrice(g.priceUsed)}</span>
                     </div>
-                    <p className="text-sm text-zinc-200 line-clamp-2">{g.excerpt}</p>
+                    <p className="text-sm text-zinc-600 line-clamp-2">{g.excerpt}</p>
                   </Link>
                 ))}
               </div>
@@ -267,25 +282,25 @@ export default async function ArticlePage({ params, searchParams }: Props) {
           )}
 
           {/* Tags */}
-          <div className="mt-8 pt-8 border-t border-zinc-800">
+          <div className="mt-8 pt-8 border-t border-zinc-200">
             <div className="flex flex-wrap gap-2">
               {article.tags.map(t => (
-                <span key={t} className="text-xs text-zinc-200 bg-zinc-800/50 px-3 py-1.5 rounded-full">#{t}</span>
+                <span key={t} className="text-xs text-zinc-600 bg-zinc-100/50 px-3 py-1.5 rounded-full">#{t}</span>
               ))}
             </div>
           </div>
 
           {/* Related Articles */}
           {relatedArticles.length > 0 && (
-            <div className="mt-10 pt-8 border-t border-zinc-800">
+            <div className="mt-10 pt-8 border-t border-zinc-200">
               <h2 className="text-2xl font-bold mb-6">Baca juga</h2>
               <div className="grid sm:grid-cols-2 gap-4">
                 {relatedArticles.map(a => (
-                  <Link key={a.slug} href={withLang(lang, `/blog/${a.slug}`)} className="block bg-zinc-900/60 border border-zinc-800 rounded-xl p-5 hover:border-red-500/30 transition-all group">
+                  <Link key={a.slug} href={withLang(lang, `/blog/${a.slug}`)} className="block bg-white/60 border border-zinc-200 rounded-xl p-5 hover:border-red-500/30 transition-all group">
                     <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-green-500/20 text-green-400 border border-green-500/30 uppercase mb-2 inline-block">{a.category}</span>
                     <h3 className="font-bold group-hover:text-red-400 transition-colors line-clamp-2">{a.title}</h3>
-                    <p className="text-sm text-zinc-200 line-clamp-2 mt-2">{a.description}</p>
-                    <p className="text-xs text-zinc-200 mt-2">{a.readTime} min read</p>
+                    <p className="text-sm text-zinc-600 line-clamp-2 mt-2">{a.description}</p>
+                    <p className="text-xs text-zinc-600 mt-2">{a.readTime} min read</p>
                   </Link>
                 ))}
               </div>

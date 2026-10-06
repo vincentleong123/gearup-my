@@ -23,11 +23,11 @@ export default function HashtagBank({ gearSlug, gearName, lang }: Props) {
   if (tags.length === 0) return null;
 
   return (
-    <div className="bg-zinc-900/50 border border-zinc-800 rounded-2xl p-6 mb-10">
+    <div className="bg-white/50 border border-zinc-200 rounded-2xl p-6 mb-10">
       <div className="flex items-center justify-between flex-wrap gap-2 mb-1">
         <h2 className="text-xl font-black">🏷️ Search #{gearName.replace(/\s+/g, '')} on Social</h2>
       </div>
-      <p className="text-sm text-zinc-200 mb-4">
+      <p className="text-sm text-zinc-600 mb-4">
         Curated on-site hashtag glossary for this model, plus one-tap external searches on Instagram and TikTok.
       </p>
       <div className="flex flex-wrap items-start gap-2">
@@ -36,7 +36,7 @@ export default function HashtagBank({ gearSlug, gearName, lang }: Props) {
             <div className="flex items-center gap-1">
               <Link
                 href={withLang(lang, `/hashtags#${tag.replace('#', '').trim()}`)}
-                className="text-xs font-bold px-3 py-1.5 rounded-lg bg-zinc-800/80 border border-zinc-700/50 text-cyan-300 hover:border-pink-500/40 hover:text-pink-300 transition-all"
+                className="text-xs font-bold px-3 py-1.5 rounded-lg bg-zinc-100/80 border border-zinc-300/50 text-cyan-300 hover:border-pink-500/40 hover:text-pink-300 transition-all"
               >
                 #{tag}
               </Link>

@@ -29,6 +29,7 @@ The Philippines has one of the most active vlogging communities in Southeast Asi
 4. **Strong vlogging culture** â€” Filipinos love video content, driving demand for vlogging gear.
 
 ## Where to buy camera gear in Philippines
+![Camera store counter in Manila with bodies and lenses in a glass cabinet](/blog/philippines-vlogging-gear-manila-camera-store.jpg "Manila's camera floors price slightly under KL on entry bodies.")
 
 ### Physical stores (Manila)
 
@@ -65,6 +66,7 @@ The Philippines has one of the most active vlogging communities in Southeast Asi
 **Verdict:** Malaysia generally has better prices than the Philippines. Filipino creators often look to Malaysia or Singapore for better deals.
 
 ## Filipino creator economy trends
+![Simple vlogging desk setup with camera, phone tripod and light in a small room](/blog/philippines-vlogging-gear-creator-desk.jpg "Filipino creators win on consistency, not gear - same budget, more uploads.")
 
 1. **Facebook is king** â€” Filipinos spend more time on Facebook than any other platform. Facebook video content is huge.
 2. **TikTok booming** â€” Short-form content drives demand for compact cameras.

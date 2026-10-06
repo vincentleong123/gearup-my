@@ -53,7 +53,7 @@ export default function InstagramWall({ limit }: { limit?: number }) {
           className={`inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold border transition-all duration-200 ${
             active === 'all'
               ? 'bg-gradient-to-r from-pink-600 to-fuchsia-600 text-white border-transparent shadow-lg shadow-pink-600/25'
-              : 'bg-white/5 text-zinc-200 border-white/10 hover:text-white hover:border-pink-500/40 hover:bg-white/10'
+              : 'bg-zinc-100 text-zinc-600 border-zinc-200 hover:text-zinc-900 hover:border-pink-500/40 hover:bg-white'
           }`}
         >
           <span>📸</span> All Posts
@@ -67,7 +67,7 @@ export default function InstagramWall({ limit }: { limit?: number }) {
               className={`inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold border transition-all duration-200 ${
                 active === cat
                   ? 'bg-gradient-to-r from-pink-600 to-fuchsia-600 text-white border-transparent shadow-lg shadow-pink-600/25'
-                  : 'bg-white/5 text-zinc-200 border-white/10 hover:text-white hover:border-pink-500/40 hover:bg-white/10'
+                  : 'bg-zinc-100 text-zinc-600 border-zinc-200 hover:text-zinc-900 hover:border-pink-500/40 hover:bg-white'
               }`}
             >
               <span>{c?.emoji}</span> {c?.label}
@@ -82,19 +82,19 @@ export default function InstagramWall({ limit }: { limit?: number }) {
           <button
             key={p.id}
             onClick={() => setPlaying(p)}
-            className="group text-left bg-[#0d0d0f] border border-zinc-800 rounded-2xl overflow-hidden hover:border-pink-500/40 hover:-translate-y-1 hover:shadow-xl hover:shadow-pink-600/5 transition-all duration-300"
+            className="group text-left bg-white border border-zinc-200 rounded-2xl overflow-hidden hover:border-pink-500/40 hover:-translate-y-1 hover:shadow-xl hover:shadow-pink-600/5 transition-all duration-300"
           >
             {/* IG header — username + verified */}
-            <div className="flex items-center gap-2.5 px-3.5 py-3 border-b border-zinc-800/60">
+            <div className="flex items-center gap-2.5 px-3.5 py-3 border-b border-zinc-200/60">
               <Avatar post={p} />
               <div className="min-w-0">
-                <div className="flex items-center gap-1 text-sm font-bold text-white">
+                <div className="flex items-center gap-1 text-sm font-bold text-zinc-900">
                   <span className="truncate">{p.username}</span>
-                  <span className="hidden sm:block text-zinc-200 font-normal truncate">· {p.author}</span>
+                  <span className="hidden sm:block text-zinc-600 font-normal truncate">· {p.author}</span>
                 </div>
-                <div className="text-xs text-zinc-200">{p.date}</div>
+                <div className="text-xs text-zinc-600">{p.date}</div>
               </div>
-              <svg className="ml-auto h-4 w-4 text-zinc-200 shrink-0" viewBox="0 0 24 24" fill="currentColor">
+              <svg className="ml-auto h-4 w-4 text-zinc-600 shrink-0" viewBox="0 0 24 24" fill="currentColor">
                 <circle cx="5" cy="12" r="1.6" />
                 <circle cx="12" cy="12" r="1.6" />
                 <circle cx="19" cy="12" r="1.6" />
@@ -102,7 +102,7 @@ export default function InstagramWall({ limit }: { limit?: number }) {
             </div>
 
             {/* Post image */}
-            <div className="relative aspect-square overflow-hidden bg-zinc-900">
+            <div className="relative aspect-square overflow-hidden bg-white">
               <img
                 src={igThumb(p.shortcode)}
                 alt={p.title}
@@ -126,7 +126,7 @@ export default function InstagramWall({ limit }: { limit?: number }) {
             </div>
 
             {/* IG actions */}
-            <div className="px-3.5 pt-3 flex items-center gap-4 text-white">
+            <div className="px-3.5 pt-3 flex items-center gap-4 text-zinc-900">
               <svg className="h-6 w-6 group-hover:scale-110 transition-transform" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
               </svg>
@@ -143,25 +143,25 @@ export default function InstagramWall({ limit }: { limit?: number }) {
 
             {/* Likes + caption */}
             <div className="px-3.5 py-3 text-left">
-              <div className="text-sm font-bold text-white mb-1">{p.likes} likes</div>
-              <p className="text-sm text-zinc-300 leading-snug line-clamp-2">
-                <span className="font-bold text-white">{p.username}</span>{' '}
+              <div className="text-sm font-bold text-zinc-900 mb-1">{p.likes} likes</div>
+              <p className="text-sm text-zinc-600 leading-snug line-clamp-2">
+                <span className="font-bold text-zinc-900">{p.username}</span>{' '}
                 {p.description}
               </p>
-              <div className="text-xs text-zinc-300 mt-1.5 font-semibold tracking-wide uppercase">View on Instagram →</div>
+              <div className="text-xs text-zinc-600 mt-1.5 font-semibold tracking-wide uppercase">View on Instagram →</div>
             </div>
           </button>
         ))}
       </div>
 
       {filtered.length === 0 && (
-        <p className="text-center text-zinc-200 py-16">No posts in this category yet — check back soon.</p>
+        <p className="text-center text-zinc-600 py-16">No posts in this category yet — check back soon.</p>
       )}
 
       {/* Lightbox — real Instagram embed (genuine wrapper = trust) */}
       {playing && (
         <div
-          className="fixed inset-0 z-[90] flex items-center justify-center p-4 sm:p-8 bg-zinc-950/90 backdrop-blur-sm animate-fade-in"
+          className="fixed inset-0 z-[90] flex items-center justify-center p-4 sm:p-8 bg-zinc-100/90 backdrop-blur-sm animate-fade-in"
           onClick={close}
           role="dialog"
           aria-modal="true"
@@ -177,17 +177,17 @@ export default function InstagramWall({ limit }: { limit?: number }) {
             </svg>
           </button>
           <div className="w-full max-w-lg" onClick={e => e.stopPropagation()}>
-            <div className="overflow-hidden rounded-2xl border border-white/15 shadow-2xl shadow-pink-600/10 bg-[#0d0d0f]">
-              <div className="flex items-center gap-2.5 px-4 py-3 border-b border-zinc-800">
+            <div className="overflow-hidden rounded-2xl border border-zinc-200 shadow-2xl shadow-pink-600/10 bg-white">
+              <div className="flex items-center gap-2.5 px-4 py-3 border-b border-zinc-200">
                 <Avatar post={playing} />
                 <div className="min-w-0">
-                  <div className="flex items-center gap-1 text-sm font-bold text-white">
+                  <div className="flex items-center gap-1 text-sm font-bold text-zinc-900">
                     <span className="truncate">{playing.username}</span>
                   </div>
-                  <div className="text-xs text-zinc-200">{playing.date}</div>
+                  <div className="text-xs text-zinc-600">{playing.date}</div>
                 </div>
               </div>
-              <div className="relative aspect-square bg-zinc-900">
+              <div className="relative aspect-square bg-white">
                 <iframe
                   src={igEmbed(playing.shortcode)}
                   title={playing.title}
@@ -199,7 +199,7 @@ export default function InstagramWall({ limit }: { limit?: number }) {
               </div>
             </div>
             <div className="mt-4 flex items-center justify-between gap-4">
-              <h3 className="text-lg font-bold text-white line-clamp-1">{playing.title}</h3>
+              <h3 className="text-lg font-bold text-zinc-900 line-clamp-1">{playing.title}</h3>
               <a
                 href={igPermalink(playing.shortcode)}
                 target="_blank"

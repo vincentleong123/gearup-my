@@ -24,7 +24,7 @@ function Stars({ rating }: { rating: number }) {
           </svg>
         ))}
       </span>
-      <span className="text-zinc-200 font-semibold">{rating.toFixed(1)}</span>
+      <span className="text-zinc-600 font-semibold">{rating.toFixed(1)}</span>
     </div>
   );
 }
@@ -44,7 +44,7 @@ export default function EditorsPicks({ lang }: { lang: string }) {
           <h2 className="text-3xl md:text-5xl font-black mb-4">
             <T k="editors.head" en="Where the" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500"><T k="editors.accent" en="Research Points" /></span>, <T k="editors.pickedBy" en="So Far" />
           </h2>
-          <p className="text-zinc-200 max-w-2xl mx-auto text-lg">
+          <p className="text-zinc-600 max-w-2xl mx-auto text-lg">
             <T k="editors.desc" en="Six cameras and gadgets that keep winning the used-price-versus-earnings maths — ranked by ROI score, with second-hand prices in Ringgit and Malaysian gig context." />
           </p>
         </div>
@@ -57,9 +57,9 @@ export default function EditorsPicks({ lang }: { lang: string }) {
               <Link
                 key={a.slug}
                 href={withLang(lang, `/gear/${g.slug}`)}
-                className="group relative block bg-zinc-900/70 border border-zinc-800 rounded-2xl overflow-hidden hover:border-purple-500/40 hover:shadow-2xl hover:shadow-purple-600/10 hover:-translate-y-1 transition-all duration-300"
+                className="group relative block bg-white/70 border border-zinc-200 rounded-2xl overflow-hidden hover:border-purple-500/40 hover:shadow-2xl hover:shadow-purple-600/10 hover:-translate-y-1 transition-all duration-300"
               >
-                <div className="relative h-44 overflow-hidden bg-zinc-900">
+                <div className="relative h-44 overflow-hidden bg-white">
                   <img
                     src={gearImg(g.slug)}
                     alt={g.name}
@@ -68,7 +68,7 @@ export default function EditorsPicks({ lang }: { lang: string }) {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-zinc-900 via-zinc-900/30 to-transparent" />
                   <div className="absolute top-3 left-3 flex items-center gap-2">
-                    <span className="grid place-items-center h-9 w-9 rounded-full bg-zinc-950/70 backdrop-blur-sm text-lg font-black border border-white/10">
+                    <span className="grid place-items-center h-9 w-9 rounded-full bg-zinc-100/70 backdrop-blur-sm text-lg font-black border border-zinc-200">
                       {medals[i]}
                     </span>
                     <span className="text-xs font-bold px-2.5 py-1 rounded-full bg-purple-500/20 text-purple-200 border border-purple-500/30 backdrop-blur-sm">
@@ -88,11 +88,11 @@ export default function EditorsPicks({ lang }: { lang: string }) {
                   </div>
                   <div className="flex items-center justify-between mb-3">
                     <Stars rating={g.rating} />
-                    <span className="text-xs text-zinc-200 bg-zinc-800/70 px-2 py-0.5 rounded-full">{getLevelLabel(g.level)}</span>
+                    <span className="text-xs text-zinc-600 bg-zinc-100/70 px-2 py-0.5 rounded-full">{getLevelLabel(g.level)}</span>
                   </div>
-                  <p className="text-sm text-zinc-200 line-clamp-2 mb-4">{g.excerpt}</p>
+                  <p className="text-sm text-zinc-600 line-clamp-2 mb-4">{g.excerpt}</p>
                   <div className="flex items-center justify-between">
-                    <div className="text-xs text-zinc-200">ROI Score</div>
+                    <div className="text-xs text-zinc-600">ROI Score</div>
                     <div className="text-sm font-black text-green-400">{g.roiScore}/100</div>
                   </div>
                 </div>

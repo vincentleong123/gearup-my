@@ -20,7 +20,7 @@ function renderInline(text: string): ReactNode[] {
     else if (m[2] !== undefined) nodes.push(<em key={key++}>{m[2]}</em>);
     else if (m[3] !== undefined)
       nodes.push(
-        <code key={key++} className="px-1.5 py-0.5 rounded bg-zinc-900 text-pink-300 text-[0.9em] font-mono">
+        <code key={key++} className="px-1.5 py-0.5 rounded bg-white text-pink-300 text-[0.9em] font-mono">
           {m[3]}
         </code>,
       );
@@ -45,9 +45,11 @@ function renderInline(text: string): ReactNode[] {
   return nodes;
 }
 
-function isImageLine(line: string): { alt: string; src: string } | null {
-  const m = line.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
-  return m ? { alt: m[1], src: m[2] } : null;
+function isImageLine(line: string): { alt: string; src: string; caption?: string } | null {
+  // ![alt](src) or ![alt](src "visible caption") - the caption renders as a
+  // <figcaption>, which gives image search a text signal right next to the image.
+  const m = line.match(/^!\[([^\]]*)\]\(([^)\s]+)(?:\s+"([^"]*)")?\)$/);
+  return m ? { alt: m[1], src: m[2], caption: m[3] } : null;
 }
 
 /**
@@ -122,7 +124,12 @@ export default function MarkdownBody({
 
     const imageLine = isImageLine(line);
     if (imageLine) {
-      out.push(<Figure key={i} figure={{ src: imageLine.src, alt: imageLine.alt }} />);
+      out.push(
+        <Figure
+          key={i}
+          figure={{ src: imageLine.src, alt: imageLine.alt, caption: imageLine.caption }}
+        />,
+      );
       return;
     }
 
@@ -133,7 +140,7 @@ export default function MarkdownBody({
         out.push(
           <div
             key={i}
-            className={`flex gap-4 py-2 ${isHeader ? 'mt-6 rounded-t-lg bg-zinc-900/70 font-bold text-amber-300' : 'border-b border-zinc-800'}`}
+            className={`flex gap-4 py-2 ${isHeader ? 'mt-6 rounded-t-lg bg-white/70 font-bold text-amber-300' : 'border-b border-zinc-200'}`}
           >
             {cells.map((c, j) => (
               <div key={j} className={`flex-1 text-sm ${j === 0 ? (isHeader ? '' : 'font-semibold') : ''}`}>
@@ -150,7 +157,7 @@ export default function MarkdownBody({
       const match = line.match(/- \*\*(.+?)\*\*(.*)/);
       if (match) {
         out.push(
-          <li key={i} className="text-zinc-100 mb-1 ml-4">
+          <li key={i} className="text-zinc-900 mb-1 ml-4">
             <strong>{match[1]}</strong>
             {renderInline(match[2])}
           </li>,
@@ -161,7 +168,7 @@ export default function MarkdownBody({
 
     if (line.startsWith('- ')) {
       out.push(
-        <li key={i} className="text-zinc-100 mb-1 ml-4">
+        <li key={i} className="text-zinc-900 mb-1 ml-4">
           {renderInline(line.slice(2))}
         </li>,
       );
@@ -170,7 +177,7 @@ export default function MarkdownBody({
 
     if (/^\d+\.\s/.test(line)) {
       out.push(
-        <li key={i} className="text-zinc-100 mb-2 ml-4 list-decimal">
+        <li key={i} className="text-zinc-900 mb-2 ml-4 list-decimal">
           {renderInline(line.replace(/^\d+\.\s/, ''))}
         </li>,
       );
@@ -183,7 +190,7 @@ export default function MarkdownBody({
     }
 
     out.push(
-      <p key={i} className="text-zinc-100 leading-relaxed mb-4 text-lg">
+      <p key={i} className="text-zinc-900 leading-relaxed mb-4 text-lg">
         {renderInline(line)}
       </p>,
     );

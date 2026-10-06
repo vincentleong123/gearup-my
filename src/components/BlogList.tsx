@@ -40,7 +40,7 @@ const langBadge = (lang?: 'ms' | 'zh') =>
     ? 'bg-red-500/20 text-red-400 border-red-500/30'
     : lang === 'zh'
     ? 'bg-rose-500/20 text-rose-400 border-rose-500/30'
-    : 'bg-zinc-700/40 text-zinc-300 border-zinc-600/40';
+    : 'bg-zinc-700/40 text-zinc-600 border-zinc-600/40';
 
 const langLabel = (lang: 'ms' | 'zh' | undefined, t: (k: string, f: string) => string) =>
   lang === 'ms' ? t('blog.langFilter.ms', 'Bahasa Melayu') : lang === 'zh' ? t('blog.langFilter.zh', '中文') : t('blog.langFilter.en', 'English');
@@ -89,7 +89,7 @@ export default function BlogList() {
             className={`px-5 py-2.5 rounded-full text-sm font-bold transition-all ${
               filter === f.id
                 ? 'bg-gradient-to-r from-green-500 to-emerald-600 text-zinc-950 shadow-lg shadow-green-500/25'
-                : 'bg-zinc-800/50 text-zinc-200 hover:text-white border border-zinc-700/50'
+                : 'bg-zinc-100 text-zinc-600 hover:text-zinc-900 border border-zinc-300/50'
             }`}
           >
             {filterLabels[f.id]}
@@ -104,7 +104,7 @@ export default function BlogList() {
             className={`px-4 py-2 rounded-full text-sm font-bold transition-all ${
               lang === f.id
                 ? 'bg-gradient-to-r from-red-500 to-rose-600 text-zinc-950 shadow-lg shadow-red-500/25'
-                : 'bg-zinc-800/50 text-zinc-200 hover:text-white border border-zinc-700/50'
+                : 'bg-zinc-100 text-zinc-600 hover:text-zinc-900 border border-zinc-300/50'
             }`}
           >
             {langFilterLabels[f.id]}
@@ -116,11 +116,11 @@ export default function BlogList() {
       {featured && (
         <Link
           href={withLang(realLang(featured), `/blog/${featured.slug}`)}
-          className="group relative block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden mb-8 hover:border-green-500/30 hover:shadow-2xl hover:shadow-green-600/10 transition-all duration-300"
+          className="group relative block bg-white/60 border border-zinc-200 rounded-2xl overflow-hidden mb-8 hover:border-green-500/30 hover:shadow-2xl hover:shadow-green-600/10 transition-all duration-300"
         >
-          <div className="h-64 md:h-96 relative overflow-hidden bg-zinc-900">
+          <div className="h-64 md:h-96 relative overflow-hidden bg-white">
             <img
-              src={blogImg(featured.slug)}
+              src={featured.image || blogImg(featured.slug)}
               alt={featured.title}
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
@@ -132,13 +132,13 @@ export default function BlogList() {
             </div>
           </div>
           <div className="p-6 md:p-10 -mt-24 relative z-10">
-            <div className="flex items-center gap-3 text-sm text-zinc-200 mb-3">
+            <div className="flex items-center gap-3 text-sm text-zinc-600 mb-3">
               <span>{featured.date}</span>
               <span>·</span>
               <span>{featured.readTime} {t('common.minRead', 'min read')}</span>
             </div>
             <h2 className="text-2xl md:text-4xl font-black group-hover:text-green-400 transition-colors mb-3 max-w-2xl">{featured.title}</h2>
-            <p className="text-zinc-100 max-w-2xl leading-relaxed text-lg">{featured.description}</p>
+            <p className="text-zinc-900 max-w-2xl leading-relaxed text-lg">{featured.description}</p>
           </div>
         </Link>
       )}
@@ -148,11 +148,11 @@ export default function BlogList() {
           <Link
             key={a.slug}
             href={withLang(realLang(a), `/blog/${a.slug}`)}
-            className="group block bg-zinc-900/60 border border-zinc-800 rounded-2xl overflow-hidden hover:border-green-500/30 hover:-translate-y-1 hover:shadow-xl hover:shadow-green-600/5 transition-all duration-300"
+            className="group block bg-white/60 border border-zinc-200 rounded-2xl overflow-hidden hover:border-green-500/30 hover:-translate-y-1 hover:shadow-xl hover:shadow-green-600/5 transition-all duration-300"
           >
-            <div className="h-44 relative overflow-hidden bg-zinc-900">
+            <div className="h-44 relative overflow-hidden bg-white">
               <img
-                src={blogImg(a.slug)}
+                src={a.image || blogImg(a.slug)}
                 alt={a.title}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 loading="lazy"
@@ -164,16 +164,16 @@ export default function BlogList() {
               </div>
             </div>
             <div className="p-5">
-              <div className="flex items-center gap-2 mb-2 text-xs text-zinc-200">
+              <div className="flex items-center gap-2 mb-2 text-xs text-zinc-600">
                 <span>{a.date}</span>
                 <span>·</span>
                 <span>{a.readTime} {t('common.minRead', 'min read')}</span>
               </div>
               <h2 className="text-lg font-bold group-hover:text-green-400 transition-colors mb-2 line-clamp-2">{a.title}</h2>
-              <p className="text-zinc-200 text-sm line-clamp-2 mb-3">{a.description}</p>
+              <p className="text-zinc-600 text-sm line-clamp-2 mb-3">{a.description}</p>
               <div className="flex flex-wrap gap-1.5">
                 {a.tags.slice(0, 3).map(t => (
-                  <span key={t} className="text-xs text-zinc-200 bg-zinc-800/60 px-2 py-0.5 rounded-full">#{t}</span>
+                  <span key={t} className="text-xs text-zinc-600 bg-zinc-100/60 px-2 py-0.5 rounded-full">#{t}</span>
                 ))}
               </div>
             </div>
@@ -184,15 +184,15 @@ export default function BlogList() {
       {rest.length === 0 && (
         <div className="text-center py-16">
           <div className="text-4xl mb-3">📭</div>
-          <p className="text-zinc-200 font-semibold">{t('blog.noArticles', 'No articles in this category yet. New ones drop every week.')}</p>
+          <p className="text-zinc-600 font-semibold">{t('blog.noArticles', 'No articles in this category yet. New ones drop every week.')}</p>
         </div>
       )}
 
       <div className="mt-14 text-center">
-        <div className="inline-flex flex-col sm:flex-row items-center gap-3 bg-zinc-900/60 border border-zinc-800 rounded-2xl px-6 py-5">
+        <div className="inline-flex flex-col sm:flex-row items-center gap-3 bg-white/60 border border-zinc-200 rounded-2xl px-6 py-5">
           <span className="text-2xl">📬</span>
-          <p className="text-sm text-zinc-200">
-            <strong className="text-white">{t('blog.cta.title', 'New review every week.')}</strong>{' '}
+          <p className="text-sm text-zinc-600">
+            <strong className="text-zinc-950">{t('blog.cta.title', 'New review every week.')}</strong>{' '}
             {t('blog.cta.desc', 'Get the 2026 Gear Guide + price drop alerts free.')}
           </p>
           <Link

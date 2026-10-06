@@ -35,7 +35,7 @@ export default function HashtagsPage() {
             <h1 className="text-4xl md:text-6xl font-black mb-4">
               <T k="hashtags.hero.head" en="Search Gear Hashtags," /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-pink-400 to-fuchsia-400"><T k="hashtags.hero.accent" en="Keep Content Here" /></span>
             </h1>
-            <p className="text-zinc-200 max-w-2xl mx-auto text-lg">
+            <p className="text-zinc-600 max-w-2xl mx-auto text-lg">
               <T k="hashtags.hero.desc" en="Type a hashtag like #DJIOSMO or #IPHONE17PRO and get a curated library of settings recipes, gear reviews, and the exact part-time gigs that pay the gear off. All on your site — no Instagram hopping." />
             </p>
           </div>

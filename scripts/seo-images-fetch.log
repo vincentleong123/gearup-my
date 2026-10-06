@@ -1,0 +1,248 @@
+[2026-10-01T15:48:58.843Z] start: 40 images planned, out dir C:\Users\User\Desktop\n\gearup-my\public\blog
+[2026-10-01T15:49:02.370Z] saved: thailand-camera-gear-bangkok-camera-store.jpg (46450B)
+[2026-10-01T15:49:05.860Z] quota 402: thailand-camera-gear-price-comparison.jpg (attempt 1) - backing off 90s
+[2026-10-01T15:50:39.758Z] saved: thailand-camera-gear-price-comparison.jpg (56858B)
+[2026-10-01T15:50:43.252Z] quota 402: camera-rental-vs-buy-kaunter-sewa.jpg (attempt 1) - backing off 90s
+[2026-10-01T15:51:37.517Z] start: 20 images planned (shard 0/2), out dir C:\Users\User\Desktop\n\gearup-my\public\blog
+[2026-10-01T15:51:37.524Z] skip (exists): thailand-camera-gear-bangkok-camera-store.jpg
+[2026-10-01T15:51:37.552Z] start: 20 images planned (shard 1/2), out dir C:\Users\User\Desktop\n\gearup-my\public\blog
+[2026-10-01T15:51:37.585Z] skip (exists): thailand-camera-gear-price-comparison.jpg
+[2026-10-01T15:51:38.296Z] quota 402: camera-rental-vs-buy-kira-kos.jpg (attempt 1) - backing off 60s
+[2026-10-01T15:51:41.130Z] saved: camera-rental-vs-buy-kaunter-sewa.jpg (43768B)
+[2026-10-01T15:51:44.646Z] quota 402: kamera-bawah-rm2000-senarai-mirrorless.jpg (attempt 1) - backing off 60s
+[2026-10-01T15:52:41.815Z] saved: camera-rental-vs-buy-kira-kos.jpg (54005B)
+[2026-10-01T15:52:45.246Z] quota 402: kamera-bawah-rm2000-skrin-terbuka.jpg (attempt 1) - backing off 60s
+[2026-10-01T15:52:45.450Z] quota 402: kamera-bawah-rm2000-senarai-mirrorless.jpg (attempt 2) - backing off 60s
+[2026-10-01T15:53:46.238Z] quota 402: kamera-bawah-rm2000-senarai-mirrorless.jpg (attempt 3) - backing off 60s
+[2026-10-01T15:53:58.836Z] saved: kamera-bawah-rm2000-skrin-terbuka.jpg (36856B)
+[2026-10-01T15:54:02.236Z] quota 402: japan-camera-market-used-grading.jpg (attempt 1) - backing off 60s
+[2026-10-01T15:54:49.448Z] saved: kamera-bawah-rm2000-senarai-mirrorless.jpg (55159B)
+[2026-10-01T15:54:52.959Z] quota 402: japan-camera-market-tokyo-used-store.jpg (attempt 1) - backing off 60s
+[2026-10-01T15:55:03.170Z] quota 402: japan-camera-market-used-grading.jpg (attempt 2) - backing off 60s
+[2026-10-01T15:55:59.741Z] saved: japan-camera-market-tokyo-used-store.jpg (37004B)
+[2026-10-01T15:56:03.156Z] quota 402: harga-sony-camera-malaysia-model-popular.jpg (attempt 1) - backing off 60s
+[2026-10-01T15:56:03.830Z] quota 402: japan-camera-market-used-grading.jpg (attempt 3) - backing off 60s
+[2026-10-01T15:57:04.463Z] quota 402: japan-camera-market-used-grading.jpg (attempt 4) - backing off 60s
+[2026-10-01T15:57:06.781Z] saved: harga-sony-camera-malaysia-model-popular.jpg (42682B)
+[2026-10-01T15:57:10.205Z] quota 402: indonesia-camera-gear-jakarta-store.jpg (attempt 1) - backing off 60s
+[2026-10-01T15:58:07.478Z] saved: japan-camera-market-used-grading.jpg (34020B)
+[2026-10-01T15:58:10.990Z] quota 402: indonesia-camera-gear-jakarta-store.jpg (attempt 2) - backing off 60s
+[2026-10-01T15:58:11.005Z] quota 402: harga-sony-vs-canon-malaysia.jpg (attempt 1) - backing off 60s
+[2026-10-01T15:59:12.160Z] quota 402: indonesia-camera-gear-jakarta-store.jpg (attempt 3) - backing off 60s
+[2026-10-01T15:59:14.323Z] bad payload (image/jpeg, 29673B): harga-sony-vs-canon-malaysia.jpg (attempt 2)
+[2026-10-01T15:59:29.824Z] bad payload (image/jpeg, 29673B): harga-sony-vs-canon-malaysia.jpg (attempt 3)
+[2026-10-01T15:59:45.465Z] bad payload (image/jpeg, 29673B): harga-sony-vs-canon-malaysia.jpg (attempt 4)
+[2026-10-01T16:00:01.032Z] bad payload (image/jpeg, 29673B): harga-sony-vs-canon-malaysia.jpg (attempt 5)
+[2026-10-01T16:00:16.592Z] bad payload (image/jpeg, 29673B): harga-sony-vs-canon-malaysia.jpg (attempt 6)
+[2026-10-01T16:00:18.520Z] saved: indonesia-camera-gear-jakarta-store.jpg (32134B)
+[2026-10-01T16:00:21.942Z] quota 402: harga-canon-camera-malaysia-60d.jpg (attempt 1) - backing off 60s
+[2026-10-01T16:00:32.099Z] bad payload (image/jpeg, 29673B): harga-sony-vs-canon-malaysia.jpg (attempt 7)
+[2026-10-01T16:00:47.407Z] bad payload (image/jpeg, 29673B): harga-sony-vs-canon-malaysia.jpg (attempt 8)
+[2026-10-01T16:01:02.413Z] FAILED: harga-sony-vs-canon-malaysia.jpg
+[2026-10-01T16:01:05.839Z] saved: indonesia-camera-gear-price-comparison.jpg (64570B)
+[2026-10-01T16:01:09.271Z] quota 402: harga-canon-camera-malaysia-lensa-murah.jpg (attempt 1) - backing off 60s
+[2026-10-01T16:01:22.752Z] quota 402: harga-canon-camera-malaysia-60d.jpg (attempt 2) - backing off 60s
+[2026-10-01T16:02:12.223Z] saved: harga-canon-camera-malaysia-lensa-murah.jpg (31862B)
+[2026-10-01T16:02:15.661Z] quota 402: dji-vs-instax360-meja-creator.jpg (attempt 1) - backing off 60s
+[2026-10-01T16:02:23.178Z] quota 402: harga-canon-camera-malaysia-60d.jpg (attempt 3) - backing off 60s
+[2026-10-01T16:03:23.705Z] quota 402: harga-canon-camera-malaysia-60d.jpg (attempt 4) - backing off 60s
+[2026-10-01T16:03:26.650Z] saved: dji-vs-instax360-meja-creator.jpg (48895B)
+[2026-10-01T16:03:30.078Z] quota 402: cara-mula-photography-rm500-portfolio.jpg (attempt 1) - backing off 60s
+[2026-10-01T16:04:27.290Z] saved: harga-canon-camera-malaysia-60d.jpg (41904B)
+[2026-10-01T16:04:30.695Z] quota 402: dji-vs-instax360-kamera-360.jpg (attempt 1) - backing off 60s
+[2026-10-01T16:04:30.813Z] quota 402: cara-mula-photography-rm500-portfolio.jpg (attempt 2) - backing off 60s
+[2026-10-01T16:05:31.628Z] quota 402: cara-mula-photography-rm500-portfolio.jpg (attempt 3) - backing off 60s
+[2026-10-01T16:05:34.220Z] bad payload (image/jpeg, 27353B): dji-vs-instax360-kamera-360.jpg (attempt 2)
+[2026-10-01T16:05:49.903Z] bad payload (image/jpeg, 27353B): dji-vs-instax360-kamera-360.jpg (attempt 3)
+[2026-10-01T16:06:05.283Z] bad payload (image/jpeg, 27353B): dji-vs-instax360-kamera-360.jpg (attempt 4)
+[2026-10-01T16:06:20.623Z] bad payload (image/jpeg, 27353B): dji-vs-instax360-kamera-360.jpg (attempt 5)
+[2026-10-01T16:06:35.778Z] saved: cara-mula-photography-rm500-portfolio.jpg (46329B)
+[2026-10-01T16:06:35.983Z] bad payload (image/jpeg, 27353B): dji-vs-instax360-kamera-360.jpg (attempt 6)
+[2026-10-01T16:06:39.337Z] quota 402: camera-untuk-youtube-malaysia-lighting.jpg (attempt 1) - backing off 60s
+[2026-10-01T16:06:51.461Z] bad payload (image/jpeg, 27353B): dji-vs-instax360-kamera-360.jpg (attempt 7)
+[2026-10-01T16:07:06.982Z] bad payload (image/jpeg, 27353B): dji-vs-instax360-kamera-360.jpg (attempt 8)
+[2026-10-01T16:07:21.986Z] FAILED: dji-vs-instax360-kamera-360.jpg
+[2026-10-01T16:07:25.126Z] saved: cara-mula-photography-rm500-gear.jpg (44623B)
+[2026-10-01T16:07:28.542Z] quota 402: camera-untuk-youtube-malaysia-setup.jpg (attempt 1) - backing off 60s
+[2026-10-01T16:07:39.955Z] quota 402: camera-untuk-youtube-malaysia-lighting.jpg (attempt 2) - backing off 60s
+[2026-10-01T16:08:32.578Z] saved: camera-untuk-youtube-malaysia-setup.jpg (40948B)
+[2026-10-01T16:08:36.025Z] quota 402: cara-buat-duit-dengan-photography-pendapatan.jpg (attempt 1) - backing off 60s
+[2026-10-01T16:08:40.448Z] quota 402: camera-untuk-youtube-malaysia-lighting.jpg (attempt 3) - backing off 60s
+[2026-10-01T16:09:39.130Z] saved: cara-buat-duit-dengan-photography-pendapatan.jpg (43164B)
+[2026-10-01T16:09:41.221Z] quota 402: camera-untuk-youtube-malaysia-lighting.jpg (attempt 4) - backing off 60s
+[2026-10-01T16:09:42.621Z] quota 402: camera-roi-calculator-malaysia-kalkulator.jpg (attempt 1) - backing off 60s
+[2026-10-01T16:10:43.385Z] quota 402: camera-roi-calculator-malaysia-kalkulator.jpg (attempt 2) - backing off 60s
+[2026-10-01T16:10:44.878Z] bad payload (image/jpeg, 28723B): camera-untuk-youtube-malaysia-lighting.jpg (attempt 5)
+[2026-10-01T16:11:00.626Z] bad payload (image/jpeg, 28723B): camera-untuk-youtube-malaysia-lighting.jpg (attempt 6)
+[2026-10-01T16:11:15.954Z] bad payload (image/jpeg, 28723B): camera-untuk-youtube-malaysia-lighting.jpg (attempt 7)
+[2026-10-01T16:11:31.300Z] bad payload (image/jpeg, 28723B): camera-untuk-youtube-malaysia-lighting.jpg (attempt 8)
+[2026-10-01T16:11:46.311Z] FAILED: camera-untuk-youtube-malaysia-lighting.jpg
+[2026-10-01T16:11:46.673Z] saved: camera-roi-calculator-malaysia-kalkulator.jpg (43362B)
+[2026-10-01T16:11:47.098Z] quota 402: cara-buat-duit-dengan-photography-beg-gear.jpg (attempt 1) - backing off 60s
+[2026-10-01T16:11:50.127Z] quota 402: best-vlogging-camera-malaysia-senarai.jpg (attempt 1) - backing off 60s
+[2026-10-01T16:12:50.828Z] saved: cara-buat-duit-dengan-photography-beg-gear.jpg (54956B)
+[2026-10-01T16:12:50.923Z] quota 402: best-vlogging-camera-malaysia-senarai.jpg (attempt 2) - backing off 60s
+[2026-10-01T16:12:54.278Z] quota 402: camera-roi-calculator-malaysia-kos-tersembunyi.jpg (attempt 1) - backing off 60s
+[2026-10-01T16:13:53.921Z] bad payload (image/jpeg, 27410B): best-vlogging-camera-malaysia-senarai.jpg (attempt 3)
+[2026-10-01T16:13:54.832Z] quota 402: camera-roi-calculator-malaysia-kos-tersembunyi.jpg (attempt 2) - backing off 60s
+[2026-10-01T16:14:09.653Z] bad payload (image/jpeg, 27410B): best-vlogging-camera-malaysia-senarai.jpg (attempt 4)
+[2026-10-01T16:14:25.005Z] bad payload (image/jpeg, 27410B): best-vlogging-camera-malaysia-senarai.jpg (attempt 5)
+[2026-10-01T16:14:40.369Z] bad payload (image/jpeg, 27410B): best-vlogging-camera-malaysia-senarai.jpg (attempt 6)
+[2026-10-01T16:14:55.678Z] bad payload (image/jpeg, 27410B): best-vlogging-camera-malaysia-senarai.jpg (attempt 7)
+[2026-10-01T16:14:58.749Z] saved: camera-roi-calculator-malaysia-kos-tersembunyi.jpg (50157B)
+[2026-10-01T16:15:02.187Z] quota 402: best-vlogging-camera-malaysia-setup.jpg (attempt 1) - backing off 60s
+[2026-10-01T16:15:11.006Z] bad payload (image/jpeg, 27410B): best-vlogging-camera-malaysia-senarai.jpg (attempt 8)
+[2026-10-01T16:15:26.020Z] FAILED: best-vlogging-camera-malaysia-senarai.jpg
+[2026-10-01T16:15:26.543Z] quota 402: kamera-second-hand-malaysia-kaunter.jpg (attempt 1) - backing off 60s
+[2026-10-01T16:16:04.971Z] saved: best-vlogging-camera-malaysia-setup.jpg (32413B)
+[2026-10-01T16:16:08.440Z] quota 402: kamera-second-hand-malaysia-semak-mount.jpg (attempt 1) - backing off 60s
+[2026-10-01T16:16:27.000Z] quota 402: kamera-second-hand-malaysia-kaunter.jpg (attempt 2) - backing off 60s
+[2026-10-01T16:17:12.194Z] saved: kamera-second-hand-malaysia-semak-mount.jpg (45926B)
+[2026-10-01T16:17:15.657Z] quota 402: berapa-gig-untuk-bayar-camera-beg-aksesori.jpg (attempt 1) - backing off 60s
+[2026-10-01T16:17:27.488Z] quota 402: kamera-second-hand-malaysia-kaunter.jpg (attempt 3) - backing off 60s
+[2026-10-01T16:18:18.451Z] saved: berapa-gig-untuk-bayar-camera-beg-aksesori.jpg (62085B)
+[2026-10-01T16:18:22.645Z] quota 402: best-camera-content-creator-malaysia-meja-kerja.jpg (attempt 1) - backing off 60s
+[2026-10-01T16:18:27.951Z] quota 402: kamera-second-hand-malaysia-kaunter.jpg (attempt 4) - backing off 60s
+[2026-10-01T16:19:26.778Z] saved: best-camera-content-creator-malaysia-meja-kerja.jpg (40011B)
+[2026-10-01T16:19:28.391Z] quota 402: kamera-second-hand-malaysia-kaunter.jpg (attempt 5) - backing off 60s
+[2026-10-01T16:19:30.210Z] quota 402: kamera-untuk-photography-malaysia-senarai-gaya.jpg (attempt 1) - backing off 60s
+[2026-10-01T16:20:31.003Z] quota 402: kamera-untuk-photography-malaysia-senarai-gaya.jpg (attempt 2) - backing off 60s
+[2026-10-01T16:20:31.962Z] saved: kamera-second-hand-malaysia-kaunter.jpg (54950B)
+[2026-10-01T16:20:35.410Z] quota 402: berapa-gig-untuk-bayar-camera-senario.jpg (attempt 1) - backing off 60s
+[2026-10-01T16:21:34.425Z] saved: kamera-untuk-photography-malaysia-senarai-gaya.jpg (41594B)
+[2026-10-01T16:21:35.862Z] quota 402: berapa-gig-untuk-bayar-camera-senario.jpg (attempt 2) - backing off 60s
+[2026-10-01T16:21:37.866Z] quota 402: kamera-untuk-side-income-malaysia-beg-gig.jpg (attempt 1) - backing off 60s
+[2026-10-01T16:22:38.655Z] quota 402: kamera-untuk-side-income-malaysia-beg-gig.jpg (attempt 2) - backing off 60s
+[2026-10-01T16:22:38.889Z] saved: berapa-gig-untuk-bayar-camera-senario.jpg (37701B)
+[2026-10-01T16:22:42.327Z] quota 402: best-camera-content-creator-malaysia-top5.jpg (attempt 1) - backing off 60s
+[2026-10-01T16:23:41.545Z] saved: kamera-untuk-side-income-malaysia-beg-gig.jpg (44116B)
+[2026-10-01T16:23:42.811Z] quota 402: best-camera-content-creator-malaysia-top5.jpg (attempt 2) - backing off 60s
+[2026-10-01T16:23:44.991Z] quota 402: mic-terbaik-tiktok-live-malaysia-setup.jpg (attempt 1) - backing off 60s
+[2026-10-01T16:24:45.741Z] saved: best-camera-content-creator-malaysia-top5.jpg (34704B)
+[2026-10-01T16:24:45.773Z] quota 402: mic-terbaik-tiktok-live-malaysia-setup.jpg (attempt 2) - backing off 60s
+[2026-10-01T16:24:49.188Z] quota 402: kamera-untuk-photography-malaysia-dua-lens.jpg (attempt 1) - backing off 60s
+[2026-10-01T16:25:48.650Z] bad payload (image/jpeg, 29428B): mic-terbaik-tiktok-live-malaysia-setup.jpg (attempt 3)
+[2026-10-01T16:25:49.667Z] quota 402: kamera-untuk-photography-malaysia-dua-lens.jpg (attempt 2) - backing off 60s
+[2026-10-01T16:26:04.212Z] bad payload (image/jpeg, 29428B): mic-terbaik-tiktok-live-malaysia-setup.jpg (attempt 4)
+[2026-10-01T16:26:19.550Z] bad payload (image/jpeg, 29428B): mic-terbaik-tiktok-live-malaysia-setup.jpg (attempt 5)
+[2026-10-01T16:26:34.907Z] bad payload (image/jpeg, 29428B): mic-terbaik-tiktok-live-malaysia-setup.jpg (attempt 6)
+[2026-10-01T16:26:50.209Z] bad payload (image/jpeg, 29428B): mic-terbaik-tiktok-live-malaysia-setup.jpg (attempt 7)
+[2026-10-01T16:26:53.199Z] saved: kamera-untuk-photography-malaysia-dua-lens.jpg (89982B)
+[2026-10-01T16:26:56.656Z] quota 402: kamera-untuk-side-income-malaysia-pendapatan.jpg (attempt 1) - backing off 60s
+[2026-10-01T16:27:05.770Z] bad payload (image/jpeg, 29428B): mic-terbaik-tiktok-live-malaysia-setup.jpg (attempt 8)
+[2026-10-01T16:27:20.783Z] FAILED: mic-terbaik-tiktok-live-malaysia-setup.jpg
+[2026-10-01T16:27:21.230Z] quota 402: philippines-vlogging-gear-creator-desk.jpg (attempt 1) - backing off 60s
+[2026-10-01T16:28:00.086Z] saved: kamera-untuk-side-income-malaysia-pendapatan.jpg (45349B)
+[2026-10-01T16:28:03.531Z] quota 402: mic-terbaik-tiktok-live-malaysia-senarai.jpg (attempt 1) - backing off 60s
+[2026-10-01T16:28:21.756Z] quota 402: philippines-vlogging-gear-creator-desk.jpg (attempt 2) - backing off 60s
+[2026-10-01T16:29:07.028Z] saved: mic-terbaik-tiktok-live-malaysia-senarai.jpg (35807B)
+[2026-10-01T16:29:10.479Z] quota 402: philippines-vlogging-gear-manila-camera-store.jpg (attempt 1) - backing off 60s
+[2026-10-01T16:29:22.217Z] quota 402: philippines-vlogging-gear-creator-desk.jpg (attempt 3) - backing off 60s
+[2026-10-01T16:30:13.573Z] saved: philippines-vlogging-gear-manila-camera-store.jpg (41083B)
+[2026-10-01T16:30:16.582Z] done: saved=17 skipped=1 failed=2
+[2026-10-01T16:30:22.686Z] quota 402: philippines-vlogging-gear-creator-desk.jpg (attempt 4) - backing off 60s
+[2026-10-01T16:31:26.394Z] saved: philippines-vlogging-gear-creator-desk.jpg (39248B)
+[2026-10-01T16:31:29.398Z] done: saved=16 skipped=1 failed=3
+[2026-10-01T16:31:46.231Z] start: 20 images planned (shard 0/2), out dir C:\Users\User\Desktop\n\gearup-my\public\blog
+[2026-10-01T16:31:46.239Z] skip (exists): thailand-camera-gear-bangkok-camera-store.jpg
+[2026-10-01T16:31:46.240Z] skip (exists): camera-rental-vs-buy-kaunter-sewa.jpg
+[2026-10-01T16:31:46.241Z] skip (exists): kamera-bawah-rm2000-senarai-mirrorless.jpg
+[2026-10-01T16:31:46.242Z] skip (exists): japan-camera-market-tokyo-used-store.jpg
+[2026-10-01T16:31:46.243Z] skip (exists): harga-sony-camera-malaysia-model-popular.jpg
+[2026-10-01T16:31:46.244Z] skip (exists): indonesia-camera-gear-jakarta-store.jpg
+[2026-10-01T16:31:46.245Z] skip (exists): harga-canon-camera-malaysia-60d.jpg
+[2026-10-01T16:31:46.256Z] start: 20 images planned (shard 1/2), out dir C:\Users\User\Desktop\n\gearup-my\public\blog
+[2026-10-01T16:31:46.263Z] skip (exists): thailand-camera-gear-price-comparison.jpg
+[2026-10-01T16:31:46.263Z] skip (exists): camera-rental-vs-buy-kira-kos.jpg
+[2026-10-01T16:31:46.265Z] skip (exists): kamera-bawah-rm2000-skrin-terbuka.jpg
+[2026-10-01T16:31:46.265Z] skip (exists): japan-camera-market-used-grading.jpg
+[2026-10-01T16:31:46.733Z] bad payload (image/jpeg, 27353B): dji-vs-instax360-kamera-360.jpg (attempt 1)
+[2026-10-01T16:31:46.746Z] bad payload (image/jpeg, 29673B): harga-sony-vs-canon-malaysia.jpg (attempt 1)
+[2026-10-01T16:32:02.073Z] bad payload (image/jpeg, 29673B): harga-sony-vs-canon-malaysia.jpg (attempt 2)
+[2026-10-01T16:32:02.082Z] bad payload (image/jpeg, 27353B): dji-vs-instax360-kamera-360.jpg (attempt 2)
+[2026-10-01T16:32:17.439Z] bad payload (image/jpeg, 29673B): harga-sony-vs-canon-malaysia.jpg (attempt 3)
+[2026-10-01T16:32:17.447Z] bad payload (image/jpeg, 27353B): dji-vs-instax360-kamera-360.jpg (attempt 3)
+[2026-10-01T16:32:32.755Z] bad payload (image/jpeg, 29673B): harga-sony-vs-canon-malaysia.jpg (attempt 4)
+[2026-10-01T16:32:32.758Z] bad payload (image/jpeg, 27353B): dji-vs-instax360-kamera-360.jpg (attempt 4)
+[2026-10-01T16:32:48.088Z] bad payload (image/jpeg, 27353B): dji-vs-instax360-kamera-360.jpg (attempt 5)
+[2026-10-01T16:32:48.102Z] bad payload (image/jpeg, 29673B): harga-sony-vs-canon-malaysia.jpg (attempt 5)
+[2026-10-01T16:32:50.923Z] start: 20 images planned (shard 0/2), out dir C:\Users\User\Desktop\n\gearup-my\public\blog
+[2026-10-01T16:32:50.932Z] skip (exists): thailand-camera-gear-bangkok-camera-store.jpg
+[2026-10-01T16:32:50.933Z] skip (exists): camera-rental-vs-buy-kaunter-sewa.jpg
+[2026-10-01T16:32:50.934Z] skip (exists): kamera-bawah-rm2000-senarai-mirrorless.jpg
+[2026-10-01T16:32:50.935Z] skip (exists): japan-camera-market-tokyo-used-store.jpg
+[2026-10-01T16:32:50.936Z] skip (exists): harga-sony-camera-malaysia-model-popular.jpg
+[2026-10-01T16:32:50.938Z] skip (exists): indonesia-camera-gear-jakarta-store.jpg
+[2026-10-01T16:32:50.939Z] skip (exists): harga-canon-camera-malaysia-60d.jpg
+[2026-10-01T16:32:50.933Z] start: 20 images planned (shard 1/2), out dir C:\Users\User\Desktop\n\gearup-my\public\blog
+[2026-10-01T16:32:50.943Z] skip (exists): thailand-camera-gear-price-comparison.jpg
+[2026-10-01T16:32:50.943Z] skip (exists): camera-rental-vs-buy-kira-kos.jpg
+[2026-10-01T16:32:50.944Z] skip (exists): kamera-bawah-rm2000-skrin-terbuka.jpg
+[2026-10-01T16:32:50.946Z] skip (exists): japan-camera-market-used-grading.jpg
+[2026-10-01T16:32:51.351Z] saved: dji-vs-instax360-kamera-360.jpg (27353B)
+[2026-10-01T16:32:51.364Z] saved: harga-sony-vs-canon-malaysia.jpg (29673B)
+[2026-10-01T16:32:54.367Z] skip (exists): cara-mula-photography-rm500-gear.jpg
+[2026-10-01T16:32:54.371Z] skip (exists): camera-untuk-youtube-malaysia-setup.jpg
+[2026-10-01T16:32:54.373Z] skip (exists): cara-buat-duit-dengan-photography-pendapatan.jpg
+[2026-10-01T16:32:54.376Z] skip (exists): camera-roi-calculator-malaysia-kalkulator.jpg
+[2026-10-01T16:32:54.373Z] skip (exists): indonesia-camera-gear-price-comparison.jpg
+[2026-10-01T16:32:54.376Z] skip (exists): harga-canon-camera-malaysia-lensa-murah.jpg
+[2026-10-01T16:32:54.379Z] skip (exists): dji-vs-instax360-meja-creator.jpg
+[2026-10-01T16:32:54.382Z] skip (exists): cara-mula-photography-rm500-portfolio.jpg
+[2026-10-01T16:32:54.662Z] saved: camera-untuk-youtube-malaysia-lighting.jpg (28723B)
+[2026-10-01T16:32:54.678Z] saved: best-vlogging-camera-malaysia-senarai.jpg (27410B)
+[2026-10-01T16:32:57.671Z] skip (exists): cara-buat-duit-dengan-photography-beg-gear.jpg
+[2026-10-01T16:32:57.675Z] skip (exists): camera-roi-calculator-malaysia-kos-tersembunyi.jpg
+[2026-10-01T16:32:57.677Z] skip (exists): best-vlogging-camera-malaysia-setup.jpg
+[2026-10-01T16:32:57.680Z] skip (exists): kamera-second-hand-malaysia-semak-mount.jpg
+[2026-10-01T16:32:57.683Z] skip (exists): berapa-gig-untuk-bayar-camera-beg-aksesori.jpg
+[2026-10-01T16:32:57.701Z] skip (exists): kamera-second-hand-malaysia-kaunter.jpg
+[2026-10-01T16:32:57.691Z] skip (exists): best-camera-content-creator-malaysia-meja-kerja.jpg
+[2026-10-01T16:32:57.704Z] skip (exists): berapa-gig-untuk-bayar-camera-senario.jpg
+[2026-10-01T16:32:57.694Z] skip (exists): kamera-untuk-photography-malaysia-senarai-gaya.jpg
+[2026-10-01T16:32:57.707Z] skip (exists): best-camera-content-creator-malaysia-top5.jpg
+[2026-10-01T16:32:57.696Z] skip (exists): kamera-untuk-side-income-malaysia-beg-gig.jpg
+[2026-10-01T16:32:57.709Z] skip (exists): kamera-untuk-photography-malaysia-dua-lens.jpg
+[2026-10-01T16:32:57.713Z] skip (exists): kamera-untuk-side-income-malaysia-pendapatan.jpg
+[2026-10-01T16:32:57.720Z] skip (exists): mic-terbaik-tiktok-live-malaysia-senarai.jpg
+[2026-10-01T16:32:57.722Z] skip (exists): philippines-vlogging-gear-manila-camera-store.jpg
+[2026-10-01T16:32:57.724Z] done: saved=2 skipped=18 failed=0
+[2026-10-01T16:32:57.994Z] saved: mic-terbaik-tiktok-live-malaysia-setup.jpg (29428B)
+[2026-10-01T16:33:01.004Z] skip (exists): philippines-vlogging-gear-creator-desk.jpg
+[2026-10-01T16:33:01.006Z] done: saved=3 skipped=17 failed=0
+[2026-10-01T20:56:41.678Z] start: 1 images planned (shard 0/1), out dir C:\Users\User\Desktop\n\gearup-my\public\blog
+[2026-10-01T20:56:47.410Z] saved: kamera-bawah-rm2000-senarai-mirrorless.jpg (64343B)
+[2026-10-01T20:56:50.414Z] done: saved=1 skipped=0 failed=0
+[2026-10-01T20:56:50.505Z] start: 1 images planned (shard 0/1), out dir C:\Users\User\Desktop\n\gearup-my\public\blog
+[2026-10-01T20:56:51.045Z] quota 402: dji-vs-instax360-kamera-360.jpg (attempt 1) - backing off 60s
+[2026-10-01T20:57:55.984Z] saved: dji-vs-instax360-kamera-360.jpg (28642B)
+[2026-10-01T20:57:58.988Z] done: saved=1 skipped=0 failed=0
+[2026-10-01T20:57:59.146Z] start: 1 images planned (shard 0/1), out dir C:\Users\User\Desktop\n\gearup-my\public\blog
+[2026-10-01T20:57:59.713Z] quota 402: thailand-camera-gear-price-comparison.jpg (attempt 1) - backing off 60s
+[2026-10-01T20:59:03.279Z] saved: thailand-camera-gear-price-comparison.jpg (44987B)
+[2026-10-01T20:59:06.284Z] done: saved=1 skipped=0 failed=0
+[2026-10-01T20:59:56.531Z] start: 1 images planned (shard 0/1), out dir C:\Users\User\Desktop\n\gearup-my\public\blog
+[2026-10-01T20:59:57.327Z] saved: thailand-camera-gear-price-comparison.jpg (44987B)
+[2026-10-01T21:00:00.345Z] done: saved=1 skipped=0 failed=0
+[2026-10-01T21:00:23.544Z] start: 1 images planned (shard 0/1), out dir C:\Users\User\Desktop\n\gearup-my\public\blog
+[2026-10-01T21:00:27.620Z] saved: thailand-camera-gear-price-comparison.jpg (67081B)
+[2026-10-01T21:00:30.635Z] done: saved=1 skipped=0 failed=0
+[2026-10-01T21:01:55.881Z] start: 1 images planned (shard 0/1), out dir C:\Users\User\Desktop\n\gearup-my\public\blog
+[2026-10-01T21:01:59.571Z] saved: thailand-camera-gear-price-comparison.jpg (56609B)
+[2026-10-01T21:02:02.585Z] done: saved=1 skipped=0 failed=0
+[2026-10-01T21:02:29.494Z] start: 1 images planned (shard 0/1), out dir C:\Users\User\Desktop\n\gearup-my\public\blog
+[2026-10-01T21:02:30.084Z] quota 402: thailand-camera-gear-price-comparison.jpg (attempt 1) - backing off 60s
+[2026-10-01T21:03:34.662Z] saved: thailand-camera-gear-price-comparison.jpg (62455B)
+[2026-10-01T21:03:37.666Z] done: saved=1 skipped=0 failed=0
+[2026-10-01T21:03:57.616Z] start: 1 images planned (shard 0/1), out dir C:\Users\User\Desktop\n\gearup-my\public\blog
+[2026-10-01T21:03:58.230Z] quota 402: thailand-camera-gear-price-comparison.jpg (attempt 1) - backing off 60s
+[2026-10-01T21:05:03.151Z] saved: thailand-camera-gear-price-comparison.jpg (75607B)
+[2026-10-01T21:05:06.153Z] done: saved=1 skipped=0 failed=0
+[2026-10-01T21:05:34.186Z] start: 1 images planned (shard 0/1), out dir C:\Users\User\Desktop\n\gearup-my\public\blog
+[2026-10-01T21:05:34.722Z] quota 402: thailand-camera-gear-price-comparison.jpg (attempt 1) - backing off 60s
+[2026-10-01T21:06:40.836Z] saved: thailand-camera-gear-price-comparison.jpg (81494B)
+[2026-10-01T21:06:43.841Z] done: saved=1 skipped=0 failed=0
+[2026-10-01T21:10:06.959Z] start: 1 images planned (shard 0/1), out dir C:\Users\User\Desktop\n\gearup-my\public\blog
+[2026-10-01T21:10:07.512Z] quota 402: thailand-camera-gear-price-comparison.jpg (attempt 1) - backing off 60s
+[2026-10-01T21:11:11.713Z] saved: thailand-camera-gear-price-comparison.jpg (62546B)
+[2026-10-01T21:11:14.715Z] done: saved=1 skipped=0 failed=0

@@ -57,8 +57,6 @@ const gearShots = [
   shot('photo-1665182731863-5675ee50dfee', 'Checking a used camera before you pay Review Malaysia kameralog.com', 'Checking a used camera before you pay.', ['usedcamera', 'gearcheck']),
   shot('photo-1517245386807-bb43f82c33c4', 'Home security camera', 'A RM79 indoor cam watches your shop while you sleep.', ['homesecurity', 'cctv']),
   shot('photo-1560518883-ce09059eeffa', 'Modern home exterior', 'Landed property owners in Malaysia buy CCTV by the set.', ['securitycameras', 'homeoutdoor']),
-  shot('photo-1449965408869-eaa3f722e40d', 'Driving on a highway', 'Dashcam footage settles the claims photos cannot.', ['dashcam', 'driving']),
-  shot('photo-1553440569-bcc63803a83d', 'Car interior and dashboard', '4K front cams read plates at night — the whole point.', ['cardashboard', 'dashcam']),
 ];
 
 // ==== Gig themes ====
@@ -111,6 +109,9 @@ export function articleFigures(slug: string): CuratedShot[] {
 }
 
 const articleTheme: Record<string, CuratedShot[]> = {
+  // Empty = no auto-injected stock figures; this article ships its own
+  // topic images via inline markdown `![alt](/blog/...)` lines.
+  'nikon-z5iic-canon-r8-mark-ii-buy-window-malaysia-2026': [],
   'content-creator-malaysia-no-money-start': [
     people[16], gearShots[7], people[0], gearShots[4],
   ],
@@ -240,20 +241,11 @@ const articleTheme: Record<string, CuratedShot[]> = {
   'cctv-home-security-camera-guide-malaysia': [
     gearShots[9], gigShots.realestate[0], gearShots[10], people[21],
   ],
-  'best-dashcam-malaysia-2026': [
-    gearShots[11], people[8], gearShots[12], gigShots.video[0],
-  ],
   'cctv-installer-gig-side-hustle-malaysia': [
     gearShots[9], people[6], gigShots.realestate[1], gearShots[10],
   ],
   'tapo-c210-vs-c220-malaysia': [
     gearShots[9], people[20], gearShots[9], gearShots[10],
-  ],
-  '70mai-a810-vs-a500s-dashcam-malaysia': [
-    gearShots[11], gearShots[12], people[8], gearShots[11],
-  ],
-  'cctv-vs-dashcam-malaysia': [
-    gearShots[9], gearShots[11], gearShots[10], gearShots[12],
   ],
 };
 
@@ -372,21 +364,6 @@ const gearTheme: Record<string, CuratedShot[]> = {
   ],
   'hikvision-ds-2cd1023-review-malaysia': [
     gearShots[9], people[4], gigShots.realestate[0], gearShots[10],
-  ],
-  '70mai-a810-review-malaysia': [
-    gearShots[11], people[8], gearShots[12], gigShots.video[0],
-  ],
-  'viofo-a229-pro-review-malaysia': [
-    gearShots[12], people[6], gearShots[11], gigShots.video[1],
-  ],
-  'ddpai-x5-pro-review-malaysia': [
-    gearShots[11], gearShots[12], people[20], gigShots.video[0],
-  ],
-  '70mai-a500s-review-malaysia': [
-    gearShots[11], people[3], gearShots[12], people[8],
-  ],
-  '70mai-m300-review-malaysia': [
-    gearShots[11], people[5], gearShots[12], people[6],
   ],
 };
 

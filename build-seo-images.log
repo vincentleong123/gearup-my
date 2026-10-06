@@ -1,0 +1,19 @@
+
+> kameralog@0.1.0 build
+> node scripts/sync-content.mjs && next build
+
+Synced 139 Article(s) -> C:\Users\User\Desktop\n\gearup-my\src\data\generated\articles.ts
+Synced 7 SecuritySystem(s) -> C:\Users\User\Desktop\n\gearup-my\src\data\generated\security.ts
+Synced 53 GearItem(s) -> C:\Users\User\Desktop\n\gearup-my\src\data\generated\gear.ts
+Γû▓ Next.js 16.3.1 (Turbopack)
+- Environments: .env.local
+Γ£ô Running next.config.ts took 310ms
+
+> Build error occurred
+Error: EBUSY: resource busy or locked, rmdir 'C:\Users\User\Desktop\n\gearup-my\.next\standalone'
+    at ignore-listed frames {
+  errno: -4082,
+  code: 'EBUSY',
+  syscall: 'rmdir',
+  path: 'C:\\Users\\User\\Desktop\\n\\gearup-my\\.next\\standalone'
+}

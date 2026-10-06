@@ -178,7 +178,7 @@ If the whole system (hardware + install) is RM5,700, that's roughly **24 months 
       notes: 'Small-shop scenario. Shoplifting is usually under-reported; RM80/day of stock + cash loss is a plausible mid-range exposure. A 40% prevention expectation (not a guarantee) ≈ RM128/month avoided. The biggest practical win for a shoplot is usually deterrence plus being able to settle disputes with video evidence.',
     },
     relatedGear: ['tapo-c210-review-malaysia', 'tapo-c220-review-malaysia'],
-    relatedArticles: ['cctv-vs-dashcam-malaysia'],
+    relatedArticles: [],
     content: `A shoplot owner in KL often starts with one camera behind the counter — then realises the back door and the aisle corners are blind spots.
 
 This is a realistic **RM1,000-level WiFi system** for a retail shop, built on Tapo cameras you can set up in an afternoon.

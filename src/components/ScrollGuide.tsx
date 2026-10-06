@@ -84,7 +84,7 @@ export default function ScrollGuide() {
           aria-label="Page sections"
           className="fixed right-3 top-1/2 -translate-y-1/2 z-40 hidden lg:flex flex-col items-center gap-2.5"
         >
-          <div className="relative h-56 w-px bg-white/10 overflow-hidden rounded-full">
+          <div className="relative h-56 w-px bg-zinc-200 overflow-hidden rounded-full">
             <div
               ref={fillRef}
               className="absolute top-0 left-0 w-full bg-gradient-to-b from-purple-500 via-pink-500 to-fuchsia-500"
@@ -103,7 +103,7 @@ export default function ScrollGuide() {
               className={`grid place-items-center h-7 w-7 rounded-full text-xs transition-all duration-300 ${
                 active === s.id
                   ? 'bg-gradient-to-br from-purple-500 to-fuchsia-500 text-white scale-110 shadow-[0_0_12px_rgba(217,70,239,0.6)]'
-                  : 'bg-white/5 text-zinc-200 hover:text-white hover:bg-white/15 border border-white/10'
+                  : 'bg-white text-zinc-500 hover:text-zinc-900 hover:bg-zinc-100 border border-zinc-200 shadow-sm'
               }`}
             >
               <span>{s.icon}</span>

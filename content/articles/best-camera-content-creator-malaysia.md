@@ -35,6 +35,7 @@ Kamera terbaik adalah yang lunas paling cepat dan kekal lama.
 Aku dulu terpengaruh dengan kawan aku yang beli Canon R5 bagus. RM12,000. Subhanallah cantik kamera tu. Tapi dia shoot dua gig je, lepas tu beralih direction. Camera tu duduk dalam cabinet. Aku? D3100 aku beli RM400, shoot 20 gig sebelum naik taraf. Guess siapa yang untung?
 
 ## Top 5 kamera untuk content creator Malaysia (berdasarkan ROI)
+![Tiga badan kamera mirrorless untuk content creator disusun di atas meja gelap](/blog/best-camera-content-creator-malaysia-top5.jpg "Pilihan ROI bukan kamera paling mahal - yang mana balik modal paling laju.")
 
 ### 1. Sony A6100 — RM1,400–1,900
 **Lunas dalam:** 3–4 gig konvokesyen (RM400 seorang)
@@ -85,6 +86,7 @@ Kamera hanyalah alat. Yang sebenarnya menjana wang ialah:
 - **Jaringan** — kenal orang, dapat gig. Satu gig berjaya boleh membawa kepada tiga gig lagi. So jangan kedekut untuk bantu orang lain —风水轮流转, hari ini kau bantu dia, esok dia bantu kau.
 
 ## Apa yang aku akan cakap dengan younger self aku
+![Kamera mirrorless dengan skrin terbuka dan mikrofon kecil di meja kerja creator](/blog/best-camera-content-creator-malaysia-meja-kerja.jpg "Beli ikut klien yang kau nak, bukan ikut spek yang kau suka baca.")
 
 Kalau aku boleh patah balik masa, aku akan cakap: **"Belilah A6100, shoot 5 gig percuma, lepas tu mula charge."** Jangan tunggu kamera mahal. Jangan tunggu portfolio sempurna. Jangan tunggu orang suruh mula. Mula dengan apa yang ada, perbaiki sepanjang perjalanan. Dalam 6 bulan, kau akan tengok balik dan fikir, "Kenapa aku tak mula awal lagi?"
 

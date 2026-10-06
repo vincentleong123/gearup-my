@@ -22,15 +22,15 @@ export default function CalculatorPage() {
       <Nav />
       <RoiCalculator />
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
-        <div className="bg-zinc-900/40 border border-zinc-800 rounded-xl p-6 text-sm text-zinc-200">
-          <h3 className="font-bold text-zinc-100 mb-2">How to use this calculator</h3>
+        <div className="bg-white/40 border border-zinc-200 rounded-xl p-6 text-sm text-zinc-600">
+          <h3 className="font-bold text-zinc-900 mb-2">How to use this calculator</h3>
           <ol className="space-y-2 list-decimal ml-4">
             <li>Enter the price of the gear you want to buy (use second-hand price — it&apos;s smarter)</li>
             <li>Enter how much you charge per gig (e.g., RM300 for a real estate walkthrough)</li>
             <li>Enter how many gigs you can realistically do per month</li>
             <li>The calculator shows how many months to break even</li>
           </ol>
-          <p className="mt-4 text-zinc-200 italic">Tip: Most gear under RM2,000 breaks even in 1-3 months with consistent weekend work.</p>
+          <p className="mt-4 text-zinc-600 italic">Tip: Most gear under RM2,000 breaks even in 1-3 months with consistent weekend work.</p>
         </div>
       </div>
       <Footer />

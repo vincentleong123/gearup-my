@@ -26,7 +26,7 @@ export default function GlossaryPage() {
           <h1 className="text-4xl md:text-6xl font-black mb-4">
             📖 <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-purple-500 to-pink-500"><T k="glossary.hero.accent" en="Gear Glossary" /></span>
           </h1>
-          <p className="text-zinc-200 max-w-xl mx-auto text-lg">
+          <p className="text-zinc-600 max-w-xl mx-auto text-lg">
             <T k="glossary.hero.desc" en="Camera and content creation terms explained in simple English. With Manglish translations so you really get it." />
           </p>
         </div>

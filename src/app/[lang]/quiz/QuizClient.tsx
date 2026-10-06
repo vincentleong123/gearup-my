@@ -144,7 +144,7 @@ export default function QuizClient() {
         <div className="text-center mb-8">
           <div className="text-5xl mb-3">🎉</div>
           <h2 className="text-3xl font-black mb-2">{t('quiz.yourMatch', 'Your Perfect Gear Matches')}</h2>
-          <p className="text-zinc-200">{t('quiz.matchDesc', 'Based on your answers, here are the best gear options for you.')}</p>
+          <p className="text-zinc-600">{t('quiz.matchDesc', 'Based on your answers, here are the best gear options for you.')}</p>
         </div>
         <div className="space-y-4 mb-8">
           {results.map((gear, i) => (
@@ -152,11 +152,11 @@ export default function QuizClient() {
               key={gear.slug}
               href={withLang(lang, `/gear/${gear.slug}`)}
               className={`block bg-zinc-900/80 border rounded-2xl overflow-hidden hover:border-red-500/30 transition-all group ${
-                i === 0 ? 'border-red-500/40 ring-1 ring-red-500/20' : 'border-zinc-800'
+                i === 0 ? 'border-red-500/40 ring-1 ring-red-500/20' : 'border-zinc-200'
               }`}
             >
               <div className="flex items-center gap-4">
-                <div className="w-24 h-24 flex-shrink-0 overflow-hidden bg-zinc-800">
+                <div className="w-24 h-24 flex-shrink-0 overflow-hidden bg-zinc-100">
                   <img
                     src={gearImg(gear.slug)}
                     alt={gear.name}
@@ -173,7 +173,7 @@ export default function QuizClient() {
                     }`}>{levelLabel(gear.level)}</span>
                   </div>
                   <h3 className="font-bold text-lg group-hover:text-red-400 transition-colors">{gear.name}</h3>
-                  <p className="text-sm text-zinc-200 line-clamp-1">{gear.excerpt.slice(0, 80)}...</p>
+                  <p className="text-sm text-zinc-600 line-clamp-1">{gear.excerpt.slice(0, 80)}...</p>
                 </div>
                 <div className="text-right">
                   <div className="text-green-400 font-black text-xl">{formatPrice(gear.priceUsed)}</div>
@@ -184,7 +184,7 @@ export default function QuizClient() {
           ))}
         </div>
         <div className="flex gap-3 justify-center">
-          <button onClick={reset} className="px-6 py-3 bg-zinc-800 rounded-xl font-bold hover:bg-zinc-700 transition-colors">
+          <button onClick={reset} className="px-6 py-3 bg-zinc-100 rounded-xl font-bold hover:bg-zinc-700 transition-colors">
             {t('quiz.retake', 'Retake Quiz')}
           </button>
           <Link href={withLang(lang, '/compare')} className="px-6 py-3 bg-gradient-to-r from-red-500 to-pink-600 rounded-xl font-bold hover:shadow-xl hover:shadow-red-500/25 transition-all">
@@ -199,27 +199,27 @@ export default function QuizClient() {
     <div>
       {/* Progress */}
       <div className="mb-8">
-        <div className="flex justify-between text-sm text-zinc-200 mb-2">
+        <div className="flex justify-between text-sm text-zinc-600 mb-2">
           <span>{t('quiz.stepOf', 'Step {step} of {total}').replace('{step}', String(step + 1)).replace('{total}', String(questions.length))}</span>
           <span>{Math.round(progress)}%</span>
         </div>
-        <div className="h-2 bg-zinc-800 rounded-full overflow-hidden">
+        <div className="h-2 bg-zinc-100 rounded-full overflow-hidden">
           <div className="h-full bg-gradient-to-r from-red-500 to-pink-600 rounded-full transition-all duration-500" style={{ width: `${progress}%` }} />
         </div>
       </div>
 
       {/* Question */}
-      <div className="bg-zinc-900/80 border border-zinc-800 rounded-2xl p-6 md:p-8">
+      <div className="bg-white/80 border border-zinc-200 rounded-2xl p-6 md:p-8">
         <h2 className="text-2xl font-black mb-6">{t(current.qKey, current.question)}</h2>
         <div className="space-y-3">
           {current.options.map(opt => (
             <button
               key={opt.value}
               onClick={() => handleAnswer(opt.value)}
-              className="w-full flex items-center gap-4 p-4 bg-zinc-800/50 border border-zinc-700/50 rounded-xl hover:border-red-500/30 hover:bg-zinc-800 transition-all text-left group"
+              className="w-full flex items-center gap-4 p-4 bg-zinc-100/50 border border-zinc-300/50 rounded-xl hover:border-red-500/30 hover:bg-zinc-100 transition-all text-left group"
             >
               {opt.icon && <span className="text-2xl">{opt.icon}</span>}
-              <span className="font-semibold group-hover:text-white transition-colors">{t(opt.lKey, opt.label)}</span>
+              <span className="font-semibold group-hover:text-red-600 transition-colors">{t(opt.lKey, opt.label)}</span>
             </button>
           ))}
         </div>

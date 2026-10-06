@@ -43,6 +43,7 @@ Video pendek untuk restoran, salon, atau perniagaan kecil. Memerlukan kamera + m
 Foto dan video udara untuk ejen hartanah. Memerlukan drone (DJI Mini) dan lesen CAD.
 
 ## Berapa banyak boleh verdienen?
+![Kamera DSLR di samping wang tunai dan buku catatan kerja sambilan](/blog/kamera-untuk-side-income-malaysia-pendapatan.jpg "Dua gig sebulan dah boleh tutup kos kamera terpakai kelas pertengahan.")
 
 | Senario | Harga per gig | Gig sebulan | Pendapatan |
 | --- | --- | --- | --- |
@@ -62,6 +63,7 @@ Foto dan video udara untuk ejen hartanah. Memerlukan drone (DJI Mini) dan lesen 
 Dengan bajet RM600â€“1,200, anda sudah boleh mula buat gig. 1â€“2 gig pertama sudah boleh bayar gear anda.
 
 ## Cara mula
+![Beg kamera dengan badan kamera dan flash kecil bersedia untuk gig pertama](/blog/kamera-untuk-side-income-malaysia-beg-gig.jpg "Mulakan dengan satu pakej yang mudah dijual: potret mini session.")
 
 1. **Pilih satu jenis gig** â€” konvokesyen paling cepat untuk mula.
 2. **Kumpul portfolio** â€” ambil gambar kawan/keluarga percuma untuk beberapa contoh.

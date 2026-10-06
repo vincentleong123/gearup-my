@@ -4,6 +4,12 @@ const nextConfig: NextConfig = {
   output: 'standalone',
   turbopack: { root: process.cwd() },
   poweredByHeader: false,
+  redirects: async () => [
+    // Light magazine preview was promoted to the real homepage (2026-10-02);
+    // /home2 now consolidates onto / so there is exactly one home.
+    { source: '/home2', destination: '/', permanent: true },
+    { source: '/:lang/home2', destination: '/:lang', permanent: true },
+  ],
   images: {
     formats: ['image/avif', 'image/webp'],
     minimumCacheTTL: 60 * 60 * 24 * 30,
